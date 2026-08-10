@@ -52,6 +52,7 @@ def hub_html(locale):
         href = f'/{locale}/{app["id"]}/' if app.get("flagship") else app["appStoreUrl"]
         cards.append(f"""
     <a class="app-card" href="{e(href)}">
+      <span class="platform-tag">{e(app['platform'])}</span>
       <img class="icon" src="/{e(app['icon'])}" alt="">
       <h3>{e(loc['name'])}</h3>
       <p>{e(loc['tagline'])}</p>
