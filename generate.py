@@ -3,6 +3,7 @@
 import json
 import html
 import os
+import glob
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
@@ -71,9 +72,10 @@ def hub_html(locale):
 def app_html(app, locale):
     loc = app["locales"][locale]
     hub = SITE["hub"][locale]
+    shot_files = sorted(glob.glob(os.path.join(ROOT, "assets", app["id"], locale, "*.png")))
     shots = "".join(
-        f'<img src="/{e(src)}" alt="{e(loc["name"])} screenshot">'
-        for src in app["screenshots"][locale]
+        f'<img src="/assets/{app["id"]}/{locale}/{e(os.path.basename(f))}" alt="{e(loc["name"])} screenshot">'
+        for f in shot_files
     )
     features = "".join(f"<li>{e(feat)}</li>" for feat in loc["features"])
     body = f"""<div class="wrap">

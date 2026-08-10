@@ -18,7 +18,6 @@
       "platform": "Mac",
       "icon": "assets/tinymsgviewer/icon.png",
       "appStoreUrl": "https://apps.apple.com/app/id6756158204",
-      "accent": "#2563eb",
       "locales": {
         "en": {
           "name": "Tiny MSG Viewer",
@@ -62,132 +61,567 @@
             "在 Mac 本地解析 — 邮件不离开你的设备"
           ]
         }
-      },
-      "screenshots": {
-        "en":      ["assets/tinymsgviewer/en/mkt-01.png", "assets/tinymsgviewer/en/mkt-02.png", "assets/tinymsgviewer/en/mkt-03.png", "assets/tinymsgviewer/en/mkt-04.png"],
-        "zh-hant": ["assets/tinymsgviewer/zh-hant/mkt-01.png", "assets/tinymsgviewer/zh-hant/mkt-02.png", "assets/tinymsgviewer/zh-hant/mkt-03.png", "assets/tinymsgviewer/zh-hant/mkt-04.png"],
-        "zh-hans": ["assets/tinymsgviewer/zh-hans/mkt-01.png", "assets/tinymsgviewer/zh-hans/mkt-02.png", "assets/tinymsgviewer/zh-hans/mkt-03.png", "assets/tinymsgviewer/zh-hans/mkt-04.png"]
       }
     },
     {
       "id": "canvastopdf",
+      "flagship": true,
       "platform": "Mac",
       "icon": "assets/canvastopdf/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/web-to-ppt-editable/id6757536065",
       "locales": {
-        "en": { "name": "Web to PPT (Editable)", "tagline": "Turn AI-generated HTML slides into a truly editable PowerPoint — 100% on-device." },
-        "zh-hant": { "name": "Web to PPT (Editable)", "tagline": "用 AI 做的 HTML 簡報，一鍵變成「真正可編輯」的 PowerPoint，100% 本機處理。" },
-        "zh-hans": { "name": "Web to PPT (Editable)", "tagline": "用 AI 做的 HTML 幻灯片，一键变成「真正可编辑」的 PowerPoint，100% 本地处理。" }
+        "en": {
+          "name": "Web to PPT (Editable)",
+          "tagline": "Turn AI-generated HTML slides into a truly editable PowerPoint — 100% on-device.",
+          "promo": "Made slides with an AI chatbot? Turn AI-generated HTML into truly editable PowerPoint — real text & shapes, not screenshots. 100% on-device.",
+          "cta": "View on the Mac App Store",
+          "features": [
+            "Paste or import AI-generated HTML slides",
+            "Real editable text, shapes and tables — not flattened images",
+            "Exports to native PowerPoint (.pptx)",
+            "Also exports a high-quality 16:9 slide PDF",
+            "100% on-device processing — nothing uploaded",
+            "One-time purchase, no subscription"
+          ]
+        },
+        "zh-hant": {
+          "name": "Web to PPT (Editable)",
+          "tagline": "用 AI 做的 HTML 簡報，一鍵變成「真正可編輯」的 PowerPoint，100% 本機處理。",
+          "promo": "用 AI 做的 HTML 簡報，一鍵變成「真正可編輯」的 PowerPoint——文字、圖形都是原生物件，不是截圖。100% 本機處理，買斷制。",
+          "cta": "在 Mac App Store 查看",
+          "features": [
+            "貼上或匯入 AI 生成的 HTML 簡報",
+            "文字、圖形、表格都是可編輯的原生物件，不是截圖",
+            "匯出成原生 PowerPoint (.pptx)",
+            "也能匯出高畫質 16:9 投影片 PDF",
+            "100% 本機處理，內容不上傳",
+            "買斷制，無訂閱"
+          ]
+        },
+        "zh-hans": {
+          "name": "Web to PPT (Editable)",
+          "tagline": "用 AI 做的 HTML 幻灯片，一键变成「真正可编辑」的 PowerPoint，100% 本地处理。",
+          "promo": "用 AI 做的 HTML 幻灯片，一键变成「真正可编辑」的 PowerPoint——文字、图形都是原生对象，不是截图。100% 本地处理，买断制。",
+          "cta": "在 Mac App Store 查看",
+          "features": [
+            "粘贴或导入 AI 生成的 HTML 幻灯片",
+            "文字、图形、表格都是可编辑的原生对象，不是截图",
+            "导出为原生 PowerPoint (.pptx)",
+            "也能导出高画质 16:9 幻灯片 PDF",
+            "100% 本地处理，内容不上传",
+            "买断制，无订阅"
+          ]
+        }
       }
     },
     {
       "id": "webtopptmobile",
+      "flagship": true,
       "platform": "iOS",
       "icon": "assets/webtopptmobile/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/web-to-ppt-editable-mobile/id6758281740",
       "locales": {
-        "en": { "name": "Web to PPT (Editable) - Mobile", "tagline": "Turn AI-generated HTML slides into a truly editable PowerPoint, on iPhone & iPad." },
-        "zh-hant": { "name": "Web to PPT (Editable) - Mobile", "tagline": "用 AI 做的 HTML 簡報，在 iPhone／iPad 上一鍵變成可編輯的 PowerPoint。" },
-        "zh-hans": { "name": "Web to PPT (Editable) - Mobile", "tagline": "用 AI 做的 HTML 幻灯片，在 iPhone／iPad 上一键变成可编辑的 PowerPoint。" }
+        "en": {
+          "name": "Web to PPT (Editable) - Mobile",
+          "tagline": "Turn AI-generated HTML slides into a truly editable PowerPoint, on iPhone & iPad.",
+          "promo": "Made slides with an AI chatbot? Turn AI-generated HTML into truly editable PowerPoint — real text & shapes, not screenshots. Now on iPhone & iPad.",
+          "cta": "View on the App Store",
+          "features": [
+            "Paste or import AI-generated HTML slides",
+            "Real editable text, shapes and tables — not flattened images",
+            "Exports to native PowerPoint (.pptx)",
+            "Also exports a high-quality 16:9 slide PDF",
+            "100% on-device processing — nothing uploaded",
+            "One-time purchase, no subscription"
+          ]
+        },
+        "zh-hant": {
+          "name": "Web to PPT (Editable) - Mobile",
+          "tagline": "用 AI 做的 HTML 簡報，在 iPhone／iPad 上一鍵變成可編輯的 PowerPoint。",
+          "promo": "用 AI 做的 HTML 簡報，一鍵變成「真正可編輯」的 PowerPoint——文字、圖形都是原生物件，不是截圖。現在 iPhone／iPad 也能用。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "貼上或匯入 AI 生成的 HTML 簡報",
+            "文字、圖形、表格都是可編輯的原生物件，不是截圖",
+            "匯出成原生 PowerPoint (.pptx)",
+            "也能匯出高畫質 16:9 投影片 PDF",
+            "100% 本機處理，內容不上傳",
+            "買斷制，無訂閱"
+          ]
+        },
+        "zh-hans": {
+          "name": "Web to PPT (Editable) - Mobile",
+          "tagline": "用 AI 做的 HTML 幻灯片，在 iPhone／iPad 上一键变成可编辑的 PowerPoint。",
+          "promo": "用 AI 做的 HTML 幻灯片，一键变成「真正可编辑」的 PowerPoint——文字、图形都是原生对象，不是截图。现在 iPhone／iPad 也能用。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "粘贴或导入 AI 生成的 HTML 幻灯片",
+            "文字、图形、表格都是可编辑的原生对象，不是截图",
+            "导出为原生 PowerPoint (.pptx)",
+            "也能导出高画质 16:9 幻灯片 PDF",
+            "100% 本地处理，内容不上传",
+            "买断制，无订阅"
+          ]
+        }
       }
     },
     {
       "id": "epubaloud",
+      "flagship": true,
       "platform": "iOS",
       "icon": "assets/epubaloud/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/epubaloud-epub-to-audiobook/id6761471444",
       "locales": {
-        "en": { "name": "EpubAloud", "tagline": "Turn any EPUB into an audiobook — auto-detected language, offline." },
-        "zh-hant": { "name": "EpubAloud", "tagline": "把任何 epub 電子書變成有聲書，自動偵測語言、完全離線。" },
-        "zh-hans": { "name": "EpubAloud", "tagline": "把任何 epub 电子书变成有声书，自动侦测语言、完全离线。" }
+        "en": {
+          "name": "EpubAloud",
+          "tagline": "Turn any EPUB into an audiobook — auto-detected language, offline.",
+          "promo": "Turn any EPUB into an audiobook. The book's language is detected automatically — Polish, English, Chinese, Japanese and more — and you can pick a voice per language.",
+          "cta": "View on the App Store",
+          "features": [
+            "Auto-detects the book's language, per chapter",
+            "Pick a different voice for each language",
+            "Works fully offline",
+            "Remembers exactly where you left off"
+          ]
+        },
+        "zh-hant": {
+          "name": "EpubAloud",
+          "tagline": "把任何 epub 電子書變成有聲書，自動偵測語言、完全離線。",
+          "promo": "把任何 epub 電子書變成有聲書。自動偵測書本語言，波蘭文、英文、中文、日文都能唸，每種語言還能各自指定聲音。完全離線，自動記住聽到哪裡。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "自動偵測每個章節的語言",
+            "各語言可指定不同朗讀聲音",
+            "完全離線使用",
+            "自動記住上次聽到哪裡"
+          ]
+        },
+        "zh-hans": {
+          "name": "EpubAloud",
+          "tagline": "把任何 epub 电子书变成有声书，自动侦测语言、完全离线。",
+          "promo": "把任何 epub 电子书变成有声书。自动侦测书本语言，波兰文、英文、中文、日文都能念，每种语言还能各自指定声音。完全离线，自动记住听到哪里。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "自动侦测每个章节的语言",
+            "各语言可指定不同朗读声音",
+            "完全离线使用",
+            "自动记住上次听到哪里"
+          ]
+        }
       }
     },
     {
       "id": "isbn",
+      "flagship": true,
       "platform": "iOS",
       "icon": "assets/isbn/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/isbn-book-manager/id6756864904",
       "locales": {
-        "en": { "name": "ISBN Book Manager", "tagline": "Scan a barcode, get the book cataloged instantly. Track buy price, sell price and profit." },
-        "zh-hant": { "name": "ISBN 書籍管理", "tagline": "掃一下條碼，書籍自動建檔。買入價、售出價與利潤一目了然。" },
-        "zh-hans": { "name": "ISBN 书籍管理", "tagline": "扫一下条码，书籍自动建档。买入价、售出价与利润一目了然。" }
+        "en": {
+          "name": "ISBN Book Manager",
+          "tagline": "Scan a barcode, get the book cataloged instantly. Track buy price, sell price and profit.",
+          "promo": "Scan a barcode, get the book cataloged instantly. Track buy price, sell price and profit — built for book lovers and resellers alike.",
+          "cta": "View on the App Store",
+          "features": [
+            "Scan an ISBN barcode to auto-catalog the book",
+            "Track buy price, sell price and profit per book",
+            "Sales statistics at a glance",
+            "Built for collectors and secondhand booksellers"
+          ]
+        },
+        "zh-hant": {
+          "name": "ISBN 書籍管理",
+          "tagline": "掃一下條碼，書籍自動建檔。買入價、售出價與利潤一目了然。",
+          "promo": "掃一下條碼，書籍自動建檔。買入價、售出價與利潤一目了然——藏書家與二手書賣家的隨身書庫。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "掃描 ISBN 條碼自動建檔",
+            "記錄每本書的買入價、售出價與利潤",
+            "銷售統計一目了然",
+            "專為藏書家與二手書賣家設計"
+          ]
+        },
+        "zh-hans": {
+          "name": "ISBN 书籍管理",
+          "tagline": "扫一下条码，书籍自动建档。买入价、售出价与利润一目了然。",
+          "promo": "扫一下条码，书籍自动建档。买入价、售出价与利润一目了然——藏书家与二手书商的随身书库。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "扫描 ISBN 条码自动建档",
+            "记录每本书的买入价、售出价与利润",
+            "销售统计一目了然",
+            "专为藏书家与二手书商设计"
+          ]
+        }
       }
     },
     {
       "id": "tinygpseditor",
+      "flagship": true,
       "platform": "iOS",
       "icon": "assets/tinygpseditor/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/tinygpseditor/id6775514489",
       "locales": {
-        "en": { "name": "TinyGPSEditor", "tagline": "Change, batch-edit, or remove a photo's GPS location — in place, no quality loss." },
-        "zh-hant": { "name": "TinyGPSEditor", "tagline": "修改、批次套用、或移除相片定位，就地編輯、零畫質損失。" },
-        "zh-hans": { "name": "TinyGPSEditor", "tagline": "修改、批量应用或移除照片定位，就地编辑、零画质损失。" }
+        "en": {
+          "name": "TinyGPSEditor",
+          "tagline": "Change, batch-edit, or remove a photo's GPS location — in place, no quality loss.",
+          "promo": "Change, batch-edit, or remove a photo's location — in place, no quality loss. Edit capture date and view full EXIF too.",
+          "cta": "View on the App Store",
+          "features": [
+            "Edit, batch-edit, or remove GPS location on photos",
+            "In-place editing — zero quality loss, no re-encoding",
+            "Edit the capture date too",
+            "View full EXIF metadata",
+            "Changes show up right in the Photos app"
+          ]
+        },
+        "zh-hant": {
+          "name": "TinyGPSEditor",
+          "tagline": "修改、批次套用、或移除相片定位，就地編輯、零畫質損失。",
+          "promo": "修改、批次套用、或移除相片定位 — 就地編輯、零畫質損失。還能改拍攝日期、檢視完整 EXIF。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "修改、批次套用或移除相片 GPS 定位",
+            "就地編輯，零畫質損失、不轉檔",
+            "同時可修改拍攝日期",
+            "檢視完整 EXIF 中繼資料",
+            "改完直接反映在「照片」App"
+          ]
+        },
+        "zh-hans": {
+          "name": "TinyGPSEditor",
+          "tagline": "修改、批量应用或移除照片定位，就地编辑、零画质损失。",
+          "promo": "修改、批量应用或移除照片定位 — 就地编辑、零画质损失。还能改拍摄日期、查看完整 EXIF。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "修改、批量应用或移除照片 GPS 定位",
+            "就地编辑，零画质损失、不转档",
+            "同时可修改拍摄日期",
+            "查看完整 EXIF 元数据",
+            "改完直接反映在「照片」App"
+          ]
+        }
       }
     },
     {
       "id": "tinynettool",
+      "flagship": true,
       "platform": "iOS",
       "icon": "assets/tinynettool/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/tiny-net-tool-diagnostic/id6761614766",
       "locales": {
-        "en": { "name": "Tiny Net Tool", "tagline": "Check NAT type (1-4), CGNAT status, and latency in one tap. No subscriptions." },
-        "zh-hant": { "name": "Tiny Net Tool", "tagline": "一鍵檢測 NAT 1-4 類型、CGNAT 電信大內網與延遲，無廣告無訂閱。" },
-        "zh-hans": { "name": "Tiny Net Tool", "tagline": "一键检测 NAT 1-4 类型、CGNAT 电信大内网与延迟，无广告无订阅。" }
+        "en": {
+          "name": "Tiny Net Tool",
+          "tagline": "Check NAT type (1-4), CGNAT status, and latency in one tap. No subscriptions.",
+          "promo": "Pay once, own forever. Zero subscriptions, zero ads. Check NAT type (1-4), CGNAT status, and latency in one tap.",
+          "cta": "View on the App Store",
+          "features": [
+            "Check NAT type (1-4) in one tap",
+            "Detect CGNAT (carrier-grade NAT) status",
+            "Ping / latency & jitter chart",
+            "Pay once, own forever — no subscriptions, no ads"
+          ]
+        },
+        "zh-hant": {
+          "name": "Tiny Net Tool",
+          "tagline": "一鍵檢測 NAT 1-4 類型、CGNAT 電信大內網與延遲，無廣告無訂閱。",
+          "promo": "一次買斷，終身享用。零訂閱、零廣告。一鍵檢測 NAT 1-4 類型、CGNAT 電信大內網與 Jitter 延遲。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "一鍵檢測 NAT 1-4 類型",
+            "偵測 CGNAT（電信大內網）狀態",
+            "Ping、延遲與 Jitter 圖表",
+            "買斷制，終身使用，零廣告零訂閱"
+          ]
+        },
+        "zh-hans": {
+          "name": "Tiny Net Tool",
+          "tagline": "一键检测 NAT 1-4 类型、CGNAT 电信大内网与延迟，无广告无订阅。",
+          "promo": "一次买断，终身享用。零订阅、零广告。一键检测 NAT 1-4 类型、CGNAT 电信大内网与 Jitter 延迟。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "一键检测 NAT 1-4 类型",
+            "侦测 CGNAT（电信大内网）状态",
+            "Ping、延迟与 Jitter 图表",
+            "买断制，终身使用，零广告零订阅"
+          ]
+        }
       }
     },
     {
       "id": "tinywalk",
+      "flagship": true,
       "platform": "iOS",
       "icon": "assets/tinywalk/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/tinywalk-health-test-data/id6792443844",
       "locales": {
-        "en": { "name": "TinyWalk", "tagline": "Generate realistic HealthKit step and workout test data on-device, in seconds." },
-        "zh-hant": { "name": "TinyWalk", "tagline": "在 iPhone 上快速產生結構正確的 HealthKit 測試資料，供開發與 QA 使用。" },
-        "zh-hans": { "name": "TinyWalk", "tagline": "在 iPhone 上快速生成结构正确的 HealthKit 测试数据，供开发与 QA 使用。" }
+        "en": {
+          "name": "TinyWalk",
+          "tagline": "Generate realistic HealthKit step and workout test data on-device, in seconds.",
+          "promo": "Generate realistic HealthKit step and workout samples on-device, in seconds. No backend, no ads.",
+          "cta": "View on the App Store",
+          "features": [
+            "Generate realistic step count & workout samples",
+            "Writes directly into HealthKit on your device",
+            "No backend, no account, no ads",
+            "Built for developers & QA testing HealthKit apps"
+          ]
+        },
+        "zh-hant": {
+          "name": "TinyWalk",
+          "tagline": "在 iPhone 上快速產生結構正確的 HealthKit 測試資料，供開發與 QA 使用。",
+          "promo": "iOS 開發者工具：在真機上產生結構正確的 HealthKit 合成測試資料，供開發與 QA 驗證讀取 HealthKit 的 App。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "產生逼真的步數與運動測試資料",
+            "直接寫入裝置上的 HealthKit",
+            "無後端、無帳號、無廣告",
+            "專為開發者與 QA 測試 HealthKit App 設計"
+          ]
+        },
+        "zh-hans": {
+          "name": "TinyWalk",
+          "tagline": "在 iPhone 上快速生成结构正确的 HealthKit 测试数据，供开发与 QA 使用。",
+          "promo": "iOS 开发者工具：在真机上生成结构正确的 HealthKit 合成测试数据，供开发与 QA 验证读取 HealthKit 的 App。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "生成逼真的步数与运动测试数据",
+            "直接写入设备上的 HealthKit",
+            "无后端、无账号、无广告",
+            "专为开发者与 QA 测试 HealthKit App 设计"
+          ]
+        }
       }
     },
     {
       "id": "fixedfocus",
+      "flagship": true,
       "platform": "iOS",
       "icon": "assets/fixedfocus/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/fixedfocus-digiscoping-cam/id6761117765",
       "locales": {
-        "en": { "name": "FixedFocus", "tagline": "Lock camera focus in one tap — built for digiscoping, spotting scopes & birding." },
-        "zh-hant": { "name": "FixedFocus", "tagline": "一鍵鎖定相機焦距，專為觀鳥與望遠鏡頭攝影設計。" },
-        "zh-hans": { "name": "FixedFocus", "tagline": "一键锁定相机焦距，专为观鸟与望远镜头摄影设计。" }
+        "en": {
+          "name": "FixedFocus",
+          "tagline": "Lock camera focus in one tap — built for digiscoping, spotting scopes & birding.",
+          "promo": "AF keeps jumping to branches? Lock focus in one tap. Built for digiscoping, spotting scopes & birding. Free to shoot — unlock peaking & video when ready.",
+          "cta": "View on the App Store",
+          "features": [
+            "Lock camera focus in one tap — no more AF hunting",
+            "Built for digiscoping, spotting scopes & birding",
+            "Free to shoot photos",
+            "Unlock focus peaking & video recording anytime"
+          ]
+        },
+        "zh-hant": {
+          "name": "FixedFocus",
+          "tagline": "一鍵鎖定相機焦距，專為觀鳥與望遠鏡頭攝影設計。",
+          "promo": "固定焦距相機 APP，專為觀鳥設計。使用外接望遠鏡頭時，焦距不會自動跳動。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "一鍵鎖定對焦，不再自動對焦亂跳",
+            "專為望遠鏡頭、觀鳥攝影設計",
+            "拍照功能免費使用",
+            "峰值對焦與錄影功能可隨時解鎖"
+          ]
+        },
+        "zh-hans": {
+          "name": "FixedFocus",
+          "tagline": "一键锁定相机焦距，专为观鸟与望远镜头摄影设计。",
+          "promo": "固定焦距相机 APP，专为观鸟设计。使用外接望远镜头时，焦距不会自动跳动。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "一键锁定对焦，不再自动对焦乱跳",
+            "专为望远镜头、观鸟摄影设计",
+            "拍照功能免费使用",
+            "峰值对焦与录像功能可随时解锁"
+          ]
+        }
       }
     },
     {
       "id": "oneclicklisten",
+      "flagship": true,
       "platform": "Mac + iOS",
       "icon": "assets/oneclicklisten/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/oneclicklisten/id6758035053",
       "locales": {
-        "en": { "name": "OneClickListen", "tagline": "Turn any webpage into audio — one-tap read aloud with background play." },
-        "zh-hant": { "name": "OneClickListen", "tagline": "網頁變有聲書，一鍵朗讀文章，支援背景播放與進度續播。" },
-        "zh-hans": { "name": "OneClickListen", "tagline": "网页变有声书，一键朗读文章，支持后台播放与进度续播。" }
+        "en": {
+          "name": "OneClickListen",
+          "tagline": "Turn any webpage into audio — one-tap read aloud with background play.",
+          "promo": "Turn any webpage into audio! One-tap read aloud with background play and resume. Pay once, no subscription — works on iPhone, iPad, and Mac.",
+          "cta": "View on the App Store",
+          "features": [
+            "One tap turns any webpage into audio",
+            "Background playback, resumes where you left off",
+            "Works on iPhone, iPad and Mac",
+            "Pay once, no subscription"
+          ]
+        },
+        "zh-hant": {
+          "name": "OneClickListen",
+          "tagline": "網頁變有聲書，一鍵朗讀文章，支援背景播放與進度續播。",
+          "promo": "網頁變有聲書！文章、小說、新聞一鍵朗讀，支援背景播放與進度續播。買斷制無訂閱，內容不上傳，一次購買 iPhone/iPad/Mac 全平台通用。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "一鍵把任何網頁變成有聲內容",
+            "支援背景播放、自動接續進度",
+            "iPhone、iPad、Mac 全平台通用",
+            "買斷制，無訂閱，內容不上傳"
+          ]
+        },
+        "zh-hans": {
+          "name": "OneClickListen",
+          "tagline": "网页变有声书，一键朗读文章，支持后台播放与进度续播。",
+          "promo": "网页变有声书！文章、小说、新闻一键朗读，支持后台播放与进度续播。买断制无订阅，内容不上传，一次购买 iPhone/iPad/Mac 全平台通用。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "一键把任何网页变成有声内容",
+            "支持后台播放、自动接续进度",
+            "iPhone、iPad、Mac 全平台通用",
+            "买断制，无订阅，内容不上传"
+          ]
+        }
       }
     },
     {
       "id": "qdir",
+      "flagship": true,
       "platform": "Mac",
       "icon": "assets/qdir/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/q-dir-multi-pane-file-manager/id6756539919",
       "locales": {
-        "en": { "name": "Q-Dir", "tagline": "A lightweight macOS file manager — multi-pane, quick preview, tags, SFTP." },
-        "zh-hant": { "name": "Q-Dir", "tagline": "輕量 macOS 檔案管理工具，多窗格、快速預覽、Finder 標籤同步。" },
-        "zh-hans": { "name": "Q-Dir", "tagline": "轻量 macOS 文件管理工具，多窗格、快速预览、Finder 标签同步。" }
+        "en": {
+          "name": "Q-Dir",
+          "tagline": "A lightweight macOS file manager — multi-pane, quick preview, tags, SFTP.",
+          "promo": "A lightweight macOS file manager built for speed — multi-pane browsing, Quick Look, Finder tag sync, and SFTP support.",
+          "cta": "View on the Mac App Store",
+          "features": [
+            "Multi-pane list & grid view",
+            "Quick Look and fast file preview",
+            "Finder tag sync",
+            "Drag & drop file operations",
+            "Built-in SFTP support"
+          ]
+        },
+        "zh-hant": {
+          "name": "Q-Dir",
+          "tagline": "輕量 macOS 檔案管理工具，多窗格、快速預覽、Finder 標籤同步。",
+          "promo": "QDir 是一款輕量的 macOS 檔案與目錄管理工具，專注於快速預覽、檔案操作與本地化體驗。",
+          "cta": "在 Mac App Store 查看",
+          "features": [
+            "多窗格清單／格狀檢視",
+            "Quick Look 快速預覽",
+            "Finder 標籤同步",
+            "拖放檔案操作",
+            "內建 SFTP 支援"
+          ]
+        },
+        "zh-hans": {
+          "name": "Q-Dir",
+          "tagline": "轻量 macOS 文件管理工具，多窗格、快速预览、Finder 标签同步。",
+          "promo": "QDir 是一款轻量的 macOS 文件与目录管理工具，专注于快速预览、文件操作与本地化体验。",
+          "cta": "在 Mac App Store 查看",
+          "features": [
+            "多窗格列表／网格视图",
+            "Quick Look 快速预览",
+            "Finder 标签同步",
+            "拖放文件操作",
+            "内置 SFTP 支持"
+          ]
+        }
       }
     },
     {
       "id": "fruitsudoku",
+      "flagship": true,
       "platform": "iOS",
       "icon": "assets/fruitsudoku/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/fruit-sudoku-adventure/id6780786105",
       "locales": {
-        "en": { "name": "Fruit Sudoku Adventure", "tagline": "A sudoku game for kids 3–8 — no numbers required, 100-level adventure map." },
-        "zh-hant": { "name": "水果數獨大冒險", "tagline": "3歲就能玩的水果數獨，100關冒險地圖。" },
-        "zh-hans": { "name": "水果数独大冒险", "tagline": "3岁就能玩的水果数独，100关冒险地图。" }
+        "en": {
+          "name": "Fruit Sudoku Adventure",
+          "tagline": "A sudoku game for kids 3–8 — no numbers required, 100-level adventure map.",
+          "promo": "A sudoku game designed for kids 3–8 — no numbers required to start. Explore 100 adventure levels across four themed worlds: meadow, ocean, volcano and Antarctica.",
+          "cta": "View on the App Store",
+          "features": [
+            "Playable by kids 3–8, no number recognition needed",
+            "Starts with cute fruit icons, progresses to real digit sudoku",
+            "100-level adventure map across four themed worlds",
+            "Fun fruit-rain animation on every line cleared"
+          ]
+        },
+        "zh-hant": {
+          "name": "水果數獨大冒險",
+          "tagline": "3歲就能玩的水果數獨，100關冒險地圖。",
+          "promo": "專為 3-8 歲小朋友設計的數獨遊戲，不用認識數字也能玩！草原、大海、火山、南極四大世界，100 關冒險地圖等你闖關。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "3-8 歲小朋友也能玩，不用先認識數字",
+            "從可愛水果圖案過渡到真正的數字數獨",
+            "100 關冒險地圖，四大世界主題",
+            "連成一線就有水果雨動畫"
+          ]
+        },
+        "zh-hans": {
+          "name": "水果数独大冒险",
+          "tagline": "3岁就能玩的水果数独，100关冒险地图。",
+          "promo": "专为 3-8 岁小朋友设计的数独游戏，不用认识数字也能玩！草原、大海、火山、南极四大世界，100 关冒险地图等你闯关。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "3-8 岁小朋友也能玩，不用先认识数字",
+            "从可爱水果图案过渡到真正的数字数独",
+            "100 关冒险地图，四大世界主题",
+            "连成一线就有水果雨动画"
+          ]
+        }
+      }
+    },
+    {
+      "id": "morningpic",
+      "flagship": true,
+      "platform": "iOS",
+      "icon": "assets/morningpic/icon.png",
+      "appStoreUrl": "https://apps.apple.com/us/app/random-quote-picture/id1119072702",
+      "locales": {
+        "en": {
+          "name": "Random Quote & Picture",
+          "tagline": "A daily Polaroid-style pairing of a random photo and an inspiring quote.",
+          "promo": "A Polaroid-style app that pairs a random beautiful photo with an inspiring quote — a little daily surprise.",
+          "cta": "View on the App Store",
+          "features": [
+            "Random beautiful photo pulled fresh each time",
+            "Paired with a curated inspirational quote",
+            "Polaroid-style card design",
+            "Save to Photos or share anywhere",
+            "Offline mode supported"
+          ]
+        },
+        "zh-hant": {
+          "name": "抽抽美圖美句",
+          "tagline": "每天抽一張美圖配一句勵志名言的拍立得風格 App。",
+          "promo": "結合隨機美圖與勵志名言的拍立得風格 App，每天抽一張都是驚喜。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "隨機抽取網路美圖",
+            "搭配精選勵志名言",
+            "拍立得風格卡片",
+            "可儲存到相簿或分享",
+            "支援離線模式"
+          ]
+        },
+        "zh-hans": {
+          "name": "抽抽美图美句",
+          "tagline": "每天抽一张美图配一句励志名言的拍立得风格 App。",
+          "promo": "结合随机美图与励志名言的拍立得风格 App，每天抽一张都是惊喜。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "随机抽取网络美图",
+            "搭配精选励志名言",
+            "拍立得风格卡片",
+            "可保存到相册或分享",
+            "支持离线模式"
+          ]
+        }
       }
     }
   ]
