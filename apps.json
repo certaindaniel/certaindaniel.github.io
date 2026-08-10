@@ -358,12 +358,12 @@
         "en": {
           "name": "TinyWalk",
           "tagline": "Generate realistic HealthKit step and workout test data on-device, in seconds.",
-          "promo": "Generate realistic HealthKit step and workout samples on-device, in seconds. No backend, no ads.",
+          "promo": "Generate realistic HealthKit step and workout samples on-device, in seconds. No ads, no account.",
           "cta": "View on the App Store",
           "features": [
             "Generate realistic step count & workout samples",
             "Writes directly into HealthKit on your device",
-            "No backend, no account, no ads",
+            "No ads, no account — data generation is fully on-device",
             "Built for developers & QA testing HealthKit apps"
           ]
         },
@@ -375,7 +375,7 @@
           "features": [
             "產生逼真的步數與運動測試資料",
             "直接寫入裝置上的 HealthKit",
-            "無後端、無帳號、無廣告",
+            "無廣告、免註冊——資料產生完全在裝置上完成",
             "專為開發者與 QA 測試 HealthKit App 設計"
           ]
         },
@@ -387,7 +387,7 @@
           "features": [
             "生成逼真的步数与运动测试数据",
             "直接写入设备上的 HealthKit",
-            "无后端、无账号、无广告",
+            "无广告、免注册——数据生成完全在设备上完成",
             "专为开发者与 QA 测试 HealthKit App 设计"
           ]
         }
