@@ -81,6 +81,17 @@
       }
     },
     {
+      "id": "webtopptmobile",
+      "platform": "iOS",
+      "icon": "assets/webtopptmobile/icon.png",
+      "appStoreUrl": "https://apps.apple.com/us/app/web-to-ppt-editable-mobile/id6758281740",
+      "locales": {
+        "en": { "name": "Web to PPT (Editable) - Mobile", "tagline": "Turn AI-generated HTML slides into a truly editable PowerPoint, on iPhone & iPad." },
+        "zh-hant": { "name": "Web to PPT (Editable) - Mobile", "tagline": "用 AI 做的 HTML 簡報，在 iPhone／iPad 上一鍵變成可編輯的 PowerPoint。" },
+        "zh-hans": { "name": "Web to PPT (Editable) - Mobile", "tagline": "用 AI 做的 HTML 幻灯片，在 iPhone／iPad 上一键变成可编辑的 PowerPoint。" }
+      }
+    },
+    {
       "id": "epubaloud",
       "platform": "iOS",
       "icon": "assets/epubaloud/icon.png",
