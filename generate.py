@@ -70,6 +70,11 @@ def hub_html(locale):
     return page(hub["title"], body, locale)
 
 
+PRIVACY_LABEL = {
+    "en": "Privacy Policy", "zh-hant": "隱私權政策", "zh-hans": "隐私政策",
+}
+
+
 def app_html(app, locale):
     loc = app["locales"][locale]
     hub = SITE["hub"][locale]
@@ -79,6 +84,14 @@ def app_html(app, locale):
         for f in shot_files
     )
     features = "".join(f"<li>{e(feat)}</li>" for feat in loc["features"])
+    # Privacy page discovered by convention (like screenshots) rather than listed in
+    # apps.json, so the link can never drift out of sync with what's actually on disk.
+    privacy_href = f"/{locale}/{app['id']}/privacy/"
+    has_privacy = os.path.isfile(os.path.join(ROOT, locale, app["id"], "privacy", "index.html"))
+    privacy_link = (
+        f'<a class="legal-link" href="{e(privacy_href)}">{e(PRIVACY_LABEL.get(locale, "Privacy Policy"))}</a>'
+        if has_privacy else ""
+    )
     body = f"""<div class="wrap">
   {lang_switch(locale, app_id=app['id'])}
   <section class="hero">
@@ -87,6 +100,7 @@ def app_html(app, locale):
     <p class="tagline">{e(loc['tagline'])}</p>
     <p class="promo">{e(loc['promo'])}</p>
     <a class="cta" href="{e(app['appStoreUrl'])}">{e(loc['cta'])}</a>
+    {privacy_link}
   </section>
   <div class="screenshots">{shots}</div>
   <ul class="features">{features}</ul>
