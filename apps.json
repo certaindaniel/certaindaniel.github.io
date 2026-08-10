@@ -1,0 +1,73 @@
+{
+  "site": {
+    "owner": "Daniel Lu",
+    "githubUser": "certaindaniel",
+    "locales": ["en", "zh-hant", "zh-hans"],
+    "localeLabels": { "en": "English", "zh-hant": "繁體中文", "zh-hans": "简体中文" },
+    "defaultLocale": "en",
+    "hub": {
+      "en":      { "title": "Daniel Lu — Apps", "subtitle": "Small, focused Mac & iOS apps." },
+      "zh-hant": { "title": "Daniel Lu — 作品集", "subtitle": "小而專注的 Mac 與 iOS App。" },
+      "zh-hans": { "title": "Daniel Lu — 作品集", "subtitle": "小而专注的 Mac 与 iOS App。" }
+    }
+  },
+  "apps": [
+    {
+      "id": "tinymsgviewer",
+      "flagship": true,
+      "platform": "Mac",
+      "icon": "assets/tinymsgviewer/icon.png",
+      "appStoreUrl": "https://apps.apple.com/app/id6756158204",
+      "accent": "#2563eb",
+      "locales": {
+        "en": {
+          "name": "Tiny MSG Viewer",
+          "tagline": "Open .msg & .eml files on your Mac — no Outlook required.",
+          "promo": "Double-click any .msg or .eml on your Mac — read sender, body and attachments instantly, with full HTML and Dark Mode. Export to PDF in one click. No Outlook, no account.",
+          "cta": "View on the Mac App Store",
+          "features": [
+            "Drag & drop, or double-click in Finder to open",
+            "Full HTML rendering with inline images, or switch to plain text",
+            "Quick Look in Finder — press space to preview without opening the app",
+            "Export any email to PDF in one click",
+            "Attachments: open, preview, or save to disk",
+            "Parses locally on your Mac — your email never leaves your device"
+          ]
+        },
+        "zh-hant": {
+          "name": "Tiny MSG Viewer",
+          "tagline": "在 Mac 上開啟 .msg／.eml，免裝 Outlook。",
+          "promo": "在 Mac 上雙擊任何 .msg 或 .eml，立刻讀到完整郵件——寄件人、內文、附件，HTML 完整呈現。在 Finder 按空白鍵就能快速預覽，還能一鍵匯出 PDF，支援深色模式。免裝 Outlook，免登入。",
+          "cta": "在 Mac App Store 查看",
+          "features": [
+            "拖放，或在 Finder 直接雙擊開啟",
+            "HTML 完整呈現、內嵌圖片，也可切換純文字",
+            "Finder 快速預覽 — 按空白鍵不用開 App 就讀完整封信",
+            "一鍵將郵件匯出成 PDF",
+            "附件：開啟、預覽或存到磁碟",
+            "在 Mac 本機解析 — 郵件不離開你的裝置"
+          ]
+        },
+        "zh-hans": {
+          "name": "Tiny MSG Viewer",
+          "tagline": "在 Mac 上打开 .msg／.eml，无需 Outlook。",
+          "promo": "在 Mac 上双击任意 .msg 或 .eml，立刻读到完整邮件——发件人、正文、附件，HTML 完整呈现。在访达按空格键即可快速预览，还能一键导出 PDF，支持深色模式。无需 Outlook，无需登录。",
+          "cta": "在 Mac App Store 查看",
+          "features": [
+            "拖放，或在访达里直接双击打开",
+            "HTML 完整呈现、内嵌图片，也可切换纯文本",
+            "访达快速预览 — 按空格键不用打开 App 就读完整封邮件",
+            "一键将邮件导出为 PDF",
+            "附件：打开、预览或保存到磁盘",
+            "在 Mac 本地解析 — 邮件不离开你的设备"
+          ]
+        }
+      },
+      "screenshots": {
+        "en":      ["assets/tinymsgviewer/en/mkt-01.png", "assets/tinymsgviewer/en/mkt-02.png", "assets/tinymsgviewer/en/mkt-03.png", "assets/tinymsgviewer/en/mkt-04.png"],
+        "zh-hant": ["assets/tinymsgviewer/zh-hant/mkt-01.png", "assets/tinymsgviewer/zh-hant/mkt-02.png", "assets/tinymsgviewer/zh-hant/mkt-03.png", "assets/tinymsgviewer/zh-hant/mkt-04.png"],
+        "zh-hans": ["assets/tinymsgviewer/zh-hans/mkt-01.png", "assets/tinymsgviewer/zh-hans/mkt-02.png", "assets/tinymsgviewer/zh-hans/mkt-03.png", "assets/tinymsgviewer/zh-hans/mkt-04.png"]
+      }
+    }
+  ]
+}
