@@ -65,9 +65,9 @@ header.site p { margin: 0; color: var(--muted); }
 .app-card h3 { margin: 0 0 6px; font-size: 1.05rem; }
 .app-card p { margin: 0; color: var(--muted); font-size: 0.88rem; }
 
-.app-card--soon { cursor: default; opacity: 0.55; }
-.app-card--soon:hover { transform: none; border-color: var(--border); }
 .app-card--soon .platform-tag { color: var(--accent); }
+div.app-card { cursor: default; opacity: 0.6; }
+div.app-card:hover { transform: none; border-color: var(--border); }
 
 footer.site { text-align: center; padding: 32px 0 48px; color: var(--muted); font-size: 0.85rem; }
 
@@ -86,6 +86,8 @@ footer.site { text-align: center; padding: 32px 0 48px; color: var(--muted); fon
   font-weight: 600;
 }
 .cta:hover { text-decoration: none; opacity: 0.9; }
+.cta--disabled { background: var(--muted); cursor: default; }
+.cta--disabled:hover { opacity: 1; }
 
 .legal-link { display: block; margin-top: 14px; color: var(--muted); font-size: 0.82rem; }
 

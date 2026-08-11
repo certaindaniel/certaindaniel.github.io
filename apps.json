@@ -644,21 +644,55 @@
     },
     {
       "id": "trailpop",
+      "flagship": true,
       "comingSoon": true,
       "platform": "iOS",
       "icon": "assets/trailpop/icon.png",
       "locales": {
         "en": {
           "name": "TrailPop",
-          "tagline": "Turn your trip photos into a fog-of-war travel trail video — 100% on-device."
+          "tagline": "Turn your trip photos into a fog-of-war travel trail video — 100% on-device.",
+          "promo": "TrailPop turns your trip photos into a turn-by-turn travel trail video. Fog-of-war unfogs as your route progresses, photos pop out in 3D at each stop, and everything renders 100% on your device — nothing uploaded.",
+          "cta": "Coming Soon",
+          "features": [
+            "Reads GPS + timestamp from your photos' EXIF automatically",
+            "Real turn-by-turn road navigation trace (MapKit directions)",
+            "Fog-of-war map unfogs as your trip progresses",
+            "Photos pop out in 3D at each stop",
+            "6 transport modes: car, plane, scooter, hiking, train, boat",
+            "3 visual themes, 15s–5min export, 9:16 for Reels/TikTok",
+            "100% on-device — nothing uploaded"
+          ]
         },
         "zh-hant": {
           "name": "TrailPop",
-          "tagline": "把旅遊照片變成世界迷霧解鎖的旅行軌跡影片，100% 本機處理。"
+          "tagline": "把旅遊照片變成世界迷霧解鎖的旅行軌跡影片，100% 本機處理。",
+          "promo": "TrailPop 把旅遊照片變成 turn-by-turn 的旅行軌跡影片。世界迷霧隨路線推進逐步解鎖，每個停靠點相片會 3D 彈出特寫，全程 100% 本機運算，不上傳任何內容。",
+          "cta": "即將推出",
+          "features": [
+            "自動讀取照片 EXIF 的 GPS 座標與拍攝時間",
+            "真實道路 turn-by-turn 導航軌跡（MapKit）",
+            "世界迷霧隨路線推進動態解鎖",
+            "每個景點相片 3D 彈出特寫",
+            "6 種交通工具：汽車、飛機、機車、健行、火車、輪船",
+            "3 種視覺主題，15 秒～5 分鐘匯出，9:16 適合 Reels/TikTok",
+            "100% 本機運算，不上傳伺服器"
+          ]
         },
         "zh-hans": {
           "name": "TrailPop",
-          "tagline": "把旅游照片变成世界迷雾解锁的旅行轨迹影片，100% 本地处理。"
+          "tagline": "把旅游照片变成世界迷雾解锁的旅行轨迹影片，100% 本地处理。",
+          "promo": "TrailPop 把旅游照片变成 turn-by-turn 的旅行轨迹影片。世界迷雾随路线推进逐步解锁，每个停靠点照片会 3D 弹出特写，全程 100% 本地运算，不上传任何内容。",
+          "cta": "即将推出",
+          "features": [
+            "自动读取照片 EXIF 的 GPS 坐标与拍摄时间",
+            "真实道路 turn-by-turn 导航轨迹（MapKit）",
+            "世界迷雾随路线推进动态解锁",
+            "每个景点照片 3D 弹出特写",
+            "6 种交通工具：汽车、飞机、摩托车、徒步、火车、轮船",
+            "3 种视觉主题，15 秒～5 分钟导出，9:16 适合 Reels/TikTok",
+            "100% 本地运算，不上传服务器"
+          ]
         }
       }
     }

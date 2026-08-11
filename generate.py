@@ -59,11 +59,17 @@ def hub_html(locale):
       <img class="icon" src="/{e(app['icon'])}" alt="">
       <h3>{e(loc['name'])}</h3>
       <p>{e(loc['tagline'])}</p>"""
-        if coming_soon:
-            cards.append(f'\n    <div class="app-card app-card--soon">{inner}\n    </div>')
+        if app.get("flagship"):
+            href = f'/{locale}/{app["id"]}/'
+        elif not coming_soon:
+            href = app["appStoreUrl"]
         else:
-            href = f'/{locale}/{app["id"]}/' if app.get("flagship") else app["appStoreUrl"]
-            cards.append(f'\n    <a class="app-card" href="{e(href)}">{inner}\n    </a>')
+            href = None
+        if href:
+            soon_cls = " app-card--soon" if coming_soon else ""
+            cards.append(f'\n    <a class="app-card{soon_cls}" href="{e(href)}">{inner}\n    </a>')
+        else:
+            cards.append(f'\n    <div class="app-card app-card--soon">{inner}\n    </div>')
     body = f"""<div class="wrap">
   <header class="site">
     <h1>{e(hub['title'])}</h1>
@@ -107,6 +113,11 @@ def app_html(app, locale):
         f'<a class="legal-link" href="{e(privacy_href)}">{e(PRIVACY_LABEL.get(locale, "Privacy Policy"))}</a>'
         if has_privacy else ""
     )
+    cta = (
+        f'<a class="cta" href="{e(app["appStoreUrl"])}">{e(loc["cta"])}</a>'
+        if app.get("appStoreUrl") else
+        f'<span class="cta cta--disabled">{e(loc["cta"])}</span>'
+    )
     body = f"""<div class="wrap">
   {lang_switch(locale, app_id=app['id'])}
   <section class="hero">
@@ -114,7 +125,7 @@ def app_html(app, locale):
     <h1>{e(loc['name'])}</h1>
     <p class="tagline">{e(loc['tagline'])}</p>
     <p class="promo">{e(loc['promo'])}</p>
-    <a class="cta" href="{e(app['appStoreUrl'])}">{e(loc['cta'])}</a>
+    {cta}
     {privacy_link}
   </section>
   <div class="screenshots">{shots}</div>
