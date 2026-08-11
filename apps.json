@@ -1,6 +1,6 @@
 {
   "site": {
-    "owner": "Daniel Lu",
+    "owner": "Lu Cheng Wei (Daniel Lu)",
     "githubUser": "certaindaniel",
     "locales": ["en", "zh-hant", "zh-hans"],
     "localeLabels": { "en": "English", "zh-hant": "繁體中文", "zh-hans": "简体中文" },

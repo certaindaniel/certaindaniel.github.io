@@ -72,7 +72,7 @@ def hub_html(locale):
   </header>
   <div class="app-grid">{"".join(cards)}
   </div>
-  <footer class="site">© Daniel Lu · <a href="https://github.com/{e(SITE['githubUser'])}">GitHub</a></footer>
+  <footer class="site">© {e(SITE['owner'])} · <a href="https://github.com/{e(SITE['githubUser'])}">GitHub</a></footer>
 </div>"""
     return page(hub["title"], body, locale)
 
