@@ -2,13 +2,30 @@
   "site": {
     "owner": "Lu Cheng Wei (Daniel Lu)",
     "githubUser": "certaindaniel",
-    "locales": ["en", "zh-hant", "zh-hans"],
-    "localeLabels": { "en": "English", "zh-hant": "繁體中文", "zh-hans": "简体中文" },
+    "locales": [
+      "en",
+      "zh-hant",
+      "zh-hans"
+    ],
+    "localeLabels": {
+      "en": "English",
+      "zh-hant": "繁體中文",
+      "zh-hans": "简体中文"
+    },
     "defaultLocale": "en",
     "hub": {
-      "en":      { "title": "Daniel Lu — Apps", "subtitle": "Small, focused Mac & iOS apps." },
-      "zh-hant": { "title": "Daniel Lu — 作品集", "subtitle": "小而專注的 Mac 與 iOS App。" },
-      "zh-hans": { "title": "Daniel Lu — 作品集", "subtitle": "小而专注的 Mac 与 iOS App。" }
+      "en": {
+        "title": "Daniel Lu — Apps",
+        "subtitle": "Small, focused Mac & iOS apps."
+      },
+      "zh-hant": {
+        "title": "Daniel Lu — 作品集",
+        "subtitle": "小而專注的 Mac 與 iOS App。"
+      },
+      "zh-hans": {
+        "title": "Daniel Lu — 作品集",
+        "subtitle": "小而专注的 Mac 与 iOS App。"
+      }
     }
   },
   "apps": [
@@ -82,6 +99,24 @@
             "Also exports a high-quality 16:9 slide PDF",
             "100% on-device processing — nothing uploaded",
             "One-time purchase, no subscription"
+          ],
+          "qa": [
+            {
+              "q": "Does this app need an internet connection?",
+              "a": "No — conversion, rendering, and export all happen on your Mac. An internet connection is only used if your own HTML content references external resources like images or fonts."
+            },
+            {
+              "q": "Is my content uploaded anywhere?",
+              "a": "No. Your HTML/React input and the PDF/PPTX files you export stay on your device; nothing is sent to a server."
+            },
+            {
+              "q": "Is this a subscription?",
+              "a": "No. The app is free with no in-app purchases."
+            },
+            {
+              "q": "Does it use analytics or ads?",
+              "a": "No. There are no third-party analytics or advertising SDKs in the app."
+            }
           ]
         },
         "zh-hant": {
@@ -96,6 +131,24 @@
             "也能匯出高畫質 16:9 投影片 PDF",
             "100% 本機處理，內容不上傳",
             "買斷制，無訂閱"
+          ],
+          "qa": [
+            {
+              "q": "這個 App 需要網路連線嗎？",
+              "a": "不需要——轉換、渲染與匯出都在你的 Mac 上完成。只有當你自己的 HTML 內容引用外部資源（如圖片、字型）時才會用到網路。"
+            },
+            {
+              "q": "我的內容會被上傳到哪裡嗎？",
+              "a": "不會。你輸入的 HTML/React 內容與匯出的 PDF/PPTX 檔案都留在你的裝置上，不會傳送到任何伺服器。"
+            },
+            {
+              "q": "這是訂閱制嗎？",
+              "a": "不是。App 完全免費，沒有內購項目。"
+            },
+            {
+              "q": "有分析工具或廣告嗎？",
+              "a": "沒有。App 不含任何第三方分析或廣告 SDK。"
+            }
           ]
         },
         "zh-hans": {
@@ -110,6 +163,24 @@
             "也能导出高画质 16:9 幻灯片 PDF",
             "100% 本地处理，内容不上传",
             "买断制，无订阅"
+          ],
+          "qa": [
+            {
+              "q": "这个 App 需要网络连接吗？",
+              "a": "不需要——转换、渲染与导出都在你的 Mac 上完成。只有当你自己的 HTML 内容引用外部资源（如图片、字体）时才会用到网络。"
+            },
+            {
+              "q": "我的内容会被上传到哪里吗？",
+              "a": "不会。你输入的 HTML/React 内容与导出的 PDF/PPTX 文件都留在你的设备上，不会传送到任何服务器。"
+            },
+            {
+              "q": "这是订阅制吗？",
+              "a": "不是。App 完全免费，没有内购项目。"
+            },
+            {
+              "q": "有分析工具或广告吗？",
+              "a": "没有。App 不含任何第三方分析或广告 SDK。"
+            }
           ]
         }
       }
@@ -133,6 +204,24 @@
             "Also exports a high-quality 16:9 slide PDF",
             "100% on-device processing — nothing uploaded",
             "One-time purchase, no subscription"
+          ],
+          "qa": [
+            {
+              "q": "Does this app need an internet connection?",
+              "a": "No — conversion, rendering, and export all happen on your iPhone or iPad. An internet connection is only used if your own HTML content references external resources like images or fonts."
+            },
+            {
+              "q": "Is my content uploaded anywhere?",
+              "a": "No. Your HTML/React input and the PDF/PPTX files you export stay on your device; nothing is sent to a server."
+            },
+            {
+              "q": "Is this a subscription?",
+              "a": "No. The app is free with no in-app purchases."
+            },
+            {
+              "q": "Does it use analytics or ads?",
+              "a": "No. There are no third-party analytics or advertising SDKs in the app."
+            }
           ]
         },
         "zh-hant": {
@@ -147,6 +236,24 @@
             "也能匯出高畫質 16:9 投影片 PDF",
             "100% 本機處理，內容不上傳",
             "買斷制，無訂閱"
+          ],
+          "qa": [
+            {
+              "q": "這個 App 需要網路連線嗎？",
+              "a": "不需要——轉換、渲染與匯出都在你的 iPhone 或 iPad 上完成。只有當你自己的 HTML 內容引用外部資源（如圖片、字型）時才會用到網路。"
+            },
+            {
+              "q": "我的內容會被上傳到哪裡嗎？",
+              "a": "不會。你輸入的 HTML/React 內容與匯出的 PDF/PPTX 檔案都留在你的裝置上，不會傳送到任何伺服器。"
+            },
+            {
+              "q": "這是訂閱制嗎？",
+              "a": "不是。App 完全免費，沒有內購項目。"
+            },
+            {
+              "q": "有分析工具或廣告嗎？",
+              "a": "沒有。App 不含任何第三方分析或廣告 SDK。"
+            }
           ]
         },
         "zh-hans": {
@@ -161,6 +268,24 @@
             "也能导出高画质 16:9 幻灯片 PDF",
             "100% 本地处理，内容不上传",
             "买断制，无订阅"
+          ],
+          "qa": [
+            {
+              "q": "这个 App 需要网络连接吗？",
+              "a": "不需要——转换、渲染与导出都在你的 iPhone 或 iPad 上完成。只有当你自己的 HTML 内容引用外部资源（如图片、字体）时才会用到网络。"
+            },
+            {
+              "q": "我的内容会被上传到哪里吗？",
+              "a": "不会。你输入的 HTML/React 内容与导出的 PDF/PPTX 文件都留在你的设备上，不会传送到任何服务器。"
+            },
+            {
+              "q": "这是订阅制吗？",
+              "a": "不是。App 完全免费，没有内购项目。"
+            },
+            {
+              "q": "有分析工具或广告吗？",
+              "a": "没有。App 不含任何第三方分析或广告 SDK。"
+            }
           ]
         }
       }
@@ -182,6 +307,24 @@
             "Pick a different voice for each language",
             "Works fully offline",
             "Remembers exactly where you left off"
+          ],
+          "qa": [
+            {
+              "q": "Does this app need an internet connection?",
+              "a": "No — reading, text-to-speech, and progress tracking all happen on your device."
+            },
+            {
+              "q": "Is my data uploaded anywhere?",
+              "a": "No. Your EPUB files, reading progress, and settings never leave your device."
+            },
+            {
+              "q": "Is this a subscription?",
+              "a": "No. EpubAloud is free with no in-app purchases."
+            },
+            {
+              "q": "How do I delete my data?",
+              "a": "Since everything is stored only on your device, deleting the app removes all of it — there's nothing stored elsewhere to request deletion of."
+            }
           ]
         },
         "zh-hant": {
@@ -194,6 +337,24 @@
             "各語言可指定不同朗讀聲音",
             "完全離線使用",
             "自動記住上次聽到哪裡"
+          ],
+          "qa": [
+            {
+              "q": "這個 App 需要網路連線嗎？",
+              "a": "不需要——朗讀、語音合成與進度記錄都在你的裝置上完成。"
+            },
+            {
+              "q": "我的資料會被上傳到哪裡嗎？",
+              "a": "不會。你的 EPUB 檔案、閱讀進度與設定都不會離開你的裝置。"
+            },
+            {
+              "q": "這是訂閱制嗎？",
+              "a": "不是。EpubAloud 完全免費，沒有內購項目。"
+            },
+            {
+              "q": "要怎麼刪除我的資料？",
+              "a": "因為所有資料只存在你的裝置上，刪除 App 就會一併清除——沒有其他地方存有你的資料需要另外申請刪除。"
+            }
           ]
         },
         "zh-hans": {
@@ -206,6 +367,24 @@
             "各语言可指定不同朗读声音",
             "完全离线使用",
             "自动记住上次听到哪里"
+          ],
+          "qa": [
+            {
+              "q": "这个 App 需要网络连接吗？",
+              "a": "不需要——朗读、语音合成与进度记录都在你的设备上完成。"
+            },
+            {
+              "q": "我的数据会被上传到哪里吗？",
+              "a": "不会。你的 EPUB 文件、阅读进度与设置都不会离开你的设备。"
+            },
+            {
+              "q": "这是订阅制吗？",
+              "a": "不是。EpubAloud 完全免费，没有内购项目。"
+            },
+            {
+              "q": "要怎么删除我的数据？",
+              "a": "因为所有数据只存在你的设备上，删除 App 就会一并清除——没有其他地方存有你的数据需要另外申请删除。"
+            }
           ]
         }
       }
@@ -273,6 +452,24 @@
             "Edit the capture date too",
             "View full EXIF metadata",
             "Changes show up right in the Photos app"
+          ],
+          "qa": [
+            {
+              "q": "Does TinyGPSEditor need an internet connection?",
+              "a": "Not for core editing — only the optional \"current location\" and place-name lookup use Apple's geocoding service, and no data is sent to the developer."
+            },
+            {
+              "q": "Is my photo or location data uploaded anywhere?",
+              "a": "No. All GPS/EXIF reading and writing happens entirely on your device; photos are never uploaded to us or any third party."
+            },
+            {
+              "q": "Is this a subscription?",
+              "a": "No, TinyGPSEditor is a one-time App Store purchase with no subscriptions or in-app purchases."
+            },
+            {
+              "q": "Do I need an account?",
+              "a": "No account or sign-in is required."
+            }
           ]
         },
         "zh-hant": {
@@ -286,6 +483,24 @@
             "同時可修改拍攝日期",
             "檢視完整 EXIF 中繼資料",
             "改完直接反映在「照片」App"
+          ],
+          "qa": [
+            {
+              "q": "TinyGPSEditor 需要網路連線嗎？",
+              "a": "核心編輯功能不需要；只有「目前位置」與地名查詢會用到定位與 Apple 地理編碼服務，且不會傳送任何資料給開發者。"
+            },
+            {
+              "q": "我的相片或位置資料會被上傳嗎？",
+              "a": "不會。所有 GPS/EXIF 中繼資料的讀寫都在你的裝置上完成，相片絕不會上傳給我們或第三方。"
+            },
+            {
+              "q": "這是訂閱制嗎？",
+              "a": "不是，TinyGPSEditor 是透過 App Store 單次付費購買，沒有訂閱也沒有內購。"
+            },
+            {
+              "q": "需要註冊帳號嗎？",
+              "a": "不需要，App 沒有帳號或登入機制。"
+            }
           ]
         },
         "zh-hans": {
@@ -299,6 +514,24 @@
             "同时可修改拍摄日期",
             "查看完整 EXIF 元数据",
             "改完直接反映在「照片」App"
+          ],
+          "qa": [
+            {
+              "q": "TinyGPSEditor 需要网络连接吗？",
+              "a": "核心编辑功能不需要；只有“当前位置”与地名查询会用到定位与 Apple 地理编码服务，且不会发送任何数据给开发者。"
+            },
+            {
+              "q": "我的照片或位置数据会被上传吗？",
+              "a": "不会。所有 GPS/EXIF 元数据的读写都在你的设备上完成，照片绝不会上传给我们或第三方。"
+            },
+            {
+              "q": "这是订阅制吗？",
+              "a": "不是，TinyGPSEditor 通过 App Store 一次性付费购买，没有订阅也没有内购。"
+            },
+            {
+              "q": "需要注册账号吗？",
+              "a": "不需要，App 没有账号或登录机制。"
+            }
           ]
         }
       }
@@ -322,10 +555,22 @@
             "Built for developers & QA testing HealthKit apps"
           ],
           "qa": [
-            {"q": "What does this app actually do?", "a": "TinyWalk is a tool for developers and QA testers: it generates structurally correct step and health test data on your own iPhone, so you can verify apps that read this kind of data."},
-            {"q": "Where does the generated data show up?", "a": "It's written directly into the Health app, tagged as coming from TinyWalk, and can be deleted anytime from the Health app."},
-            {"q": "Is the data real?", "a": "No — it's synthetic test data for your development workflow, not a record of real activity."},
-            {"q": "Does it cost anything?", "a": "The 100-step and 1,000-step datasets are free forever. Unlocking 2,000+ step datasets is a one-time purchase, no subscription."}
+            {
+              "q": "What does this app actually do?",
+              "a": "TinyWalk is a tool for developers and QA testers: it generates structurally correct step and health test data on your own iPhone, so you can verify apps that read this kind of data."
+            },
+            {
+              "q": "Where does the generated data show up?",
+              "a": "It's written directly into the Health app, tagged as coming from TinyWalk, and can be deleted anytime from the Health app."
+            },
+            {
+              "q": "Is the data real?",
+              "a": "No — it's synthetic test data for your development workflow, not a record of real activity."
+            },
+            {
+              "q": "Does it cost anything?",
+              "a": "The 100-step and 1,000-step datasets are free forever. Unlocking 2,000+ step datasets is a one-time purchase, no subscription."
+            }
           ]
         },
         "zh-hant": {
@@ -340,10 +585,22 @@
             "專為開發者與 QA 測試 HealthKit App 設計"
           ],
           "qa": [
-            {"q": "這個 App 是做什麼的？", "a": "TinyWalk 是給開發者、QA 測試人員用的工具：在你自己的 iPhone 上產生結構正確的步數與健康測試資料，方便驗證會讀取這類資料的 App。"},
-            {"q": "產生的資料會出現在哪裡？", "a": "會直接寫進「健康」App，來源標記為 TinyWalk，隨時可以在「健康」App 裡刪除。"},
-            {"q": "資料是真的嗎？", "a": "不是，是合成的測試資料，用於開發流程測試，不代表真實運動量。"},
-            {"q": "需要付費嗎？", "a": "100 步與 1,000 步的資料集永久免費；解鎖 2,000 步以上的資料集是一次性購買，沒有訂閱。"}
+            {
+              "q": "這個 App 是做什麼的？",
+              "a": "TinyWalk 是給開發者、QA 測試人員用的工具：在你自己的 iPhone 上產生結構正確的步數與健康測試資料，方便驗證會讀取這類資料的 App。"
+            },
+            {
+              "q": "產生的資料會出現在哪裡？",
+              "a": "會直接寫進「健康」App，來源標記為 TinyWalk，隨時可以在「健康」App 裡刪除。"
+            },
+            {
+              "q": "資料是真的嗎？",
+              "a": "不是，是合成的測試資料，用於開發流程測試，不代表真實運動量。"
+            },
+            {
+              "q": "需要付費嗎？",
+              "a": "100 步與 1,000 步的資料集永久免費；解鎖 2,000 步以上的資料集是一次性購買，沒有訂閱。"
+            }
           ]
         },
         "zh-hans": {
@@ -358,10 +615,22 @@
             "专为开发者与 QA 测试 HealthKit App 设计"
           ],
           "qa": [
-            {"q": "这个 App 是做什么的？", "a": "TinyWalk 是给开发者、QA 测试人员用的工具：在你自己的 iPhone 上生成结构正确的步数与健康测试数据，方便验证会读取这类数据的 App。"},
-            {"q": "生成的数据会出现在哪里？", "a": "会直接写进「健康」App，来源标记为 TinyWalk，随时可以在「健康」App 里删除。"},
-            {"q": "数据是真的吗？", "a": "不是，是合成的测试数据，用于开发流程测试，不代表真实运动量。"},
-            {"q": "需要付费吗？", "a": "100 步与 1,000 步的数据集永久免费；解锁 2,000 步以上的数据集是一次性购买，没有订阅。"}
+            {
+              "q": "这个 App 是做什么的？",
+              "a": "TinyWalk 是给开发者、QA 测试人员用的工具：在你自己的 iPhone 上生成结构正确的步数与健康测试数据，方便验证会读取这类数据的 App。"
+            },
+            {
+              "q": "生成的数据会出现在哪里？",
+              "a": "会直接写进「健康」App，来源标记为 TinyWalk，随时可以在「健康」App 里删除。"
+            },
+            {
+              "q": "数据是真的吗？",
+              "a": "不是，是合成的测试数据，用于开发流程测试，不代表真实运动量。"
+            },
+            {
+              "q": "需要付费吗？",
+              "a": "100 步与 1,000 步的数据集永久免费；解锁 2,000 步以上的数据集是一次性购买，没有订阅。"
+            }
           ]
         }
       }
@@ -383,6 +652,24 @@
             "Detect CGNAT (carrier-grade NAT) status",
             "Ping / latency & jitter chart",
             "Pay once, own forever — no subscriptions, no ads"
+          ],
+          "qa": [
+            {
+              "q": "Does TinyNetTool need an internet connection?",
+              "a": "Yes — its core diagnostics (ping, NAT detection, DNS lookup) work by testing your actual network connection."
+            },
+            {
+              "q": "Is my data uploaded anywhere?",
+              "a": "No. All diagnostic results are processed and shown on your device only; nothing is sent to our servers."
+            },
+            {
+              "q": "Is this a subscription?",
+              "a": "No, TinyNetTool is a one-time purchase with no subscriptions or ads."
+            },
+            {
+              "q": "Does it see my browsing history?",
+              "a": "No, it only performs network-level tests (ping, traceroute, DNS, port scans) — it doesn't access or track your browsing activity."
+            }
           ]
         },
         "zh-hant": {
@@ -395,6 +682,24 @@
             "偵測 CGNAT（電信大內網）狀態",
             "Ping、延遲與 Jitter 圖表",
             "買斷制，終身使用，零廣告零訂閱"
+          ],
+          "qa": [
+            {
+              "q": "TinyNetTool 需要網路連線嗎？",
+              "a": "需要，App 的核心診斷功能（Ping、NAT 偵測、DNS 查詢）就是靠實際測試你的網路連線來運作。"
+            },
+            {
+              "q": "我的資料會被上傳嗎？",
+              "a": "不會，所有診斷結果都只在你的裝置上處理與顯示，不會送到我們的伺服器。"
+            },
+            {
+              "q": "這是訂閱制嗎？",
+              "a": "不是，TinyNetTool 是單次付費購買，沒有訂閱也沒有廣告。"
+            },
+            {
+              "q": "會讀取我的瀏覽紀錄嗎？",
+              "a": "不會，TinyNetTool 只做網路層級的測試（Ping、路由追蹤、DNS、埠掃描），不會存取或追蹤你的瀏覽行為。"
+            }
           ]
         },
         "zh-hans": {
@@ -407,6 +712,24 @@
             "侦测 CGNAT（电信大内网）状态",
             "Ping、延迟与 Jitter 图表",
             "买断制，终身使用，零广告零订阅"
+          ],
+          "qa": [
+            {
+              "q": "TinyNetTool 需要网络连接吗？",
+              "a": "需要，App 的核心诊断功能（Ping、NAT 检测、DNS 查询）就是靠实际测试你的网络连接来运作。"
+            },
+            {
+              "q": "我的数据会被上传吗？",
+              "a": "不会，所有诊断结果都只在你的设备上处理与显示，不会发送到我们的服务器。"
+            },
+            {
+              "q": "这是订阅制吗？",
+              "a": "不是，TinyNetTool 是一次性付费购买，没有订阅也没有广告。"
+            },
+            {
+              "q": "会读取我的浏览记录吗？",
+              "a": "不会，TinyNetTool 只做网络层级的测试（Ping、路由追踪、DNS、端口扫描），不会访问或追踪你的浏览行为。"
+            }
           ]
         }
       }
@@ -428,6 +751,24 @@
             "Built for digiscoping, spotting scopes & birding",
             "Free to shoot photos",
             "Unlock focus peaking & video recording anytime"
+          ],
+          "qa": [
+            {
+              "q": "Does FixedFocus need an internet connection?",
+              "a": "No, all camera, focus, and recording features work fully offline."
+            },
+            {
+              "q": "Is my photo or video data uploaded anywhere?",
+              "a": "No. Everything is processed on your device and saved directly to your local photo library; nothing is sent to us or any third party."
+            },
+            {
+              "q": "Is this a subscription?",
+              "a": "No. The base app is free, and the Pro upgrade is a one-time in-app purchase — no subscriptions."
+            },
+            {
+              "q": "What does the Pro upgrade unlock?",
+              "a": "Focus peaking, AE/EV exposure lock, HD video recording, and volume-key shutter control."
+            }
           ]
         },
         "zh-hant": {
@@ -440,6 +781,24 @@
             "專為望遠鏡頭、觀鳥攝影設計",
             "拍照功能免費使用",
             "峰值對焦與錄影功能可隨時解鎖"
+          ],
+          "qa": [
+            {
+              "q": "FixedFocus 需要網路連線嗎？",
+              "a": "不需要，相機、對焦與錄影功能完全離線運作。"
+            },
+            {
+              "q": "我的照片或影片會被上傳嗎？",
+              "a": "不會，所有處理都在你的裝置上完成，並直接存進本機照片庫，不會傳送給我們或任何第三方。"
+            },
+            {
+              "q": "這是訂閱制嗎？",
+              "a": "不是，基礎版免費，專業版升級是單次內購，沒有訂閱。"
+            },
+            {
+              "q": "專業版能解鎖什麼？",
+              "a": "對焦輪廓、AE/EV 曝光鎖定、高畫質錄影，以及實體音量鍵快門。"
+            }
           ]
         },
         "zh-hans": {
@@ -452,6 +811,24 @@
             "专为望远镜头、观鸟摄影设计",
             "拍照功能免费使用",
             "峰值对焦与录像功能可随时解锁"
+          ],
+          "qa": [
+            {
+              "q": "FixedFocus 需要网络连接吗？",
+              "a": "不需要，相机、对焦与录像功能完全离线运行。"
+            },
+            {
+              "q": "我的照片或视频会被上传吗？",
+              "a": "不会，所有处理都在你的设备上完成，并直接存入本地照片库，不会发送给我们或任何第三方。"
+            },
+            {
+              "q": "这是订阅制吗？",
+              "a": "不是，基础版免费，专业版升级是一次性内购，没有订阅。"
+            },
+            {
+              "q": "专业版能解锁什么？",
+              "a": "对焦轮廓、AE/EV 曝光锁定、高清录像，以及实体音量键快门。"
+            }
           ]
         }
       }
@@ -473,6 +850,24 @@
             "Background playback, resumes where you left off",
             "Works on iPhone, iPad and Mac",
             "Pay once, no subscription"
+          ],
+          "qa": [
+            {
+              "q": "Does OneClickListen send my webpage text anywhere?",
+              "a": "No. All text-to-speech processing happens on your device using Apple's built-in voices; nothing is sent to an external server."
+            },
+            {
+              "q": "Does OneClickListen need an internet connection?",
+              "a": "No — once a page is loaded, reading it aloud works fully offline; text-to-speech is done entirely on-device."
+            },
+            {
+              "q": "Is this a subscription?",
+              "a": "No, it's a one-time purchase that works across iPhone, iPad, and Mac."
+            },
+            {
+              "q": "Do I need to create an account?",
+              "a": "No, no account or sign-in is required to use OneClickListen."
+            }
           ]
         },
         "zh-hant": {
@@ -485,6 +880,24 @@
             "支援背景播放、自動接續進度",
             "iPhone、iPad、Mac 全平台通用",
             "買斷制，無訂閱，內容不上傳"
+          ],
+          "qa": [
+            {
+              "q": "OneClickListen 會把我瀏覽的網頁文字傳到別的地方嗎？",
+              "a": "不會，所有文字轉語音都在你的裝置上使用 Apple 內建語音完成，不會傳送到外部伺服器。"
+            },
+            {
+              "q": "OneClickListen 需要網路連線嗎？",
+              "a": "不需要，網頁載入後，朗讀功能完全離線運作，文字轉語音全部在裝置端完成。"
+            },
+            {
+              "q": "這是訂閱制嗎？",
+              "a": "不是，這是單次購買，一次購買即可在 iPhone、iPad 與 Mac 上使用。"
+            },
+            {
+              "q": "需要建立帳號嗎？",
+              "a": "不需要，使用 OneClickListen 不需要帳號或登入。"
+            }
           ]
         },
         "zh-hans": {
@@ -497,6 +910,24 @@
             "支持后台播放、自动接续进度",
             "iPhone、iPad、Mac 全平台通用",
             "买断制，无订阅，内容不上传"
+          ],
+          "qa": [
+            {
+              "q": "OneClickListen 会把我浏览的网页文字发送到别处吗？",
+              "a": "不会，所有文字转语音都在你的设备上使用 Apple 内置语音完成，不会发送到外部服务器。"
+            },
+            {
+              "q": "OneClickListen 需要网络连接吗？",
+              "a": "不需要，网页加载后，朗读功能完全离线运行，文字转语音全部在设备端完成。"
+            },
+            {
+              "q": "这是订阅制吗？",
+              "a": "不是，这是一次性购买，一次购买即可在 iPhone、iPad 与 Mac 上使用。"
+            },
+            {
+              "q": "需要创建账号吗？",
+              "a": "不需要，使用 OneClickListen 不需要账号或登录。"
+            }
           ]
         }
       }
@@ -519,6 +950,24 @@
             "Finder tag sync",
             "Drag & drop file operations",
             "Built-in SFTP support"
+          ],
+          "qa": [
+            {
+              "q": "Does Q-Dir need an internet connection?",
+              "a": "No. All file browsing and management work entirely offline."
+            },
+            {
+              "q": "Is my data uploaded anywhere?",
+              "a": "No. Q-Dir has no server — everything is processed and stored on your Mac. If you use SFTP, credentials are stored in the macOS Keychain and the connection goes directly to the server you specify."
+            },
+            {
+              "q": "Is this a subscription?",
+              "a": "No. Q-Dir is a one-time purchase on the Mac App Store, no subscription, no additional in-app purchases."
+            },
+            {
+              "q": "Does Q-Dir show ads or track me?",
+              "a": "No. Q-Dir has no analytics, advertising, or tracking SDKs of any kind."
+            }
           ]
         },
         "zh-hant": {
@@ -532,6 +981,24 @@
             "Finder 標籤同步",
             "拖放檔案操作",
             "內建 SFTP 支援"
+          ],
+          "qa": [
+            {
+              "q": "Q-Dir 需要連網嗎？",
+              "a": "不需要，所有檔案瀏覽與管理功能都能離線完成。"
+            },
+            {
+              "q": "我的資料會被上傳嗎？",
+              "a": "不會，Q-Dir 沒有伺服器，一切都在你的 Mac 上處理與儲存。若使用 SFTP，憑證存在 macOS Keychain，連線直接連到你指定的伺服器。"
+            },
+            {
+              "q": "這是訂閱制嗎？",
+              "a": "不是，Q-Dir 是 Mac App Store 一次性買斷，無訂閱、無額外內購。"
+            },
+            {
+              "q": "Q-Dir 會顯示廣告或追蹤我嗎？",
+              "a": "不會，Q-Dir 完全沒有任何分析、廣告或追蹤 SDK。"
+            }
           ]
         },
         "zh-hans": {
@@ -545,6 +1012,24 @@
             "Finder 标签同步",
             "拖放文件操作",
             "内置 SFTP 支持"
+          ],
+          "qa": [
+            {
+              "q": "Q-Dir 需要联网吗？",
+              "a": "不需要，所有文件浏览与管理功能都能离线完成。"
+            },
+            {
+              "q": "我的数据会被上传吗？",
+              "a": "不会，Q-Dir 没有服务器，一切都在你的 Mac 上处理与存储。若使用 SFTP，凭证存在 macOS 钥匙串，连接直接连到你指定的服务器。"
+            },
+            {
+              "q": "这是订阅制吗？",
+              "a": "不是，Q-Dir 是 Mac App Store 一次性买断，无订阅、无额外内购。"
+            },
+            {
+              "q": "Q-Dir 会显示广告或追踪我吗？",
+              "a": "不会，Q-Dir 完全没有任何分析、广告或追踪 SDK。"
+            }
           ]
         }
       }
@@ -612,6 +1097,24 @@
             "Polaroid-style card design",
             "Save to Photos or share anywhere",
             "Offline mode supported"
+          ],
+          "qa": [
+            {
+              "q": "Does this app need an internet connection?",
+              "a": "Yes, to fetch new photos and serve ads. Previously cached images/quotes can still be viewed offline."
+            },
+            {
+              "q": "Is my data uploaded anywhere?",
+              "a": "Only if you use \"Contribute Quote\" — that text is stored in a public Google Sheets database. AdMob also collects an advertising identifier and device info for ad delivery. Everything else (preferences, stats, cache) stays on your device."
+            },
+            {
+              "q": "Is this a subscription?",
+              "a": "No. The app is free and ad-supported, with no subscriptions or in-app purchases."
+            },
+            {
+              "q": "Can I turn off personalized ads?",
+              "a": "Yes — limit ad tracking in your device's privacy settings."
+            }
           ]
         },
         "zh-hant": {
@@ -625,6 +1128,24 @@
             "拍立得風格卡片",
             "可儲存到相簿或分享",
             "支援離線模式"
+          ],
+          "qa": [
+            {
+              "q": "這個 App 需要連網嗎？",
+              "a": "需要，抓取新圖片與顯示廣告時都需要網路；已快取的圖片和名言可離線瀏覽。"
+            },
+            {
+              "q": "我的資料會被上傳嗎？",
+              "a": "只有在你使用「貢獻金句」時，該文字會存進公開的 Google Sheets 資料庫；AdMob 也會收集廣告識別碼與裝置資訊用於投放廣告。其餘（偏好設定、統計、快取）都留在你的裝置上。"
+            },
+            {
+              "q": "這是訂閱制嗎？",
+              "a": "不是，App 免費且由廣告支持，沒有訂閱或內購。"
+            },
+            {
+              "q": "可以關閉個人化廣告嗎？",
+              "a": "可以，在裝置的隱私設定中限制廣告追蹤即可。"
+            }
           ]
         },
         "zh-hans": {
@@ -638,6 +1159,24 @@
             "拍立得风格卡片",
             "可保存到相册或分享",
             "支持离线模式"
+          ],
+          "qa": [
+            {
+              "q": "这个 App 需要联网吗？",
+              "a": "需要，获取新图片与显示广告时都需要网络；已缓存的图片和名言可离线浏览。"
+            },
+            {
+              "q": "我的数据会被上传吗？",
+              "a": "只有在你使用「贡献金句」时，该文字会存进公开的 Google Sheets 数据库；AdMob 也会收集广告标识符与设备信息用于投放广告。其余（偏好设置、统计、缓存）都留在你的设备上。"
+            },
+            {
+              "q": "这是订阅制吗？",
+              "a": "不是，App 免费且由广告支持，没有订阅或内购。"
+            },
+            {
+              "q": "可以关闭个性化广告吗？",
+              "a": "可以，在设备的隐私设置中限制广告追踪即可。"
+            }
           ]
         }
       }
@@ -662,6 +1201,24 @@
             "6 transport modes: car, plane, scooter, hiking, train, boat",
             "3 visual themes, 15s–5min export, 9:16 for Reels/TikTok",
             "100% on-device — nothing uploaded"
+          ],
+          "qa": [
+            {
+              "q": "Does TrailPop need an internet connection?",
+              "a": "No. Reading photos, building your route, and rendering the video all happen offline, on your device."
+            },
+            {
+              "q": "Is my data uploaded anywhere?",
+              "a": "No. TrailPop has no server — your photos, GPS/timestamp metadata, and exported videos never leave your device."
+            },
+            {
+              "q": "Is this a subscription?",
+              "a": "TrailPop offers optional PRO subscriptions and a lifetime purchase via Apple's StoreKit; the free tier works without any purchase."
+            },
+            {
+              "q": "Does TrailPop track my location?",
+              "a": "No. It never accesses your device's live GPS — only the GPS data already saved inside photos you choose to select."
+            }
           ]
         },
         "zh-hant": {
@@ -677,6 +1234,24 @@
             "6 種交通工具：汽車、飛機、機車、健行、火車、輪船",
             "3 種視覺主題，15 秒～5 分鐘匯出，9:16 適合 Reels/TikTok",
             "100% 本機運算，不上傳伺服器"
+          ],
+          "qa": [
+            {
+              "q": "TrailPop 需要連網嗎？",
+              "a": "不需要，讀取照片、建立路線、渲染影片全部都在裝置上離線完成。"
+            },
+            {
+              "q": "我的資料會被上傳嗎？",
+              "a": "不會，TrailPop 沒有伺服器，你的照片、GPS／時間中繼資料以及輸出的影片都不會離開你的裝置。"
+            },
+            {
+              "q": "這是訂閱制嗎？",
+              "a": "TrailPop 提供選購的 PRO 訂閱與買斷方案（透過 Apple StoreKit），免費版本則不需要任何購買即可使用。"
+            },
+            {
+              "q": "TrailPop 會追蹤我的位置嗎？",
+              "a": "不會，它從不存取裝置的即時 GPS，只會讀取你選取的照片裡本來就有的 GPS 資料。"
+            }
           ]
         },
         "zh-hans": {
@@ -692,6 +1267,24 @@
             "6 种交通工具：汽车、飞机、摩托车、徒步、火车、轮船",
             "3 种视觉主题，15 秒～5 分钟导出，9:16 适合 Reels/TikTok",
             "100% 本地运算，不上传服务器"
+          ],
+          "qa": [
+            {
+              "q": "TrailPop 需要联网吗？",
+              "a": "不需要，读取照片、构建路线、渲染视频全部都在设备上离线完成。"
+            },
+            {
+              "q": "我的数据会被上传吗？",
+              "a": "不会，TrailPop 没有服务器，你的照片、GPS／时间元数据以及导出的视频都不会离开你的设备。"
+            },
+            {
+              "q": "这是订阅制吗？",
+              "a": "TrailPop 提供可选购的 PRO 订阅与买断方案（通过 Apple StoreKit），免费版本则不需要任何购买即可使用。"
+            },
+            {
+              "q": "TrailPop 会追踪我的位置吗？",
+              "a": "不会，它从不访问设备的实时 GPS，只会读取你选取的照片里本来就有的 GPS 数据。"
+            }
           ]
         }
       }
