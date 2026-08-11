@@ -304,6 +304,51 @@
       }
     },
     {
+      "id": "tinywalk",
+      "flagship": true,
+      "platform": "iOS",
+      "icon": "assets/tinywalk/icon.png",
+      "appStoreUrl": "https://apps.apple.com/us/app/tinywalk-health-test-data/id6792443844",
+      "locales": {
+        "en": {
+          "name": "TinyWalk",
+          "tagline": "Generate step count & health test data on iPhone, for developers testing HealthKit apps.",
+          "promo": "Generate realistic HealthKit step and workout samples on-device, in seconds. No ads, no account.",
+          "cta": "View on the App Store",
+          "features": [
+            "Generate realistic step count & workout samples",
+            "Writes directly into HealthKit on your device",
+            "No ads, no account — data generation is fully on-device",
+            "Built for developers & QA testing HealthKit apps"
+          ]
+        },
+        "zh-hant": {
+          "name": "TinyWalk",
+          "tagline": "在 iPhone 上產生步數與健康測試資料，供開發者驗證讀取健康資料的 App。",
+          "promo": "iOS 開發者工具：在真機上產生結構正確的 HealthKit 合成測試資料，供開發與 QA 驗證讀取 HealthKit 的 App。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "產生逼真的步數與運動測試資料",
+            "直接寫入裝置上的 HealthKit",
+            "無廣告、免註冊——資料產生完全在裝置上完成",
+            "專為開發者與 QA 測試 HealthKit App 設計"
+          ]
+        },
+        "zh-hans": {
+          "name": "TinyWalk",
+          "tagline": "在 iPhone 上生成步数与健康测试数据，供开发者验证读取健康数据的 App。",
+          "promo": "iOS 开发者工具：在真机上生成结构正确的 HealthKit 合成测试数据，供开发与 QA 验证读取 HealthKit 的 App。",
+          "cta": "在 App Store 查看",
+          "features": [
+            "生成逼真的步数与运动测试数据",
+            "直接写入设备上的 HealthKit",
+            "无广告、免注册——数据生成完全在设备上完成",
+            "专为开发者与 QA 测试 HealthKit App 设计"
+          ]
+        }
+      }
+    },
+    {
       "id": "tinynettool",
       "flagship": true,
       "platform": "iOS",
@@ -344,51 +389,6 @@
             "侦测 CGNAT（电信大内网）状态",
             "Ping、延迟与 Jitter 图表",
             "买断制，终身使用，零广告零订阅"
-          ]
-        }
-      }
-    },
-    {
-      "id": "tinywalk",
-      "flagship": true,
-      "platform": "iOS",
-      "icon": "assets/tinywalk/icon.png",
-      "appStoreUrl": "https://apps.apple.com/us/app/tinywalk-health-test-data/id6792443844",
-      "locales": {
-        "en": {
-          "name": "TinyWalk",
-          "tagline": "Generate realistic HealthKit step and workout test data on-device, in seconds.",
-          "promo": "Generate realistic HealthKit step and workout samples on-device, in seconds. No ads, no account.",
-          "cta": "View on the App Store",
-          "features": [
-            "Generate realistic step count & workout samples",
-            "Writes directly into HealthKit on your device",
-            "No ads, no account — data generation is fully on-device",
-            "Built for developers & QA testing HealthKit apps"
-          ]
-        },
-        "zh-hant": {
-          "name": "TinyWalk",
-          "tagline": "在 iPhone 上快速產生結構正確的 HealthKit 測試資料，供開發與 QA 使用。",
-          "promo": "iOS 開發者工具：在真機上產生結構正確的 HealthKit 合成測試資料，供開發與 QA 驗證讀取 HealthKit 的 App。",
-          "cta": "在 App Store 查看",
-          "features": [
-            "產生逼真的步數與運動測試資料",
-            "直接寫入裝置上的 HealthKit",
-            "無廣告、免註冊——資料產生完全在裝置上完成",
-            "專為開發者與 QA 測試 HealthKit App 設計"
-          ]
-        },
-        "zh-hans": {
-          "name": "TinyWalk",
-          "tagline": "在 iPhone 上快速生成结构正确的 HealthKit 测试数据，供开发与 QA 使用。",
-          "promo": "iOS 开发者工具：在真机上生成结构正确的 HealthKit 合成测试数据，供开发与 QA 验证读取 HealthKit 的 App。",
-          "cta": "在 App Store 查看",
-          "features": [
-            "生成逼真的步数与运动测试数据",
-            "直接写入设备上的 HealthKit",
-            "无广告、免注册——数据生成完全在设备上完成",
-            "专为开发者与 QA 测试 HealthKit App 设计"
           ]
         }
       }
