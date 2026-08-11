@@ -48,6 +48,24 @@
             "Export any email to PDF in one click",
             "Attachments: open, preview, or save to disk",
             "Parses locally on your Mac — your email never leaves your device"
+          ],
+          "qa": [
+            {
+              "q": "Does this app need an internet connection?",
+              "a": "No — opening and reading .msg/.eml files works fully offline. An internet connection is only used if you choose to send feedback from the app menu."
+            },
+            {
+              "q": "Is my email data uploaded anywhere?",
+              "a": "No. Your .msg/.eml files are parsed entirely on your Mac. The only exception: if you use TinyMSGViewer → Send Feedback, the message you type (and a screenshot if you attach one) is sent to our support channel."
+            },
+            {
+              "q": "Is this a subscription?",
+              "a": "No. Tiny MSG Viewer is a one-time purchase on the Mac App Store — no subscriptions or in-app purchases."
+            },
+            {
+              "q": "Do I need Microsoft Outlook installed?",
+              "a": "No. Tiny MSG Viewer reads .msg and .eml files on its own — Outlook is not required."
+            }
           ]
         },
         "zh-hant": {
@@ -62,6 +80,24 @@
             "一鍵將郵件匯出成 PDF",
             "附件：開啟、預覽或存到磁碟",
             "在 Mac 本機解析 — 郵件不離開你的裝置"
+          ],
+          "qa": [
+            {
+              "q": "這個 App 需要網路連線嗎？",
+              "a": "不需要——開啟與閱讀 .msg／.eml 完全離線運作。只有當你從 App 選單使用「傳送意見回饋」時才會用到網路。"
+            },
+            {
+              "q": "我的郵件資料會被上傳嗎？",
+              "a": "不會。你的 .msg／.eml 檔案完全在你的 Mac 上解析。唯一例外：若你使用 TinyMSGViewer → 傳送意見回饋，你輸入的訊息（以及選擇附加的截圖）會傳送到我們的支援頻道。"
+            },
+            {
+              "q": "這是訂閱制嗎？",
+              "a": "不是。Tiny MSG Viewer 是 Mac App Store 單次付費購買，沒有訂閱也沒有內購。"
+            },
+            {
+              "q": "需要安裝 Microsoft Outlook 嗎？",
+              "a": "不需要，Tiny MSG Viewer 自己就能讀取 .msg 與 .eml 檔案，不需要 Outlook。"
+            }
           ]
         },
         "zh-hans": {
@@ -76,6 +112,24 @@
             "一键将邮件导出为 PDF",
             "附件：打开、预览或保存到磁盘",
             "在 Mac 本地解析 — 邮件不离开你的设备"
+          ],
+          "qa": [
+            {
+              "q": "这个 App 需要网络连接吗？",
+              "a": "不需要——打开与阅读 .msg／.eml 完全离线运行。只有当你从 App 菜单使用「发送意见反馈」时才会用到网络。"
+            },
+            {
+              "q": "我的邮件数据会被上传吗？",
+              "a": "不会。你的 .msg／.eml 文件完全在你的 Mac 上解析。唯一例外：若你使用 TinyMSGViewer → 发送意见反馈，你输入的消息（以及选择附加的截图）会发送到我们的支持渠道。"
+            },
+            {
+              "q": "这是订阅制吗？",
+              "a": "不是。Tiny MSG Viewer 是 Mac App Store 一次性付费购买，没有订阅也没有内购。"
+            },
+            {
+              "q": "需要安装 Microsoft Outlook 吗？",
+              "a": "不需要，Tiny MSG Viewer 自己就能读取 .msg 与 .eml 文件，不需要 Outlook。"
+            }
           ]
         }
       }
