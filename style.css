@@ -117,6 +117,12 @@ footer.site { text-align: center; padding: 32px 0 48px; color: var(--muted); fon
 
 .back-link { display: block; text-align: center; padding: 0 0 48px; color: var(--muted); }
 
+.qa { max-width: 560px; margin: 0 auto 48px; }
+.qa-item { padding: 16px 0; border-bottom: 1px solid var(--border); }
+.qa-item:last-child { border-bottom: none; }
+.qa-item h3 { margin: 0 0 6px; font-size: 0.95rem; }
+.qa-item p { margin: 0; color: var(--muted); font-size: 0.88rem; }
+
 /* legal / policy pages */
 .legal { padding: 40px 0 64px; max-width: 680px; margin: 0 auto; }
 .legal h1 { font-size: 1.6rem; margin: 0 0 4px; }

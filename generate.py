@@ -84,6 +84,14 @@ def app_html(app, locale):
         for f in shot_files
     )
     features = "".join(f"<li>{e(feat)}</li>" for feat in loc["features"])
+    qa_items = loc.get("qa") or []
+    qa_html = (
+        '<div class="qa">' + "".join(
+            f'<div class="qa-item"><h3>{e(item["q"])}</h3><p>{e(item["a"])}</p></div>'
+            for item in qa_items
+        ) + "</div>"
+        if qa_items else ""
+    )
     # Privacy page discovered by convention (like screenshots) rather than listed in
     # apps.json, so the link can never drift out of sync with what's actually on disk.
     privacy_href = f"/{locale}/{app['id']}/privacy/"
@@ -104,6 +112,7 @@ def app_html(app, locale):
   </section>
   <div class="screenshots">{shots}</div>
   <ul class="features">{features}</ul>
+  {qa_html}
   <a class="back-link" href="/{locale}/">← {e(hub['title'])}</a>
 </div>"""
     return page(f"{loc['name']} — {loc['tagline']}", body, locale)
