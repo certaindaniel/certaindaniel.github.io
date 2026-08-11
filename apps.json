@@ -111,7 +111,7 @@
             },
             {
               "q": "Is this a subscription?",
-              "a": "No. The app is free with no in-app purchases."
+              "a": "No. Web to PPT (Editable) is a one-time purchase on the Mac App Store — no subscriptions or in-app purchases."
             },
             {
               "q": "Does it use analytics or ads?",
@@ -143,7 +143,7 @@
             },
             {
               "q": "這是訂閱制嗎？",
-              "a": "不是。App 完全免費，沒有內購項目。"
+              "a": "不是。網頁轉 PPT (可編輯) 是 Mac App Store 單次付費購買，沒有訂閱也沒有內購。"
             },
             {
               "q": "有分析工具或廣告嗎？",
@@ -175,7 +175,7 @@
             },
             {
               "q": "这是订阅制吗？",
-              "a": "不是。App 完全免费，没有内购项目。"
+              "a": "不是。网页转 PPT (可编辑) 是 Mac App Store 一次性付费购买，没有订阅也没有内购。"
             },
             {
               "q": "有分析工具或广告吗？",
@@ -216,7 +216,7 @@
             },
             {
               "q": "Is this a subscription?",
-              "a": "No. The app is free with no in-app purchases."
+              "a": "No. Web to PPT (Editable) is a one-time purchase on the App Store — no subscriptions or in-app purchases."
             },
             {
               "q": "Does it use analytics or ads?",
@@ -248,7 +248,7 @@
             },
             {
               "q": "這是訂閱制嗎？",
-              "a": "不是。App 完全免費，沒有內購項目。"
+              "a": "不是。網頁轉 PPT (可編輯) 是 App Store 單次付費購買，沒有訂閱也沒有內購。"
             },
             {
               "q": "有分析工具或廣告嗎？",
@@ -280,7 +280,7 @@
             },
             {
               "q": "这是订阅制吗？",
-              "a": "不是。App 完全免费，没有内购项目。"
+              "a": "不是。网页转 PPT (可编辑) 是 App Store 一次性付费购买，没有订阅也没有内购。"
             },
             {
               "q": "有分析工具或广告吗？",
@@ -319,7 +319,7 @@
             },
             {
               "q": "Is this a subscription?",
-              "a": "No. EpubAloud is free with no in-app purchases."
+              "a": "No. EpubAloud is a one-time purchase on the App Store — no subscriptions or in-app purchases."
             },
             {
               "q": "How do I delete my data?",
@@ -349,7 +349,7 @@
             },
             {
               "q": "這是訂閱制嗎？",
-              "a": "不是。EpubAloud 完全免費，沒有內購項目。"
+              "a": "不是。EpubAloud 是 App Store 單次付費購買，沒有訂閱也沒有內購。"
             },
             {
               "q": "要怎麼刪除我的資料？",
@@ -379,7 +379,7 @@
             },
             {
               "q": "这是订阅制吗？",
-              "a": "不是。EpubAloud 完全免费，没有内购项目。"
+              "a": "不是。EpubAloud 是 App Store 一次性付费购买，没有订阅也没有内购。"
             },
             {
               "q": "要怎么删除我的数据？",
