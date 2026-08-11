@@ -641,6 +641,26 @@
           ]
         }
       }
+    },
+    {
+      "id": "trailpop",
+      "comingSoon": true,
+      "platform": "iOS",
+      "icon": "assets/trailpop/icon.png",
+      "locales": {
+        "en": {
+          "name": "TrailPop",
+          "tagline": "Turn your trip photos into a fog-of-war travel trail video — 100% on-device."
+        },
+        "zh-hant": {
+          "name": "TrailPop",
+          "tagline": "把旅遊照片變成世界迷霧解鎖的旅行軌跡影片，100% 本機處理。"
+        },
+        "zh-hans": {
+          "name": "TrailPop",
+          "tagline": "把旅游照片变成世界迷雾解锁的旅行轨迹影片，100% 本地处理。"
+        }
+      }
     }
   ]
 }

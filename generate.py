@@ -44,19 +44,26 @@ def page(title, body, locale):
 """
 
 
+COMING_SOON_LABEL = {"en": "Coming Soon", "zh-hant": "即將推出", "zh-hans": "即将推出"}
+
+
 def hub_html(locale):
     hub = SITE["hub"][locale]
     cards = []
     for app in APPS:
         loc = app["locales"][locale]
-        href = f'/{locale}/{app["id"]}/' if app.get("flagship") else app["appStoreUrl"]
-        cards.append(f"""
-    <a class="app-card" href="{e(href)}">
-      <span class="platform-tag">{e(app['platform'])}</span>
+        coming_soon = app.get("comingSoon")
+        tag = COMING_SOON_LABEL.get(locale, "Coming Soon") if coming_soon else app["platform"]
+        inner = f"""
+      <span class="platform-tag">{e(tag)}</span>
       <img class="icon" src="/{e(app['icon'])}" alt="">
       <h3>{e(loc['name'])}</h3>
-      <p>{e(loc['tagline'])}</p>
-    </a>""")
+      <p>{e(loc['tagline'])}</p>"""
+        if coming_soon:
+            cards.append(f'\n    <div class="app-card app-card--soon">{inner}\n    </div>')
+        else:
+            href = f'/{locale}/{app["id"]}/' if app.get("flagship") else app["appStoreUrl"]
+            cards.append(f'\n    <a class="app-card" href="{e(href)}">{inner}\n    </a>')
     body = f"""<div class="wrap">
   <header class="site">
     <h1>{e(hub['title'])}</h1>
