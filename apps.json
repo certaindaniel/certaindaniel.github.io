@@ -606,7 +606,8 @@
             "Generate realistic step count & workout samples",
             "Writes directly into HealthKit on your device",
             "No ads, no account — data generation is fully on-device",
-            "Built for developers & QA testing HealthKit apps"
+            "Built for developers & QA testing HealthKit apps",
+            "Pick the sample shape: one sample per session, or a per-minute split in an HKWorkout"
           ],
           "qa": [
             {
@@ -624,6 +625,10 @@
             {
               "q": "Does it cost anything?",
               "a": "The 100-step and 1,000-step datasets are free forever. Unlocking 2,000+ step datasets is a one-time purchase, no subscription."
+            },
+            {
+              "q": "Can I control how the samples are written?",
+              "a": "Yes. Sample Shape writes a session either as one step sample covering the whole window, or split into per-minute samples bundled in an HKWorkout — so you can exercise both paths your app might take. Whether distance is written alongside, and whether samples are tagged user-entered or device-recorded, are separate switches."
             }
           ]
         },
@@ -636,7 +641,8 @@
             "產生逼真的步數與運動測試資料",
             "直接寫入裝置上的 HealthKit",
             "無廣告、免註冊——資料產生完全在裝置上完成",
-            "專為開發者與 QA 測試 HealthKit App 設計"
+            "專為開發者與 QA 測試 HealthKit App 設計",
+            "可選樣本寫法：整段寫成一筆，或拆成每分鐘樣本並包進 HKWorkout"
           ],
           "qa": [
             {
@@ -654,6 +660,10 @@
             {
               "q": "需要付費嗎？",
               "a": "100 步與 1,000 步的資料集永久免費；解鎖 2,000 步以上的資料集是一次性購買，沒有訂閱。"
+            },
+            {
+              "q": "可以控制資料怎麼寫入嗎？",
+              "a": "可以。「樣本寫法」能把一次產生寫成涵蓋整段時間的單一步數樣本，或拆成每分鐘樣本並包進 HKWorkout，讓你測試 App 兩種可能的讀取路徑。距離要不要一併寫入、樣本標記為手動輸入或裝置自動記錄，也都是各自獨立的開關。"
             }
           ]
         },
@@ -666,7 +676,8 @@
             "生成逼真的步数与运动测试数据",
             "直接写入设备上的 HealthKit",
             "无广告、免注册——数据生成完全在设备上完成",
-            "专为开发者与 QA 测试 HealthKit App 设计"
+            "专为开发者与 QA 测试 HealthKit App 设计",
+            "可选样本写法：整段写成一条，或拆成每分钟样本并包进 HKWorkout"
           ],
           "qa": [
             {
@@ -684,6 +695,10 @@
             {
               "q": "需要付费吗？",
               "a": "100 步与 1,000 步的数据集永久免费；解锁 2,000 步以上的数据集是一次性购买，没有订阅。"
+            },
+            {
+              "q": "可以控制数据怎么写入吗？",
+              "a": "可以。「样本写法」能把一次生成写成涵盖整段时间的单条步数样本，或拆成每分钟样本并包进 HKWorkout，让你测试 App 两种可能的读取路径。距离要不要一并写入、样本标记为手动输入或设备自动记录，也都是各自独立的开关。"
             }
           ]
         }
