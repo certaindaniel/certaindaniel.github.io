@@ -137,3 +137,10 @@ footer.site { text-align: center; padding: 32px 0 48px; color: var(--muted); fon
 .legal p, .legal li { color: var(--fg); }
 .legal ul { padding-left: 20px; }
 .legal a { word-break: break-word; }
+
+/* Support block — the Support URL Apple checks has to answer "how do I get help?" */
+.support { max-width: 560px; margin: 0 auto 48px; padding-top: 24px; border-top: 1px solid var(--border); }
+.support h2 { margin: 0 0 8px; font-size: 1rem; }
+.support p { margin: 0 0 10px; color: var(--muted); font-size: 0.88rem; line-height: 1.6; }
+.support-link { color: var(--accent, #2563eb); font-size: 0.9rem; font-weight: 600; text-decoration: none; }
+.support-link:hover { text-decoration: underline; }

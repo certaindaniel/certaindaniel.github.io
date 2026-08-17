@@ -4,6 +4,7 @@ import json
 import html
 import os
 import glob
+import urllib.parse
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
@@ -87,6 +88,40 @@ PRIVACY_LABEL = {
     "en": "Privacy Policy", "zh-hant": "隱私權政策", "zh-hans": "隐私政策",
 }
 
+# Apple rejects a Support URL that is only a marketing page (Guideline 1.5 — TrailPop
+# 1.1 was rejected for exactly this). Every app page carries a real support block with
+# a working contact address, so any page can be used as the Support URL.
+SUPPORT = {
+    "en": {
+        "heading": "Support",
+        "body": "Questions, bug reports, or feature requests — email us and we will get back to you. Please mention your device model and OS version so we can reproduce the problem.",
+        "cta": "Email support",
+    },
+    "zh-hant": {
+        "heading": "支援與聯絡",
+        "body": "使用問題、錯誤回報或功能建議，都歡迎寄信給我們，我們會回覆你。請一併說明你的裝置型號與系統版本，方便我們重現問題。",
+        "cta": "寄信給支援",
+    },
+    "zh-hans": {
+        "heading": "支持与联系",
+        "body": "使用问题、错误报告或功能建议，都欢迎发邮件给我们，我们会回复你。请一并说明你的设备型号与系统版本，方便我们重现问题。",
+        "cta": "发邮件给支持",
+    },
+}
+
+
+def support_html(app, locale):
+    email = SITE.get("supportEmail")
+    if not email:
+        return ""
+    s = SUPPORT.get(locale, SUPPORT["en"])
+    subject = urllib.parse.quote(f"{app['locales'][locale]['name']} support")
+    return f"""<section class="support" id="support">
+    <h2>{e(s['heading'])}</h2>
+    <p>{e(s['body'])}</p>
+    <p><a class="support-link" href="mailto:{e(email)}?subject={subject}">{e(s['cta'])}: {e(email)}</a></p>
+  </section>"""
+
 
 def app_html(app, locale):
     loc = app["locales"][locale]
@@ -131,6 +166,7 @@ def app_html(app, locale):
   <div class="screenshots">{shots}</div>
   <ul class="features">{features}</ul>
   {qa_html}
+  {support_html(app, locale)}
   <a class="back-link" href="/{locale}/">← {e(hub['title'])}</a>
 </div>"""
     return page(f"{loc['name']} — {loc['tagline']}", body, locale)
