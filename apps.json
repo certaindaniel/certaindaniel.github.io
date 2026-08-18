@@ -1254,15 +1254,15 @@
     {
       "id": "trailpop",
       "flagship": true,
-      "comingSoon": true,
-      "platform": "iOS",
+      "platform": "Mac",
       "icon": "assets/trailpop/icon.png",
+      "appStoreUrl": "https://apps.apple.com/app/id6794613502",
       "locales": {
         "en": {
           "name": "TrailPop",
           "tagline": "Turn your trip photos into a fog-of-war travel trail video — 100% on-device.",
           "promo": "TrailPop turns your trip photos into a turn-by-turn travel trail video. Fog-of-war unfogs as your route progresses, photos pop out in 3D at each stop, and everything renders 100% on your device — nothing uploaded.",
-          "cta": "Coming Soon",
+          "cta": "View on the Mac App Store",
           "features": [
             "Reads GPS + timestamp from your photos' EXIF automatically",
             "Real turn-by-turn road navigation trace (MapKit directions)",
@@ -1295,7 +1295,7 @@
           "name": "TrailPop",
           "tagline": "把旅遊照片變成地圖迷霧逐段點亮的旅行軌跡影片，100% 本機處理。",
           "promo": "TrailPop 把旅遊照片變成 turn-by-turn 的旅行軌跡影片。地圖迷霧隨路線推進逐段點亮，每個停靠點相片會 3D 彈出特寫，全程 100% 本機運算，不上傳任何內容。",
-          "cta": "即將推出",
+          "cta": "在 Mac App Store 查看",
           "features": [
             "自動讀取照片 EXIF 的 GPS 座標與拍攝時間",
             "真實道路 turn-by-turn 導航軌跡（MapKit）",
@@ -1328,7 +1328,7 @@
           "name": "TrailPop",
           "tagline": "把旅游照片变成地图迷雾逐段点亮的旅行轨迹影片，100% 本地处理。",
           "promo": "TrailPop 把旅游照片变成 turn-by-turn 的旅行轨迹影片。地图迷雾随路线推进逐段点亮，每个停靠点照片会 3D 弹出特写，全程 100% 本地运算，不上传任何内容。",
-          "cta": "即将推出",
+          "cta": "在 Mac App Store 查看",
           "features": [
             "自动读取照片 EXIF 的 GPS 坐标与拍摄时间",
             "真实道路 turn-by-turn 导航轨迹（MapKit）",
