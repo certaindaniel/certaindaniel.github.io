@@ -1011,24 +1011,24 @@
       "locales": {
         "en": {
           "name": "Q-Dir",
-          "tagline": "A lightweight macOS file manager — multi-pane, quick preview, tags, SFTP.",
-          "promo": "A lightweight macOS file manager built for speed — multi-pane browsing, Quick Look, Finder tag sync, and SFTP support.",
+          "tagline": "A lightweight macOS file manager — multi-pane, quick preview, tags, SFTP, SMB and AFP.",
+          "promo": "A lightweight macOS file manager built for speed — multi-pane browsing, Quick Look, Finder tag sync, and remote folders over SFTP, SMB and AFP.",
           "cta": "View on the Mac App Store",
           "features": [
             "Multi-pane list & grid view",
             "Quick Look and fast file preview",
             "Finder tag sync",
             "Drag & drop file operations",
-            "Built-in SFTP support"
+            "Built-in SFTP, SMB and AFP connections"
           ],
           "qa": [
             {
               "q": "Does Q-Dir need an internet connection?",
-              "a": "No. All file browsing and management work entirely offline."
+              "a": "Local file browsing and management work entirely offline. A connection is only used when you open a remote server (SFTP, SMB or AFP) or choose to send feedback from inside the app."
             },
             {
               "q": "Is my data uploaded anywhere?",
-              "a": "No. Q-Dir has no server — everything is processed and stored on your Mac. If you use SFTP, credentials are stored in the macOS Keychain and the connection goes directly to the server you specify."
+              "a": "Q-Dir has no server of its own — your files stay on your Mac. SFTP credentials are kept in the macOS Keychain and the connection goes straight to the server you specify; SMB and AFP shares are mounted by macOS itself. The only thing that ever leaves your Mac is a feedback message, and any file you attach to it, when you choose to send one."
             },
             {
               "q": "Is this a subscription?",
@@ -1042,24 +1042,24 @@
         },
         "zh-hant": {
           "name": "Q-Dir",
-          "tagline": "輕量 macOS 檔案管理工具，多窗格、快速預覽、Finder 標籤同步。",
-          "promo": "QDir 是一款輕量的 macOS 檔案與目錄管理工具，專注於快速預覽、檔案操作與本地化體驗。",
+          "tagline": "輕量 macOS 檔案管理工具，多窗格、快速預覽、Finder 標籤同步、SFTP／SMB／AFP 遠端連線。",
+          "promo": "QDir 是一款輕量的 macOS 檔案與目錄管理工具，專注於快速預覽、檔案操作與本地化體驗，並可把 SFTP、SMB、AFP 的遠端資料夾跟本機資料夾並排使用。",
           "cta": "在 Mac App Store 查看",
           "features": [
             "多窗格清單／格狀檢視",
             "Quick Look 快速預覽",
             "Finder 標籤同步",
             "拖放檔案操作",
-            "內建 SFTP 支援"
+            "內建 SFTP、SMB、AFP 遠端連線"
           ],
           "qa": [
             {
               "q": "Q-Dir 需要連網嗎？",
-              "a": "不需要，所有檔案瀏覽與管理功能都能離線完成。"
+              "a": "本機的檔案瀏覽與管理都能離線完成。只有在你連線遠端伺服器（SFTP／SMB／AFP），或主動送出意見回饋時才會用到網路。"
             },
             {
               "q": "我的資料會被上傳嗎？",
-              "a": "不會，Q-Dir 沒有伺服器，一切都在你的 Mac 上處理與儲存。若使用 SFTP，憑證存在 macOS Keychain，連線直接連到你指定的伺服器。"
+              "a": "Q-Dir 沒有自己的伺服器，檔案都留在你的 Mac 上。SFTP 憑證存在 macOS Keychain，連線直接連到你指定的伺服器；SMB／AFP 則是交由 macOS 掛載。唯一會離開你 Mac 的，是你主動送出的意見回饋內容，以及你自己附加的檔案。"
             },
             {
               "q": "這是訂閱制嗎？",
@@ -1073,24 +1073,24 @@
         },
         "zh-hans": {
           "name": "Q-Dir",
-          "tagline": "轻量 macOS 文件管理工具，多窗格、快速预览、Finder 标签同步。",
-          "promo": "QDir 是一款轻量的 macOS 文件与目录管理工具，专注于快速预览、文件操作与本地化体验。",
+          "tagline": "轻量 macOS 文件管理工具，多窗格、快速预览、Finder 标签同步、SFTP／SMB／AFP 远程连接。",
+          "promo": "QDir 是一款轻量的 macOS 文件与目录管理工具，专注于快速预览、文件操作与本地化体验，并可把 SFTP、SMB、AFP 的远程文件夹跟本地文件夹并排使用。",
           "cta": "在 Mac App Store 查看",
           "features": [
             "多窗格列表／网格视图",
             "Quick Look 快速预览",
             "Finder 标签同步",
             "拖放文件操作",
-            "内置 SFTP 支持"
+            "内置 SFTP、SMB、AFP 远程连接"
           ],
           "qa": [
             {
               "q": "Q-Dir 需要联网吗？",
-              "a": "不需要，所有文件浏览与管理功能都能离线完成。"
+              "a": "本地的文件浏览与管理都能离线完成。只有在你连接远程服务器（SFTP／SMB／AFP），或主动发送意见反馈时才会用到网络。"
             },
             {
               "q": "我的数据会被上传吗？",
-              "a": "不会，Q-Dir 没有服务器，一切都在你的 Mac 上处理与存储。若使用 SFTP，凭证存在 macOS 钥匙串，连接直接连到你指定的服务器。"
+              "a": "Q-Dir 没有自己的服务器，文件都留在你的 Mac 上。SFTP 凭证存在 macOS 钥匙串，连接直接连到你指定的服务器；SMB／AFP 则交由 macOS 挂载。唯一会离开你 Mac 的，是你主动发送的意见反馈内容，以及你自己附加的文件。"
             },
             {
               "q": "这是订阅制吗？",

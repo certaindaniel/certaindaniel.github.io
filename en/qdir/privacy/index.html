@@ -11,14 +11,17 @@
   <nav class="lang-switch"><a href="/en/qdir/privacy/" class="current">English</a><a href="/zh-hant/qdir/privacy/">繁體中文</a><a href="/zh-hans/qdir/privacy/">简体中文</a></nav>
   <div class="legal">
     <h1>Q-Dir — Privacy Policy</h1>
-    <p class="updated">Last updated: August 11, 2026</p>
-    <p>Q-Dir is a macOS file manager. It operates entirely on your Mac and does not collect, store, or transmit any personal data.</p>
+    <p class="updated">Last updated: August 25, 2026</p>
+    <p>Q-Dir is a macOS file manager. File operations run entirely on your Mac, and we do not collect or store your personal data. The only data that ever leaves your Mac is feedback you choose to send (see "Feedback" below) and the files you transfer to a remote server you specify yourself.</p>
     <h2>Local file access</h2>
     <p>Q-Dir only accesses files and folders you explicitly open. File operations (browsing, copying, moving, deleting) run locally on your device. Q-Dir does not collect, upload, or store the contents of your files. To provide file management features it may read file metadata — name, size, type, modification date, and folder structure — but this metadata never leaves your Mac.</p>
     <h2>App Sandbox</h2>
     <p>Q-Dir runs inside macOS's App Sandbox. Its access is limited to locations you explicitly grant — the files and folders you open, plus its own preferences and Application Support data in your user Library folder. It cannot reach system-sensitive data outside what you've granted.</p>
-    <h2>Remote connections (SFTP)</h2>
+    <h2>Remote connections (SFTP, SMB, AFP)</h2>
     <p>If you use Q-Dir's SFTP feature to connect to your own remote server, your login credentials are stored securely in the macOS Keychain on your device. The connection goes directly from your Mac to the server you specify — Q-Dir does not relay, see, or store your credentials or transferred files on any server of ours.</p>
+    <p>SMB and AFP shares are mounted by macOS itself — the same mechanism Finder uses for "Connect to Server" — and their credentials are held by the system keychain, not stored separately by Q-Dir.</p>
+    <h2>Feedback</h2>
+    <p>The in-app feedback form is something you trigger yourself. When you press send, the message you typed and any file you attached are sent to the developer's internal Slack channel so your report can be answered and tracked. Nothing leaves your Mac unless you send it, and the feature never collects your files, usage behavior, or device identifiers on its own.</p>
     <h2>Local storage</h2>
     <p>App preferences, window state, and settings are stored only in local storage on your device. Uninstalling Q-Dir removes all of this data.</p>
     <h2>Third-party services</h2>
