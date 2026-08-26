@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinyAquarium 掌上微光水族館 — 官方玩法教學與新手指南</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-deep: #051329;
+            --bg-surface: #0a2246;
+            --card-bg: rgba(16, 42, 82, 0.75);
+            --card-border: rgba(64, 169, 255, 0.25);
+            --cyan-primary: #00d2ff;
+            --cyan-glow: rgba(0, 210, 255, 0.4);
+            --blue-ocean: #0077ff;
+            --gold-accent: #ffd15c;
+            --pink-heart: #ff5e7e;
+            --green-leaf: #52c41a;
+            --text-main: #f0f7ff;
+            --text-sub: #9ec0e6;
+            --radius-card: 20px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            background-image: 
+                radial-gradient(circle at 50% 0%, #0d3875 0%, transparent 60%),
+                radial-gradient(circle at 10% 80%, #072144 0%, transparent 50%),
+                linear-gradient(180deg, #051329 0%, #020914 100%);
+            color: var(--text-main);
+            font-family: 'Plus Jakarta Sans', 'Noto Sans TC', sans-serif;
+            line-height: 1.65;
+            overflow-x: hidden;
+        }
+
+        /* Top Navigation */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            background: rgba(5, 19, 41, 0.82);
+            border-bottom: 1px solid var(--card-border);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: var(--text-main);
+            text-decoration: none;
+        }
+
+        .logo span.badge {
+            font-family: 'DotGothic16', monospace;
+            background: linear-gradient(135deg, #00d2ff, #0077ff);
+            color: #000;
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.8rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-sub);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--cyan-primary);
+            text-shadow: 0 0 10px var(--cyan-glow);
+        }
+
+        .cta-btn {
+            background: linear-gradient(135deg, #00d2ff 0%, #0077ff 100%);
+            color: #031326;
+            font-weight: 700;
+            padding: 0.6rem 1.4rem;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 4px 20px var(--cyan-glow);
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 28px rgba(0, 210, 255, 0.6);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 5rem 0 3rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero-tag {
+            display: inline-block;
+            background: rgba(0, 210, 255, 0.12);
+            color: var(--cyan-primary);
+            border: 1px solid var(--card-border);
+            padding: 6px 16px;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.05em;
+        }
+
+        .hero h1 {
+            font-size: 3.2rem;
+            font-weight: 900;
+            line-height: 1.2;
+            margin-bottom: 1.2rem;
+            background: linear-gradient(180deg, #ffffff 30%, #a2d7ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p.lead {
+            font-size: 1.25rem;
+            color: var(--text-sub);
+            max-width: 760px;
+            margin: 0 auto 2.5rem;
+        }
+
+        /* Interactive Canvas Simulator */
+        .simulator-box {
+            background: rgba(10, 34, 70, 0.6);
+            border: 1px solid var(--card-border);
+            border-radius: 28px;
+            padding: 20px;
+            margin: 2rem auto;
+            max-width: 820px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 210, 255, 0.15);
+            position: relative;
+        }
+
+        .simulator-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 14px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            margin-bottom: 12px;
+            font-size: 0.9rem;
+        }
+
+        .sim-hud {
+            display: flex;
+            gap: 14px;
+            font-family: 'DotGothic16', monospace;
+            font-size: 0.95rem;
+        }
+
+        .sim-hud span {
+            background: rgba(0, 0, 0, 0.35);
+            padding: 4px 10px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        #aquariumCanvas {
+            width: 100%;
+            height: 380px;
+            background: linear-gradient(180deg, #0c3b7a 0%, #061c3f 80%, #031026 100%);
+            border-radius: 18px;
+            display: block;
+            cursor: pointer;
+        }
+
+        .sim-footer {
+            margin-top: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-sub);
+        }
+
+        .sim-btn-group {
+            display: flex;
+            gap: 10px;
+        }
+
+        .sim-btn {
+            background: rgba(0, 210, 255, 0.15);
+            border: 1px solid var(--cyan-primary);
+            color: var(--cyan-primary);
+            padding: 6px 14px;
+            border-radius: 8px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .sim-btn:hover {
+            background: var(--cyan-primary);
+            color: #000;
+        }
+
+        .sim-btn.active {
+            background: var(--gold-accent);
+            border-color: var(--gold-accent);
+            color: #000;
+        }
+
+        /* Section Headings */
+        .section-header {
+            text-align: center;
+            margin: 5rem 0 3rem;
+        }
+
+        .section-header h2 {
+            font-size: 2.3rem;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 0.8rem;
+        }
+
+        .section-header p {
+            color: var(--text-sub);
+            font-size: 1.1rem;
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        /* Grid Cards */
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.8rem;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: var(--radius-card);
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            border-color: rgba(0, 210, 255, 0.6);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 210, 255, 0.2);
+        }
+
+        .card-icon {
+            font-size: 2.2rem;
+            margin-bottom: 1.2rem;
+            display: inline-block;
+            padding: 12px;
+            background: rgba(0, 210, 255, 0.1);
+            border-radius: 16px;
+            border: 1px solid rgba(0, 210, 255, 0.2);
+        }
+
+        .card h3 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 0.8rem;
+            color: #ffffff;
+        }
+
+        .card p {
+            color: var(--text-sub);
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .card ul li {
+            padding: 6px 0;
+            color: #d1e4ff;
+            font-size: 0.92rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        .card ul li strong {
+            color: var(--cyan-primary);
+        }
+
+        /* Step Badge */
+        .step-badge {
+            background: var(--cyan-primary);
+            color: #031326;
+            font-weight: 800;
+            font-size: 0.8rem;
+            padding: 2px 8px;
+            border-radius: 6px;
+            display: inline-block;
+            margin-bottom: 0.6rem;
+        }
+
+        /* Interactive Breeding Calculator */
+        .calc-box {
+            background: rgba(10, 34, 70, 0.85);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            padding: 2.5rem;
+            margin: 2rem 0;
+        }
+
+        .calc-selectors {
+            display: flex;
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+            flex-wrap: wrap;
+        }
+
+        .calc-select-group {
+            flex: 1;
+            min-width: 220px;
+        }
+
+        .calc-select-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 700;
+            color: var(--text-sub);
+            font-size: 0.9rem;
+        }
+
+        .calc-select-group select {
+            width: 100%;
+            padding: 12px 16px;
+            background: #061935;
+            border: 1px solid var(--card-border);
+            color: #fff;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 600;
+            outline: none;
+        }
+
+        .calc-result {
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(0, 210, 255, 0.3);
+            border-radius: 16px;
+            padding: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-top: 1.5rem;
+        }
+
+        .calc-result-sprite {
+            font-size: 3.5rem;
+            background: rgba(0, 210, 255, 0.1);
+            padding: 10px 20px;
+            border-radius: 14px;
+            border: 1px dashed var(--cyan-primary);
+        }
+
+        /* FAQ Accordion */
+        .faq-item {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 1.4rem 1.8rem;
+            font-weight: 700;
+            font-size: 1.1rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+
+        .faq-question:hover {
+            color: var(--cyan-primary);
+        }
+
+        .faq-answer {
+            padding: 0 1.8rem 1.4rem;
+            color: var(--text-sub);
+            font-size: 0.95rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid var(--card-border);
+            padding: 4rem 0 3rem;
+            margin-top: 6rem;
+            background: #020914;
+            text-align: center;
+            color: var(--text-sub);
+            font-size: 0.9rem;
+        }
+
+        footer .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 1.5rem 0;
+            list-style: none;
+        }
+
+        footer .footer-links a {
+            color: var(--text-sub);
+            text-decoration: none;
+        }
+
+        footer .footer-links a:hover {
+            color: var(--cyan-primary);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.2rem; }
+            .nav-links { display: none; }
+            .grid-2 { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#" class="logo">
+            🐠 TinyAquarium <span class="badge">iOS 17+</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#simulator">模擬體驗</a></li>
+            <li><a href="#core-loop">核心玩法</a></li>
+            <li><a href="#tank-guide">魚缸養成</a></li>
+            <li><a href="#breeding">繁育配種</a></li>
+            <li><a href="#dex">萬種千魚</a></li>
+            <li><a href="#faq">常見問題</a></li>
+        </ul>
+        <a href="#download" class="cta-btn">
+            <span>📲 App Store 下載</span>
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero container">
+        <div class="hero-tag">✨ 慢活治癒 · 健走孵化 · 零壓陪伴</div>
+        <h1>將你的每日步數<br>化作桌面上悠游的像素水族館</h1>
+        <p class="lead">結合 Apple HealthKit 步數轉化、Pikmin 式浮游金幣收割、Lo-Fi 沉浸白噪音與近場 P2P 免伺服器碰一下交換。零強制廣告、零焦慮，隨時點亮螢幕享受微光陪伴。</p>
+        
+        <!-- Live HTML5 Aquarium Simulator Box -->
+        <div class="simulator-box" id="simulator">
+            <div class="simulator-header">
+                <div style="font-weight: 800; color: #fff;">🌊 晨曦淡水缸 <span style="color: var(--cyan-primary);">Lv.1</span></div>
+                <div class="sim-hud">
+                    <span>🏃 <strong id="hudSteps">4,261</strong></span>
+                    <span>🫧 <strong id="hudCoins">120</strong></span>
+                    <span>❤️ <strong id="hudHearts">100</strong></span>
+                    <span>🥫 <strong id="hudFood">5/5</strong></span>
+                    <span>🐟 <strong id="hudFish">3/8</strong></span>
+                </div>
+            </div>
+            
+            <canvas id="aquariumCanvas" width="780" height="380"></canvas>
+            
+            <div class="sim-footer">
+                <div>
+                    💡 <span id="modeStatus">平時滑動模式：滑動採集浮游金幣泡泡；點擊魚隻撫摸</span>
+                </div>
+                <div class="sim-btn-group">
+                    <button class="sim-btn" id="toggleFeedBtn" onclick="toggleFeedMode()">🥫 進入餵食模式</button>
+                    <button class="sim-btn" onclick="addSimSteps(500)">🏃 健走 +500 步</button>
+                    <button class="sim-btn" onclick="spawnNewFish()">🥚 破殼新魚</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Core Gameplay Guide -->
+    <section class="container" id="core-loop">
+        <div class="section-header">
+            <h2>🎮 三大核心療癒玩法教學</h2>
+            <p>簡單三步，輕鬆將散步走路與桌面放鬆融為一體</p>
+        </div>
+
+        <div class="grid-3">
+            <div class="card">
+                <span class="step-badge">玩法一</span>
+                <div class="card-icon">🚶</div>
+                <h3>健走孵化 (Walk to Hatch)</h3>
+                <p>無需一直開著 App！iPhone 與 Apple Watch 自動記錄日常行走：</p>
+                <ul>
+                    <li>• <strong>步數轉化</strong>：每走一步自動推進魚卵孵化進度條（如 1,000 ~ 3,000 步）。</li>
+                    <li>• <strong>破殼儀式</strong>：步數達標後，點擊 3 次蛋殼歡慶誕生！</li>
+                    <li>• <strong>飼料回補</strong>：每走 100 步或放置 30 分鐘自動補充 1 罐飼料。</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <span class="step-badge">玩法二</span>
+                <div class="card-icon">🫧</div>
+                <h3>泡泡金幣收割 (Harvest)</h3>
+                <p>借鑑《皮克敏》經典的滑動採集爽快感：</p>
+                <ul>
+                    <li>• <strong>自然產出</strong>：開心的魚兒每分鐘在水面浮出金幣泡泡。</li>
+                    <li>• <strong>指尖滑過</strong>：手指划過水面即可批量連鎖破泡收割 🪙 金幣。</li>
+                    <li>• <strong>零誤觸防護</strong>：平時滑動純粹撫摸與收割，不浪費珍貴飼料！</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <span class="step-badge">玩法三</span>
+                <div class="card-icon">🥫</div>
+                <h3>精準投餵與尋食 AI</h3>
+                <p>開啟專屬餵食開關，享受魚群歡快搶食：</p>
+                <ul>
+                    <li>• <strong>指定灑料點</strong>：點擊工具列「進入餵食模式」，在任意水面落餌。</li>
+                    <li>• <strong>魚群搶食 AI</strong>：全缸小魚主動加速游向飼料碎屑！</li>
+                    <li>• <strong>成長進化</strong>：進食獲得 +15 經驗值，成長為成魚與老魚。</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tank Progression & Management -->
+    <section class="container" id="tank-guide">
+        <div class="section-header">
+            <h2>🏛️ 魚缸升級、擴建與換缸搬家</h2>
+            <p>從一格方缸到壯麗水族天地，全面掌握容納上限與多缸管理</p>
+        </div>
+
+        <div class="grid-2">
+            <div class="card">
+                <div class="card-icon">📈</div>
+                <h3>魚缸容量與升級規則</h3>
+                <p>全系統嚴格遵守數值公式，拒絕無上限數值膨脹：</p>
+                <ul>
+                    <li>• <strong>容納上限公式</strong>：<code>容量 = Level × 4 + 4 隻魚</code>（Lv.1=8隻、Lv.2=12隻、Lv.3=16隻）。</li>
+                    <li>• <strong>升級消耗</strong>：至「工坊 (Workshop)」消耗 <code>Level × 150 🪙 泡泡金幣</code> 擴建。</li>
+                    <li>• <strong>開闢新魚缸</strong>：
+                        <br>▫️ 第 1 座：初始免費贈送
+                        <br>▫️ 第 2 座：需達 <strong>Lv.3 ＋ 500 🪙</strong>
+                        <br>▫️ 第 3 座：需達 <strong>Lv.5 ＋ 1,500 🪙</strong>
+                        <br>▫️ 第 4 座：需達 <strong>Lv.8 ＋ 3,500 🪙</strong>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🚚</div>
+                <h3>魚隻換缸搬家 ＆ 名稱編輯</h3>
+                <p>魚隻與水族天地完全個人化，隨心配置魚缸生態：</p>
+                <ul>
+                    <li>• <strong>🚚 魚隻搬家換缸</strong>：點擊任意魚隻進入檔案 ➔ 點擊【🚚 搬家至其他魚缸】➔ 選擇目標缸立即無縫遷入！</li>
+                    <li>• <strong>🏷️ 魚隻自由命名</strong>：檔案頁面點擊【✏️ 改名】，即時更新頭頂名牌。</li>
+                    <li>• <strong>🏛️ 魚缸重新命名</strong>：在工坊頂部卡片或水族箱管理卡片點擊【✏️ 鉛筆圖示】隨時修改水族箱名稱。</li>
+                    <li>• <strong>🐟 現有魚群名冊</strong>：在「圖鑑」分頁切換至【🐟 現有魚群名冊】，總覽名下所有活體小魚！</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breeding & P2P Trade -->
+    <section class="container" id="breeding">
+        <div class="section-header">
+            <h2>🧬 繁育實驗室與近場 P2P 交換</h2>
+            <p>探索雙親基因突變配方，或面對面碰一下交換神魚</p>
+        </div>
+
+        <div class="calc-box">
+            <h3 style="font-size: 1.5rem; font-weight: 800; margin-bottom: 0.5rem;">🧪 互動式繁育配方計算器 (Breeding Mutator)</h3>
+            <p style="color: var(--text-sub);">選擇兩條已成熟的親代魚隻，預覽繁育可能孵化出的神秘突變幼魚：</p>
+            
+            <div class="calc-selectors">
+                <div class="calc-select-group">
+                    <label>親代 A (Father/Mother 1):</label>
+                    <select id="parentA" onchange="calculateBreeding()">
+                        <option value="clownfish">🤡 眼斑小丑魚 (Common)</option>
+                        <option value="neon_tetra">✨ 霓虹燈魚 (Common)</option>
+                        <option value="betta">🥋 泰國鬥魚 (Uncommon)</option>
+                        <option value="koi">🎏 日本紅白錦鯉 (Rare)</option>
+                        <option value="manta">🪐 星雲魟魚 (Epic)</option>
+                    </select>
+                </div>
+                <div class="calc-select-group">
+                    <label>親代 B (Father/Mother 2):</label>
+                    <select id="parentB" onchange="calculateBreeding()">
+                        <option value="neon_tetra">✨ 霓虹燈魚 (Common)</option>
+                        <option value="clownfish">🤡 眼斑小丑魚 (Common)</option>
+                        <option value="guppy">🦚 七彩孔雀魚 (Common)</option>
+                        <option value="discus">💿 七彩神仙魚 (Rare)</option>
+                        <option value="dragon">🐉 碧玉青龍魚 (Legendary)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="calc-result">
+                <div class="calc-result-sprite" id="babySprite">✨</div>
+                <div>
+                    <div style="font-size: 1.25rem; font-weight: 800; color: #fff;" id="babyName">極光螢光小丑魚 (Aurora Clownfish)</div>
+                    <div style="font-size: 0.85rem; color: var(--cyan-primary); margin: 4px 0;" id="babyRarity">稀有度：💜 史詩 (Epic) · 需 2,500 步孵化</div>
+                    <div style="font-size: 0.9rem; color: var(--text-sub);" id="babyDesc">完美融合小丑魚的靈巧條紋與霓虹燈魚的生物冷光，游動時在水中留下若隱若現的極光尾跡。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-2" style="margin-top: 2rem;">
+            <div class="card">
+                <div class="card-icon">🤝</div>
+                <h3>零伺服器 P2P 近場交換</h3>
+                <p>像小時候 GameBoy 傳輸線般面對面碰一下：</p>
+                <ul>
+                    <li>• <strong>Apple MultipeerConnectivity</strong>：透過藍牙/WiFi Direct 離線直連。</li>
+                    <li>• <strong>原子銷毀握手</strong>：確認贈送後，原魚隻游出並銷毀，接收端彈出像素禮盒破殼收下。</li>
+                    <li>• <strong>防複製與雙花</strong>：全流程記憶體加密傳輸，零雲端檔案外洩。</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🎵</div>
+                <h3>Lo-Fi 沉浸專注番茄鐘</h3>
+                <p>工作伴讀時的靜謐水族微陪伴：</p>
+                <ul>
+                    <li>• <strong>4 首程式化 Lo-Fi 鋼琴</strong>：68 BPM 溫潤和弦，繞過硬體靜音鍵。</li>
+                    <li>• <strong>25 / 50 min 番茄鐘</strong>：專注時魚兒靜靜漫游，完成時收穫「專注珍珠」。</li>
+                    <li>• <strong>柔和粉紅水流白噪音</strong>：沉浸降噪，舒緩焦慮與工作疲勞。</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 1,000+ Species Dex -->
+    <section class="container" id="dex">
+        <div class="section-header">
+            <h2>📖 萬種千魚素材庫 (1,000+ Species)</h2>
+            <p>10 大文化與生態主題卷庫，滿足無盡收集渴望</p>
+        </div>
+
+        <div class="grid-3">
+            <div class="card">
+                <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">🏮 第一卷</div>
+                <h3>東亞水墨與名物</h3>
+                <p>日本錦鯉名門（大日紅白、昭和三色）、江戶古典金魚（水泡眼、蘭壽）、台灣高山特有種。</p>
+            </div>
+            <div class="card">
+                <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">🌴 第二卷</div>
+                <h3>亞馬遜狂野流域</h3>
+                <p>L046 帝王斑馬、黑帝王魟、巨骨舌魚、奧利諾科七彩短鯛與黑水古生代水虎。</p>
+            </div>
+            <div class="card">
+                <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">🪸 第四卷</div>
+                <h3>全球珊瑚礁大堡礁</h3>
+                <p>藍倒吊、女王神仙、黑公子小丑、大肚海馬、花斑麒麟青蛙魚與微距海蛞蝓。</p>
+            </div>
+            <div class="card">
+                <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">🌌 第五卷</div>
+                <h3>萬米深海海溝幽冥</h3>
+                <p>提燈黑角鮟鱇、吞噬鰻、吸血鬼烏賊、大王酸漿魷、雪人蟹與熱液盲蝦。</p>
+            </div>
+            <div class="card">
+                <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">🐉 第七卷</div>
+                <h3>東方山海經與巨鯤</h3>
+                <p>北溟巨鯤、陵魚人魚、文鰩飛魚、何羅十身魚、青龍水靈與太極陰陽魚。</p>
+            </div>
+            <div class="card">
+                <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">🍰 第十卷</div>
+                <h3>四季節慶與甜蜜甜點</h3>
+                <p>舒芙蕾膨膨豚、草莓可麗餅海蛞蝓、春櫻夜祭錦鯉、鯛魚燒暖暖魚與發條齒輪魚。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="container" id="faq">
+        <div class="section-header">
+            <h2>❓ 常見問題解答 (FAQ)</h2>
+            <p>解答所有關於步數同步、存檔與多魚缸的疑問</p>
+        </div>
+
+        <div style="max-width: 820px; margin: 0 auto;">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <span>Q1: 步數沒有即時更新怎麼辦？</span>
+                    <span>▼</span>
+                </div>
+                <div class="faq-answer">
+                    請至 iPhone「設定」➔「隱私權與安全性」➔「健康」➔ 確保「TinyAquarium」的「步數」讀取權限已開啟。App 亦支援 CoreMotion 晶片直接計步，即使 HealthKit 尚未同步也能即時推進孵化。
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <span>Q2: 我的魚兒長時間沒餵食會死掉嗎？</span>
+                    <span>▼</span>
+                </div>
+                <div class="faq-answer">
+                    <strong>絕對不會！</strong>《TinyAquarium》秉持慢活無焦慮哲學。水族箱中會自然生成發光浮游生物，即使離線幾天，魚兒也會自動捕食維持微生態，只會悠閒懸停，絕不生病或死亡。
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <span>Q3: 換新手機或有多台 Apple 設備時，存檔會同步嗎？</span>
+                    <span>▼</span>
+                </div>
+                <div class="faq-answer">
+                    會的！系統內建 Apple iCloud Key-Value Store 自動雲端備份，並透過 App Groups 同步至桌面 Widget 小組件。只需登入相同 Apple ID 即可自動漫遊。
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <span>Q4: 魚缸已滿（例如 8/8 隻）時該怎麼辦？</span>
+                    <span>▼</span>
+                </div>
+                <div class="faq-answer">
+                    您可以：(1) 到「工坊」分頁消耗泡泡金幣升級魚缸等級以擴充容量；(2) 到魚缸管理開闢第二座新水族箱，並使用「🚚 換缸搬家」功能將小魚分流！
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer & Download CTA -->
+    <footer id="download">
+        <div class="container">
+            <h2 style="font-size: 2.2rem; color: #fff; margin-bottom: 1rem;">立即開啟你的掌上微光水族天地</h2>
+            <p style="color: var(--text-sub); margin-bottom: 2rem;">支援 iOS 17.0+ iPhone、Interactive Widget、待機模式 (StandBy) 與 Apple Watch</p>
+            <a href="#" class="cta-btn" style="font-size: 1.1rem; padding: 0.9rem 2.2rem;">
+                <span>📲 在 App Store 免費下載</span>
+            </a>
+
+            <ul class="footer-links">
+                <li><a href="#simulator">模擬水族館</a></li>
+                <li><a href="#core-loop">玩法教學</a></li>
+                <li><a href="#tank-guide">魚缸擴建</a></li>
+                <li><a href="#breeding">基因繁育</a></li>
+                <li><a href="https://github.com">GitHub 開源代碼庫</a></li>
+            </ul>
+            <p style="font-size: 0.8rem; color: rgba(255,255,255,0.4);">© 2026 TinyAquarium. Designed with cozy pixel love for iOS.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive Simulator Script -->
+    <script>
+        const canvas = document.getElementById('aquariumCanvas');
+        const ctx = canvas.getContext('2d');
+        
+        let isFeedMode = false;
+        let todaySteps = 4261;
+        let bubbleCoins = 120;
+        let heartEnergy = 100;
+        let foodCharges = 5;
+        
+        // Sim Fishes
+        let fishes = [
+            { x: 180, y: 140, vx: 1.2, vy: 0.4, emoji: '🐟', name: '波波', color: '#00d2ff', size: 28, targetFood: null },
+            { x: 420, y: 220, vx: -0.9, vy: -0.3, emoji: '🐠', name: '小光', color: '#ffd15c', size: 30, targetFood: null },
+            { x: 600, y: 160, vx: 1.5, vy: -0.5, emoji: '🐡', name: '膨膨', color: '#ff7675', size: 26, targetFood: null }
+        ];
+
+        // Bubble Coins
+        let bubbles = [
+            { x: 200, y: 80, vy: -0.2, val: 5, radius: 18 },
+            { x: 450, y: 70, vy: -0.3, val: 5, radius: 18 }
+        ];
+
+        // Foods
+        let foods = [];
+
+        function updateHUD() {
+            document.getElementById('hudSteps').innerText = todaySteps.toLocaleString();
+            document.getElementById('hudCoins').innerText = bubbleCoins;
+            document.getElementById('hudHearts').innerText = heartEnergy;
+            document.getElementById('hudFood').innerText = foodCharges + '/5';
+            document.getElementById('hudFish').innerText = fishes.length + '/8';
+        }
+
+        function toggleFeedMode() {
+            isFeedMode = !isFeedMode;
+            const btn = document.getElementById('toggleFeedBtn');
+            const status = document.getElementById('modeStatus');
+            if (isFeedMode) {
+                btn.classList.add('active');
+                btn.innerText = '🔴 餵食模式中 (點水面灑料)';
+                status.innerText = '餵食模式已開啟：點擊水面任意處投餵飼料，小魚將主動游來搶食！';
+            } else {
+                btn.classList.remove('active');
+                btn.innerText = '🥫 進入餵食模式';
+                status.innerText = '平時滑動模式：滑動採集浮游金幣泡泡；點擊魚隻撫摸';
+            }
+        }
+
+        function addSimSteps(n) {
+            todaySteps += n;
+            heartEnergy = Math.min(500, heartEnergy + 10);
+            updateHUD();
+        }
+
+        function spawnNewFish() {
+            if (fishes.length >= 8) {
+                alert('魚缸已滿員 (8/8)！請先升級魚缸容量。');
+                return;
+            }
+            const emojis = ['🎏', '🥋', '🦑', '🐉', '✨'];
+            const names = ['金金', '小白', '悠悠', '星塵', '小彩'];
+            const e = emojis[Math.floor(Math.random() * emojis.length)];
+            const n = names[Math.floor(Math.random() * names.length)];
+            fishes.push({
+                x: 100 + Math.random() * 500,
+                y: 100 + Math.random() * 200,
+                vx: (Math.random() - 0.5) * 2,
+                vy: (Math.random() - 0.5) * 1,
+                emoji: e,
+                name: n,
+                size: 28,
+                targetFood: null
+            });
+            updateHUD();
+        }
+
+        // Canvas Interaction
+        canvas.addEventListener('click', (e) => {
+            const rect = canvas.getBoundingClientRect();
+            const x = (e.clientX - rect.left) * (canvas.width / rect.width);
+            const y = (e.clientY - rect.top) * (canvas.height / rect.height);
+
+            if (isFeedMode) {
+                if (foodCharges <= 0) {
+                    alert('飼料盒暫時空了，稍後回補或健走 100 步！');
+                    return;
+                }
+                foodCharges--;
+                foods.push({ x: x, y: y, vy: 0.8, life: 1.0 });
+                updateHUD();
+            } else {
+                // Check if tapped bubble
+                bubbles.forEach((b, idx) => {
+                    const dist = Math.hypot(b.x - x, b.y - y);
+                    if (dist < b.radius + 15) {
+                        bubbleCoins += b.val;
+                        bubbles.splice(idx, 1);
+                        updateHUD();
+                    }
+                });
+            }
+        });
+
+        // Swipe across surface
+        canvas.addEventListener('mousemove', (e) => {
+            if (!isFeedMode) {
+                const rect = canvas.getBoundingClientRect();
+                const x = (e.clientX - rect.left) * (canvas.width / rect.width);
+                const y = (e.clientY - rect.top) * (canvas.height / rect.height);
+
+                bubbles.forEach((b, idx) => {
+                    const dist = Math.hypot(b.x - x, b.y - y);
+                    if (dist < b.radius + 15) {
+                        bubbleCoins += b.val;
+                        bubbles.splice(idx, 1);
+                        updateHUD();
+                    }
+                });
+            }
+        });
+
+        // Loop
+        function render() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Water gradient
+            const grad = ctx.createLinearGradient(0, 0, 0, canvas.height);
+            grad.addColorStop(0, '#0d4b8f');
+            grad.addColorStop(0.8, '#062047');
+            grad.addColorStop(1, '#020d1e');
+            ctx.fillStyle = grad;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // Sand bed
+            ctx.fillStyle = '#b89065';
+            ctx.fillRect(0, canvas.height - 30, canvas.width, 30);
+            ctx.fillStyle = '#946f48';
+            ctx.fillRect(0, canvas.height - 30, canvas.width, 3);
+
+            // Draw seaweeds
+            ctx.fillStyle = '#2ed573';
+            for (let i = 40; i < canvas.width; i += 180) {
+                ctx.beginPath();
+                ctx.moveTo(i, canvas.height - 30);
+                ctx.quadraticCurveTo(i + 15 * Math.sin(Date.now() * 0.002 + i), canvas.height - 130, i + 5, canvas.height - 180);
+                ctx.lineTo(i + 15, canvas.height - 30);
+                ctx.fill();
+            }
+
+            // Draw Foods
+            foods.forEach((f, idx) => {
+                f.y += f.vy;
+                ctx.fillStyle = '#e67e22';
+                ctx.beginPath();
+                ctx.arc(f.x, f.y, 4, 0, Math.PI * 2);
+                ctx.fill();
+
+                if (f.y >= canvas.height - 32) {
+                    foods.splice(idx, 1);
+                }
+            });
+
+            // Draw Bubbles
+            bubbles.forEach((b) => {
+                b.y += Math.sin(Date.now() * 0.003 + b.x) * 0.3;
+                ctx.fillStyle = 'rgba(255, 255, 255, 0.25)';
+                ctx.strokeStyle = '#ffd15c';
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                ctx.arc(b.x, b.y, b.radius, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.stroke();
+
+                ctx.font = '14px sans-serif';
+                ctx.fillText('🪙', b.x - 7, b.y + 5);
+            });
+
+            // Spawn bubble periodically
+            if (Math.random() < 0.008 && bubbles.length < 5) {
+                bubbles.push({
+                    x: 60 + Math.random() * (canvas.width - 120),
+                    y: 60 + Math.random() * 40,
+                    val: 5,
+                    radius: 18
+                });
+            }
+
+            // Draw Fishes & AI
+            fishes.forEach((fish) => {
+                // If foods exist, swim towards closest food
+                if (foods.length > 0) {
+                    let closest = foods[0];
+                    let minD = Math.hypot(closest.x - fish.x, closest.y - fish.y);
+                    foods.forEach(f => {
+                        let d = Math.hypot(f.x - fish.x, f.y - fish.y);
+                        if (d < minD) { minD = d; closest = f; }
+                    });
+
+                    let angle = Math.atan2(closest.y - fish.y, closest.x - fish.x);
+                    fish.vx = Math.cos(angle) * 2.2;
+                    fish.vy = Math.sin(angle) * 2.2;
+
+                    // Eat food
+                    if (minD < 20) {
+                        foods.splice(foods.indexOf(closest), 1);
+                        bubbleCoins += 2;
+                        heartEnergy = Math.min(500, heartEnergy + 2);
+                        updateHUD();
+                    }
+                } else {
+                    // Wander
+                    if (Math.random() < 0.02) {
+                        fish.vx = (Math.random() - 0.5) * 2;
+                        fish.vy = (Math.random() - 0.5) * 0.8;
+                    }
+                }
+
+                fish.x += fish.vx;
+                fish.y += fish.vy;
+
+                // Bounds
+                if (fish.x < 30) { fish.x = 30; fish.vx = Math.abs(fish.vx); }
+                if (fish.x > canvas.width - 30) { fish.x = canvas.width - 30; fish.vx = -Math.abs(fish.vx); }
+                if (fish.y < 60) { fish.y = 60; fish.vy = Math.abs(fish.vy); }
+                if (fish.y > canvas.height - 60) { fish.y = canvas.height - 60; fish.vy = -Math.abs(fish.vy); }
+
+                // Draw Sprite
+                ctx.save();
+                ctx.translate(fish.x, fish.y);
+                if (fish.vx < 0) {
+                    ctx.scale(-1, 1);
+                }
+                ctx.font = '28px sans-serif';
+                ctx.fillText(fish.emoji, -14, 10);
+                ctx.restore();
+
+                // Name tag
+                ctx.fillStyle = 'rgba(0,0,0,0.5)';
+                ctx.fillRect(fish.x - 20, fish.y + 16, 40, 14);
+                ctx.fillStyle = '#ffffff';
+                ctx.font = '10px sans-serif';
+                ctx.textAlign = 'center';
+                ctx.fillText(fish.name, fish.x, fish.y + 27);
+                ctx.textAlign = 'start';
+            });
+
+            requestAnimationFrame(render);
+        }
+
+        render();
+
+        // Breeding Calculator Logic
+        const breedingDB = {
+            'clownfish+neon_tetra': { name: '極光螢光小丑魚', sprite: '✨', rarity: '💜 史詩 (Epic)', steps: 2500, desc: '融合小丑魚條紋與霓虹燈魚冷光，游動時在水中留下若隱若現的極光尾跡。' },
+            'clownfish+betta': { name: '火焰羽冠小丑魚', sprite: '🔥', rarity: '💙 稀有 (Rare)', steps: 2000, desc: '長出如泰國鬥魚般威風飄逸的燃燒背鰭，性格活潑可愛。' },
+            'koi+discus': { name: '丹頂七彩神仙魚', sprite: '🎏', rarity: '💜 史詩 (Epic)', steps: 3000, desc: '圓盤狀身軀頂部生有純朱紅頂冠，象徵吉祥與繁榮。' },
+            'manta+dragon': { name: '北溟星海巨鯤', sprite: '🌌', rarity: '👑 神話 (Mythic)', steps: 5000, desc: '極度罕見的終極星宿神魚，周身圍繞星雲光環，能帶來源源不絕的幸運。' }
+        };
+
+        function calculateBreeding() {
+            const p1 = document.getElementById('parentA').value;
+            const p2 = document.getElementById('parentB').value;
+            const key1 = `${p1}+${p2}`;
+            const key2 = `${p2}+${p1}`;
+
+            const res = breedingDB[key1] || breedingDB[key2] || {
+                name: '神秘斑斕雜交幼魚',
+                sprite: '🐣',
+                rarity: '💚 罕見 (Uncommon)',
+                steps: 1800,
+                desc: '雙親基因交織出獨特的斑點與體態，充滿未知的成長驚喜！'
+            };
+
+            document.getElementById('babyName').innerText = res.name;
+            document.getElementById('babySprite').innerText = res.sprite;
+            document.getElementById('babyRarity').innerText = `稀有度：${res.rarity} · 需 ${res.steps} 步孵化`;
+            document.getElementById('babyDesc').innerText = res.desc;
+        }
+
+        // FAQ Toggle
+        function toggleFaq(el) {
+            const ans = el.nextElementSibling;
+            if (ans.style.display === 'none') {
+                ans.style.display = 'block';
+                el.querySelector('span:last-child').innerText = '▲';
+            } else {
+                ans.style.display = 'none';
+                el.querySelector('span:last-child').innerText = '▼';
+            }
+        }
+    </script>
+</body>
+</html>
