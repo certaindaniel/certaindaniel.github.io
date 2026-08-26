@@ -171,7 +171,7 @@ def app_html(app, locale):
 
     cta = (
         f'<a class="cta" href="{e(app["appStoreUrl"])}">{e(loc["cta"])}</a>'
-        if app.get("appStoreUrl") else
+        if app.get("appStoreUrl") and not app.get("comingSoon") else
         f'<span class="cta cta--disabled">{e(loc["cta"])}</span>'
     )
 

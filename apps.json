@@ -41,7 +41,7 @@
           "name": "TinyAquarium",
           "tagline": "Step to hatch, breed rare mythic fish & unwind with Lo-Fi ambient soundscapes.",
           "promo": "Turn your daily steps into a serene underwater sanctuary. Sync with Apple Health to hatch 1,000+ species, discover 100+ secret genetic crossbreeding mutations, focus with ambient Lo-Fi water sounds, and trade fish peer-to-peer via Apple Multipeer without servers.",
-          "cta": "Download on the App Store",
+          "cta": "Coming Soon to the App Store",
           "features": [
             "Apple HealthKit Integration — Hatch fish eggs effortlessly with your daily walking steps & calorie burn",
             "1,000+ Species Vault — From Japanese Tancho Koi and Amazon plecos to abyssal creatures and cosmic star leviathans",
@@ -73,7 +73,7 @@
           "name": "TinyAquarium 微型水族箱",
           "tagline": "步數孵化、基因繁育千種神魚，沈浸於 Lo-Fi 水聲專注時光。",
           "promo": "把每一步的健康步伐，化作掌心靈動的治癒深海。連動 Apple HealthKit 步數孵化破殼、探索 1,000+ 種全球水族與山海經星空神魚、解鎖 100+ 組秘密基因突變繁育、在 Lo-Fi 白噪音中沉浸專注，並透過 Apple Watch 數位錶冠與桌面小組件隨時守護。",
-          "cta": "在 App Store 下載",
+          "cta": "即將登陸 App Store",
           "features": [
             "Apple HealthKit 步數連動 — 日常健走每一步都在為水族箱注入生命活力，加速魚卵孵化",
             "1,000+ 種全水域神魚圖鑑 — 涵蓋東亞江戶名門、亞馬遜狂野黑水、大堡礁珊瑚、萬米深淵至山海經與宇宙星宿",
@@ -105,7 +105,7 @@
           "name": "TinyAquarium 微型水族箱",
           "tagline": "步数孵化、基因繁育千种神鱼，沉浸于 Lo-Fi 水声专注时光。",
           "promo": "把每一步的健康步伐，化作掌心灵动的治愈深海。联动 Apple HealthKit 步数孵化破壳、探索 1,000+ 种全球水族与山海经星空神鱼、解锁 100+ 组秘密基因突变繁育、在 Lo-Fi 白噪音中沉浸专注，并通过 Apple Watch 数码表冠与桌面小组件随时守护。",
-          "cta": "在 App Store 下载",
+          "cta": "即将登陆 App Store",
           "features": [
             "Apple HealthKit 步数联动 — 日常健走每一步都在为水族箱注入生命活力，加速鱼卵孵化",
             "1,000+ 种全水域神鱼图鉴 — 涵盖东亚江户名门、亚马逊狂野黑水、大堡礁珊瑚、万米深渊至山海经与宇宙星宿",
@@ -133,7 +133,8 @@
             }
           ]
         }
-      }
+      },
+      "comingSoon": true
     },
     {
       "id": "tinymsgviewer",
