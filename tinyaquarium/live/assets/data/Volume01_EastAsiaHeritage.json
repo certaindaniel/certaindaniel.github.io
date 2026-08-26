@@ -2,8 +2,8 @@
   {
     "id": "koi_001",
     "commonName": "大日紅白",
-    "scientificName": "koius 大日紅白is",
-    "description": "Beautiful 大日紅白 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Kohaku",
+    "description": "日本錦鯉界極致血統，雪白純淨底色上覆蓋著鮮紅如火的緋盤，體型碩大雄偉。",
     "rarity": "Uncommon",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 3451,
@@ -11,14 +11,15 @@
     "baseCoinYield": 20,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#df7a0f",
-      "secondaryColor": "#e9ba7f",
-      "accentColor": "#809e2f",
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#E11D48",
+      "accentColor": "#FB7185",
       "tailShape": "fan",
       "bodyLength": 11.4,
       "bodyHeight": 5.7,
       "features": [
-        "flowing_fins"
+        "flowing_fins",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -30,8 +31,8 @@
   {
     "id": "koi_002",
     "commonName": "昭和三色",
-    "scientificName": "koius 昭和三色is",
-    "description": "Beautiful 昭和三色 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Showa",
+    "description": "墨黑為底、赤紅與雪白交織的三色名品，胸鰭帶有漆黑黑斑，極具霸氣。",
     "rarity": "Legendary",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 4720,
@@ -39,14 +40,15 @@
     "baseCoinYield": 14,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#d503c8",
-      "secondaryColor": "#c3d0f7",
-      "accentColor": "#7a1739",
+      "primaryColor": "#1E293B",
+      "secondaryColor": "#DC2626",
+      "accentColor": "#F8FAFC",
       "tailShape": "lyre",
       "bodyLength": 5.5,
       "bodyHeight": 3.5,
       "features": [
-        "spots"
+        "flowing_fins",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -58,8 +60,8 @@
   {
     "id": "koi_003",
     "commonName": "白寫",
-    "scientificName": "koius 白寫is",
-    "description": "Beautiful 白寫 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Shiro Utsuri",
+    "description": "如水墨潑灑般的黑白藝術品，雪白軀體上分布著濃郁如夜的墨黑斑紋。",
     "rarity": "Legendary",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 4091,
@@ -67,14 +69,15 @@
     "baseCoinYield": 25,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#f8b040",
-      "secondaryColor": "#829779",
-      "accentColor": "#ad258e",
+      "primaryColor": "#F8FAFC",
+      "secondaryColor": "#0F172A",
+      "accentColor": "#94A3B8",
       "tailShape": "lyre",
       "bodyLength": 14.4,
       "bodyHeight": 3.2,
       "features": [
-        "spots"
+        "flowing_fins",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -86,8 +89,8 @@
   {
     "id": "koi_004",
     "commonName": "黃寫",
-    "scientificName": "koius 黃寫is",
-    "description": "Beautiful 黃寫 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Ki Utsuri",
+    "description": "罕見的黑底黃斑名門，鮮黃如金的斑塊在漆黑體色上分外耀眼。",
     "rarity": "Rare",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 1737,
@@ -95,14 +98,15 @@
     "baseCoinYield": 17,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#1526c6",
-      "secondaryColor": "#5db173",
-      "accentColor": "#bd4e52",
+      "primaryColor": "#1E293B",
+      "secondaryColor": "#FACC15",
+      "accentColor": "#FEF08A",
       "tailShape": "veil",
       "bodyLength": 14.0,
       "bodyHeight": 1.5,
       "features": [
-        "stripes"
+        "flowing_fins",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -114,8 +118,8 @@
   {
     "id": "koi_005",
     "commonName": "秋翠",
-    "scientificName": "koius 秋翠is",
-    "description": "Beautiful 秋翠 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Shusui",
+    "description": "德國鱗無鱗系錦鯉，背脊排列著整齊的深藍如玉的大鱗片，兩側腹部泛著落日緋紅。",
     "rarity": "Epic",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 1934,
@@ -123,14 +127,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#6ce3ad",
-      "secondaryColor": "#a13352",
-      "accentColor": "#1410e9",
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#F97316",
+      "accentColor": "#E0F2FE",
       "tailShape": "pointed",
       "bodyLength": 6.6,
       "bodyHeight": 3.4,
       "features": [
-        "spots"
+        "mirror_scales",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -142,8 +147,8 @@
   {
     "id": "koi_006",
     "commonName": "淺黃",
-    "scientificName": "koius 淺黃is",
-    "description": "Beautiful 淺黃 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Asagi",
+    "description": "古典錦鯉活化石，背部呈現藍靛色網狀細緻魚鱗，腮蓋與胸鰭染上一抹櫻紅。",
     "rarity": "Epic",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 3154,
@@ -151,14 +156,15 @@
     "baseCoinYield": 41,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#b39277",
-      "secondaryColor": "#035220",
-      "accentColor": "#a14803",
+      "primaryColor": "#38BDF8",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#BAE6FD",
       "tailShape": "fan",
       "bodyLength": 5.7,
       "bodyHeight": 4.1,
       "features": [
-        "scales"
+        "net_pattern",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -170,8 +176,8 @@
   {
     "id": "koi_007",
     "commonName": "孔雀",
-    "scientificName": "koius 孔雀is",
-    "description": "Beautiful 孔雀 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Kujaku",
+    "description": "銀白閃耀的金屬光澤錦鯉，鱗片呈現金屬黑網紋，頭部覆蓋華麗橙紅緋斑。",
     "rarity": "Uncommon",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 498,
@@ -179,14 +185,15 @@
     "baseCoinYield": 42,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#90c316",
-      "secondaryColor": "#ba3939",
-      "accentColor": "#49e783",
+      "primaryColor": "#F1F5F9",
+      "secondaryColor": "#EA580C",
+      "accentColor": "#FDBA74",
       "tailShape": "lyre",
       "bodyLength": 16.9,
       "bodyHeight": 3.3,
       "features": [
-        "scales"
+        "metallic_luster",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -198,8 +205,8 @@
   {
     "id": "koi_008",
     "commonName": "五色",
-    "scientificName": "koius 五色is",
-    "description": "Beautiful 五色 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Goshiki",
+    "description": "由白、紅、黑、藍、紫五種色調融匯於一身的神秘銘鯉，如夢似幻。",
     "rarity": "Rare",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 2210,
@@ -207,14 +214,15 @@
     "baseCoinYield": 45,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#87993e",
-      "secondaryColor": "#cae11e",
-      "accentColor": "#8917b1",
+      "primaryColor": "#475569",
+      "secondaryColor": "#DC2626",
+      "accentColor": "#93C5FD",
       "tailShape": "rounded",
       "bodyLength": 9.8,
       "bodyHeight": 3.6,
       "features": [
-        "spots"
+        "five_color",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -226,8 +234,8 @@
   {
     "id": "koi_009",
     "commonName": "金昭和",
-    "scientificName": "koius 金昭和is",
-    "description": "Beautiful 金昭和 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Kin Showa",
+    "description": "閃耀金屬光澤的昭和三色，黃金般的金屬流光覆蓋在紅黑斑塊之上。",
     "rarity": "Uncommon",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 2165,
@@ -235,14 +243,15 @@
     "baseCoinYield": 34,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#593bdf",
-      "secondaryColor": "#72b87e",
-      "accentColor": "#495daf",
+      "primaryColor": "#EAB308",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#DC2626",
       "tailShape": "lyre",
       "bodyLength": 2.7,
       "bodyHeight": 8.0,
       "features": [
-        "spikes"
+        "golden_sheen",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -254,8 +263,8 @@
   {
     "id": "koi_010",
     "commonName": "羽白",
-    "scientificName": "koius 羽白is",
-    "description": "Beautiful 羽白 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Hajiro",
+    "description": "全黑身軀僅有雙側胸鰭末端純白如雪，游動時如黑夜中展開的白羽。",
     "rarity": "Common",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 2939,
@@ -263,14 +272,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#722563",
-      "secondaryColor": "#6bb32b",
-      "accentColor": "#200498",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#FFFFFF",
+      "accentColor": "#64748B",
       "tailShape": "pointed",
       "bodyLength": 15.1,
       "bodyHeight": 8.7,
       "features": [
-        "spikes"
+        "white_wing_fins",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -282,8 +292,8 @@
   {
     "id": "koi_011",
     "commonName": "茶鯉",
-    "scientificName": "koius 茶鯉is",
-    "description": "Beautiful 茶鯉 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Chagoi",
+    "description": "性格極其溫馴親人的單色錦鯉，沉穩典雅的茶褐色體色，身型壯碩靈性十足。",
     "rarity": "Rare",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 1859,
@@ -291,14 +301,15 @@
     "baseCoinYield": 14,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#c42b9c",
-      "secondaryColor": "#94a97a",
-      "accentColor": "#09159b",
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
       "tailShape": "veil",
       "bodyLength": 17.1,
       "bodyHeight": 7.3,
       "features": [
-        "scales"
+        "calm_body",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -310,8 +321,8 @@
   {
     "id": "koi_012",
     "commonName": "九紋龍",
-    "scientificName": "koius 九紋龍is",
-    "description": "Beautiful 九紋龍 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Kumonryu",
+    "description": "隨水溫與季節變化體表黑白流雲圖紋的奇幻無鱗錦鯉，猶如黑龍穿雲。",
     "rarity": "Uncommon",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 2642,
@@ -319,14 +330,15 @@
     "baseCoinYield": 34,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#f90307",
-      "secondaryColor": "#157930",
-      "accentColor": "#30dca7",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#F8FAFC",
+      "accentColor": "#38BDF8",
       "tailShape": "fan",
       "bodyLength": 13.7,
       "bodyHeight": 4.8,
       "features": [
-        "spots"
+        "cloud_pattern",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -338,8 +350,8 @@
   {
     "id": "koi_013",
     "commonName": "別光",
-    "scientificName": "koius 別光is",
-    "description": "Beautiful 別光 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Bekko",
+    "description": "以白、紅或黃為純淨底色，背部錯落點綴著幾塊墨黑方斑，簡約優雅。",
     "rarity": "Rare",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 1744,
@@ -347,14 +359,15 @@
     "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#145a3c",
-      "secondaryColor": "#ed4080",
-      "accentColor": "#a70181",
+      "primaryColor": "#F8FAFC",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#EF4444",
       "tailShape": "veil",
       "bodyLength": 6.5,
       "bodyHeight": 7.1,
       "features": [
-        "stripes"
+        "stepping_stones",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -366,8 +379,8 @@
   {
     "id": "koi_014",
     "commonName": "烏鯉",
-    "scientificName": "koius 烏鯉is",
-    "description": "Beautiful 烏鯉 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Karasugoi",
+    "description": "全身烏黑油亮如黑曜石，腹部亦為深沉黑色的幽靈名鯉。",
     "rarity": "Legendary",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 1448,
@@ -375,13 +388,14 @@
     "baseCoinYield": 41,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#022fd9",
-      "secondaryColor": "#dafe42",
-      "accentColor": "#1c159a",
+      "primaryColor": "#020617",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#475569",
       "tailShape": "forked",
       "bodyLength": 3.8,
       "bodyHeight": 8.7,
       "features": [
+        "obsidian_black",
         "whiskers"
       ]
     },
@@ -394,8 +408,8 @@
   {
     "id": "koi_015",
     "commonName": "松葉",
-    "scientificName": "koius 松葉is",
-    "description": "Beautiful 松葉 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Matsuba",
+    "description": "每片魚鱗中心皆有一點墨黑，整體排列如茂密蒼翠的松針網目。",
     "rarity": "Common",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 1510,
@@ -403,14 +417,15 @@
     "baseCoinYield": 34,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#3e425d",
-      "secondaryColor": "#9c289d",
-      "accentColor": "#8f4e95",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#FDE68A",
       "tailShape": "fan",
       "bodyLength": 17.6,
       "bodyHeight": 7.5,
       "features": [
-        "flowing_fins"
+        "pine_needle",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -422,8 +437,8 @@
   {
     "id": "koi_016",
     "commonName": "丹頂昭和",
-    "scientificName": "koius 丹頂昭和is",
-    "description": "Beautiful 丹頂昭和 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Tancho Showa",
+    "description": "漆黑身軀配上頭頂正中央一顆渾圓鮮紅的丹頂緋斑，雍容華貴。",
     "rarity": "Rare",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 3946,
@@ -431,14 +446,15 @@
     "baseCoinYield": 23,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#328c7f",
-      "secondaryColor": "#1ce9db",
-      "accentColor": "#75172a",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#DC2626",
+      "accentColor": "#F8FAFC",
       "tailShape": "forked",
       "bodyLength": 13.7,
       "bodyHeight": 4.5,
       "features": [
-        "flowing_fins"
+        "tancho_crown",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -450,8 +466,8 @@
   {
     "id": "koi_017",
     "commonName": "衣",
-    "scientificName": "koius 衣is",
-    "description": "Beautiful 衣 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Koromo",
+    "description": "在紅白的緋盤上覆蓋一層宛如紫藍薄紗的藍染網紋，如身著和服。",
     "rarity": "Uncommon",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 1038,
@@ -459,14 +475,15 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#437539",
-      "secondaryColor": "#dab324",
-      "accentColor": "#716725",
+      "primaryColor": "#E11D48",
+      "secondaryColor": "#3B82F6",
+      "accentColor": "#FFFFFF",
       "tailShape": "lyre",
       "bodyLength": 4.5,
       "bodyHeight": 9.2,
       "features": [
-        "stripes"
+        "kimono_veil",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -478,8 +495,8 @@
   {
     "id": "koi_018",
     "commonName": "德國錦鯉",
-    "scientificName": "koius 德國錦鯉is",
-    "description": "Beautiful 德國錦鯉 native to the 日本錦鯉名門 region.",
+    "scientificName": "Cyprinus rubrofuscus var. Doitsu",
+    "description": "源自德國革鯉雜交，全身光滑無鱗，僅側線與背鰭有大片鏡鱗反射光芒。",
     "rarity": "Epic",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 3853,
@@ -487,14 +504,15 @@
     "baseCoinYield": 35,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#f56858",
-      "secondaryColor": "#b87b32",
-      "accentColor": "#23c904",
+      "primaryColor": "#F43F5E",
+      "secondaryColor": "#F8FAFC",
+      "accentColor": "#0284C7",
       "tailShape": "lyre",
       "bodyLength": 4.1,
       "bodyHeight": 8.7,
       "features": [
-        "flowing_fins"
+        "mirror_scales",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -506,8 +524,8 @@
   {
     "id": "koi_019",
     "commonName": "紅白",
-    "scientificName": "koius 紅白is",
-    "description": "Beautiful 紅白 native to the 日本錦鯉名門 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【紅白】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 4838,
@@ -534,8 +552,8 @@
   {
     "id": "koi_020",
     "commonName": "大正三色",
-    "scientificName": "koius 大正三色is",
-    "description": "Beautiful 大正三色 native to the 日本錦鯉名門 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【大正三色】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 4411,
@@ -562,8 +580,8 @@
   {
     "id": "koi_021",
     "commonName": "べっ甲",
-    "scientificName": "koius べっ甲is",
-    "description": "Beautiful べっ甲 native to the 日本錦鯉名門 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【べっ甲】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 1666,
@@ -590,8 +608,8 @@
   {
     "id": "koi_022",
     "commonName": "藍衣",
-    "scientificName": "koius 藍衣is",
-    "description": "Beautiful 藍衣 native to the 日本錦鯉名門 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【藍衣】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Epic",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 3310,
@@ -618,8 +636,8 @@
   {
     "id": "koi_023",
     "commonName": "紫鯉",
-    "scientificName": "koius 紫鯉is",
-    "description": "Beautiful 紫鯉 native to the 日本錦鯉名門 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【紫鯉】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 2071,
@@ -646,8 +664,8 @@
   {
     "id": "koi_024",
     "commonName": "綠鯉",
-    "scientificName": "koius 綠鯉is",
-    "description": "Beautiful 綠鯉 native to the 日本錦鯉名門 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【綠鯉】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Legendary",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 2194,
@@ -674,8 +692,8 @@
   {
     "id": "koi_025",
     "commonName": "銀鱗",
-    "scientificName": "koius 銀鱗is",
-    "description": "Beautiful 銀鱗 native to the 日本錦鯉名門 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【銀鱗】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 3261,
@@ -702,8 +720,8 @@
   {
     "id": "goldfish_026",
     "commonName": "水泡眼",
-    "scientificName": "goldfishus 水泡眼is",
-    "description": "Beautiful 水泡眼 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【水泡眼】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 180,
@@ -730,8 +748,8 @@
   {
     "id": "goldfish_027",
     "commonName": "十二紅頂",
-    "scientificName": "goldfishus 十二紅頂is",
-    "description": "Beautiful 十二紅頂 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【十二紅頂】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Legendary",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3062,
@@ -758,8 +776,8 @@
   {
     "id": "goldfish_028",
     "commonName": "丹頂紅帽",
-    "scientificName": "goldfishus 丹頂紅帽is",
-    "description": "Beautiful 丹頂紅帽 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【丹頂紅帽】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Epic",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 1763,
@@ -786,8 +804,8 @@
   {
     "id": "goldfish_029",
     "commonName": "望天眼",
-    "scientificName": "goldfishus 望天眼is",
-    "description": "Beautiful 望天眼 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【望天眼】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2556,
@@ -814,8 +832,8 @@
   {
     "id": "goldfish_030",
     "commonName": "藍花水泡",
-    "scientificName": "goldfishus 藍花水泡is",
-    "description": "Beautiful 藍花水泡 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【藍花水泡】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Epic",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 267,
@@ -842,8 +860,8 @@
   {
     "id": "goldfish_031",
     "commonName": "虎頭",
-    "scientificName": "goldfishus 虎頭is",
-    "description": "Beautiful 虎頭 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【虎頭】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 1477,
@@ -870,8 +888,8 @@
   {
     "id": "goldfish_032",
     "commonName": "獅頭",
-    "scientificName": "goldfishus 獅頭is",
-    "description": "Beautiful 獅頭 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【獅頭】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 310,
@@ -898,8 +916,8 @@
   {
     "id": "goldfish_033",
     "commonName": "蘭壽",
-    "scientificName": "goldfishus 蘭壽is",
-    "description": "Beautiful 蘭壽 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【蘭壽】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 4674,
@@ -926,8 +944,8 @@
   {
     "id": "goldfish_034",
     "commonName": "黑包金",
-    "scientificName": "goldfishus 黑包金is",
-    "description": "Beautiful 黑包金 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【黑包金】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3842,
@@ -954,8 +972,8 @@
   {
     "id": "goldfish_035",
     "commonName": "皇冠珍珠鱗",
-    "scientificName": "goldfishus 皇冠珍珠鱗is",
-    "description": "Beautiful 皇冠珍珠鱗 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【皇冠珍珠鱗】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3851,
@@ -982,8 +1000,8 @@
   {
     "id": "goldfish_036",
     "commonName": "寬尾琉金",
-    "scientificName": "goldfishus 寬尾琉金is",
-    "description": "Beautiful 寬尾琉金 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【寬尾琉金】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Epic",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 4593,
@@ -1010,8 +1028,8 @@
   {
     "id": "goldfish_037",
     "commonName": "鵝頭紅",
-    "scientificName": "goldfishus 鵝頭紅is",
-    "description": "Beautiful 鵝頭紅 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【鵝頭紅】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Epic",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2376,
@@ -1038,8 +1056,8 @@
   {
     "id": "goldfish_038",
     "commonName": "玉如意",
-    "scientificName": "goldfishus 玉如意is",
-    "description": "Beautiful 玉如意 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【玉如意】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 546,
@@ -1066,8 +1084,8 @@
   {
     "id": "goldfish_039",
     "commonName": "壽星",
-    "scientificName": "goldfishus 壽星is",
-    "description": "Beautiful 壽星 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【壽星】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3156,
@@ -1094,8 +1112,8 @@
   {
     "id": "goldfish_040",
     "commonName": "喜鵲花",
-    "scientificName": "goldfishus 喜鵲花is",
-    "description": "Beautiful 喜鵲花 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【喜鵲花】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 4533,
@@ -1122,8 +1140,8 @@
   {
     "id": "goldfish_041",
     "commonName": "蛋鳳",
-    "scientificName": "goldfishus 蛋鳳is",
-    "description": "Beautiful 蛋鳳 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【蛋鳳】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2436,
@@ -1150,8 +1168,8 @@
   {
     "id": "goldfish_042",
     "commonName": "琉金",
-    "scientificName": "goldfishus 琉金is",
-    "description": "Beautiful 琉金 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【琉金】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 4649,
@@ -1178,8 +1196,8 @@
   {
     "id": "goldfish_043",
     "commonName": "蝶尾",
-    "scientificName": "goldfishus 蝶尾is",
-    "description": "Beautiful 蝶尾 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【蝶尾】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2913,
@@ -1206,8 +1224,8 @@
   {
     "id": "goldfish_044",
     "commonName": "珍珠鱗",
-    "scientificName": "goldfishus 珍珠鱗is",
-    "description": "Beautiful 珍珠鱗 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【珍珠鱗】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2969,
@@ -1234,8 +1252,8 @@
   {
     "id": "goldfish_045",
     "commonName": "鶴頂紅",
-    "scientificName": "goldfishus 鶴頂紅is",
-    "description": "Beautiful 鶴頂紅 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【鶴頂紅】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3404,
@@ -1262,8 +1280,8 @@
   {
     "id": "goldfish_046",
     "commonName": "熊貓金魚",
-    "scientificName": "goldfishus 熊貓金魚is",
-    "description": "Beautiful 熊貓金魚 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【熊貓金魚】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 1317,
@@ -1290,8 +1308,8 @@
   {
     "id": "goldfish_047",
     "commonName": "朱文錦",
-    "scientificName": "goldfishus 朱文錦is",
-    "description": "Beautiful 朱文錦 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【朱文錦】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3901,
@@ -1318,8 +1336,8 @@
   {
     "id": "goldfish_048",
     "commonName": "彗星",
-    "scientificName": "goldfishus 彗星is",
-    "description": "Beautiful 彗星 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【彗星】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 690,
@@ -1346,8 +1364,8 @@
   {
     "id": "goldfish_049",
     "commonName": "龍睛",
-    "scientificName": "goldfishus 龍睛is",
-    "description": "Beautiful 龍睛 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【龍睛】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Legendary",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2728,
@@ -1374,8 +1392,8 @@
   {
     "id": "goldfish_050",
     "commonName": "朝天龍",
-    "scientificName": "goldfishus 朝天龍is",
-    "description": "Beautiful 朝天龍 native to the 中國與日本古典宮廷金魚 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【朝天龍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Legendary",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 418,
@@ -1402,8 +1420,8 @@
   {
     "id": "seasia_051",
     "commonName": "古代巨龍",
-    "scientificName": "seasiaus 古代巨龍is",
-    "description": "Beautiful 古代巨龍 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【古代巨龍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 232,
@@ -1430,8 +1448,8 @@
   {
     "id": "seasia_052",
     "commonName": "皇冠狗頭",
-    "scientificName": "seasiaus 皇冠狗頭is",
-    "description": "Beautiful 皇冠狗頭 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【皇冠狗頭】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Epic",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2410,
@@ -1458,8 +1476,8 @@
   {
     "id": "seasia_053",
     "commonName": "黃金眼鏡蛇雷龍",
-    "scientificName": "seasiaus 黃金眼鏡蛇雷龍is",
-    "description": "Beautiful 黃金眼鏡蛇雷龍 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【黃金眼鏡蛇雷龍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 1381,
@@ -1486,8 +1504,8 @@
   {
     "id": "seasia_054",
     "commonName": "幻彩紅寶石雷龍",
-    "scientificName": "seasiaus 幻彩紅寶石雷龍is",
-    "description": "Beautiful 幻彩紅寶石雷龍 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【幻彩紅寶石雷龍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Legendary",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 3155,
@@ -1514,8 +1532,8 @@
   {
     "id": "seasia_055",
     "commonName": "古代蝴蝶魚",
-    "scientificName": "seasiaus 古代蝴蝶魚is",
-    "description": "Beautiful 古代蝴蝶魚 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【古代蝴蝶魚】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 3910,
@@ -1542,8 +1560,8 @@
   {
     "id": "seasia_056",
     "commonName": "霓虹光鰍",
-    "scientificName": "seasiaus 霓虹光鰍is",
-    "description": "Beautiful 霓虹光鰍 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【霓虹光鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 1105,
@@ -1570,8 +1588,8 @@
   {
     "id": "seasia_057",
     "commonName": "紅尾皇冠",
-    "scientificName": "seasiaus 紅尾皇冠is",
-    "description": "Beautiful 紅尾皇冠 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【紅尾皇冠】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Legendary",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 273,
@@ -1598,8 +1616,8 @@
   {
     "id": "seasia_058",
     "commonName": "紫紅短鯛",
-    "scientificName": "seasiaus 紫紅短鯛is",
-    "description": "Beautiful 紫紅短鯛 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【紫紅短鯛】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2102,
@@ -1626,8 +1644,8 @@
   {
     "id": "seasia_059",
     "commonName": "帝王三間",
-    "scientificName": "seasiaus 帝王三間is",
-    "description": "Beautiful 帝王三間 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【帝王三間】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 982,
@@ -1654,8 +1672,8 @@
   {
     "id": "seasia_060",
     "commonName": "虎紋鰍",
-    "scientificName": "seasiaus 虎紋鰍is",
-    "description": "Beautiful 虎紋鰍 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【虎紋鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Legendary",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 3843,
@@ -1682,8 +1700,8 @@
   {
     "id": "seasia_061",
     "commonName": "白化珍珠龍",
-    "scientificName": "seasiaus 白化珍珠龍is",
-    "description": "Beautiful 白化珍珠龍 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【白化珍珠龍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 3718,
@@ -1710,8 +1728,8 @@
   {
     "id": "seasia_062",
     "commonName": "泰國鯽",
-    "scientificName": "seasiaus 泰國鯽is",
-    "description": "Beautiful 泰國鯽 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【泰國鯽】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 818,
@@ -1738,8 +1756,8 @@
   {
     "id": "seasia_063",
     "commonName": "亞洲紅龍",
-    "scientificName": "seasiaus 亞洲紅龍is",
-    "description": "Beautiful 亞洲紅龍 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【亞洲紅龍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Legendary",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 4013,
@@ -1766,8 +1784,8 @@
   {
     "id": "seasia_064",
     "commonName": "金龍",
-    "scientificName": "seasiaus 金龍is",
-    "description": "Beautiful 金龍 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【金龍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 695,
@@ -1794,8 +1812,8 @@
   {
     "id": "seasia_065",
     "commonName": "青龍",
-    "scientificName": "seasiaus 青龍is",
-    "description": "Beautiful 青龍 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【青龍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 1341,
@@ -1822,8 +1840,8 @@
   {
     "id": "seasia_066",
     "commonName": "泰國鬥魚",
-    "scientificName": "seasiaus 泰國鬥魚is",
-    "description": "Beautiful 泰國鬥魚 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【泰國鬥魚】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 418,
@@ -1850,8 +1868,8 @@
   {
     "id": "seasia_067",
     "commonName": "展鬥",
-    "scientificName": "seasiaus 展鬥is",
-    "description": "Beautiful 展鬥 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【展鬥】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Epic",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2063,
@@ -1878,8 +1896,8 @@
   {
     "id": "seasia_068",
     "commonName": "巨型蛇頭魚",
-    "scientificName": "seasiaus 巨型蛇頭魚is",
-    "description": "Beautiful 巨型蛇頭魚 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【巨型蛇頭魚】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Legendary",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2686,
@@ -1906,8 +1924,8 @@
   {
     "id": "seasia_069",
     "commonName": "斑馬丹尼奧",
-    "scientificName": "seasiaus 斑馬丹尼奧is",
-    "description": "Beautiful 斑馬丹尼奧 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【斑馬丹尼奧】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 112,
@@ -1934,8 +1952,8 @@
   {
     "id": "seasia_070",
     "commonName": "櫻桃燈",
-    "scientificName": "seasiaus 櫻桃燈is",
-    "description": "Beautiful 櫻桃燈 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【櫻桃燈】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Legendary",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 828,
@@ -1962,8 +1980,8 @@
   {
     "id": "seasia_071",
     "commonName": "泰國飛狐",
-    "scientificName": "seasiaus 泰國飛狐is",
-    "description": "Beautiful 泰國飛狐 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【泰國飛狐】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 1582,
@@ -1990,8 +2008,8 @@
   {
     "id": "seasia_072",
     "commonName": "一眉道人",
-    "scientificName": "seasiaus 一眉道人is",
-    "description": "Beautiful 一眉道人 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【一眉道人】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Epic",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2896,
@@ -2018,8 +2036,8 @@
   {
     "id": "seasia_073",
     "commonName": "飛魚",
-    "scientificName": "seasiaus 飛魚is",
-    "description": "Beautiful 飛魚 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【飛魚】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Epic",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2952,
@@ -2046,8 +2064,8 @@
   {
     "id": "seasia_074",
     "commonName": "玻璃貓",
-    "scientificName": "seasiaus 玻璃貓is",
-    "description": "Beautiful 玻璃貓 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【玻璃貓】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 3923,
@@ -2074,8 +2092,8 @@
   {
     "id": "seasia_075",
     "commonName": "珍珠馬甲",
-    "scientificName": "seasiaus 珍珠馬甲is",
-    "description": "Beautiful 珍珠馬甲 native to the 東南亞與湄公河原生溪流 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【珍珠馬甲】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 4932,
@@ -2102,8 +2120,8 @@
   {
     "id": "taiwan_076",
     "commonName": "櫻花鉤吻鮭",
-    "scientificName": "taiwanus 櫻花鉤吻鮭is",
-    "description": "Beautiful 櫻花鉤吻鮭 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【櫻花鉤吻鮭】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Epic",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 2683,
@@ -2130,8 +2148,8 @@
   {
     "id": "taiwan_077",
     "commonName": "高山鯝魚",
-    "scientificName": "taiwanus 高山鯝魚is",
-    "description": "Beautiful 高山鯝魚 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【高山鯝魚】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 886,
@@ -2158,8 +2176,8 @@
   {
     "id": "taiwan_078",
     "commonName": "粗首鱲",
-    "scientificName": "taiwanus 粗首鱲is",
-    "description": "Beautiful 粗首鱲 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【粗首鱲】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4884,
@@ -2186,8 +2204,8 @@
   {
     "id": "taiwan_079",
     "commonName": "台灣石賓",
-    "scientificName": "taiwanus 台灣石賓is",
-    "description": "Beautiful 台灣石賓 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【台灣石賓】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 166,
@@ -2214,8 +2232,8 @@
   {
     "id": "taiwan_080",
     "commonName": "七星鱧",
-    "scientificName": "taiwanus 七星鱧is",
-    "description": "Beautiful 七星鱧 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【七星鱧】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1829,
@@ -2242,8 +2260,8 @@
   {
     "id": "taiwan_081",
     "commonName": "玫瑰鯽",
-    "scientificName": "taiwanus 玫瑰鯽is",
-    "description": "Beautiful 玫瑰鯽 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【玫瑰鯽】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 2122,
@@ -2270,8 +2288,8 @@
   {
     "id": "taiwan_082",
     "commonName": "台灣纓口鰍",
-    "scientificName": "taiwanus 台灣纓口鰍is",
-    "description": "Beautiful 台灣纓口鰍 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【台灣纓口鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1449,
@@ -2298,8 +2316,8 @@
   {
     "id": "taiwan_083",
     "commonName": "巴氏銀鮈",
-    "scientificName": "taiwanus 巴氏銀鮈is",
-    "description": "Beautiful 巴氏銀鮈 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【巴氏銀鮈】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Epic",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4024,
@@ -2326,8 +2344,8 @@
   {
     "id": "taiwan_084",
     "commonName": "埔里中華爬岩鰍",
-    "scientificName": "taiwanus 埔里中華爬岩鰍is",
-    "description": "Beautiful 埔里中華爬岩鰍 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【埔里中華爬岩鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1361,
@@ -2354,8 +2372,8 @@
   {
     "id": "taiwan_085",
     "commonName": "細體擬平鰍",
-    "scientificName": "taiwanus 細體擬平鰍is",
-    "description": "Beautiful 細體擬平鰍 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【細體擬平鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4060,
@@ -2382,8 +2400,8 @@
   {
     "id": "taiwan_086",
     "commonName": "恆春吻鰕虎",
-    "scientificName": "taiwanus 恆春吻鰕虎is",
-    "description": "Beautiful 恆春吻鰕虎 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【恆春吻鰕虎】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Epic",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 3934,
@@ -2410,8 +2428,8 @@
   {
     "id": "taiwan_087",
     "commonName": "蓋斑鬥魚",
-    "scientificName": "taiwanus 蓋斑鬥魚is",
-    "description": "Beautiful 蓋斑鬥魚 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【蓋斑鬥魚】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4804,
@@ -2438,8 +2456,8 @@
   {
     "id": "taiwan_088",
     "commonName": "台灣間爬岩鰍",
-    "scientificName": "taiwanus 台灣間爬岩鰍is",
-    "description": "Beautiful 台灣間爬岩鰍 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【台灣間爬岩鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Epic",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 2474,
@@ -2466,8 +2484,8 @@
   {
     "id": "taiwan_089",
     "commonName": "苦花",
-    "scientificName": "taiwanus 苦花is",
-    "description": "Beautiful 苦花 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【苦花】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Rare",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1631,
@@ -2494,8 +2512,8 @@
   {
     "id": "taiwan_090",
     "commonName": "溪哥",
-    "scientificName": "taiwanus 溪哥is",
-    "description": "Beautiful 溪哥 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【溪哥】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 3742,
@@ -2522,8 +2540,8 @@
   {
     "id": "taiwan_091",
     "commonName": "短吻鎌柄",
-    "scientificName": "taiwanus 短吻鎌柄is",
-    "description": "Beautiful 短吻鎌柄 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【短吻鎌柄】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4498,
@@ -2550,8 +2568,8 @@
   {
     "id": "taiwan_092",
     "commonName": "粗鱗鱲",
-    "scientificName": "taiwanus 粗鱗鱲is",
-    "description": "Beautiful 粗鱗鱲 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【粗鱗鱲】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Legendary",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4783,
@@ -2578,8 +2596,8 @@
   {
     "id": "taiwan_093",
     "commonName": "中華花鰍",
-    "scientificName": "taiwanus 中華花鰍is",
-    "description": "Beautiful 中華花鰍 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【中華花鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 2970,
@@ -2606,8 +2624,8 @@
   {
     "id": "taiwan_094",
     "commonName": "泥鰍",
-    "scientificName": "taiwanus 泥鰍is",
-    "description": "Beautiful 泥鰍 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【泥鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Legendary",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1132,
@@ -2634,8 +2652,8 @@
   {
     "id": "taiwan_095",
     "commonName": "鱸鰻",
-    "scientificName": "taiwanus 鱸鰻is",
-    "description": "Beautiful 鱸鰻 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【鱸鰻】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Legendary",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 3910,
@@ -2662,8 +2680,8 @@
   {
     "id": "taiwan_096",
     "commonName": "台灣石鱋",
-    "scientificName": "taiwanus 台灣石鱋is",
-    "description": "Beautiful 台灣石鱋 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【台灣石鱋】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Legendary",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 644,
@@ -2690,8 +2708,8 @@
   {
     "id": "taiwan_097",
     "commonName": "條紋二鬚䰾",
-    "scientificName": "taiwanus 條紋二鬚䰾is",
-    "description": "Beautiful 條紋二鬚䰾 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【條紋二鬚䰾】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4846,
@@ -2718,8 +2736,8 @@
   {
     "id": "taiwan_098",
     "commonName": "菊池氏細鯽",
-    "scientificName": "taiwanus 菊池氏細鯽is",
-    "description": "Beautiful 菊池氏細鯽 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【菊池氏細鯽】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Epic",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1510,
@@ -2746,8 +2764,8 @@
   {
     "id": "taiwan_099",
     "commonName": "圓吻鯝",
-    "scientificName": "taiwanus 圓吻鯝is",
-    "description": "Beautiful 圓吻鯝 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【圓吻鯝】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Epic",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 243,
@@ -2774,8 +2792,8 @@
   {
     "id": "taiwan_100",
     "commonName": "台東間爬岩鰍",
-    "scientificName": "taiwanus 台東間爬岩鰍is",
-    "description": "Beautiful 台東間爬岩鰍 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "scientificName": "Carassius auratus var. None",
+    "description": "極具東亞古典美學的名門品種【台東間爬岩鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Legendary",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4034,

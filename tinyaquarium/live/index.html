@@ -1126,7 +1126,7 @@
             mythical: { bg: 'bg-rose-500/20', text: 'text-rose-300', border: 'border-rose-500/30', label: '神話' }
         };
 
-        function generateFishSvg(fish, size = 36) {
+        function generateFishSvg(fish, size = 40) {
             const bp = fish.visualBlueprint || {};
             const pColor = bp.primaryColor || '#00F0FF';
             const sColor = bp.secondaryColor || '#0E7490';
@@ -1134,41 +1134,78 @@
             const tail = bp.tailShape || 'forked';
             const features = bp.features || [];
             
-            const name = (fish.commonName || '') + (fish.scientificName || '') + (fish.id || '');
-            if (name.includes('水母')) return `<span style="font-size: ${size * 0.7}px;">🪼</span>`;
-            if (name.includes('章魚') || name.includes('蛸')) return `<span style="font-size: ${size * 0.7}px;">🐙</span>`;
-            if (name.includes('烏賊') || name.includes('魷')) return `<span style="font-size: ${size * 0.7}px;">🦑</span>`;
-            if (name.includes('蝦') || name.includes('奇蝦')) return `<span style="font-size: ${size * 0.7}px;">🦐</span>`;
-            if (name.includes('蟹')) return `<span style="font-size: ${size * 0.7}px;">🦀</span>`;
-            if (name.includes('海龜') || name.includes('龜')) return `<span style="font-size: ${size * 0.7}px;">🐢</span>`;
-            if (name.includes('海馬') || name.includes('海龍')) return `<span style="font-size: ${size * 0.7}px;">🌟</span>`;
-            if (name.includes('龍') || name.includes('鯤')) return `<span style="font-size: ${size * 0.7}px;">🐉</span>`;
-            if (name.includes('恐龍') || name.includes('滄龍') || name.includes('蛇頸龍') || name.includes('齒鯊')) return `<span style="font-size: ${size * 0.7}px;">🦕</span>`;
-            if (name.includes('月餅') || name.includes('布丁') || name.includes('舒芙蕾') || name.includes('可麗餅') || name.includes('馬卡龍')) return `<span style="font-size: ${size * 0.7}px;">🍰</span>`;
-            if (name.includes('錦鯉') || name.includes('紅白') || name.includes('三色') || name.includes('金魚')) return `<span style="font-size: ${size * 0.7}px;">🎏</span>`;
-            if (name.includes('鯨') || name.includes('海豚')) return `<span style="font-size: ${size * 0.7}px;">🐳</span>`;
-            if (name.includes('星') || name.includes('塔羅') || name.includes('黑洞') || name.includes('量子')) return `<span style="font-size: ${size * 0.7}px;">🌌</span>`;
+            // Only use emoji for distinct non-fish taxonomic classes (jellyfish, octopus, squid, crab, turtle)
+            const name = (fish.commonName || '') + (fish.id || '');
+            if (name.includes('水母')) return `<span style="font-size: ${size * 0.75}px;">🪼</span>`;
+            if (name.includes('章魚') || name.includes('蛸')) return `<span style="font-size: ${size * 0.75}px;">🐙</span>`;
+            if (name.includes('烏賊') || name.includes('魷')) return `<span style="font-size: ${size * 0.75}px;">🦑</span>`;
+            if (name.includes('螃蟹') || name.includes('寄居蟹')) return `<span style="font-size: ${size * 0.75}px;">🦀</span>`;
+            if (name.includes('海龜') || name.includes('巨海龜')) return `<span style="font-size: ${size * 0.75}px;">🐢</span>`;
 
-            // Procedural SVG Fish based on actual visualBlueprint colors and geometric tail shapes
-            const gradId = 'g_' + (fish.id || 'def').replace(/[^a-zA-Z0-9]/g, '_');
-            let tailPath = 'M14,24 Q2,14 4,8 Q10,22 14,24 Q10,26 4,40 Q2,34 14,24 Z';
+            // Procedural SVG Vector Fish with exact blueprint colors & tail geometry
+            const gradId = 'g_' + (fish.id || 'f').replace(/[^a-zA-Z0-9]/g, '_');
+            
+            // Tail geometries
+            let tailPath = 'M14,24 Q2,12 4,6 Q10,22 14,24 Q10,26 4,42 Q2,36 14,24 Z'; // forked
             if (tail === 'fan' || tail === 'butterfly') {
-                tailPath = 'M14,24 C4,8 0,16 2,24 C0,32 4,40 14,24 Z';
+                tailPath = 'M14,24 C4,6 0,14 2,24 C0,34 4,42 14,24 Z';
             } else if (tail === 'spiky' || tail === 'armor') {
-                tailPath = 'M14,24 L4,10 L8,24 L4,38 Z';
-            } else if (tail === 'ribbon') {
-                tailPath = 'M14,24 Q6,12 2,18 Q8,24 2,30 Q6,36 14,24 Z';
+                tailPath = 'M14,24 L4,8 L9,24 L4,40 Z';
+            } else if (tail === 'ribbon' || tail === 'eel') {
+                tailPath = 'M14,24 Q6,10 2,16 Q8,24 2,32 Q6,38 14,24 Z';
+            } else if (tail === 'lyre') {
+                tailPath = 'M14,24 C2,8 0,4 2,2 C6,16 12,22 14,24 C12,26 6,32 2,46 C0,44 2,40 14,24 Z';
             }
 
-            let extraFeatureSvg = '';
-            if (features.includes('whiskers') || name.includes('鯰') || name.includes('異型') || name.includes('龍魚')) {
-                extraFeatureSvg += `<path d="M42,26 Q46,31 43,36" stroke="${aColor}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`;
+            // Patterns & Anatomy details
+            let patternsSvg = '';
+            
+            // Koi / Calico / Spots
+            if (features.includes('flowing_fins') || features.includes('tancho_crown') || name.includes('紅白') || name.includes('三色') || name.includes('錦鯉')) {
+                if (features.includes('tancho_crown') || name.includes('丹頂')) {
+                    patternsSvg += `<circle cx="37" cy="18" r="3.2" fill="#DC2626"/>`;
+                } else {
+                    patternsSvg += `<ellipse cx="28" cy="21" rx="5" ry="3.5" fill="${sColor}" opacity="0.95"/>`;
+                    patternsSvg += `<ellipse cx="22" cy="25" rx="3.5" ry="2.5" fill="${aColor}" opacity="0.9"/>`;
+                }
+            } else if (features.includes('stripes') || name.includes('斑馬') || name.includes('六間') || name.includes('迷宮')) {
+                // Vertical stripes
+                patternsSvg += `
+                    <line x1="26" y1="17" x2="25" y2="31" stroke="${sColor}" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="31" y1="16" x2="30" y2="32" stroke="${sColor}" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="36" y1="18" x2="35" y2="30" stroke="${sColor}" stroke-width="2" stroke-linecap="round"/>
+                `;
+            } else if (features.includes('spots') || name.includes('點') || name.includes('豹')) {
+                // Spots
+                patternsSvg += `
+                    <circle cx="25" cy="21" r="1.5" fill="${sColor}"/>
+                    <circle cx="31" cy="20" r="1.5" fill="${sColor}"/>
+                    <circle cx="28" cy="26" r="1.5" fill="${aColor}"/>
+                    <circle cx="34" cy="25" r="1.5" fill="${sColor}"/>
+                `;
             }
-            if (features.includes('glowing_aura') || features.includes('bioluminescence') || name.includes('深海') || name.includes('光')) {
-                extraFeatureSvg += `<circle cx="40" cy="18" r="3.5" fill="#00F0FF" opacity="0.9"/>`;
+
+            // Whiskers (Barbel)
+            let whiskersSvg = '';
+            if (features.includes('whiskers') || name.includes('鯰') || name.includes('異型') || name.includes('龍魚') || name.includes('錦鯉') || name.includes('鰍')) {
+                whiskersSvg = `<path d="M42,26 Q47,31 43,37" stroke="${aColor}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`;
             }
-            if (features.includes('dorsal_spikes') || name.includes('坦克') || name.includes('刺') || name.includes('鯊')) {
-                extraFeatureSvg += `<polygon points="26,12 32,4 35,14" fill="${sColor}"/>`;
+
+            // Bioluminescent / Lantern / Cosmic Glow
+            let glowSvg = '';
+            if (features.includes('glowing_aura') || features.includes('bioluminescence') || name.includes('鮟鱇') || name.includes('深海') || name.includes('星') || name.includes('光')) {
+                glowSvg = `
+                    <path d="M38,15 Q42,8 44,11" stroke="${aColor}" stroke-width="1.5" fill="none"/>
+                    <circle cx="44" cy="11" r="3" fill="#00F0FF" filter="drop-shadow(0 0 5px #00F0FF)"/>
+                `;
+            }
+
+            // Dorsal Spikes / Fin
+            let dorsalSvg = '';
+            if (features.includes('dorsal_spikes') || name.includes('坦克') || name.includes('鯊') || name.includes('高帆')) {
+                dorsalSvg = `<polygon points="23,15 28,3 35,16" fill="${sColor}"/>`;
+            } else {
+                dorsalSvg = `<path d="M22,16 Q30,8 36,17 Z" fill="${sColor}" opacity="0.85"/>`;
             }
 
             return `
@@ -1176,18 +1213,29 @@
                 <defs>
                     <linearGradient id="${gradId}" x1="0%" y1="0%" x2="100%" y2="100%">
                         <stop offset="0%" stop-color="${pColor}"/>
-                        <stop offset="65%" stop-color="${sColor}"/>
+                        <stop offset="70%" stop-color="${sColor}"/>
                         <stop offset="100%" stop-color="${aColor}"/>
                     </linearGradient>
                 </defs>
+                <!-- Dorsal Fin -->
+                ${dorsalSvg}
+                <!-- Tail Fin -->
                 <path d="${tailPath}" fill="${sColor}" opacity="0.95"/>
-                <ellipse cx="28" cy="27" rx="5" ry="3" fill="${aColor}" opacity="0.85" transform="rotate(20 28 27)"/>
+                <!-- Ventral Pectoral Fin -->
+                <ellipse cx="28" cy="27" rx="5.5" ry="3" fill="${aColor}" opacity="0.9" transform="rotate(20 28 27)"/>
+                <!-- Main Body -->
                 <ellipse cx="30" cy="24" rx="14" ry="9" fill="url(#${gradId})"/>
-                <ellipse cx="31" cy="27" rx="10" ry="4" fill="#FFFFFF" opacity="0.28"/>
+                <!-- Belly Highlight -->
+                <ellipse cx="31" cy="27" rx="10" ry="4" fill="#FFFFFF" opacity="0.25"/>
+                <!-- Custom Patterns -->
+                ${patternsSvg}
+                <!-- Eye -->
                 <circle cx="38" cy="21" r="3.2" fill="#FFFFFF"/>
                 <circle cx="39.2" cy="20.8" r="1.8" fill="#0F172A"/>
                 <circle cx="39.8" cy="20.2" r="0.6" fill="#FFFFFF"/>
-                ${extraFeatureSvg}
+                <!-- Whiskers & Glow -->
+                ${whiskersSvg}
+                ${glowSvg}
             </svg>`;
         }
 
