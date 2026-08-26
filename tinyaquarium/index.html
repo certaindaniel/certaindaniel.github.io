@@ -797,7 +797,7 @@
         
         let isFeedMode = false;
         let todaySteps = 4261;
-        let bubbleCoins = 120;
+        let bubbleCoins = 50;
         let heartEnergy = 100;
         let foodCharges = 5;
         
@@ -810,8 +810,7 @@
 
         // Bubble Coins
         let bubbles = [
-            { x: 200, y: 80, vy: -0.2, val: 5, radius: 18 },
-            { x: 450, y: 70, vy: -0.3, val: 5, radius: 18 }
+            { x: 280, y: 80, vy: -0.2, val: 1, radius: 18 }
         ];
 
         // Foods
@@ -970,11 +969,11 @@
             });
 
             // Spawn bubble periodically
-            if (Math.random() < 0.008 && bubbles.length < 5) {
+            if (Math.random() < 0.003 && bubbles.length < 3) {
                 bubbles.push({
                     x: 60 + Math.random() * (canvas.width - 120),
                     y: 60 + Math.random() * 40,
-                    val: 5,
+                    val: Math.random() > 0.6 ? 2 : 1,
                     radius: 18
                 });
             }
@@ -997,7 +996,7 @@
                     // Eat food
                     if (minD < 20) {
                         foods.splice(foods.indexOf(closest), 1);
-                        bubbleCoins += 2;
+                        bubbleCoins += 1;
                         heartEnergy = Math.min(500, heartEnergy + 2);
                         updateHUD();
                     }
