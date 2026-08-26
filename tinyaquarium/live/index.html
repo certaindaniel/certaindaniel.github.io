@@ -1126,6 +1126,71 @@
             mythical: { bg: 'bg-rose-500/20', text: 'text-rose-300', border: 'border-rose-500/30', label: '神話' }
         };
 
+        function generateFishSvg(fish, size = 36) {
+            const bp = fish.visualBlueprint || {};
+            const pColor = bp.primaryColor || '#00F0FF';
+            const sColor = bp.secondaryColor || '#0E7490';
+            const aColor = bp.accentColor || '#FACC15';
+            const tail = bp.tailShape || 'forked';
+            const features = bp.features || [];
+            
+            const name = (fish.commonName || '') + (fish.scientificName || '') + (fish.id || '');
+            if (name.includes('水母')) return `<span style="font-size: ${size * 0.7}px;">🪼</span>`;
+            if (name.includes('章魚') || name.includes('蛸')) return `<span style="font-size: ${size * 0.7}px;">🐙</span>`;
+            if (name.includes('烏賊') || name.includes('魷')) return `<span style="font-size: ${size * 0.7}px;">🦑</span>`;
+            if (name.includes('蝦') || name.includes('奇蝦')) return `<span style="font-size: ${size * 0.7}px;">🦐</span>`;
+            if (name.includes('蟹')) return `<span style="font-size: ${size * 0.7}px;">🦀</span>`;
+            if (name.includes('海龜') || name.includes('龜')) return `<span style="font-size: ${size * 0.7}px;">🐢</span>`;
+            if (name.includes('海馬') || name.includes('海龍')) return `<span style="font-size: ${size * 0.7}px;">🌟</span>`;
+            if (name.includes('龍') || name.includes('鯤')) return `<span style="font-size: ${size * 0.7}px;">🐉</span>`;
+            if (name.includes('恐龍') || name.includes('滄龍') || name.includes('蛇頸龍') || name.includes('齒鯊')) return `<span style="font-size: ${size * 0.7}px;">🦕</span>`;
+            if (name.includes('月餅') || name.includes('布丁') || name.includes('舒芙蕾') || name.includes('可麗餅') || name.includes('馬卡龍')) return `<span style="font-size: ${size * 0.7}px;">🍰</span>`;
+            if (name.includes('錦鯉') || name.includes('紅白') || name.includes('三色') || name.includes('金魚')) return `<span style="font-size: ${size * 0.7}px;">🎏</span>`;
+            if (name.includes('鯨') || name.includes('海豚')) return `<span style="font-size: ${size * 0.7}px;">🐳</span>`;
+            if (name.includes('星') || name.includes('塔羅') || name.includes('黑洞') || name.includes('量子')) return `<span style="font-size: ${size * 0.7}px;">🌌</span>`;
+
+            // Procedural SVG Fish based on actual visualBlueprint colors and geometric tail shapes
+            const gradId = 'g_' + (fish.id || 'def').replace(/[^a-zA-Z0-9]/g, '_');
+            let tailPath = 'M14,24 Q2,14 4,8 Q10,22 14,24 Q10,26 4,40 Q2,34 14,24 Z';
+            if (tail === 'fan' || tail === 'butterfly') {
+                tailPath = 'M14,24 C4,8 0,16 2,24 C0,32 4,40 14,24 Z';
+            } else if (tail === 'spiky' || tail === 'armor') {
+                tailPath = 'M14,24 L4,10 L8,24 L4,38 Z';
+            } else if (tail === 'ribbon') {
+                tailPath = 'M14,24 Q6,12 2,18 Q8,24 2,30 Q6,36 14,24 Z';
+            }
+
+            let extraFeatureSvg = '';
+            if (features.includes('whiskers') || name.includes('鯰') || name.includes('異型') || name.includes('龍魚')) {
+                extraFeatureSvg += `<path d="M42,26 Q46,31 43,36" stroke="${aColor}" stroke-width="1.8" fill="none" stroke-linecap="round"/>`;
+            }
+            if (features.includes('glowing_aura') || features.includes('bioluminescence') || name.includes('深海') || name.includes('光')) {
+                extraFeatureSvg += `<circle cx="40" cy="18" r="3.5" fill="#00F0FF" opacity="0.9"/>`;
+            }
+            if (features.includes('dorsal_spikes') || name.includes('坦克') || name.includes('刺') || name.includes('鯊')) {
+                extraFeatureSvg += `<polygon points="26,12 32,4 35,14" fill="${sColor}"/>`;
+            }
+
+            return `
+            <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                <defs>
+                    <linearGradient id="${gradId}" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="${pColor}"/>
+                        <stop offset="65%" stop-color="${sColor}"/>
+                        <stop offset="100%" stop-color="${aColor}"/>
+                    </linearGradient>
+                </defs>
+                <path d="${tailPath}" fill="${sColor}" opacity="0.95"/>
+                <ellipse cx="28" cy="27" rx="5" ry="3" fill="${aColor}" opacity="0.85" transform="rotate(20 28 27)"/>
+                <ellipse cx="30" cy="24" rx="14" ry="9" fill="url(#${gradId})"/>
+                <ellipse cx="31" cy="27" rx="10" ry="4" fill="#FFFFFF" opacity="0.28"/>
+                <circle cx="38" cy="21" r="3.2" fill="#FFFFFF"/>
+                <circle cx="39.2" cy="20.8" r="1.8" fill="#0F172A"/>
+                <circle cx="39.8" cy="20.2" r="0.6" fill="#FFFFFF"/>
+                ${extraFeatureSvg}
+            </svg>`;
+        }
+
         function renderVaultGrid() {
             const query = document.getElementById('vaultSearchInput').value.toLowerCase().trim();
             const grid = document.getElementById('vaultSpeciesGrid');
@@ -1145,13 +1210,13 @@
 
             grid.innerHTML = displayList.map(fish => {
                 const rStyle = rarityStyles[fish.rarity?.toLowerCase()] || rarityStyles.common;
-                const emoji = fish.emojiOrSprite || '🐟';
+                const fishIcon = generateFishSvg(fish, 40);
                 return `
                     <div onclick="openSpeciesModal('${fish.id}')" class="glass-card p-5 rounded-2xl cursor-pointer group transition-all duration-300 hover:-translate-y-1.5 flex flex-col justify-between">
                         <div class="space-y-3">
                             <div class="flex items-start justify-between">
-                                <div class="w-12 h-12 rounded-xl bg-midnightNavy border border-white/10 flex items-center justify-center text-3xl shadow-inner group-hover:scale-110 transition-transform">
-                                    ${emoji}
+                                <div class="w-14 h-14 rounded-2xl bg-midnightNavy border border-white/15 flex items-center justify-center shadow-inner group-hover:scale-110 transition-transform overflow-hidden">
+                                    ${fishIcon}
                                 </div>
                                 <span class="px-2 py-0.5 rounded-full ${rStyle.bg} ${rStyle.text} border ${rStyle.border} text-[10px] font-bold">
                                     ${rStyle.label}
@@ -1182,7 +1247,7 @@
             const fish = allVaultData.find(f => f.id === fishId);
             if (!fish) return;
             const rStyle = rarityStyles[fish.rarity?.toLowerCase()] || rarityStyles.common;
-            document.getElementById('modalEmoji').textContent = fish.emojiOrSprite || '🐟';
+            document.getElementById('modalEmoji').innerHTML = generateFishSvg(fish, 56);
             document.getElementById('modalName').textContent = fish.commonName || fish.id;
             document.getElementById('modalScientific').textContent = fish.scientificName || '';
             document.getElementById('modalRarityBadge').className = `px-2 py-0.5 rounded-full ${rStyle.bg} ${rStyle.text} border ${rStyle.border} text-[10px] font-bold`;
