@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinyAquarium 口袋水族館 - 官方玩法與新手養成指南 | Official Player Manual</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ["Plus Jakarta Sans", "Noto Sans TC", "sans-serif"],
+                    },
+                    colors: {
+                        ocean: {
+                            50: "#f0f9ff",
+                            100: "#e0f2fe",
+                            200: "#bae6fd",
+                            300: "#7dd3fc",
+                            400: "#38bdf8",
+                            500: "#0ea5e9",
+                            600: "#0284c7",
+                            700: "#0369a1",
+                            800: "#075985",
+                            900: "#0c4a6e",
+                            950: "#082f49",
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-card {
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .hero-glow {
+            background: radial-gradient(circle at 50% 20%, rgba(56, 189, 248, 0.18) 0%, rgba(15, 23, 42, 0) 70%);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-white min-h-screen">
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 border-b border-slate-800/80 bg-slate-950/80 backdrop-blur-xl">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <a href="../live/" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center text-xl shadow-lg shadow-cyan-500/25 group-hover:scale-105 transition">
+                    🐟
+                </div>
+                <div>
+                    <div class="font-bold text-lg leading-tight tracking-tight flex items-center gap-2">
+                        TinyAquarium <span class="text-xs px-2 py-0.5 rounded-full bg-cyan-500/20 text-cyan-400 border border-cyan-500/30">指南</span>
+                    </div>
+                    <div class="text-[11px] text-slate-400">口袋水族館 • 玩家手冊與玩法全攻略</div>
+                </div>
+            </a>
+            
+            <div class="flex items-center gap-4">
+                <a href="../live/" class="text-sm font-medium text-slate-300 hover:text-cyan-400 transition flex items-center gap-1.5">
+                    <i class="fa-solid fa-book-open"></i> 萬魚圖鑑展廳
+                </a>
+                <span class="text-xs px-3 py-1.5 rounded-lg bg-amber-500/10 text-amber-400 border border-amber-500/20 font-medium flex items-center gap-1.5">
+                    <i class="fa-solid fa-clock"></i> Coming Soon
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Title -->
+    <section class="hero-glow pt-16 pb-12 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto text-center">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-semibold mb-6">
+            <i class="fa-solid fa-compass"></i> 新手必讀 • 完整的口袋水族生態指南
+        </div>
+        <h1 class="text-4xl sm:text-5xl font-black tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-100 to-cyan-400">
+            TinyAquarium 養魚與繁育全攻略
+        </h1>
+        <p class="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+            透過日常健走步數孵化千種水族，掌握基因突變實驗室配方，升級擴建專屬水族箱，享受 60 FPS 治癒水聲白噪音。
+        </p>
+    </section>
+
+    <!-- Main Guide Grid -->
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-24 space-y-12">
+
+        <!-- Chapter 1: Steps & Incubation -->
+        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+            <div class="absolute -top-12 -right-12 w-48 h-48 bg-cyan-500/10 rounded-full blur-3xl"></div>
+            <div class="flex items-center gap-3 mb-6">
+                <span class="w-8 h-8 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-bold text-sm">01</span>
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                    🚶‍♂️ 健走步數與魚卵孵化機制
+                </h2>
+            </div>
+            
+            <p class="text-slate-300 leading-relaxed mb-6">
+                TinyAquarium 深度整合 Apple HealthKit 與 Apple Watch，將您每日的真實行走步數轉化為魚卵的生命孵化能量。
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
+                    <div class="text-2xl mb-2">🥚</div>
+                    <div class="font-bold text-white mb-1">孵化中魚卵</div>
+                    <div class="text-xs text-slate-400">水族箱底部隨時維繫一顆進行中的魚卵，在您走路時即時推進進度。</div>
+                </div>
+                <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
+                    <div class="text-2xl mb-2">⌚</div>
+                    <div class="font-bold text-white mb-1">背景後台同步</div>
+                    <div class="text-xs text-slate-400">無需常駐開啟 App，走路步數會在每次啟動或透過 Widget 小組件自動同步累積。</div>
+                </div>
+                <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
+                    <div class="text-2xl mb-2">🎉</div>
+                    <div class="font-bold text-white mb-1">破殼滿步儀式</div>
+                    <div class="text-xs text-slate-400">步數達標後，點擊「破殼孵化」按鈕即可在 60 FPS 粒子光暈與水聲中迎來新魚！</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chapter 2: Rarity System -->
+        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+            <div class="flex items-center gap-3 mb-6">
+                <span class="w-8 h-8 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center font-bold text-sm">02</span>
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                    💎 5 階稀有度與經濟體系
+                </h2>
+            </div>
+            
+            <p class="text-slate-300 leading-relaxed mb-6">
+                遊戲採用標準的「白 &lt; 綠 &lt; 藍 &lt; 紫 &lt; 橙(金)」五級階梯，魚種越珍稀，孵化步數越高、吐出的泡泡金幣（Bubble Coins 🫧）也越豐厚：
+            </p>
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-left text-sm">
+                    <thead>
+                        <tr class="border-b border-slate-800 text-slate-400 text-xs uppercase tracking-wider">
+                            <th class="py-3 px-4">等級階級</th>
+                            <th class="py-3 px-4">孵化步數需求</th>
+                            <th class="py-3 px-4">每分鐘產幣</th>
+                            <th class="py-3 px-4">代表品種生態</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-800/60 font-mono text-xs sm:text-sm">
+                        <tr>
+                            <td class="py-3 px-4 font-bold text-slate-300">⬜ 普通 (Common)</td>
+                            <td class="py-3 px-4 text-slate-400">1,000 ~ 2,500 步</td>
+                            <td class="py-3 px-4 text-cyan-400">1 ~ 2 🪙</td>
+                            <td class="py-3 px-4 text-slate-300">日光燈魚、彩虹孔雀魚、小精靈鼠</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 font-bold text-emerald-400">🟩 精良 (Uncommon)</td>
+                            <td class="py-3 px-4 text-slate-400">2,500 ~ 4,000 步</td>
+                            <td class="py-3 px-4 text-cyan-400">2 ~ 3 🪙</td>
+                            <td class="py-3 px-4 text-slate-300">紅鼻剪刀、眼斑小丑魚、荷蘭鳳凰短鯛</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 font-bold text-blue-400">🟦 稀有 (Rare)</td>
+                            <td class="py-3 px-4 text-slate-400">4,000 ~ 6,000 步</td>
+                            <td class="py-3 px-4 text-cyan-400">3 ~ 5 🪙</td>
+                            <td class="py-3 px-4 text-slate-300">日本蘭壽金魚、黃三角倒吊、台灣高山鯝魚</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 font-bold text-purple-400">🟪 史詩 (Epic)</td>
+                            <td class="py-3 px-4 text-slate-400">6,000 ~ 12,000 步</td>
+                            <td class="py-3 px-4 text-cyan-400">5 ~ 12 🪙</td>
+                            <td class="py-3 px-4 text-slate-300">日本丹頂錦鯉、墨黑水泡眼、白金雙尾鬥魚、黑帝王魟</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 font-bold text-amber-400">🟧 傳說 (Legendary)</td>
+                            <td class="py-3 px-4 text-slate-400">15,000 ~ 30,000 步</td>
+                            <td class="py-3 px-4 text-cyan-400">15 ~ 30 🪙</td>
+                            <td class="py-3 px-4 text-slate-300">北溟巨鯤、滅世巨齒鯊、白堊紀滄龍、耶夢加得</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Chapter 3: Genetics Breeding Lab -->
+        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+            <div class="flex items-center gap-3 mb-6">
+                <span class="w-8 h-8 rounded-xl bg-pink-500/20 text-pink-400 flex items-center justify-center font-bold text-sm">03</span>
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                    🧬 基因繁育突變實驗室指南
+                </h2>
+            </div>
+            
+            <p class="text-slate-300 leading-relaxed mb-6">
+                進入【工坊】分頁的「基因繁育室」，您可以選定水族箱中的兩隻成熟種魚進行人工繁育：
+            </p>
+
+            <div class="space-y-4">
+                <div class="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 flex items-start gap-4">
+                    <div class="text-xl text-pink-400 mt-1"><i class="fa-solid fa-crown"></i></div>
+                    <div>
+                        <div class="font-bold text-white">成熟種魚條件</div>
+                        <div class="text-xs text-slate-400 mt-1">只有成長階段達到「成年（👑）」且愛心飽食度充足的魚隻，才能作為親代進入繁育艙。</div>
+                    </div>
+                </div>
+                <div class="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 flex items-start gap-4">
+                    <div class="text-xl text-cyan-400 mt-1"><i class="fa-solid fa-flask"></i></div>
+                    <div>
+                        <div class="font-bold text-white">隱性突變配方</div>
+                        <div class="text-xs text-slate-400 mt-1">特定親代組合會觸發基因突變！例如：<span class="text-cyan-300">日光燈魚 + 寶蓮燈</span> 突變為 <span class="text-purple-300">白金帝王燈</span>；<span class="text-cyan-300">日本紅白錦鯉 + 烏鯉</span> 突變為 <span class="text-amber-300">昭和三色錦鯉</span>。</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chapter 4: Workshop & Tank Expansion -->
+        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+            <div class="flex items-center gap-3 mb-6">
+                <span class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-sm">04</span>
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                    🏺 魚缸擴建升級與主題造景
+                </h2>
+            </div>
+            
+            <p class="text-slate-300 leading-relaxed mb-6">
+                利用魚隻產出的泡泡金幣（Bubble Coins 🪙），在【工坊】分頁中為水族箱升級：
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800">
+                    <div class="font-bold text-white mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-arrow-up-right-dots text-amber-400"></i> 擴建容量上限
+                    </div>
+                    <div class="text-xs text-slate-400 leading-relaxed">
+                        魚缸每提升 1 級，魚隻容納上限增加 +4 隻（最高可擴展至 20 隻同時共游）。
+                    </div>
+                </div>
+                <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800">
+                    <div class="font-bold text-white mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-water text-cyan-400"></i> 4 大主題水域切換
+                    </div>
+                    <div class="text-xs text-slate-400 leading-relaxed">
+                        可隨時切換「熱帶水草缸」、「和風庭園缸」、「深海幽境缸」與「賽博霓虹缸」，享有專屬水色、沉木與造景光影。
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chapter 5: P2P Trading -->
+        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+            <div class="flex items-center gap-3 mb-6">
+                <span class="w-8 h-8 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center font-bold text-sm">05</span>
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                    📡 近場神魚雷達交換 (P2P Trade)
+                </h2>
+            </div>
+            
+            <p class="text-slate-300 leading-relaxed mb-6">
+                不需聯網與註冊帳號！TinyAquarium 採用 Apple Multipeer Connectivity 技術，只要兩台 iPhone / iPad 靠在一起，即可透過本地 Wi-Fi 或藍牙進行點對點神魚交換。
+            </p>
+
+            <div class="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 text-xs text-slate-400 space-y-2">
+                <div class="flex items-center gap-2 text-slate-200 font-semibold">
+                    <i class="fa-solid fa-shield-halved text-emerald-400"></i> 雙向安全確認保障：
+                </div>
+                <div>1. 雙方開啟近場交換雷達，自動搜索鄰近玩家。</div>
+                <div>2. 挑選要贈送或交換的魚隻。</div>
+                <div>3. 雙方螢幕彈出確認卡片，雙方同時按下「確認交換」後安全交割。</div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800/80 bg-slate-950 py-10 text-center text-xs text-slate-500">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-2">
+                <span>🐟 TinyAquarium</span>
+                <span>•</span>
+                <span>Designed with Precision & Serenity</span>
+            </div>
+            <div>
+                <a href="../live/" class="text-cyan-400 hover:underline">返回 1,172 種萬魚圖鑑</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
