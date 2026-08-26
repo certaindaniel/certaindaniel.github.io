@@ -1,0 +1,2802 @@
+[
+  {
+    "id": "koi_001",
+    "commonName": "大日紅白",
+    "scientificName": "koius 大日紅白is",
+    "description": "Beautiful 大日紅白 native to the 日本錦鯉名門 region.",
+    "rarity": "Uncommon",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 3451,
+    "baseSwimSpeed": 2.56,
+    "baseCoinYield": 20,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#df7a0f",
+      "secondaryColor": "#e9ba7f",
+      "accentColor": "#809e2f",
+      "tailShape": "fan",
+      "bodyLength": 11.4,
+      "bodyHeight": 5.7,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_010",
+      "parentB": "koi_001",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_002",
+    "commonName": "昭和三色",
+    "scientificName": "koius 昭和三色is",
+    "description": "Beautiful 昭和三色 native to the 日本錦鯉名門 region.",
+    "rarity": "Legendary",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 4720,
+    "baseSwimSpeed": 2.15,
+    "baseCoinYield": 14,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#d503c8",
+      "secondaryColor": "#c3d0f7",
+      "accentColor": "#7a1739",
+      "tailShape": "lyre",
+      "bodyLength": 5.5,
+      "bodyHeight": 3.5,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_001",
+      "parentB": "koi_004",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_003",
+    "commonName": "白寫",
+    "scientificName": "koius 白寫is",
+    "description": "Beautiful 白寫 native to the 日本錦鯉名門 region.",
+    "rarity": "Legendary",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 4091,
+    "baseSwimSpeed": 2.67,
+    "baseCoinYield": 25,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#f8b040",
+      "secondaryColor": "#829779",
+      "accentColor": "#ad258e",
+      "tailShape": "lyre",
+      "bodyLength": 14.4,
+      "bodyHeight": 3.2,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_001",
+      "parentB": "koi_011",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_004",
+    "commonName": "黃寫",
+    "scientificName": "koius 黃寫is",
+    "description": "Beautiful 黃寫 native to the 日本錦鯉名門 region.",
+    "rarity": "Rare",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 1737,
+    "baseSwimSpeed": 0.68,
+    "baseCoinYield": 17,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#1526c6",
+      "secondaryColor": "#5db173",
+      "accentColor": "#bd4e52",
+      "tailShape": "veil",
+      "bodyLength": 14.0,
+      "bodyHeight": 1.5,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_011",
+      "parentB": "koi_011",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_005",
+    "commonName": "秋翠",
+    "scientificName": "koius 秋翠is",
+    "description": "Beautiful 秋翠 native to the 日本錦鯉名門 region.",
+    "rarity": "Epic",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 1934,
+    "baseSwimSpeed": 1.02,
+    "baseCoinYield": 9,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#6ce3ad",
+      "secondaryColor": "#a13352",
+      "accentColor": "#1410e9",
+      "tailShape": "pointed",
+      "bodyLength": 6.6,
+      "bodyHeight": 3.4,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_002",
+      "parentB": "koi_009",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_006",
+    "commonName": "淺黃",
+    "scientificName": "koius 淺黃is",
+    "description": "Beautiful 淺黃 native to the 日本錦鯉名門 region.",
+    "rarity": "Epic",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 3154,
+    "baseSwimSpeed": 1.06,
+    "baseCoinYield": 41,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#b39277",
+      "secondaryColor": "#035220",
+      "accentColor": "#a14803",
+      "tailShape": "fan",
+      "bodyLength": 5.7,
+      "bodyHeight": 4.1,
+      "features": [
+        "scales"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_001",
+      "parentB": "koi_004",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_007",
+    "commonName": "孔雀",
+    "scientificName": "koius 孔雀is",
+    "description": "Beautiful 孔雀 native to the 日本錦鯉名門 region.",
+    "rarity": "Uncommon",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 498,
+    "baseSwimSpeed": 2.27,
+    "baseCoinYield": 42,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#90c316",
+      "secondaryColor": "#ba3939",
+      "accentColor": "#49e783",
+      "tailShape": "lyre",
+      "bodyLength": 16.9,
+      "bodyHeight": 3.3,
+      "features": [
+        "scales"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_004",
+      "parentB": "koi_011",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_008",
+    "commonName": "五色",
+    "scientificName": "koius 五色is",
+    "description": "Beautiful 五色 native to the 日本錦鯉名門 region.",
+    "rarity": "Rare",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 2210,
+    "baseSwimSpeed": 2.05,
+    "baseCoinYield": 45,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#87993e",
+      "secondaryColor": "#cae11e",
+      "accentColor": "#8917b1",
+      "tailShape": "rounded",
+      "bodyLength": 9.8,
+      "bodyHeight": 3.6,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_005",
+      "parentB": "koi_005",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_009",
+    "commonName": "金昭和",
+    "scientificName": "koius 金昭和is",
+    "description": "Beautiful 金昭和 native to the 日本錦鯉名門 region.",
+    "rarity": "Uncommon",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 2165,
+    "baseSwimSpeed": 1.85,
+    "baseCoinYield": 34,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#593bdf",
+      "secondaryColor": "#72b87e",
+      "accentColor": "#495daf",
+      "tailShape": "lyre",
+      "bodyLength": 2.7,
+      "bodyHeight": 8.0,
+      "features": [
+        "spikes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_010",
+      "parentB": "koi_010",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_010",
+    "commonName": "羽白",
+    "scientificName": "koius 羽白is",
+    "description": "Beautiful 羽白 native to the 日本錦鯉名門 region.",
+    "rarity": "Common",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 2939,
+    "baseSwimSpeed": 0.71,
+    "baseCoinYield": 9,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#722563",
+      "secondaryColor": "#6bb32b",
+      "accentColor": "#200498",
+      "tailShape": "pointed",
+      "bodyLength": 15.1,
+      "bodyHeight": 8.7,
+      "features": [
+        "spikes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_010",
+      "parentB": "koi_006",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_011",
+    "commonName": "茶鯉",
+    "scientificName": "koius 茶鯉is",
+    "description": "Beautiful 茶鯉 native to the 日本錦鯉名門 region.",
+    "rarity": "Rare",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 1859,
+    "baseSwimSpeed": 0.52,
+    "baseCoinYield": 14,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#c42b9c",
+      "secondaryColor": "#94a97a",
+      "accentColor": "#09159b",
+      "tailShape": "veil",
+      "bodyLength": 17.1,
+      "bodyHeight": 7.3,
+      "features": [
+        "scales"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_005",
+      "parentB": "koi_005",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_012",
+    "commonName": "九紋龍",
+    "scientificName": "koius 九紋龍is",
+    "description": "Beautiful 九紋龍 native to the 日本錦鯉名門 region.",
+    "rarity": "Uncommon",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 2642,
+    "baseSwimSpeed": 0.97,
+    "baseCoinYield": 34,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#f90307",
+      "secondaryColor": "#157930",
+      "accentColor": "#30dca7",
+      "tailShape": "fan",
+      "bodyLength": 13.7,
+      "bodyHeight": 4.8,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_003",
+      "parentB": "koi_004",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_013",
+    "commonName": "別光",
+    "scientificName": "koius 別光is",
+    "description": "Beautiful 別光 native to the 日本錦鯉名門 region.",
+    "rarity": "Rare",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 1744,
+    "baseSwimSpeed": 1.33,
+    "baseCoinYield": 1,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#145a3c",
+      "secondaryColor": "#ed4080",
+      "accentColor": "#a70181",
+      "tailShape": "veil",
+      "bodyLength": 6.5,
+      "bodyHeight": 7.1,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_011",
+      "parentB": "koi_008",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_014",
+    "commonName": "烏鯉",
+    "scientificName": "koius 烏鯉is",
+    "description": "Beautiful 烏鯉 native to the 日本錦鯉名門 region.",
+    "rarity": "Legendary",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 1448,
+    "baseSwimSpeed": 0.67,
+    "baseCoinYield": 41,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#022fd9",
+      "secondaryColor": "#dafe42",
+      "accentColor": "#1c159a",
+      "tailShape": "forked",
+      "bodyLength": 3.8,
+      "bodyHeight": 8.7,
+      "features": [
+        "whiskers"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_004",
+      "parentB": "koi_009",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_015",
+    "commonName": "松葉",
+    "scientificName": "koius 松葉is",
+    "description": "Beautiful 松葉 native to the 日本錦鯉名門 region.",
+    "rarity": "Common",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 1510,
+    "baseSwimSpeed": 2.28,
+    "baseCoinYield": 34,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#3e425d",
+      "secondaryColor": "#9c289d",
+      "accentColor": "#8f4e95",
+      "tailShape": "fan",
+      "bodyLength": 17.6,
+      "bodyHeight": 7.5,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_005",
+      "parentB": "koi_005",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_016",
+    "commonName": "丹頂昭和",
+    "scientificName": "koius 丹頂昭和is",
+    "description": "Beautiful 丹頂昭和 native to the 日本錦鯉名門 region.",
+    "rarity": "Rare",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 3946,
+    "baseSwimSpeed": 1.82,
+    "baseCoinYield": 23,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#328c7f",
+      "secondaryColor": "#1ce9db",
+      "accentColor": "#75172a",
+      "tailShape": "forked",
+      "bodyLength": 13.7,
+      "bodyHeight": 4.5,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_005",
+      "parentB": "koi_007",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_017",
+    "commonName": "衣",
+    "scientificName": "koius 衣is",
+    "description": "Beautiful 衣 native to the 日本錦鯉名門 region.",
+    "rarity": "Uncommon",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 1038,
+    "baseSwimSpeed": 1.44,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#437539",
+      "secondaryColor": "#dab324",
+      "accentColor": "#716725",
+      "tailShape": "lyre",
+      "bodyLength": 4.5,
+      "bodyHeight": 9.2,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_010",
+      "parentB": "koi_008",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_018",
+    "commonName": "德國錦鯉",
+    "scientificName": "koius 德國錦鯉is",
+    "description": "Beautiful 德國錦鯉 native to the 日本錦鯉名門 region.",
+    "rarity": "Epic",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 3853,
+    "baseSwimSpeed": 2.29,
+    "baseCoinYield": 35,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#f56858",
+      "secondaryColor": "#b87b32",
+      "accentColor": "#23c904",
+      "tailShape": "lyre",
+      "bodyLength": 4.1,
+      "bodyHeight": 8.7,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_001",
+      "parentB": "koi_010",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_019",
+    "commonName": "紅白",
+    "scientificName": "koius 紅白is",
+    "description": "Beautiful 紅白 native to the 日本錦鯉名門 region.",
+    "rarity": "Uncommon",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 4838,
+    "baseSwimSpeed": 1.94,
+    "baseCoinYield": 36,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#294f01",
+      "secondaryColor": "#3f652b",
+      "accentColor": "#2b508e",
+      "tailShape": "pointed",
+      "bodyLength": 10.3,
+      "bodyHeight": 4.9,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_003",
+      "parentB": "koi_007",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_020",
+    "commonName": "大正三色",
+    "scientificName": "koius 大正三色is",
+    "description": "Beautiful 大正三色 native to the 日本錦鯉名門 region.",
+    "rarity": "Common",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 4411,
+    "baseSwimSpeed": 2.8,
+    "baseCoinYield": 15,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#087ad0",
+      "secondaryColor": "#7c2ab5",
+      "accentColor": "#2714c7",
+      "tailShape": "forked",
+      "bodyLength": 15.0,
+      "bodyHeight": 7.5,
+      "features": [
+        "whiskers"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_009",
+      "parentB": "koi_008",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_021",
+    "commonName": "べっ甲",
+    "scientificName": "koius べっ甲is",
+    "description": "Beautiful べっ甲 native to the 日本錦鯉名門 region.",
+    "rarity": "Common",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 1666,
+    "baseSwimSpeed": 1.01,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#e2e1bf",
+      "secondaryColor": "#384f86",
+      "accentColor": "#45f165",
+      "tailShape": "forked",
+      "bodyLength": 8.6,
+      "bodyHeight": 7.0,
+      "features": [
+        "spikes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_011",
+      "parentB": "koi_007",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_022",
+    "commonName": "藍衣",
+    "scientificName": "koius 藍衣is",
+    "description": "Beautiful 藍衣 native to the 日本錦鯉名門 region.",
+    "rarity": "Epic",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 3310,
+    "baseSwimSpeed": 2.02,
+    "baseCoinYield": 22,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#500374",
+      "secondaryColor": "#b9f2a4",
+      "accentColor": "#a66df3",
+      "tailShape": "fan",
+      "bodyLength": 14.2,
+      "bodyHeight": 9.3,
+      "features": [
+        "scales"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_002",
+      "parentB": "koi_007",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_023",
+    "commonName": "紫鯉",
+    "scientificName": "koius 紫鯉is",
+    "description": "Beautiful 紫鯉 native to the 日本錦鯉名門 region.",
+    "rarity": "Uncommon",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 2071,
+    "baseSwimSpeed": 0.64,
+    "baseCoinYield": 33,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#87ed90",
+      "secondaryColor": "#1704af",
+      "accentColor": "#aa6b8b",
+      "tailShape": "veil",
+      "bodyLength": 8.3,
+      "bodyHeight": 3.2,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_007",
+      "parentB": "koi_004",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_024",
+    "commonName": "綠鯉",
+    "scientificName": "koius 綠鯉is",
+    "description": "Beautiful 綠鯉 native to the 日本錦鯉名門 region.",
+    "rarity": "Legendary",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 2194,
+    "baseSwimSpeed": 2.11,
+    "baseCoinYield": 21,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#9c25c1",
+      "secondaryColor": "#5a3b04",
+      "accentColor": "#17462a",
+      "tailShape": "lyre",
+      "bodyLength": 18.9,
+      "bodyHeight": 8.7,
+      "features": [
+        "scales"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_009",
+      "parentB": "koi_007",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "koi_025",
+    "commonName": "銀鱗",
+    "scientificName": "koius 銀鱗is",
+    "description": "Beautiful 銀鱗 native to the 日本錦鯉名門 region.",
+    "rarity": "Common",
+    "category": "日本錦鯉名門",
+    "hatchStepsRequired": 3261,
+    "baseSwimSpeed": 1.29,
+    "baseCoinYield": 16,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#5f4929",
+      "secondaryColor": "#835e73",
+      "accentColor": "#73497d",
+      "tailShape": "fan",
+      "bodyLength": 19.3,
+      "bodyHeight": 9.1,
+      "features": [
+        "whiskers"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "koi_011",
+      "parentB": "koi_002",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_026",
+    "commonName": "水泡眼",
+    "scientificName": "goldfishus 水泡眼is",
+    "description": "Beautiful 水泡眼 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Common",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 180,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#9e5024",
+      "secondaryColor": "#1e4deb",
+      "accentColor": "#aba175",
+      "tailShape": "lyre",
+      "bodyLength": 16.3,
+      "bodyHeight": 2.6,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_028",
+      "parentB": "goldfish_036",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_027",
+    "commonName": "十二紅頂",
+    "scientificName": "goldfishus 十二紅頂is",
+    "description": "Beautiful 十二紅頂 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Legendary",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 3062,
+    "baseSwimSpeed": 1.61,
+    "baseCoinYield": 41,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#d7c825",
+      "secondaryColor": "#f0f367",
+      "accentColor": "#88beec",
+      "tailShape": "rounded",
+      "bodyLength": 6.8,
+      "bodyHeight": 2.8,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_026",
+      "parentB": "goldfish_032",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_028",
+    "commonName": "丹頂紅帽",
+    "scientificName": "goldfishus 丹頂紅帽is",
+    "description": "Beautiful 丹頂紅帽 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Epic",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 1763,
+    "baseSwimSpeed": 0.54,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": {
+      "primaryColor": "#2d1be3",
+      "secondaryColor": "#4a63a1",
+      "accentColor": "#fc4379",
+      "tailShape": "pointed",
+      "bodyLength": 18.5,
+      "bodyHeight": 9.9,
+      "features": [
+        "spikes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_033",
+      "parentB": "goldfish_028",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_029",
+    "commonName": "望天眼",
+    "scientificName": "goldfishus 望天眼is",
+    "description": "Beautiful 望天眼 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Rare",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 2556,
+    "baseSwimSpeed": 2.94,
+    "baseCoinYield": 13,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#8cf5c8",
+      "secondaryColor": "#d664ab",
+      "accentColor": "#444c4e",
+      "tailShape": "rounded",
+      "bodyLength": 6.5,
+      "bodyHeight": 7.1,
+      "features": [
+        "scales"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_028",
+      "parentB": "goldfish_026",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_030",
+    "commonName": "藍花水泡",
+    "scientificName": "goldfishus 藍花水泡is",
+    "description": "Beautiful 藍花水泡 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Epic",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 267,
+    "baseSwimSpeed": 1.03,
+    "baseCoinYield": 40,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#9d8c1f",
+      "secondaryColor": "#45c107",
+      "accentColor": "#edcb75",
+      "tailShape": "forked",
+      "bodyLength": 6.3,
+      "bodyHeight": 9.1,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_028",
+      "parentB": "goldfish_032",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_031",
+    "commonName": "虎頭",
+    "scientificName": "goldfishus 虎頭is",
+    "description": "Beautiful 虎頭 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Uncommon",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 1477,
+    "baseSwimSpeed": 0.91,
+    "baseCoinYield": 50,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#7822ee",
+      "secondaryColor": "#0826ab",
+      "accentColor": "#713bb8",
+      "tailShape": "lyre",
+      "bodyLength": 14.0,
+      "bodyHeight": 8.7,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_032",
+      "parentB": "goldfish_034",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_032",
+    "commonName": "獅頭",
+    "scientificName": "goldfishus 獅頭is",
+    "description": "Beautiful 獅頭 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Uncommon",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 310,
+    "baseSwimSpeed": 0.56,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#32b6e3",
+      "secondaryColor": "#0f5f57",
+      "accentColor": "#a97e65",
+      "tailShape": "rounded",
+      "bodyLength": 14.4,
+      "bodyHeight": 3.9,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_035",
+      "parentB": "goldfish_027",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_033",
+    "commonName": "蘭壽",
+    "scientificName": "goldfishus 蘭壽is",
+    "description": "Beautiful 蘭壽 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Rare",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 4674,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": {
+      "primaryColor": "#af7d1e",
+      "secondaryColor": "#9cfea4",
+      "accentColor": "#4bae9a",
+      "tailShape": "lyre",
+      "bodyLength": 12.0,
+      "bodyHeight": 3.7,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_035",
+      "parentB": "goldfish_033",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_034",
+    "commonName": "黑包金",
+    "scientificName": "goldfishus 黑包金is",
+    "description": "Beautiful 黑包金 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Common",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 3842,
+    "baseSwimSpeed": 1.82,
+    "baseCoinYield": 14,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": {
+      "primaryColor": "#57d0b8",
+      "secondaryColor": "#d052f8",
+      "accentColor": "#1714fd",
+      "tailShape": "forked",
+      "bodyLength": 17.4,
+      "bodyHeight": 3.8,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_031",
+      "parentB": "goldfish_036",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_035",
+    "commonName": "皇冠珍珠鱗",
+    "scientificName": "goldfishus 皇冠珍珠鱗is",
+    "description": "Beautiful 皇冠珍珠鱗 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Uncommon",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 3851,
+    "baseSwimSpeed": 1.63,
+    "baseCoinYield": 27,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": {
+      "primaryColor": "#3e4e64",
+      "secondaryColor": "#356e64",
+      "accentColor": "#a0d043",
+      "tailShape": "pointed",
+      "bodyLength": 2.2,
+      "bodyHeight": 6.2,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_032",
+      "parentB": "goldfish_030",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_036",
+    "commonName": "寬尾琉金",
+    "scientificName": "goldfishus 寬尾琉金is",
+    "description": "Beautiful 寬尾琉金 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Epic",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 4593,
+    "baseSwimSpeed": 1.79,
+    "baseCoinYield": 42,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#4d2d21",
+      "secondaryColor": "#ade5d8",
+      "accentColor": "#5a192d",
+      "tailShape": "lyre",
+      "bodyLength": 2.4,
+      "bodyHeight": 9.8,
+      "features": [
+        "whiskers"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_026",
+      "parentB": "goldfish_032",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_037",
+    "commonName": "鵝頭紅",
+    "scientificName": "goldfishus 鵝頭紅is",
+    "description": "Beautiful 鵝頭紅 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Epic",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 2376,
+    "baseSwimSpeed": 2.14,
+    "baseCoinYield": 40,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": {
+      "primaryColor": "#57a94e",
+      "secondaryColor": "#088611",
+      "accentColor": "#5a15e9",
+      "tailShape": "veil",
+      "bodyLength": 17.6,
+      "bodyHeight": 5.0,
+      "features": [
+        "whiskers"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_031",
+      "parentB": "goldfish_028",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_038",
+    "commonName": "玉如意",
+    "scientificName": "goldfishus 玉如意is",
+    "description": "Beautiful 玉如意 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Common",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 546,
+    "baseSwimSpeed": 1.94,
+    "baseCoinYield": 37,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#0ee5a7",
+      "secondaryColor": "#a13f44",
+      "accentColor": "#12b93e",
+      "tailShape": "rounded",
+      "bodyLength": 15.0,
+      "bodyHeight": 4.7,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_035",
+      "parentB": "goldfish_027",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_039",
+    "commonName": "壽星",
+    "scientificName": "goldfishus 壽星is",
+    "description": "Beautiful 壽星 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Uncommon",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 3156,
+    "baseSwimSpeed": 1.78,
+    "baseCoinYield": 50,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": {
+      "primaryColor": "#4495ef",
+      "secondaryColor": "#df6df7",
+      "accentColor": "#7b5c66",
+      "tailShape": "fan",
+      "bodyLength": 16.4,
+      "bodyHeight": 7.0,
+      "features": [
+        "scales"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_026",
+      "parentB": "goldfish_031",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_040",
+    "commonName": "喜鵲花",
+    "scientificName": "goldfishus 喜鵲花is",
+    "description": "Beautiful 喜鵲花 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Uncommon",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 4533,
+    "baseSwimSpeed": 2.15,
+    "baseCoinYield": 12,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": {
+      "primaryColor": "#8c664b",
+      "secondaryColor": "#7e1be9",
+      "accentColor": "#0a01ad",
+      "tailShape": "lyre",
+      "bodyLength": 9.7,
+      "bodyHeight": 9.4,
+      "features": [
+        "whiskers"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_031",
+      "parentB": "goldfish_026",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_041",
+    "commonName": "蛋鳳",
+    "scientificName": "goldfishus 蛋鳳is",
+    "description": "Beautiful 蛋鳳 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Common",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 2436,
+    "baseSwimSpeed": 2.5,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": {
+      "primaryColor": "#70d508",
+      "secondaryColor": "#349775",
+      "accentColor": "#512a62",
+      "tailShape": "pointed",
+      "bodyLength": 13.4,
+      "bodyHeight": 1.1,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_029",
+      "parentB": "goldfish_034",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_042",
+    "commonName": "琉金",
+    "scientificName": "goldfishus 琉金is",
+    "description": "Beautiful 琉金 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Common",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 4649,
+    "baseSwimSpeed": 2.57,
+    "baseCoinYield": 49,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#db18c8",
+      "secondaryColor": "#b8c7da",
+      "accentColor": "#321a4e",
+      "tailShape": "forked",
+      "bodyLength": 17.7,
+      "bodyHeight": 8.5,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_026",
+      "parentB": "goldfish_028",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_043",
+    "commonName": "蝶尾",
+    "scientificName": "goldfishus 蝶尾is",
+    "description": "Beautiful 蝶尾 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Common",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 2913,
+    "baseSwimSpeed": 1.51,
+    "baseCoinYield": 26,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": {
+      "primaryColor": "#0e5153",
+      "secondaryColor": "#e8ccd1",
+      "accentColor": "#fbc600",
+      "tailShape": "veil",
+      "bodyLength": 4.1,
+      "bodyHeight": 4.3,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_031",
+      "parentB": "goldfish_028",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_044",
+    "commonName": "珍珠鱗",
+    "scientificName": "goldfishus 珍珠鱗is",
+    "description": "Beautiful 珍珠鱗 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Rare",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 2969,
+    "baseSwimSpeed": 1.37,
+    "baseCoinYield": 30,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": {
+      "primaryColor": "#bbdb49",
+      "secondaryColor": "#c03c4e",
+      "accentColor": "#318db0",
+      "tailShape": "rounded",
+      "bodyLength": 3.5,
+      "bodyHeight": 3.4,
+      "features": [
+        "spikes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_030",
+      "parentB": "goldfish_026",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_045",
+    "commonName": "鶴頂紅",
+    "scientificName": "goldfishus 鶴頂紅is",
+    "description": "Beautiful 鶴頂紅 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Rare",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 3404,
+    "baseSwimSpeed": 2.56,
+    "baseCoinYield": 47,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#64cbc7",
+      "secondaryColor": "#c3ce81",
+      "accentColor": "#06f3d8",
+      "tailShape": "lyre",
+      "bodyLength": 10.1,
+      "bodyHeight": 3.2,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_026",
+      "parentB": "goldfish_036",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_046",
+    "commonName": "熊貓金魚",
+    "scientificName": "goldfishus 熊貓金魚is",
+    "description": "Beautiful 熊貓金魚 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Rare",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 1317,
+    "baseSwimSpeed": 1.55,
+    "baseCoinYield": 21,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": {
+      "primaryColor": "#b34848",
+      "secondaryColor": "#9e2249",
+      "accentColor": "#9d4883",
+      "tailShape": "lyre",
+      "bodyLength": 13.3,
+      "bodyHeight": 7.5,
+      "features": [
+        "spikes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_026",
+      "parentB": "goldfish_030",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_047",
+    "commonName": "朱文錦",
+    "scientificName": "goldfishus 朱文錦is",
+    "description": "Beautiful 朱文錦 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Rare",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 3901,
+    "baseSwimSpeed": 0.79,
+    "baseCoinYield": 21,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#1ba027",
+      "secondaryColor": "#a24b8c",
+      "accentColor": "#20e1db",
+      "tailShape": "forked",
+      "bodyLength": 16.7,
+      "bodyHeight": 1.7,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_034",
+      "parentB": "goldfish_032",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_048",
+    "commonName": "彗星",
+    "scientificName": "goldfishus 彗星is",
+    "description": "Beautiful 彗星 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Rare",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 690,
+    "baseSwimSpeed": 2.26,
+    "baseCoinYield": 40,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#187a92",
+      "secondaryColor": "#8a6163",
+      "accentColor": "#34d7b6",
+      "tailShape": "pointed",
+      "bodyLength": 6.0,
+      "bodyHeight": 6.1,
+      "features": [
+        "scales"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_026",
+      "parentB": "goldfish_026",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_049",
+    "commonName": "龍睛",
+    "scientificName": "goldfishus 龍睛is",
+    "description": "Beautiful 龍睛 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Legendary",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 2728,
+    "baseSwimSpeed": 1.85,
+    "baseCoinYield": 31,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#f097a7",
+      "secondaryColor": "#290e56",
+      "accentColor": "#58c64d",
+      "tailShape": "veil",
+      "bodyLength": 10.7,
+      "bodyHeight": 9.8,
+      "features": [
+        "spikes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_034",
+      "parentB": "goldfish_030",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "goldfish_050",
+    "commonName": "朝天龍",
+    "scientificName": "goldfishus 朝天龍is",
+    "description": "Beautiful 朝天龍 native to the 中國與日本古典宮廷金魚 region.",
+    "rarity": "Legendary",
+    "category": "中國與日本古典宮廷金魚",
+    "hatchStepsRequired": 418,
+    "baseSwimSpeed": 2.2,
+    "baseCoinYield": 25,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#742b05",
+      "secondaryColor": "#05fbf9",
+      "accentColor": "#ed65b3",
+      "tailShape": "veil",
+      "bodyLength": 7.1,
+      "bodyHeight": 9.3,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "goldfish_035",
+      "parentB": "goldfish_036",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_051",
+    "commonName": "古代巨龍",
+    "scientificName": "seasiaus 古代巨龍is",
+    "description": "Beautiful 古代巨龍 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Rare",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 232,
+    "baseSwimSpeed": 0.52,
+    "baseCoinYield": 24,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": {
+      "primaryColor": "#6ba869",
+      "secondaryColor": "#8b41fc",
+      "accentColor": "#380299",
+      "tailShape": "pointed",
+      "bodyLength": 18.6,
+      "bodyHeight": 3.2,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_059",
+      "parentB": "seasia_054",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_052",
+    "commonName": "皇冠狗頭",
+    "scientificName": "seasiaus 皇冠狗頭is",
+    "description": "Beautiful 皇冠狗頭 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Epic",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 2410,
+    "baseSwimSpeed": 1.67,
+    "baseCoinYield": 26,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": {
+      "primaryColor": "#c1a39e",
+      "secondaryColor": "#5fb068",
+      "accentColor": "#638f7f",
+      "tailShape": "rounded",
+      "bodyLength": 8.2,
+      "bodyHeight": 8.5,
+      "features": [
+        "spikes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_057",
+      "parentB": "seasia_059",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_053",
+    "commonName": "黃金眼鏡蛇雷龍",
+    "scientificName": "seasiaus 黃金眼鏡蛇雷龍is",
+    "description": "Beautiful 黃金眼鏡蛇雷龍 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Rare",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 1381,
+    "baseSwimSpeed": 1.3,
+    "baseCoinYield": 48,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#32ebd8",
+      "secondaryColor": "#14de96",
+      "accentColor": "#019b9a",
+      "tailShape": "forked",
+      "bodyLength": 11.1,
+      "bodyHeight": 4.0,
+      "features": [
+        "scales"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_061",
+      "parentB": "seasia_053",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_054",
+    "commonName": "幻彩紅寶石雷龍",
+    "scientificName": "seasiaus 幻彩紅寶石雷龍is",
+    "description": "Beautiful 幻彩紅寶石雷龍 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Legendary",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 3155,
+    "baseSwimSpeed": 1.89,
+    "baseCoinYield": 32,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#4e3132",
+      "secondaryColor": "#eab437",
+      "accentColor": "#dc8119",
+      "tailShape": "pointed",
+      "bodyLength": 10.5,
+      "bodyHeight": 8.6,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_052",
+      "parentB": "seasia_059",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_055",
+    "commonName": "古代蝴蝶魚",
+    "scientificName": "seasiaus 古代蝴蝶魚is",
+    "description": "Beautiful 古代蝴蝶魚 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Rare",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 3910,
+    "baseSwimSpeed": 2.55,
+    "baseCoinYield": 39,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#d08e1a",
+      "secondaryColor": "#e689b3",
+      "accentColor": "#2e4a18",
+      "tailShape": "forked",
+      "bodyLength": 19.3,
+      "bodyHeight": 3.4,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_061",
+      "parentB": "seasia_056",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_056",
+    "commonName": "霓虹光鰍",
+    "scientificName": "seasiaus 霓虹光鰍is",
+    "description": "Beautiful 霓虹光鰍 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Uncommon",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 1105,
+    "baseSwimSpeed": 1.67,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#bca2a7",
+      "secondaryColor": "#a2cf80",
+      "accentColor": "#c6b7a9",
+      "tailShape": "veil",
+      "bodyLength": 5.0,
+      "bodyHeight": 4.2,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_051",
+      "parentB": "seasia_056",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_057",
+    "commonName": "紅尾皇冠",
+    "scientificName": "seasiaus 紅尾皇冠is",
+    "description": "Beautiful 紅尾皇冠 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Legendary",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 273,
+    "baseSwimSpeed": 0.69,
+    "baseCoinYield": 17,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#7ecaea",
+      "secondaryColor": "#67e256",
+      "accentColor": "#0d3ef9",
+      "tailShape": "forked",
+      "bodyLength": 4.5,
+      "bodyHeight": 1.2,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_059",
+      "parentB": "seasia_061",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_058",
+    "commonName": "紫紅短鯛",
+    "scientificName": "seasiaus 紫紅短鯛is",
+    "description": "Beautiful 紫紅短鯛 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Uncommon",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 2102,
+    "baseSwimSpeed": 2.47,
+    "baseCoinYield": 14,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#5fe29b",
+      "secondaryColor": "#378d99",
+      "accentColor": "#7e3dc3",
+      "tailShape": "lyre",
+      "bodyLength": 12.5,
+      "bodyHeight": 8.9,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_058",
+      "parentB": "seasia_052",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_059",
+    "commonName": "帝王三間",
+    "scientificName": "seasiaus 帝王三間is",
+    "description": "Beautiful 帝王三間 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Uncommon",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 982,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 48,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#fb60ca",
+      "secondaryColor": "#5ebe7a",
+      "accentColor": "#57fff9",
+      "tailShape": "rounded",
+      "bodyLength": 4.0,
+      "bodyHeight": 3.2,
+      "features": [
+        "scales"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_057",
+      "parentB": "seasia_055",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_060",
+    "commonName": "虎紋鰍",
+    "scientificName": "seasiaus 虎紋鰍is",
+    "description": "Beautiful 虎紋鰍 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Legendary",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 3843,
+    "baseSwimSpeed": 1.63,
+    "baseCoinYield": 13,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#2fa9b6",
+      "secondaryColor": "#58d056",
+      "accentColor": "#6674ca",
+      "tailShape": "forked",
+      "bodyLength": 16.6,
+      "bodyHeight": 9.2,
+      "features": [
+        "whiskers"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_061",
+      "parentB": "seasia_060",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_061",
+    "commonName": "白化珍珠龍",
+    "scientificName": "seasiaus 白化珍珠龍is",
+    "description": "Beautiful 白化珍珠龍 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Uncommon",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 3718,
+    "baseSwimSpeed": 2.42,
+    "baseCoinYield": 28,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": {
+      "primaryColor": "#441881",
+      "secondaryColor": "#631cd9",
+      "accentColor": "#e798ff",
+      "tailShape": "pointed",
+      "bodyLength": 2.6,
+      "bodyHeight": 6.0,
+      "features": [
+        "scales"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_053",
+      "parentB": "seasia_053",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_062",
+    "commonName": "泰國鯽",
+    "scientificName": "seasiaus 泰國鯽is",
+    "description": "Beautiful 泰國鯽 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Common",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 818,
+    "baseSwimSpeed": 0.54,
+    "baseCoinYield": 20,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#ed5f20",
+      "secondaryColor": "#fb53ce",
+      "accentColor": "#93b728",
+      "tailShape": "fan",
+      "bodyLength": 18.4,
+      "bodyHeight": 7.1,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_056",
+      "parentB": "seasia_061",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_063",
+    "commonName": "亞洲紅龍",
+    "scientificName": "seasiaus 亞洲紅龍is",
+    "description": "Beautiful 亞洲紅龍 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Legendary",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 4013,
+    "baseSwimSpeed": 2.71,
+    "baseCoinYield": 38,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": {
+      "primaryColor": "#d22894",
+      "secondaryColor": "#261492",
+      "accentColor": "#2c4830",
+      "tailShape": "lyre",
+      "bodyLength": 4.5,
+      "bodyHeight": 3.7,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_059",
+      "parentB": "seasia_051",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_064",
+    "commonName": "金龍",
+    "scientificName": "seasiaus 金龍is",
+    "description": "Beautiful 金龍 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Uncommon",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 695,
+    "baseSwimSpeed": 1.47,
+    "baseCoinYield": 7,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#aebc79",
+      "secondaryColor": "#1ea224",
+      "accentColor": "#bb4070",
+      "tailShape": "lyre",
+      "bodyLength": 9.1,
+      "bodyHeight": 3.8,
+      "features": [
+        "scales"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_056",
+      "parentB": "seasia_059",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_065",
+    "commonName": "青龍",
+    "scientificName": "seasiaus 青龍is",
+    "description": "Beautiful 青龍 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Rare",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 1341,
+    "baseSwimSpeed": 0.81,
+    "baseCoinYield": 7,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#97406c",
+      "secondaryColor": "#61e670",
+      "accentColor": "#579004",
+      "tailShape": "veil",
+      "bodyLength": 7.5,
+      "bodyHeight": 2.4,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_061",
+      "parentB": "seasia_053",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_066",
+    "commonName": "泰國鬥魚",
+    "scientificName": "seasiaus 泰國鬥魚is",
+    "description": "Beautiful 泰國鬥魚 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Common",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 418,
+    "baseSwimSpeed": 0.96,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#db46da",
+      "secondaryColor": "#6b79dc",
+      "accentColor": "#0b750f",
+      "tailShape": "pointed",
+      "bodyLength": 17.2,
+      "bodyHeight": 9.1,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_059",
+      "parentB": "seasia_056",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_067",
+    "commonName": "展鬥",
+    "scientificName": "seasiaus 展鬥is",
+    "description": "Beautiful 展鬥 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Epic",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 2063,
+    "baseSwimSpeed": 1.41,
+    "baseCoinYield": 42,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#dc879f",
+      "secondaryColor": "#d15d0a",
+      "accentColor": "#5f1f64",
+      "tailShape": "forked",
+      "bodyLength": 12.7,
+      "bodyHeight": 5.2,
+      "features": [
+        "whiskers"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_061",
+      "parentB": "seasia_058",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_068",
+    "commonName": "巨型蛇頭魚",
+    "scientificName": "seasiaus 巨型蛇頭魚is",
+    "description": "Beautiful 巨型蛇頭魚 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Legendary",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 2686,
+    "baseSwimSpeed": 1.63,
+    "baseCoinYield": 48,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#ac7cf0",
+      "secondaryColor": "#b5c224",
+      "accentColor": "#f385c6",
+      "tailShape": "fan",
+      "bodyLength": 6.6,
+      "bodyHeight": 5.8,
+      "features": [
+        "spikes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_060",
+      "parentB": "seasia_054",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_069",
+    "commonName": "斑馬丹尼奧",
+    "scientificName": "seasiaus 斑馬丹尼奧is",
+    "description": "Beautiful 斑馬丹尼奧 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Uncommon",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 112,
+    "baseSwimSpeed": 2.08,
+    "baseCoinYield": 41,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#069a82",
+      "secondaryColor": "#6ba895",
+      "accentColor": "#7100c2",
+      "tailShape": "fan",
+      "bodyLength": 5.0,
+      "bodyHeight": 3.4,
+      "features": [
+        "whiskers"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_053",
+      "parentB": "seasia_053",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_070",
+    "commonName": "櫻桃燈",
+    "scientificName": "seasiaus 櫻桃燈is",
+    "description": "Beautiful 櫻桃燈 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Legendary",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 828,
+    "baseSwimSpeed": 1.3,
+    "baseCoinYield": 46,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": {
+      "primaryColor": "#c6e6ca",
+      "secondaryColor": "#4ab959",
+      "accentColor": "#83a19c",
+      "tailShape": "lyre",
+      "bodyLength": 3.0,
+      "bodyHeight": 3.8,
+      "features": [
+        "whiskers"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_060",
+      "parentB": "seasia_055",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_071",
+    "commonName": "泰國飛狐",
+    "scientificName": "seasiaus 泰國飛狐is",
+    "description": "Beautiful 泰國飛狐 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Uncommon",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 1582,
+    "baseSwimSpeed": 0.84,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#eec988",
+      "secondaryColor": "#a05812",
+      "accentColor": "#6aafad",
+      "tailShape": "pointed",
+      "bodyLength": 9.5,
+      "bodyHeight": 7.1,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_052",
+      "parentB": "seasia_053",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_072",
+    "commonName": "一眉道人",
+    "scientificName": "seasiaus 一眉道人is",
+    "description": "Beautiful 一眉道人 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Epic",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 2896,
+    "baseSwimSpeed": 1.76,
+    "baseCoinYield": 18,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": {
+      "primaryColor": "#313080",
+      "secondaryColor": "#0d0fba",
+      "accentColor": "#ba67b4",
+      "tailShape": "veil",
+      "bodyLength": 4.4,
+      "bodyHeight": 1.5,
+      "features": [
+        "whiskers"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_061",
+      "parentB": "seasia_058",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_073",
+    "commonName": "飛魚",
+    "scientificName": "seasiaus 飛魚is",
+    "description": "Beautiful 飛魚 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Epic",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 2952,
+    "baseSwimSpeed": 1.52,
+    "baseCoinYield": 49,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": {
+      "primaryColor": "#ff9a14",
+      "secondaryColor": "#4b5c3d",
+      "accentColor": "#0a596c",
+      "tailShape": "rounded",
+      "bodyLength": 8.4,
+      "bodyHeight": 7.6,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_059",
+      "parentB": "seasia_059",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_074",
+    "commonName": "玻璃貓",
+    "scientificName": "seasiaus 玻璃貓is",
+    "description": "Beautiful 玻璃貓 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Common",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 3923,
+    "baseSwimSpeed": 2.93,
+    "baseCoinYield": 23,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": {
+      "primaryColor": "#68d24b",
+      "secondaryColor": "#48330e",
+      "accentColor": "#5cd976",
+      "tailShape": "veil",
+      "bodyLength": 2.0,
+      "bodyHeight": 5.1,
+      "features": [
+        "scales"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_052",
+      "parentB": "seasia_059",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "seasia_075",
+    "commonName": "珍珠馬甲",
+    "scientificName": "seasiaus 珍珠馬甲is",
+    "description": "Beautiful 珍珠馬甲 native to the 東南亞與湄公河原生溪流 region.",
+    "rarity": "Common",
+    "category": "東南亞與湄公河原生溪流",
+    "hatchStepsRequired": 4932,
+    "baseSwimSpeed": 2.15,
+    "baseCoinYield": 34,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#4c990f",
+      "secondaryColor": "#d20c4f",
+      "accentColor": "#030098",
+      "tailShape": "lyre",
+      "bodyLength": 6.5,
+      "bodyHeight": 2.8,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "seasia_056",
+      "parentB": "seasia_056",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_076",
+    "commonName": "櫻花鉤吻鮭",
+    "scientificName": "taiwanus 櫻花鉤吻鮭is",
+    "description": "Beautiful 櫻花鉤吻鮭 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Epic",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 2683,
+    "baseSwimSpeed": 0.79,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🇹🇼",
+    "visualBlueprint": {
+      "primaryColor": "#a8c375",
+      "secondaryColor": "#7a13f5",
+      "accentColor": "#d85f4c",
+      "tailShape": "forked",
+      "bodyLength": 14.2,
+      "bodyHeight": 3.3,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_080",
+      "parentB": "taiwan_076",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_077",
+    "commonName": "高山鯝魚",
+    "scientificName": "taiwanus 高山鯝魚is",
+    "description": "Beautiful 高山鯝魚 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Uncommon",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 886,
+    "baseSwimSpeed": 0.68,
+    "baseCoinYield": 12,
+    "emojiOrSprite": "🏔️",
+    "visualBlueprint": {
+      "primaryColor": "#7552f8",
+      "secondaryColor": "#0489fe",
+      "accentColor": "#1cffa9",
+      "tailShape": "veil",
+      "bodyLength": 19.4,
+      "bodyHeight": 4.9,
+      "features": [
+        "whiskers"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_085",
+      "parentB": "taiwan_080",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_078",
+    "commonName": "粗首鱲",
+    "scientificName": "taiwanus 粗首鱲is",
+    "description": "Beautiful 粗首鱲 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Common",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 4884,
+    "baseSwimSpeed": 2.87,
+    "baseCoinYield": 30,
+    "emojiOrSprite": "🏔️",
+    "visualBlueprint": {
+      "primaryColor": "#c6b42f",
+      "secondaryColor": "#e8c81b",
+      "accentColor": "#60406a",
+      "tailShape": "veil",
+      "bodyLength": 6.0,
+      "bodyHeight": 4.8,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_080",
+      "parentB": "taiwan_077",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_079",
+    "commonName": "台灣石賓",
+    "scientificName": "taiwanus 台灣石賓is",
+    "description": "Beautiful 台灣石賓 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Rare",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 166,
+    "baseSwimSpeed": 1.55,
+    "baseCoinYield": 20,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#cb8482",
+      "secondaryColor": "#a0c1f5",
+      "accentColor": "#474be1",
+      "tailShape": "lyre",
+      "bodyLength": 8.1,
+      "bodyHeight": 4.2,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_085",
+      "parentB": "taiwan_079",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_080",
+    "commonName": "七星鱧",
+    "scientificName": "taiwanus 七星鱧is",
+    "description": "Beautiful 七星鱧 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Rare",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 1829,
+    "baseSwimSpeed": 2.92,
+    "baseCoinYield": 34,
+    "emojiOrSprite": "🇹🇼",
+    "visualBlueprint": {
+      "primaryColor": "#fb6d47",
+      "secondaryColor": "#d14357",
+      "accentColor": "#cedb52",
+      "tailShape": "fan",
+      "bodyLength": 5.3,
+      "bodyHeight": 2.2,
+      "features": [
+        "spikes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_080",
+      "parentB": "taiwan_079",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_081",
+    "commonName": "玫瑰鯽",
+    "scientificName": "taiwanus 玫瑰鯽is",
+    "description": "Beautiful 玫瑰鯽 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Common",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 2122,
+    "baseSwimSpeed": 2.73,
+    "baseCoinYield": 19,
+    "emojiOrSprite": "🇹🇼",
+    "visualBlueprint": {
+      "primaryColor": "#4d103d",
+      "secondaryColor": "#678dcb",
+      "accentColor": "#86b536",
+      "tailShape": "pointed",
+      "bodyLength": 3.9,
+      "bodyHeight": 6.6,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_080",
+      "parentB": "taiwan_085",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_082",
+    "commonName": "台灣纓口鰍",
+    "scientificName": "taiwanus 台灣纓口鰍is",
+    "description": "Beautiful 台灣纓口鰍 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Rare",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 1449,
+    "baseSwimSpeed": 2.81,
+    "baseCoinYield": 46,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#e1b1fa",
+      "secondaryColor": "#3d7fc1",
+      "accentColor": "#b7c55d",
+      "tailShape": "fan",
+      "bodyLength": 14.4,
+      "bodyHeight": 8.1,
+      "features": [
+        "spikes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_080",
+      "parentB": "taiwan_079",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_083",
+    "commonName": "巴氏銀鮈",
+    "scientificName": "taiwanus 巴氏銀鮈is",
+    "description": "Beautiful 巴氏銀鮈 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Epic",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 4024,
+    "baseSwimSpeed": 1.17,
+    "baseCoinYield": 31,
+    "emojiOrSprite": "🏔️",
+    "visualBlueprint": {
+      "primaryColor": "#4df031",
+      "secondaryColor": "#0cff4c",
+      "accentColor": "#98efcd",
+      "tailShape": "lyre",
+      "bodyLength": 14.0,
+      "bodyHeight": 2.4,
+      "features": [
+        "spikes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_081",
+      "parentB": "taiwan_076",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_084",
+    "commonName": "埔里中華爬岩鰍",
+    "scientificName": "taiwanus 埔里中華爬岩鰍is",
+    "description": "Beautiful 埔里中華爬岩鰍 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Common",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 1361,
+    "baseSwimSpeed": 2.43,
+    "baseCoinYield": 25,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#75e7b1",
+      "secondaryColor": "#fdb178",
+      "accentColor": "#f48aa1",
+      "tailShape": "veil",
+      "bodyLength": 18.5,
+      "bodyHeight": 4.1,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_084",
+      "parentB": "taiwan_082",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_085",
+    "commonName": "細體擬平鰍",
+    "scientificName": "taiwanus 細體擬平鰍is",
+    "description": "Beautiful 細體擬平鰍 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Rare",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 4060,
+    "baseSwimSpeed": 2.68,
+    "baseCoinYield": 37,
+    "emojiOrSprite": "🇹🇼",
+    "visualBlueprint": {
+      "primaryColor": "#b8350e",
+      "secondaryColor": "#87ac9f",
+      "accentColor": "#277e6c",
+      "tailShape": "forked",
+      "bodyLength": 19.0,
+      "bodyHeight": 6.1,
+      "features": [
+        "spikes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_081",
+      "parentB": "taiwan_084",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_086",
+    "commonName": "恆春吻鰕虎",
+    "scientificName": "taiwanus 恆春吻鰕虎is",
+    "description": "Beautiful 恆春吻鰕虎 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Epic",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 3934,
+    "baseSwimSpeed": 2.35,
+    "baseCoinYield": 17,
+    "emojiOrSprite": "🇹🇼",
+    "visualBlueprint": {
+      "primaryColor": "#117af7",
+      "secondaryColor": "#b927fe",
+      "accentColor": "#68b645",
+      "tailShape": "rounded",
+      "bodyLength": 19.9,
+      "bodyHeight": 9.3,
+      "features": [
+        "spikes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_079",
+      "parentB": "taiwan_084",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_087",
+    "commonName": "蓋斑鬥魚",
+    "scientificName": "taiwanus 蓋斑鬥魚is",
+    "description": "Beautiful 蓋斑鬥魚 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Rare",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 4804,
+    "baseSwimSpeed": 2.59,
+    "baseCoinYield": 31,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#8b878e",
+      "secondaryColor": "#f06fba",
+      "accentColor": "#10673c",
+      "tailShape": "veil",
+      "bodyLength": 17.2,
+      "bodyHeight": 7.6,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_085",
+      "parentB": "taiwan_080",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_088",
+    "commonName": "台灣間爬岩鰍",
+    "scientificName": "taiwanus 台灣間爬岩鰍is",
+    "description": "Beautiful 台灣間爬岩鰍 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Epic",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 2474,
+    "baseSwimSpeed": 1.27,
+    "baseCoinYield": 9,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#6cd256",
+      "secondaryColor": "#0c26d8",
+      "accentColor": "#45ca05",
+      "tailShape": "rounded",
+      "bodyLength": 11.2,
+      "bodyHeight": 4.6,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_086",
+      "parentB": "taiwan_085",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_089",
+    "commonName": "苦花",
+    "scientificName": "taiwanus 苦花is",
+    "description": "Beautiful 苦花 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Rare",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 1631,
+    "baseSwimSpeed": 1.26,
+    "baseCoinYield": 33,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#421e4d",
+      "secondaryColor": "#dfc2cb",
+      "accentColor": "#2a95cb",
+      "tailShape": "fan",
+      "bodyLength": 4.5,
+      "bodyHeight": 4.5,
+      "features": [
+        "whiskers"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_077",
+      "parentB": "taiwan_085",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_090",
+    "commonName": "溪哥",
+    "scientificName": "taiwanus 溪哥is",
+    "description": "Beautiful 溪哥 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Common",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 3742,
+    "baseSwimSpeed": 2.43,
+    "baseCoinYield": 50,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#46617d",
+      "secondaryColor": "#b5e125",
+      "accentColor": "#bd6392",
+      "tailShape": "lyre",
+      "bodyLength": 16.2,
+      "bodyHeight": 3.3,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_082",
+      "parentB": "taiwan_082",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_091",
+    "commonName": "短吻鎌柄",
+    "scientificName": "taiwanus 短吻鎌柄is",
+    "description": "Beautiful 短吻鎌柄 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Uncommon",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 4498,
+    "baseSwimSpeed": 0.67,
+    "baseCoinYield": 10,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#7a1abe",
+      "secondaryColor": "#bcb2a8",
+      "accentColor": "#cc86e0",
+      "tailShape": "pointed",
+      "bodyLength": 12.1,
+      "bodyHeight": 7.1,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_083",
+      "parentB": "taiwan_083",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_092",
+    "commonName": "粗鱗鱲",
+    "scientificName": "taiwanus 粗鱗鱲is",
+    "description": "Beautiful 粗鱗鱲 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Legendary",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 4783,
+    "baseSwimSpeed": 2.06,
+    "baseCoinYield": 38,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#f3d7c0",
+      "secondaryColor": "#44f6ba",
+      "accentColor": "#f1c66c",
+      "tailShape": "veil",
+      "bodyLength": 2.1,
+      "bodyHeight": 9.9,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_076",
+      "parentB": "taiwan_081",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_093",
+    "commonName": "中華花鰍",
+    "scientificName": "taiwanus 中華花鰍is",
+    "description": "Beautiful 中華花鰍 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Uncommon",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 2970,
+    "baseSwimSpeed": 1.77,
+    "baseCoinYield": 39,
+    "emojiOrSprite": "🏔️",
+    "visualBlueprint": {
+      "primaryColor": "#426a3c",
+      "secondaryColor": "#9c6592",
+      "accentColor": "#6bd5cd",
+      "tailShape": "fan",
+      "bodyLength": 19.1,
+      "bodyHeight": 2.6,
+      "features": [
+        "whiskers"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_079",
+      "parentB": "taiwan_076",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_094",
+    "commonName": "泥鰍",
+    "scientificName": "taiwanus 泥鰍is",
+    "description": "Beautiful 泥鰍 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Legendary",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 1132,
+    "baseSwimSpeed": 0.9,
+    "baseCoinYield": 14,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#4cd2df",
+      "secondaryColor": "#75c7b5",
+      "accentColor": "#db96a7",
+      "tailShape": "pointed",
+      "bodyLength": 18.3,
+      "bodyHeight": 2.3,
+      "features": [
+        "spikes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_086",
+      "parentB": "taiwan_078",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_095",
+    "commonName": "鱸鰻",
+    "scientificName": "taiwanus 鱸鰻is",
+    "description": "Beautiful 鱸鰻 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Legendary",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 3910,
+    "baseSwimSpeed": 2.53,
+    "baseCoinYield": 48,
+    "emojiOrSprite": "🇹🇼",
+    "visualBlueprint": {
+      "primaryColor": "#ea0303",
+      "secondaryColor": "#539cb6",
+      "accentColor": "#be2bbf",
+      "tailShape": "forked",
+      "bodyLength": 8.8,
+      "bodyHeight": 4.4,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_076",
+      "parentB": "taiwan_082",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_096",
+    "commonName": "台灣石鱋",
+    "scientificName": "taiwanus 台灣石鱋is",
+    "description": "Beautiful 台灣石鱋 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Legendary",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 644,
+    "baseSwimSpeed": 2.71,
+    "baseCoinYield": 22,
+    "emojiOrSprite": "🏔️",
+    "visualBlueprint": {
+      "primaryColor": "#346f33",
+      "secondaryColor": "#2152bf",
+      "accentColor": "#1e6514",
+      "tailShape": "lyre",
+      "bodyLength": 17.9,
+      "bodyHeight": 8.3,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_086",
+      "parentB": "taiwan_082",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_097",
+    "commonName": "條紋二鬚䰾",
+    "scientificName": "taiwanus 條紋二鬚䰾is",
+    "description": "Beautiful 條紋二鬚䰾 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Uncommon",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 4846,
+    "baseSwimSpeed": 0.81,
+    "baseCoinYield": 36,
+    "emojiOrSprite": "🇹🇼",
+    "visualBlueprint": {
+      "primaryColor": "#8e15ec",
+      "secondaryColor": "#7af283",
+      "accentColor": "#0b81ac",
+      "tailShape": "forked",
+      "bodyLength": 3.9,
+      "bodyHeight": 2.6,
+      "features": [
+        "whiskers"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_081",
+      "parentB": "taiwan_078",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_098",
+    "commonName": "菊池氏細鯽",
+    "scientificName": "taiwanus 菊池氏細鯽is",
+    "description": "Beautiful 菊池氏細鯽 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Epic",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 1510,
+    "baseSwimSpeed": 2.97,
+    "baseCoinYield": 23,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#9a5a9a",
+      "secondaryColor": "#c604d5",
+      "accentColor": "#433a15",
+      "tailShape": "rounded",
+      "bodyLength": 2.8,
+      "bodyHeight": 3.2,
+      "features": [
+        "spots"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_086",
+      "parentB": "taiwan_084",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_099",
+    "commonName": "圓吻鯝",
+    "scientificName": "taiwanus 圓吻鯝is",
+    "description": "Beautiful 圓吻鯝 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Epic",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 243,
+    "baseSwimSpeed": 0.59,
+    "baseCoinYield": 46,
+    "emojiOrSprite": "🇹🇼",
+    "visualBlueprint": {
+      "primaryColor": "#44ac1c",
+      "secondaryColor": "#b25d05",
+      "accentColor": "#403edd",
+      "tailShape": "rounded",
+      "bodyLength": 3.6,
+      "bodyHeight": 1.8,
+      "features": [
+        "spikes"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_078",
+      "parentB": "taiwan_078",
+      "mutationHint": "Requires high purity water."
+    }
+  },
+  {
+    "id": "taiwan_100",
+    "commonName": "台東間爬岩鰍",
+    "scientificName": "taiwanus 台東間爬岩鰍is",
+    "description": "Beautiful 台東間爬岩鰍 native to the 台灣與東亞高山清溪原生特有種 region.",
+    "rarity": "Legendary",
+    "category": "台灣與東亞高山清溪原生特有種",
+    "hatchStepsRequired": 4034,
+    "baseSwimSpeed": 2.21,
+    "baseCoinYield": 9,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#da9be9",
+      "secondaryColor": "#09cad9",
+      "accentColor": "#7e843f",
+      "tailShape": "fan",
+      "bodyLength": 18.3,
+      "bodyHeight": 3.9,
+      "features": [
+        "scales"
+      ]
+    },
+    "breedingRecipe": {
+      "parentA": "taiwan_076",
+      "parentB": "taiwan_082",
+      "mutationHint": "Requires high purity water."
+    }
+  }
+]

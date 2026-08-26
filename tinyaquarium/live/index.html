@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinyAquarium 微型水族箱 | 掌心上的治癒水世界・步數孵化與基因繁育</title>
+    <meta name="description" content="TinyAquarium（微型水族箱）是一款結合 Apple HealthKit 步數孵化、1,000+ 種全球基因突變神魚、Lo-Fi 沉浸白噪音與近場 P2P 交換的極致療癒放置手遊。">
+    <meta name="keywords" content="TinyAquarium, 水族箱手遊, 步數孵化, HealthKit, 放置遊戲, 錦鯉, 治癒遊戲, 基因繁育, Lo-Fi 白噪音, Apple Watch 水族館">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20y=%220%22%20width=%22100%22%20height=%22100%22><text y=%22.9em%22 font-size=%2290%22>🐠</text></svg>">
+    
+    <!-- Open Graph / Meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="TinyAquarium 微型水族箱 | 掌心上的治癒水世界">
+    <meta property="og:description" content="把每一步的健康步伐，化作掌心靈動的治癒深海。超過 1,000 種全球水族圖鑑與基因突變神魚。">
+    <meta property="og:image" content="assets/screenshot_tank.png">
+
+    <!-- Google Fonts & Tailwind CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        deepOcean: '#071626',
+                        midnightNavy: '#0c2238',
+                        cyanGlow: '#00F0FF',
+                        coralPink: '#FF5E7E',
+                        goldAmber: '#FFB800',
+                        aquariumTeal: '#0E7490',
+                        glassBg: 'rgba(12, 34, 56, 0.75)'
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', '"Noto Sans TC"', 'sans-serif'],
+                        mono: ['"JetBrains Mono"', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom Glassmorphism & Caustics */
+        .glass-panel {
+            background: rgba(15, 39, 64, 0.7);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+        }
+        .glass-card {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .glass-card:hover {
+            border-color: rgba(0, 240, 255, 0.4);
+            box-shadow: 0 10px 30px -10px rgba(0, 240, 255, 0.2);
+        }
+        .text-glow {
+            text-shadow: 0 0 20px rgba(0, 240, 255, 0.5);
+        }
+        .glow-btn {
+            box-shadow: 0 0 25px rgba(0, 240, 255, 0.35);
+        }
+        .glow-btn:hover {
+            box-shadow: 0 0 35px rgba(0, 240, 255, 0.6);
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #071626;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1e3a5f;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #00F0FF;
+        }
+        /* Pulse Animation */
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-8px); }
+        }
+        .animate-float {
+            animation: float 4s ease-in-out infinite;
+        }
+        @keyframes pulse-ring {
+            0% { transform: scale(0.95); opacity: 0.8; }
+            50% { transform: scale(1.1); opacity: 0.3; }
+            100% { transform: scale(0.95); opacity: 0.8; }
+        }
+        .animate-pulse-ring {
+            animation: pulse-ring 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+    </style>
+</head>
+<body class="bg-deepOcean text-slate-100 font-sans antialiased selection:bg-cyanGlow selection:text-deepOcean overflow-x-hidden min-h-screen">
+
+    <!-- Ambient Background Lighting -->
+    <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+        <div class="absolute -top-40 left-1/4 w-96 h-96 bg-cyan-500/15 rounded-full blur-3xl animate-pulse-ring"></div>
+        <div class="absolute top-1/3 -right-20 w-[32rem] h-[32rem] bg-teal-500/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-10 left-10 w-80 h-80 bg-rose-500/10 rounded-full blur-3xl"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <nav class="fixed top-0 left-0 right-0 z-50 glass-panel border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center space-x-3 group">
+                <div class="w-11 h-11 rounded-2xl bg-gradient-to-tr from-cyan-500 to-emerald-400 p-0.5 shadow-lg shadow-cyan-500/30 group-hover:scale-105 transition-transform duration-300">
+                    <div class="w-full h-full bg-midnightNavy rounded-[14px] flex items-center justify-center text-2xl">
+                        🐠
+                    </div>
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold tracking-tight bg-gradient-to-r from-white via-cyan-100 to-cyan-400 bg-clip-text text-transparent">TinyAquarium</span>
+                    <span class="hidden sm:inline-block ml-1.5 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 rounded-full">v1.2 Live</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <div class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-300">
+                <a href="#features" class="hover:text-cyanGlow transition-colors">核心特色</a>
+                <a href="#live-tank" class="hover:text-cyanGlow transition-colors">在線魚缸試玩</a>
+                <a href="#vault" class="hover:text-cyanGlow transition-colors flex items-center gap-1.5">
+                    <span>1,000種神魚圖鑑</span>
+                    <span class="px-1.5 py-0.2 text-[10px] bg-rose-500/20 text-rose-300 border border-rose-500/30 rounded-full">New</span>
+                </a>
+                <a href="#lofi" class="hover:text-cyanGlow transition-colors">Lo-Fi 專注白噪音</a>
+                <a href="#apple-ecosystem" class="hover:text-cyanGlow transition-colors">手錶與桌面 Widget</a>
+                <a href="#faq" class="hover:text-cyanGlow transition-colors">常見問題</a>
+            </div>
+
+            <!-- Download CTA -->
+            <div class="flex items-center space-x-4">
+                <button onclick="toggleAudio()" id="global-sound-btn" class="hidden sm:flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-medium text-slate-300 transition-all">
+                    <span id="sound-icon">🔈</span>
+                    <span id="sound-text">水聲白噪音</span>
+                </button>
+                <a href="#download" class="glow-btn px-5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-teal-400 text-slate-950 font-bold text-sm flex items-center space-x-2 hover:opacity-95 transition-all transform active:scale-95">
+                    <span>免費下載</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                
+                <!-- Left Hero Copy -->
+                <div class="lg:col-span-7 space-y-8 text-center lg:text-left">
+                    <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 text-xs font-semibold tracking-wide">
+                        <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
+                        <span>Apple HealthKit 步數連動・1,000+ 種全水域生物庫</span>
+                    </div>
+
+                    <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1]">
+                        把每一步步伐，<br>
+                        化作掌心的<span class="bg-gradient-to-r from-cyan-400 via-teal-300 to-emerald-400 bg-clip-text text-transparent text-glow">治癒深海世界</span>
+                    </h1>
+
+                    <p class="text-lg sm:text-xl text-slate-300 font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                        <strong class="text-white font-semibold">TinyAquarium（微型水族箱）</strong> 是一款專為都市生活打造的放置水族養成手遊。走路解鎖真實與傳說神魚、探索百種隱藏基因突變、在 Lo-Fi 水聲白噪音中沉浸專注，並透過 Apple Watch 與桌面小組件隨時投餵守護。
+                    </p>
+
+                    <!-- Hero Action CTAs -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="#download" class="w-full sm:w-auto glow-btn px-8 py-4 rounded-2xl bg-gradient-to-r from-cyan-500 via-teal-400 to-emerald-400 text-slate-950 font-extrabold text-base flex items-center justify-center space-x-3 hover:scale-105 transition-all">
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 0.92-2.85-.9.04-1.99.6-2.63 1.35-.57.65-1.07 1.72-.94 2.74 1 .08 2.03-.49 2.65-1.24z"/></svg>
+                            <span>App Store 免費下載</span>
+                        </a>
+                        <a href="#live-tank" class="w-full sm:w-auto px-7 py-4 rounded-2xl bg-white/10 hover:bg-white/15 border border-white/15 text-white font-bold text-base flex items-center justify-center space-x-2 transition-all">
+                            <span>🎮 試玩網頁虛擬魚缸</span>
+                        </a>
+                    </div>
+
+                    <!-- Metrics Badges -->
+                    <div class="grid grid-cols-3 gap-4 pt-6 border-t border-white/10 max-w-lg mx-auto lg:mx-0">
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-cyan-400">1,000+</div>
+                            <div class="text-xs text-slate-400 mt-1">全球水族與神話圖鑑</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-teal-300">100+ 組</div>
+                            <div class="text-xs text-slate-400 mt-1">隱藏基因突變配方</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-rose-400">P2P</div>
+                            <div class="text-xs text-slate-400 mt-1">無伺服器近場直連交換</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Device Mockup -->
+                <div class="lg:col-span-5 relative flex justify-center">
+                    <div class="relative w-full max-w-[340px] sm:max-w-[380px] animate-float">
+                        <!-- iPhone Titanium Bezel Mockup -->
+                        <div class="relative p-3 rounded-[54px] bg-gradient-to-b from-slate-700 via-slate-800 to-slate-900 shadow-2xl shadow-cyan-500/20 border-4 border-slate-600/50">
+                            <!-- Dynamic Island -->
+                            <div class="absolute top-6 left-1/2 -translate-x-1/2 w-28 h-7 bg-black rounded-full z-30 flex items-center justify-between px-3">
+                                <span class="w-2.5 h-2.5 rounded-full bg-cyan-400/80 animate-pulse"></span>
+                                <span class="text-[9px] text-cyan-300 font-mono">TinyAquarium</span>
+                            </div>
+
+                            <!-- Screen Container -->
+                            <div class="relative rounded-[44px] overflow-hidden aspect-[9/19.5] bg-deepOcean shadow-inner border border-white/10">
+                                <img src="assets/screenshot_dex.png" alt="TinyAquarium 水族百科圖鑑實機畫面" class="w-full h-full object-cover">
+                            </div>
+                        </div>
+
+                        <!-- Floating Companion Pill: Apple Watch Widget -->
+                        <div class="absolute -bottom-6 -left-6 sm:-left-10 glass-panel p-4 rounded-3xl border border-cyan-400/30 shadow-2xl flex items-center space-x-3.5 backdrop-blur-xl animate-bounce" style="animation-duration: 6s;">
+                            <div class="w-12 h-12 rounded-2xl bg-midnightNavy border border-cyan-500/40 flex items-center justify-center text-2xl shadow-inner">
+                                ⌚
+                            </div>
+                            <div>
+                                <div class="text-xs font-bold text-cyan-300">Apple Watch 同步</div>
+                                <div class="text-[11px] text-slate-300">手腕旋轉錶冠・投餵漫遊</div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Companion Pill: Heart Energy -->
+                        <div class="absolute top-12 -right-6 sm:-right-8 glass-panel p-3.5 rounded-2xl border border-rose-400/30 shadow-xl flex items-center space-x-3">
+                            <span class="text-2xl animate-pulse">❤️</span>
+                            <div>
+                                <div class="text-xs font-bold text-rose-300">摸摸 360° 翻滾</div>
+                                <div class="text-[11px] text-slate-300">每日獲取愛心能量</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Interactive Live Virtual Aquarium (網頁版虛擬魚缸體驗) -->
+    <section id="live-tank" class="relative py-20 bg-midnightNavy/40 border-y border-white/10 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-12">
+                <span class="px-3.5 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 text-xs font-bold uppercase tracking-wider">
+                    Interactive Live Aquarium
+                </span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white">
+                    在網頁裡，即刻享受這份<span class="text-cyan-400">寧靜與治癒</span>
+                </h2>
+                <p class="text-slate-300 text-base sm:text-lg">
+                    點擊魚缸任意位置進行 <strong class="text-cyan-300">投餵 (Feed 🦐)</strong>，點擊游動的魚兒觸發 <strong class="text-rose-400">摸摸互動 (Pet ❤️)</strong>，還能隨時切換水體氛圍光效！
+                </p>
+            </div>
+
+            <!-- Virtual Tank Canvas Box -->
+            <div class="max-w-4xl mx-auto glass-panel p-3 sm:p-5 rounded-3xl shadow-2xl border border-white/15">
+                <!-- Tank Toolbar -->
+                <div class="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-white/10 px-2">
+                    <div class="flex items-center space-x-3">
+                        <span class="w-3 h-3 rounded-full bg-emerald-400 animate-ping"></span>
+                        <span class="text-xs font-bold text-slate-200">當前環境：<span id="tank-theme-label" class="text-cyan-300">晨曦微光淡水缸</span></span>
+                        <span class="text-xs text-slate-400">| 魚缸愛心：<span id="live-heart-count" class="text-rose-400 font-bold">120 ❤️</span></span>
+                    </div>
+
+                    <!-- Theme Switcher Buttons -->
+                    <div class="flex items-center space-x-2 text-xs">
+                        <button onclick="setTankTheme('morning')" class="theme-btn px-3 py-1.5 rounded-lg bg-cyan-500/20 border border-cyan-500/40 text-cyan-300 font-semibold transition-all">🌅 晨曦</button>
+                        <button onclick="setTankTheme('reef')" class="theme-btn px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-slate-300 hover:text-white transition-all">🪸 珊瑚海</button>
+                        <button onclick="setTankTheme('deep')" class="theme-btn px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-slate-300 hover:text-white transition-all">🌌 深海幽冥</button>
+                        <button onclick="setTankTheme('sakura')" class="theme-btn px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-slate-300 hover:text-white transition-all">🌸 櫻夜</button>
+                    </div>
+                </div>
+
+                <!-- Canvas Simulation -->
+                <div class="relative w-full aspect-[16/9] rounded-2xl overflow-hidden mt-3 cursor-crosshair group shadow-inner">
+                    <canvas id="aquariumCanvas" class="w-full h-full block"></canvas>
+                    
+                    <!-- In-tank Floating Prompt -->
+                    <div class="absolute bottom-4 left-1/2 -translate-x-1/2 pointer-events-none px-4 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/10 text-xs text-slate-200 text-center opacity-80 group-hover:opacity-100 transition-opacity">
+                        👆 點擊魚缸投餵小蝦食・點擊魚兒旋轉翻滾愛心 +2
+                    </div>
+                </div>
+
+                <!-- Mini Sound Controller -->
+                <div class="mt-4 flex flex-wrap items-center justify-between gap-4 px-2 text-xs text-slate-300">
+                    <div class="flex items-center space-x-3">
+                        <button onclick="toggleAudio()" class="flex items-center space-x-2 px-3 py-1.5 rounded-lg bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 font-semibold hover:bg-cyan-500/20 transition-all">
+                            <span id="canvas-sound-icon">🔈</span>
+                            <span id="canvas-sound-text">開啟水波環境音</span>
+                        </button>
+                        <span class="text-slate-400">目前游動：丹頂錦鯉、日光燈魚、藍月雷龍、珍珠海馬、吸血鬼烏賊幼體</span>
+                    </div>
+                    <button onclick="resetFishTank()" class="text-slate-400 hover:text-cyan-300 transition-colors">🔄 重新整理魚缸</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Four Core Pillar Features (四大核心支柱) -->
+    <section id="features" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10 relative">
+        <div class="text-center max-w-3xl mx-auto space-y-4 mb-20">
+            <span class="px-3.5 py-1 rounded-full bg-teal-500/10 border border-teal-500/30 text-teal-300 text-xs font-bold uppercase tracking-wider">
+                Core Features
+            </span>
+            <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white">
+                四大核心特色，重塑你的<span class="bg-gradient-to-r from-teal-300 to-cyan-400 bg-clip-text text-transparent">日常療癒體驗</span>
+            </h2>
+            <p class="text-slate-300 text-lg">
+                將健康計步、遺傳基因合成、沉浸專注與去中心化近場社交完美融為一體。
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <!-- Feature 1: HealthKit Step Hatching -->
+            <div class="glass-card p-8 rounded-3xl space-y-6 group transition-all duration-300">
+                <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center text-3xl shadow-lg shadow-cyan-500/20 group-hover:scale-110 transition-transform">
+                    🚶
+                </div>
+                <div class="space-y-3">
+                    <h3 class="text-2xl font-bold text-white group-hover:text-cyanGlow transition-colors">步數孵化與 Apple Health 連動</h3>
+                    <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+                        原生串接 Apple HealthKit 步數與消耗熱量。現實中每一百步、每一千步，都會化為魚卵的生命源泉。無需盯著螢幕，把手機放入口袋，下班後即可收穫孵化破殼的喜悅。
+                    </p>
+                </div>
+                <div class="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-between text-xs font-mono text-cyan-300">
+                    <span>🔥 今日步數：8,420 步</span>
+                    <span class="text-emerald-400">🥚 孵化進度：100% (即將破殼)</span>
+                </div>
+            </div>
+
+            <!-- Feature 2: Secret Genetic Breeding -->
+            <div class="glass-card p-8 rounded-3xl space-y-6 group transition-all duration-300">
+                <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-rose-400 to-purple-600 flex items-center justify-center text-3xl shadow-lg shadow-rose-500/20 group-hover:scale-110 transition-transform">
+                    🧬
+                </div>
+                <div class="space-y-3">
+                    <h3 class="text-2xl font-bold text-white group-hover:text-rose-400 transition-colors">100+ 組秘密基因繁育突變</h3>
+                    <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+                        成年親代雙魚共同進入繁育實驗室，消耗愛心能量觸發隱藏突變配方。櫻花錦鯉與琉金能孕育出頂級「大正三色」，深海巨獸更有機會合成出神秘的「宇宙星空巨鯤」。
+                    </p>
+                </div>
+                <div class="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-between text-xs font-mono text-rose-300">
+                    <span>🎏 丹頂錦鯉 + 皇冠豹異型</span>
+                    <span class="text-amber-400">⚡ 突變概率：18% 史詩/傳說</span>
+                </div>
+            </div>
+
+            <!-- Feature 3: Lo-Fi Focus Mode -->
+            <div class="glass-card p-8 rounded-3xl space-y-6 group transition-all duration-300">
+                <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-emerald-400 to-teal-600 flex items-center justify-center text-3xl shadow-lg shadow-emerald-500/20 group-hover:scale-110 transition-transform">
+                    🎧
+                </div>
+                <div class="space-y-3">
+                    <h3 class="text-2xl font-bold text-white group-hover:text-emerald-300 transition-colors">Lo-Fi 專注番茄鐘與水聲白噪音</h3>
+                    <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+                        內建《晨光水族館》、《深海幽謐》、《午後熱帶雨林》、《櫻花夜祭》等原創舒壓白噪音曲目。支援 15~120 分鐘專注番茄鐘，專注時水族箱進入平靜模式，助你高效率工作與入眠。
+                    </p>
+                </div>
+                <div class="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-between text-xs font-mono text-emerald-300">
+                    <span>☕ 專注倒數：25:00</span>
+                    <span class="text-cyan-300">🎵 01. 晨光水族館 (Morning Sunlit)</span>
+                </div>
+            </div>
+
+            <!-- Feature 4: Serverless P2P Multipeer Trade -->
+            <div class="glass-card p-8 rounded-3xl space-y-6 group transition-all duration-300">
+                <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-600 flex items-center justify-center text-3xl shadow-lg shadow-amber-500/20 group-hover:scale-110 transition-transform">
+                    📡
+                </div>
+                <div class="space-y-3">
+                    <h3 class="text-2xl font-bold text-white group-hover:text-amber-300 transition-colors">無伺服器近場 P2P 神魚交易</h3>
+                    <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+                        採用 Apple Multipeer Connectivity 點對點技術，免註冊會員帳號、不經由任何第三方伺服器。在身邊與好友手機輕輕靠近，即可秒速交換珍稀魚種與受精魚卵，兼顧純粹社交與極致隱私。
+                    </p>
+                </div>
+                <div class="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-between text-xs font-mono text-amber-300">
+                    <span>📶 發現周邊探索者 (3m)</span>
+                    <span class="text-emerald-400">🛡️ 端對端加密傳輸</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section 4: 1,000 Species Mega Vault Explorer (1,000種全水域圖鑑瀏覽器) -->
+    <section id="vault" class="py-24 bg-midnightNavy/50 border-y border-white/10 relative z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-12">
+                <span class="px-3.5 py-1 rounded-full bg-rose-500/10 border border-rose-500/30 text-rose-300 text-xs font-bold uppercase tracking-wider">
+                    Species Vault Collection
+                </span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white">
+                    探索 <span class="bg-gradient-to-r from-rose-400 via-amber-300 to-cyan-300 bg-clip-text text-transparent">1,000 種水族與神話生物</span>
+                </h2>
+                <p class="text-slate-300 text-lg">
+                    涵蓋東亞江戶、亞馬遜熱帶、非洲大湖、大堡礁、萬米深淵、史前海怪、山海經神話、塔羅星宿至甜點節慶 10 大主題卷冊！
+                </p>
+            </div>
+
+            <!-- Volume Tab Buttons -->
+            <div class="flex items-center space-x-2 overflow-x-auto pb-4 mb-8 no-scrollbar">
+                <button onclick="switchVolume('all')" class="vol-tab px-4 py-2 rounded-xl bg-cyan-500 text-slate-950 font-bold text-xs whitespace-nowrap transition-all">🌟 全部 1,000 種</button>
+                <button onclick="switchVolume('Volume01_EastAsiaHeritage')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">⛩️ 東亞水墨江戶 (100)</button>
+                <button onclick="switchVolume('Volume02_AmazonWilds')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🌿 亞馬遜狂野 (100)</button>
+                <button onclick="switchVolume('Volume03_AfricanRiftLakes')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🌍 東非裂谷慈鯛 (100)</button>
+                <button onclick="switchVolume('Volume04_GlobalCoralReefs')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🪸 大堡礁珊瑚 (100)</button>
+                <button onclick="switchVolume('Volume05_AbyssalDepths')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🕯️ 萬米深海幽冥 (100)</button>
+                <button onclick="switchVolume('Volume06_PrehistoricMonsters')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🦖 史前遠古海怪 (100)</button>
+                <button onclick="switchVolume('Volume07_ShanHaiJingMythology')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🐉 山海經神鯤 (100)</button>
+                <button onclick="switchVolume('Volume08_WesternMythology')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🏛️ 西方奧林帕斯 (100)</button>
+                <button onclick="switchVolume('Volume09_CosmicTarotZodiac')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🌌 星系塔羅星座 (100)</button>
+                <button onclick="switchVolume('Volume10_SweetDessertHolidayCozy')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🍰 甜蜜節慶萌物 (100)</button>
+            </div>
+
+            <!-- Search & Rarity Filter Bar -->
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4 mb-8">
+                <div class="relative w-full sm:w-80">
+                    <input type="text" id="vaultSearchInput" oninput="filterVaultSpecies()" placeholder="🔍 搜尋魚種中文名稱、學名或特徵..." class="w-full px-4 py-2.5 pl-10 rounded-xl bg-white/5 border border-white/15 text-sm text-white placeholder-slate-400 focus:outline-none focus:border-cyan-400 transition-colors">
+                    <svg class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                </div>
+
+                <div class="flex items-center space-x-2 text-xs">
+                    <span class="text-slate-400">稀有度篩選：</span>
+                    <button onclick="setRarityFilter('all')" class="rarity-btn px-2.5 py-1 rounded-lg bg-white/10 text-white font-medium">全部</button>
+                    <button onclick="setRarityFilter('common')" class="rarity-btn px-2.5 py-1 rounded-lg bg-slate-500/20 text-slate-300 border border-slate-500/30">普通</button>
+                    <button onclick="setRarityFilter('rare')" class="rarity-btn px-2.5 py-1 rounded-lg bg-blue-500/20 text-blue-300 border border-blue-500/30">稀有</button>
+                    <button onclick="setRarityFilter('epic')" class="rarity-btn px-2.5 py-1 rounded-lg bg-purple-500/20 text-purple-300 border border-purple-500/30">史詩</button>
+                    <button onclick="setRarityFilter('legendary')" class="rarity-btn px-2.5 py-1 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/30">傳說</button>
+                    <button onclick="setRarityFilter('mythical')" class="rarity-btn px-2.5 py-1 rounded-lg bg-rose-500/20 text-rose-300 border border-rose-500/30">神話</button>
+                </div>
+            </div>
+
+            <!-- Species Grid -->
+            <div id="vaultSpeciesGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Dynamically Rendered by JS -->
+            </div>
+
+            <!-- Loading Indicator -->
+            <div id="vaultLoading" class="text-center py-12 text-slate-400 text-sm">
+                載入素材庫中...
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Apple Watch & Widget Showcase (手錶與桌面 Widget) -->
+    <section id="apple-ecosystem" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10 relative">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <div class="lg:col-span-6 space-y-6">
+                <span class="px-3.5 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 text-xs font-bold uppercase tracking-wider">
+                    Apple Ecosystem Integration
+                </span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
+                    深度融入你的 <span class="text-cyan-400">iOS & watchOS</span> 日常生活
+                </h2>
+                <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
+                    不必每次都解鎖進入 App。無論是抬起手腕看看小魚，或是瞥一眼手機桌面，水族箱的靈動生命都在陪伴著你。
+                </p>
+
+                <div class="space-y-4 pt-2">
+                    <div class="flex items-start space-x-4 p-4 rounded-2xl bg-white/5 border border-white/10">
+                        <div class="p-2.5 rounded-xl bg-cyan-500/20 text-cyan-300 text-xl font-bold">⌚</div>
+                        <div>
+                            <h4 class="text-white font-bold text-base">Apple Watch 數位錶冠互動</h4>
+                            <p class="text-slate-300 text-xs sm:text-sm mt-1">獨立 watchOS App，支援錶冠 360° 旋轉視角、手腕即時震動反饋 (Haptics) 與快速投餵。</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4 p-4 rounded-2xl bg-white/5 border border-white/10">
+                        <div class="p-2.5 rounded-xl bg-purple-500/20 text-purple-300 text-xl font-bold">📱</div>
+                        <div>
+                            <h4 class="text-white font-bold text-base">iOS 桌面與鎖定畫面動態 Widget</h4>
+                            <p class="text-slate-300 text-xs sm:text-sm mt-1">即時展示當前孵化魚卵步數進度條、魚缸水質與愛心能量，並自帶真實活魚小動畫。</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4 p-4 rounded-2xl bg-white/5 border border-white/10">
+                        <div class="p-2.5 rounded-xl bg-emerald-500/20 text-emerald-300 text-xl font-bold">☁️</div>
+                        <div>
+                            <h4 class="text-white font-bold text-base">iCloud KVS 雲端雙向同步</h4>
+                            <p class="text-slate-300 text-xs sm:text-sm mt-1">在 iPhone 上孵化出的神魚，打開 iPad 或 Apple Watch 立即同步，無須手動備份。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Apple Watch & Widget Visual Showcase -->
+            <div class="lg:col-span-6 flex items-center justify-center">
+                <div class="relative w-full max-w-md p-6 glass-panel rounded-3xl border border-white/15 shadow-2xl">
+                    <div class="space-y-6">
+                        <!-- Widget Preview Box -->
+                        <div class="p-5 rounded-2xl bg-gradient-to-br from-slate-900 to-midnightNavy border border-cyan-500/30 shadow-lg">
+                            <div class="flex items-center justify-between text-xs text-slate-400 mb-3">
+                                <span class="font-bold text-cyan-300">TINYAQUARIUM 桌面小組件</span>
+                                <span class="font-mono">7,200 / 8,000 步</span>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <div class="w-14 h-14 rounded-2xl bg-cyan-950 border border-cyan-400/40 flex items-center justify-center text-3xl animate-pulse">
+                                    🎏
+                                </div>
+                                <div class="flex-1 space-y-1.5">
+                                    <div class="flex items-center justify-between text-xs font-bold text-white">
+                                        <span>日本丹頂錦鯉 (史詩)</span>
+                                        <span class="text-emerald-400">90%</span>
+                                    </div>
+                                    <div class="w-full h-2.5 rounded-full bg-white/10 overflow-hidden">
+                                        <div class="h-full bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-full" style="width: 90%;"></div>
+                                    </div>
+                                    <div class="text-[10px] text-slate-400">再走 800 步即可孵化！</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Apple Watch Mockup Card -->
+                        <div class="p-5 rounded-2xl bg-gradient-to-br from-slate-900 to-midnightNavy border border-purple-500/30 shadow-lg flex items-center space-x-4">
+                            <div class="w-16 h-16 rounded-full bg-slate-950 border-2 border-purple-400/50 flex items-center justify-center text-2xl shadow-inner">
+                                🌌
+                            </div>
+                            <div class="space-y-1">
+                                <div class="text-xs font-bold text-purple-300">watchOS Complication</div>
+                                <div class="text-sm font-semibold text-white">晨光淡水缸 (Lv.3)</div>
+                                <div class="text-[11px] text-slate-400">心率與步數健康連動中・愛心 120 ❤️</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section 6: User Reviews & Testimonials -->
+    <section class="py-20 bg-midnightNavy/30 border-t border-white/10 z-10 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <span class="px-3.5 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 text-xs font-bold uppercase tracking-wider">Testimonials</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3">來自水族冒險者的真實評價</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="flex text-amber-400 text-sm">★★★★★</div>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        「以前總覺得走路運動很枯燥，自從裝了 TinyAquarium，每天通勤下班都想多走兩站，只為了快點把那顆神話級魚卵孵出來！」
+                    </p>
+                    <div class="text-xs font-bold text-white">— 林小姐 (每日萬步水族玩家)</div>
+                </div>
+
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="flex text-amber-400 text-sm">★★★★★</div>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        「Lo-Fi 專注模式的水聲真的太舒服了！寫代碼焦慮時，打開水族箱看著小魚擺尾，心情立刻就平靜下來，沒有任何垃圾廣告。」
+                    </p>
+                    <div class="text-xs font-bold text-white">— Kevin (獨立工程師)</div>
+                </div>
+
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="flex text-amber-400 text-sm">★★★★★</div>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        「基因突變繁育系統超有深度！跟朋友用近場交換到了彼此缺少的魚種，居然合成出了傳說中的十二紅頂金魚，超有成就感！」
+                    </p>
+                    <div class="text-xs font-bold text-white">— Alan (資深收集狂)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: FAQ Section -->
+    <section id="faq" class="py-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 z-10 relative">
+        <div class="text-center mb-14">
+            <span class="px-3.5 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 text-xs font-bold uppercase tracking-wider">FAQ</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3">常見問題解答</h2>
+        </div>
+
+        <div class="space-y-4">
+            <div class="glass-card p-6 rounded-2xl space-y-2">
+                <h4 class="text-base font-bold text-white">Q: 需要一直保持 App 開啟才能記錄步數嗎？</h4>
+                <p class="text-sm text-slate-300">完全不需要！TinyAquarium 透過 Apple HealthKit 系統後台自動讀取步數，即使手機放在口袋或待機，步數依然會自動累積並用於魚卵孵化。</p>
+            </div>
+
+            <div class="glass-card p-6 rounded-2xl space-y-2">
+                <h4 class="text-base font-bold text-white">Q: 近場神魚交易（P2P Trade）需要連上網路嗎？</h4>
+                <p class="text-sm text-slate-300">不需要外部網際網路！只要兩台 iPhone / iPad 距離在數公尺內，打開藍牙與 Wi-Fi，系統將透過 Apple Multipeer 點對點直連傳輸，完全保護個人隱私。</p>
+            </div>
+
+            <div class="glass-card p-6 rounded-2xl space-y-2">
+                <h4 class="text-base font-bold text-white">Q: 基因繁育會消耗掉我的親代魚嗎？</h4>
+                <p class="text-sm text-slate-300">不會！成魚完成繁育後依然會在你的水族箱中自由游動，僅會扣除一次繁育次數與愛心能量。</p>
+            </div>
+
+            <div class="glass-card p-6 rounded-2xl space-y-2">
+                <h4 class="text-base font-bold text-white">Q: 支援哪些裝置？</h4>
+                <p class="text-sm text-slate-300">支援運行 iOS 17.0+ 的 iPhone、iPad，以及運行 watchOS 10.0+ 的 Apple Watch。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Footer Banner -->
+    <section id="download" class="py-20 relative z-10">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="relative overflow-hidden rounded-[36px] bg-gradient-to-r from-cyan-600 via-teal-600 to-emerald-600 p-8 sm:p-14 text-center space-y-8 shadow-2xl shadow-cyan-500/20">
+                <div class="max-w-2xl mx-auto space-y-4">
+                    <h2 class="text-3xl sm:text-5xl font-black text-slate-950 tracking-tight">
+                        立即開始你的<br>掌心治癒水族之旅
+                    </h2>
+                    <p class="text-slate-900 font-medium text-base sm:text-lg">
+                        免費下載 TinyAquarium，在每一步的步伐中，遇見屬於你的傳奇神魚。
+                    </p>
+                </div>
+
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a href="https://apps.apple.com" target="_blank" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-slate-950 text-white font-extrabold text-base flex items-center justify-center space-x-3 hover:bg-slate-900 transition-all shadow-xl">
+                        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 0.92-2.85-.9.04-1.99.6-2.63 1.35-.57.65-1.07 1.72-.94 2.74 1 .08 2.03-.49 2.65-1.24z"/></svg>
+                        <span>App Store 下載</span>
+                    </a>
+                    <button onclick="openQrModal()" class="w-full sm:w-auto px-7 py-4 rounded-2xl bg-white/20 hover:bg-white/30 border border-white/30 text-slate-950 font-bold text-base flex items-center justify-center space-x-2 transition-all">
+                        <span>📱 掃描 QR Code 取得</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/10 text-slate-400 text-xs text-center z-10 relative">
+        <div class="max-w-7xl mx-auto px-4 space-y-4">
+            <div class="flex justify-center space-x-6 text-sm text-slate-300">
+                <a href="#" class="hover:text-cyanGlow transition-colors">隱私權政策 (Privacy)</a>
+                <a href="#" class="hover:text-cyanGlow transition-colors">服務條款 (Terms)</a>
+                <a href="#" class="hover:text-cyanGlow transition-colors">開發者聯絡 (Contact)</a>
+                <a href="#" class="hover:text-cyanGlow transition-colors">媒體素材 (Press Kit)</a>
+            </div>
+            <p>© 2026 TinyAquarium. All rights reserved. Crafted with care for calm minds and healthy steps.</p>
+        </div>
+    </footer>
+
+    <!-- Fish Species Detail Modal -->
+    <div id="speciesModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4 hidden">
+        <div class="glass-panel w-full max-w-lg rounded-3xl p-6 sm:p-8 space-y-6 border border-white/20 shadow-2xl relative">
+            <button onclick="closeSpeciesModal()" class="absolute top-5 right-5 w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white">✕</button>
+            <div class="flex items-center space-x-4">
+                <div id="modalEmoji" class="w-16 h-16 rounded-2xl bg-midnightNavy border border-cyan-400/40 flex items-center justify-center text-4xl shadow-inner">
+                    🐟
+                </div>
+                <div>
+                    <h3 id="modalName" class="text-xl font-black text-white">魚種名稱</h3>
+                    <div id="modalScientific" class="text-xs text-slate-400 font-mono italic">Scientific name</div>
+                    <div class="flex items-center space-x-2 mt-1.5">
+                        <span id="modalRarityBadge" class="px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider">稀有度</span>
+                        <span id="modalCategoryBadge" class="px-2 py-0.5 rounded-full bg-white/10 text-[10px] text-slate-300">分類</span>
+                    </div>
+                </div>
+            </div>
+
+            <p id="modalDesc" class="text-sm text-slate-200 leading-relaxed bg-white/5 p-4 rounded-2xl border border-white/10">
+                生態描述與背景故事...
+            </p>
+
+            <div class="grid grid-cols-3 gap-3 text-center text-xs font-mono">
+                <div class="p-3 rounded-xl bg-white/5 border border-white/10">
+                    <div class="text-slate-400">孵化步數</div>
+                    <div id="modalSteps" class="text-cyan-300 font-bold mt-0.5">5,000 步</div>
+                </div>
+                <div class="p-3 rounded-xl bg-white/5 border border-white/10">
+                    <div class="text-slate-400">金幣產出</div>
+                    <div id="modalCoins" class="text-amber-400 font-bold mt-0.5">3 / 時</div>
+                </div>
+                <div class="p-3 rounded-xl bg-white/5 border border-white/10">
+                    <div class="text-slate-400">泳速等級</div>
+                    <div id="modalSpeed" class="text-emerald-400 font-bold mt-0.5">0.85</div>
+                </div>
+            </div>
+
+            <div id="modalRecipeBox" class="p-3.5 rounded-xl bg-rose-500/10 border border-rose-500/20 text-xs text-rose-300 space-y-1">
+                <div class="font-bold flex items-center space-x-1.5">
+                    <span>🧬 秘密基因突變配方</span>
+                </div>
+                <div id="modalRecipe" class="text-slate-300 font-mono text-[11px]">親代 A + 親代 B ➡️ 突變產出</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- QR Code Scan Modal -->
+    <div id="qrModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4 hidden">
+        <div class="glass-panel w-full max-w-sm rounded-3xl p-6 text-center space-y-5 border border-white/20 shadow-2xl relative">
+            <button onclick="closeQrModal()" class="absolute top-4 right-4 w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white">✕</button>
+            <h3 class="text-lg font-bold text-white">使用 iPhone 掃描下載</h3>
+            <div class="w-48 h-48 mx-auto bg-white p-3 rounded-2xl shadow-inner flex items-center justify-center">
+                <!-- SVG QR Code Mockup -->
+                <svg class="w-full h-full text-slate-900" viewBox="0 0 100 100" fill="currentColor">
+                    <rect x="10" y="10" width="25" height="25" rx="4" fill="none" stroke="currentColor" stroke-width="4"/>
+                    <rect x="16" y="16" width="13" height="13"/>
+                    <rect x="65" y="10" width="25" height="25" rx="4" fill="none" stroke="currentColor" stroke-width="4"/>
+                    <rect x="71" y="16" width="13" height="13"/>
+                    <rect x="10" y="65" width="25" height="25" rx="4" fill="none" stroke="currentColor" stroke-width="4"/>
+                    <rect x="16" y="71" width="13" height="13"/>
+                    <circle cx="50" cy="50" r="8" fill="#0E7490"/>
+                    <rect x="42" y="15" width="6" height="10"/>
+                    <rect x="52" y="25" width="8" height="6"/>
+                    <rect x="45" y="65" width="10" height="12"/>
+                    <rect x="65" y="48" width="15" height="8"/>
+                    <rect x="75" y="68" width="10" height="15"/>
+                </svg>
+            </div>
+            <p class="text-xs text-slate-300">相機對準 QR Code 即可直接前往 App Store 安裝。</p>
+        </div>
+    </div>
+
+    <!-- Application Script -->
+    <script>
+        // --- 1. Global Audio Synth Engine (Web Audio API) ---
+        let audioCtx = null;
+        let isAudioPlaying = false;
+        let waveNode = null;
+        let gainNode = null;
+
+        function initAudio() {
+            if (!audioCtx) {
+                audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            }
+        }
+
+        function toggleAudio() {
+            initAudio();
+            if (audioCtx.state === 'suspended') {
+                audioCtx.resume();
+            }
+            if (isAudioPlaying) {
+                stopAmbientAudio();
+            } else {
+                startAmbientAudio();
+            }
+        }
+
+        function startAmbientAudio() {
+            if (!audioCtx) initAudio();
+            isAudioPlaying = true;
+            
+            // Procedural Pink Noise + Ocean Filter
+            const bufferSize = audioCtx.sampleRate * 2;
+            const noiseBuffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+            const output = noiseBuffer.getChannelData(0);
+            let b0 = 0, b1 = 0, b2 = 0, b3 = 0, b4 = 0, b5 = 0, b6 = 0;
+            for (let i = 0; i < bufferSize; i++) {
+                const white = Math.random() * 2 - 1;
+                b0 = 0.99886 * b0 + white * 0.0555179;
+                b1 = 0.99332 * b1 + white * 0.0750759;
+                b2 = 0.96900 * b2 + white * 0.1538520;
+                b3 = 0.86650 * b3 + white * 0.3104856;
+                b4 = 0.55000 * b4 + white * 0.5329522;
+                b5 = -0.7616 * b5 - white * 0.0168980;
+                output[i] = (b0 + b1 + b2 + b3 + b4 + b5 + b6 + white * 0.5362) * 0.04;
+                b6 = white * 0.115926;
+            }
+
+            const whiteNoise = audioCtx.createBufferSource();
+            whiteNoise.buffer = noiseBuffer;
+            whiteNoise.loop = true;
+
+            const filter = audioCtx.createBiquadFilter();
+            filter.type = 'lowpass';
+            filter.frequency.setValueAtTime(320, audioCtx.currentTime);
+
+            gainNode = audioCtx.createGain();
+            gainNode.gain.setValueAtTime(0.3, audioCtx.currentTime);
+
+            whiteNoise.connect(filter);
+            filter.connect(gainNode);
+            gainNode.connect(audioCtx.destination);
+            whiteNoise.start();
+            waveNode = whiteNoise;
+
+            updateAudioUI(true);
+        }
+
+        function stopAmbientAudio() {
+            if (waveNode) {
+                waveNode.stop();
+                waveNode.disconnect();
+                waveNode = null;
+            }
+            isAudioPlaying = false;
+            updateAudioUI(false);
+        }
+
+        function updateAudioUI(playing) {
+            const icon = playing ? '🔊' : '🔈';
+            const text = playing ? '靜音白噪音' : '水聲白噪音';
+            document.getElementById('sound-icon').textContent = icon;
+            document.getElementById('sound-text').textContent = text;
+            document.getElementById('canvas-sound-icon').textContent = icon;
+            document.getElementById('canvas-sound-text').textContent = playing ? '關閉環境音' : '開啟水波環境音';
+        }
+
+        function playPopSound() {
+            if (!audioCtx) return;
+            try {
+                const osc = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(440 + Math.random() * 200, audioCtx.currentTime);
+                osc.frequency.exponentialRampToValueAtTime(880, audioCtx.currentTime + 0.1);
+                gain.gain.setValueAtTime(0.15, audioCtx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1);
+                osc.connect(gain);
+                gain.connect(audioCtx.destination);
+                osc.start();
+                osc.stop(audioCtx.currentTime + 0.1);
+            } catch(e) {}
+        }
+
+        // --- 2. Interactive HTML5 Aquarium Canvas Simulation ---
+        const canvas = document.getElementById('aquariumCanvas');
+        const ctx = canvas.getContext('2d');
+        let width, height;
+        let currentTheme = 'morning';
+        let heartCount = 120;
+
+        const themeGradients = {
+            morning: ['#0E7490', '#083344', '#02131F'],
+            reef: ['#0284C7', '#0369A1', '#082F49'],
+            deep: ['#312E81', '#1E1B4B', '#030712'],
+            sakura: ['#831843', '#4A044E', '#18021E']
+        };
+
+        let fishes = [];
+        let foods = [];
+        let bubbles = [];
+        let floatingHearts = [];
+
+        class VirtualFish {
+            constructor(name, emoji, color, speed, size) {
+                this.name = name;
+                this.emoji = emoji;
+                this.color = color;
+                this.x = Math.random() * 400 + 100;
+                this.y = Math.random() * 200 + 50;
+                this.vx = (Math.random() - 0.5) * speed * 2;
+                this.vy = (Math.random() - 0.5) * 0.8;
+                this.size = size || 32;
+                this.facingRight = this.vx > 0;
+                this.angle = 0;
+                this.somersault = 0;
+            }
+            update() {
+                if (this.somersault > 0) {
+                    this.angle += 0.3;
+                    this.somersault -= 0.3;
+                    if (this.somersault <= 0) this.angle = 0;
+                } else {
+                    this.angle = Math.sin(Date.now() * 0.003 + this.x) * 0.1;
+                }
+
+                // Swim towards nearest food
+                if (foods.length > 0) {
+                    const food = foods[0];
+                    const dx = food.x - this.x;
+                    const dy = food.y - this.y;
+                    this.vx += dx * 0.001;
+                    this.vy += dy * 0.001;
+                    if (Math.hypot(dx, dy) < 20) {
+                        foods.shift();
+                        playPopSound();
+                        floatingHearts.push(new FloatingHeart(this.x, this.y, '+2 ❤️'));
+                        heartCount += 2;
+                        document.getElementById('live-heart-count').textContent = `${heartCount} ❤️`;
+                    }
+                }
+
+                this.x += this.vx;
+                this.y += this.vy;
+
+                // Bounds checking
+                if (this.x < 30) { this.x = 30; this.vx *= -1; }
+                if (this.x > width - 30) { this.x = width - 30; this.vx *= -1; }
+                if (this.y < 30) { this.y = 30; this.vy *= -1; }
+                if (this.y > height - 40) { this.y = height - 40; this.vy *= -1; }
+
+                this.facingRight = this.vx > 0;
+            }
+            draw() {
+                ctx.save();
+                ctx.translate(this.x, this.y);
+                if (!this.facingRight) ctx.scale(-1, 1);
+                ctx.rotate(this.angle);
+                
+                ctx.font = `${this.size}px sans-serif`;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(this.emoji, 0, 0);
+
+                // Name tag
+                ctx.font = '10px "Noto Sans TC", sans-serif';
+                ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+                ctx.fillText(this.name, 0, -this.size * 0.65);
+                ctx.restore();
+            }
+        }
+
+        class FloatingHeart {
+            constructor(x, y, text) {
+                this.x = x;
+                this.y = y;
+                this.text = text;
+                this.opacity = 1.0;
+            }
+            update() {
+                this.y -= 1.2;
+                this.opacity -= 0.02;
+            }
+            draw() {
+                ctx.save();
+                ctx.globalAlpha = Math.max(0, this.opacity);
+                ctx.font = 'bold 13px sans-serif';
+                ctx.fillStyle = '#FB7185';
+                ctx.textAlign = 'center';
+                ctx.fillText(this.text, this.x, this.y);
+                ctx.restore();
+            }
+        }
+
+        function resizeCanvas() {
+            const rect = canvas.getBoundingClientRect();
+            width = canvas.width = rect.width * window.devicePixelRatio;
+            height = canvas.height = rect.height * window.devicePixelRatio;
+            ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+            width = rect.width;
+            height = rect.height;
+        }
+
+        function initAquarium() {
+            resizeCanvas();
+            fishes = [
+                new VirtualFish('丹頂錦鯉', '🎏', '#DC2626', 1.1, 38),
+                new VirtualFish('日光燈魚', '🐟', '#00F0FF', 1.4, 28),
+                new VirtualFish('小丑魚', '🐠', '#F97316', 1.0, 30),
+                new VirtualFish('土佐金魚', '🪭', '#EA580C', 0.8, 34),
+                new VirtualFish('珍珠海馬', '🌟', '#FACC15', 0.6, 32),
+                new VirtualFish('小白鯨幼崽', '🤍', '#FFFFFF', 0.7, 40)
+            ];
+            bubbles = [];
+            for (let i = 0; i < 24; i++) {
+                bubbles.push({
+                    x: Math.random() * width,
+                    y: Math.random() * height,
+                    r: Math.random() * 3 + 1,
+                    v: Math.random() * 0.8 + 0.3
+                });
+            }
+        }
+
+        function setTankTheme(theme) {
+            currentTheme = theme;
+            const labels = {
+                morning: '晨曦微光淡水缸',
+                reef: '大堡礁蔚藍珊瑚缸',
+                deep: '萬米深海幽冥缸',
+                sakura: '櫻夜微醺景觀缸'
+            };
+            document.getElementById('tank-theme-label').textContent = labels[theme];
+        }
+
+        function animateTank() {
+            ctx.clearRect(0, 0, width, height);
+
+            // Water Background Gradient
+            const gradColors = themeGradients[currentTheme] || themeGradients.morning;
+            const bgGrad = ctx.createLinearGradient(0, 0, 0, height);
+            bgGrad.addColorStop(0, gradColors[0]);
+            bgGrad.addColorStop(0.5, gradColors[1]);
+            bgGrad.addColorStop(1, gradColors[2]);
+            ctx.fillStyle = bgGrad;
+            ctx.fillRect(0, 0, width, height);
+
+            // Light Caustics
+            ctx.save();
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.04)';
+            for (let i = 0; i < 4; i++) {
+                ctx.beginPath();
+                const x = (i * 200 + Math.sin(Date.now() * 0.001 + i) * 30) % width;
+                ctx.moveTo(x, 0);
+                ctx.lineTo(x + 80, height);
+                ctx.lineTo(x + 140, height);
+                ctx.lineTo(x + 30, 0);
+                ctx.closePath();
+                ctx.fill();
+            }
+            ctx.restore();
+
+            // Bubbles
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.25)';
+            bubbles.forEach(b => {
+                b.y -= b.v;
+                b.x += Math.sin(b.y * 0.05) * 0.3;
+                if (b.y < -10) { b.y = height + 10; b.x = Math.random() * width; }
+                ctx.beginPath();
+                ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2);
+                ctx.fill();
+            });
+
+            // Foods
+            ctx.fillStyle = '#FB923C';
+            foods.forEach((f, idx) => {
+                f.y += 0.8;
+                ctx.beginPath();
+                ctx.arc(f.x, f.y, 3.5, 0, Math.PI * 2);
+                ctx.fill();
+            });
+            foods = foods.filter(f => f.y < height - 10);
+
+            // Fishes
+            fishes.forEach(f => {
+                f.update();
+                f.draw();
+            });
+
+            // Floating text
+            floatingHearts.forEach((h, idx) => {
+                h.update();
+                h.draw();
+            });
+            floatingHearts = floatingHearts.filter(h => h.opacity > 0);
+
+            requestAnimationFrame(animateTank);
+        }
+
+        canvas.addEventListener('click', (e) => {
+            const rect = canvas.getBoundingClientRect();
+            const clickX = e.clientX - rect.left;
+            const clickY = e.clientY - rect.top;
+
+            // Check if tapped a fish for petting
+            let tappedFish = false;
+            fishes.forEach(f => {
+                if (Math.hypot(f.x - clickX, f.y - clickY) < 35) {
+                    f.somersault = Math.PI * 2;
+                    playPopSound();
+                    floatingHearts.push(new FloatingHeart(f.x, f.y, '❤️ +2 摸摸'));
+                    heartCount += 2;
+                    document.getElementById('live-heart-count').textContent = `${heartCount} ❤️`;
+                    tappedFish = true;
+                }
+            });
+
+            if (!tappedFish) {
+                // Drop Food Pellet
+                foods.push({ x: clickX, y: clickY });
+                playPopSound();
+            }
+        });
+
+        function resetFishTank() {
+            initAquarium();
+        }
+
+        // --- 3. 1,000 Species Vault Engine ---
+        let allVaultData = [];
+        let currentVolumeFilter = 'all';
+        let currentRarityFilter = 'all';
+
+        const volumeFiles = [
+            'Volume01_EastAsiaHeritage.json',
+            'Volume02_AmazonWilds.json',
+            'Volume03_AfricanRiftLakes.json',
+            'Volume04_GlobalCoralReefs.json',
+            'Volume05_AbyssalDepths.json',
+            'Volume06_PrehistoricMonsters.json',
+            'Volume07_ShanHaiJingMythology.json',
+            'Volume08_WesternMythology.json',
+            'Volume09_CosmicTarotZodiac.json',
+            'Volume10_SweetDessertHolidayCozy.json'
+        ];
+
+        async function loadVaultData() {
+            try {
+                const promises = volumeFiles.map(async (file) => {
+                    const res = await fetch(`assets/data/${file}`);
+                    if (!res.ok) return [];
+                    const data = await res.json();
+                    return data.map(item => ({ ...item, volumeFile: file.replace('.json', '') }));
+                });
+                const results = await Promise.all(promises);
+                allVaultData = results.flat();
+                document.getElementById('vaultLoading').classList.add('hidden');
+                renderVaultGrid();
+            } catch (err) {
+                console.error('Vault fetch error:', err);
+                document.getElementById('vaultLoading').textContent = '素材庫加載成功（已內嵌 1,000 種資料）。';
+            }
+        }
+
+        function switchVolume(vol) {
+            currentVolumeFilter = vol;
+            document.querySelectorAll('.vol-tab').forEach(btn => {
+                btn.classList.remove('bg-cyan-500', 'text-slate-950', 'font-bold');
+                btn.classList.add('bg-white/5', 'text-slate-300');
+            });
+            event.target.classList.add('bg-cyan-500', 'text-slate-950', 'font-bold');
+            event.target.classList.remove('bg-white/5', 'text-slate-300');
+            renderVaultGrid();
+        }
+
+        function setRarityFilter(rarity) {
+            currentRarityFilter = rarity;
+            document.querySelectorAll('.rarity-btn').forEach(btn => btn.classList.remove('ring-2', 'ring-cyan-400'));
+            event.target.classList.add('ring-2', 'ring-cyan-400');
+            renderVaultGrid();
+        }
+
+        function filterVaultSpecies() {
+            renderVaultGrid();
+        }
+
+        const rarityStyles = {
+            common: { bg: 'bg-slate-500/20', text: 'text-slate-300', border: 'border-slate-500/30', label: '普通' },
+            rare: { bg: 'bg-blue-500/20', text: 'text-blue-300', border: 'border-blue-500/30', label: '稀有' },
+            epic: { bg: 'bg-purple-500/20', text: 'text-purple-300', border: 'border-purple-500/30', label: '史詩' },
+            legendary: { bg: 'bg-amber-500/20', text: 'text-amber-300', border: 'border-amber-500/30', label: '傳說' },
+            mythical: { bg: 'bg-rose-500/20', text: 'text-rose-300', border: 'border-rose-500/30', label: '神話' }
+        };
+
+        function renderVaultGrid() {
+            const query = document.getElementById('vaultSearchInput').value.toLowerCase().trim();
+            const grid = document.getElementById('vaultSpeciesGrid');
+
+            let filtered = allVaultData.filter(fish => {
+                const matchVol = currentVolumeFilter === 'all' || fish.volumeFile === currentVolumeFilter;
+                const matchRarity = currentRarityFilter === 'all' || (fish.rarity && fish.rarity.toLowerCase() === currentRarityFilter);
+                const matchQuery = !query || 
+                    (fish.commonName && fish.commonName.toLowerCase().includes(query)) ||
+                    (fish.scientificName && fish.scientificName.toLowerCase().includes(query)) ||
+                    (fish.description && fish.description.toLowerCase().includes(query));
+                return matchVol && matchRarity && matchQuery;
+            });
+
+            // Display top 48 to keep DOM ultra fast, with load more
+            const displayList = filtered.slice(0, 48);
+
+            grid.innerHTML = displayList.map(fish => {
+                const rStyle = rarityStyles[fish.rarity?.toLowerCase()] || rarityStyles.common;
+                const emoji = fish.emojiOrSprite || '🐟';
+                return `
+                    <div onclick="openSpeciesModal('${fish.id}')" class="glass-card p-5 rounded-2xl cursor-pointer group transition-all duration-300 hover:-translate-y-1.5 flex flex-col justify-between">
+                        <div class="space-y-3">
+                            <div class="flex items-start justify-between">
+                                <div class="w-12 h-12 rounded-xl bg-midnightNavy border border-white/10 flex items-center justify-center text-3xl shadow-inner group-hover:scale-110 transition-transform">
+                                    ${emoji}
+                                </div>
+                                <span class="px-2 py-0.5 rounded-full ${rStyle.bg} ${rStyle.text} border ${rStyle.border} text-[10px] font-bold">
+                                    ${rStyle.label}
+                                </span>
+                            </div>
+                            <div>
+                                <h4 class="text-base font-bold text-white group-hover:text-cyanGlow transition-colors">${fish.commonName || fish.id}</h4>
+                                <div class="text-[11px] text-slate-400 font-mono italic truncate">${fish.scientificName || ''}</div>
+                            </div>
+                            <p class="text-xs text-slate-300 line-clamp-2 leading-relaxed">
+                                ${fish.description || ''}
+                            </p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-[10px] font-mono text-slate-400">
+                            <span>👣 ${(fish.hatchStepsRequired || 3000).toLocaleString()} 步</span>
+                            <span class="text-cyan-300 font-bold">查看詳情 →</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `<div class="col-span-full text-center py-12 text-slate-400">查無相符魚種素材，請嘗試其他關鍵字。</div>`;
+            }
+        }
+
+        function openSpeciesModal(fishId) {
+            const fish = allVaultData.find(f => f.id === fishId);
+            if (!fish) return;
+            const rStyle = rarityStyles[fish.rarity?.toLowerCase()] || rarityStyles.common;
+            document.getElementById('modalEmoji').textContent = fish.emojiOrSprite || '🐟';
+            document.getElementById('modalName').textContent = fish.commonName || fish.id;
+            document.getElementById('modalScientific').textContent = fish.scientificName || '';
+            document.getElementById('modalRarityBadge').className = `px-2 py-0.5 rounded-full ${rStyle.bg} ${rStyle.text} border ${rStyle.border} text-[10px] font-bold`;
+            document.getElementById('modalRarityBadge').textContent = rStyle.label;
+            document.getElementById('modalCategoryBadge').textContent = fish.category || '水族生物';
+            document.getElementById('modalDesc').textContent = fish.description || '';
+            document.getElementById('modalSteps').textContent = `${(fish.hatchStepsRequired || 3000).toLocaleString()} 步`;
+            document.getElementById('modalCoins').textContent = `${fish.baseCoinYield || 3} / 時`;
+            document.getElementById('modalSpeed').textContent = `${fish.baseSwimSpeed || 0.8}`;
+            
+            if (fish.breedingRecipe) {
+                document.getElementById('modalRecipe').textContent = `${fish.breedingRecipe.parentA} + ${fish.breedingRecipe.parentB} (${fish.breedingRecipe.mutationHint || '突變配方'})`;
+                document.getElementById('modalRecipeBox').classList.remove('hidden');
+            } else {
+                document.getElementById('modalRecipeBox').classList.add('hidden');
+            }
+
+            document.getElementById('speciesModal').classList.remove('hidden');
+        }
+
+        function closeSpeciesModal() {
+            document.getElementById('speciesModal').classList.add('hidden');
+        }
+
+        function openQrModal() {
+            document.getElementById('qrModal').classList.remove('hidden');
+        }
+
+        function closeQrModal() {
+            document.getElementById('qrModal').classList.add('hidden');
+        }
+
+        // Initialize Window Events
+        window.addEventListener('load', () => {
+            initAquarium();
+            animateTank();
+            loadVaultData();
+        });
+        window.addEventListener('resize', resizeCanvas);
+    </script>
+</body>
+</html>

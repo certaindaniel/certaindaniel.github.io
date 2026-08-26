@@ -148,11 +148,33 @@ def app_html(app, locale):
         f'<a class="legal-link" href="{e(privacy_href)}">{e(PRIVACY_LABEL.get(locale, "Privacy Policy"))}</a>'
         if has_privacy else ""
     )
+    has_live_demo = os.path.isfile(os.path.join(ROOT, app["id"], "live", "index.html")) or app.get("liveDemoUrl")
+    live_demo_link = ""
+    live_demo_embed = ""
+    if has_live_demo:
+        demo_url = app.get("liveDemoUrl") or f"/{app['id']}/live/"
+        demo_labels = {
+            "en": "🎮 Try Interactive Live Aquarium & 1,000-Species Vault",
+            "zh-hant": "🎮 在線試玩網頁版互動魚缸與 1,000 種神魚圖鑑",
+            "zh-hans": "🎮 在线试玩网页版互动鱼缸与 1,000 种神鱼图鉴"
+        }
+        demo_label = demo_labels.get(locale, demo_labels["en"])
+        live_demo_link = f'\n    <a class="cta cta--demo" style="background: linear-gradient(135deg, #0e7490, #06b6d4); color: #fff; margin-top: 10px; display: inline-block;" href="{e(demo_url)}" target="_blank">{e(demo_label)} →</a>'
+        live_demo_embed = f"""
+  <div style="margin: 28px 0; border-radius: 16px; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+    <div style="background: var(--card-bg); padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); font-size: 0.85rem; font-weight: 600;">
+      <span>🌊 網頁版在線治癒魚缸試玩 (Interactive Live Preview)</span>
+      <a href="{e(demo_url)}" target="_blank" style="color: var(--accent); font-size: 0.8rem;">全螢幕開啟 ↗</a>
+    </div>
+    <iframe src="{e(demo_url)}" style="width: 100%; height: 580px; border: none; display: block;" loading="lazy"></iframe>
+  </div>"""
+
     cta = (
         f'<a class="cta" href="{e(app["appStoreUrl"])}">{e(loc["cta"])}</a>'
         if app.get("appStoreUrl") else
         f'<span class="cta cta--disabled">{e(loc["cta"])}</span>'
     )
+
     body = f"""<div class="wrap">
   {lang_switch(locale, app_id=app['id'])}
   <section class="hero">
@@ -160,9 +182,10 @@ def app_html(app, locale):
     <h1>{e(loc['name'])}</h1>
     <p class="tagline">{e(loc['tagline'])}</p>
     <p class="promo">{e(loc['promo'])}</p>
-    {cta}
+    {cta}{live_demo_link}
     {privacy_link}
   </section>
+  {live_demo_embed}
   <div class="screenshots">{shots}</div>
   <ul class="features">{features}</ul>
   {qa_html}

@@ -1,0 +1,1582 @@
+[
+  {
+    "id": "TA-4001",
+    "commonName": "藍倒吊",
+    "scientificName": "Paracanthurus hepatus",
+    "description": "藍色身體帶有黑色調色板紋路與黃尾的經典倒吊魚。",
+    "rarity": "Rare",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 4119,
+    "baseSwimSpeed": 0.57,
+    "baseCoinYield": 33,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4001",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4002",
+    "commonName": "黃三角",
+    "scientificName": "Zebrasoma flavescens",
+    "description": "通體明黃色，呈三角狀，夏威夷群島的代表性海水魚。",
+    "rarity": "Uncommon",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 3832,
+    "baseSwimSpeed": 2.17,
+    "baseCoinYield": 28,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4002",
+    "breedingRecipe": [
+      "TA-2774",
+      "TA-2327"
+    ]
+  },
+  {
+    "id": "TA-4003",
+    "commonName": "粉藍倒吊",
+    "scientificName": "Acanthurus leucosternon",
+    "description": "粉藍色的身體搭配黑臉與鮮黃色背鰭。",
+    "rarity": "Uncommon",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 2488,
+    "baseSwimSpeed": 0.84,
+    "baseCoinYield": 29,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4003",
+    "breedingRecipe": [
+      "TA-1932",
+      "TA-1305"
+    ]
+  },
+  {
+    "id": "TA-4004",
+    "commonName": "雞心倒吊",
+    "scientificName": "Acanthurus achilles",
+    "description": "尾柄處有鮮豔的橘紅色水滴狀斑塊，極具辨識度。",
+    "rarity": "Legendary",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 1103,
+    "baseSwimSpeed": 2.11,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4004",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4005",
+    "commonName": "紋倒吊",
+    "scientificName": "Acanthurus lineatus",
+    "description": "身上佈滿鮮豔的黃藍相間平行條紋。",
+    "rarity": "Rare",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 4038,
+    "baseSwimSpeed": 2.73,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4005",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4006",
+    "commonName": "女王神仙",
+    "scientificName": "Holacanthus ciliaris",
+    "description": "頭頂帶有皇冠狀藍斑，全身散發耀眼的黃藍光彩。",
+    "rarity": "Epic",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 4550,
+    "baseSwimSpeed": 2.82,
+    "baseCoinYield": 16,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4006",
+    "breedingRecipe": [
+      "TA-1095",
+      "TA-2189"
+    ]
+  },
+  {
+    "id": "TA-4007",
+    "commonName": "皇帝神仙",
+    "scientificName": "Pygoplites diacanthus",
+    "description": "黃藍白相間的垂直條紋，華麗且帶有貴族氣息。",
+    "rarity": "Uncommon",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 3088,
+    "baseSwimSpeed": 1.12,
+    "baseCoinYield": 42,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4007",
+    "breedingRecipe": [
+      "TA-3683",
+      "TA-2188"
+    ]
+  },
+  {
+    "id": "TA-4008",
+    "commonName": "藍面神仙",
+    "scientificName": "Pomacanthus xanthometopon",
+    "description": "臉部呈現亮藍色網紋，身上帶有黃色鱗片。",
+    "rarity": "Rare",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 1447,
+    "baseSwimSpeed": 0.88,
+    "baseCoinYield": 27,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4008",
+    "breedingRecipe": [
+      "TA-1449",
+      "TA-2897"
+    ]
+  },
+  {
+    "id": "TA-4009",
+    "commonName": "法蘭西神仙",
+    "scientificName": "Pomacanthus paru",
+    "description": "深黑色底色，鱗片邊緣鑲著金黃色邊緣。",
+    "rarity": "Uncommon",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 2848,
+    "baseSwimSpeed": 1.51,
+    "baseCoinYield": 50,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4009",
+    "breedingRecipe": [
+      "TA-2565",
+      "TA-1001"
+    ]
+  },
+  {
+    "id": "TA-4010",
+    "commonName": "阿拉伯神仙",
+    "scientificName": "Pomacanthus asfur",
+    "description": "深藍色體色搭配鮮明黃色月亮斑。",
+    "rarity": "Uncommon",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 1017,
+    "baseSwimSpeed": 1.47,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4010",
+    "breedingRecipe": [
+      "TA-2929",
+      "TA-3908"
+    ]
+  },
+  {
+    "id": "TA-4011",
+    "commonName": "馬鞍神仙",
+    "scientificName": "Pomacanthus navarchus",
+    "description": "深藍色與鮮黃色強烈對比，像是披著馬鞍。",
+    "rarity": "Common",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 2360,
+    "baseSwimSpeed": 2.47,
+    "baseCoinYield": 24,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4011",
+    "breedingRecipe": [
+      "TA-2795",
+      "TA-2893"
+    ]
+  },
+  {
+    "id": "TA-4012",
+    "commonName": "藍紋神仙",
+    "scientificName": "Pomacanthus semicirculatus",
+    "description": "成魚為黃綠褐色，幼魚時期則是深藍底帶有白色半圓紋。",
+    "rarity": "Uncommon",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 4313,
+    "baseSwimSpeed": 1.5,
+    "baseCoinYield": 32,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4012",
+    "breedingRecipe": [
+      "TA-1604",
+      "TA-2343"
+    ]
+  },
+  {
+    "id": "TA-4013",
+    "commonName": "火背仙",
+    "scientificName": "Centropyge acanthops",
+    "description": "鮮豔的橘紅色背部，其餘為深藍色的小型神仙魚。",
+    "rarity": "Rare",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 1725,
+    "baseSwimSpeed": 2.32,
+    "baseCoinYield": 44,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4013",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4014",
+    "commonName": "多彩仙",
+    "scientificName": "Centropyge multicolor",
+    "description": "身上融合了白、黃、藍、黑多種色彩的小神仙。",
+    "rarity": "Uncommon",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 1840,
+    "baseSwimSpeed": 2.29,
+    "baseCoinYield": 25,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4014",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4015",
+    "commonName": "波塔仙",
+    "scientificName": "Centropyge potteri",
+    "description": "橙紅色底帶有密集的深色迷宮紋路。",
+    "rarity": "Rare",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 4112,
+    "baseSwimSpeed": 1.14,
+    "baseCoinYield": 17,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4015",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4016",
+    "commonName": "火焰神仙",
+    "scientificName": "Centropyge loricula",
+    "description": "鮮豔的火紅色身體帶有黑色垂直條紋。",
+    "rarity": "Common",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 1307,
+    "baseSwimSpeed": 1.79,
+    "baseCoinYield": 47,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4016",
+    "breedingRecipe": [
+      "TA-1632",
+      "TA-3387"
+    ]
+  },
+  {
+    "id": "TA-4017",
+    "commonName": "石美人",
+    "scientificName": "Centropyge bicolor",
+    "description": "前半身黃色，後半身深藍色，對比強烈。",
+    "rarity": "Common",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 4096,
+    "baseSwimSpeed": 1.48,
+    "baseCoinYield": 24,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4017",
+    "breedingRecipe": [
+      "TA-1773",
+      "TA-2824"
+    ]
+  },
+  {
+    "id": "TA-4018",
+    "commonName": "可可斯神仙",
+    "scientificName": "Centropyge joculator",
+    "description": "非常罕見的雙色神仙，前半黃後半藍。",
+    "rarity": "Rare",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 2792,
+    "baseSwimSpeed": 2.02,
+    "baseCoinYield": 50,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4018",
+    "breedingRecipe": [
+      "TA-1798",
+      "TA-1983"
+    ]
+  },
+  {
+    "id": "TA-4019",
+    "commonName": "蒙面神仙",
+    "scientificName": "Apolemichthys arcuatus",
+    "description": "白色身體，眼睛周圍有一道黑色像海盜面罩的條紋。",
+    "rarity": "Rare",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 3860,
+    "baseSwimSpeed": 2.26,
+    "baseCoinYield": 25,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4019",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4020",
+    "commonName": "藍環神仙",
+    "scientificName": "Pomacanthus annularis",
+    "description": "身上有數道藍色環狀紋路。",
+    "rarity": "Common",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 243,
+    "baseSwimSpeed": 0.92,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4020",
+    "breedingRecipe": [
+      "TA-1643",
+      "TA-2850"
+    ]
+  },
+  {
+    "id": "TA-4021",
+    "commonName": "半月神仙",
+    "scientificName": "Pomacanthus maculosus",
+    "description": "藍色身體側邊有明顯的黃色半月形斑塊。",
+    "rarity": "Epic",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 3274,
+    "baseSwimSpeed": 2.38,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4021",
+    "breedingRecipe": [
+      "TA-1684",
+      "TA-1779"
+    ]
+  },
+  {
+    "id": "TA-4022",
+    "commonName": "澳洲神仙",
+    "scientificName": "Chaetodontoplus duboulayi",
+    "description": "深藍底色有黃色線條，具有獨特的澳洲風情。",
+    "rarity": "Epic",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 3724,
+    "baseSwimSpeed": 2.8,
+    "baseCoinYield": 48,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4022",
+    "breedingRecipe": [
+      "TA-3819",
+      "TA-3690"
+    ]
+  },
+  {
+    "id": "TA-4023",
+    "commonName": "金點神仙",
+    "scientificName": "Apolemichthys xanthopunctatus",
+    "description": "深色身體佈滿金色小點。",
+    "rarity": "Epic",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 3376,
+    "baseSwimSpeed": 0.64,
+    "baseCoinYield": 43,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4023",
+    "breedingRecipe": [
+      "TA-2143",
+      "TA-2261"
+    ]
+  },
+  {
+    "id": "TA-4024",
+    "commonName": "虎皮仙",
+    "scientificName": "Centropyge eibli",
+    "description": "灰色身體帶有橙色垂直條紋，像老虎斑紋。",
+    "rarity": "Uncommon",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 2463,
+    "baseSwimSpeed": 1.88,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4024",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4025",
+    "commonName": "黑尾神仙",
+    "scientificName": "Centropyge vrolikii",
+    "description": "灰白色身體，尾部過渡為黑色。",
+    "rarity": "Rare",
+    "category": "倒吊與蓋刺神仙家族",
+    "hatchStepsRequired": 1319,
+    "baseSwimSpeed": 1.39,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4025",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4026",
+    "commonName": "人字蝶",
+    "scientificName": "Chaetodon auriga",
+    "description": "身上有交叉的斜線紋路，後背有一黑斑。",
+    "rarity": "Epic",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 2128,
+    "baseSwimSpeed": 1.23,
+    "baseCoinYield": 42,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4026",
+    "breedingRecipe": [
+      "TA-1173",
+      "TA-2068"
+    ]
+  },
+  {
+    "id": "TA-4027",
+    "commonName": "假人字蝶",
+    "scientificName": "Chaetodon vagabundus",
+    "description": "與人字蝶相似但斜紋方向不同。",
+    "rarity": "Rare",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 3796,
+    "baseSwimSpeed": 2.31,
+    "baseCoinYield": 26,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4027",
+    "breedingRecipe": [
+      "TA-2586",
+      "TA-2782"
+    ]
+  },
+  {
+    "id": "TA-4028",
+    "commonName": "冬瓜蝶",
+    "scientificName": "Chaetodon speculum",
+    "description": "鮮黃色圓潤身體，側邊有一大黑斑。",
+    "rarity": "Uncommon",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 2810,
+    "baseSwimSpeed": 2.7,
+    "baseCoinYield": 10,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4028",
+    "breedingRecipe": [
+      "TA-1811",
+      "TA-2478"
+    ]
+  },
+  {
+    "id": "TA-4029",
+    "commonName": "羽橋蝶",
+    "scientificName": "Chaetodon ephippium",
+    "description": "背部有一大塊黑色鞍狀斑。",
+    "rarity": "Common",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 3942,
+    "baseSwimSpeed": 2.29,
+    "baseCoinYield": 35,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4029",
+    "breedingRecipe": [
+      "TA-3514",
+      "TA-2047"
+    ]
+  },
+  {
+    "id": "TA-4030",
+    "commonName": "月光蝶",
+    "scientificName": "Chaetodon lunula",
+    "description": "臉上有像浣熊般的黑眼罩。",
+    "rarity": "Rare",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 1273,
+    "baseSwimSpeed": 2.16,
+    "baseCoinYield": 31,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4030",
+    "breedingRecipe": [
+      "TA-3731",
+      "TA-2562"
+    ]
+  },
+  {
+    "id": "TA-4031",
+    "commonName": "黑小丑",
+    "scientificName": "Amphiprion melanopus",
+    "description": "深黑色身體帶有單一白色條紋與紅色鰭。",
+    "rarity": "Epic",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 466,
+    "baseSwimSpeed": 2.13,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4031",
+    "breedingRecipe": [
+      "TA-3853",
+      "TA-2577"
+    ]
+  },
+  {
+    "id": "TA-4032",
+    "commonName": "雪印小丑",
+    "scientificName": "Amphiprion ocellaris var.",
+    "description": "具有大面積不規則白色斑塊的變異公子小丑。",
+    "rarity": "Legendary",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 2162,
+    "baseSwimSpeed": 2.36,
+    "baseCoinYield": 45,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4032",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4033",
+    "commonName": "透紅小丑",
+    "scientificName": "Premnas biaculeatus",
+    "description": "深紅色體色，臉頰上有棘刺，帶有三條白紋。",
+    "rarity": "Rare",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 1208,
+    "baseSwimSpeed": 2.15,
+    "baseCoinYield": 48,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4033",
+    "breedingRecipe": [
+      "TA-3516",
+      "TA-3898"
+    ]
+  },
+  {
+    "id": "TA-4034",
+    "commonName": "黑公子",
+    "scientificName": "Amphiprion ocellaris var.",
+    "description": "全黑的變異公子小丑，帶有三條白紋。",
+    "rarity": "Common",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 1862,
+    "baseSwimSpeed": 1.32,
+    "baseCoinYield": 9,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4034",
+    "breedingRecipe": [
+      "TA-2964",
+      "TA-3825"
+    ]
+  },
+  {
+    "id": "TA-4035",
+    "commonName": "雙帶小丑",
+    "scientificName": "Amphiprion clarkii",
+    "description": "黑色身體，橘色吻部與尾巴，兩條寬白帶。",
+    "rarity": "Legendary",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 3492,
+    "baseSwimSpeed": 2.16,
+    "baseCoinYield": 7,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4035",
+    "breedingRecipe": [
+      "TA-3486",
+      "TA-3023"
+    ]
+  },
+  {
+    "id": "TA-4036",
+    "commonName": "印度洋雙帶",
+    "scientificName": "Amphiprion bicinctus",
+    "description": "黃色底色帶有兩條白紋。",
+    "rarity": "Common",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 1482,
+    "baseSwimSpeed": 2.58,
+    "baseCoinYield": 25,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4036",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4037",
+    "commonName": "金透紅",
+    "scientificName": "Premnas biaculeatus var.",
+    "description": "透紅小丑變異，白紋會隨著成長變成金黃色。",
+    "rarity": "Legendary",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 1435,
+    "baseSwimSpeed": 2.6,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4037",
+    "breedingRecipe": [
+      "TA-2897",
+      "TA-3508"
+    ]
+  },
+  {
+    "id": "TA-4038",
+    "commonName": "藍雀",
+    "scientificName": "Chrysiptera cyanea",
+    "description": "通體散發強烈螢光藍色的小巧雀鯛。",
+    "rarity": "Rare",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 1759,
+    "baseSwimSpeed": 0.57,
+    "baseCoinYield": 31,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4038",
+    "breedingRecipe": [
+      "TA-2538",
+      "TA-1137"
+    ]
+  },
+  {
+    "id": "TA-4039",
+    "commonName": "黃尾雀",
+    "scientificName": "Chrysiptera parasema",
+    "description": "寶石藍的身體搭配鮮黃色的尾巴。",
+    "rarity": "Uncommon",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 4449,
+    "baseSwimSpeed": 2.6,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4039",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4040",
+    "commonName": "三間雀",
+    "scientificName": "Dascyllus aruanus",
+    "description": "黑白相間的三條明顯垂直寬紋。",
+    "rarity": "Common",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 3443,
+    "baseSwimSpeed": 1.35,
+    "baseCoinYield": 29,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4040",
+    "breedingRecipe": [
+      "TA-1878",
+      "TA-1178"
+    ]
+  },
+  {
+    "id": "TA-4041",
+    "commonName": "青魔",
+    "scientificName": "Chromis viridis",
+    "description": "成群結隊游動的淺藍綠色溫和雀鯛。",
+    "rarity": "Legendary",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 2384,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 34,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4041",
+    "breedingRecipe": [
+      "TA-2896",
+      "TA-2397"
+    ]
+  },
+  {
+    "id": "TA-4042",
+    "commonName": "黃木瓜雀",
+    "scientificName": "Microspathodon chrysurus",
+    "description": "帶有閃亮藍點，尾巴為黃色。",
+    "rarity": "Common",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 3042,
+    "baseSwimSpeed": 1.01,
+    "baseCoinYield": 26,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4042",
+    "breedingRecipe": [
+      "TA-3437",
+      "TA-2100"
+    ]
+  },
+  {
+    "id": "TA-4043",
+    "commonName": "四間雀",
+    "scientificName": "Dascyllus melanurus",
+    "description": "尾巴也帶有黑色條紋，共四條黑帶。",
+    "rarity": "Legendary",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 4005,
+    "baseSwimSpeed": 1.85,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4043",
+    "breedingRecipe": [
+      "TA-3467",
+      "TA-1947"
+    ]
+  },
+  {
+    "id": "TA-4044",
+    "commonName": "公子小丑",
+    "scientificName": "Amphiprion ocellaris",
+    "description": "最經典的橘底三白條紋小丑魚。",
+    "rarity": "Uncommon",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 1258,
+    "baseSwimSpeed": 0.83,
+    "baseCoinYield": 48,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4044",
+    "breedingRecipe": [
+      "TA-3469",
+      "TA-1191"
+    ]
+  },
+  {
+    "id": "TA-4045",
+    "commonName": "粉紅小丑",
+    "scientificName": "Amphiprion perideraion",
+    "description": "粉橘色身體，背部有一條白色縱紋。",
+    "rarity": "Common",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 2477,
+    "baseSwimSpeed": 0.58,
+    "baseCoinYield": 17,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4045",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4046",
+    "commonName": "鞍斑小丑",
+    "scientificName": "Amphiprion polymnus",
+    "description": "背部有像馬鞍一樣的白色大斑塊。",
+    "rarity": "Uncommon",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 3532,
+    "baseSwimSpeed": 2.18,
+    "baseCoinYield": 10,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4046",
+    "breedingRecipe": [
+      "TA-2510",
+      "TA-3826"
+    ]
+  },
+  {
+    "id": "TA-4047",
+    "commonName": "太平洋黃冠蝶",
+    "scientificName": "Chaetodon flavirostris",
+    "description": "黑色身體，黃色吻部。",
+    "rarity": "Common",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 1604,
+    "baseSwimSpeed": 2.55,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4047",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4048",
+    "commonName": "黑白關刀",
+    "scientificName": "Heniochus acuminatus",
+    "description": "背鰭拉長如長刀，黑白相間條紋。",
+    "rarity": "Uncommon",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 745,
+    "baseSwimSpeed": 2.99,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4048",
+    "breedingRecipe": [
+      "TA-2217",
+      "TA-2729"
+    ]
+  },
+  {
+    "id": "TA-4049",
+    "commonName": "角蝶",
+    "scientificName": "Zanclus cornutus",
+    "description": "神仙魚般的外型，長長的吻部與突出的背鰭，常被稱為海神仙。",
+    "rarity": "Uncommon",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 2655,
+    "baseSwimSpeed": 1.12,
+    "baseCoinYield": 46,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4049",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4050",
+    "commonName": "黃倒吊",
+    "scientificName": "Acanthurus olivaceus",
+    "description": "這其實是倒吊，但放這裡湊數，幼魚鮮黃，成魚有橘色肩斑。",
+    "rarity": "Rare",
+    "category": "蝴蝶魚、小丑魚與雀鯛",
+    "hatchStepsRequired": 875,
+    "baseSwimSpeed": 2.05,
+    "baseCoinYield": 33,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4050",
+    "breedingRecipe": [
+      "TA-3616",
+      "TA-1939"
+    ]
+  },
+  {
+    "id": "TA-4051",
+    "commonName": "小丑砲彈",
+    "scientificName": "Balistoides conspicillum",
+    "description": "腹部有巨大的白色圓點，背部有黃色網紋，造型奇特。",
+    "rarity": "Legendary",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 3556,
+    "baseSwimSpeed": 2.74,
+    "baseCoinYield": 10,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_4051",
+    "breedingRecipe": [
+      "TA-2467",
+      "TA-1662"
+    ]
+  },
+  {
+    "id": "TA-4052",
+    "commonName": "畢卡索砲彈",
+    "scientificName": "Rhinecanthus aculeatus",
+    "description": "宛如抽象畫的繽紛線條與色塊分佈。",
+    "rarity": "Rare",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 1668,
+    "baseSwimSpeed": 1.78,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_4052",
+    "breedingRecipe": [
+      "TA-3340",
+      "TA-1499"
+    ]
+  },
+  {
+    "id": "TA-4053",
+    "commonName": "魔鬼砲彈",
+    "scientificName": "Odonus niger",
+    "description": "深藍色至紫色的體色，帶有紅色的牙齒。",
+    "rarity": "Uncommon",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 1360,
+    "baseSwimSpeed": 1.12,
+    "baseCoinYield": 41,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_4053",
+    "breedingRecipe": [
+      "TA-1512",
+      "TA-3856"
+    ]
+  },
+  {
+    "id": "TA-4054",
+    "commonName": "木瓜箱魨",
+    "scientificName": "Ostracion cubicus",
+    "description": "幼魚為鮮黃色帶黑點，形狀像一顆方形木瓜。",
+    "rarity": "Common",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 1481,
+    "baseSwimSpeed": 1.74,
+    "baseCoinYield": 30,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_4054",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4055",
+    "commonName": "牛角箱魨",
+    "scientificName": "Lactoria cornuta",
+    "description": "頭部有兩根突出的「牛角」，游泳姿態滑稽。",
+    "rarity": "Epic",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 3278,
+    "baseSwimSpeed": 2.12,
+    "baseCoinYield": 24,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_4055",
+    "breedingRecipe": [
+      "TA-2229",
+      "TA-3990"
+    ]
+  },
+  {
+    "id": "TA-4056",
+    "commonName": "大肚海馬",
+    "scientificName": "Hippocampus abdominalis",
+    "description": "腹部特別突出，體型較大的海馬。",
+    "rarity": "Common",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 1146,
+    "baseSwimSpeed": 2.81,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": "blueprint_4056",
+    "breedingRecipe": [
+      "TA-2181",
+      "TA-1734"
+    ]
+  },
+  {
+    "id": "TA-4057",
+    "commonName": "荊棘海馬",
+    "scientificName": "Hippocampus histrix",
+    "description": "全身長滿尖刺，擬態能力極佳。",
+    "rarity": "Common",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 510,
+    "baseSwimSpeed": 1.73,
+    "baseCoinYield": 19,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": "blueprint_4057",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4058",
+    "commonName": "黃金海馬",
+    "scientificName": "Hippocampus kuda",
+    "description": "全身呈現明亮的金黃色。",
+    "rarity": "Uncommon",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 2961,
+    "baseSwimSpeed": 2.93,
+    "baseCoinYield": 26,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": "blueprint_4058",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4059",
+    "commonName": "寬吻海龍",
+    "scientificName": "Syngnathus typhle",
+    "description": "吻部寬大，像一片漂浮的海草。",
+    "rarity": "Uncommon",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 4517,
+    "baseSwimSpeed": 1.07,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": "blueprint_4059",
+    "breedingRecipe": [
+      "TA-2886",
+      "TA-2489"
+    ]
+  },
+  {
+    "id": "TA-4060",
+    "commonName": "紅海馬",
+    "scientificName": "Hippocampus erectus",
+    "description": "體色偏紅的直立海馬，帶有線條斑紋。",
+    "rarity": "Uncommon",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 4367,
+    "baseSwimSpeed": 1.34,
+    "baseCoinYield": 1,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": "blueprint_4060",
+    "breedingRecipe": [
+      "TA-1536",
+      "TA-2105"
+    ]
+  },
+  {
+    "id": "TA-4061",
+    "commonName": "斑馬海馬",
+    "scientificName": "Hippocampus zebra",
+    "description": "全身佈滿黑白相間的斑馬紋。",
+    "rarity": "Mythic",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 529,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": "blueprint_4061",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4062",
+    "commonName": "巨型刺魨",
+    "scientificName": "Diodon hystrix",
+    "description": "受到驚嚇會膨脹並豎起全身尖刺。",
+    "rarity": "Epic",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 1351,
+    "baseSwimSpeed": 1.05,
+    "baseCoinYield": 37,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_4062",
+    "breedingRecipe": [
+      "TA-3930",
+      "TA-1877"
+    ]
+  },
+  {
+    "id": "TA-4063",
+    "commonName": "藍面砲彈",
+    "scientificName": "Pseudobalistes flavimarginatus",
+    "description": "面部呈現藍色，鱗片邊緣有黃色。",
+    "rarity": "Common",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 3624,
+    "baseSwimSpeed": 0.98,
+    "baseCoinYield": 45,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_4063",
+    "breedingRecipe": [
+      "TA-3737",
+      "TA-2190"
+    ]
+  },
+  {
+    "id": "TA-4064",
+    "commonName": "斜紋砲彈",
+    "scientificName": "Rhinecanthus rectangulus",
+    "description": "夏威夷州魚，身上有明顯的黑色斜紋 (Humuhumunukunukuapua'a)。",
+    "rarity": "Rare",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 4138,
+    "baseSwimSpeed": 1.62,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_4064",
+    "breedingRecipe": [
+      "TA-1264",
+      "TA-1017"
+    ]
+  },
+  {
+    "id": "TA-4065",
+    "commonName": "女王砲彈",
+    "scientificName": "Balistes vetula",
+    "description": "優雅的藍綠色線條，尾鰭上下端有長長的拉絲。",
+    "rarity": "Epic",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 1674,
+    "baseSwimSpeed": 0.57,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_4065",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4066",
+    "commonName": "黑腹箱魨",
+    "scientificName": "Ostracion meleagris",
+    "description": "背部佈滿白點，雄魚側面為華麗的藍色與橘色斑點。",
+    "rarity": "Rare",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 3409,
+    "baseSwimSpeed": 1.27,
+    "baseCoinYield": 1,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_4066",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4067",
+    "commonName": "米點箱魨",
+    "scientificName": "Ostracion meleagris (female)",
+    "description": "通體深黑色，佈滿密集的白色小圓點。",
+    "rarity": "Uncommon",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 2656,
+    "baseSwimSpeed": 2.11,
+    "baseCoinYield": 36,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_4067",
+    "breedingRecipe": [
+      "TA-1003",
+      "TA-2164"
+    ]
+  },
+  {
+    "id": "TA-4068",
+    "commonName": "侏儒海馬",
+    "scientificName": "Hippocampus zosterae",
+    "description": "體型極為迷你的小海馬。",
+    "rarity": "Epic",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 4172,
+    "baseSwimSpeed": 1.25,
+    "baseCoinYield": 46,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": "blueprint_4068",
+    "breedingRecipe": [
+      "TA-1251",
+      "TA-3859"
+    ]
+  },
+  {
+    "id": "TA-4069",
+    "commonName": "葉海龍",
+    "scientificName": "Phycodurus eques",
+    "description": "全身長滿葉片狀的附屬物，是完美的偽裝大師。",
+    "rarity": "Uncommon",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 1586,
+    "baseSwimSpeed": 0.52,
+    "baseCoinYield": 14,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": "blueprint_4069",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4070",
+    "commonName": "草海龍",
+    "scientificName": "Phyllopteryx taeniolatus",
+    "description": "顏色鮮豔，帶有海草般的附屬物。",
+    "rarity": "Epic",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 1680,
+    "baseSwimSpeed": 2.74,
+    "baseCoinYield": 20,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": "blueprint_4070",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4071",
+    "commonName": "短尾海龍",
+    "scientificName": "Microphis brachyurus",
+    "description": "生活在河口區域的海龍。",
+    "rarity": "Common",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 1523,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 28,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": "blueprint_4071",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4072",
+    "commonName": "紅尾黑砲彈",
+    "scientificName": "Melichthys vidua",
+    "description": "黑色身體，粉白背鰭與鮮紅的尾巴。",
+    "rarity": "Epic",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 850,
+    "baseSwimSpeed": 1.38,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_4072",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4073",
+    "commonName": "網紋魨",
+    "scientificName": "Arothron reticularis",
+    "description": "身上有複雜的網狀圖案，體型圓潤。",
+    "rarity": "Uncommon",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 4820,
+    "baseSwimSpeed": 2.99,
+    "baseCoinYield": 43,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_4073",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4074",
+    "commonName": "珍珠狗頭",
+    "scientificName": "Arothron meleagris",
+    "description": "黑底白點或純黃色變異的可愛狗頭魚。",
+    "rarity": "Legendary",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 1631,
+    "baseSwimSpeed": 0.9,
+    "baseCoinYield": 31,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_4074",
+    "breedingRecipe": [
+      "TA-1457",
+      "TA-3280"
+    ]
+  },
+  {
+    "id": "TA-4075",
+    "commonName": "地圖狗頭",
+    "scientificName": "Arothron mappa",
+    "description": "身上有如地圖等高線般的迷宮紋路。",
+    "rarity": "Uncommon",
+    "category": "砲彈、箱魨、海馬與海龍",
+    "hatchStepsRequired": 4680,
+    "baseSwimSpeed": 2.54,
+    "baseCoinYield": 40,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_4075",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4076",
+    "commonName": "青蛙魚/花斑麒麟",
+    "scientificName": "Synchiropus splendidus",
+    "description": "擁有迷幻漩渦圖案的橘綠藍相間底棲小魚。",
+    "rarity": "Uncommon",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 3575,
+    "baseSwimSpeed": 0.76,
+    "baseCoinYield": 37,
+    "emojiOrSprite": "🦎",
+    "visualBlueprint": "blueprint_4076",
+    "breedingRecipe": [
+      "TA-1600",
+      "TA-3026"
+    ]
+  },
+  {
+    "id": "TA-4077",
+    "commonName": "紅斑節蝦虎",
+    "scientificName": "Amblyeleotris fasciata",
+    "description": "常與槍蝦共生的蝦虎魚，身上有紅色橫紋。",
+    "rarity": "Uncommon",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 3976,
+    "baseSwimSpeed": 1.23,
+    "baseCoinYield": 22,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4077",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4078",
+    "commonName": "天線蝦虎",
+    "scientificName": "Stonogobiops nematodes",
+    "description": "高高豎起的第一背鰭像天線一樣，黑黃相間。",
+    "rarity": "Epic",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 3471,
+    "baseSwimSpeed": 0.58,
+    "baseCoinYield": 25,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4078",
+    "breedingRecipe": [
+      "TA-3338",
+      "TA-2477"
+    ]
+  },
+  {
+    "id": "TA-4079",
+    "commonName": "雷達魚",
+    "scientificName": "Nemateleotris magnifica",
+    "description": "前半身白，後半身火紅，頭頂有一根可彈動的長鰭。",
+    "rarity": "Epic",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 4001,
+    "baseSwimSpeed": 2.83,
+    "baseCoinYield": 34,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4079",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4080",
+    "commonName": "紫雷達",
+    "scientificName": "Nemateleotris decora",
+    "description": "雷達魚的親戚，體色為紫色與黃色漸層。",
+    "rarity": "Uncommon",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 3981,
+    "baseSwimSpeed": 1.74,
+    "baseCoinYield": 7,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4080",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4081",
+    "commonName": "火焰蝦",
+    "scientificName": "Lysmata debelius",
+    "description": "鮮豔的血紅色身體帶有白色小點的清潔蝦。",
+    "rarity": "Uncommon",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 4099,
+    "baseSwimSpeed": 0.72,
+    "baseCoinYield": 26,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": "blueprint_4081",
+    "breedingRecipe": [
+      "TA-3386",
+      "TA-2786"
+    ]
+  },
+  {
+    "id": "TA-4082",
+    "commonName": "海金魚",
+    "scientificName": "Pseudanthias squamipinnis",
+    "description": "亮橘紅色，成群游動於珊瑚礁上方，色彩奪目。",
+    "rarity": "Common",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 2328,
+    "baseSwimSpeed": 2.43,
+    "baseCoinYield": 38,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": "blueprint_4082",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4083",
+    "commonName": "黃金海蛞蝓",
+    "scientificName": "Gymnodoris sp.",
+    "description": "亮黃色且半透明的美麗無殼海蛞蝓。",
+    "rarity": "Common",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 1208,
+    "baseSwimSpeed": 0.78,
+    "baseCoinYield": 29,
+    "emojiOrSprite": "🐌",
+    "visualBlueprint": "blueprint_4083",
+    "breedingRecipe": [
+      "TA-3850",
+      "TA-3912"
+    ]
+  },
+  {
+    "id": "TA-4084",
+    "commonName": "貴賓狗海蛞蝓",
+    "scientificName": "Jorunna parva",
+    "description": "外觀毛茸茸的像隻小白兔或小狗的超萌海蛞蝓。",
+    "rarity": "Epic",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 226,
+    "baseSwimSpeed": 2.72,
+    "baseCoinYield": 30,
+    "emojiOrSprite": "🐰",
+    "visualBlueprint": "blueprint_4084",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4085",
+    "commonName": "性感蝦",
+    "scientificName": "Thor amboinensis",
+    "description": "常會高舉腹部上下搖擺，身上有明顯的白色斑塊。",
+    "rarity": "Common",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 1616,
+    "baseSwimSpeed": 2.83,
+    "baseCoinYield": 32,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": "blueprint_4085",
+    "breedingRecipe": [
+      "TA-2219",
+      "TA-3773"
+    ]
+  },
+  {
+    "id": "TA-4086",
+    "commonName": "拳擊蟹",
+    "scientificName": "Lybia tessellata",
+    "description": "雙螯會抓著小海葵像拿著彩球或拳擊手套防禦。",
+    "rarity": "Common",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 1103,
+    "baseSwimSpeed": 2.58,
+    "baseCoinYield": 35,
+    "emojiOrSprite": "🦀",
+    "visualBlueprint": "blueprint_4086",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4087",
+    "commonName": "薄荷蝦",
+    "scientificName": "Lysmata wurdemanni",
+    "description": "透明帶有紅色條紋，喜歡吃垃圾海葵。",
+    "rarity": "Uncommon",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 139,
+    "baseSwimSpeed": 1.22,
+    "baseCoinYield": 42,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": "blueprint_4087",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4088",
+    "commonName": "假綿羊蝦",
+    "scientificName": "Enoplometopus sp.",
+    "description": "身上覆蓋細毛，擅長清除藻類。",
+    "rarity": "Uncommon",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 2552,
+    "baseSwimSpeed": 2.05,
+    "baseCoinYield": 10,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": "blueprint_4088",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4089",
+    "commonName": "清潔蝦",
+    "scientificName": "Lysmata amboinensis",
+    "description": "背部有一條醒目的紅色與白色縱紋，會幫魚清理寄生蟲。",
+    "rarity": "Rare",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 593,
+    "baseSwimSpeed": 1.75,
+    "baseCoinYield": 45,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": "blueprint_4089",
+    "breedingRecipe": [
+      "TA-3661",
+      "TA-3220"
+    ]
+  },
+  {
+    "id": "TA-4090",
+    "commonName": "小丑蝦",
+    "scientificName": "Hymenocera picta",
+    "description": "外型奇特如蘭花，以海星為食的華麗蝦類。",
+    "rarity": "Uncommon",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 3979,
+    "baseSwimSpeed": 0.84,
+    "baseCoinYield": 22,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": "blueprint_4090",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4091",
+    "commonName": "海蘋果",
+    "scientificName": "Pseudocolochirus axiologus",
+    "description": "色彩極為鮮豔的濾食性海參，受驚會吐出有毒內臟。",
+    "rarity": "Common",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 2104,
+    "baseSwimSpeed": 1.89,
+    "baseCoinYield": 13,
+    "emojiOrSprite": "🍎",
+    "visualBlueprint": "blueprint_4091",
+    "breedingRecipe": [
+      "TA-2770",
+      "TA-2609"
+    ]
+  },
+  {
+    "id": "TA-4092",
+    "commonName": "聖誕樹管蟲",
+    "scientificName": "Spirobranchus giganteus",
+    "description": "棲息在珊瑚上，展開的觸手像彩色的聖誕樹。",
+    "rarity": "Rare",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 270,
+    "baseSwimSpeed": 2.55,
+    "baseCoinYield": 47,
+    "emojiOrSprite": "🎄",
+    "visualBlueprint": "blueprint_4092",
+    "breedingRecipe": [
+      "TA-2286",
+      "TA-3337"
+    ]
+  },
+  {
+    "id": "TA-4093",
+    "commonName": "瓷蟹",
+    "scientificName": "Neopetrolisthes maculatus",
+    "description": "常與海葵共生，擁有像濾網一樣的觸手用來捕捉浮游生物。",
+    "rarity": "Common",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 4175,
+    "baseSwimSpeed": 1.96,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "🦀",
+    "visualBlueprint": "blueprint_4093",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4094",
+    "commonName": "箭蟹",
+    "scientificName": "Stenorhynchus seticornis",
+    "description": "身體細長像蜘蛛，有一個長長的吻部。",
+    "rarity": "Common",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 1837,
+    "baseSwimSpeed": 0.92,
+    "baseCoinYield": 16,
+    "emojiOrSprite": "🦀",
+    "visualBlueprint": "blueprint_4094",
+    "breedingRecipe": [
+      "TA-3569",
+      "TA-3498"
+    ]
+  },
+  {
+    "id": "TA-4095",
+    "commonName": "五彩鰻",
+    "scientificName": "Rhinomuraena quaesita",
+    "description": "幼體黑色，雄性藍色，雌性黃色的奇妙海鰻。",
+    "rarity": "Common",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 2919,
+    "baseSwimSpeed": 2.81,
+    "baseCoinYield": 23,
+    "emojiOrSprite": "🐍",
+    "visualBlueprint": "blueprint_4095",
+    "breedingRecipe": [
+      "TA-2755",
+      "TA-1537"
+    ]
+  },
+  {
+    "id": "TA-4096",
+    "commonName": "花園鰻",
+    "scientificName": "Heteroconger hassi",
+    "description": "成群將下半身埋在沙中，隨水流搖擺像海草。",
+    "rarity": "Common",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 2943,
+    "baseSwimSpeed": 1.06,
+    "baseCoinYield": 43,
+    "emojiOrSprite": "🐍",
+    "visualBlueprint": "blueprint_4096",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4097",
+    "commonName": "黃龍",
+    "scientificName": "Halichoeres chrysus",
+    "description": "鮮黃色的隆頭魚，遇到危險會鑽進沙中。",
+    "rarity": "Common",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 3458,
+    "baseSwimSpeed": 1.82,
+    "baseCoinYield": 31,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4097",
+    "breedingRecipe": [
+      "TA-3553",
+      "TA-3963"
+    ]
+  },
+  {
+    "id": "TA-4098",
+    "commonName": "六線龍",
+    "scientificName": "Pseudocheilinus hexataenia",
+    "description": "藍紫色帶有六條橘色縱紋，眼睛紅色的小型隆頭魚。",
+    "rarity": "Rare",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 2484,
+    "baseSwimSpeed": 0.52,
+    "baseCoinYield": 30,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4098",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4099",
+    "commonName": "西班牙海牛",
+    "scientificName": "Hexabranchus sanguineus",
+    "description": "體型碩大，游動時裙邊會像佛朗明哥舞裙般波浪舞動。",
+    "rarity": "Epic",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 2532,
+    "baseSwimSpeed": 0.74,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "🐌",
+    "visualBlueprint": "blueprint_4099",
+    "breedingRecipe": null
+  },
+  {
+    "id": "TA-4100",
+    "commonName": "綠毛菇",
+    "scientificName": "Rhodactis indosinensis",
+    "description": "覆蓋著螢光綠色絨毛狀觸手的珊瑚。",
+    "rarity": "Uncommon",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 1958,
+    "baseSwimSpeed": 2.35,
+    "baseCoinYield": 44,
+    "emojiOrSprite": "🍄",
+    "visualBlueprint": "blueprint_4100",
+    "breedingRecipe": [
+      "TA-3890",
+      "TA-2145"
+    ]
+  }
+]

@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "prehistoric_001",
+    "commonName": "奇蝦",
+    "scientificName": "Anomalocaris",
+    "description": "海洋霸主，寒武紀的恐怖獵手",
+    "rarity": "Common",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 1100,
+    "baseSwimSpeed": 12,
+    "baseCoinYield": 55,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": "blueprint_prehistoric_001",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_002",
+    "commonName": "直殼房角石",
+    "scientificName": "Cameroceras",
+    "description": "奧陶紀的巨大頭足類，外殼筆直如同長矛",
+    "rarity": "Rare",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 1200,
+    "baseSwimSpeed": 14,
+    "baseCoinYield": 60,
+    "emojiOrSprite": "🦑",
+    "visualBlueprint": "blueprint_prehistoric_002",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_003",
+    "commonName": "三葉蟲",
+    "scientificName": "Trilobita",
+    "description": "遠古海洋中最具代表性的節肢動物",
+    "rarity": "Common",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 16,
+    "baseCoinYield": 65,
+    "emojiOrSprite": "🪲",
+    "visualBlueprint": "blueprint_prehistoric_003",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_004",
+    "commonName": "撫仙湖蟲",
+    "scientificName": "Fuxianhuia",
+    "description": "早期節肢動物，腦部結構引人注目",
+    "rarity": "Rare",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 18,
+    "baseCoinYield": 70,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": "blueprint_prehistoric_004",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_005",
+    "commonName": "皮卡蟲",
+    "scientificName": "Pikaia",
+    "description": "被認為是脊索動物的早期代表",
+    "rarity": "Epic",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 20,
+    "baseCoinYield": 75,
+    "emojiOrSprite": "🪱",
+    "visualBlueprint": "blueprint_prehistoric_005",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_006",
+    "commonName": "海百合",
+    "scientificName": "Crinoidea",
+    "description": "看似植物，實為棘皮動物的活化石",
+    "rarity": "Rare",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 1600,
+    "baseSwimSpeed": 22,
+    "baseCoinYield": 80,
+    "emojiOrSprite": "🌸",
+    "visualBlueprint": "blueprint_prehistoric_006",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_007",
+    "commonName": "歐巴賓海蠍",
+    "scientificName": "Opabinia",
+    "description": "長有五隻眼睛與吻狀捕食器的奇特生物",
+    "rarity": "Common",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 1700,
+    "baseSwimSpeed": 24,
+    "baseCoinYield": 85,
+    "emojiOrSprite": "🦂",
+    "visualBlueprint": "blueprint_prehistoric_007",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_008",
+    "commonName": "怪誕蟲",
+    "scientificName": "Hallucigenia",
+    "description": "長滿尖刺與觸手，曾被古生物學家上下顛倒",
+    "rarity": "Rare",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 26,
+    "baseCoinYield": 90,
+    "emojiOrSprite": "🐛",
+    "visualBlueprint": "blueprint_prehistoric_008",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_009",
+    "commonName": "始祖鳥魚",
+    "scientificName": "Archaeornithura",
+    "description": "早期魚類的演化分支之一",
+    "rarity": "Common",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 1900,
+    "baseSwimSpeed": 28,
+    "baseCoinYield": 95,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_009",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_010",
+    "commonName": "昆明魚",
+    "scientificName": "Myllokunmingia",
+    "description": "已知最古老的脊椎動物之一",
+    "rarity": "Legendary",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 2000,
+    "baseSwimSpeed": 30,
+    "baseCoinYield": 100,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_010",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_011",
+    "commonName": "海蠍子",
+    "scientificName": "Eurypterid",
+    "description": "遠古海洋中的巨型節肢捕食者",
+    "rarity": "Common",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 2100,
+    "baseSwimSpeed": 32,
+    "baseCoinYield": 105,
+    "emojiOrSprite": "🦂",
+    "visualBlueprint": "blueprint_prehistoric_011",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_012",
+    "commonName": "瓦普塔蝦",
+    "scientificName": "Waptia",
+    "description": "伯吉斯頁岩中的雙殼節肢動物",
+    "rarity": "Rare",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 2200,
+    "baseSwimSpeed": 34,
+    "baseCoinYield": 110,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": "blueprint_prehistoric_012",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_013",
+    "commonName": "薩卡班甲魚",
+    "scientificName": "Sacabambaspis",
+    "description": "奧陶紀的無頜魚類，有著呆萌的正臉",
+    "rarity": "Common",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 2300,
+    "baseSwimSpeed": 36,
+    "baseCoinYield": 115,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_013",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_014",
+    "commonName": "微瓦霞蟲",
+    "scientificName": "Wiwaxia",
+    "description": "覆蓋著鱗片與長刺的神秘軟體動物",
+    "rarity": "Rare",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 2400,
+    "baseSwimSpeed": 38,
+    "baseCoinYield": 120,
+    "emojiOrSprite": "🐚",
+    "visualBlueprint": "blueprint_prehistoric_014",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_015",
+    "commonName": "阿蘭達魚",
+    "scientificName": "Arandaspis",
+    "description": "早期無頜魚，身披堅硬甲殼",
+    "rarity": "Epic",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 2500,
+    "baseSwimSpeed": 40,
+    "baseCoinYield": 125,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_015",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_016",
+    "commonName": "星甲魚",
+    "scientificName": "Astraspis",
+    "description": "擁有星狀裝飾甲板的奧陶紀無頜魚",
+    "rarity": "Rare",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 2600,
+    "baseSwimSpeed": 42,
+    "baseCoinYield": 130,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_016",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_017",
+    "commonName": "巨型羽翅鱟",
+    "scientificName": "Megalograptus",
+    "description": "早期的恐怖海蠍，能短暫上岸",
+    "rarity": "Common",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 2700,
+    "baseSwimSpeed": 44,
+    "baseCoinYield": 135,
+    "emojiOrSprite": "🦂",
+    "visualBlueprint": "blueprint_prehistoric_017",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_018",
+    "commonName": "筆石",
+    "scientificName": "Graptolithina",
+    "description": "群居的半索動物，化石如岩石上的塗鴉",
+    "rarity": "Rare",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 2800,
+    "baseSwimSpeed": 46,
+    "baseCoinYield": 140,
+    "emojiOrSprite": "🌿",
+    "visualBlueprint": "blueprint_prehistoric_018",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_019",
+    "commonName": "角石",
+    "scientificName": "Orthoceras",
+    "description": "直殼頭足類，遊動時如魚雷",
+    "rarity": "Common",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 2900,
+    "baseSwimSpeed": 48,
+    "baseCoinYield": 145,
+    "emojiOrSprite": "🦑",
+    "visualBlueprint": "blueprint_prehistoric_019",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_020",
+    "commonName": "馬爾拉蟲",
+    "scientificName": "Marrella",
+    "description": "伯吉斯頁岩中最豐富的節肢動物化石",
+    "rarity": "Legendary",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 1000,
+    "baseSwimSpeed": 50,
+    "baseCoinYield": 150,
+    "emojiOrSprite": "🕷️",
+    "visualBlueprint": "blueprint_prehistoric_020",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_021",
+    "commonName": "林喬利蟲",
+    "scientificName": "Leanchoilia",
+    "description": "擁有特化大附肢的節肢動物",
+    "rarity": "Common",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 1100,
+    "baseSwimSpeed": 52,
+    "baseCoinYield": 155,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": "blueprint_prehistoric_021",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_022",
+    "commonName": "巨型奇蝦",
+    "scientificName": "Anomalocaris saron",
+    "description": "比普通奇蝦更為巨大的掠食者",
+    "rarity": "Rare",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 1200,
+    "baseSwimSpeed": 54,
+    "baseCoinYield": 160,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": "blueprint_prehistoric_022",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_023",
+    "commonName": "海林檎",
+    "scientificName": "Cystoidea",
+    "description": "早已滅絕的有柄棘皮動物",
+    "rarity": "Common",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 56,
+    "baseCoinYield": 165,
+    "emojiOrSprite": "🍎",
+    "visualBlueprint": "blueprint_prehistoric_023",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_024",
+    "commonName": "牙形石",
+    "scientificName": "Conodont",
+    "description": "微小但數量龐大的遠古海洋生物",
+    "rarity": "Rare",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 58,
+    "baseCoinYield": 170,
+    "emojiOrSprite": "🦷",
+    "visualBlueprint": "blueprint_prehistoric_024",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_025",
+    "commonName": "甲冑魚",
+    "scientificName": "Ostracoderm",
+    "description": "披著沉重骨甲的遠古無頜魚類",
+    "rarity": "Epic",
+    "category": "寒武紀與奧陶紀遠古黎明",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 60,
+    "baseCoinYield": 175,
+    "emojiOrSprite": "🛡️",
+    "visualBlueprint": "blueprint_prehistoric_025",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_026",
+    "commonName": "鄧氏魚",
+    "scientificName": "Dunkleosteus",
+    "description": "泥盆紀的頂級掠食者，咬合力驚人",
+    "rarity": "Rare",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 1600,
+    "baseSwimSpeed": 62,
+    "baseCoinYield": 180,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": "blueprint_prehistoric_026",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_027",
+    "commonName": "含肺魚",
+    "scientificName": "Dipnoi",
+    "description": "能夠呼吸空氣，生命力極強的古老魚類",
+    "rarity": "Common",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 1700,
+    "baseSwimSpeed": 64,
+    "baseCoinYield": 185,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_027",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_028",
+    "commonName": "腔棘魚",
+    "scientificName": "Coelacanthiformes",
+    "description": "傳說中的活化石，肉鰭魚綱代表",
+    "rarity": "Rare",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 66,
+    "baseCoinYield": 190,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_028",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_029",
+    "commonName": "裂口鯊",
+    "scientificName": "Cladoselache",
+    "description": "早期鯊魚，流線型身體適合高速追擊",
+    "rarity": "Common",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 1900,
+    "baseSwimSpeed": 68,
+    "baseCoinYield": 195,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": "blueprint_prehistoric_029",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_030",
+    "commonName": "胸脊鯊",
+    "scientificName": "Stethacanthus",
+    "description": "背鰭如鐵砧般奇特的遠古鯊魚",
+    "rarity": "Legendary",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 2000,
+    "baseSwimSpeed": 10,
+    "baseCoinYield": 200,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": "blueprint_prehistoric_030",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_031",
+    "commonName": "泰塔利克魚",
+    "scientificName": "Tiktaalik",
+    "description": "魚類向兩棲類演化的關鍵過渡物種",
+    "rarity": "Common",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 2100,
+    "baseSwimSpeed": 12,
+    "baseCoinYield": 205,
+    "emojiOrSprite": "🦎",
+    "visualBlueprint": "blueprint_prehistoric_031",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_032",
+    "commonName": "溝鱗魚",
+    "scientificName": "Bothriolepis",
+    "description": "泥盆紀常見的胴甲魚類",
+    "rarity": "Rare",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 2200,
+    "baseSwimSpeed": 14,
+    "baseCoinYield": 210,
+    "emojiOrSprite": "🛡️",
+    "visualBlueprint": "blueprint_prehistoric_032",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_033",
+    "commonName": "骨甲魚",
+    "scientificName": "Osteostraci",
+    "description": "頭部覆蓋大塊骨板的無頜魚",
+    "rarity": "Common",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 2300,
+    "baseSwimSpeed": 16,
+    "baseCoinYield": 215,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_033",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_034",
+    "commonName": "棘魚",
+    "scientificName": "Acanthodii",
+    "description": "最早擁有頜部的魚類之一，全身佈滿尖刺",
+    "rarity": "Rare",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 2400,
+    "baseSwimSpeed": 18,
+    "baseCoinYield": 220,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_034",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_035",
+    "commonName": "提塔利克",
+    "scientificName": "Tiktaalik roseae",
+    "description": "見證脊椎動物登陸的偉大先驅",
+    "rarity": "Epic",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 2500,
+    "baseSwimSpeed": 20,
+    "baseCoinYield": 225,
+    "emojiOrSprite": "🦎",
+    "visualBlueprint": "blueprint_prehistoric_035",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_036",
+    "commonName": "全頜魚",
+    "scientificName": "Entelognathus",
+    "description": "揭示現代硬骨魚頜部起源的關鍵化石",
+    "rarity": "Rare",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 2600,
+    "baseSwimSpeed": 22,
+    "baseCoinYield": 230,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_036",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_037",
+    "commonName": "旋齒鯊",
+    "scientificName": "Helicoprion",
+    "description": "擁有如同電鋸般螺旋齒列的奇異鯊魚",
+    "rarity": "Common",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 2700,
+    "baseSwimSpeed": 24,
+    "baseCoinYield": 235,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": "blueprint_prehistoric_037",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_038",
+    "commonName": "剪齒鯊",
+    "scientificName": "Edestus",
+    "description": "牙齒如剪刀般向外突出的史前鯊魚",
+    "rarity": "Rare",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 2800,
+    "baseSwimSpeed": 26,
+    "baseCoinYield": 240,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": "blueprint_prehistoric_038",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_039",
+    "commonName": "瓣齒鯊",
+    "scientificName": "Petalodus",
+    "description": "牙齒呈花瓣狀的石炭紀軟骨魚",
+    "rarity": "Common",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 2900,
+    "baseSwimSpeed": 28,
+    "baseCoinYield": 245,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": "blueprint_prehistoric_039",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_040",
+    "commonName": "艾登堡魚母",
+    "scientificName": "Materpiscis",
+    "description": "已知最古老進行胎生的脊椎動物",
+    "rarity": "Legendary",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 1000,
+    "baseSwimSpeed": 30,
+    "baseCoinYield": 250,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_040",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_041",
+    "commonName": "盾皮魚",
+    "scientificName": "Placodermi",
+    "description": "披著厚重裝甲的早期有頜魚類",
+    "rarity": "Common",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 1100,
+    "baseSwimSpeed": 32,
+    "baseCoinYield": 255,
+    "emojiOrSprite": "🛡️",
+    "visualBlueprint": "blueprint_prehistoric_041",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_042",
+    "commonName": "盔甲魚",
+    "scientificName": "Galeaspida",
+    "description": "中國獨有的無頜魚類化石",
+    "rarity": "Rare",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 1200,
+    "baseSwimSpeed": 34,
+    "baseCoinYield": 260,
+    "emojiOrSprite": "🛡️",
+    "visualBlueprint": "blueprint_prehistoric_042",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_043",
+    "commonName": "缺甲魚",
+    "scientificName": "Anaspida",
+    "description": "體型小巧，缺乏沉重甲殼的無頜魚",
+    "rarity": "Common",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 36,
+    "baseCoinYield": 265,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_043",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_044",
+    "commonName": "星尾獸魚",
+    "scientificName": "Asterolepis",
+    "description": "泥盆紀的重裝甲底棲魚類",
+    "rarity": "Rare",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 38,
+    "baseCoinYield": 270,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_044",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_045",
+    "commonName": "西門魚",
+    "scientificName": "Xamachocnus",
+    "description": "史前巨型肉鰭魚",
+    "rarity": "Epic",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 40,
+    "baseCoinYield": 275,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_045",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_046",
+    "commonName": "硬骨魚祖",
+    "scientificName": "Guiyu oneiros",
+    "description": "夢幻鬼魚，最古老的完整硬骨魚",
+    "rarity": "Rare",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 1600,
+    "baseSwimSpeed": 42,
+    "baseCoinYield": 280,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_046",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_047",
+    "commonName": "潘氏魚",
+    "scientificName": "Panderichthys",
+    "description": "接近四足動物的肉鰭魚",
+    "rarity": "Common",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 1700,
+    "baseSwimSpeed": 44,
+    "baseCoinYield": 285,
+    "emojiOrSprite": "🦎",
+    "visualBlueprint": "blueprint_prehistoric_047",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_048",
+    "commonName": "真掌鰭魚",
+    "scientificName": "Eusthenopteron",
+    "description": "顯示出四肢骨骼雛形的魚類",
+    "rarity": "Rare",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 46,
+    "baseCoinYield": 290,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_048",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_049",
+    "commonName": "奇異魚",
+    "scientificName": "Iniopteryx",
+    "description": "胸鰭長在背上的奇特石炭紀全頭亞綱",
+    "rarity": "Common",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 1900,
+    "baseSwimSpeed": 48,
+    "baseCoinYield": 295,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_049",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_050",
+    "commonName": "大型腔棘魚",
+    "scientificName": "Mawsonia",
+    "description": "泥盆紀/白堊紀巨型腔棘魚的先驅",
+    "rarity": "Legendary",
+    "category": "泥盆紀與石炭紀魚類時代",
+    "hatchStepsRequired": 2000,
+    "baseSwimSpeed": 50,
+    "baseCoinYield": 50,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_050",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_051",
+    "commonName": "白堊紀滄龍",
+    "scientificName": "Mosasaurus",
+    "description": "白堊紀海洋的絕對霸主，體型巨大",
+    "rarity": "Common",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 2100,
+    "baseSwimSpeed": 52,
+    "baseCoinYield": 55,
+    "emojiOrSprite": "🐊",
+    "visualBlueprint": "blueprint_prehistoric_051",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_052",
+    "commonName": "蛇頸龍",
+    "scientificName": "Plesiosaurus",
+    "description": "長頸的海洋爬行動物，傳說中的尼斯湖水怪原型",
+    "rarity": "Rare",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 2200,
+    "baseSwimSpeed": 54,
+    "baseCoinYield": 60,
+    "emojiOrSprite": "🦕",
+    "visualBlueprint": "blueprint_prehistoric_052",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_053",
+    "commonName": "滑齒龍",
+    "scientificName": "Liopleurodon",
+    "description": "侏羅紀的巨型掠食者，擁有四個強大的鰭狀肢",
+    "rarity": "Common",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 2300,
+    "baseSwimSpeed": 56,
+    "baseCoinYield": 65,
+    "emojiOrSprite": "🦖",
+    "visualBlueprint": "blueprint_prehistoric_053",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_054",
+    "commonName": "魚龍",
+    "scientificName": "Ichthyosaurus",
+    "description": "外形酷似現代海豚的中生代海生爬行動物",
+    "rarity": "Rare",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 2400,
+    "baseSwimSpeed": 58,
+    "baseCoinYield": 70,
+    "emojiOrSprite": "🐬",
+    "visualBlueprint": "blueprint_prehistoric_054",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_055",
+    "commonName": "薄板龍",
+    "scientificName": "Elasmosaurus",
+    "description": "脖子極長的蛇頸龍類",
+    "rarity": "Epic",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 2500,
+    "baseSwimSpeed": 60,
+    "baseCoinYield": 75,
+    "emojiOrSprite": "🦕",
+    "visualBlueprint": "blueprint_prehistoric_055",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_056",
+    "commonName": "黃金菊石",
+    "scientificName": "Ammonoidea",
+    "description": "擁有精美螺旋外殼的頭足類",
+    "rarity": "Rare",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 2600,
+    "baseSwimSpeed": 62,
+    "baseCoinYield": 80,
+    "emojiOrSprite": "🐚",
+    "visualBlueprint": "blueprint_prehistoric_056",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_057",
+    "commonName": "箭石",
+    "scientificName": "Belemnoidea",
+    "description": "形似現代魷魚，體內有箭頭狀內殼",
+    "rarity": "Common",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 2700,
+    "baseSwimSpeed": 64,
+    "baseCoinYield": 85,
+    "emojiOrSprite": "🦑",
+    "visualBlueprint": "blueprint_prehistoric_057",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_058",
+    "commonName": "劍射魚",
+    "scientificName": "Xiphactinus",
+    "description": "白堊紀的兇猛硬骨魚，口中滿佈利齒",
+    "rarity": "Rare",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 2800,
+    "baseSwimSpeed": 66,
+    "baseCoinYield": 90,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_058",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_059",
+    "commonName": "秀麗隱杆魚",
+    "scientificName": "Caenorhabditis",
+    "description": "基因研究的模式生物(客串史前海怪)",
+    "rarity": "Common",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 2900,
+    "baseSwimSpeed": 68,
+    "baseCoinYield": 95,
+    "emojiOrSprite": "🪱",
+    "visualBlueprint": "blueprint_prehistoric_059",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_060",
+    "commonName": "克柔龍",
+    "scientificName": "Kronosaurus",
+    "description": "頭骨巨大、咬合力驚人的短頸上龍類",
+    "rarity": "Legendary",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 1000,
+    "baseSwimSpeed": 10,
+    "baseCoinYield": 100,
+    "emojiOrSprite": "🦖",
+    "visualBlueprint": "blueprint_prehistoric_060",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_061",
+    "commonName": "海王龍",
+    "scientificName": "Tylosaurus",
+    "description": "體型修長、行動敏捷的巨型滄龍",
+    "rarity": "Common",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 1100,
+    "baseSwimSpeed": 12,
+    "baseCoinYield": 105,
+    "emojiOrSprite": "🐊",
+    "visualBlueprint": "blueprint_prehistoric_061",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_062",
+    "commonName": "長頸龍",
+    "scientificName": "Tanystropheus",
+    "description": "擁有極長頸部，可能在岸邊捕魚的爬行動物",
+    "rarity": "Rare",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 1200,
+    "baseSwimSpeed": 14,
+    "baseCoinYield": 110,
+    "emojiOrSprite": "🦕",
+    "visualBlueprint": "blueprint_prehistoric_062",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_063",
+    "commonName": "幻龍",
+    "scientificName": "Nothosaurus",
+    "description": "半水生的早期海生爬行動物",
+    "rarity": "Common",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 16,
+    "baseCoinYield": 115,
+    "emojiOrSprite": "🦎",
+    "visualBlueprint": "blueprint_prehistoric_063",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_064",
+    "commonName": "盾齒龍",
+    "scientificName": "Placodus",
+    "description": "牙齒平坦，專門壓碎貝殼的爬行動物",
+    "rarity": "Rare",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 18,
+    "baseCoinYield": 120,
+    "emojiOrSprite": "🐢",
+    "visualBlueprint": "blueprint_prehistoric_064",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_065",
+    "commonName": "達寇龍",
+    "scientificName": "Dakosaurus",
+    "description": "被稱為「哥吉拉」的兇猛海鱷",
+    "rarity": "Epic",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 20,
+    "baseCoinYield": 125,
+    "emojiOrSprite": "🐊",
+    "visualBlueprint": "blueprint_prehistoric_065",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_066",
+    "commonName": "地蜥鱷",
+    "scientificName": "Metriorhynchus",
+    "description": "完全適應海洋生活的鱷魚，尾部呈鰭狀",
+    "rarity": "Rare",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 1600,
+    "baseSwimSpeed": 22,
+    "baseCoinYield": 130,
+    "emojiOrSprite": "🐊",
+    "visualBlueprint": "blueprint_prehistoric_066",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_067",
+    "commonName": "傾齒龍",
+    "scientificName": "Prognathodon",
+    "description": "擁有強大頜部與牙齒的滄龍科成員",
+    "rarity": "Common",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 1700,
+    "baseSwimSpeed": 24,
+    "baseCoinYield": 135,
+    "emojiOrSprite": "🐊",
+    "visualBlueprint": "blueprint_prehistoric_067",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_068",
+    "commonName": "雙臼椎龍",
+    "scientificName": "Polycotylus",
+    "description": "短頸的蛇頸龍類，外型類似海豚",
+    "rarity": "Rare",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 26,
+    "baseCoinYield": 140,
+    "emojiOrSprite": "🦕",
+    "visualBlueprint": "blueprint_prehistoric_068",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_069",
+    "commonName": "秀尼魚龍",
+    "scientificName": "Shonisaurus",
+    "description": "三疊紀的巨型無齒魚龍",
+    "rarity": "Common",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 1900,
+    "baseSwimSpeed": 28,
+    "baseCoinYield": 145,
+    "emojiOrSprite": "🐋",
+    "visualBlueprint": "blueprint_prehistoric_069",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_070",
+    "commonName": "薩斯特魚龍",
+    "scientificName": "Shastasaurus",
+    "description": "已知體型最大的海生爬行動物之一",
+    "rarity": "Legendary",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 2000,
+    "baseSwimSpeed": 30,
+    "baseCoinYield": 150,
+    "emojiOrSprite": "🐋",
+    "visualBlueprint": "blueprint_prehistoric_070",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_071",
+    "commonName": "大眼魚龍",
+    "scientificName": "Ophthalmosaurus",
+    "description": "擁有不成比例巨大眼睛，適合深海捕食",
+    "rarity": "Common",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 2100,
+    "baseSwimSpeed": 32,
+    "baseCoinYield": 155,
+    "emojiOrSprite": "🐬",
+    "visualBlueprint": "blueprint_prehistoric_071",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_072",
+    "commonName": "恐頭龍",
+    "scientificName": "Dinocephalosaurus",
+    "description": "三疊紀的長頸海生爬行動物",
+    "rarity": "Rare",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 2200,
+    "baseSwimSpeed": 34,
+    "baseCoinYield": 160,
+    "emojiOrSprite": "🦕",
+    "visualBlueprint": "blueprint_prehistoric_072",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_073",
+    "commonName": "古海龜",
+    "scientificName": "Archelon",
+    "description": "白堊紀的巨型海龜，體長可達四米",
+    "rarity": "Common",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 2300,
+    "baseSwimSpeed": 36,
+    "baseCoinYield": 165,
+    "emojiOrSprite": "🐢",
+    "visualBlueprint": "blueprint_prehistoric_073",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_074",
+    "commonName": "蛇髮女妖龍",
+    "scientificName": "Gorgosaurus",
+    "description": "雖然是陸地恐龍，但也許會下海游泳(異類)",
+    "rarity": "Rare",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 2400,
+    "baseSwimSpeed": 38,
+    "baseCoinYield": 170,
+    "emojiOrSprite": "🦖",
+    "visualBlueprint": "blueprint_prehistoric_074",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_075",
+    "commonName": "大洋龍",
+    "scientificName": "Halisaurus",
+    "description": "體型較小的早期滄龍",
+    "rarity": "Epic",
+    "category": "中生代侏儸紀/白堊紀海怪",
+    "hatchStepsRequired": 2500,
+    "baseSwimSpeed": 40,
+    "baseCoinYield": 175,
+    "emojiOrSprite": "🐊",
+    "visualBlueprint": "blueprint_prehistoric_075",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_076",
+    "commonName": "巨齒鯊",
+    "scientificName": "Megalodon",
+    "description": "史上最大的掠食性鯊魚，新生代的恐怖象徵",
+    "rarity": "Rare",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 2600,
+    "baseSwimSpeed": 42,
+    "baseCoinYield": 180,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": "blueprint_prehistoric_076",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_077",
+    "commonName": "梅爾維爾鯨",
+    "scientificName": "Livyatan melvillei",
+    "description": "與巨齒鯊爭霸的史前抹香鯨，擁有巨齒",
+    "rarity": "Common",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 2700,
+    "baseSwimSpeed": 44,
+    "baseCoinYield": 185,
+    "emojiOrSprite": "🐳",
+    "visualBlueprint": "blueprint_prehistoric_077",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_078",
+    "commonName": "龍王鯨",
+    "scientificName": "Basilosaurus",
+    "description": "體型修長如海蛇的早期鯨類",
+    "rarity": "Rare",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 2800,
+    "baseSwimSpeed": 46,
+    "baseCoinYield": 190,
+    "emojiOrSprite": "🐋",
+    "visualBlueprint": "blueprint_prehistoric_078",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_079",
+    "commonName": "矛齒鯨",
+    "scientificName": "Dorudon",
+    "description": "與龍王鯨同期的較小鯨類，現代鯨魚的近親",
+    "rarity": "Common",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 2900,
+    "baseSwimSpeed": 48,
+    "baseCoinYield": 195,
+    "emojiOrSprite": "🐬",
+    "visualBlueprint": "blueprint_prehistoric_079",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_080",
+    "commonName": "史前巨海龜",
+    "scientificName": "Stupendemys",
+    "description": "史上最大的淡水/近海龜類",
+    "rarity": "Legendary",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 1000,
+    "baseSwimSpeed": 50,
+    "baseCoinYield": 200,
+    "emojiOrSprite": "🐢",
+    "visualBlueprint": "blueprint_prehistoric_080",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_081",
+    "commonName": "原海龜",
+    "scientificName": "Protostega",
+    "description": "白堊紀延續至早新生代的巨型海龜",
+    "rarity": "Common",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 1100,
+    "baseSwimSpeed": 52,
+    "baseCoinYield": 205,
+    "emojiOrSprite": "🐢",
+    "visualBlueprint": "blueprint_prehistoric_081",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_082",
+    "commonName": "巨型腔棘魚",
+    "scientificName": "Megalocoelacanth",
+    "description": "新生代的深海隱藏巨獸",
+    "rarity": "Rare",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 1200,
+    "baseSwimSpeed": 54,
+    "baseCoinYield": 210,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_prehistoric_082",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_083",
+    "commonName": "巨型白堊鯊",
+    "scientificName": "Cretoxyrhina",
+    "description": "穿越至新生代的白堊紀巨鯊(金斯狀鯊)",
+    "rarity": "Common",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 56,
+    "baseCoinYield": 215,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": "blueprint_prehistoric_083",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_084",
+    "commonName": "始祖鯨",
+    "scientificName": "Pakicetus",
+    "description": "外形似狼的鯨類陸生祖先",
+    "rarity": "Rare",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 58,
+    "baseCoinYield": 220,
+    "emojiOrSprite": "🐺",
+    "visualBlueprint": "blueprint_prehistoric_084",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_085",
+    "commonName": "走鯨",
+    "scientificName": "Ambulocetus",
+    "description": "「會走路的鯨魚」，如鱷魚般生活在淺水",
+    "rarity": "Epic",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 60,
+    "baseCoinYield": 225,
+    "emojiOrSprite": "🐊",
+    "visualBlueprint": "blueprint_prehistoric_085",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_086",
+    "commonName": "游鯨",
+    "scientificName": "Rodhocetus",
+    "description": "逐漸適應海洋生活的早期鯨類",
+    "rarity": "Rare",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 1600,
+    "baseSwimSpeed": 62,
+    "baseCoinYield": 230,
+    "emojiOrSprite": "🐬",
+    "visualBlueprint": "blueprint_prehistoric_086",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_087",
+    "commonName": "劍吻古豚",
+    "scientificName": "Eurhinodelphis",
+    "description": "擁有如劍魚般長吻的史前海豚",
+    "rarity": "Common",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 1700,
+    "baseSwimSpeed": 64,
+    "baseCoinYield": 235,
+    "emojiOrSprite": "🐬",
+    "visualBlueprint": "blueprint_prehistoric_087",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_088",
+    "commonName": "巨海牛",
+    "scientificName": "Hydrodamalis gigas",
+    "description": "斯特拉海牛，近代滅絕的溫馴巨獸",
+    "rarity": "Rare",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 66,
+    "baseCoinYield": 240,
+    "emojiOrSprite": "🦭",
+    "visualBlueprint": "blueprint_prehistoric_088",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_089",
+    "commonName": "安氏中獸",
+    "scientificName": "Andrewsarchus",
+    "description": "曾在海灘覓食的史前巨大食肉哺乳類",
+    "rarity": "Common",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 1900,
+    "baseSwimSpeed": 68,
+    "baseCoinYield": 245,
+    "emojiOrSprite": "🐺",
+    "visualBlueprint": "blueprint_prehistoric_089",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_090",
+    "commonName": "丘布特凱克鯊",
+    "scientificName": "Carcharocles chubutensis",
+    "description": "巨齒鯊的近親，同樣是可怕的頂級掠食者",
+    "rarity": "Legendary",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 2000,
+    "baseSwimSpeed": 10,
+    "baseCoinYield": 250,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": "blueprint_prehistoric_090",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_091",
+    "commonName": "廣齒鯊",
+    "scientificName": "Carcharodon hastalis",
+    "description": "大白鯊的史前祖先",
+    "rarity": "Common",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 2100,
+    "baseSwimSpeed": 12,
+    "baseCoinYield": 255,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": "blueprint_prehistoric_091",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_092",
+    "commonName": "巨海豹",
+    "scientificName": "Allodesmus",
+    "description": "中新世的巨大海獅類",
+    "rarity": "Rare",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 2200,
+    "baseSwimSpeed": 14,
+    "baseCoinYield": 260,
+    "emojiOrSprite": "🦭",
+    "visualBlueprint": "blueprint_prehistoric_092",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_093",
+    "commonName": "新鬚鯨",
+    "scientificName": "Cetotherium",
+    "description": "早期的鬚鯨，體型較現代鬚鯨小",
+    "rarity": "Common",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 2300,
+    "baseSwimSpeed": 16,
+    "baseCoinYield": 265,
+    "emojiOrSprite": "🐋",
+    "visualBlueprint": "blueprint_prehistoric_093",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_094",
+    "commonName": "秘魯鯨",
+    "scientificName": "Perucetus colossus",
+    "description": "挑戰地球史上最重動物紀錄的史前巨鯨",
+    "rarity": "Rare",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 2400,
+    "baseSwimSpeed": 18,
+    "baseCoinYield": 270,
+    "emojiOrSprite": "🐋",
+    "visualBlueprint": "blueprint_prehistoric_094",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_095",
+    "commonName": "海熊獸",
+    "scientificName": "Enaliarctos",
+    "description": "鰭足類的早期祖先",
+    "rarity": "Epic",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 2500,
+    "baseSwimSpeed": 20,
+    "baseCoinYield": 275,
+    "emojiOrSprite": "🐻",
+    "visualBlueprint": "blueprint_prehistoric_095",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_096",
+    "commonName": "恐海象",
+    "scientificName": "Pelagiarctos",
+    "description": "兇猛的史前海象掠食者",
+    "rarity": "Rare",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 2600,
+    "baseSwimSpeed": 22,
+    "baseCoinYield": 280,
+    "emojiOrSprite": "🦭",
+    "visualBlueprint": "blueprint_prehistoric_096",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_097",
+    "commonName": "半犬鯨",
+    "scientificName": "Protocetus",
+    "description": "早期的全水生鯨類",
+    "rarity": "Common",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 2700,
+    "baseSwimSpeed": 24,
+    "baseCoinYield": 285,
+    "emojiOrSprite": "🐬",
+    "visualBlueprint": "blueprint_prehistoric_097",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_098",
+    "commonName": "巨海牛",
+    "scientificName": "Prorastomus",
+    "description": "最早的海牛類之一，像豬一樣",
+    "rarity": "Rare",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 2800,
+    "baseSwimSpeed": 26,
+    "baseCoinYield": 290,
+    "emojiOrSprite": "🦭",
+    "visualBlueprint": "blueprint_prehistoric_098",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_099",
+    "commonName": "達爾文鯨",
+    "scientificName": "Darwinilus",
+    "description": "生存於上新世的特殊鯨類",
+    "rarity": "Common",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 2900,
+    "baseSwimSpeed": 28,
+    "baseCoinYield": 295,
+    "emojiOrSprite": "🐋",
+    "visualBlueprint": "blueprint_prehistoric_099",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  },
+  {
+    "id": "prehistoric_100",
+    "commonName": "奇異海獅",
+    "scientificName": "Thalassoleon",
+    "description": "中新世與上新世的遠古海獅",
+    "rarity": "Legendary",
+    "category": "新生代巨獸與滅世巨齒鯊",
+    "hatchStepsRequired": 1000,
+    "baseSwimSpeed": 30,
+    "baseCoinYield": 50,
+    "emojiOrSprite": "🦭",
+    "visualBlueprint": "blueprint_prehistoric_100",
+    "breedingRecipe": [
+      "mystery_egg",
+      "ancient_fossil"
+    ]
+  }
+]

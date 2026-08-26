@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "AFR_MAL_001",
+    "commonName": "孔雀鯛金藍",
+    "scientificName": "Pseudo孔雀鯛金藍 africanus",
+    "description": "來自非洲的奇珍異魚，孔雀鯛金藍具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 2058,
+    "baseSwimSpeed": 2.24,
+    "baseCoinYield": 10,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#1e44ca",
+      "pattern": "Solid",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_032",
+      "parentB": "AFR_GEN_057"
+    }
+  },
+  {
+    "id": "AFR_MAL_002",
+    "commonName": "阿里金頭",
+    "scientificName": "Pseudo阿里金頭 africanus",
+    "description": "來自非洲的奇珍異魚，阿里金頭具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 4169,
+    "baseSwimSpeed": 2.57,
+    "baseCoinYield": 24,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#32dc0f",
+      "pattern": "Solid",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_041",
+      "parentB": "AFR_GEN_056"
+    }
+  },
+  {
+    "id": "AFR_MAL_003",
+    "commonName": "黃金雀",
+    "scientificName": "Pseudo黃金雀 africanus",
+    "description": "來自非洲的奇珍異魚，黃金雀具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 1622,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 78,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#34542c",
+      "pattern": "Solid",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_010",
+      "parentB": "AFR_GEN_023"
+    }
+  },
+  {
+    "id": "AFR_MAL_004",
+    "commonName": "斑馬十間",
+    "scientificName": "Pseudo斑馬十間 africanus",
+    "description": "來自非洲的奇珍異魚，斑馬十間具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 4004,
+    "baseSwimSpeed": 4.03,
+    "baseCoinYield": 70,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#c9501f",
+      "pattern": "Gradient",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_018",
+      "parentB": "AFR_GEN_073"
+    }
+  },
+  {
+    "id": "AFR_MAL_005",
+    "commonName": "雪中紅",
+    "scientificName": "Pseudo雪中紅 africanus",
+    "description": "來自非洲的奇珍異魚，雪中紅具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 4184,
+    "baseSwimSpeed": 2.94,
+    "baseCoinYield": 71,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#62bcd5",
+      "pattern": "Gradient",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_098",
+      "parentB": "AFR_GEN_017"
+    }
+  },
+  {
+    "id": "AFR_MAL_006",
+    "commonName": "非洲紅肚",
+    "scientificName": "Pseudo非洲紅肚 africanus",
+    "description": "來自非洲的奇珍異魚，非洲紅肚具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 4646,
+    "baseSwimSpeed": 2.65,
+    "baseCoinYield": 54,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#f1cd5d",
+      "pattern": "Gradient",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_007",
+      "parentB": "AFR_GEN_016"
+    }
+  },
+  {
+    "id": "AFR_MAL_007",
+    "commonName": "血中斑",
+    "scientificName": "Pseudo血中斑 africanus",
+    "description": "來自非洲的奇珍異魚，血中斑具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 2677,
+    "baseSwimSpeed": 4.5,
+    "baseCoinYield": 42,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#2aa37a",
+      "pattern": "Spotted",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_006",
+      "parentB": "AFR_GEN_074"
+    }
+  },
+  {
+    "id": "AFR_MAL_008",
+    "commonName": "白馬王子",
+    "scientificName": "Pseudo白馬王子 africanus",
+    "description": "來自非洲的奇珍異魚，白馬王子具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 2312,
+    "baseSwimSpeed": 2.34,
+    "baseCoinYield": 100,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#40ea19",
+      "pattern": "Striped",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_065",
+      "parentB": "AFR_GEN_032"
+    }
+  },
+  {
+    "id": "AFR_MAL_009",
+    "commonName": "金松鼠",
+    "scientificName": "Pseudo金松鼠 africanus",
+    "description": "來自非洲的奇珍異魚，金松鼠具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 4848,
+    "baseSwimSpeed": 1.47,
+    "baseCoinYield": 49,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#443865",
+      "pattern": "Spotted",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_068",
+      "parentB": "AFR_GEN_003"
+    }
+  },
+  {
+    "id": "AFR_MAL_010",
+    "commonName": "紅馬面",
+    "scientificName": "Pseudo紅馬面 africanus",
+    "description": "來自非洲的奇珍異魚，紅馬面具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 4801,
+    "baseSwimSpeed": 2.43,
+    "baseCoinYield": 97,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#035729",
+      "pattern": "Spotted",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_021",
+      "parentB": "AFR_GEN_078"
+    }
+  },
+  {
+    "id": "AFR_MAL_011",
+    "commonName": "藍珍珠",
+    "scientificName": "Pseudo藍珍珠 africanus",
+    "description": "來自非洲的奇珍異魚，藍珍珠具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 3505,
+    "baseSwimSpeed": 3.14,
+    "baseCoinYield": 90,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#30fd27",
+      "pattern": "Spotted",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_050",
+      "parentB": "AFR_GEN_030"
+    }
+  },
+  {
+    "id": "AFR_MAL_012",
+    "commonName": "帝王雀",
+    "scientificName": "Pseudo帝王雀 africanus",
+    "description": "來自非洲的奇珍異魚，帝王雀具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 2070,
+    "baseSwimSpeed": 1.35,
+    "baseCoinYield": 88,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#8b815a",
+      "pattern": "Solid",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_028",
+      "parentB": "AFR_GEN_040"
+    }
+  },
+  {
+    "id": "AFR_MAL_013",
+    "commonName": "特藍斑馬",
+    "scientificName": "Pseudo特藍斑馬 africanus",
+    "description": "來自非洲的奇珍異魚，特藍斑馬具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 3647,
+    "baseSwimSpeed": 2.72,
+    "baseCoinYield": 40,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#9359eb",
+      "pattern": "Spotted",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_048",
+      "parentB": "AFR_GEN_049"
+    }
+  },
+  {
+    "id": "AFR_MAL_014",
+    "commonName": "黃金天堂鳥",
+    "scientificName": "Pseudo黃金天堂鳥 africanus",
+    "description": "來自非洲的奇珍異魚，黃金天堂鳥具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 2336,
+    "baseSwimSpeed": 2.03,
+    "baseCoinYield": 31,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#ab66a4",
+      "pattern": "Striped",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_041",
+      "parentB": "AFR_GEN_034"
+    }
+  },
+  {
+    "id": "AFR_MAL_015",
+    "commonName": "閃電戰神",
+    "scientificName": "Pseudo閃電戰神 africanus",
+    "description": "來自非洲的奇珍異魚，閃電戰神具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 1308,
+    "baseSwimSpeed": 2.82,
+    "baseCoinYield": 73,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#551b8b",
+      "pattern": "Gradient",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_068",
+      "parentB": "AFR_GEN_077"
+    }
+  },
+  {
+    "id": "AFR_MAL_016",
+    "commonName": "太陽孔雀",
+    "scientificName": "Pseudo太陽孔雀 africanus",
+    "description": "來自非洲的奇珍異魚，太陽孔雀具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 2374,
+    "baseSwimSpeed": 1.16,
+    "baseCoinYield": 95,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#d2fd72",
+      "pattern": "Gradient",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_057",
+      "parentB": "AFR_GEN_088"
+    }
+  },
+  {
+    "id": "AFR_MAL_017",
+    "commonName": "藍寶石孔雀",
+    "scientificName": "Pseudo藍寶石孔雀 africanus",
+    "description": "來自非洲的奇珍異魚，藍寶石孔雀具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 3136,
+    "baseSwimSpeed": 4.58,
+    "baseCoinYield": 96,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#17873e",
+      "pattern": "Spotted",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_043",
+      "parentB": "AFR_GEN_065"
+    }
+  },
+  {
+    "id": "AFR_MAL_018",
+    "commonName": "紅寶石",
+    "scientificName": "Pseudo紅寶石 africanus",
+    "description": "來自非洲的奇珍異魚，紅寶石具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 2889,
+    "baseSwimSpeed": 3.95,
+    "baseCoinYield": 32,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#8d297d",
+      "pattern": "Solid",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_066",
+      "parentB": "AFR_GEN_009"
+    }
+  },
+  {
+    "id": "AFR_MAL_019",
+    "commonName": "維納斯",
+    "scientificName": "Pseudo維納斯 africanus",
+    "description": "來自非洲的奇珍異魚，維納斯具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 3881,
+    "baseSwimSpeed": 4.76,
+    "baseCoinYield": 51,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#478fd8",
+      "pattern": "Solid",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_047",
+      "parentB": "AFR_GEN_059"
+    }
+  },
+  {
+    "id": "AFR_MAL_020",
+    "commonName": "藍天使",
+    "scientificName": "Pseudo藍天使 africanus",
+    "description": "來自非洲的奇珍異魚，藍天使具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 4255,
+    "baseSwimSpeed": 4.48,
+    "baseCoinYield": 29,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#213a3d",
+      "pattern": "Striped",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_045",
+      "parentB": "AFR_GEN_051"
+    }
+  },
+  {
+    "id": "AFR_MAL_021",
+    "commonName": "紫水晶",
+    "scientificName": "Pseudo紫水晶 africanus",
+    "description": "來自非洲的奇珍異魚，紫水晶具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 1491,
+    "baseSwimSpeed": 3.1,
+    "baseCoinYield": 40,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#c9fa29",
+      "pattern": "Solid",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_041",
+      "parentB": "AFR_GEN_013"
+    }
+  },
+  {
+    "id": "AFR_MAL_022",
+    "commonName": "金剛鸚鵡",
+    "scientificName": "Pseudo金剛鸚鵡 africanus",
+    "description": "來自非洲的奇珍異魚，金剛鸚鵡具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 4068,
+    "baseSwimSpeed": 4.37,
+    "baseCoinYield": 59,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#4689f1",
+      "pattern": "Striped",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_010",
+      "parentB": "AFR_GEN_054"
+    }
+  },
+  {
+    "id": "AFR_MAL_023",
+    "commonName": "白金天堂鳥",
+    "scientificName": "Pseudo白金天堂鳥 africanus",
+    "description": "來自非洲的奇珍異魚，白金天堂鳥具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 4546,
+    "baseSwimSpeed": 1.12,
+    "baseCoinYield": 78,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#d10446",
+      "pattern": "Striped",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_056",
+      "parentB": "AFR_GEN_092"
+    }
+  },
+  {
+    "id": "AFR_MAL_024",
+    "commonName": "草莓孔雀",
+    "scientificName": "Pseudo草莓孔雀 africanus",
+    "description": "來自非洲的奇珍異魚，草莓孔雀具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 1204,
+    "baseSwimSpeed": 1.73,
+    "baseCoinYield": 84,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#2f7e5e",
+      "pattern": "Gradient",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_009",
+      "parentB": "AFR_GEN_070"
+    }
+  },
+  {
+    "id": "AFR_MAL_025",
+    "commonName": "紅彩雀",
+    "scientificName": "Pseudo紅彩雀 africanus",
+    "description": "來自非洲的奇珍異魚，紅彩雀具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "馬拉威湖岩棲與孔雀慈鯛",
+    "hatchStepsRequired": 4001,
+    "baseSwimSpeed": 4.5,
+    "baseCoinYield": 29,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#4984e9",
+      "pattern": "Gradient",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_061",
+      "parentB": "AFR_GEN_025"
+    }
+  },
+  {
+    "id": "AFR_TAN_001",
+    "commonName": "薩伊藍六間",
+    "scientificName": "Pseudo薩伊藍六間 africanus",
+    "description": "來自非洲的奇珍異魚，薩伊藍六間具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 3563,
+    "baseSwimSpeed": 2.24,
+    "baseCoinYield": 54,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#b64620",
+      "pattern": "Solid",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_050",
+      "parentB": "AFR_GEN_005"
+    }
+  },
+  {
+    "id": "AFR_TAN_002",
+    "commonName": "布隆迪公主",
+    "scientificName": "Pseudo布隆迪公主 africanus",
+    "description": "來自非洲的奇珍異魚，布隆迪公主具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 1260,
+    "baseSwimSpeed": 3.68,
+    "baseCoinYield": 31,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#8d5329",
+      "pattern": "Solid",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_005",
+      "parentB": "AFR_GEN_098"
+    }
+  },
+  {
+    "id": "AFR_TAN_003",
+    "commonName": "九間十間",
+    "scientificName": "Pseudo九間十間 africanus",
+    "description": "來自非洲的奇珍異魚，九間十間具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 4098,
+    "baseSwimSpeed": 2.22,
+    "baseCoinYield": 74,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#bfbad6",
+      "pattern": "Gradient",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_041",
+      "parentB": "AFR_GEN_022"
+    }
+  },
+  {
+    "id": "AFR_TAN_004",
+    "commonName": "金雀",
+    "scientificName": "Pseudo金雀 africanus",
+    "description": "來自非洲的奇珍異魚，金雀具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 3476,
+    "baseSwimSpeed": 3.65,
+    "baseCoinYield": 72,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#94a405",
+      "pattern": "Solid",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_098",
+      "parentB": "AFR_GEN_070"
+    }
+  },
+  {
+    "id": "AFR_TAN_005",
+    "commonName": "斑馬九間",
+    "scientificName": "Pseudo斑馬九間 africanus",
+    "description": "來自非洲的奇珍異魚，斑馬九間具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 1480,
+    "baseSwimSpeed": 2.41,
+    "baseCoinYield": 23,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#a17052",
+      "pattern": "Spotted",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_099",
+      "parentB": "AFR_GEN_079"
+    }
+  },
+  {
+    "id": "AFR_TAN_006",
+    "commonName": "黃金斑馬",
+    "scientificName": "Pseudo黃金斑馬 africanus",
+    "description": "來自非洲的奇珍異魚，黃金斑馬具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 1586,
+    "baseSwimSpeed": 2.71,
+    "baseCoinYield": 95,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#cdedcd",
+      "pattern": "Spotted",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_095",
+      "parentB": "AFR_GEN_040"
+    }
+  },
+  {
+    "id": "AFR_TAN_007",
+    "commonName": "紅斑馬",
+    "scientificName": "Pseudo紅斑馬 africanus",
+    "description": "來自非洲的奇珍異魚，紅斑馬具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 1958,
+    "baseSwimSpeed": 4.16,
+    "baseCoinYield": 56,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#160aad",
+      "pattern": "Spotted",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_069",
+      "parentB": "AFR_GEN_038"
+    }
+  },
+  {
+    "id": "AFR_TAN_008",
+    "commonName": "黃金珍珠雀",
+    "scientificName": "Pseudo黃金珍珠雀 africanus",
+    "description": "來自非洲的奇珍異魚，黃金珍珠雀具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 4996,
+    "baseSwimSpeed": 1.71,
+    "baseCoinYield": 65,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#7a8124",
+      "pattern": "Spotted",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_065",
+      "parentB": "AFR_GEN_058"
+    }
+  },
+  {
+    "id": "AFR_TAN_009",
+    "commonName": "藍翼珍珠",
+    "scientificName": "Pseudo藍翼珍珠 africanus",
+    "description": "來自非洲的奇珍異魚，藍翼珍珠具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 3430,
+    "baseSwimSpeed": 1.67,
+    "baseCoinYield": 48,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#cf1ffb",
+      "pattern": "Solid",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_058",
+      "parentB": "AFR_GEN_002"
+    }
+  },
+  {
+    "id": "AFR_TAN_010",
+    "commonName": "斑馬貝",
+    "scientificName": "Pseudo斑馬貝 africanus",
+    "description": "來自非洲的奇珍異魚，斑馬貝具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 2754,
+    "baseSwimSpeed": 4.45,
+    "baseCoinYield": 83,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#773819",
+      "pattern": "Solid",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_083",
+      "parentB": "AFR_GEN_038"
+    }
+  },
+  {
+    "id": "AFR_TAN_011",
+    "commonName": "黃金圓頂貝",
+    "scientificName": "Pseudo黃金圓頂貝 africanus",
+    "description": "來自非洲的奇珍異魚，黃金圓頂貝具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 3051,
+    "baseSwimSpeed": 4.92,
+    "baseCoinYield": 48,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#2c3498",
+      "pattern": "Spotted",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_022",
+      "parentB": "AFR_GEN_074"
+    }
+  },
+  {
+    "id": "AFR_TAN_012",
+    "commonName": "黑珍珠六間",
+    "scientificName": "Pseudo黑珍珠六間 africanus",
+    "description": "來自非洲的奇珍異魚，黑珍珠六間具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 2262,
+    "baseSwimSpeed": 4.64,
+    "baseCoinYield": 30,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#c4c106",
+      "pattern": "Gradient",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_027",
+      "parentB": "AFR_GEN_076"
+    }
+  },
+  {
+    "id": "AFR_TAN_013",
+    "commonName": "白金六間",
+    "scientificName": "Pseudo白金六間 africanus",
+    "description": "來自非洲的奇珍異魚，白金六間具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 4905,
+    "baseSwimSpeed": 4.96,
+    "baseCoinYield": 71,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#b09ba1",
+      "pattern": "Gradient",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_080",
+      "parentB": "AFR_GEN_037"
+    }
+  },
+  {
+    "id": "AFR_TAN_014",
+    "commonName": "黃金提燈",
+    "scientificName": "Pseudo黃金提燈 africanus",
+    "description": "來自非洲的奇珍異魚，黃金提燈具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 1864,
+    "baseSwimSpeed": 3.74,
+    "baseCoinYield": 28,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#3b0e0a",
+      "pattern": "Striped",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_015",
+      "parentB": "AFR_GEN_005"
+    }
+  },
+  {
+    "id": "AFR_TAN_015",
+    "commonName": "藍翼提燈",
+    "scientificName": "Pseudo藍翼提燈 africanus",
+    "description": "來自非洲的奇珍異魚，藍翼提燈具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 4717,
+    "baseSwimSpeed": 1.48,
+    "baseCoinYield": 82,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#03a342",
+      "pattern": "Striped",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_030",
+      "parentB": "AFR_GEN_033"
+    }
+  },
+  {
+    "id": "AFR_TAN_016",
+    "commonName": "紅翼提燈",
+    "scientificName": "Pseudo紅翼提燈 africanus",
+    "description": "來自非洲的奇珍異魚，紅翼提燈具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 4569,
+    "baseSwimSpeed": 1.76,
+    "baseCoinYield": 89,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#b46c62",
+      "pattern": "Gradient",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_033",
+      "parentB": "AFR_GEN_058"
+    }
+  },
+  {
+    "id": "AFR_TAN_017",
+    "commonName": "女王燕尾",
+    "scientificName": "Pseudo女王燕尾 africanus",
+    "description": "來自非洲的奇珍異魚，女王燕尾具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 3153,
+    "baseSwimSpeed": 4.28,
+    "baseCoinYield": 73,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#4b4540",
+      "pattern": "Spotted",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_090",
+      "parentB": "AFR_GEN_054"
+    }
+  },
+  {
+    "id": "AFR_TAN_018",
+    "commonName": "黃金燕尾",
+    "scientificName": "Pseudo黃金燕尾 africanus",
+    "description": "來自非洲的奇珍異魚，黃金燕尾具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 4209,
+    "baseSwimSpeed": 1.06,
+    "baseCoinYield": 69,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#cdc0a0",
+      "pattern": "Spotted",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_062",
+      "parentB": "AFR_GEN_009"
+    }
+  },
+  {
+    "id": "AFR_TAN_019",
+    "commonName": "黑劍尾",
+    "scientificName": "Pseudo黑劍尾 africanus",
+    "description": "來自非洲的奇珍異魚，黑劍尾具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 4026,
+    "baseSwimSpeed": 4.7,
+    "baseCoinYield": 15,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#9f7974",
+      "pattern": "Striped",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_007",
+      "parentB": "AFR_GEN_081"
+    }
+  },
+  {
+    "id": "AFR_TAN_020",
+    "commonName": "斑馬劍尾",
+    "scientificName": "Pseudo斑馬劍尾 africanus",
+    "description": "來自非洲的奇珍異魚，斑馬劍尾具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 1099,
+    "baseSwimSpeed": 2.57,
+    "baseCoinYield": 16,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#2e63b4",
+      "pattern": "Spotted",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_072",
+      "parentB": "AFR_GEN_012"
+    }
+  },
+  {
+    "id": "AFR_TAN_021",
+    "commonName": "虎皮貝",
+    "scientificName": "Pseudo虎皮貝 africanus",
+    "description": "來自非洲的奇珍異魚，虎皮貝具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 1545,
+    "baseSwimSpeed": 3.31,
+    "baseCoinYield": 90,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#80978e",
+      "pattern": "Spotted",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_008",
+      "parentB": "AFR_GEN_056"
+    }
+  },
+  {
+    "id": "AFR_TAN_022",
+    "commonName": "金線貝",
+    "scientificName": "Pseudo金線貝 africanus",
+    "description": "來自非洲的奇珍異魚，金線貝具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 2072,
+    "baseSwimSpeed": 3.27,
+    "baseCoinYield": 65,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#0f9d18",
+      "pattern": "Spotted",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_036",
+      "parentB": "AFR_GEN_080"
+    }
+  },
+  {
+    "id": "AFR_TAN_023",
+    "commonName": "藍眼貝",
+    "scientificName": "Pseudo藍眼貝 africanus",
+    "description": "來自非洲的奇珍異魚，藍眼貝具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 2108,
+    "baseSwimSpeed": 3.49,
+    "baseCoinYield": 30,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#bcc476",
+      "pattern": "Spotted",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_074",
+      "parentB": "AFR_GEN_036"
+    }
+  },
+  {
+    "id": "AFR_TAN_024",
+    "commonName": "月亮公主",
+    "scientificName": "Pseudo月亮公主 africanus",
+    "description": "來自非洲的奇珍異魚，月亮公主具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 4289,
+    "baseSwimSpeed": 4.21,
+    "baseCoinYield": 42,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#22a631",
+      "pattern": "Solid",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_044",
+      "parentB": "AFR_GEN_035"
+    }
+  },
+  {
+    "id": "AFR_TAN_025",
+    "commonName": "太陽公主",
+    "scientificName": "Pseudo太陽公主 africanus",
+    "description": "來自非洲的奇珍異魚，太陽公主具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
+    "hatchStepsRequired": 1936,
+    "baseSwimSpeed": 2.66,
+    "baseCoinYield": 28,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#f9864e",
+      "pattern": "Solid",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_002",
+      "parentB": "AFR_GEN_065"
+    }
+  },
+  {
+    "id": "AFR_VIC_001",
+    "commonName": "赤焰火烈鳥",
+    "scientificName": "Pseudo赤焰火烈鳥 africanus",
+    "description": "來自非洲的奇珍異魚，赤焰火烈鳥具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 4272,
+    "baseSwimSpeed": 3.87,
+    "baseCoinYield": 30,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#a89104",
+      "pattern": "Striped",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_031",
+      "parentB": "AFR_GEN_051"
+    }
+  },
+  {
+    "id": "AFR_VIC_002",
+    "commonName": "太陽神",
+    "scientificName": "Pseudo太陽神 africanus",
+    "description": "來自非洲的奇珍異魚，太陽神具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 3812,
+    "baseSwimSpeed": 1.08,
+    "baseCoinYield": 70,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#834f51",
+      "pattern": "Spotted",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_054",
+      "parentB": "AFR_GEN_054"
+    }
+  },
+  {
+    "id": "AFR_VIC_003",
+    "commonName": "藍星",
+    "scientificName": "Pseudo藍星 africanus",
+    "description": "來自非洲的奇珍異魚，藍星具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 4585,
+    "baseSwimSpeed": 3.67,
+    "baseCoinYield": 81,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#6c5df9",
+      "pattern": "Solid",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_033",
+      "parentB": "AFR_GEN_072"
+    }
+  },
+  {
+    "id": "AFR_VIC_004",
+    "commonName": "火狐",
+    "scientificName": "Pseudo火狐 africanus",
+    "description": "來自非洲的奇珍異魚，火狐具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 1097,
+    "baseSwimSpeed": 4.32,
+    "baseCoinYield": 86,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#a4926e",
+      "pattern": "Gradient",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_097",
+      "parentB": "AFR_GEN_004"
+    }
+  },
+  {
+    "id": "AFR_VIC_005",
+    "commonName": "黑珍珠",
+    "scientificName": "Pseudo黑珍珠 africanus",
+    "description": "來自非洲的奇珍異魚，黑珍珠具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 3990,
+    "baseSwimSpeed": 2.36,
+    "baseCoinYield": 76,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#0aca1a",
+      "pattern": "Solid",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_075",
+      "parentB": "AFR_GEN_070"
+    }
+  },
+  {
+    "id": "AFR_VIC_006",
+    "commonName": "黃金斑爛",
+    "scientificName": "Pseudo黃金斑爛 africanus",
+    "description": "來自非洲的奇珍異魚，黃金斑爛具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 1748,
+    "baseSwimSpeed": 4.89,
+    "baseCoinYield": 35,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#4ff658",
+      "pattern": "Spotted",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_022",
+      "parentB": "AFR_GEN_040"
+    }
+  },
+  {
+    "id": "AFR_VIC_007",
+    "commonName": "維多利亞斑馬",
+    "scientificName": "Pseudo維多利亞斑馬 africanus",
+    "description": "來自非洲的奇珍異魚，維多利亞斑馬具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 4568,
+    "baseSwimSpeed": 3.54,
+    "baseCoinYield": 96,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#9f4c70",
+      "pattern": "Solid",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_080",
+      "parentB": "AFR_GEN_087"
+    }
+  },
+  {
+    "id": "AFR_VIC_008",
+    "commonName": "紅肚斑馬",
+    "scientificName": "Pseudo紅肚斑馬 africanus",
+    "description": "來自非洲的奇珍異魚，紅肚斑馬具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 3675,
+    "baseSwimSpeed": 1.45,
+    "baseCoinYield": 76,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#9388cf",
+      "pattern": "Solid",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_047",
+      "parentB": "AFR_GEN_007"
+    }
+  },
+  {
+    "id": "AFR_VIC_009",
+    "commonName": "紅十字",
+    "scientificName": "Pseudo紅十字 africanus",
+    "description": "來自非洲的奇珍異魚，紅十字具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 1960,
+    "baseSwimSpeed": 4.18,
+    "baseCoinYield": 63,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#a7ebd1",
+      "pattern": "Solid",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_016",
+      "parentB": "AFR_GEN_036"
+    }
+  },
+  {
+    "id": "AFR_VIC_010",
+    "commonName": "彩虹七彩雀",
+    "scientificName": "Pseudo彩虹七彩雀 africanus",
+    "description": "來自非洲的奇珍異魚，彩虹七彩雀具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 1694,
+    "baseSwimSpeed": 1.46,
+    "baseCoinYield": 73,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#e1c4a0",
+      "pattern": "Gradient",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_035",
+      "parentB": "AFR_GEN_059"
+    }
+  },
+  {
+    "id": "AFR_VIC_011",
+    "commonName": "火焰鳥",
+    "scientificName": "Pseudo火焰鳥 africanus",
+    "description": "來自非洲的奇珍異魚，火焰鳥具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 2866,
+    "baseSwimSpeed": 3.97,
+    "baseCoinYield": 49,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#83d3e3",
+      "pattern": "Solid",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_012",
+      "parentB": "AFR_GEN_043"
+    }
+  },
+  {
+    "id": "AFR_VIC_012",
+    "commonName": "藍寶石",
+    "scientificName": "Pseudo藍寶石 africanus",
+    "description": "來自非洲的奇珍異魚，藍寶石具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 1703,
+    "baseSwimSpeed": 3.28,
+    "baseCoinYield": 64,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#51ce13",
+      "pattern": "Striped",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_092",
+      "parentB": "AFR_GEN_098"
+    }
+  },
+  {
+    "id": "AFR_VIC_013",
+    "commonName": "紅鑽石",
+    "scientificName": "Pseudo紅鑽石 africanus",
+    "description": "來自非洲的奇珍異魚，紅鑽石具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 4530,
+    "baseSwimSpeed": 3.0,
+    "baseCoinYield": 65,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#a536e2",
+      "pattern": "Striped",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_015",
+      "parentB": "AFR_GEN_094"
+    }
+  },
+  {
+    "id": "AFR_VIC_014",
+    "commonName": "黑鑽石",
+    "scientificName": "Pseudo黑鑽石 africanus",
+    "description": "來自非洲的奇珍異魚，黑鑽石具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 3209,
+    "baseSwimSpeed": 4.2,
+    "baseCoinYield": 71,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#e6e905",
+      "pattern": "Gradient",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_015",
+      "parentB": "AFR_GEN_063"
+    }
+  },
+  {
+    "id": "AFR_VIC_015",
+    "commonName": "黃金神",
+    "scientificName": "Pseudo黃金神 africanus",
+    "description": "來自非洲的奇珍異魚，黃金神具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 2775,
+    "baseSwimSpeed": 4.62,
+    "baseCoinYield": 84,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#c1a30f",
+      "pattern": "Striped",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_004",
+      "parentB": "AFR_GEN_015"
+    }
+  },
+  {
+    "id": "AFR_VIC_016",
+    "commonName": "藍神",
+    "scientificName": "Pseudo藍神 africanus",
+    "description": "來自非洲的奇珍異魚，藍神具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 4394,
+    "baseSwimSpeed": 3.61,
+    "baseCoinYield": 65,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#a516cf",
+      "pattern": "Striped",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_032",
+      "parentB": "AFR_GEN_090"
+    }
+  },
+  {
+    "id": "AFR_VIC_017",
+    "commonName": "火神",
+    "scientificName": "Pseudo火神 africanus",
+    "description": "來自非洲的奇珍異魚，火神具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 2729,
+    "baseSwimSpeed": 4.32,
+    "baseCoinYield": 90,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#09646d",
+      "pattern": "Spotted",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_064",
+      "parentB": "AFR_GEN_005"
+    }
+  },
+  {
+    "id": "AFR_VIC_018",
+    "commonName": "海神",
+    "scientificName": "Pseudo海神 africanus",
+    "description": "來自非洲的奇珍異魚，海神具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 2323,
+    "baseSwimSpeed": 2.69,
+    "baseCoinYield": 62,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#0755e1",
+      "pattern": "Solid",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_081",
+      "parentB": "AFR_GEN_058"
+    }
+  },
+  {
+    "id": "AFR_VIC_019",
+    "commonName": "波塞頓",
+    "scientificName": "Pseudo波塞頓 africanus",
+    "description": "來自非洲的奇珍異魚，波塞頓具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 2556,
+    "baseSwimSpeed": 2.22,
+    "baseCoinYield": 83,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#7def30",
+      "pattern": "Striped",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_079",
+      "parentB": "AFR_GEN_058"
+    }
+  },
+  {
+    "id": "AFR_VIC_020",
+    "commonName": "雅典娜",
+    "scientificName": "Pseudo雅典娜 africanus",
+    "description": "來自非洲的奇珍異魚，雅典娜具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 2879,
+    "baseSwimSpeed": 4.13,
+    "baseCoinYield": 36,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#9f96c4",
+      "pattern": "Striped",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_046",
+      "parentB": "AFR_GEN_067"
+    }
+  },
+  {
+    "id": "AFR_VIC_021",
+    "commonName": "阿波羅",
+    "scientificName": "Pseudo阿波羅 africanus",
+    "description": "來自非洲的奇珍異魚，阿波羅具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 3519,
+    "baseSwimSpeed": 3.85,
+    "baseCoinYield": 74,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#4d60bf",
+      "pattern": "Striped",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_055",
+      "parentB": "AFR_GEN_060"
+    }
+  },
+  {
+    "id": "AFR_VIC_022",
+    "commonName": "宙斯",
+    "scientificName": "Pseudo宙斯 africanus",
+    "description": "來自非洲的奇珍異魚，宙斯具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 1815,
+    "baseSwimSpeed": 3.5,
+    "baseCoinYield": 21,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#4404ae",
+      "pattern": "Striped",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_089",
+      "parentB": "AFR_GEN_094"
+    }
+  },
+  {
+    "id": "AFR_VIC_023",
+    "commonName": "赫拉",
+    "scientificName": "Pseudo赫拉 africanus",
+    "description": "來自非洲的奇珍異魚，赫拉具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 1497,
+    "baseSwimSpeed": 1.06,
+    "baseCoinYield": 72,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#2421c8",
+      "pattern": "Solid",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_061",
+      "parentB": "AFR_GEN_076"
+    }
+  },
+  {
+    "id": "AFR_VIC_024",
+    "commonName": "阿瑞斯",
+    "scientificName": "Pseudo阿瑞斯 africanus",
+    "description": "來自非洲的奇珍異魚，阿瑞斯具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 1235,
+    "baseSwimSpeed": 3.12,
+    "baseCoinYield": 32,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#ae6e69",
+      "pattern": "Gradient",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_042",
+      "parentB": "AFR_GEN_045"
+    }
+  },
+  {
+    "id": "AFR_VIC_025",
+    "commonName": "黑帝斯",
+    "scientificName": "Pseudo黑帝斯 africanus",
+    "description": "來自非洲的奇珍異魚，黑帝斯具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "維多利亞湖赤焰與稀有慈鯛",
+    "hatchStepsRequired": 3277,
+    "baseSwimSpeed": 2.24,
+    "baseCoinYield": 58,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#13c5aa",
+      "pattern": "Spotted",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_075",
+      "parentB": "AFR_GEN_053"
+    }
+  },
+  {
+    "id": "AFR_CON_001",
+    "commonName": "多鰭恐龍王",
+    "scientificName": "Pseudo多鰭恐龍王 africanus",
+    "description": "來自非洲的奇珍異魚，多鰭恐龍王具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 3176,
+    "baseSwimSpeed": 4.13,
+    "baseCoinYield": 23,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#b577d2",
+      "pattern": "Striped",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_026",
+      "parentB": "AFR_GEN_080"
+    }
+  },
+  {
+    "id": "AFR_CON_002",
+    "commonName": "金恐龍",
+    "scientificName": "Pseudo金恐龍 africanus",
+    "description": "來自非洲的奇珍異魚，金恐龍具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 1655,
+    "baseSwimSpeed": 3.49,
+    "baseCoinYield": 71,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#ff7d4f",
+      "pattern": "Spotted",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_008",
+      "parentB": "AFR_GEN_036"
+    }
+  },
+  {
+    "id": "AFR_CON_003",
+    "commonName": "大花恐龍",
+    "scientificName": "Pseudo大花恐龍 africanus",
+    "description": "來自非洲的奇珍異魚，大花恐龍具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 2155,
+    "baseSwimSpeed": 2.6,
+    "baseCoinYield": 95,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#b89023",
+      "pattern": "Solid",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_017",
+      "parentB": "AFR_GEN_056"
+    }
+  },
+  {
+    "id": "AFR_CON_004",
+    "commonName": "塞內加爾恐龍",
+    "scientificName": "Pseudo塞內加爾恐龍 africanus",
+    "description": "來自非洲的奇珍異魚，塞內加爾恐龍具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 2525,
+    "baseSwimSpeed": 1.87,
+    "baseCoinYield": 78,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#dcbdbb",
+      "pattern": "Gradient",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_033",
+      "parentB": "AFR_GEN_053"
+    }
+  },
+  {
+    "id": "AFR_CON_005",
+    "commonName": "非洲飛蝶",
+    "scientificName": "Pseudo非洲飛蝶 africanus",
+    "description": "來自非洲的奇珍異魚，非洲飛蝶具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 3265,
+    "baseSwimSpeed": 1.66,
+    "baseCoinYield": 66,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#95010f",
+      "pattern": "Gradient",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_039",
+      "parentB": "AFR_GEN_087"
+    }
+  },
+  {
+    "id": "AFR_CON_006",
+    "commonName": "象鼻魚",
+    "scientificName": "Pseudo象鼻魚 africanus",
+    "description": "來自非洲的奇珍異魚，象鼻魚具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 3017,
+    "baseSwimSpeed": 3.23,
+    "baseCoinYield": 28,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#d97f29",
+      "pattern": "Gradient",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_072",
+      "parentB": "AFR_GEN_089"
+    }
+  },
+  {
+    "id": "AFR_CON_007",
+    "commonName": "琴尾魚",
+    "scientificName": "Pseudo琴尾魚 africanus",
+    "description": "來自非洲的奇珍異魚，琴尾魚具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 4470,
+    "baseSwimSpeed": 4.01,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#24ef10",
+      "pattern": "Solid",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_071",
+      "parentB": "AFR_GEN_006"
+    }
+  },
+  {
+    "id": "AFR_CON_008",
+    "commonName": "剛果娃娃",
+    "scientificName": "Pseudo剛果娃娃 africanus",
+    "description": "來自非洲的奇珍異魚，剛果娃娃具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 4141,
+    "baseSwimSpeed": 2.06,
+    "baseCoinYield": 44,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#64263f",
+      "pattern": "Solid",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_026",
+      "parentB": "AFR_GEN_074"
+    }
+  },
+  {
+    "id": "AFR_CON_009",
+    "commonName": "虎魚",
+    "scientificName": "Pseudo虎魚 africanus",
+    "description": "來自非洲的奇珍異魚，虎魚具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 3216,
+    "baseSwimSpeed": 3.17,
+    "baseCoinYield": 84,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#f7619e",
+      "pattern": "Striped",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_056",
+      "parentB": "AFR_GEN_042"
+    }
+  },
+  {
+    "id": "AFR_CON_010",
+    "commonName": "非洲肺魚",
+    "scientificName": "Pseudo非洲肺魚 africanus",
+    "description": "來自非洲的奇珍異魚，非洲肺魚具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 3631,
+    "baseSwimSpeed": 4.7,
+    "baseCoinYield": 54,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#465001",
+      "pattern": "Striped",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_070",
+      "parentB": "AFR_GEN_013"
+    }
+  },
+  {
+    "id": "AFR_CON_011",
+    "commonName": "電鯰",
+    "scientificName": "Pseudo電鯰 africanus",
+    "description": "來自非洲的奇珍異魚，電鯰具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 4343,
+    "baseSwimSpeed": 2.47,
+    "baseCoinYield": 91,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#a8b1d3",
+      "pattern": "Gradient",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_018",
+      "parentB": "AFR_GEN_028"
+    }
+  },
+  {
+    "id": "AFR_CON_012",
+    "commonName": "反游鯰",
+    "scientificName": "Pseudo反游鯰 africanus",
+    "description": "來自非洲的奇珍異魚，反游鯰具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 3328,
+    "baseSwimSpeed": 3.86,
+    "baseCoinYield": 25,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#7f374c",
+      "pattern": "Solid",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_025",
+      "parentB": "AFR_GEN_081"
+    }
+  },
+  {
+    "id": "AFR_CON_013",
+    "commonName": "剛果脂鯉",
+    "scientificName": "Pseudo剛果脂鯉 africanus",
+    "description": "來自非洲的奇珍異魚，剛果脂鯉具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 2338,
+    "baseSwimSpeed": 1.86,
+    "baseCoinYield": 71,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#8551cd",
+      "pattern": "Spotted",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_078",
+      "parentB": "AFR_GEN_018"
+    }
+  },
+  {
+    "id": "AFR_CON_014",
+    "commonName": "黃金剛果",
+    "scientificName": "Pseudo黃金剛果 africanus",
+    "description": "來自非洲的奇珍異魚，黃金剛果具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 3633,
+    "baseSwimSpeed": 4.9,
+    "baseCoinYield": 30,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#9c8051",
+      "pattern": "Solid",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_096",
+      "parentB": "AFR_GEN_075"
+    }
+  },
+  {
+    "id": "AFR_CON_015",
+    "commonName": "藍帶剛果",
+    "scientificName": "Pseudo藍帶剛果 africanus",
+    "description": "來自非洲的奇珍異魚，藍帶剛果具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 4092,
+    "baseSwimSpeed": 4.93,
+    "baseCoinYield": 50,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#552a2a",
+      "pattern": "Gradient",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_066",
+      "parentB": "AFR_GEN_075"
+    }
+  },
+  {
+    "id": "AFR_CON_016",
+    "commonName": "紅尾剛果",
+    "scientificName": "Pseudo紅尾剛果 africanus",
+    "description": "來自非洲的奇珍異魚，紅尾剛果具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 2683,
+    "baseSwimSpeed": 3.53,
+    "baseCoinYield": 53,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#2efe06",
+      "pattern": "Solid",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_081",
+      "parentB": "AFR_GEN_068"
+    }
+  },
+  {
+    "id": "AFR_CON_017",
+    "commonName": "剛果鳳凰",
+    "scientificName": "Pseudo剛果鳳凰 africanus",
+    "description": "來自非洲的奇珍異魚，剛果鳳凰具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 1481,
+    "baseSwimSpeed": 3.72,
+    "baseCoinYield": 91,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#86beab",
+      "pattern": "Spotted",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_023",
+      "parentB": "AFR_GEN_073"
+    }
+  },
+  {
+    "id": "AFR_CON_018",
+    "commonName": "紅肚鳳凰",
+    "scientificName": "Pseudo紅肚鳳凰 africanus",
+    "description": "來自非洲的奇珍異魚，紅肚鳳凰具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Rare",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 3124,
+    "baseSwimSpeed": 3.04,
+    "baseCoinYield": 84,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#b4e6be",
+      "pattern": "Spotted",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_064",
+      "parentB": "AFR_GEN_095"
+    }
+  },
+  {
+    "id": "AFR_CON_019",
+    "commonName": "藍肚鳳凰",
+    "scientificName": "Pseudo藍肚鳳凰 africanus",
+    "description": "來自非洲的奇珍異魚，藍肚鳳凰具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 1003,
+    "baseSwimSpeed": 3.76,
+    "baseCoinYield": 66,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#31e6e9",
+      "pattern": "Solid",
+      "finShape": "Spiky"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_082",
+      "parentB": "AFR_GEN_058"
+    }
+  },
+  {
+    "id": "AFR_CON_020",
+    "commonName": "黃金鳳凰",
+    "scientificName": "Pseudo黃金鳳凰 africanus",
+    "description": "來自非洲的奇珍異魚，黃金鳳凰具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 1755,
+    "baseSwimSpeed": 4.53,
+    "baseCoinYield": 14,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#0df4f9",
+      "pattern": "Spotted",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_034",
+      "parentB": "AFR_GEN_002"
+    }
+  },
+  {
+    "id": "AFR_CON_021",
+    "commonName": "七彩鳳凰",
+    "scientificName": "Pseudo七彩鳳凰 africanus",
+    "description": "來自非洲的奇珍異魚，七彩鳳凰具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 4047,
+    "baseSwimSpeed": 4.82,
+    "baseCoinYield": 75,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#16dc0f",
+      "pattern": "Spotted",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_067",
+      "parentB": "AFR_GEN_052"
+    }
+  },
+  {
+    "id": "AFR_CON_022",
+    "commonName": "長吻象鼻魚",
+    "scientificName": "Pseudo長吻象鼻魚 africanus",
+    "description": "來自非洲的奇珍異魚，長吻象鼻魚具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 1367,
+    "baseSwimSpeed": 2.62,
+    "baseCoinYield": 35,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#1c3c21",
+      "pattern": "Striped",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_006",
+      "parentB": "AFR_GEN_041"
+    }
+  },
+  {
+    "id": "AFR_CON_023",
+    "commonName": "短吻象鼻魚",
+    "scientificName": "Pseudo短吻象鼻魚 africanus",
+    "description": "來自非洲的奇珍異魚，短吻象鼻魚具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Legendary",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 3175,
+    "baseSwimSpeed": 3.84,
+    "baseCoinYield": 69,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#61dc9d",
+      "pattern": "Gradient",
+      "finShape": "Rounded"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_027",
+      "parentB": "AFR_GEN_043"
+    }
+  },
+  {
+    "id": "AFR_CON_024",
+    "commonName": "斑馬象鼻魚",
+    "scientificName": "Pseudo斑馬象鼻魚 africanus",
+    "description": "來自非洲的奇珍異魚，斑馬象鼻魚具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Epic",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 1903,
+    "baseSwimSpeed": 2.46,
+    "baseCoinYield": 10,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#35ac51",
+      "pattern": "Gradient",
+      "finShape": "Long"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_090",
+      "parentB": "AFR_GEN_013"
+    }
+  },
+  {
+    "id": "AFR_CON_025",
+    "commonName": "非洲電鰻",
+    "scientificName": "Pseudo非洲電鰻 africanus",
+    "description": "來自非洲的奇珍異魚，非洲電鰻具有獨特的色彩與斑紋，令人目不暇給。",
+    "rarity": "Common",
+    "category": "剛果與尼羅河古生代巨魚",
+    "hatchStepsRequired": 4658,
+    "baseSwimSpeed": 1.19,
+    "baseCoinYield": 26,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#bc3883",
+      "pattern": "Spotted",
+      "finShape": "Standard"
+    },
+    "breedingRecipe": {
+      "parentA": "AFR_GEN_006",
+      "parentB": "AFR_GEN_007"
+    }
+  }
+]

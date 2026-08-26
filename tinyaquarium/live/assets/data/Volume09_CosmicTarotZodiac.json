@@ -1,0 +1,2302 @@
+[
+  {
+    "id": "FISH_9001",
+    "commonName": "白羊星雲魚",
+    "scientificName": "Astroichthys e799bd",
+    "description": "白羊星雲魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Quantum",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 17005,
+    "baseSwimSpeed": 3.78,
+    "baseCoinYield": 133,
+    "emojiOrSprite": "♊️",
+    "visualBlueprint": {
+      "primaryColor": "#ddd898",
+      "secondaryColor": "#26362b",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6265",
+      "parentB": "FISH_1197",
+      "mutationChance": 0.032
+    }
+  },
+  {
+    "id": "FISH_9002",
+    "commonName": "金牛星盤魚",
+    "scientificName": "Astroichthys e98791",
+    "description": "金牛星盤魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Epic",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 13402,
+    "baseSwimSpeed": 4.97,
+    "baseCoinYield": 495,
+    "emojiOrSprite": "♎️",
+    "visualBlueprint": {
+      "primaryColor": "#422216",
+      "secondaryColor": "#271413",
+      "auraEffect": "Starlight",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_5485",
+      "parentB": "FISH_3257",
+      "mutationChance": 0.128
+    }
+  },
+  {
+    "id": "FISH_9003",
+    "commonName": "雙子共生魚",
+    "scientificName": "Astroichthys e99b99",
+    "description": "雙子共生魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Epic",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 6260,
+    "baseSwimSpeed": 4.81,
+    "baseCoinYield": 301,
+    "emojiOrSprite": "♊️",
+    "visualBlueprint": {
+      "primaryColor": "#25ab04",
+      "secondaryColor": "#e05921",
+      "auraEffect": "Starlight",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_3195",
+      "parentB": "FISH_8945",
+      "mutationChance": 0.154
+    }
+  },
+  {
+    "id": "FISH_9004",
+    "commonName": "巨蟹月芒魚",
+    "scientificName": "Astroichthys e5b7a8",
+    "description": "巨蟹月芒魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Epic",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 21003,
+    "baseSwimSpeed": 0.69,
+    "baseCoinYield": 413,
+    "emojiOrSprite": "♑️",
+    "visualBlueprint": {
+      "primaryColor": "#65abac",
+      "secondaryColor": "#3a74f2",
+      "auraEffect": "Starlight",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_5183",
+      "parentB": "FISH_5656",
+      "mutationChance": 0.037
+    }
+  },
+  {
+    "id": "FISH_9005",
+    "commonName": "獅子日耀魚",
+    "scientificName": "Astroichthys e78d85",
+    "description": "獅子日耀魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Rare",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 10110,
+    "baseSwimSpeed": 3.8,
+    "baseCoinYield": 56,
+    "emojiOrSprite": "♏️",
+    "visualBlueprint": {
+      "primaryColor": "#085d56",
+      "secondaryColor": "#f53ffe",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6778",
+      "parentB": "FISH_2835",
+      "mutationChance": 0.076
+    }
+  },
+  {
+    "id": "FISH_9006",
+    "commonName": "室女純白魚",
+    "scientificName": "Astroichthys e5aea4",
+    "description": "室女純白魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Rare",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 24751,
+    "baseSwimSpeed": 3.17,
+    "baseCoinYield": 54,
+    "emojiOrSprite": "♐️",
+    "visualBlueprint": {
+      "primaryColor": "#cfdc87",
+      "secondaryColor": "#999b38",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6728",
+      "parentB": "FISH_8946",
+      "mutationChance": 0.062
+    }
+  },
+  {
+    "id": "FISH_9007",
+    "commonName": "天秤均衡魚",
+    "scientificName": "Astroichthys e5a4a9",
+    "description": "天秤均衡魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Quantum",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 20179,
+    "baseSwimSpeed": 2.37,
+    "baseCoinYield": 300,
+    "emojiOrSprite": "♌️",
+    "visualBlueprint": {
+      "primaryColor": "#eb3557",
+      "secondaryColor": "#c7938c",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6404",
+      "parentB": "FISH_5596",
+      "mutationChance": 0.13
+    }
+  },
+  {
+    "id": "FISH_9008",
+    "commonName": "天蠍暗星魚",
+    "scientificName": "Astroichthys e5a4a9",
+    "description": "天蠍暗星魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Quantum",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 5464,
+    "baseSwimSpeed": 3.46,
+    "baseCoinYield": 86,
+    "emojiOrSprite": "♒️",
+    "visualBlueprint": {
+      "primaryColor": "#372068",
+      "secondaryColor": "#72f61a",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_4067",
+      "parentB": "FISH_2224",
+      "mutationChance": 0.198
+    }
+  },
+  {
+    "id": "FISH_9009",
+    "commonName": "人馬星矢魚",
+    "scientificName": "Astroichthys e4baba",
+    "description": "人馬星矢魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Rare",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 6057,
+    "baseSwimSpeed": 4.97,
+    "baseCoinYield": 263,
+    "emojiOrSprite": "♒️",
+    "visualBlueprint": {
+      "primaryColor": "#12423e",
+      "secondaryColor": "#ae354f",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_3231",
+      "parentB": "FISH_6482",
+      "mutationChance": 0.17
+    }
+  },
+  {
+    "id": "FISH_9010",
+    "commonName": "摩羯海山羊",
+    "scientificName": "Astroichthys e691a9",
+    "description": "摩羯海山羊。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Epic",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 12452,
+    "baseSwimSpeed": 3.19,
+    "baseCoinYield": 193,
+    "emojiOrSprite": "♐️",
+    "visualBlueprint": {
+      "primaryColor": "#127dff",
+      "secondaryColor": "#6fd11f",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_4769",
+      "parentB": "FISH_5521",
+      "mutationChance": 0.046
+    }
+  },
+  {
+    "id": "FISH_9011",
+    "commonName": "寶瓶甘露魚",
+    "scientificName": "Astroichthys e5afb6",
+    "description": "寶瓶甘露魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Rare",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 5924,
+    "baseSwimSpeed": 0.6,
+    "baseCoinYield": 98,
+    "emojiOrSprite": "♍️",
+    "visualBlueprint": {
+      "primaryColor": "#e09ab5",
+      "secondaryColor": "#3485e6",
+      "auraEffect": "Starlight",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_7210",
+      "parentB": "FISH_2427",
+      "mutationChance": 0.176
+    }
+  },
+  {
+    "id": "FISH_9012",
+    "commonName": "雙魚太極魚",
+    "scientificName": "Astroichthys e99b99",
+    "description": "雙魚太極魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Rare",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 23395,
+    "baseSwimSpeed": 4.21,
+    "baseCoinYield": 72,
+    "emojiOrSprite": "♋️",
+    "visualBlueprint": {
+      "primaryColor": "#4bbb0b",
+      "secondaryColor": "#520a05",
+      "auraEffect": "Starlight",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6096",
+      "parentB": "FISH_1369",
+      "mutationChance": 0.067
+    }
+  },
+  {
+    "id": "FISH_9013",
+    "commonName": "蛇夫座幽靈魚",
+    "scientificName": "Astroichthys e89b87",
+    "description": "蛇夫座幽靈魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Cosmic",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 10956,
+    "baseSwimSpeed": 1.01,
+    "baseCoinYield": 404,
+    "emojiOrSprite": "♓️",
+    "visualBlueprint": {
+      "primaryColor": "#c1b437",
+      "secondaryColor": "#e33025",
+      "auraEffect": "TarotGlow",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_3472",
+      "parentB": "FISH_1248",
+      "mutationChance": 0.145
+    }
+  },
+  {
+    "id": "FISH_9014",
+    "commonName": "仙女座鎖鏈魚",
+    "scientificName": "Astroichthys e4bb99",
+    "description": "仙女座鎖鏈魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Quantum",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 20261,
+    "baseSwimSpeed": 2.64,
+    "baseCoinYield": 272,
+    "emojiOrSprite": "♎️",
+    "visualBlueprint": {
+      "primaryColor": "#8c783d",
+      "secondaryColor": "#e870e4",
+      "auraEffect": "TarotGlow",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_3395",
+      "parentB": "FISH_3872",
+      "mutationChance": 0.186
+    }
+  },
+  {
+    "id": "FISH_9015",
+    "commonName": "獵戶座光帶魚",
+    "scientificName": "Astroichthys e78db5",
+    "description": "獵戶座光帶魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Mythic",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 5803,
+    "baseSwimSpeed": 0.52,
+    "baseCoinYield": 230,
+    "emojiOrSprite": "♈️",
+    "visualBlueprint": {
+      "primaryColor": "#6c9858",
+      "secondaryColor": "#657019",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6667",
+      "parentB": "FISH_4558",
+      "mutationChance": 0.05
+    }
+  },
+  {
+    "id": "FISH_9016",
+    "commonName": "天琴座弦音魚",
+    "scientificName": "Astroichthys e5a4a9",
+    "description": "天琴座弦音魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Epic",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 23801,
+    "baseSwimSpeed": 2.85,
+    "baseCoinYield": 89,
+    "emojiOrSprite": "✨",
+    "visualBlueprint": {
+      "primaryColor": "#69bfd7",
+      "secondaryColor": "#37a350",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_2618",
+      "parentB": "FISH_3784",
+      "mutationChance": 0.112
+    }
+  },
+  {
+    "id": "FISH_9017",
+    "commonName": "天鵝座十字魚",
+    "scientificName": "Astroichthys e5a4a9",
+    "description": "天鵝座十字魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Legendary",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 15708,
+    "baseSwimSpeed": 0.89,
+    "baseCoinYield": 442,
+    "emojiOrSprite": "♉️",
+    "visualBlueprint": {
+      "primaryColor": "#7208c6",
+      "secondaryColor": "#25f682",
+      "auraEffect": "TarotGlow",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_8593",
+      "parentB": "FISH_5291",
+      "mutationChance": 0.148
+    }
+  },
+  {
+    "id": "FISH_9018",
+    "commonName": "天龍座深淵魚",
+    "scientificName": "Astroichthys e5a4a9",
+    "description": "天龍座深淵魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Epic",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 10296,
+    "baseSwimSpeed": 1.87,
+    "baseCoinYield": 371,
+    "emojiOrSprite": "♐️",
+    "visualBlueprint": {
+      "primaryColor": "#16ca71",
+      "secondaryColor": "#8f3a4f",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_7537",
+      "parentB": "FISH_6141",
+      "mutationChance": 0.094
+    }
+  },
+  {
+    "id": "FISH_9019",
+    "commonName": "大熊座北斗魚",
+    "scientificName": "Astroichthys e5a4a7",
+    "description": "大熊座北斗魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Mythic",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 15288,
+    "baseSwimSpeed": 4.04,
+    "baseCoinYield": 404,
+    "emojiOrSprite": "♓️",
+    "visualBlueprint": {
+      "primaryColor": "#4be05f",
+      "secondaryColor": "#4507a4",
+      "auraEffect": "TarotGlow",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_1905",
+      "parentB": "FISH_3829",
+      "mutationChance": 0.086
+    }
+  },
+  {
+    "id": "FISH_9020",
+    "commonName": "小熊座極星魚",
+    "scientificName": "Astroichthys e5b08f",
+    "description": "小熊座極星魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Quantum",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 20130,
+    "baseSwimSpeed": 3.71,
+    "baseCoinYield": 281,
+    "emojiOrSprite": "♎️",
+    "visualBlueprint": {
+      "primaryColor": "#e82506",
+      "secondaryColor": "#612952",
+      "auraEffect": "TarotGlow",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_2619",
+      "parentB": "FISH_4753",
+      "mutationChance": 0.079
+    }
+  },
+  {
+    "id": "FISH_9021",
+    "commonName": "仙后座王座魚",
+    "scientificName": "Astroichthys e4bb99",
+    "description": "仙后座王座魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Rare",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 20822,
+    "baseSwimSpeed": 0.92,
+    "baseCoinYield": 488,
+    "emojiOrSprite": "♒️",
+    "visualBlueprint": {
+      "primaryColor": "#5cdf87",
+      "secondaryColor": "#7f3717",
+      "auraEffect": "TarotGlow",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6115",
+      "parentB": "FISH_1845",
+      "mutationChance": 0.011
+    }
+  },
+  {
+    "id": "FISH_9022",
+    "commonName": "仙王座王冠魚",
+    "scientificName": "Astroichthys e4bb99",
+    "description": "仙王座王冠魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Rare",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 15294,
+    "baseSwimSpeed": 4.3,
+    "baseCoinYield": 247,
+    "emojiOrSprite": "♉️",
+    "visualBlueprint": {
+      "primaryColor": "#fd760b",
+      "secondaryColor": "#ab7fef",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_7839",
+      "parentB": "FISH_3738",
+      "mutationChance": 0.118
+    }
+  },
+  {
+    "id": "FISH_9023",
+    "commonName": "英仙座流星魚",
+    "scientificName": "Astroichthys e88bb1",
+    "description": "英仙座流星魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Mythic",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 8022,
+    "baseSwimSpeed": 0.67,
+    "baseCoinYield": 375,
+    "emojiOrSprite": "✨",
+    "visualBlueprint": {
+      "primaryColor": "#5e414d",
+      "secondaryColor": "#1b2726",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_4794",
+      "parentB": "FISH_3769",
+      "mutationChance": 0.105
+    }
+  },
+  {
+    "id": "FISH_9024",
+    "commonName": "飛馬座天馬魚",
+    "scientificName": "Astroichthys e9a39b",
+    "description": "飛馬座天馬魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Mythic",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 13249,
+    "baseSwimSpeed": 0.66,
+    "baseCoinYield": 408,
+    "emojiOrSprite": "♌️",
+    "visualBlueprint": {
+      "primaryColor": "#5b4897",
+      "secondaryColor": "#c2a7e4",
+      "auraEffect": "Starlight",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_2235",
+      "parentB": "FISH_1355",
+      "mutationChance": 0.112
+    }
+  },
+  {
+    "id": "FISH_9025",
+    "commonName": "南十字導航魚",
+    "scientificName": "Astroichthys e58d97",
+    "description": "南十字導航魚。身上閃爍著古老星圖的軌跡，游動時宛如星座在夜空流轉，散發出神話與命運的微光。",
+    "rarity": "Quantum",
+    "category": "黃道十二宮星座",
+    "hatchStepsRequired": 10419,
+    "baseSwimSpeed": 0.52,
+    "baseCoinYield": 319,
+    "emojiOrSprite": "♉️",
+    "visualBlueprint": {
+      "primaryColor": "#6d9c69",
+      "secondaryColor": "#da887a",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_4042",
+      "parentB": "FISH_2419",
+      "mutationChance": 0.094
+    }
+  },
+  {
+    "id": "FISH_9026",
+    "commonName": "愚者流浪魚",
+    "scientificName": "Astroichthys e6849a",
+    "description": "愚者流浪魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Epic",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 17364,
+    "baseSwimSpeed": 3.28,
+    "baseCoinYield": 488,
+    "emojiOrSprite": "🦁",
+    "visualBlueprint": {
+      "primaryColor": "#5340d5",
+      "secondaryColor": "#a29ed0",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_2448",
+      "parentB": "FISH_6802",
+      "mutationChance": 0.085
+    }
+  },
+  {
+    "id": "FISH_9027",
+    "commonName": "魔術師無限魚",
+    "scientificName": "Astroichthys e9ad94",
+    "description": "魔術師無限魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Mythic",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 23251,
+    "baseSwimSpeed": 3.69,
+    "baseCoinYield": 249,
+    "emojiOrSprite": "⚡️",
+    "visualBlueprint": {
+      "primaryColor": "#ccc225",
+      "secondaryColor": "#3a72b5",
+      "auraEffect": "Starlight",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6667",
+      "parentB": "FISH_4496",
+      "mutationChance": 0.141
+    }
+  },
+  {
+    "id": "FISH_9028",
+    "commonName": "女祭司月光魚",
+    "scientificName": "Astroichthys e5a5b3",
+    "description": "女祭司月光魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Mythic",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 9048,
+    "baseSwimSpeed": 4.77,
+    "baseCoinYield": 234,
+    "emojiOrSprite": "🎺",
+    "visualBlueprint": {
+      "primaryColor": "#e2c1e6",
+      "secondaryColor": "#a4598f",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_2384",
+      "parentB": "FISH_7947",
+      "mutationChance": 0.153
+    }
+  },
+  {
+    "id": "FISH_9029",
+    "commonName": "女皇豐饒魚",
+    "scientificName": "Astroichthys e5a5b3",
+    "description": "女皇豐饒魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Epic",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 16850,
+    "baseSwimSpeed": 1.78,
+    "baseCoinYield": 116,
+    "emojiOrSprite": "🌟",
+    "visualBlueprint": {
+      "primaryColor": "#258e1b",
+      "secondaryColor": "#9d4f3b",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_8074",
+      "parentB": "FISH_4843",
+      "mutationChance": 0.107
+    }
+  },
+  {
+    "id": "FISH_9030",
+    "commonName": "皇帝威嚴魚",
+    "scientificName": "Astroichthys e79a87",
+    "description": "皇帝威嚴魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Cosmic",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 16496,
+    "baseSwimSpeed": 3.36,
+    "baseCoinYield": 362,
+    "emojiOrSprite": "🌟",
+    "visualBlueprint": {
+      "primaryColor": "#eb30e1",
+      "secondaryColor": "#861a8d",
+      "auraEffect": "TarotGlow",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_1639",
+      "parentB": "FISH_7032",
+      "mutationChance": 0.025
+    }
+  },
+  {
+    "id": "FISH_9031",
+    "commonName": "教皇神諭魚",
+    "scientificName": "Astroichthys e69599",
+    "description": "教皇神諭魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Mythic",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 15213,
+    "baseSwimSpeed": 4.24,
+    "baseCoinYield": 445,
+    "emojiOrSprite": "🌙",
+    "visualBlueprint": {
+      "primaryColor": "#dadec9",
+      "secondaryColor": "#ba725d",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_3302",
+      "parentB": "FISH_6668",
+      "mutationChance": 0.19
+    }
+  },
+  {
+    "id": "FISH_9032",
+    "commonName": "戀人雙生魚",
+    "scientificName": "Astroichthys e68880",
+    "description": "戀人雙生魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Rare",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 17368,
+    "baseSwimSpeed": 4.43,
+    "baseCoinYield": 330,
+    "emojiOrSprite": "⚡️",
+    "visualBlueprint": {
+      "primaryColor": "#633ca7",
+      "secondaryColor": "#d94647",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6265",
+      "parentB": "FISH_1518",
+      "mutationChance": 0.038
+    }
+  },
+  {
+    "id": "FISH_9033",
+    "commonName": "戰車征服魚",
+    "scientificName": "Astroichthys e688b0",
+    "description": "戰車征服魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Legendary",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 11662,
+    "baseSwimSpeed": 2.49,
+    "baseCoinYield": 156,
+    "emojiOrSprite": "⚡️",
+    "visualBlueprint": {
+      "primaryColor": "#b6a730",
+      "secondaryColor": "#443b3c",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_7408",
+      "parentB": "FISH_2138",
+      "mutationChance": 0.111
+    }
+  },
+  {
+    "id": "FISH_9034",
+    "commonName": "力量獅首魚",
+    "scientificName": "Astroichthys e58a9b",
+    "description": "力量獅首魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Cosmic",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 10684,
+    "baseSwimSpeed": 1.96,
+    "baseCoinYield": 143,
+    "emojiOrSprite": "⚖️",
+    "visualBlueprint": {
+      "primaryColor": "#4d5bc1",
+      "secondaryColor": "#acf61a",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_3144",
+      "parentB": "FISH_8720",
+      "mutationChance": 0.148
+    }
+  },
+  {
+    "id": "FISH_9035",
+    "commonName": "隱士提燈魚",
+    "scientificName": "Astroichthys e99ab1",
+    "description": "隱士提燈魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Epic",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 9808,
+    "baseSwimSpeed": 4.19,
+    "baseCoinYield": 429,
+    "emojiOrSprite": "🌍",
+    "visualBlueprint": {
+      "primaryColor": "#9d606a",
+      "secondaryColor": "#70255a",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_5284",
+      "parentB": "FISH_2192",
+      "mutationChance": 0.116
+    }
+  },
+  {
+    "id": "FISH_9036",
+    "commonName": "命運之輪魚",
+    "scientificName": "Astroichthys e591bd",
+    "description": "命運之輪魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Legendary",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 5455,
+    "baseSwimSpeed": 4.4,
+    "baseCoinYield": 190,
+    "emojiOrSprite": "⚖️",
+    "visualBlueprint": {
+      "primaryColor": "#396dc4",
+      "secondaryColor": "#d318c0",
+      "auraEffect": "TarotGlow",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_2317",
+      "parentB": "FISH_6764",
+      "mutationChance": 0.035
+    }
+  },
+  {
+    "id": "FISH_9037",
+    "commonName": "正義天秤魚",
+    "scientificName": "Astroichthys e6ada3",
+    "description": "正義天秤魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Cosmic",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 5246,
+    "baseSwimSpeed": 1.94,
+    "baseCoinYield": 152,
+    "emojiOrSprite": "🦁",
+    "visualBlueprint": {
+      "primaryColor": "#dbf6fe",
+      "secondaryColor": "#bb97f9",
+      "auraEffect": "TarotGlow",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6776",
+      "parentB": "FISH_4342",
+      "mutationChance": 0.136
+    }
+  },
+  {
+    "id": "FISH_9038",
+    "commonName": "吊人倒影魚",
+    "scientificName": "Astroichthys e5908a",
+    "description": "吊人倒影魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Legendary",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 6040,
+    "baseSwimSpeed": 4.35,
+    "baseCoinYield": 486,
+    "emojiOrSprite": "🔮",
+    "visualBlueprint": {
+      "primaryColor": "#21df89",
+      "secondaryColor": "#a78623",
+      "auraEffect": "Starlight",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_4234",
+      "parentB": "FISH_2692",
+      "mutationChance": 0.144
+    }
+  },
+  {
+    "id": "FISH_9039",
+    "commonName": "死神死吻魚",
+    "scientificName": "Astroichthys e6adbb",
+    "description": "死神死吻魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Quantum",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 9466,
+    "baseSwimSpeed": 3.39,
+    "baseCoinYield": 256,
+    "emojiOrSprite": "☀️",
+    "visualBlueprint": {
+      "primaryColor": "#d8fa00",
+      "secondaryColor": "#ced43e",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_1253",
+      "parentB": "FISH_5184",
+      "mutationChance": 0.198
+    }
+  },
+  {
+    "id": "FISH_9040",
+    "commonName": "節制流光魚",
+    "scientificName": "Astroichthys e7af80",
+    "description": "節制流光魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Cosmic",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 21583,
+    "baseSwimSpeed": 3.37,
+    "baseCoinYield": 315,
+    "emojiOrSprite": "⚖️",
+    "visualBlueprint": {
+      "primaryColor": "#0f63dc",
+      "secondaryColor": "#b768e2",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_1221",
+      "parentB": "FISH_6298",
+      "mutationChance": 0.193
+    }
+  },
+  {
+    "id": "FISH_9041",
+    "commonName": "惡魔暗炎魚",
+    "scientificName": "Astroichthys e683a1",
+    "description": "惡魔暗炎魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Cosmic",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 14644,
+    "baseSwimSpeed": 4.71,
+    "baseCoinYield": 242,
+    "emojiOrSprite": "⚡️",
+    "visualBlueprint": {
+      "primaryColor": "#afb8ae",
+      "secondaryColor": "#fc521b",
+      "auraEffect": "Starlight",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_2306",
+      "parentB": "FISH_8275",
+      "mutationChance": 0.023
+    }
+  },
+  {
+    "id": "FISH_9042",
+    "commonName": "高塔雷霆魚",
+    "scientificName": "Astroichthys e9ab98",
+    "description": "高塔雷霆魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Cosmic",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 13566,
+    "baseSwimSpeed": 3.64,
+    "baseCoinYield": 260,
+    "emojiOrSprite": "🃏",
+    "visualBlueprint": {
+      "primaryColor": "#c9476d",
+      "secondaryColor": "#f22abb",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_5892",
+      "parentB": "FISH_4458",
+      "mutationChance": 0.115
+    }
+  },
+  {
+    "id": "FISH_9043",
+    "commonName": "星星希望魚",
+    "scientificName": "Astroichthys e6989f",
+    "description": "星星希望魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Legendary",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 17892,
+    "baseSwimSpeed": 3.4,
+    "baseCoinYield": 97,
+    "emojiOrSprite": "🌟",
+    "visualBlueprint": {
+      "primaryColor": "#fdbcbf",
+      "secondaryColor": "#37d085",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_1488",
+      "parentB": "FISH_8138",
+      "mutationChance": 0.128
+    }
+  },
+  {
+    "id": "FISH_9044",
+    "commonName": "月亮幻惑魚",
+    "scientificName": "Astroichthys e69c88",
+    "description": "月亮幻惑魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Quantum",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 19618,
+    "baseSwimSpeed": 1.48,
+    "baseCoinYield": 390,
+    "emojiOrSprite": "⚔️",
+    "visualBlueprint": {
+      "primaryColor": "#371e74",
+      "secondaryColor": "#388e41",
+      "auraEffect": "TarotGlow",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_1155",
+      "parentB": "FISH_7505",
+      "mutationChance": 0.102
+    }
+  },
+  {
+    "id": "FISH_9045",
+    "commonName": "太陽永恆魚",
+    "scientificName": "Astroichthys e5a4aa",
+    "description": "太陽永恆魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Rare",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 10091,
+    "baseSwimSpeed": 3.08,
+    "baseCoinYield": 84,
+    "emojiOrSprite": "🌍",
+    "visualBlueprint": {
+      "primaryColor": "#5ec54b",
+      "secondaryColor": "#862a64",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6098",
+      "parentB": "FISH_2416",
+      "mutationChance": 0.118
+    }
+  },
+  {
+    "id": "FISH_9046",
+    "commonName": "審判號角魚",
+    "scientificName": "Astroichthys e5afa9",
+    "description": "審判號角魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Rare",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 14129,
+    "baseSwimSpeed": 1.87,
+    "baseCoinYield": 360,
+    "emojiOrSprite": "⚡️",
+    "visualBlueprint": {
+      "primaryColor": "#159cb7",
+      "secondaryColor": "#50a873",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_2738",
+      "parentB": "FISH_2385",
+      "mutationChance": 0.033
+    }
+  },
+  {
+    "id": "FISH_9047",
+    "commonName": "世界圓滿魚",
+    "scientificName": "Astroichthys e4b896",
+    "description": "世界圓滿魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Mythic",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 14021,
+    "baseSwimSpeed": 4.51,
+    "baseCoinYield": 157,
+    "emojiOrSprite": "⚔️",
+    "visualBlueprint": {
+      "primaryColor": "#8a7972",
+      "secondaryColor": "#170c82",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_4338",
+      "parentB": "FISH_4751",
+      "mutationChance": 0.191
+    }
+  },
+  {
+    "id": "FISH_9048",
+    "commonName": "權杖星火魚",
+    "scientificName": "Astroichthys e6ac8a",
+    "description": "權杖星火魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Quantum",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 19737,
+    "baseSwimSpeed": 3.69,
+    "baseCoinYield": 72,
+    "emojiOrSprite": "🌟",
+    "visualBlueprint": {
+      "primaryColor": "#136f9d",
+      "secondaryColor": "#7bd117",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_5826",
+      "parentB": "FISH_5615",
+      "mutationChance": 0.136
+    }
+  },
+  {
+    "id": "FISH_9049",
+    "commonName": "聖杯湧泉魚",
+    "scientificName": "Astroichthys e88196",
+    "description": "聖杯湧泉魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Mythic",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 23072,
+    "baseSwimSpeed": 2.89,
+    "baseCoinYield": 440,
+    "emojiOrSprite": "🦁",
+    "visualBlueprint": {
+      "primaryColor": "#537acd",
+      "secondaryColor": "#12f8a2",
+      "auraEffect": "TarotGlow",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_7798",
+      "parentB": "FISH_1546",
+      "mutationChance": 0.136
+    }
+  },
+  {
+    "id": "FISH_9050",
+    "commonName": "寶劍流光魚",
+    "scientificName": "Astroichthys e5afb6",
+    "description": "寶劍流光魚。蘊含著古老占卜的奧秘，每一次擺尾都彷彿在揭示命運的牌陣，鱗片上銘刻著神秘符號。",
+    "rarity": "Mythic",
+    "category": "塔羅22大阿卡納秘儀",
+    "hatchStepsRequired": 10488,
+    "baseSwimSpeed": 3.55,
+    "baseCoinYield": 86,
+    "emojiOrSprite": "⚖️",
+    "visualBlueprint": {
+      "primaryColor": "#2a4620",
+      "secondaryColor": "#fd049a",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_3846",
+      "parentB": "FISH_1780",
+      "mutationChance": 0.106
+    }
+  },
+  {
+    "id": "FISH_9051",
+    "commonName": "黑洞奇點魚",
+    "scientificName": "Astroichthys e9bb91",
+    "description": "黑洞奇點魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Mythic",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 7028,
+    "baseSwimSpeed": 2.27,
+    "baseCoinYield": 105,
+    "emojiOrSprite": "🌟",
+    "visualBlueprint": {
+      "primaryColor": "#65b30f",
+      "secondaryColor": "#d3b689",
+      "auraEffect": "TarotGlow",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_4665",
+      "parentB": "FISH_7763",
+      "mutationChance": 0.125
+    }
+  },
+  {
+    "id": "FISH_9052",
+    "commonName": "超新星脈衝魚",
+    "scientificName": "Astroichthys e8b685",
+    "description": "超新星脈衝魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Rare",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 18936,
+    "baseSwimSpeed": 3.07,
+    "baseCoinYield": 443,
+    "emojiOrSprite": "🕳️",
+    "visualBlueprint": {
+      "primaryColor": "#e96e03",
+      "secondaryColor": "#3b8bdc",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_3635",
+      "parentB": "FISH_6316",
+      "mutationChance": 0.091
+    }
+  },
+  {
+    "id": "FISH_9053",
+    "commonName": "仙女座星系魚",
+    "scientificName": "Astroichthys e4bb99",
+    "description": "仙女座星系魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Cosmic",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 8560,
+    "baseSwimSpeed": 3.83,
+    "baseCoinYield": 434,
+    "emojiOrSprite": "💥",
+    "visualBlueprint": {
+      "primaryColor": "#f10b93",
+      "secondaryColor": "#77d21d",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_2827",
+      "parentB": "FISH_2807",
+      "mutationChance": 0.187
+    }
+  },
+  {
+    "id": "FISH_9054",
+    "commonName": "夸克微粒魚",
+    "scientificName": "Astroichthys e5a4b8",
+    "description": "夸克微粒魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Cosmic",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 10857,
+    "baseSwimSpeed": 1.37,
+    "baseCoinYield": 364,
+    "emojiOrSprite": "💥",
+    "visualBlueprint": {
+      "primaryColor": "#524468",
+      "secondaryColor": "#1cf2b6",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_8075",
+      "parentB": "FISH_7202",
+      "mutationChance": 0.173
+    }
+  },
+  {
+    "id": "FISH_9055",
+    "commonName": "量子糾纏魚",
+    "scientificName": "Astroichthys e9878f",
+    "description": "量子糾纏魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Quantum",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 20792,
+    "baseSwimSpeed": 0.58,
+    "baseCoinYield": 55,
+    "emojiOrSprite": "🛸",
+    "visualBlueprint": {
+      "primaryColor": "#e7cfd2",
+      "secondaryColor": "#01a69f",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6514",
+      "parentB": "FISH_5474",
+      "mutationChance": 0.161
+    }
+  },
+  {
+    "id": "FISH_9056",
+    "commonName": "事件視界魚",
+    "scientificName": "Astroichthys e4ba8b",
+    "description": "事件視界魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Cosmic",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 18803,
+    "baseSwimSpeed": 3.3,
+    "baseCoinYield": 353,
+    "emojiOrSprite": "🛸",
+    "visualBlueprint": {
+      "primaryColor": "#73300a",
+      "secondaryColor": "#219de1",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_8345",
+      "parentB": "FISH_7145",
+      "mutationChance": 0.069
+    }
+  },
+  {
+    "id": "FISH_9057",
+    "commonName": "引力透鏡魚",
+    "scientificName": "Astroichthys e5bc95",
+    "description": "引力透鏡魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Epic",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 15620,
+    "baseSwimSpeed": 1.12,
+    "baseCoinYield": 455,
+    "emojiOrSprite": "☄️",
+    "visualBlueprint": {
+      "primaryColor": "#76fcf5",
+      "secondaryColor": "#038e1e",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_3310",
+      "parentB": "FISH_2371",
+      "mutationChance": 0.123
+    }
+  },
+  {
+    "id": "FISH_9058",
+    "commonName": "反物質耀斑魚",
+    "scientificName": "Astroichthys e58f8d",
+    "description": "反物質耀斑魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Epic",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 20595,
+    "baseSwimSpeed": 1.45,
+    "baseCoinYield": 363,
+    "emojiOrSprite": "🌠",
+    "visualBlueprint": {
+      "primaryColor": "#37feb7",
+      "secondaryColor": "#622281",
+      "auraEffect": "Starlight",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6117",
+      "parentB": "FISH_3942",
+      "mutationChance": 0.041
+    }
+  },
+  {
+    "id": "FISH_9059",
+    "commonName": "中子星脈衝魚",
+    "scientificName": "Astroichthys e4b8ad",
+    "description": "中子星脈衝魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Cosmic",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 9888,
+    "baseSwimSpeed": 4.61,
+    "baseCoinYield": 110,
+    "emojiOrSprite": "🎇",
+    "visualBlueprint": {
+      "primaryColor": "#c38142",
+      "secondaryColor": "#9d776f",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_1466",
+      "parentB": "FISH_3157",
+      "mutationChance": 0.197
+    }
+  },
+  {
+    "id": "FISH_9060",
+    "commonName": "暗物質幽靈魚",
+    "scientificName": "Astroichthys e69a97",
+    "description": "暗物質幽靈魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Quantum",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 5079,
+    "baseSwimSpeed": 3.21,
+    "baseCoinYield": 308,
+    "emojiOrSprite": "🔭",
+    "visualBlueprint": {
+      "primaryColor": "#d6c27c",
+      "secondaryColor": "#c5ad2e",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_1151",
+      "parentB": "FISH_5447",
+      "mutationChance": 0.102
+    }
+  },
+  {
+    "id": "FISH_9061",
+    "commonName": "微波背景輻射魚",
+    "scientificName": "Astroichthys e5beae",
+    "description": "微波背景輻射魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Rare",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 7890,
+    "baseSwimSpeed": 0.83,
+    "baseCoinYield": 490,
+    "emojiOrSprite": "🌟",
+    "visualBlueprint": {
+      "primaryColor": "#3db5bb",
+      "secondaryColor": "#941503",
+      "auraEffect": "Starlight",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_7982",
+      "parentB": "FISH_3631",
+      "mutationChance": 0.073
+    }
+  },
+  {
+    "id": "FISH_9062",
+    "commonName": "類星體風暴魚",
+    "scientificName": "Astroichthys e9a19e",
+    "description": "類星體風暴魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Epic",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 15879,
+    "baseSwimSpeed": 1.57,
+    "baseCoinYield": 336,
+    "emojiOrSprite": "💥",
+    "visualBlueprint": {
+      "primaryColor": "#5ed159",
+      "secondaryColor": "#5c99e1",
+      "auraEffect": "TarotGlow",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_8769",
+      "parentB": "FISH_4877",
+      "mutationChance": 0.083
+    }
+  },
+  {
+    "id": "FISH_9063",
+    "commonName": "紅巨星餘燼魚",
+    "scientificName": "Astroichthys e7b485",
+    "description": "紅巨星餘燼魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Rare",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 21619,
+    "baseSwimSpeed": 4.41,
+    "baseCoinYield": 175,
+    "emojiOrSprite": "🕳️",
+    "visualBlueprint": {
+      "primaryColor": "#9ddc20",
+      "secondaryColor": "#85c0bd",
+      "auraEffect": "TarotGlow",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_8010",
+      "parentB": "FISH_7279",
+      "mutationChance": 0.143
+    }
+  },
+  {
+    "id": "FISH_9064",
+    "commonName": "白矮星晶體魚",
+    "scientificName": "Astroichthys e799bd",
+    "description": "白矮星晶體魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Legendary",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 12164,
+    "baseSwimSpeed": 4.34,
+    "baseCoinYield": 343,
+    "emojiOrSprite": "🛰️",
+    "visualBlueprint": {
+      "primaryColor": "#ce5585",
+      "secondaryColor": "#b8940d",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_3572",
+      "parentB": "FISH_6206",
+      "mutationChance": 0.076
+    }
+  },
+  {
+    "id": "FISH_9065",
+    "commonName": "波色愛因斯坦魚",
+    "scientificName": "Astroichthys e6b3a2",
+    "description": "波色愛因斯坦魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Quantum",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 17910,
+    "baseSwimSpeed": 2.84,
+    "baseCoinYield": 398,
+    "emojiOrSprite": "🎇",
+    "visualBlueprint": {
+      "primaryColor": "#8a8b44",
+      "secondaryColor": "#4f594a",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6185",
+      "parentB": "FISH_3151",
+      "mutationChance": 0.14
+    }
+  },
+  {
+    "id": "FISH_9066",
+    "commonName": "薛丁格波函數魚",
+    "scientificName": "Astroichthys e8969b",
+    "description": "薛丁格波函數魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Legendary",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 22242,
+    "baseSwimSpeed": 0.77,
+    "baseCoinYield": 200,
+    "emojiOrSprite": "💫",
+    "visualBlueprint": {
+      "primaryColor": "#b9a73f",
+      "secondaryColor": "#c1095e",
+      "auraEffect": "Starlight",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_1559",
+      "parentB": "FISH_5611",
+      "mutationChance": 0.037
+    }
+  },
+  {
+    "id": "FISH_9067",
+    "commonName": "普朗克尺度魚",
+    "scientificName": "Astroichthys e699ae",
+    "description": "普朗克尺度魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Rare",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 19899,
+    "baseSwimSpeed": 0.55,
+    "baseCoinYield": 373,
+    "emojiOrSprite": "🌠",
+    "visualBlueprint": {
+      "primaryColor": "#f9d6df",
+      "secondaryColor": "#1821ad",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_3734",
+      "parentB": "FISH_6676",
+      "mutationChance": 0.102
+    }
+  },
+  {
+    "id": "FISH_9068",
+    "commonName": "海森堡不確定魚",
+    "scientificName": "Astroichthys e6b5b7",
+    "description": "海森堡不確定魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Cosmic",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 24325,
+    "baseSwimSpeed": 4.3,
+    "baseCoinYield": 280,
+    "emojiOrSprite": "💥",
+    "visualBlueprint": {
+      "primaryColor": "#a540e8",
+      "secondaryColor": "#3c9eb9",
+      "auraEffect": "TarotGlow",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_4634",
+      "parentB": "FISH_4102",
+      "mutationChance": 0.174
+    }
+  },
+  {
+    "id": "FISH_9069",
+    "commonName": "弦震盪共鳴魚",
+    "scientificName": "Astroichthys e5bca6",
+    "description": "弦震盪共鳴魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Rare",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 12838,
+    "baseSwimSpeed": 2.61,
+    "baseCoinYield": 151,
+    "emojiOrSprite": "🛸",
+    "visualBlueprint": {
+      "primaryColor": "#d3db75",
+      "secondaryColor": "#02043f",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_1538",
+      "parentB": "FISH_8237",
+      "mutationChance": 0.121
+    }
+  },
+  {
+    "id": "FISH_9070",
+    "commonName": "希格斯玻色魚",
+    "scientificName": "Astroichthys e5b88c",
+    "description": "希格斯玻色魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Cosmic",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 16851,
+    "baseSwimSpeed": 1.25,
+    "baseCoinYield": 197,
+    "emojiOrSprite": "🌌",
+    "visualBlueprint": {
+      "primaryColor": "#0805e5",
+      "secondaryColor": "#49489e",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_2528",
+      "parentB": "FISH_5689",
+      "mutationChance": 0.184
+    }
+  },
+  {
+    "id": "FISH_9071",
+    "commonName": "引力波漣漪魚",
+    "scientificName": "Astroichthys e5bc95",
+    "description": "引力波漣漪魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Rare",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 23624,
+    "baseSwimSpeed": 4.35,
+    "baseCoinYield": 271,
+    "emojiOrSprite": "🛰️",
+    "visualBlueprint": {
+      "primaryColor": "#e208b4",
+      "secondaryColor": "#e56222",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_2161",
+      "parentB": "FISH_4552",
+      "mutationChance": 0.161
+    }
+  },
+  {
+    "id": "FISH_9072",
+    "commonName": "暗能量擴張魚",
+    "scientificName": "Astroichthys e69a97",
+    "description": "暗能量擴張魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Mythic",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 15640,
+    "baseSwimSpeed": 1.88,
+    "baseCoinYield": 65,
+    "emojiOrSprite": "🎇",
+    "visualBlueprint": {
+      "primaryColor": "#e760ab",
+      "secondaryColor": "#caf741",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_7528",
+      "parentB": "FISH_8371",
+      "mutationChance": 0.024
+    }
+  },
+  {
+    "id": "FISH_9073",
+    "commonName": "宇宙微子穿梭魚",
+    "scientificName": "Astroichthys e5ae87",
+    "description": "宇宙微子穿梭魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Epic",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 23218,
+    "baseSwimSpeed": 1.76,
+    "baseCoinYield": 439,
+    "emojiOrSprite": "⚛️",
+    "visualBlueprint": {
+      "primaryColor": "#3f3de6",
+      "secondaryColor": "#b9dbdd",
+      "auraEffect": "Starlight",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_3806",
+      "parentB": "FISH_8341",
+      "mutationChance": 0.042
+    }
+  },
+  {
+    "id": "FISH_9074",
+    "commonName": "多重宇宙泡泡魚",
+    "scientificName": "Astroichthys e5a49a",
+    "description": "多重宇宙泡泡魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Legendary",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 15343,
+    "baseSwimSpeed": 0.81,
+    "baseCoinYield": 332,
+    "emojiOrSprite": "🔭",
+    "visualBlueprint": {
+      "primaryColor": "#c64113",
+      "secondaryColor": "#9af2b3",
+      "auraEffect": "TarotGlow",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_5387",
+      "parentB": "FISH_5703",
+      "mutationChance": 0.022
+    }
+  },
+  {
+    "id": "FISH_9075",
+    "commonName": "星雲誕生池魚",
+    "scientificName": "Astroichthys e6989f",
+    "description": "星雲誕生池魚。由純粹的物理法則與宇宙能量構成，游動時會引發微小的空間扭曲或量子干涉現象。",
+    "rarity": "Legendary",
+    "category": "宇宙深空天體與量子力學",
+    "hatchStepsRequired": 21168,
+    "baseSwimSpeed": 2.39,
+    "baseCoinYield": 66,
+    "emojiOrSprite": "🕳️",
+    "visualBlueprint": {
+      "primaryColor": "#7e01e3",
+      "secondaryColor": "#6cea91",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_3395",
+      "parentB": "FISH_5015",
+      "mutationChance": 0.116
+    }
+  },
+  {
+    "id": "FISH_9076",
+    "commonName": "歐羅巴冰下精靈",
+    "scientificName": "Astroichthys e6ad90",
+    "description": "歐羅巴冰下精靈。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Quantum",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 16573,
+    "baseSwimSpeed": 1.51,
+    "baseCoinYield": 479,
+    "emojiOrSprite": "🧊",
+    "visualBlueprint": {
+      "primaryColor": "#fc0c32",
+      "secondaryColor": "#ff3888",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_7985",
+      "parentB": "FISH_2924",
+      "mutationChance": 0.064
+    }
+  },
+  {
+    "id": "FISH_9077",
+    "commonName": "土衛六甲烷水妖",
+    "scientificName": "Astroichthys e59c9f",
+    "description": "土衛六甲烷水妖。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Mythic",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 8228,
+    "baseSwimSpeed": 3.56,
+    "baseCoinYield": 330,
+    "emojiOrSprite": "🛸",
+    "visualBlueprint": {
+      "primaryColor": "#e89d8b",
+      "secondaryColor": "#d2faa8",
+      "auraEffect": "TarotGlow",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_8929",
+      "parentB": "FISH_6066",
+      "mutationChance": 0.021
+    }
+  },
+  {
+    "id": "FISH_9078",
+    "commonName": "四維超立方魚",
+    "scientificName": "Astroichthys e59b9b",
+    "description": "四維超立方魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Epic",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 5226,
+    "baseSwimSpeed": 1.46,
+    "baseCoinYield": 128,
+    "emojiOrSprite": "🧊",
+    "visualBlueprint": {
+      "primaryColor": "#14923e",
+      "secondaryColor": "#0cd39a",
+      "auraEffect": "Starlight",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_2532",
+      "parentB": "FISH_3868",
+      "mutationChance": 0.041
+    }
+  },
+  {
+    "id": "FISH_9079",
+    "commonName": "時間迴旋魚",
+    "scientificName": "Astroichthys e69982",
+    "description": "時間迴旋魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Quantum",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 14452,
+    "baseSwimSpeed": 4.74,
+    "baseCoinYield": 315,
+    "emojiOrSprite": "❄️",
+    "visualBlueprint": {
+      "primaryColor": "#df0ea0",
+      "secondaryColor": "#b39283",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_2816",
+      "parentB": "FISH_6444",
+      "mutationChance": 0.068
+    }
+  },
+  {
+    "id": "FISH_9080",
+    "commonName": "弦理論震盪魚",
+    "scientificName": "Astroichthys e5bca6",
+    "description": "弦理論震盪魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Quantum",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 14480,
+    "baseSwimSpeed": 4.83,
+    "baseCoinYield": 332,
+    "emojiOrSprite": "🧊",
+    "visualBlueprint": {
+      "primaryColor": "#ba3a0e",
+      "secondaryColor": "#449388",
+      "auraEffect": "TarotGlow",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6455",
+      "parentB": "FISH_7827",
+      "mutationChance": 0.054
+    }
+  },
+  {
+    "id": "FISH_9081",
+    "commonName": "蟲洞穿梭魚",
+    "scientificName": "Astroichthys e89fb2",
+    "description": "蟲洞穿梭魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Mythic",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 13647,
+    "baseSwimSpeed": 4.61,
+    "baseCoinYield": 130,
+    "emojiOrSprite": "❄️",
+    "visualBlueprint": {
+      "primaryColor": "#57ffec",
+      "secondaryColor": "#743aba",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_8366",
+      "parentB": "FISH_2240",
+      "mutationChance": 0.031
+    }
+  },
+  {
+    "id": "FISH_9082",
+    "commonName": "極光星塵魚",
+    "scientificName": "Astroichthys e6a5b5",
+    "description": "極光星塵魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Quantum",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 21176,
+    "baseSwimSpeed": 2.33,
+    "baseCoinYield": 299,
+    "emojiOrSprite": "✨",
+    "visualBlueprint": {
+      "primaryColor": "#844ba9",
+      "secondaryColor": "#6e85ff",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_1249",
+      "parentB": "FISH_6619",
+      "mutationChance": 0.192
+    }
+  },
+  {
+    "id": "FISH_9083",
+    "commonName": "維度折疊魚",
+    "scientificName": "Astroichthys e7b6ad",
+    "description": "維度折疊魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Mythic",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 10286,
+    "baseSwimSpeed": 4.04,
+    "baseCoinYield": 243,
+    "emojiOrSprite": "🧊",
+    "visualBlueprint": {
+      "primaryColor": "#6cbdbc",
+      "secondaryColor": "#42975e",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_4665",
+      "parentB": "FISH_4640",
+      "mutationChance": 0.041
+    }
+  },
+  {
+    "id": "FISH_9084",
+    "commonName": "泰坦星迷霧魚",
+    "scientificName": "Astroichthys e6b3b0",
+    "description": "泰坦星迷霧魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Mythic",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 8044,
+    "baseSwimSpeed": 4.01,
+    "baseCoinYield": 249,
+    "emojiOrSprite": "✨",
+    "visualBlueprint": {
+      "primaryColor": "#c15e79",
+      "secondaryColor": "#37bb77",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_1177",
+      "parentB": "FISH_6046",
+      "mutationChance": 0.196
+    }
+  },
+  {
+    "id": "FISH_9085",
+    "commonName": "火星赤砂魚",
+    "scientificName": "Astroichthys e781ab",
+    "description": "火星赤砂魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Epic",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 14670,
+    "baseSwimSpeed": 3.72,
+    "baseCoinYield": 291,
+    "emojiOrSprite": "💧",
+    "visualBlueprint": {
+      "primaryColor": "#1f2372",
+      "secondaryColor": "#9d3c5c",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6755",
+      "parentB": "FISH_6768",
+      "mutationChance": 0.185
+    }
+  },
+  {
+    "id": "FISH_9086",
+    "commonName": "木星大紅斑魚",
+    "scientificName": "Astroichthys e69ca8",
+    "description": "木星大紅斑魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Epic",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 14977,
+    "baseSwimSpeed": 0.51,
+    "baseCoinYield": 83,
+    "emojiOrSprite": "🛸",
+    "visualBlueprint": {
+      "primaryColor": "#660263",
+      "secondaryColor": "#e5ddac",
+      "auraEffect": "Starlight",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_8648",
+      "parentB": "FISH_4605",
+      "mutationChance": 0.076
+    }
+  },
+  {
+    "id": "FISH_9087",
+    "commonName": "土星環帶魚",
+    "scientificName": "Astroichthys e59c9f",
+    "description": "土星環帶魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Quantum",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 9628,
+    "baseSwimSpeed": 2.78,
+    "baseCoinYield": 343,
+    "emojiOrSprite": "🔴",
+    "visualBlueprint": {
+      "primaryColor": "#bfdaad",
+      "secondaryColor": "#fad6ec",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_2901",
+      "parentB": "FISH_4818",
+      "mutationChance": 0.16
+    }
+  },
+  {
+    "id": "FISH_9088",
+    "commonName": "海王星暗斑魚",
+    "scientificName": "Astroichthys e6b5b7",
+    "description": "海王星暗斑魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Rare",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 20080,
+    "baseSwimSpeed": 1.05,
+    "baseCoinYield": 76,
+    "emojiOrSprite": "🌌",
+    "visualBlueprint": {
+      "primaryColor": "#282513",
+      "secondaryColor": "#648aa6",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_5964",
+      "parentB": "FISH_1264",
+      "mutationChance": 0.128
+    }
+  },
+  {
+    "id": "FISH_9089",
+    "commonName": "天王星傾斜魚",
+    "scientificName": "Astroichthys e5a4a9",
+    "description": "天王星傾斜魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Legendary",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 11921,
+    "baseSwimSpeed": 2.87,
+    "baseCoinYield": 225,
+    "emojiOrSprite": "🔵",
+    "visualBlueprint": {
+      "primaryColor": "#bf8e93",
+      "secondaryColor": "#c11140",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_3889",
+      "parentB": "FISH_2238",
+      "mutationChance": 0.059
+    }
+  },
+  {
+    "id": "FISH_9090",
+    "commonName": "冥王星冰心魚",
+    "scientificName": "Astroichthys e586a5",
+    "description": "冥王星冰心魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Mythic",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 13480,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 397,
+    "emojiOrSprite": "🛸",
+    "visualBlueprint": {
+      "primaryColor": "#7079f0",
+      "secondaryColor": "#f6fc67",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_7328",
+      "parentB": "FISH_3689",
+      "mutationChance": 0.071
+    }
+  },
+  {
+    "id": "FISH_9091",
+    "commonName": "半人馬座阿爾法魚",
+    "scientificName": "Astroichthys e58d8a",
+    "description": "半人馬座阿爾法魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Mythic",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 7733,
+    "baseSwimSpeed": 1.24,
+    "baseCoinYield": 104,
+    "emojiOrSprite": "💧",
+    "visualBlueprint": {
+      "primaryColor": "#d3c389",
+      "secondaryColor": "#e15f98",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "SingularitySwirl"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_2712",
+      "parentB": "FISH_6307",
+      "mutationChance": 0.141
+    }
+  },
+  {
+    "id": "FISH_9092",
+    "commonName": "天狼星雙星魚",
+    "scientificName": "Astroichthys e5a4a9",
+    "description": "天狼星雙星魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Epic",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 23376,
+    "baseSwimSpeed": 3.48,
+    "baseCoinYield": 319,
+    "emojiOrSprite": "✨",
+    "visualBlueprint": {
+      "primaryColor": "#bb9555",
+      "secondaryColor": "#0c16a6",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_4644",
+      "parentB": "FISH_4025",
+      "mutationChance": 0.034
+    }
+  },
+  {
+    "id": "FISH_9093",
+    "commonName": "參宿四紅超巨魚",
+    "scientificName": "Astroichthys e58f83",
+    "description": "參宿四紅超巨魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Legendary",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 22210,
+    "baseSwimSpeed": 4.33,
+    "baseCoinYield": 421,
+    "emojiOrSprite": "❄️",
+    "visualBlueprint": {
+      "primaryColor": "#1bd9d5",
+      "secondaryColor": "#cabc6c",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_7432",
+      "parentB": "FISH_3082",
+      "mutationChance": 0.079
+    }
+  },
+  {
+    "id": "FISH_9094",
+    "commonName": "織女星紡錘魚",
+    "scientificName": "Astroichthys e7b994",
+    "description": "織女星紡錘魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Epic",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 7517,
+    "baseSwimSpeed": 4.53,
+    "baseCoinYield": 383,
+    "emojiOrSprite": "⏳",
+    "visualBlueprint": {
+      "primaryColor": "#5561af",
+      "secondaryColor": "#7f3009",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_2464",
+      "parentB": "FISH_3548",
+      "mutationChance": 0.15
+    }
+  },
+  {
+    "id": "FISH_9095",
+    "commonName": "牛郎星牽牛魚",
+    "scientificName": "Astroichthys e7899b",
+    "description": "牛郎星牽牛魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Legendary",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 21504,
+    "baseSwimSpeed": 1.32,
+    "baseCoinYield": 163,
+    "emojiOrSprite": "🪐",
+    "visualBlueprint": {
+      "primaryColor": "#61026d",
+      "secondaryColor": "#a16068",
+      "auraEffect": "DimensionalDistortion",
+      "tailShape": "Tesseract"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_1914",
+      "parentB": "FISH_1682",
+      "mutationChance": 0.184
+    }
+  },
+  {
+    "id": "FISH_9096",
+    "commonName": "光錐之外神魚",
+    "scientificName": "Astroichthys e58589",
+    "description": "光錐之外神魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Mythic",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 18124,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 482,
+    "emojiOrSprite": "💧",
+    "visualBlueprint": {
+      "primaryColor": "#1ee344",
+      "secondaryColor": "#29e107",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_1454",
+      "parentB": "FISH_3475",
+      "mutationChance": 0.168
+    }
+  },
+  {
+    "id": "FISH_9097",
+    "commonName": "時間膨脹水母",
+    "scientificName": "Astroichthys e69982",
+    "description": "時間膨脹水母。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Legendary",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 14974,
+    "baseSwimSpeed": 3.24,
+    "baseCoinYield": 316,
+    "emojiOrSprite": "🌀",
+    "visualBlueprint": {
+      "primaryColor": "#4d8402",
+      "secondaryColor": "#b68b49",
+      "auraEffect": "AuroraBorealis",
+      "tailShape": "CometDust"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_3211",
+      "parentB": "FISH_7809",
+      "mutationChance": 0.051
+    }
+  },
+  {
+    "id": "FISH_9098",
+    "commonName": "空間曲率海馬",
+    "scientificName": "Astroichthys e7a9ba",
+    "description": "空間曲率海馬。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Rare",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 24991,
+    "baseSwimSpeed": 1.1,
+    "baseCoinYield": 491,
+    "emojiOrSprite": "✨",
+    "visualBlueprint": {
+      "primaryColor": "#09f6d1",
+      "secondaryColor": "#2da91a",
+      "auraEffect": "QuantumRipples",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_6754",
+      "parentB": "FISH_1794",
+      "mutationChance": 0.197
+    }
+  },
+  {
+    "id": "FISH_9099",
+    "commonName": "虛擬粒子泡沫魚",
+    "scientificName": "Astroichthys e8999b",
+    "description": "虛擬粒子泡沫魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Cosmic",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 24929,
+    "baseSwimSpeed": 2.39,
+    "baseCoinYield": 369,
+    "emojiOrSprite": "🌌",
+    "visualBlueprint": {
+      "primaryColor": "#6eb48c",
+      "secondaryColor": "#93d892",
+      "auraEffect": "Starlight",
+      "tailShape": "CardSuit"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_4823",
+      "parentB": "FISH_4968",
+      "mutationChance": 0.182
+    }
+  },
+  {
+    "id": "FISH_9100",
+    "commonName": "熵減逆行魚",
+    "scientificName": "Astroichthys e786b5",
+    "description": "熵減逆行魚。突破了三維空間的限制，在游動時會留下一道道絢麗的極光軌跡，甚至偶爾會短暫消失在其他維度中。",
+    "rarity": "Mythic",
+    "category": "極光星塵與維度穿梭",
+    "hatchStepsRequired": 9347,
+    "baseSwimSpeed": 4.85,
+    "baseCoinYield": 280,
+    "emojiOrSprite": "💧",
+    "visualBlueprint": {
+      "primaryColor": "#579d2f",
+      "secondaryColor": "#f5caba",
+      "auraEffect": "TarotGlow",
+      "tailShape": "NebulaTrailing"
+    },
+    "breedingRecipe": {
+      "parentA": "FISH_1956",
+      "parentB": "FISH_8422",
+      "mutationChance": 0.013
+    }
+  }
+]

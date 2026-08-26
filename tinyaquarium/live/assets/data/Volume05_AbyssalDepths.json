@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "F_5001",
+    "commonName": "黑角鮟鱇",
+    "scientificName": "Melanocetus johnsonii",
+    "description": "棲息於幽冥深海的黑角鮟鱇。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Uncommon",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 382,
+    "baseSwimSpeed": 21,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#094cbf",
+      "glowIntensity": 0.75,
+      "scaleMultiplier": 1.34
+    },
+    "breedingRecipe": {
+      "parentA": "F_5001",
+      "parentB": "F_5001",
+      "successRate": 0.76
+    }
+  },
+  {
+    "id": "F_5002",
+    "commonName": "吞噬鰻",
+    "scientificName": "Eurypharynx pelecanoides",
+    "description": "棲息於幽冥深海的吞噬鰻。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Rare",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 148,
+    "baseSwimSpeed": 30,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🐍",
+    "visualBlueprint": {
+      "baseColor": "#f02cd6",
+      "glowIntensity": 1.84,
+      "scaleMultiplier": 2.66
+    },
+    "breedingRecipe": {
+      "parentA": "F_5001",
+      "parentB": "F_5002",
+      "successRate": 0.66
+    }
+  },
+  {
+    "id": "F_5003",
+    "commonName": "毒蛇魚",
+    "scientificName": "Chauliodus sloani",
+    "description": "棲息於幽冥深海的毒蛇魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Common",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 200,
+    "baseSwimSpeed": 18,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#75d958",
+      "glowIntensity": 1.52,
+      "scaleMultiplier": 2.33
+    },
+    "breedingRecipe": {
+      "parentA": "F_5002",
+      "parentB": "F_5002",
+      "successRate": 0.6
+    }
+  },
+  {
+    "id": "F_5004",
+    "commonName": "巨尾魚",
+    "scientificName": "Gigantura chuni",
+    "description": "棲息於幽冥深海的巨尾魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Epic",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 768,
+    "baseSwimSpeed": 29,
+    "baseCoinYield": 27,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#feaa46",
+      "glowIntensity": 0.9,
+      "scaleMultiplier": 1.3
+    },
+    "breedingRecipe": {
+      "parentA": "F_5001",
+      "parentB": "F_5002",
+      "successRate": 0.42
+    }
+  },
+  {
+    "id": "F_5005",
+    "commonName": "三腳架魚",
+    "scientificName": "Bathypterois grallator",
+    "description": "棲息於幽冥深海的三腳架魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Legendary",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 1247,
+    "baseSwimSpeed": 41,
+    "baseCoinYield": 63,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#1431af",
+      "glowIntensity": 0.65,
+      "scaleMultiplier": 1.71
+    },
+    "breedingRecipe": {
+      "parentA": "F_5005",
+      "parentB": "F_5003",
+      "successRate": 0.23
+    }
+  },
+  {
+    "id": "F_5006",
+    "commonName": "帆蜥魚",
+    "scientificName": "Alepisaurus ferox",
+    "description": "棲息於幽冥深海的帆蜥魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Epic",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 776,
+    "baseSwimSpeed": 45,
+    "baseCoinYield": 26,
+    "emojiOrSprite": "🦎",
+    "visualBlueprint": {
+      "baseColor": "#9f38da",
+      "glowIntensity": 1.71,
+      "scaleMultiplier": 1.81
+    },
+    "breedingRecipe": {
+      "parentA": "F_5002",
+      "parentB": "F_5003",
+      "successRate": 0.12
+    }
+  },
+  {
+    "id": "F_5007",
+    "commonName": "大嘴鰻",
+    "scientificName": "Saccopharynx lavenbergi",
+    "description": "棲息於幽冥深海的大嘴鰻。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Rare",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 142,
+    "baseSwimSpeed": 25,
+    "baseCoinYield": 10,
+    "emojiOrSprite": "🐍",
+    "visualBlueprint": {
+      "baseColor": "#f86baf",
+      "glowIntensity": 1.69,
+      "scaleMultiplier": 2.51
+    },
+    "breedingRecipe": {
+      "parentA": "F_5005",
+      "parentB": "F_5003",
+      "successRate": 0.19
+    }
+  },
+  {
+    "id": "F_5008",
+    "commonName": "黑柔骨魚",
+    "scientificName": "Malacosteus niger",
+    "description": "棲息於幽冥深海的黑柔骨魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Rare",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 413,
+    "baseSwimSpeed": 19,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#f2a19e",
+      "glowIntensity": 0.83,
+      "scaleMultiplier": 1.95
+    },
+    "breedingRecipe": {
+      "parentA": "F_5001",
+      "parentB": "F_5004",
+      "successRate": 0.71
+    }
+  },
+  {
+    "id": "F_5009",
+    "commonName": "後肛魚",
+    "scientificName": "Macropinna microstoma",
+    "description": "棲息於幽冥深海的後肛魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Epic",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 674,
+    "baseSwimSpeed": 36,
+    "baseCoinYield": 28,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#19a337",
+      "glowIntensity": 1.5,
+      "scaleMultiplier": 2.7
+    },
+    "breedingRecipe": {
+      "parentA": "F_5008",
+      "parentB": "F_5006",
+      "successRate": 0.33
+    }
+  },
+  {
+    "id": "F_5010",
+    "commonName": "銀斧魚",
+    "scientificName": "Argyropelecus gigas",
+    "description": "棲息於幽冥深海的銀斧魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Uncommon",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 137,
+    "baseSwimSpeed": 30,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🪓",
+    "visualBlueprint": {
+      "baseColor": "#0ad297",
+      "glowIntensity": 1.18,
+      "scaleMultiplier": 1.94
+    },
+    "breedingRecipe": {
+      "parentA": "F_5008",
+      "parentB": "F_5002",
+      "successRate": 0.68
+    }
+  },
+  {
+    "id": "F_5011",
+    "commonName": "深海蜥魚",
+    "scientificName": "Bathysaurus ferox",
+    "description": "棲息於幽冥深海的深海蜥魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Rare",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 242,
+    "baseSwimSpeed": 23,
+    "baseCoinYield": 7,
+    "emojiOrSprite": "🦎",
+    "visualBlueprint": {
+      "baseColor": "#b15c55",
+      "glowIntensity": 1.73,
+      "scaleMultiplier": 1.15
+    },
+    "breedingRecipe": {
+      "parentA": "F_5008",
+      "parentB": "F_5007",
+      "successRate": 0.17
+    }
+  },
+  {
+    "id": "F_5012",
+    "commonName": "深海龍魚",
+    "scientificName": "Grammatostomias flagellibarba",
+    "description": "棲息於幽冥深海的深海龍魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Uncommon",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 234,
+    "baseSwimSpeed": 30,
+    "baseCoinYield": 9,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": {
+      "baseColor": "#4b2dc7",
+      "glowIntensity": 1.29,
+      "scaleMultiplier": 2.14
+    },
+    "breedingRecipe": {
+      "parentA": "F_5004",
+      "parentB": "F_5001",
+      "successRate": 0.62
+    }
+  },
+  {
+    "id": "F_5013",
+    "commonName": "深海鮟鱇",
+    "scientificName": "Linophryne lucifer",
+    "description": "棲息於幽冥深海的深海鮟鱇。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Rare",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 198,
+    "baseSwimSpeed": 29,
+    "baseCoinYield": 9,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#a139b7",
+      "glowIntensity": 1.2,
+      "scaleMultiplier": 2.37
+    },
+    "breedingRecipe": {
+      "parentA": "F_5006",
+      "parentB": "F_5005",
+      "successRate": 0.51
+    }
+  },
+  {
+    "id": "F_5014",
+    "commonName": "短柄鮟鱇",
+    "scientificName": "Thaumatichthys binghami",
+    "description": "棲息於幽冥深海的短柄鮟鱇。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Uncommon",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 491,
+    "baseSwimSpeed": 12,
+    "baseCoinYield": 9,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#f8d598",
+      "glowIntensity": 0.6,
+      "scaleMultiplier": 1.88
+    },
+    "breedingRecipe": {
+      "parentA": "F_5007",
+      "parentB": "F_5002",
+      "successRate": 0.61
+    }
+  },
+  {
+    "id": "F_5015",
+    "commonName": "奇鮟鱇",
+    "scientificName": "Centrophryne spinulosa",
+    "description": "棲息於幽冥深海的奇鮟鱇。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Uncommon",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 428,
+    "baseSwimSpeed": 12,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#14adae",
+      "glowIntensity": 0.7,
+      "scaleMultiplier": 3.41
+    },
+    "breedingRecipe": {
+      "parentA": "F_5013",
+      "parentB": "F_5011",
+      "successRate": 0.67
+    }
+  },
+  {
+    "id": "F_5016",
+    "commonName": "光頭鮟鱇",
+    "scientificName": "Photocorynus spiniceps",
+    "description": "棲息於幽冥深海的光頭鮟鱇。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Epic",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 920,
+    "baseSwimSpeed": 32,
+    "baseCoinYield": 35,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#b8d2d4",
+      "glowIntensity": 1.61,
+      "scaleMultiplier": 2.47
+    },
+    "breedingRecipe": {
+      "parentA": "F_5008",
+      "parentB": "F_5009",
+      "successRate": 0.68
+    }
+  },
+  {
+    "id": "F_5017",
+    "commonName": "鞭冠鮟鱇",
+    "scientificName": "Himantolophus groenlandicus",
+    "description": "棲息於幽冥深海的鞭冠鮟鱇。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Uncommon",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 119,
+    "baseSwimSpeed": 27,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#52887d",
+      "glowIntensity": 1.01,
+      "scaleMultiplier": 2.14
+    },
+    "breedingRecipe": {
+      "parentA": "F_5008",
+      "parentB": "F_5009",
+      "successRate": 0.72
+    }
+  },
+  {
+    "id": "F_5018",
+    "commonName": "角鮟鱇",
+    "scientificName": "Ceratias holboelli",
+    "description": "棲息於幽冥深海的角鮟鱇。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Legendary",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 1160,
+    "baseSwimSpeed": 57,
+    "baseCoinYield": 61,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#c59ab6",
+      "glowIntensity": 1.32,
+      "scaleMultiplier": 2.27
+    },
+    "breedingRecipe": {
+      "parentA": "F_5009",
+      "parentB": "F_5006",
+      "successRate": 0.75
+    }
+  },
+  {
+    "id": "F_5019",
+    "commonName": "長鬚鮟鱇",
+    "scientificName": "Linophryne macrodon",
+    "description": "棲息於幽冥深海的長鬚鮟鱇。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Rare",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 147,
+    "baseSwimSpeed": 29,
+    "baseCoinYield": 15,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#4a72d7",
+      "glowIntensity": 1.82,
+      "scaleMultiplier": 1.78
+    },
+    "breedingRecipe": {
+      "parentA": "F_5009",
+      "parentB": "F_5016",
+      "successRate": 0.6
+    }
+  },
+  {
+    "id": "F_5020",
+    "commonName": "叉齒鱚",
+    "scientificName": "Chiasmodon niger",
+    "description": "棲息於幽冥深海的叉齒鱚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Epic",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 923,
+    "baseSwimSpeed": 36,
+    "baseCoinYield": 35,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#783b75",
+      "glowIntensity": 1.14,
+      "scaleMultiplier": 1.19
+    },
+    "breedingRecipe": {
+      "parentA": "F_5004",
+      "parentB": "F_5002",
+      "successRate": 0.25
+    }
+  },
+  {
+    "id": "F_5021",
+    "commonName": "寬咽魚",
+    "scientificName": "Eurypharynx pelecanoides",
+    "description": "棲息於幽冥深海的寬咽魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Rare",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 231,
+    "baseSwimSpeed": 11,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#930cc8",
+      "glowIntensity": 1.38,
+      "scaleMultiplier": 3.13
+    },
+    "breedingRecipe": {
+      "parentA": "F_5010",
+      "parentB": "F_5010",
+      "successRate": 0.7
+    }
+  },
+  {
+    "id": "F_5022",
+    "commonName": "深海狼牙魚",
+    "scientificName": "Anoplogaster cornuta",
+    "description": "棲息於幽冥深海的深海狼牙魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Uncommon",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 124,
+    "baseSwimSpeed": 12,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#04542e",
+      "glowIntensity": 1.41,
+      "scaleMultiplier": 1.09
+    },
+    "breedingRecipe": {
+      "parentA": "F_5012",
+      "parentB": "F_5017",
+      "successRate": 0.63
+    }
+  },
+  {
+    "id": "F_5023",
+    "commonName": "深海光顎魚",
+    "scientificName": "Malacosteus",
+    "description": "棲息於幽冥深海的深海光顎魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Epic",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 695,
+    "baseSwimSpeed": 31,
+    "baseCoinYield": 25,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#f24997",
+      "glowIntensity": 1.94,
+      "scaleMultiplier": 1.94
+    },
+    "breedingRecipe": {
+      "parentA": "F_5001",
+      "parentB": "F_5003",
+      "successRate": 0.37
+    }
+  },
+  {
+    "id": "F_5024",
+    "commonName": "細尾深海鮟鱇",
+    "scientificName": "Cryptopsaras couesii",
+    "description": "棲息於幽冥深海的細尾深海鮟鱇。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Epic",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 939,
+    "baseSwimSpeed": 33,
+    "baseCoinYield": 35,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#5616ca",
+      "glowIntensity": 1.96,
+      "scaleMultiplier": 1.68
+    },
+    "breedingRecipe": {
+      "parentA": "F_5014",
+      "parentB": "F_5006",
+      "successRate": 0.19
+    }
+  },
+  {
+    "id": "F_5025",
+    "commonName": "惡魔鮟鱇",
+    "scientificName": "Caulophryne pelagica",
+    "description": "棲息於幽冥深海的惡魔鮟鱇。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Uncommon",
+    "category": "深海提燈鮟鱇與巨口怪獸",
+    "hatchStepsRequired": 397,
+    "baseSwimSpeed": 11,
+    "baseCoinYield": 9,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#347c94",
+      "glowIntensity": 1.4,
+      "scaleMultiplier": 1.73
+    },
+    "breedingRecipe": {
+      "parentA": "F_5016",
+      "parentB": "F_5010",
+      "successRate": 0.11
+    }
+  },
+  {
+    "id": "F_5026",
+    "commonName": "吸血鬼烏賊",
+    "scientificName": "Vampyroteuthis infernalis",
+    "description": "棲息於幽冥深海的吸血鬼烏賊。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Epic",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 871,
+    "baseSwimSpeed": 30,
+    "baseCoinYield": 32,
+    "emojiOrSprite": "🦑",
+    "visualBlueprint": {
+      "baseColor": "#a0788a",
+      "glowIntensity": 1.79,
+      "scaleMultiplier": 0.91
+    },
+    "breedingRecipe": {
+      "parentA": "F_5012",
+      "parentB": "F_5009",
+      "successRate": 0.51
+    }
+  },
+  {
+    "id": "F_5027",
+    "commonName": "大王酸漿魷",
+    "scientificName": "Mesonychoteuthis hamiltoni",
+    "description": "棲息於幽冥深海的大王酸漿魷。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Rare",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 158,
+    "baseSwimSpeed": 19,
+    "baseCoinYield": 7,
+    "emojiOrSprite": "🦑",
+    "visualBlueprint": {
+      "baseColor": "#190a32",
+      "glowIntensity": 1.08,
+      "scaleMultiplier": 1.38
+    },
+    "breedingRecipe": {
+      "parentA": "F_5005",
+      "parentB": "F_5023",
+      "successRate": 0.64
+    }
+  },
+  {
+    "id": "F_5028",
+    "commonName": "小飛象章魚",
+    "scientificName": "Grimpoteuthis",
+    "description": "棲息於幽冥深海的小飛象章魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Rare",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 278,
+    "baseSwimSpeed": 28,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🐙",
+    "visualBlueprint": {
+      "baseColor": "#73eaef",
+      "glowIntensity": 1.85,
+      "scaleMultiplier": 2.27
+    },
+    "breedingRecipe": {
+      "parentA": "F_5027",
+      "parentB": "F_5024",
+      "successRate": 0.51
+    }
+  },
+  {
+    "id": "F_5029",
+    "commonName": "發光水母",
+    "scientificName": "Pelagia noctiluca",
+    "description": "棲息於幽冥深海的發光水母。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Epic",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 736,
+    "baseSwimSpeed": 28,
+    "baseCoinYield": 32,
+    "emojiOrSprite": "🪼",
+    "visualBlueprint": {
+      "baseColor": "#297848",
+      "glowIntensity": 0.9,
+      "scaleMultiplier": 1.13
+    },
+    "breedingRecipe": {
+      "parentA": "F_5019",
+      "parentB": "F_5007",
+      "successRate": 0.24
+    }
+  },
+  {
+    "id": "F_5030",
+    "commonName": "冥河水母",
+    "scientificName": "Stygiomedusa gigantea",
+    "description": "棲息於幽冥深海的冥河水母。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Rare",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 390,
+    "baseSwimSpeed": 14,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🪼",
+    "visualBlueprint": {
+      "baseColor": "#d44e00",
+      "glowIntensity": 0.9,
+      "scaleMultiplier": 2.49
+    },
+    "breedingRecipe": {
+      "parentA": "F_5007",
+      "parentB": "F_5030",
+      "successRate": 0.13
+    }
+  },
+  {
+    "id": "F_5031",
+    "commonName": "燈塔水母",
+    "scientificName": "Turritopsis dohrnii",
+    "description": "棲息於幽冥深海的燈塔水母。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Legendary",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 1457,
+    "baseSwimSpeed": 40,
+    "baseCoinYield": 65,
+    "emojiOrSprite": "🪼",
+    "visualBlueprint": {
+      "baseColor": "#2e6b28",
+      "glowIntensity": 1.55,
+      "scaleMultiplier": 3.38
+    },
+    "breedingRecipe": {
+      "parentA": "F_5016",
+      "parentB": "F_5026",
+      "successRate": 0.57
+    }
+  },
+  {
+    "id": "F_5032",
+    "commonName": "皇帶魚",
+    "scientificName": "Regalecus glesne",
+    "description": "棲息於幽冥深海的皇帶魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Uncommon",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 282,
+    "baseSwimSpeed": 29,
+    "baseCoinYield": 9,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": {
+      "baseColor": "#da34d7",
+      "glowIntensity": 0.63,
+      "scaleMultiplier": 3.28
+    },
+    "breedingRecipe": {
+      "parentA": "F_5028",
+      "parentB": "F_5022",
+      "successRate": 0.5
+    }
+  },
+  {
+    "id": "F_5033",
+    "commonName": "玻璃魷魚",
+    "scientificName": "Cranchiidae",
+    "description": "棲息於幽冥深海的玻璃魷魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Rare",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 405,
+    "baseSwimSpeed": 15,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🦑",
+    "visualBlueprint": {
+      "baseColor": "#7a9c79",
+      "glowIntensity": 1.46,
+      "scaleMultiplier": 1.17
+    },
+    "breedingRecipe": {
+      "parentA": "F_5033",
+      "parentB": "F_5029",
+      "successRate": 0.79
+    }
+  },
+  {
+    "id": "F_5034",
+    "commonName": "幽靈蛸",
+    "scientificName": "Vampyromorphida",
+    "description": "棲息於幽冥深海的幽靈蛸。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Uncommon",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 167,
+    "baseSwimSpeed": 21,
+    "baseCoinYield": 7,
+    "emojiOrSprite": "🐙",
+    "visualBlueprint": {
+      "baseColor": "#6e3812",
+      "glowIntensity": 1.81,
+      "scaleMultiplier": 3.16
+    },
+    "breedingRecipe": {
+      "parentA": "F_5010",
+      "parentB": "F_5016",
+      "successRate": 0.39
+    }
+  },
+  {
+    "id": "F_5035",
+    "commonName": "七臂章魚",
+    "scientificName": "Haliphron atlanticus",
+    "description": "棲息於幽冥深海的七臂章魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Epic",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 632,
+    "baseSwimSpeed": 29,
+    "baseCoinYield": 32,
+    "emojiOrSprite": "🐙",
+    "visualBlueprint": {
+      "baseColor": "#9c8120",
+      "glowIntensity": 0.9,
+      "scaleMultiplier": 2.95
+    },
+    "breedingRecipe": {
+      "parentA": "F_5012",
+      "parentB": "F_5009",
+      "successRate": 0.62
+    }
+  },
+  {
+    "id": "F_5036",
+    "commonName": "大王烏賊",
+    "scientificName": "Architeuthis dux",
+    "description": "棲息於幽冥深海的大王烏賊。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Rare",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 166,
+    "baseSwimSpeed": 29,
+    "baseCoinYield": 15,
+    "emojiOrSprite": "🦑",
+    "visualBlueprint": {
+      "baseColor": "#d4d5be",
+      "glowIntensity": 1.78,
+      "scaleMultiplier": 1.7
+    },
+    "breedingRecipe": {
+      "parentA": "F_5033",
+      "parentB": "F_5029",
+      "successRate": 0.12
+    }
+  },
+  {
+    "id": "F_5037",
+    "commonName": "深海管水母",
+    "scientificName": "Siphonophorae",
+    "description": "棲息於幽冥深海的深海管水母。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Uncommon",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 489,
+    "baseSwimSpeed": 20,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🪼",
+    "visualBlueprint": {
+      "baseColor": "#bde26c",
+      "glowIntensity": 0.76,
+      "scaleMultiplier": 2.63
+    },
+    "breedingRecipe": {
+      "parentA": "F_5031",
+      "parentB": "F_5024",
+      "successRate": 0.44
+    }
+  },
+  {
+    "id": "F_5038",
+    "commonName": "鞭腕魷",
+    "scientificName": "Mastigoteuthis",
+    "description": "棲息於幽冥深海的鞭腕魷。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Rare",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 435,
+    "baseSwimSpeed": 19,
+    "baseCoinYield": 12,
+    "emojiOrSprite": "🦑",
+    "visualBlueprint": {
+      "baseColor": "#668dd9",
+      "glowIntensity": 1.0,
+      "scaleMultiplier": 1.5
+    },
+    "breedingRecipe": {
+      "parentA": "F_5021",
+      "parentB": "F_5037",
+      "successRate": 0.43
+    }
+  },
+  {
+    "id": "F_5039",
+    "commonName": "發光微鰭烏賊",
+    "scientificName": "Euprymna scolopes",
+    "description": "棲息於幽冥深海的發光微鰭烏賊。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Common",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 131,
+    "baseSwimSpeed": 23,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🦑",
+    "visualBlueprint": {
+      "baseColor": "#fe1488",
+      "glowIntensity": 1.36,
+      "scaleMultiplier": 3.16
+    },
+    "breedingRecipe": {
+      "parentA": "F_5013",
+      "parentB": "F_5011",
+      "successRate": 0.8
+    }
+  },
+  {
+    "id": "F_5040",
+    "commonName": "巨型管水母",
+    "scientificName": "Praya dubia",
+    "description": "棲息於幽冥深海的巨型管水母。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Epic",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 633,
+    "baseSwimSpeed": 34,
+    "baseCoinYield": 25,
+    "emojiOrSprite": "🪼",
+    "visualBlueprint": {
+      "baseColor": "#635063",
+      "glowIntensity": 1.59,
+      "scaleMultiplier": 2.31
+    },
+    "breedingRecipe": {
+      "parentA": "F_5005",
+      "parentB": "F_5005",
+      "successRate": 0.35
+    }
+  },
+  {
+    "id": "F_5041",
+    "commonName": "深海栉水母",
+    "scientificName": "Beroe gracilis",
+    "description": "棲息於幽冥深海的深海栉水母。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Common",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 407,
+    "baseSwimSpeed": 14,
+    "baseCoinYield": 15,
+    "emojiOrSprite": "🪼",
+    "visualBlueprint": {
+      "baseColor": "#fb66d5",
+      "glowIntensity": 1.2,
+      "scaleMultiplier": 2.53
+    },
+    "breedingRecipe": {
+      "parentA": "F_5011",
+      "parentB": "F_5012",
+      "successRate": 0.6
+    }
+  },
+  {
+    "id": "F_5042",
+    "commonName": "血腹櫛水母",
+    "scientificName": "Lampocteis cruentiventer",
+    "description": "棲息於幽冥深海的血腹櫛水母。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Uncommon",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 210,
+    "baseSwimSpeed": 22,
+    "baseCoinYield": 12,
+    "emojiOrSprite": "🪼",
+    "visualBlueprint": {
+      "baseColor": "#d61f1a",
+      "glowIntensity": 1.0,
+      "scaleMultiplier": 3.08
+    },
+    "breedingRecipe": {
+      "parentA": "F_5038",
+      "parentB": "F_5025",
+      "successRate": 0.77
+    }
+  },
+  {
+    "id": "F_5043",
+    "commonName": "紅煙囪水母",
+    "scientificName": "Crossota millsae",
+    "description": "棲息於幽冥深海的紅煙囪水母。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Mythic",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 2425,
+    "baseSwimSpeed": 74,
+    "baseCoinYield": 105,
+    "emojiOrSprite": "🪼",
+    "visualBlueprint": {
+      "baseColor": "#de3e56",
+      "glowIntensity": 1.67,
+      "scaleMultiplier": 1.65
+    },
+    "breedingRecipe": {
+      "parentA": "F_5004",
+      "parentB": "F_5004",
+      "successRate": 0.72
+    }
+  },
+  {
+    "id": "F_5044",
+    "commonName": "異形水母",
+    "scientificName": "Deepstaria enigmatica",
+    "description": "棲息於幽冥深海的異形水母。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Uncommon",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 108,
+    "baseSwimSpeed": 18,
+    "baseCoinYield": 14,
+    "emojiOrSprite": "🪼",
+    "visualBlueprint": {
+      "baseColor": "#894464",
+      "glowIntensity": 0.58,
+      "scaleMultiplier": 1.91
+    },
+    "breedingRecipe": {
+      "parentA": "F_5002",
+      "parentB": "F_5023",
+      "successRate": 0.63
+    }
+  },
+  {
+    "id": "F_5045",
+    "commonName": "盔水母",
+    "scientificName": "Periphylla periphylla",
+    "description": "棲息於幽冥深海的盔水母。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Uncommon",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 385,
+    "baseSwimSpeed": 16,
+    "baseCoinYield": 10,
+    "emojiOrSprite": "🪼",
+    "visualBlueprint": {
+      "baseColor": "#70dc4a",
+      "glowIntensity": 1.66,
+      "scaleMultiplier": 1.31
+    },
+    "breedingRecipe": {
+      "parentA": "F_5044",
+      "parentB": "F_5007",
+      "successRate": 0.38
+    }
+  },
+  {
+    "id": "F_5046",
+    "commonName": "無眼章魚",
+    "scientificName": "Cirrothauma murrayi",
+    "description": "棲息於幽冥深海的無眼章魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Epic",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 928,
+    "baseSwimSpeed": 26,
+    "baseCoinYield": 34,
+    "emojiOrSprite": "🐙",
+    "visualBlueprint": {
+      "baseColor": "#3c195c",
+      "glowIntensity": 1.71,
+      "scaleMultiplier": 3.37
+    },
+    "breedingRecipe": {
+      "parentA": "F_5028",
+      "parentB": "F_5031",
+      "successRate": 0.13
+    }
+  },
+  {
+    "id": "F_5047",
+    "commonName": "玻璃章魚",
+    "scientificName": "Vitreledonella richardi",
+    "description": "棲息於幽冥深海的玻璃章魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Legendary",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 1117,
+    "baseSwimSpeed": 54,
+    "baseCoinYield": 60,
+    "emojiOrSprite": "🐙",
+    "visualBlueprint": {
+      "baseColor": "#8ac932",
+      "glowIntensity": 1.89,
+      "scaleMultiplier": 1.14
+    },
+    "breedingRecipe": {
+      "parentA": "F_5017",
+      "parentB": "F_5033",
+      "successRate": 0.32
+    }
+  },
+  {
+    "id": "F_5048",
+    "commonName": "望遠鏡章魚",
+    "scientificName": "Amphitretus pelagicus",
+    "description": "棲息於幽冥深海的望遠鏡章魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Uncommon",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 306,
+    "baseSwimSpeed": 21,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🐙",
+    "visualBlueprint": {
+      "baseColor": "#dd7494",
+      "glowIntensity": 0.76,
+      "scaleMultiplier": 2.6
+    },
+    "breedingRecipe": {
+      "parentA": "F_5034",
+      "parentB": "F_5015",
+      "successRate": 0.73
+    }
+  },
+  {
+    "id": "F_5049",
+    "commonName": "深海毯子章魚",
+    "scientificName": "Tremoctopus",
+    "description": "棲息於幽冥深海的深海毯子章魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Epic",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 619,
+    "baseSwimSpeed": 36,
+    "baseCoinYield": 28,
+    "emojiOrSprite": "🐙",
+    "visualBlueprint": {
+      "baseColor": "#2fa7f3",
+      "glowIntensity": 1.53,
+      "scaleMultiplier": 3.49
+    },
+    "breedingRecipe": {
+      "parentA": "F_5039",
+      "parentB": "F_5017",
+      "successRate": 0.9
+    }
+  },
+  {
+    "id": "F_5050",
+    "commonName": "深淵幽靈魚",
+    "scientificName": "Opisthoproctus soleatus",
+    "description": "棲息於幽冥深海的深淵幽靈魚。其獨特的發光器官能在永夜中閃爍。",
+    "rarity": "Uncommon",
+    "category": "深淵頭足綱與膠質幽靈",
+    "hatchStepsRequired": 399,
+    "baseSwimSpeed": 21,
+    "baseCoinYield": 9,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#c2ff38",
+      "glowIntensity": 0.75,
+      "scaleMultiplier": 2.9
+    },
+    "breedingRecipe": {
+      "parentA": "F_5028",
+      "parentB": "F_5008",
+      "successRate": 0.63
+    }
+  },
+  {
+    "id": "F_5051",
+    "commonName": "巨型管蟲",
+    "scientificName": "Riftia pachyptila",
+    "description": "棲息於幽冥深海的巨型管蟲。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 168,
+    "baseSwimSpeed": 29,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🪱",
+    "visualBlueprint": {
+      "baseColor": "#be82c4",
+      "glowIntensity": 1.53,
+      "scaleMultiplier": 2.23
+    },
+    "breedingRecipe": {
+      "parentA": "F_5011",
+      "parentB": "F_5004",
+      "successRate": 0.17
+    }
+  },
+  {
+    "id": "F_5052",
+    "commonName": "雪人蟹",
+    "scientificName": "Kiwa hirsuta",
+    "description": "棲息於幽冥深海的雪人蟹。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 217,
+    "baseSwimSpeed": 21,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🦀",
+    "visualBlueprint": {
+      "baseColor": "#afffc3",
+      "glowIntensity": 0.99,
+      "scaleMultiplier": 2.32
+    },
+    "breedingRecipe": {
+      "parentA": "F_5005",
+      "parentB": "F_5037",
+      "successRate": 0.25
+    }
+  },
+  {
+    "id": "F_5053",
+    "commonName": "黃鐵礦鐵甲螺",
+    "scientificName": "Chrysomallon squamiferum",
+    "description": "棲息於幽冥深海的黃鐵礦鐵甲螺。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Uncommon",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 237,
+    "baseSwimSpeed": 26,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🐌",
+    "visualBlueprint": {
+      "baseColor": "#1961db",
+      "glowIntensity": 0.98,
+      "scaleMultiplier": 2.61
+    },
+    "breedingRecipe": {
+      "parentA": "F_5017",
+      "parentB": "F_5034",
+      "successRate": 0.17
+    }
+  },
+  {
+    "id": "F_5054",
+    "commonName": "熱感盲蝦",
+    "scientificName": "Rimicaris exoculata",
+    "description": "棲息於幽冥深海的熱感盲蝦。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Uncommon",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 457,
+    "baseSwimSpeed": 18,
+    "baseCoinYield": 7,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": {
+      "baseColor": "#3425cc",
+      "glowIntensity": 0.64,
+      "scaleMultiplier": 3.29
+    },
+    "breedingRecipe": {
+      "parentA": "F_5041",
+      "parentB": "F_5016",
+      "successRate": 0.15
+    }
+  },
+  {
+    "id": "F_5055",
+    "commonName": "龐貝蠕蟲",
+    "scientificName": "Alvinella pompejana",
+    "description": "棲息於幽冥深海的龐貝蠕蟲。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Uncommon",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 147,
+    "baseSwimSpeed": 29,
+    "baseCoinYield": 9,
+    "emojiOrSprite": "🪱",
+    "visualBlueprint": {
+      "baseColor": "#5b5ca3",
+      "glowIntensity": 1.39,
+      "scaleMultiplier": 3.25
+    },
+    "breedingRecipe": {
+      "parentA": "F_5016",
+      "parentB": "F_5024",
+      "successRate": 0.78
+    }
+  },
+  {
+    "id": "F_5056",
+    "commonName": "熔岩海葵",
+    "scientificName": "Alvinactis",
+    "description": "棲息於幽冥深海的熔岩海葵。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Uncommon",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 398,
+    "baseSwimSpeed": 28,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🌸",
+    "visualBlueprint": {
+      "baseColor": "#ae3f3c",
+      "glowIntensity": 0.75,
+      "scaleMultiplier": 3.15
+    },
+    "breedingRecipe": {
+      "parentA": "F_5034",
+      "parentB": "F_5046",
+      "successRate": 0.68
+    }
+  },
+  {
+    "id": "F_5057",
+    "commonName": "硫化菌毛蟹",
+    "scientificName": "Kiwa puravida",
+    "description": "棲息於幽冥深海的硫化菌毛蟹。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 376,
+    "baseSwimSpeed": 16,
+    "baseCoinYield": 12,
+    "emojiOrSprite": "🦀",
+    "visualBlueprint": {
+      "baseColor": "#8667f0",
+      "glowIntensity": 1.31,
+      "scaleMultiplier": 3.44
+    },
+    "breedingRecipe": {
+      "parentA": "F_5017",
+      "parentB": "F_5012",
+      "successRate": 0.33
+    }
+  },
+  {
+    "id": "F_5058",
+    "commonName": "火山口盲魚",
+    "scientificName": "Thermarces cerberus",
+    "description": "棲息於幽冥深海的火山口盲魚。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Epic",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 732,
+    "baseSwimSpeed": 27,
+    "baseCoinYield": 26,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#c5747c",
+      "glowIntensity": 1.74,
+      "scaleMultiplier": 1.08
+    },
+    "breedingRecipe": {
+      "parentA": "F_5034",
+      "parentB": "F_5058",
+      "successRate": 0.76
+    }
+  },
+  {
+    "id": "F_5059",
+    "commonName": "深淵多毛類",
+    "scientificName": "Polychaeta",
+    "description": "棲息於幽冥深海的深淵多毛類。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 127,
+    "baseSwimSpeed": 23,
+    "baseCoinYield": 13,
+    "emojiOrSprite": "🪱",
+    "visualBlueprint": {
+      "baseColor": "#ab4097",
+      "glowIntensity": 0.71,
+      "scaleMultiplier": 3.26
+    },
+    "breedingRecipe": {
+      "parentA": "F_5030",
+      "parentB": "F_5008",
+      "successRate": 0.15
+    }
+  },
+  {
+    "id": "F_5060",
+    "commonName": "白瓷蟹",
+    "scientificName": "Shinkaia crosnieri",
+    "description": "棲息於幽冥深海的白瓷蟹。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Legendary",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 1168,
+    "baseSwimSpeed": 60,
+    "baseCoinYield": 61,
+    "emojiOrSprite": "🦀",
+    "visualBlueprint": {
+      "baseColor": "#593b27",
+      "glowIntensity": 1.03,
+      "scaleMultiplier": 1.16
+    },
+    "breedingRecipe": {
+      "parentA": "F_5039",
+      "parentB": "F_5024",
+      "successRate": 0.3
+    }
+  },
+  {
+    "id": "F_5061",
+    "commonName": "噴口貽貝",
+    "scientificName": "Bathymodiolus thermophilus",
+    "description": "棲息於幽冥深海的噴口貽貝。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Uncommon",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 400,
+    "baseSwimSpeed": 21,
+    "baseCoinYield": 12,
+    "emojiOrSprite": "🦪",
+    "visualBlueprint": {
+      "baseColor": "#c68278",
+      "glowIntensity": 1.65,
+      "scaleMultiplier": 2.36
+    },
+    "breedingRecipe": {
+      "parentA": "F_5026",
+      "parentB": "F_5053",
+      "successRate": 0.52
+    }
+  },
+  {
+    "id": "F_5062",
+    "commonName": "白瓜貝",
+    "scientificName": "Calyptogena magnifica",
+    "description": "棲息於幽冥深海的白瓜貝。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 352,
+    "baseSwimSpeed": 15,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🦪",
+    "visualBlueprint": {
+      "baseColor": "#150d0b",
+      "glowIntensity": 1.12,
+      "scaleMultiplier": 3.02
+    },
+    "breedingRecipe": {
+      "parentA": "F_5029",
+      "parentB": "F_5055",
+      "successRate": 0.43
+    }
+  },
+  {
+    "id": "F_5063",
+    "commonName": "熱液藤壺",
+    "scientificName": "Neolepas zevinae",
+    "description": "棲息於幽冥深海的熱液藤壺。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 278,
+    "baseSwimSpeed": 29,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🌋",
+    "visualBlueprint": {
+      "baseColor": "#11d455",
+      "glowIntensity": 0.53,
+      "scaleMultiplier": 1.36
+    },
+    "breedingRecipe": {
+      "parentA": "F_5003",
+      "parentB": "F_5057",
+      "successRate": 0.44
+    }
+  },
+  {
+    "id": "F_5064",
+    "commonName": "黑煙囪海星",
+    "scientificName": "Paulasterias",
+    "description": "棲息於幽冥深海的黑煙囪海星。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 280,
+    "baseSwimSpeed": 17,
+    "baseCoinYield": 15,
+    "emojiOrSprite": "⭐",
+    "visualBlueprint": {
+      "baseColor": "#9e5bcc",
+      "glowIntensity": 0.85,
+      "scaleMultiplier": 1.2
+    },
+    "breedingRecipe": {
+      "parentA": "F_5045",
+      "parentB": "F_5044",
+      "successRate": 0.35
+    }
+  },
+  {
+    "id": "F_5065",
+    "commonName": "熱液海百合",
+    "scientificName": "Crinoidea",
+    "description": "棲息於幽冥深海的熱液海百合。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Uncommon",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 485,
+    "baseSwimSpeed": 22,
+    "baseCoinYield": 15,
+    "emojiOrSprite": "🌸",
+    "visualBlueprint": {
+      "baseColor": "#cf1b08",
+      "glowIntensity": 1.88,
+      "scaleMultiplier": 0.8
+    },
+    "breedingRecipe": {
+      "parentA": "F_5065",
+      "parentB": "F_5013",
+      "successRate": 0.5
+    }
+  },
+  {
+    "id": "F_5066",
+    "commonName": "盲眼鎧甲蝦",
+    "scientificName": "Munidopsis",
+    "description": "棲息於幽冥深海的盲眼鎧甲蝦。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Uncommon",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 401,
+    "baseSwimSpeed": 16,
+    "baseCoinYield": 10,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": {
+      "baseColor": "#8a170a",
+      "glowIntensity": 1.42,
+      "scaleMultiplier": 3.47
+    },
+    "breedingRecipe": {
+      "parentA": "F_5047",
+      "parentB": "F_5003",
+      "successRate": 0.42
+    }
+  },
+  {
+    "id": "F_5067",
+    "commonName": "噴口海蜘蛛",
+    "scientificName": "Sericosura",
+    "description": "棲息於幽冥深海的噴口海蜘蛛。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Epic",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 949,
+    "baseSwimSpeed": 25,
+    "baseCoinYield": 30,
+    "emojiOrSprite": "🕷️",
+    "visualBlueprint": {
+      "baseColor": "#04ed09",
+      "glowIntensity": 1.55,
+      "scaleMultiplier": 2.82
+    },
+    "breedingRecipe": {
+      "parentA": "F_5008",
+      "parentB": "F_5007",
+      "successRate": 0.36
+    }
+  },
+  {
+    "id": "F_5068",
+    "commonName": "熱液線蟲",
+    "scientificName": "Oncholaimus",
+    "description": "棲息於幽冥深海的熱液線蟲。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 160,
+    "baseSwimSpeed": 24,
+    "baseCoinYield": 12,
+    "emojiOrSprite": "🪱",
+    "visualBlueprint": {
+      "baseColor": "#971851",
+      "glowIntensity": 0.76,
+      "scaleMultiplier": 2.71
+    },
+    "breedingRecipe": {
+      "parentA": "F_5042",
+      "parentB": "F_5068",
+      "successRate": 0.39
+    }
+  },
+  {
+    "id": "F_5069",
+    "commonName": "硫磺細菌毯",
+    "scientificName": "Thioploca",
+    "description": "棲息於幽冥深海的硫磺細菌毯。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Epic",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 624,
+    "baseSwimSpeed": 28,
+    "baseCoinYield": 35,
+    "emojiOrSprite": "🦠",
+    "visualBlueprint": {
+      "baseColor": "#a52841",
+      "glowIntensity": 1.21,
+      "scaleMultiplier": 1.06
+    },
+    "breedingRecipe": {
+      "parentA": "F_5055",
+      "parentB": "F_5005",
+      "successRate": 0.66
+    }
+  },
+  {
+    "id": "F_5070",
+    "commonName": "熱液章魚",
+    "scientificName": "Vulcanoctopus hydrothermalis",
+    "description": "棲息於幽冥深海的熱液章魚。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 239,
+    "baseSwimSpeed": 19,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🐙",
+    "visualBlueprint": {
+      "baseColor": "#26745d",
+      "glowIntensity": 1.48,
+      "scaleMultiplier": 2.29
+    },
+    "breedingRecipe": {
+      "parentA": "F_5016",
+      "parentB": "F_5044",
+      "successRate": 0.27
+    }
+  },
+  {
+    "id": "F_5071",
+    "commonName": "深海鎧甲蝦",
+    "scientificName": "Galatheidae",
+    "description": "棲息於幽冥深海的深海鎧甲蝦。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Epic",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 685,
+    "baseSwimSpeed": 35,
+    "baseCoinYield": 32,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": {
+      "baseColor": "#67032e",
+      "glowIntensity": 1.98,
+      "scaleMultiplier": 1.01
+    },
+    "breedingRecipe": {
+      "parentA": "F_5045",
+      "parentB": "F_5020",
+      "successRate": 0.36
+    }
+  },
+  {
+    "id": "F_5072",
+    "commonName": "噴口海蝸牛",
+    "scientificName": "Ifremeria nautilei",
+    "description": "棲息於幽冥深海的噴口海蝸牛。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Epic",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 878,
+    "baseSwimSpeed": 37,
+    "baseCoinYield": 28,
+    "emojiOrSprite": "🐌",
+    "visualBlueprint": {
+      "baseColor": "#0be38b",
+      "glowIntensity": 0.97,
+      "scaleMultiplier": 2.91
+    },
+    "breedingRecipe": {
+      "parentA": "F_5014",
+      "parentB": "F_5054",
+      "successRate": 0.3
+    }
+  },
+  {
+    "id": "F_5073",
+    "commonName": "火山口海蛞蝓",
+    "scientificName": "Nudibranchia",
+    "description": "棲息於幽冥深海的火山口海蛞蝓。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 306,
+    "baseSwimSpeed": 19,
+    "baseCoinYield": 7,
+    "emojiOrSprite": "🐌",
+    "visualBlueprint": {
+      "baseColor": "#e4b19c",
+      "glowIntensity": 0.99,
+      "scaleMultiplier": 2.14
+    },
+    "breedingRecipe": {
+      "parentA": "F_5051",
+      "parentB": "F_5051",
+      "successRate": 0.83
+    }
+  },
+  {
+    "id": "F_5074",
+    "commonName": "高溫熱液蟲",
+    "scientificName": "Paralvinella",
+    "description": "棲息於幽冥深海的高溫熱液蟲。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Epic",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 761,
+    "baseSwimSpeed": 45,
+    "baseCoinYield": 27,
+    "emojiOrSprite": "🪱",
+    "visualBlueprint": {
+      "baseColor": "#6793c0",
+      "glowIntensity": 1.82,
+      "scaleMultiplier": 3.15
+    },
+    "breedingRecipe": {
+      "parentA": "F_5024",
+      "parentB": "F_5044",
+      "successRate": 0.14
+    }
+  },
+  {
+    "id": "F_5075",
+    "commonName": "鐵鱗蝸牛",
+    "scientificName": "Scaly-foot gastropod",
+    "description": "棲息於幽冥深海的鐵鱗蝸牛。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Legendary",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 1458,
+    "baseSwimSpeed": 54,
+    "baseCoinYield": 63,
+    "emojiOrSprite": "🐌",
+    "visualBlueprint": {
+      "baseColor": "#6c268f",
+      "glowIntensity": 0.54,
+      "scaleMultiplier": 2.76
+    },
+    "breedingRecipe": {
+      "parentA": "F_5069",
+      "parentB": "F_5061",
+      "successRate": 0.41
+    }
+  },
+  {
+    "id": "F_5076",
+    "commonName": "大王具足蟲",
+    "scientificName": "Bathynomus giganteus",
+    "description": "棲息於幽冥深海的大王具足蟲。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Epic",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 899,
+    "baseSwimSpeed": 45,
+    "baseCoinYield": 26,
+    "emojiOrSprite": "🪲",
+    "visualBlueprint": {
+      "baseColor": "#ea5476",
+      "glowIntensity": 0.92,
+      "scaleMultiplier": 1.44
+    },
+    "breedingRecipe": {
+      "parentA": "F_5013",
+      "parentB": "F_5037",
+      "successRate": 0.47
+    }
+  },
+  {
+    "id": "F_5077",
+    "commonName": "深海盲鰻",
+    "scientificName": "Myxini",
+    "description": "棲息於幽冥深海的深海盲鰻。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Uncommon",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 329,
+    "baseSwimSpeed": 24,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🐍",
+    "visualBlueprint": {
+      "baseColor": "#117ced",
+      "glowIntensity": 0.74,
+      "scaleMultiplier": 2.36
+    },
+    "breedingRecipe": {
+      "parentA": "F_5043",
+      "parentB": "F_5074",
+      "successRate": 0.3
+    }
+  },
+  {
+    "id": "F_5078",
+    "commonName": "皺鰓鯊",
+    "scientificName": "Chlamydoselachus anguineus",
+    "description": "棲息於幽冥深海的皺鰓鯊。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Common",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 348,
+    "baseSwimSpeed": 18,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": {
+      "baseColor": "#d88af1",
+      "glowIntensity": 0.65,
+      "scaleMultiplier": 2.41
+    },
+    "breedingRecipe": {
+      "parentA": "F_5029",
+      "parentB": "F_5077",
+      "successRate": 0.84
+    }
+  },
+  {
+    "id": "F_5079",
+    "commonName": "歐氏尖吻鮫",
+    "scientificName": "Mitsukurina owstoni",
+    "description": "棲息於幽冥深海的歐氏尖吻鮫。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Legendary",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 1121,
+    "baseSwimSpeed": 57,
+    "baseCoinYield": 59,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": {
+      "baseColor": "#af313c",
+      "glowIntensity": 0.78,
+      "scaleMultiplier": 1.66
+    },
+    "breedingRecipe": {
+      "parentA": "F_5036",
+      "parentB": "F_5063",
+      "successRate": 0.42
+    }
+  },
+  {
+    "id": "F_5080",
+    "commonName": "深海怪蟹",
+    "scientificName": "Chaceon",
+    "description": "棲息於幽冥深海的深海怪蟹。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 125,
+    "baseSwimSpeed": 21,
+    "baseCoinYield": 14,
+    "emojiOrSprite": "🦀",
+    "visualBlueprint": {
+      "baseColor": "#c27c30",
+      "glowIntensity": 1.06,
+      "scaleMultiplier": 2.61
+    },
+    "breedingRecipe": {
+      "parentA": "F_5070",
+      "parentB": "F_5074",
+      "successRate": 0.33
+    }
+  },
+  {
+    "id": "F_5081",
+    "commonName": "深海海綿花籃",
+    "scientificName": "Euplectella aspergillum",
+    "description": "棲息於幽冥深海的深海海綿花籃。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Legendary",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 1357,
+    "baseSwimSpeed": 40,
+    "baseCoinYield": 63,
+    "emojiOrSprite": "🧽",
+    "visualBlueprint": {
+      "baseColor": "#afc162",
+      "glowIntensity": 1.41,
+      "scaleMultiplier": 1.6
+    },
+    "breedingRecipe": {
+      "parentA": "F_5081",
+      "parentB": "F_5024",
+      "successRate": 0.22
+    }
+  },
+  {
+    "id": "F_5082",
+    "commonName": "深海幽靈鯊",
+    "scientificName": "Chimaeriformes",
+    "description": "棲息於幽冥深海的深海幽靈鯊。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 156,
+    "baseSwimSpeed": 22,
+    "baseCoinYield": 13,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": {
+      "baseColor": "#b7e19c",
+      "glowIntensity": 0.82,
+      "scaleMultiplier": 1.75
+    },
+    "breedingRecipe": {
+      "parentA": "F_5020",
+      "parentB": "F_5014",
+      "successRate": 0.73
+    }
+  },
+  {
+    "id": "F_5083",
+    "commonName": "幽靈海蜘蛛",
+    "scientificName": "Colossendeis colossea",
+    "description": "棲息於幽冥深海的幽靈海蜘蛛。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Common",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 453,
+    "baseSwimSpeed": 19,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🕷️",
+    "visualBlueprint": {
+      "baseColor": "#43f770",
+      "glowIntensity": 1.25,
+      "scaleMultiplier": 1.54
+    },
+    "breedingRecipe": {
+      "parentA": "F_5031",
+      "parentB": "F_5030",
+      "successRate": 0.29
+    }
+  },
+  {
+    "id": "F_5084",
+    "commonName": "巨型端足蟲",
+    "scientificName": "Alicella gigantea",
+    "description": "棲息於幽冥深海的巨型端足蟲。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 394,
+    "baseSwimSpeed": 30,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": {
+      "baseColor": "#4e0cec",
+      "glowIntensity": 1.2,
+      "scaleMultiplier": 1.6
+    },
+    "breedingRecipe": {
+      "parentA": "F_5007",
+      "parentB": "F_5067",
+      "successRate": 0.54
+    }
+  },
+  {
+    "id": "F_5085",
+    "commonName": "盲眼龍蝦",
+    "scientificName": "Dinochelus ausubeli",
+    "description": "棲息於幽冥深海的盲眼龍蝦。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 389,
+    "baseSwimSpeed": 29,
+    "baseCoinYield": 9,
+    "emojiOrSprite": "🦞",
+    "visualBlueprint": {
+      "baseColor": "#11dde6",
+      "glowIntensity": 1.7,
+      "scaleMultiplier": 3.14
+    },
+    "breedingRecipe": {
+      "parentA": "F_5069",
+      "parentB": "F_5010",
+      "successRate": 0.78
+    }
+  },
+  {
+    "id": "F_5086",
+    "commonName": "深淵海參",
+    "scientificName": "Scotoplanes globosa",
+    "description": "棲息於幽冥深海的深淵海參。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Uncommon",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 466,
+    "baseSwimSpeed": 19,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🥒",
+    "visualBlueprint": {
+      "baseColor": "#4223d1",
+      "glowIntensity": 0.69,
+      "scaleMultiplier": 2.07
+    },
+    "breedingRecipe": {
+      "parentA": "F_5083",
+      "parentB": "F_5070",
+      "successRate": 0.11
+    }
+  },
+  {
+    "id": "F_5087",
+    "commonName": "深海海膽",
+    "scientificName": "Echinoidea",
+    "description": "棲息於幽冥深海的深海海膽。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Common",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 331,
+    "baseSwimSpeed": 14,
+    "baseCoinYield": 12,
+    "emojiOrSprite": "🌰",
+    "visualBlueprint": {
+      "baseColor": "#d15a7b",
+      "glowIntensity": 1.1,
+      "scaleMultiplier": 2.06
+    },
+    "breedingRecipe": {
+      "parentA": "F_5011",
+      "parentB": "F_5055",
+      "successRate": 0.78
+    }
+  },
+  {
+    "id": "F_5088",
+    "commonName": "鎧甲弓背蟲",
+    "scientificName": "Armadillidium",
+    "description": "棲息於幽冥深海的鎧甲弓背蟲。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Uncommon",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 108,
+    "baseSwimSpeed": 16,
+    "baseCoinYield": 10,
+    "emojiOrSprite": "🪲",
+    "visualBlueprint": {
+      "baseColor": "#65c5f6",
+      "glowIntensity": 0.58,
+      "scaleMultiplier": 3.42
+    },
+    "breedingRecipe": {
+      "parentA": "F_5079",
+      "parentB": "F_5019",
+      "successRate": 0.42
+    }
+  },
+  {
+    "id": "F_5089",
+    "commonName": "巨型海蜘蛛",
+    "scientificName": "Pycnogonida",
+    "description": "棲息於幽冥深海的巨型海蜘蛛。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Common",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 461,
+    "baseSwimSpeed": 29,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🕷️",
+    "visualBlueprint": {
+      "baseColor": "#33dbc1",
+      "glowIntensity": 0.96,
+      "scaleMultiplier": 0.94
+    },
+    "breedingRecipe": {
+      "parentA": "F_5034",
+      "parentB": "F_5029",
+      "successRate": 0.84
+    }
+  },
+  {
+    "id": "F_5090",
+    "commonName": "深海異尾蟹",
+    "scientificName": "Anomura",
+    "description": "棲息於幽冥深海的深海異尾蟹。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Common",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 192,
+    "baseSwimSpeed": 16,
+    "baseCoinYield": 10,
+    "emojiOrSprite": "🦀",
+    "visualBlueprint": {
+      "baseColor": "#d776c8",
+      "glowIntensity": 1.69,
+      "scaleMultiplier": 3.03
+    },
+    "breedingRecipe": {
+      "parentA": "F_5053",
+      "parentB": "F_5066",
+      "successRate": 0.52
+    }
+  },
+  {
+    "id": "F_5091",
+    "commonName": "深淵鎧甲蝦",
+    "scientificName": "Munida",
+    "description": "棲息於幽冥深海的深淵鎧甲蝦。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Common",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 129,
+    "baseSwimSpeed": 18,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": {
+      "baseColor": "#622d76",
+      "glowIntensity": 1.92,
+      "scaleMultiplier": 1.03
+    },
+    "breedingRecipe": {
+      "parentA": "F_5044",
+      "parentB": "F_5053",
+      "successRate": 0.44
+    }
+  },
+  {
+    "id": "F_5092",
+    "commonName": "馬里亞納獅子魚",
+    "scientificName": "Pseudoliparis swirei",
+    "description": "棲息於幽冥深海的馬里亞納獅子魚。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Legendary",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 1414,
+    "baseSwimSpeed": 47,
+    "baseCoinYield": 62,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#09772d",
+      "glowIntensity": 1.65,
+      "scaleMultiplier": 1.05
+    },
+    "breedingRecipe": {
+      "parentA": "F_5081",
+      "parentB": "F_5085",
+      "successRate": 0.43
+    }
+  },
+  {
+    "id": "F_5093",
+    "commonName": "無面魚",
+    "scientificName": "Typhlonus nasus",
+    "description": "棲息於幽冥深海的無面魚。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 189,
+    "baseSwimSpeed": 21,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#6a1615",
+      "glowIntensity": 0.73,
+      "scaleMultiplier": 3.33
+    },
+    "breedingRecipe": {
+      "parentA": "F_5073",
+      "parentB": "F_5003",
+      "successRate": 0.7
+    }
+  },
+  {
+    "id": "F_5094",
+    "commonName": "深海狗母魚",
+    "scientificName": "Bathypterois",
+    "description": "棲息於幽冥深海的深海狗母魚。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 197,
+    "baseSwimSpeed": 23,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#eba3ef",
+      "glowIntensity": 1.92,
+      "scaleMultiplier": 2.56
+    },
+    "breedingRecipe": {
+      "parentA": "F_5092",
+      "parentB": "F_5011",
+      "successRate": 0.83
+    }
+  },
+  {
+    "id": "F_5095",
+    "commonName": "深淵海蛇尾",
+    "scientificName": "Ophiuroidea",
+    "description": "棲息於幽冥深海的深淵海蛇尾。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 377,
+    "baseSwimSpeed": 26,
+    "baseCoinYield": 10,
+    "emojiOrSprite": "⭐",
+    "visualBlueprint": {
+      "baseColor": "#942de6",
+      "glowIntensity": 0.69,
+      "scaleMultiplier": 1.09
+    },
+    "breedingRecipe": {
+      "parentA": "F_5069",
+      "parentB": "F_5015",
+      "successRate": 0.44
+    }
+  },
+  {
+    "id": "F_5096",
+    "commonName": "食骨蠕蟲",
+    "scientificName": "Osedax",
+    "description": "棲息於幽冥深海的食骨蠕蟲。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Rare",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 414,
+    "baseSwimSpeed": 28,
+    "baseCoinYield": 13,
+    "emojiOrSprite": "🪱",
+    "visualBlueprint": {
+      "baseColor": "#199511",
+      "glowIntensity": 0.61,
+      "scaleMultiplier": 3.1
+    },
+    "breedingRecipe": {
+      "parentA": "F_5036",
+      "parentB": "F_5046",
+      "successRate": 0.59
+    }
+  },
+  {
+    "id": "F_5097",
+    "commonName": "盲眼鼬魚",
+    "scientificName": "Brotulidae",
+    "description": "棲息於幽冥深海的盲眼鼬魚。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Epic",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 801,
+    "baseSwimSpeed": 37,
+    "baseCoinYield": 34,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#ebc43c",
+      "glowIntensity": 1.54,
+      "scaleMultiplier": 2.83
+    },
+    "breedingRecipe": {
+      "parentA": "F_5032",
+      "parentB": "F_5055",
+      "successRate": 0.71
+    }
+  },
+  {
+    "id": "F_5098",
+    "commonName": "管狀海綿",
+    "scientificName": "Porifera",
+    "description": "棲息於幽冥深海的管狀海綿。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Common",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 254,
+    "baseSwimSpeed": 15,
+    "baseCoinYield": 13,
+    "emojiOrSprite": "🧽",
+    "visualBlueprint": {
+      "baseColor": "#8eb6e7",
+      "glowIntensity": 1.99,
+      "scaleMultiplier": 1.09
+    },
+    "breedingRecipe": {
+      "parentA": "F_5094",
+      "parentB": "F_5054",
+      "successRate": 0.55
+    }
+  },
+  {
+    "id": "F_5099",
+    "commonName": "深海底棲魚",
+    "scientificName": "Benthocometes",
+    "description": "棲息於幽冥深海的深海底棲魚。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Epic",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 757,
+    "baseSwimSpeed": 36,
+    "baseCoinYield": 27,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "baseColor": "#cca64b",
+      "glowIntensity": 0.84,
+      "scaleMultiplier": 1.26
+    },
+    "breedingRecipe": {
+      "parentA": "F_5015",
+      "parentB": "F_5016",
+      "successRate": 0.55
+    }
+  },
+  {
+    "id": "F_5100",
+    "commonName": "沉積物食客海星",
+    "scientificName": "Asteroidea",
+    "description": "棲息於幽冥深海的沉積物食客海星。演化出適應極端高壓、高溫或寒冷的特化結構。",
+    "rarity": "Epic",
+    "category": "萬米沉積與甲殼奇觀",
+    "hatchStepsRequired": 851,
+    "baseSwimSpeed": 26,
+    "baseCoinYield": 25,
+    "emojiOrSprite": "⭐",
+    "visualBlueprint": {
+      "baseColor": "#b8f7ac",
+      "glowIntensity": 0.69,
+      "scaleMultiplier": 2.31
+    },
+    "breedingRecipe": {
+      "parentA": "F_5016",
+      "parentB": "F_5007",
+      "successRate": 0.57
+    }
+  }
+]

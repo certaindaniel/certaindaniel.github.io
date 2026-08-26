@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "VOL02_001",
+    "commonName": "L046帝王斑馬",
+    "scientificName": "Hypancistrus zebra",
+    "description": "身上布滿黑白相間的斑馬紋路",
+    "rarity": "Legendary",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_1",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_002",
+    "commonName": "L190皇冠豹",
+    "scientificName": "Panaque nigrolineatus",
+    "description": "大型且擁有強大牙齒的異型",
+    "rarity": "Epic",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1700,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 12,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_2",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_003",
+    "commonName": "L018黃金達摩",
+    "scientificName": "Baryancistrus xanthellus",
+    "description": "黃金般的體色，圓潤的體態",
+    "rarity": "Rare",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 13,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_3",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_004",
+    "commonName": "L200黃金高帆",
+    "scientificName": "Hemiancistrus subviridis",
+    "description": "黃綠色體色，背鰭高聳",
+    "rarity": "Rare",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 14,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_4",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_005",
+    "commonName": "L024紅鰭坦克",
+    "scientificName": "Pseudacanthicus pitanga",
+    "description": "充滿刺的裝甲和紅色的鰭",
+    "rarity": "Epic",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 15,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_5",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_006",
+    "commonName": "L114紅尾坦克",
+    "scientificName": "Pseudacanthicus leopardus",
+    "description": "豹紋與紅色尾鰭的完美結合",
+    "rarity": "Rare",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 16,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_6",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_007",
+    "commonName": "L081金點",
+    "scientificName": "Baryancistrus sp.",
+    "description": "深色體色佈滿美麗的金點",
+    "rarity": "Uncommon",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1600,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 17,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_7",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_008",
+    "commonName": "L260黑白迷宮",
+    "scientificName": "Hypancistrus sp.",
+    "description": "迷宮般的黑白紋路",
+    "rarity": "Rare",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 18,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_8",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_009",
+    "commonName": "L095噴點",
+    "scientificName": "Pseudorinelepis sp.",
+    "description": "巨大的體型與獨特的噴點",
+    "rarity": "Epic",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1600,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 19,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_9",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_010",
+    "commonName": "L333黃金帝王迷宮",
+    "scientificName": "Hypancistrus sp.",
+    "description": "黃黑相間的迷宮紋理",
+    "rarity": "Rare",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 2000,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 20,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_10",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_011",
+    "commonName": "L014金線雪球",
+    "scientificName": "Scobinancistrus aureatus",
+    "description": "黑色體色配上雪白斑點與金邊",
+    "rarity": "Rare",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 21,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_11",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_012",
+    "commonName": "L025噴點紅劍尾",
+    "scientificName": "Pseudacanthicus pirarara",
+    "description": "巨大的體型與紅色的尾鰭",
+    "rarity": "Epic",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1900,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 22,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_12",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_013",
+    "commonName": "L066國王迷宮",
+    "scientificName": "Hypancistrus sp.",
+    "description": "複雜而美麗的迷宮紋路",
+    "rarity": "Rare",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 23,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_13",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_014",
+    "commonName": "L128紫藍綠",
+    "scientificName": "Hemiancistrus sp.",
+    "description": "神秘的紫藍綠色體色",
+    "rarity": "Epic",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1700,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 24,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_14",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_015",
+    "commonName": "L134黃金斑馬",
+    "scientificName": "Peckoltia compta",
+    "description": "黃金底色加上黑色條紋",
+    "rarity": "Rare",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 25,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_15",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_016",
+    "commonName": "L177皇冠黃金達摩",
+    "scientificName": "Baryancistrus xanthellus",
+    "description": "巨大的黃金點點",
+    "rarity": "Rare",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 2000,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 26,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_16",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_017",
+    "commonName": "L239藍絲絨",
+    "scientificName": "Baryancistrus sp.",
+    "description": "如藍絲絨般質感的體色",
+    "rarity": "Rare",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1700,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 27,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_17",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_018",
+    "commonName": "L240黑白雙星",
+    "scientificName": "Leporacanthicus galaxias",
+    "description": "黑底白點如同夜空繁星",
+    "rarity": "Rare",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 28,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_18",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_019",
+    "commonName": "L273金達摩",
+    "scientificName": "Pseudacanthicus sp.",
+    "description": "稀有且美麗的金色鎧甲",
+    "rarity": "Legendary",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1700,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 29,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_19",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_020",
+    "commonName": "L027白線皇冠豹",
+    "scientificName": "Panaque armbrusteri",
+    "description": "清晰的白線與紅眼",
+    "rarity": "Epic",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1900,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 30,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_20",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_021",
+    "commonName": "L091紫羅蘭",
+    "scientificName": "Leporacanthicus triactis",
+    "description": "背鰭和尾鰭帶有鮮艷的橘紅色",
+    "rarity": "Rare",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1700,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 31,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_21",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_022",
+    "commonName": "L201大雪球",
+    "scientificName": "Hypancistrus sp.",
+    "description": "黑底配上大大的白點",
+    "rarity": "Rare",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1700,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 32,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_22",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_023",
+    "commonName": "L340紅尾迷宮",
+    "scientificName": "Hypancistrus sp.",
+    "description": "小巧可愛且擁有紅尾",
+    "rarity": "Uncommon",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 33,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_23",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_024",
+    "commonName": "L471迷你迷宮",
+    "scientificName": "Hypancistrus sp.",
+    "description": "體型迷你的迷宮異型",
+    "rarity": "Uncommon",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1800,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 34,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_24",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_025",
+    "commonName": "L129巧克力斑馬",
+    "scientificName": "Hypancistrus debilittera",
+    "description": "如同巧克力般的深色紋路",
+    "rarity": "Uncommon",
+    "category": "亞馬遜異型裝甲異型魚家族",
+    "hatchStepsRequired": 1900,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 35,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_25",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_026",
+    "commonName": "巨骨舌魚",
+    "scientificName": "Arapaima gigas",
+    "description": "亞馬遜河的活化石巨獸",
+    "rarity": "Legendary",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 36,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": "blueprint_26",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_027",
+    "commonName": "黑帝王魟",
+    "scientificName": "Potamotrygon leopoldi",
+    "description": "黑底白點的美麗淡水魟魚",
+    "rarity": "Epic",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 37,
+    "emojiOrSprite": "🛸",
+    "visualBlueprint": "blueprint_27",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_028",
+    "commonName": "珍珠魟",
+    "scientificName": "Potamotrygon motoro",
+    "description": "經典的南美淡水魟魚",
+    "rarity": "Rare",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 38,
+    "emojiOrSprite": "🛸",
+    "visualBlueprint": "blueprint_28",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_029",
+    "commonName": "皇冠三間",
+    "scientificName": "Cichla ocellaris",
+    "description": "南美洲的兇猛掠食者",
+    "rarity": "Epic",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 39,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_29",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_030",
+    "commonName": "巨型電鰻",
+    "scientificName": "Electrophorus electricus",
+    "description": "能釋放強大電流的神秘生物",
+    "rarity": "Legendary",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 40,
+    "emojiOrSprite": "⚡",
+    "visualBlueprint": "blueprint_30",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_031",
+    "commonName": "幽靈黑魔鬼",
+    "scientificName": "Apteronotus albifrons",
+    "description": "如同黑色幽靈般在水中舞動",
+    "rarity": "Rare",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 41,
+    "emojiOrSprite": "👻",
+    "visualBlueprint": "blueprint_31",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_032",
+    "commonName": "紅尾鴨嘴",
+    "scientificName": "Phractocephalus hemioliopterus",
+    "description": "可愛又貪吃的大型鯰魚",
+    "rarity": "Epic",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 42,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_32",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_033",
+    "commonName": "成吉思汗",
+    "scientificName": "Pangasius sanitwongsei",
+    "description": "游速極快的巡游魚類",
+    "rarity": "Epic",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 43,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": "blueprint_33",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_034",
+    "commonName": "虎皮鴨嘴",
+    "scientificName": "Pseudoplatystoma fasciatum",
+    "description": "帶有虎皮紋路的底棲掠食者",
+    "rarity": "Rare",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 44,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_34",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_035",
+    "commonName": "帝王九間",
+    "scientificName": "Datnioides pulcher",
+    "description": "珍貴的大型觀賞魚",
+    "rarity": "Legendary",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 45,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_35",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_036",
+    "commonName": "銀龍",
+    "scientificName": "Osteoglossum bicirrhosum",
+    "description": "閃耀著銀色光芒的古老魚類",
+    "rarity": "Rare",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1200,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 46,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": "blueprint_36",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_037",
+    "commonName": "黑龍",
+    "scientificName": "Osteoglossum ferreirai",
+    "description": "優雅而神祕的黑色龍魚",
+    "rarity": "Epic",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1200,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 47,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": "blueprint_37",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_038",
+    "commonName": "巴西海牛",
+    "scientificName": "Trichechus inunguis",
+    "description": "亞馬遜的溫和草食巨獸",
+    "rarity": "Legendary",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 48,
+    "emojiOrSprite": "🦭",
+    "visualBlueprint": "blueprint_38",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_039",
+    "commonName": "紅腹水虎魚",
+    "scientificName": "Pygocentrus nattereri",
+    "description": "惡名昭彰的群居掠食者",
+    "rarity": "Rare",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 49,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_39",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_040",
+    "commonName": "巨型水獺幼豚",
+    "scientificName": "Pteronura brasiliensis",
+    "description": "亞馬遜河的頂級掠食者幼體",
+    "rarity": "Epic",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1600,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 50,
+    "emojiOrSprite": "🦦",
+    "visualBlueprint": "blueprint_40",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_041",
+    "commonName": "猛魚",
+    "scientificName": "Hydrolycus scomberoides",
+    "description": "擁有恐怖獠牙的吸血鬼魚",
+    "rarity": "Epic",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1200,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 51,
+    "emojiOrSprite": "🧛‍♂️",
+    "visualBlueprint": "blueprint_41",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_042",
+    "commonName": "大銀板魚",
+    "scientificName": "Myleus pacu",
+    "description": "水虎魚的草食性近親",
+    "rarity": "Uncommon",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 52,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_42",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_043",
+    "commonName": "孔雀龍",
+    "scientificName": "Cichla temensis",
+    "description": "體型最大的皇冠三間",
+    "rarity": "Epic",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 53,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_43",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_044",
+    "commonName": "大沙鰍",
+    "scientificName": "Chromobotia macracanthus",
+    "description": "色彩鮮豔的大型底棲魚",
+    "rarity": "Rare",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 54,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_44",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_045",
+    "commonName": "白金龍魚",
+    "scientificName": "Scleropages formosus mut",
+    "description": "極其稀有的白化個體",
+    "rarity": "Legendary",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 55,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": "blueprint_45",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_046",
+    "commonName": "撒旦鴨嘴",
+    "scientificName": "Brachyplatystoma filamentosum",
+    "description": "亞馬遜河的終極巨鯰",
+    "rarity": "Legendary",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 56,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_46",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_047",
+    "commonName": "巨型黑銀板",
+    "scientificName": "Colossoma macropomum",
+    "description": "巨大的草食性魚類",
+    "rarity": "Rare",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 57,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_47",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_048",
+    "commonName": "黃金河虎",
+    "scientificName": "Salminus brasiliensis",
+    "description": "金光閃閃的兇猛掠食者",
+    "rarity": "Epic",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 58,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_48",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_049",
+    "commonName": "斑馬鴨嘴",
+    "scientificName": "Merodontotus tigrinus",
+    "description": "華麗斑紋的稀有鯰魚",
+    "rarity": "Legendary",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 59,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_49",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_050",
+    "commonName": "紅尾平克",
+    "scientificName": "Cichla kelberi",
+    "description": "美麗的黃色底色與紅鰭",
+    "rarity": "Rare",
+    "category": "南美大型巨獸與掠食活化石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 60,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_50",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_051",
+    "commonName": "寶蓮燈",
+    "scientificName": "Paracheirodon axelrodi",
+    "description": "閃耀著紅藍光芒的經典燈魚",
+    "rarity": "Common",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 61,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_51",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_052",
+    "commonName": "紅鼻剪刀",
+    "scientificName": "Hemigrammus rhodostomus",
+    "description": "紅色的鼻子與黑白相間的尾巴",
+    "rarity": "Common",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 62,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_52",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_053",
+    "commonName": "剛果燈",
+    "scientificName": "Phenacogrammus interruptus",
+    "description": "體型較大且色彩夢幻",
+    "rarity": "Rare",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 63,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_53",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_054",
+    "commonName": "紅衣騎士",
+    "scientificName": "Hyphessobrycon eques",
+    "description": "鮮艷的紅色體色",
+    "rarity": "Uncommon",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 64,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_54",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_055",
+    "commonName": "荷蘭鳳凰",
+    "scientificName": "Mikrogeophagus ramirezi",
+    "description": "色彩繽紛的小型慈鯛",
+    "rarity": "Rare",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 65,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_55",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_056",
+    "commonName": "阿卡西短鯛",
+    "scientificName": "Apistogramma agassizii",
+    "description": "擁有美麗的茅狀尾鰭",
+    "rarity": "Rare",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 66,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_56",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_057",
+    "commonName": "酋長短鯛",
+    "scientificName": "Apistogramma bitaeniata",
+    "description": "優雅的體態與拉絲的鰭",
+    "rarity": "Rare",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 67,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_57",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_058",
+    "commonName": "棋盤鯛",
+    "scientificName": "Dicrossus filamentosus",
+    "description": "身上有著棋盤般的格紋",
+    "rarity": "Rare",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 68,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_58",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_059",
+    "commonName": "紅頭短鯛",
+    "scientificName": "Apistogramma macmasteri",
+    "description": "頭部帶有鮮艷的紅色",
+    "rarity": "Rare",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 69,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_59",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_060",
+    "commonName": "白金帝王燈",
+    "scientificName": "Nematobrycon palmeri mut",
+    "description": "閃耀著白金光澤的帝王燈",
+    "rarity": "Epic",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 70,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_60",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_061",
+    "commonName": "夢幻旗",
+    "scientificName": "Hyphessobrycon megalopterus",
+    "description": "寬大的背鰭與神秘的黑色",
+    "rarity": "Uncommon",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 71,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_61",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_062",
+    "commonName": "綠蓮燈",
+    "scientificName": "Paracheirodon simulans",
+    "description": "散發著迷人綠光的微型燈魚",
+    "rarity": "Uncommon",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 72,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_62",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_063",
+    "commonName": "黑蓮燈",
+    "scientificName": "Hyphessobrycon herbertaxelrodi",
+    "description": "黑色的側線與低調的華麗",
+    "rarity": "Uncommon",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 73,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_63",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_064",
+    "commonName": "檸檬燈",
+    "scientificName": "Hyphessobrycon pulchripinnis",
+    "description": "清新的檸檬黃色體色",
+    "rarity": "Common",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 74,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_64",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_065",
+    "commonName": "火熾燈",
+    "scientificName": "Danio margaritatus",
+    "description": "如同繁星般的斑點",
+    "rarity": "Rare",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 75,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_65",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_066",
+    "commonName": "血紅露比燈",
+    "scientificName": "Axelrodia riesei",
+    "description": "晶瑩剔透的血紅色",
+    "rarity": "Rare",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 76,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_66",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_067",
+    "commonName": "三角燈",
+    "scientificName": "Trigonostigma heteromorpha",
+    "description": "獨特的黑色三角形斑塊",
+    "rarity": "Common",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 77,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_67",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_068",
+    "commonName": "藍眼燈",
+    "scientificName": "Aplocheilichthys normani",
+    "description": "眼睛閃爍著藍色光芒",
+    "rarity": "Common",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 78,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_68",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_069",
+    "commonName": "鑽石燈",
+    "scientificName": "Moenkhausia pittieri",
+    "description": "鱗片如鑽石般閃閃發光",
+    "rarity": "Uncommon",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 79,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_69",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_070",
+    "commonName": "企鵝燈",
+    "scientificName": "Thayeria boehlkei",
+    "description": "獨特的傾斜游動方式",
+    "rarity": "Common",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 80,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_70",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_071",
+    "commonName": "玫瑰鯽",
+    "scientificName": "Puntius conchonius",
+    "description": "散發著玫瑰般紅潤的光澤",
+    "rarity": "Common",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 81,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_71",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_072",
+    "commonName": "火翅金鑽",
+    "scientificName": "Danio margaritatus",
+    "description": "美麗的斑點與紅色的鰭",
+    "rarity": "Rare",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 82,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_72",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_073",
+    "commonName": "櫻桃燈",
+    "scientificName": "Puntius titteya",
+    "description": "如同櫻桃般紅艷可愛",
+    "rarity": "Common",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 83,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_73",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_074",
+    "commonName": "黃金水筆仔",
+    "scientificName": "Nannostomus beckfordi",
+    "description": "細長的體型與優雅的游姿",
+    "rarity": "Uncommon",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 84,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_74",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_075",
+    "commonName": "霓虹燈魚",
+    "scientificName": "Paracheirodon innesi",
+    "description": "水族箱中最經典的藍紅光芒",
+    "rarity": "Common",
+    "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 85,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_75",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_076",
+    "commonName": "枯葉魚",
+    "scientificName": "Monocirrhus polyacanthus",
+    "description": "完美的枯葉擬態",
+    "rarity": "Epic",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 86,
+    "emojiOrSprite": "🍂",
+    "visualBlueprint": "blueprint_76",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_077",
+    "commonName": "透明玻璃貓",
+    "scientificName": "Kryptopterus vitreolus",
+    "description": "身體完全透明的奇特鯰魚",
+    "rarity": "Rare",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 87,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_77",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_078",
+    "commonName": "反游貓",
+    "scientificName": "Synodontis nigriventris",
+    "description": "喜歡肚子朝上游泳的怪魚",
+    "rarity": "Uncommon",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 88,
+    "emojiOrSprite": "🙃",
+    "visualBlueprint": "blueprint_78",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_079",
+    "commonName": "飛刀魚",
+    "scientificName": "Notopterus notopterus",
+    "description": "如飛刀般扁平的身體",
+    "rarity": "Rare",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 89,
+    "emojiOrSprite": "🔪",
+    "visualBlueprint": "blueprint_79",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_080",
+    "commonName": "黑白企鵝魚",
+    "scientificName": "Thayeria obliqua",
+    "description": "以45度角傾斜游動",
+    "rarity": "Uncommon",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 90,
+    "emojiOrSprite": "🐧",
+    "visualBlueprint": "blueprint_80",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_081",
+    "commonName": "黑斑水虎魚",
+    "scientificName": "Serrasalmus rhombeus",
+    "description": "擁有強大咬合力的獨居水虎",
+    "rarity": "Epic",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 91,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_81",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_082",
+    "commonName": "黃金食土鯛",
+    "scientificName": "Geophagus surinamensis",
+    "description": "喜歡吞吐底砂尋找食物",
+    "rarity": "Rare",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 92,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_82",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_083",
+    "commonName": "火口魚",
+    "scientificName": "Thorichthys meeki",
+    "description": "激動時會張開紅色的喉部",
+    "rarity": "Uncommon",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 93,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_83",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_084",
+    "commonName": "皇冠狗頭",
+    "scientificName": "Tetraodon mbu",
+    "description": "體型巨大的淡水河豚",
+    "rarity": "Epic",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 94,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_84",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_085",
+    "commonName": "南美肺魚",
+    "scientificName": "Lepidosiren paradoxa",
+    "description": "能呼吸空氣的活化石",
+    "rarity": "Epic",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 95,
+    "emojiOrSprite": "🦕",
+    "visualBlueprint": "blueprint_85",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_086",
+    "commonName": "裝甲兵鯰",
+    "scientificName": "Corydoras aeneus",
+    "description": "身披骨板的可愛底棲魚",
+    "rarity": "Common",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 96,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_86",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_087",
+    "commonName": "小精靈鼠",
+    "scientificName": "Otocinclus affinis",
+    "description": "勤勞的食藻小幫手",
+    "rarity": "Common",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 97,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_87",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_088",
+    "commonName": "象鼻魚",
+    "scientificName": "Gnathonemus petersii",
+    "description": "擁有長長下巴的奇特魚類",
+    "rarity": "Rare",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 98,
+    "emojiOrSprite": "🐘",
+    "visualBlueprint": "blueprint_88",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_089",
+    "commonName": "接吻魚",
+    "scientificName": "Helostoma temminckii",
+    "description": "會用嘴唇互相推擠的魚",
+    "rarity": "Uncommon",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 99,
+    "emojiOrSprite": "💋",
+    "visualBlueprint": "blueprint_89",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_090",
+    "commonName": "盲眼魚",
+    "scientificName": "Astyanax mexicanus",
+    "description": "退化雙眼適應洞穴生活的魚",
+    "rarity": "Rare",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 100,
+    "emojiOrSprite": "🙈",
+    "visualBlueprint": "blueprint_90",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_091",
+    "commonName": "射水魚",
+    "scientificName": "Toxotes jaculatrix",
+    "description": "能噴射水柱擊落昆蟲",
+    "rarity": "Epic",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 101,
+    "emojiOrSprite": "💦",
+    "visualBlueprint": "blueprint_91",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_092",
+    "commonName": "四眼魚",
+    "scientificName": "Anableps anableps",
+    "description": "眼睛分為上下兩半的奇魚",
+    "rarity": "Epic",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 102,
+    "emojiOrSprite": "👀",
+    "visualBlueprint": "blueprint_92",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_093",
+    "commonName": "跳跳魚",
+    "scientificName": "Periophthalmus barbarus",
+    "description": "能在泥灘上跳躍的彈塗魚",
+    "rarity": "Rare",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 103,
+    "emojiOrSprite": "🐸",
+    "visualBlueprint": "blueprint_93",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_094",
+    "commonName": "大帆倒吊鼠",
+    "scientificName": "Synodontis eupterus",
+    "description": "擁有巨大背鰭的倒游魚",
+    "rarity": "Uncommon",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 104,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": "blueprint_94",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_095",
+    "commonName": "斑馬狗頭",
+    "scientificName": "Tetraodon lineatus",
+    "description": "帶有斑馬紋路的淡水河豚",
+    "rarity": "Rare",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 105,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": "blueprint_95",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_096",
+    "commonName": "木紋貓",
+    "scientificName": "Trachelyopterus fisheri",
+    "description": "擬態成木頭的奇特鯰魚",
+    "rarity": "Rare",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 106,
+    "emojiOrSprite": "🪵",
+    "visualBlueprint": "blueprint_96",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_097",
+    "commonName": "枯木異型",
+    "scientificName": "Panaque sp.",
+    "description": "專門啃食沉木的異型",
+    "rarity": "Rare",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1400,
+    "baseSwimSpeed": 1.4,
+    "baseCoinYield": 107,
+    "emojiOrSprite": "🪵",
+    "visualBlueprint": "blueprint_97",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_098",
+    "commonName": "恐龍魚",
+    "scientificName": "Polypterus senegalus",
+    "description": "擁有古代特徵的多鰭魚",
+    "rarity": "Epic",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.6,
+    "baseCoinYield": 108,
+    "emojiOrSprite": "🦕",
+    "visualBlueprint": "blueprint_98",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_099",
+    "commonName": "蝴蝶魚",
+    "scientificName": "Pantodon buchholzi",
+    "description": "胸鰭如蝴蝶翅膀般寬大",
+    "rarity": "Rare",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1300,
+    "baseSwimSpeed": 1.8,
+    "baseCoinYield": 109,
+    "emojiOrSprite": "🦋",
+    "visualBlueprint": "blueprint_99",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  },
+  {
+    "id": "VOL02_100",
+    "commonName": "古代蝴蝶魚",
+    "scientificName": "Scleropages leichardti",
+    "description": "能在水面跳躍捕食昆蟲",
+    "rarity": "Epic",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 110,
+    "emojiOrSprite": "🦋",
+    "visualBlueprint": "blueprint_100",
+    "breedingRecipe": [
+      "placeholder_parent_a",
+      "placeholder_parent_b"
+    ]
+  }
+]
