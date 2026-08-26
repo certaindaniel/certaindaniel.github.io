@@ -77,6 +77,7 @@ footer.site { text-align: center; padding: 32px 0 48px; color: var(--muted); fon
 .hero h1 { margin: 0 0 8px; font-size: 2rem; }
 .hero .tagline { color: var(--muted); font-size: 1.1rem; margin: 0 0 24px; }
 .hero .promo { max-width: 640px; margin: 0 auto 28px; }
+.hero-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 0 auto; }
 .cta {
   display: inline-block;
   background: var(--accent);
@@ -88,6 +89,16 @@ footer.site { text-align: center; padding: 32px 0 48px; color: var(--muted); fon
 .cta:hover { text-decoration: none; opacity: 0.9; }
 .cta--disabled { background: var(--muted); cursor: default; }
 .cta--disabled:hover { opacity: 1; }
+.cta--secondary {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+.cta--secondary:hover {
+  background: var(--accent);
+  color: #fff;
+  opacity: 1;
+}
 
 .legal-link { display: block; margin-top: 14px; color: var(--muted); font-size: 0.82rem; }
 
