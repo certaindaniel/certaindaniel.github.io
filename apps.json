@@ -31,6 +31,111 @@
   },
   "apps": [
     {
+      "id": "tinyaquarium",
+      "flagship": true,
+      "platform": "iOS / watchOS",
+      "icon": "assets/tinyaquarium/icon.png",
+      "appStoreUrl": "https://apps.apple.com/app/tinyaquarium",
+      "locales": {
+        "en": {
+          "name": "TinyAquarium",
+          "tagline": "Step to hatch, breed rare mythic fish & unwind with Lo-Fi ambient soundscapes.",
+          "promo": "Turn your daily steps into a serene underwater sanctuary. Sync with Apple Health to hatch 1,000+ species, discover 100+ secret genetic crossbreeding mutations, focus with ambient Lo-Fi water sounds, and trade fish peer-to-peer via Apple Multipeer without servers.",
+          "cta": "Download on the App Store",
+          "features": [
+            "Apple HealthKit Integration — Hatch fish eggs effortlessly with your daily walking steps & calorie burn",
+            "1,000+ Species Vault — From Japanese Tancho Koi and Amazon plecos to abyssal creatures and cosmic star leviathans",
+            "Secret Genetic Breeding Lab — Crossbreed adult pairs to discover over 100+ rare mutation recipes",
+            "Lo-Fi Focus & White Noise — Original ambient water soundscapes and Pomodoro timer for stress-free focus & sleep",
+            "Serverless P2P Nearby Trade — Tap & trade rare fish directly with nearby friends using Apple Multipeer Connectivity",
+            "Apple Watch & iOS Live Widgets — Digital Crown tank navigation, lock screen step progress, and iCloud sync"
+          ],
+          "qa": [
+            {
+              "q": "Do I need to keep the app open to track steps?",
+              "a": "No — TinyAquarium reads your steps in the background via Apple HealthKit. Walk normally and your eggs will continue to hatch."
+            },
+            {
+              "q": "How does Nearby Trade work?",
+              "a": "It uses Apple Multipeer Connectivity over local Bluetooth and Wi-Fi. No accounts, no servers, and 100% private."
+            },
+            {
+              "q": "Does crossbreeding consume my adult fish?",
+              "a": "No — adult parent fish stay in your tank and continue swimming happily after breeding."
+            },
+            {
+              "q": "Is my data stored on the cloud?",
+              "a": "Your progress syncs seamlessly across your iPhone, iPad, and Apple Watch using Apple iCloud Key-Value Store."
+            }
+          ]
+        },
+        "zh-hant": {
+          "name": "TinyAquarium 微型水族箱",
+          "tagline": "步數孵化、基因繁育千種神魚，沈浸於 Lo-Fi 水聲專注時光。",
+          "promo": "把每一步的健康步伐，化作掌心靈動的治癒深海。連動 Apple HealthKit 步數孵化破殼、探索 1,000+ 種全球水族與山海經星空神魚、解鎖 100+ 組秘密基因突變繁育、在 Lo-Fi 白噪音中沉浸專注，並透過 Apple Watch 數位錶冠與桌面小組件隨時守護。",
+          "cta": "在 App Store 下載",
+          "features": [
+            "Apple HealthKit 步數連動 — 日常健走每一步都在為水族箱注入生命活力，加速魚卵孵化",
+            "1,000+ 種全水域神魚圖鑑 — 涵蓋東亞江戶名門、亞馬遜狂野黑水、大堡礁珊瑚、萬米深淵至山海經與宇宙星宿",
+            "秘密基因繁育實驗室 — 將成年親代放入繁育室，探索 100+ 組隱藏突變配方",
+            "Lo-Fi 專注番茄鐘與水聲白噪音 — 原創深海平靜曲目與環境音效，助你高效工作與放鬆入眠",
+            "無伺服器近場 P2P 神魚交易 — 透過 Apple Multipeer 免註冊秒速近場交換珍稀魚卵，極致隱私安全",
+            "Apple Watch 與桌面 Widget — 旋轉數位錶冠 360° 投餵漫遊，鎖定畫面即時查看孵蛋步數"
+          ],
+          "qa": [
+            {
+              "q": "需要一直開啟 App 才能記錄步數嗎？",
+              "a": "完全不需要！TinyAquarium 透過 Apple HealthKit 系統後台自動讀取步數，日常通勤走路即可持續累積孵化進度。"
+            },
+            {
+              "q": "近場神魚交易（P2P Trade）需要網路嗎？",
+              "a": "不需要外部網際網路！只要兩台裝置在數公尺內，打開藍牙與 Wi-Fi，即可透過 Apple Multipeer 點對點加密直連交換。"
+            },
+            {
+              "q": "基因繁育會消耗掉親代魚嗎？",
+              "a": "不會！繁育完成後親代魚依然會在水族箱中自由游動，僅消耗一次繁育次數與愛心能量。"
+            },
+            {
+              "q": "支援跨裝置存檔同步嗎？",
+              "a": "支援！透過 Apple iCloud 雲端鍵值儲存（KVS），在 iPhone 上的進度會自動無縫同步至 iPad 與 Apple Watch。"
+            }
+          ]
+        },
+        "zh-hans": {
+          "name": "TinyAquarium 微型水族箱",
+          "tagline": "步数孵化、基因繁育千种神鱼，沉浸于 Lo-Fi 水声专注时光。",
+          "promo": "把每一步的健康步伐，化作掌心灵动的治愈深海。联动 Apple HealthKit 步数孵化破壳、探索 1,000+ 种全球水族与山海经星空神鱼、解锁 100+ 组秘密基因突变繁育、在 Lo-Fi 白噪音中沉浸专注，并通过 Apple Watch 数码表冠与桌面小组件随时守护。",
+          "cta": "在 App Store 下载",
+          "features": [
+            "Apple HealthKit 步数联动 — 日常健走每一步都在为水族箱注入生命活力，加速鱼卵孵化",
+            "1,000+ 种全水域神鱼图鉴 — 涵盖东亚江户名门、亚马逊狂野黑水、大堡礁珊瑚、万米深渊至山海经与宇宙星宿",
+            "秘密基因繁育实验室 — 将成年亲代放入繁育室，探索 100+ 组隐藏突变配方",
+            "Lo-Fi 专注番茄钟与水声白噪音 — 原创深海平静曲目与环境音效，助你高效工作与放松入眠",
+            "无服务器近场 P2P 神鱼交易 — 通过 Apple Multipeer 免注册秒速近场交换珍稀鱼卵，极致隐私安全",
+            "Apple Watch 与桌面 Widget — 旋转数码表冠 360° 投喂漫游，锁定屏幕实时查看孵蛋步数"
+          ],
+          "qa": [
+            {
+              "q": "需要一直开启 App 才能记录步数吗？",
+              "a": "完全不需要！TinyAquarium 通过 Apple HealthKit 系统后台自动读取步数，日常通勤走路即可持续累积孵化进度。"
+            },
+            {
+              "q": "近场神鱼交易（P2P Trade）需要网络吗？",
+              "a": "不需要外部互联网！只要两台设备在数米内，打开蓝牙与 Wi-Fi，即可通过 Apple Multipeer 点对点加密直连交换。"
+            },
+            {
+              "q": "基因繁育会消耗掉亲代鱼吗？",
+              "a": "不会！繁育完成后亲代鱼依然会在水族箱中自由游动，仅消耗一次繁育次数与爱心能量。"
+            },
+            {
+              "q": "支持跨设备存档同步吗？",
+              "a": "支持！通过 Apple iCloud 云端键值存储（KVS），在 iPhone 上的进度会自动无缝同步至 iPad 与 Apple Watch。"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "tinymsgviewer",
       "flagship": true,
       "platform": "Mac",
