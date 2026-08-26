@@ -10,7 +10,15 @@
     "baseSwimSpeed": 65,
     "baseCoinYield": 51,
     "emojiOrSprite": "🐳",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/北溟巨鯤.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "butterfly",
+      "bodyLength": 24.0,
+      "bodyHeight": 18.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + MythicScale"
   },
   {
@@ -24,7 +32,15 @@
     "baseSwimSpeed": 23,
     "baseCoinYield": 8,
     "emojiOrSprite": "🧜‍♀️",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/陵魚人魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -38,7 +54,17 @@
     "baseSwimSpeed": 13,
     "baseCoinYield": 4,
     "emojiOrSprite": "🪽",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/文鰩飛魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "butterfly",
+      "bodyLength": 24.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -52,7 +78,15 @@
     "baseSwimSpeed": 30,
     "baseCoinYield": 9,
     "emojiOrSprite": "🦑",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/何羅十身魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -66,7 +100,15 @@
     "baseSwimSpeed": 16,
     "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/赤鱬.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -80,7 +122,15 @@
     "baseSwimSpeed": 15,
     "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/鯥魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + CommonScale"
   },
   {
@@ -94,7 +144,15 @@
     "baseSwimSpeed": 28,
     "baseCoinYield": 7,
     "emojiOrSprite": "🐡",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/橫公魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -108,7 +166,15 @@
     "baseSwimSpeed": 16,
     "baseCoinYield": 2,
     "emojiOrSprite": "🐕",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/鮨魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -122,7 +188,15 @@
     "baseSwimSpeed": 10,
     "baseCoinYield": 1,
     "emojiOrSprite": "🦢",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/鯈魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + CommonScale"
   },
   {
@@ -136,7 +210,15 @@
     "baseSwimSpeed": 23,
     "baseCoinYield": 7,
     "emojiOrSprite": "🐉",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/䱤魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -150,7 +232,17 @@
     "baseSwimSpeed": 42,
     "baseCoinYield": 22,
     "emojiOrSprite": "🐅",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/虎蛟.png",
+    "visualBlueprint": {
+      "primaryColor": "#1E293B",
+      "secondaryColor": "#DC2626",
+      "accentColor": "#F59E0B",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
   {
@@ -164,7 +256,17 @@
     "baseSwimSpeed": 42,
     "baseCoinYield": 21,
     "emojiOrSprite": "🐲",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/龍魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": [
+        "whiskers"
+      ]
+    },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
   {
@@ -178,7 +280,15 @@
     "baseSwimSpeed": 16,
     "baseCoinYield": 3,
     "emojiOrSprite": "🦅",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/蠃魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -192,7 +302,15 @@
     "baseSwimSpeed": 29,
     "baseCoinYield": 10,
     "emojiOrSprite": "🐍",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/冉遺魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -206,7 +324,15 @@
     "baseSwimSpeed": 20,
     "baseCoinYield": 6,
     "emojiOrSprite": "🪶",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/鰩魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "butterfly",
+      "bodyLength": 24.0,
+      "bodyHeight": 18.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -220,7 +346,15 @@
     "baseSwimSpeed": 9,
     "baseCoinYield": 2,
     "emojiOrSprite": "🐖",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/鱄魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + CommonScale"
   },
   {
@@ -234,7 +368,15 @@
     "baseSwimSpeed": 15,
     "baseCoinYield": 4,
     "emojiOrSprite": "🐍",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/䱻魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -248,7 +390,15 @@
     "baseSwimSpeed": 13,
     "baseCoinYield": 5,
     "emojiOrSprite": "🐦",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/鱃魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -262,7 +412,15 @@
     "baseSwimSpeed": 25,
     "baseCoinYield": 11,
     "emojiOrSprite": "🐬",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/鮪魚 (神話版).png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -276,7 +434,15 @@
     "baseSwimSpeed": 12,
     "baseCoinYield": 2,
     "emojiOrSprite": "🕊️",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/鰼鰼魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + CommonScale"
   },
   {
@@ -290,7 +456,15 @@
     "baseSwimSpeed": 13,
     "baseCoinYield": 2,
     "emojiOrSprite": "🦀",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/鱟魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -304,7 +478,15 @@
     "baseSwimSpeed": 20,
     "baseCoinYield": 3,
     "emojiOrSprite": "🗡️",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/箴魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -318,7 +500,15 @@
     "baseSwimSpeed": 14,
     "baseCoinYield": 2,
     "emojiOrSprite": "🌊",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/鯩魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + CommonScale"
   },
   {
@@ -332,7 +522,15 @@
     "baseSwimSpeed": 19,
     "baseCoinYield": 5,
     "emojiOrSprite": "🌪️",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/薄魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -346,7 +544,15 @@
     "baseSwimSpeed": 39,
     "baseCoinYield": 19,
     "emojiOrSprite": "🧜",
-    "visualBlueprint": "Visuals/山海經上古異獸水靈/鮫人.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
   {
@@ -360,7 +566,15 @@
     "baseSwimSpeed": 60,
     "baseCoinYield": 49,
     "emojiOrSprite": "🐉",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/青龍水靈.png",
+    "visualBlueprint": {
+      "primaryColor": "#1D4ED8",
+      "secondaryColor": "#3B82F6",
+      "accentColor": "#FACC15",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + MythicScale"
   },
   {
@@ -374,7 +588,15 @@
     "baseSwimSpeed": 61,
     "baseCoinYield": 53,
     "emojiOrSprite": "🐢",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/玄武鎮海.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + MythicScale"
   },
   {
@@ -388,7 +610,15 @@
     "baseSwimSpeed": 60,
     "baseCoinYield": 49,
     "emojiOrSprite": "🦚",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/朱雀火鱨.png",
+    "visualBlueprint": {
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EA580C",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + MythicScale"
   },
   {
@@ -402,7 +632,17 @@
     "baseSwimSpeed": 58,
     "baseCoinYield": 53,
     "emojiOrSprite": "🐯",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/白虎金紋.png",
+    "visualBlueprint": {
+      "primaryColor": "#1E293B",
+      "secondaryColor": "#DC2626",
+      "accentColor": "#F59E0B",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": "MythicEssence + MythicScale"
   },
   {
@@ -416,7 +656,15 @@
     "baseSwimSpeed": 38,
     "baseCoinYield": 21,
     "emojiOrSprite": "🦄",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/麒麟祥瑞.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
   {
@@ -430,7 +678,15 @@
     "baseSwimSpeed": 65,
     "baseCoinYield": 53,
     "emojiOrSprite": "🌋",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/燭龍光螭.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + MythicScale"
   },
   {
@@ -444,7 +700,15 @@
     "baseSwimSpeed": 42,
     "baseCoinYield": 20,
     "emojiOrSprite": "🐲",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/應龍金鱗.png",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
   {
@@ -458,7 +722,15 @@
     "baseSwimSpeed": 24,
     "baseCoinYield": 9,
     "emojiOrSprite": "🌊",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/共工水魔.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -472,7 +744,15 @@
     "baseSwimSpeed": 24,
     "baseCoinYield": 7,
     "emojiOrSprite": "🔥",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/祝融赤鯉.png",
+    "visualBlueprint": {
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EA580C",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -486,7 +766,15 @@
     "baseSwimSpeed": 26,
     "baseCoinYield": 8,
     "emojiOrSprite": "🌿",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/句芒木靈.png",
+    "visualBlueprint": {
+      "primaryColor": "#059669",
+      "secondaryColor": "#10B981",
+      "accentColor": "#6EE7B7",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -500,7 +788,15 @@
     "baseSwimSpeed": 26,
     "baseCoinYield": 9,
     "emojiOrSprite": "⚔️",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/蓐收金鱨.png",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -514,7 +810,15 @@
     "baseSwimSpeed": 28,
     "baseCoinYield": 11,
     "emojiOrSprite": "⛰️",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/后土黃紋.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -528,7 +832,15 @@
     "baseSwimSpeed": 18,
     "baseCoinYield": 6,
     "emojiOrSprite": "✨",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/蒼龍星宿魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -542,7 +854,15 @@
     "baseSwimSpeed": 20,
     "baseCoinYield": 3,
     "emojiOrSprite": "🐲",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/角宿木蛟.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -556,7 +876,15 @@
     "baseSwimSpeed": 30,
     "baseCoinYield": 10,
     "emojiOrSprite": "🐉",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/亢宿金龍.png",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -570,7 +898,15 @@
     "baseSwimSpeed": 20,
     "baseCoinYield": 3,
     "emojiOrSprite": "🦡",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/氐宿土貉魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -584,7 +920,15 @@
     "baseSwimSpeed": 13,
     "baseCoinYield": 4,
     "emojiOrSprite": "🐰",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/房宿日兔魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -598,7 +942,15 @@
     "baseSwimSpeed": 27,
     "baseCoinYield": 11,
     "emojiOrSprite": "🦊",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/心宿月狐魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -612,7 +964,17 @@
     "baseSwimSpeed": 16,
     "baseCoinYield": 3,
     "emojiOrSprite": "🐅",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/尾宿火虎魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#1E293B",
+      "secondaryColor": "#DC2626",
+      "accentColor": "#F59E0B",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -626,7 +988,17 @@
     "baseSwimSpeed": 19,
     "baseCoinYield": 2,
     "emojiOrSprite": "🐆",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/箕宿水豹魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": [
+        "spots"
+      ]
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -640,7 +1012,15 @@
     "baseSwimSpeed": 13,
     "baseCoinYield": 5,
     "emojiOrSprite": "🐺",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/井宿水犴魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -654,7 +1034,15 @@
     "baseSwimSpeed": 13,
     "baseCoinYield": 2,
     "emojiOrSprite": "🐑",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/鬼宿金羊魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -668,7 +1056,15 @@
     "baseSwimSpeed": 16,
     "baseCoinYield": 2,
     "emojiOrSprite": "🦌",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/柳宿土獐魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -682,7 +1078,15 @@
     "baseSwimSpeed": 16,
     "baseCoinYield": 3,
     "emojiOrSprite": "🐎",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/星宿日馬魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -696,7 +1100,15 @@
     "baseSwimSpeed": 19,
     "baseCoinYield": 6,
     "emojiOrSprite": "🦌",
-    "visualBlueprint": "Visuals/四象聖獸與五行神龍/張宿月鹿魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -710,7 +1122,15 @@
     "baseSwimSpeed": 30,
     "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/瑤池金鯉.png",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -724,7 +1144,15 @@
     "baseSwimSpeed": 39,
     "baseCoinYield": 19,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/蓬萊仙鱸.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
   {
@@ -738,7 +1166,15 @@
     "baseSwimSpeed": 44,
     "baseCoinYield": 20,
     "emojiOrSprite": "🦊",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/九尾狐海蛞蝓.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "fan",
+      "bodyLength": 20.0,
+      "bodyHeight": 13.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
   {
@@ -752,7 +1188,15 @@
     "baseSwimSpeed": 64,
     "baseCoinYield": 49,
     "emojiOrSprite": "☯️",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/太極陰陽魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + MythicScale"
   },
   {
@@ -766,7 +1210,15 @@
     "baseSwimSpeed": 26,
     "baseCoinYield": 11,
     "emojiOrSprite": "🐇",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/玉兔踏浪.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -780,7 +1232,15 @@
     "baseSwimSpeed": 61,
     "baseCoinYield": 51,
     "emojiOrSprite": "☀️",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/金烏浴日.png",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + MythicScale"
   },
   {
@@ -794,7 +1254,17 @@
     "baseSwimSpeed": 27,
     "baseCoinYield": 7,
     "emojiOrSprite": "📚",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/文昌點頭魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "spots"
+      ]
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -808,7 +1278,15 @@
     "baseSwimSpeed": 38,
     "baseCoinYield": 23,
     "emojiOrSprite": "🌊",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/八仙過海寶魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
   {
@@ -822,7 +1300,15 @@
     "baseSwimSpeed": 19,
     "baseCoinYield": 3,
     "emojiOrSprite": "🍄",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/靈芝金鯛.png",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -836,7 +1322,15 @@
     "baseSwimSpeed": 44,
     "baseCoinYield": 22,
     "emojiOrSprite": "🐢",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/方丈神鰲.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
   {
@@ -850,7 +1344,15 @@
     "baseSwimSpeed": 20,
     "baseCoinYield": 4,
     "emojiOrSprite": "🎏",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/瀛洲仙鯉.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -864,7 +1366,15 @@
     "baseSwimSpeed": 23,
     "baseCoinYield": 9,
     "emojiOrSprite": "🐢",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/員嶠靈龜.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -878,7 +1388,15 @@
     "baseSwimSpeed": 38,
     "baseCoinYield": 20,
     "emojiOrSprite": "🐋",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/岱輿神鯨.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
   {
@@ -892,7 +1410,17 @@
     "baseSwimSpeed": 26,
     "baseCoinYield": 8,
     "emojiOrSprite": "🍑",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/蟠桃錦鯉.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "whiskers"
+      ]
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -906,7 +1434,15 @@
     "baseSwimSpeed": 14,
     "baseCoinYield": 2,
     "emojiOrSprite": "🐸",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/廣寒玉蟾魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -920,7 +1456,15 @@
     "baseSwimSpeed": 29,
     "baseCoinYield": 8,
     "emojiOrSprite": "🔥",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/兜率紫金魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "fan",
+      "bodyLength": 20.0,
+      "bodyHeight": 13.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -934,7 +1478,17 @@
     "baseSwimSpeed": 41,
     "baseCoinYield": 23,
     "emojiOrSprite": "🐉",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/凌霄飛龍魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": [
+        "whiskers"
+      ]
+    },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
   {
@@ -948,7 +1502,15 @@
     "baseSwimSpeed": 13,
     "baseCoinYield": 2,
     "emojiOrSprite": "❄️",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/昆崙雪鱒.png",
+    "visualBlueprint": {
+      "primaryColor": "#F8FAFC",
+      "secondaryColor": "#E2E8F0",
+      "accentColor": "#38BDF8",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -962,7 +1524,15 @@
     "baseSwimSpeed": 17,
     "baseCoinYield": 5,
     "emojiOrSprite": "🏮",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/琉璃宮燈魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -976,7 +1546,15 @@
     "baseSwimSpeed": 18,
     "baseCoinYield": 6,
     "emojiOrSprite": "🪷",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/翡翠玉盤魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#059669",
+      "secondaryColor": "#10B981",
+      "accentColor": "#6EE7B7",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -990,7 +1568,15 @@
     "baseSwimSpeed": 13,
     "baseCoinYield": 5,
     "emojiOrSprite": "🪸",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/珊瑚寶樹魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -1004,7 +1590,15 @@
     "baseSwimSpeed": 19,
     "baseCoinYield": 3,
     "emojiOrSprite": "💎",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/瑪瑙聚寶魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -1018,7 +1612,15 @@
     "baseSwimSpeed": 17,
     "baseCoinYield": 4,
     "emojiOrSprite": "🦪",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/珍珠如意魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#F8FAFC",
+      "secondaryColor": "#E2E8F0",
+      "accentColor": "#38BDF8",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -1032,7 +1634,15 @@
     "baseSwimSpeed": 14,
     "baseCoinYield": 4,
     "emojiOrSprite": "🟡",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/琥珀琥珀魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -1046,7 +1656,15 @@
     "baseSwimSpeed": 14,
     "baseCoinYield": 5,
     "emojiOrSprite": "☁️",
-    "visualBlueprint": "Visuals/東方仙山宮廷祥瑞/玳瑁祥雲魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -1060,7 +1678,15 @@
     "baseSwimSpeed": 29,
     "baseCoinYield": 9,
     "emojiOrSprite": "🌊",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/河伯錦鱗.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -1074,7 +1700,15 @@
     "baseSwimSpeed": 28,
     "baseCoinYield": 11,
     "emojiOrSprite": "🐒",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/水簾龍王.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -1088,7 +1722,15 @@
     "baseSwimSpeed": 42,
     "baseCoinYield": 22,
     "emojiOrSprite": "🦪",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/夜明珠蚌靈.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
   {
@@ -1102,7 +1744,15 @@
     "baseSwimSpeed": 45,
     "baseCoinYield": 22,
     "emojiOrSprite": "✨",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/福祿壽喜鯉.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
   {
@@ -1116,7 +1766,15 @@
     "baseSwimSpeed": 63,
     "baseCoinYield": 53,
     "emojiOrSprite": "🐉",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/鰲魚化龍.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + MythicScale"
   },
   {
@@ -1130,7 +1788,15 @@
     "baseSwimSpeed": 62,
     "baseCoinYield": 49,
     "emojiOrSprite": "⛩️",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/鯉魚躍龍門.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + MythicScale"
   },
   {
@@ -1144,7 +1810,15 @@
     "baseSwimSpeed": 29,
     "baseCoinYield": 10,
     "emojiOrSprite": "🐸",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/金蟾吐珠.png",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -1158,7 +1832,15 @@
     "baseSwimSpeed": 45,
     "baseCoinYield": 21,
     "emojiOrSprite": "🏮",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/媽祖巡海使者.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
   {
@@ -1172,7 +1854,15 @@
     "baseSwimSpeed": 25,
     "baseCoinYield": 10,
     "emojiOrSprite": "🎀",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/哪吒鬧海紅綾魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -1186,7 +1876,15 @@
     "baseSwimSpeed": 40,
     "baseCoinYield": 23,
     "emojiOrSprite": "🦯",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/東海定海神針魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
   {
@@ -1200,7 +1898,15 @@
     "baseSwimSpeed": 27,
     "baseCoinYield": 7,
     "emojiOrSprite": "🐲",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/龍王三太子.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -1214,7 +1920,15 @@
     "baseSwimSpeed": 14,
     "baseCoinYield": 3,
     "emojiOrSprite": "🐢",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/龜丞相.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -1228,7 +1942,15 @@
     "baseSwimSpeed": 16,
     "baseCoinYield": 3,
     "emojiOrSprite": "🔱",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/巡海夜叉魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -1242,7 +1964,15 @@
     "baseSwimSpeed": 13,
     "baseCoinYield": 3,
     "emojiOrSprite": "🧚‍♀️",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/蚌殼精靈.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -1256,7 +1986,15 @@
     "baseSwimSpeed": 10,
     "baseCoinYield": 4,
     "emojiOrSprite": "🦐",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/蝦兵蟹將魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + CommonScale"
   },
   {
@@ -1270,7 +2008,15 @@
     "baseSwimSpeed": 29,
     "baseCoinYield": 7,
     "emojiOrSprite": "💃",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/洛神宓妃魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -1284,7 +2030,15 @@
     "baseSwimSpeed": 17,
     "baseCoinYield": 4,
     "emojiOrSprite": "💧",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/湘君湘夫人魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -1298,7 +2052,15 @@
     "baseSwimSpeed": 13,
     "baseCoinYield": 4,
     "emojiOrSprite": "💌",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/洞庭龍女魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -1312,7 +2074,15 @@
     "baseSwimSpeed": 13,
     "baseCoinYield": 3,
     "emojiOrSprite": "🌧️",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/涇河龍王魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -1326,7 +2096,15 @@
     "baseSwimSpeed": 26,
     "baseCoinYield": 10,
     "emojiOrSprite": "🌊",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/錢塘君魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
   {
@@ -1340,7 +2118,15 @@
     "baseSwimSpeed": 19,
     "baseCoinYield": 3,
     "emojiOrSprite": "🧊",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/水神冰夷魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -1354,7 +2140,15 @@
     "baseSwimSpeed": 12,
     "baseCoinYield": 4,
     "emojiOrSprite": "👦",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/井泉童子魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + CommonScale"
   },
   {
@@ -1368,7 +2162,15 @@
     "baseSwimSpeed": 14,
     "baseCoinYield": 5,
     "emojiOrSprite": "⛰️",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/碧霞元君護法魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + RareScale"
   },
   {
@@ -1382,7 +2184,15 @@
     "baseSwimSpeed": 45,
     "baseCoinYield": 21,
     "emojiOrSprite": "🌿",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/觀音淨瓶柳枝魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
   {
@@ -1396,7 +2206,15 @@
     "baseSwimSpeed": 24,
     "baseCoinYield": 9,
     "emojiOrSprite": "🙏",
-    "visualBlueprint": "Visuals/民間傳說水族仙班/善財童子捧珠魚.png",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": "MythicEssence + EpicScale"
   }
 ]

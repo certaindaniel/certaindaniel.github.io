@@ -10,7 +10,15 @@
     "baseSwimSpeed": 0.57,
     "baseCoinYield": 33,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4001",
+    "visualBlueprint": {
+      "primaryColor": "#1D4ED8",
+      "secondaryColor": "#3B82F6",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -24,7 +32,15 @@
     "baseSwimSpeed": 2.17,
     "baseCoinYield": 28,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4002",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-2774",
       "TA-2327"
@@ -41,7 +57,15 @@
     "baseSwimSpeed": 0.84,
     "baseCoinYield": 29,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4003",
+    "visualBlueprint": {
+      "primaryColor": "#1D4ED8",
+      "secondaryColor": "#3B82F6",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-1932",
       "TA-1305"
@@ -58,7 +82,15 @@
     "baseSwimSpeed": 2.11,
     "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4004",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -72,7 +104,17 @@
     "baseSwimSpeed": 2.73,
     "baseCoinYield": 11,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4005",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": null
   },
   {
@@ -86,7 +128,17 @@
     "baseSwimSpeed": 2.82,
     "baseCoinYield": 16,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4006",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-1095",
       "TA-2189"
@@ -103,7 +155,17 @@
     "baseSwimSpeed": 1.12,
     "baseCoinYield": 42,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4007",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-3683",
       "TA-2188"
@@ -120,7 +182,17 @@
     "baseSwimSpeed": 0.88,
     "baseCoinYield": 27,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4008",
+    "visualBlueprint": {
+      "primaryColor": "#1D4ED8",
+      "secondaryColor": "#3B82F6",
+      "accentColor": "#FACC15",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-1449",
       "TA-2897"
@@ -137,7 +209,17 @@
     "baseSwimSpeed": 1.51,
     "baseCoinYield": 50,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4009",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-2565",
       "TA-1001"
@@ -154,7 +236,17 @@
     "baseSwimSpeed": 1.47,
     "baseCoinYield": 6,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4010",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-2929",
       "TA-3908"
@@ -171,7 +263,17 @@
     "baseSwimSpeed": 2.47,
     "baseCoinYield": 24,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4011",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-2795",
       "TA-2893"
@@ -188,7 +290,17 @@
     "baseSwimSpeed": 1.5,
     "baseCoinYield": 32,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4012",
+    "visualBlueprint": {
+      "primaryColor": "#059669",
+      "secondaryColor": "#10B981",
+      "accentColor": "#6EE7B7",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-1604",
       "TA-2343"
@@ -205,7 +317,17 @@
     "baseSwimSpeed": 2.32,
     "baseCoinYield": 44,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4013",
+    "visualBlueprint": {
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EA580C",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": null
   },
   {
@@ -219,7 +341,17 @@
     "baseSwimSpeed": 2.29,
     "baseCoinYield": 25,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4014",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": null
   },
   {
@@ -233,7 +365,17 @@
     "baseSwimSpeed": 1.14,
     "baseCoinYield": 17,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4015",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": null
   },
   {
@@ -247,7 +389,17 @@
     "baseSwimSpeed": 1.79,
     "baseCoinYield": 47,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4016",
+    "visualBlueprint": {
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EA580C",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-1632",
       "TA-3387"
@@ -264,7 +416,15 @@
     "baseSwimSpeed": 1.48,
     "baseCoinYield": 24,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4017",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-1773",
       "TA-2824"
@@ -281,7 +441,17 @@
     "baseSwimSpeed": 2.02,
     "baseCoinYield": 50,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4018",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-1798",
       "TA-1983"
@@ -298,7 +468,17 @@
     "baseSwimSpeed": 2.26,
     "baseCoinYield": 25,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4019",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": null
   },
   {
@@ -312,7 +492,17 @@
     "baseSwimSpeed": 0.92,
     "baseCoinYield": 11,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4020",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-1643",
       "TA-2850"
@@ -329,7 +519,17 @@
     "baseSwimSpeed": 2.38,
     "baseCoinYield": 11,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4021",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-1684",
       "TA-1779"
@@ -346,7 +546,17 @@
     "baseSwimSpeed": 2.8,
     "baseCoinYield": 48,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4022",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-3819",
       "TA-3690"
@@ -363,7 +573,18 @@
     "baseSwimSpeed": 0.64,
     "baseCoinYield": 43,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4023",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes",
+        "spots"
+      ]
+    },
     "breedingRecipe": [
       "TA-2143",
       "TA-2261"
@@ -380,7 +601,17 @@
     "baseSwimSpeed": 1.88,
     "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4024",
+    "visualBlueprint": {
+      "primaryColor": "#1E293B",
+      "secondaryColor": "#DC2626",
+      "accentColor": "#F59E0B",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": null
   },
   {
@@ -394,7 +625,17 @@
     "baseSwimSpeed": 1.39,
     "baseCoinYield": 2,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4025",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": null
   },
   {
@@ -408,7 +649,15 @@
     "baseSwimSpeed": 1.23,
     "baseCoinYield": 42,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4026",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-1173",
       "TA-2068"
@@ -425,7 +674,15 @@
     "baseSwimSpeed": 2.31,
     "baseCoinYield": 26,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4027",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-2586",
       "TA-2782"
@@ -442,7 +699,15 @@
     "baseSwimSpeed": 2.7,
     "baseCoinYield": 10,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4028",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-1811",
       "TA-2478"
@@ -459,7 +724,15 @@
     "baseSwimSpeed": 2.29,
     "baseCoinYield": 35,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4029",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-3514",
       "TA-2047"
@@ -476,7 +749,15 @@
     "baseSwimSpeed": 2.16,
     "baseCoinYield": 31,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4030",
+    "visualBlueprint": {
+      "primaryColor": "#F8FAFC",
+      "secondaryColor": "#E2E8F0",
+      "accentColor": "#38BDF8",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-3731",
       "TA-2562"
@@ -493,7 +774,17 @@
     "baseSwimSpeed": 2.13,
     "baseCoinYield": 11,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4031",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-3853",
       "TA-2577"
@@ -510,7 +801,15 @@
     "baseSwimSpeed": 2.36,
     "baseCoinYield": 45,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4032",
+    "visualBlueprint": {
+      "primaryColor": "#F8FAFC",
+      "secondaryColor": "#E2E8F0",
+      "accentColor": "#38BDF8",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -524,7 +823,17 @@
     "baseSwimSpeed": 2.15,
     "baseCoinYield": 48,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4033",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "TA-3516",
       "TA-3898"
@@ -541,7 +850,15 @@
     "baseSwimSpeed": 1.32,
     "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4034",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#E2E8F0",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-2964",
       "TA-3825"
@@ -558,7 +875,15 @@
     "baseSwimSpeed": 2.16,
     "baseCoinYield": 7,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4035",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-3486",
       "TA-3023"
@@ -575,7 +900,15 @@
     "baseSwimSpeed": 2.58,
     "baseCoinYield": 25,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4036",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -589,7 +922,15 @@
     "baseSwimSpeed": 2.6,
     "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4037",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-2897",
       "TA-3508"
@@ -606,7 +947,17 @@
     "baseSwimSpeed": 0.57,
     "baseCoinYield": 31,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4038",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
+    },
     "breedingRecipe": [
       "TA-2538",
       "TA-1137"
@@ -623,7 +974,15 @@
     "baseSwimSpeed": 2.6,
     "baseCoinYield": 8,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4039",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -637,7 +996,15 @@
     "baseSwimSpeed": 1.35,
     "baseCoinYield": 29,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4040",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#E2E8F0",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-1878",
       "TA-1178"
@@ -654,7 +1021,15 @@
     "baseSwimSpeed": 0.8,
     "baseCoinYield": 34,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4041",
+    "visualBlueprint": {
+      "primaryColor": "#1D4ED8",
+      "secondaryColor": "#3B82F6",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-2896",
       "TA-2397"
@@ -671,7 +1046,17 @@
     "baseSwimSpeed": 1.01,
     "baseCoinYield": 26,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4042",
+    "visualBlueprint": {
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#F97316",
+      "tailShape": "fan",
+      "bodyLength": 17.0,
+      "bodyHeight": 16.0,
+      "features": [
+        "spots"
+      ]
+    },
     "breedingRecipe": [
       "TA-3437",
       "TA-2100"
@@ -688,7 +1073,17 @@
     "baseSwimSpeed": 1.85,
     "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4043",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-3467",
       "TA-1947"
@@ -705,7 +1100,17 @@
     "baseSwimSpeed": 0.83,
     "baseCoinYield": 48,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4044",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-3469",
       "TA-1191"
@@ -722,7 +1127,15 @@
     "baseSwimSpeed": 0.58,
     "baseCoinYield": 17,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4045",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -736,7 +1149,15 @@
     "baseSwimSpeed": 2.18,
     "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4046",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-2510",
       "TA-3826"
@@ -753,7 +1174,15 @@
     "baseSwimSpeed": 2.55,
     "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4047",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -767,7 +1196,17 @@
     "baseSwimSpeed": 2.99,
     "baseCoinYield": 8,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4048",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#E2E8F0",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-2217",
       "TA-2729"
@@ -784,7 +1223,17 @@
     "baseSwimSpeed": 1.12,
     "baseCoinYield": 46,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4049",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": null
   },
   {
@@ -798,7 +1247,15 @@
     "baseSwimSpeed": 2.05,
     "baseCoinYield": 33,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4050",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-3616",
       "TA-1939"
@@ -815,7 +1272,17 @@
     "baseSwimSpeed": 2.74,
     "baseCoinYield": 10,
     "emojiOrSprite": "🐡",
-    "visualBlueprint": "blueprint_4051",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "spots"
+      ]
+    },
     "breedingRecipe": [
       "TA-2467",
       "TA-1662"
@@ -832,7 +1299,15 @@
     "baseSwimSpeed": 1.78,
     "baseCoinYield": 6,
     "emojiOrSprite": "🐡",
-    "visualBlueprint": "blueprint_4052",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-3340",
       "TA-1499"
@@ -849,7 +1324,15 @@
     "baseSwimSpeed": 1.12,
     "baseCoinYield": 41,
     "emojiOrSprite": "🐡",
-    "visualBlueprint": "blueprint_4053",
+    "visualBlueprint": {
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-1512",
       "TA-3856"
@@ -866,7 +1349,17 @@
     "baseSwimSpeed": 1.74,
     "baseCoinYield": 30,
     "emojiOrSprite": "🐡",
-    "visualBlueprint": "blueprint_4054",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "fan",
+      "bodyLength": 17.0,
+      "bodyHeight": 16.0,
+      "features": [
+        "spots"
+      ]
+    },
     "breedingRecipe": null
   },
   {
@@ -880,7 +1373,15 @@
     "baseSwimSpeed": 2.12,
     "baseCoinYield": 24,
     "emojiOrSprite": "🐡",
-    "visualBlueprint": "blueprint_4055",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "fan",
+      "bodyLength": 17.0,
+      "bodyHeight": 16.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-2229",
       "TA-3990"
@@ -897,7 +1398,15 @@
     "baseSwimSpeed": 2.81,
     "baseCoinYield": 8,
     "emojiOrSprite": "🐉",
-    "visualBlueprint": "blueprint_4056",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 10.0,
+      "bodyHeight": 22.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-2181",
       "TA-1734"
@@ -914,7 +1423,17 @@
     "baseSwimSpeed": 1.73,
     "baseCoinYield": 19,
     "emojiOrSprite": "🐉",
-    "visualBlueprint": "blueprint_4057",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 10.0,
+      "bodyHeight": 22.0,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": null
   },
   {
@@ -928,7 +1447,15 @@
     "baseSwimSpeed": 2.93,
     "baseCoinYield": 26,
     "emojiOrSprite": "🐉",
-    "visualBlueprint": "blueprint_4058",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "ribbon",
+      "bodyLength": 10.0,
+      "bodyHeight": 22.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -942,7 +1469,15 @@
     "baseSwimSpeed": 1.07,
     "baseCoinYield": 6,
     "emojiOrSprite": "🐉",
-    "visualBlueprint": "blueprint_4059",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-2886",
       "TA-2489"
@@ -959,7 +1494,15 @@
     "baseSwimSpeed": 1.34,
     "baseCoinYield": 1,
     "emojiOrSprite": "🐉",
-    "visualBlueprint": "blueprint_4060",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 10.0,
+      "bodyHeight": 22.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-1536",
       "TA-2105"
@@ -976,7 +1519,17 @@
     "baseSwimSpeed": 1.6,
     "baseCoinYield": 11,
     "emojiOrSprite": "🐉",
-    "visualBlueprint": "blueprint_4061",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#E2E8F0",
+      "tailShape": "ribbon",
+      "bodyLength": 10.0,
+      "bodyHeight": 22.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": null
   },
   {
@@ -990,7 +1543,17 @@
     "baseSwimSpeed": 1.05,
     "baseCoinYield": 37,
     "emojiOrSprite": "🐡",
-    "visualBlueprint": "blueprint_4062",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "fan",
+      "bodyLength": 17.0,
+      "bodyHeight": 16.0,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "TA-3930",
       "TA-1877"
@@ -1007,7 +1570,15 @@
     "baseSwimSpeed": 0.98,
     "baseCoinYield": 45,
     "emojiOrSprite": "🐡",
-    "visualBlueprint": "blueprint_4063",
+    "visualBlueprint": {
+      "primaryColor": "#1D4ED8",
+      "secondaryColor": "#3B82F6",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-3737",
       "TA-2190"
@@ -1024,7 +1595,15 @@
     "baseSwimSpeed": 1.62,
     "baseCoinYield": 3,
     "emojiOrSprite": "🐡",
-    "visualBlueprint": "blueprint_4064",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-1264",
       "TA-1017"
@@ -1041,7 +1620,15 @@
     "baseSwimSpeed": 0.57,
     "baseCoinYield": 8,
     "emojiOrSprite": "🐡",
-    "visualBlueprint": "blueprint_4065",
+    "visualBlueprint": {
+      "primaryColor": "#059669",
+      "secondaryColor": "#10B981",
+      "accentColor": "#6EE7B7",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -1055,7 +1642,17 @@
     "baseSwimSpeed": 1.27,
     "baseCoinYield": 1,
     "emojiOrSprite": "🐡",
-    "visualBlueprint": "blueprint_4066",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "fan",
+      "bodyLength": 17.0,
+      "bodyHeight": 16.0,
+      "features": [
+        "spots"
+      ]
+    },
     "breedingRecipe": null
   },
   {
@@ -1069,7 +1666,17 @@
     "baseSwimSpeed": 2.11,
     "baseCoinYield": 36,
     "emojiOrSprite": "🐡",
-    "visualBlueprint": "blueprint_4067",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "fan",
+      "bodyLength": 17.0,
+      "bodyHeight": 16.0,
+      "features": [
+        "spots"
+      ]
+    },
     "breedingRecipe": [
       "TA-1003",
       "TA-2164"
@@ -1086,7 +1693,15 @@
     "baseSwimSpeed": 1.25,
     "baseCoinYield": 46,
     "emojiOrSprite": "🐉",
-    "visualBlueprint": "blueprint_4068",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 10.0,
+      "bodyHeight": 22.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-1251",
       "TA-3859"
@@ -1103,7 +1718,15 @@
     "baseSwimSpeed": 0.52,
     "baseCoinYield": 14,
     "emojiOrSprite": "🐉",
-    "visualBlueprint": "blueprint_4069",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -1117,7 +1740,15 @@
     "baseSwimSpeed": 2.74,
     "baseCoinYield": 20,
     "emojiOrSprite": "🐉",
-    "visualBlueprint": "blueprint_4070",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -1131,7 +1762,15 @@
     "baseSwimSpeed": 1.0,
     "baseCoinYield": 28,
     "emojiOrSprite": "🐉",
-    "visualBlueprint": "blueprint_4071",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -1145,7 +1784,15 @@
     "baseSwimSpeed": 1.38,
     "baseCoinYield": 6,
     "emojiOrSprite": "🐡",
-    "visualBlueprint": "blueprint_4072",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -1159,7 +1806,15 @@
     "baseSwimSpeed": 2.99,
     "baseCoinYield": 43,
     "emojiOrSprite": "🐡",
-    "visualBlueprint": "blueprint_4073",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -1173,7 +1828,17 @@
     "baseSwimSpeed": 0.9,
     "baseCoinYield": 31,
     "emojiOrSprite": "🐡",
-    "visualBlueprint": "blueprint_4074",
+    "visualBlueprint": {
+      "primaryColor": "#F8FAFC",
+      "secondaryColor": "#E2E8F0",
+      "accentColor": "#38BDF8",
+      "tailShape": "fan",
+      "bodyLength": 17.0,
+      "bodyHeight": 16.0,
+      "features": [
+        "spots"
+      ]
+    },
     "breedingRecipe": [
       "TA-1457",
       "TA-3280"
@@ -1190,7 +1855,17 @@
     "baseSwimSpeed": 2.54,
     "baseCoinYield": 40,
     "emojiOrSprite": "🐡",
-    "visualBlueprint": "blueprint_4075",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "fan",
+      "bodyLength": 17.0,
+      "bodyHeight": 16.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": null
   },
   {
@@ -1204,7 +1879,15 @@
     "baseSwimSpeed": 0.76,
     "baseCoinYield": 37,
     "emojiOrSprite": "🦎",
-    "visualBlueprint": "blueprint_4076",
+    "visualBlueprint": {
+      "primaryColor": "#059669",
+      "secondaryColor": "#10B981",
+      "accentColor": "#6EE7B7",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-1600",
       "TA-3026"
@@ -1221,7 +1904,17 @@
     "baseSwimSpeed": 1.23,
     "baseCoinYield": 22,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4077",
+    "visualBlueprint": {
+      "primaryColor": "#1E293B",
+      "secondaryColor": "#DC2626",
+      "accentColor": "#F59E0B",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": null
   },
   {
@@ -1235,7 +1928,17 @@
     "baseSwimSpeed": 0.58,
     "baseCoinYield": 25,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4078",
+    "visualBlueprint": {
+      "primaryColor": "#1E293B",
+      "secondaryColor": "#DC2626",
+      "accentColor": "#F59E0B",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": [
       "TA-3338",
       "TA-2477"
@@ -1252,7 +1955,15 @@
     "baseSwimSpeed": 2.83,
     "baseCoinYield": 34,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4079",
+    "visualBlueprint": {
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EA580C",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -1266,7 +1977,15 @@
     "baseSwimSpeed": 1.74,
     "baseCoinYield": 7,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4080",
+    "visualBlueprint": {
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -1280,7 +1999,17 @@
     "baseSwimSpeed": 0.72,
     "baseCoinYield": 26,
     "emojiOrSprite": "🦐",
-    "visualBlueprint": "blueprint_4081",
+    "visualBlueprint": {
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EA580C",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "spots"
+      ]
+    },
     "breedingRecipe": [
       "TA-3386",
       "TA-2786"
@@ -1297,7 +2026,15 @@
     "baseSwimSpeed": 2.43,
     "baseCoinYield": 38,
     "emojiOrSprite": "🐠",
-    "visualBlueprint": "blueprint_4082",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "fan",
+      "bodyLength": 20.0,
+      "bodyHeight": 13.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -1311,7 +2048,15 @@
     "baseSwimSpeed": 0.78,
     "baseCoinYield": 29,
     "emojiOrSprite": "🐌",
-    "visualBlueprint": "blueprint_4083",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "fan",
+      "bodyLength": 20.0,
+      "bodyHeight": 13.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-3850",
       "TA-3912"
@@ -1328,7 +2073,15 @@
     "baseSwimSpeed": 2.72,
     "baseCoinYield": 30,
     "emojiOrSprite": "🐰",
-    "visualBlueprint": "blueprint_4084",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "fan",
+      "bodyLength": 20.0,
+      "bodyHeight": 13.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -1342,7 +2095,15 @@
     "baseSwimSpeed": 2.83,
     "baseCoinYield": 32,
     "emojiOrSprite": "🦐",
-    "visualBlueprint": "blueprint_4085",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-2219",
       "TA-3773"
@@ -1359,7 +2120,15 @@
     "baseSwimSpeed": 2.58,
     "baseCoinYield": 35,
     "emojiOrSprite": "🦀",
-    "visualBlueprint": "blueprint_4086",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -1373,7 +2142,17 @@
     "baseSwimSpeed": 1.22,
     "baseCoinYield": 42,
     "emojiOrSprite": "🦐",
-    "visualBlueprint": "blueprint_4087",
+    "visualBlueprint": {
+      "primaryColor": "#059669",
+      "secondaryColor": "#10B981",
+      "accentColor": "#6EE7B7",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
+    },
     "breedingRecipe": null
   },
   {
@@ -1387,7 +2166,15 @@
     "baseSwimSpeed": 2.05,
     "baseCoinYield": 10,
     "emojiOrSprite": "🦐",
-    "visualBlueprint": "blueprint_4088",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -1401,7 +2188,15 @@
     "baseSwimSpeed": 1.75,
     "baseCoinYield": 45,
     "emojiOrSprite": "🦐",
-    "visualBlueprint": "blueprint_4089",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-3661",
       "TA-3220"
@@ -1418,7 +2213,15 @@
     "baseSwimSpeed": 0.84,
     "baseCoinYield": 22,
     "emojiOrSprite": "🦐",
-    "visualBlueprint": "blueprint_4090",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -1432,7 +2235,15 @@
     "baseSwimSpeed": 1.89,
     "baseCoinYield": 13,
     "emojiOrSprite": "🍎",
-    "visualBlueprint": "blueprint_4091",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-2770",
       "TA-2609"
@@ -1449,7 +2260,17 @@
     "baseSwimSpeed": 2.55,
     "baseCoinYield": 47,
     "emojiOrSprite": "🎄",
-    "visualBlueprint": "blueprint_4092",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 10.0,
+      "bodyHeight": 22.0,
+      "features": [
+        "tentacles"
+      ]
+    },
     "breedingRecipe": [
       "TA-2286",
       "TA-3337"
@@ -1466,7 +2287,17 @@
     "baseSwimSpeed": 1.96,
     "baseCoinYield": 2,
     "emojiOrSprite": "🦀",
-    "visualBlueprint": "blueprint_4093",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "tentacles"
+      ]
+    },
     "breedingRecipe": null
   },
   {
@@ -1480,7 +2311,15 @@
     "baseSwimSpeed": 0.92,
     "baseCoinYield": 16,
     "emojiOrSprite": "🦀",
-    "visualBlueprint": "blueprint_4094",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-3569",
       "TA-3498"
@@ -1497,7 +2336,15 @@
     "baseSwimSpeed": 2.81,
     "baseCoinYield": 23,
     "emojiOrSprite": "🐍",
-    "visualBlueprint": "blueprint_4095",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-2755",
       "TA-1537"
@@ -1514,7 +2361,15 @@
     "baseSwimSpeed": 1.06,
     "baseCoinYield": 43,
     "emojiOrSprite": "🐍",
-    "visualBlueprint": "blueprint_4096",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -1528,7 +2383,15 @@
     "baseSwimSpeed": 1.82,
     "baseCoinYield": 31,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4097",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "TA-3553",
       "TA-3963"
@@ -1545,7 +2408,15 @@
     "baseSwimSpeed": 0.52,
     "baseCoinYield": 30,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_4098",
+    "visualBlueprint": {
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -1559,7 +2430,15 @@
     "baseSwimSpeed": 0.74,
     "baseCoinYield": 2,
     "emojiOrSprite": "🐌",
-    "visualBlueprint": "blueprint_4099",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": null
   },
   {
@@ -1573,7 +2452,18 @@
     "baseSwimSpeed": 2.35,
     "baseCoinYield": 44,
     "emojiOrSprite": "🍄",
-    "visualBlueprint": "blueprint_4100",
+    "visualBlueprint": {
+      "primaryColor": "#059669",
+      "secondaryColor": "#10B981",
+      "accentColor": "#6EE7B7",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
+    },
     "breedingRecipe": [
       "TA-3890",
       "TA-2145"

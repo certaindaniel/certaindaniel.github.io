@@ -11,9 +11,15 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#094cbf",
-      "glowIntensity": 0.75,
-      "scaleMultiplier": 1.34
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5001",
@@ -33,9 +39,15 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
-      "baseColor": "#f02cd6",
-      "glowIntensity": 1.84,
-      "scaleMultiplier": 2.66
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5001",
@@ -55,9 +67,15 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#75d958",
-      "glowIntensity": 1.52,
-      "scaleMultiplier": 2.33
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5002",
@@ -77,9 +95,15 @@
     "baseCoinYield": 27,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#feaa46",
-      "glowIntensity": 0.9,
-      "scaleMultiplier": 1.3
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5001",
@@ -99,9 +123,15 @@
     "baseCoinYield": 63,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#1431af",
-      "glowIntensity": 0.65,
-      "scaleMultiplier": 1.71
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5005",
@@ -121,9 +151,15 @@
     "baseCoinYield": 26,
     "emojiOrSprite": "🦎",
     "visualBlueprint": {
-      "baseColor": "#9f38da",
-      "glowIntensity": 1.71,
-      "scaleMultiplier": 1.81
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5002",
@@ -143,9 +179,15 @@
     "baseCoinYield": 10,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
-      "baseColor": "#f86baf",
-      "glowIntensity": 1.69,
-      "scaleMultiplier": 2.51
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5005",
@@ -165,9 +207,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#f2a19e",
-      "glowIntensity": 0.83,
-      "scaleMultiplier": 1.95
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5001",
@@ -187,9 +235,15 @@
     "baseCoinYield": 28,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#19a337",
-      "glowIntensity": 1.5,
-      "scaleMultiplier": 2.7
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5008",
@@ -209,9 +263,15 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🪓",
     "visualBlueprint": {
-      "baseColor": "#0ad297",
-      "glowIntensity": 1.18,
-      "scaleMultiplier": 1.94
+      "primaryColor": "#F8FAFC",
+      "secondaryColor": "#E2E8F0",
+      "accentColor": "#38BDF8",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5008",
@@ -231,9 +291,15 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "🦎",
     "visualBlueprint": {
-      "baseColor": "#b15c55",
-      "glowIntensity": 1.73,
-      "scaleMultiplier": 1.15
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5008",
@@ -253,9 +319,16 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "baseColor": "#4b2dc7",
-      "glowIntensity": 1.29,
-      "scaleMultiplier": 2.14
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": [
+        "whiskers",
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5004",
@@ -275,9 +348,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#a139b7",
-      "glowIntensity": 1.2,
-      "scaleMultiplier": 2.37
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5006",
@@ -297,9 +376,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#f8d598",
-      "glowIntensity": 0.6,
-      "scaleMultiplier": 1.88
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5007",
@@ -319,9 +404,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#14adae",
-      "glowIntensity": 0.7,
-      "scaleMultiplier": 3.41
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5013",
@@ -341,9 +432,15 @@
     "baseCoinYield": 35,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#b8d2d4",
-      "glowIntensity": 1.61,
-      "scaleMultiplier": 2.47
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5008",
@@ -363,9 +460,15 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#52887d",
-      "glowIntensity": 1.01,
-      "scaleMultiplier": 2.14
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5008",
@@ -385,9 +488,15 @@
     "baseCoinYield": 61,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#c59ab6",
-      "glowIntensity": 1.32,
-      "scaleMultiplier": 2.27
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5009",
@@ -407,9 +516,15 @@
     "baseCoinYield": 15,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#4a72d7",
-      "glowIntensity": 1.82,
-      "scaleMultiplier": 1.78
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5009",
@@ -429,9 +544,15 @@
     "baseCoinYield": 35,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#783b75",
-      "glowIntensity": 1.14,
-      "scaleMultiplier": 1.19
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5004",
@@ -451,9 +572,15 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#930cc8",
-      "glowIntensity": 1.38,
-      "scaleMultiplier": 3.13
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5010",
@@ -473,9 +600,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#04542e",
-      "glowIntensity": 1.41,
-      "scaleMultiplier": 1.09
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5012",
@@ -495,9 +628,15 @@
     "baseCoinYield": 25,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#f24997",
-      "glowIntensity": 1.94,
-      "scaleMultiplier": 1.94
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5001",
@@ -517,9 +656,15 @@
     "baseCoinYield": 35,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#5616ca",
-      "glowIntensity": 1.96,
-      "scaleMultiplier": 1.68
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5014",
@@ -539,9 +684,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#347c94",
-      "glowIntensity": 1.4,
-      "scaleMultiplier": 1.73
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5016",
@@ -561,9 +712,15 @@
     "baseCoinYield": 32,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
-      "baseColor": "#a0788a",
-      "glowIntensity": 1.79,
-      "scaleMultiplier": 0.91
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5012",
@@ -583,9 +740,15 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
-      "baseColor": "#190a32",
-      "glowIntensity": 1.08,
-      "scaleMultiplier": 1.38
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5005",
@@ -605,9 +768,16 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
-      "baseColor": "#73eaef",
-      "glowIntensity": 1.85,
-      "scaleMultiplier": 2.27
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5027",
@@ -627,9 +797,16 @@
     "baseCoinYield": 32,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
-      "baseColor": "#297848",
-      "glowIntensity": 0.9,
-      "scaleMultiplier": 1.13
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5019",
@@ -649,9 +826,16 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
-      "baseColor": "#d44e00",
-      "glowIntensity": 0.9,
-      "scaleMultiplier": 2.49
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5007",
@@ -671,9 +855,16 @@
     "baseCoinYield": 65,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
-      "baseColor": "#2e6b28",
-      "glowIntensity": 1.55,
-      "scaleMultiplier": 3.38
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5016",
@@ -693,9 +884,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "baseColor": "#da34d7",
-      "glowIntensity": 0.63,
-      "scaleMultiplier": 3.28
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5028",
@@ -715,9 +912,16 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
-      "baseColor": "#7a9c79",
-      "glowIntensity": 1.46,
-      "scaleMultiplier": 1.17
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5033",
@@ -737,9 +941,15 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
-      "baseColor": "#6e3812",
-      "glowIntensity": 1.81,
-      "scaleMultiplier": 3.16
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5010",
@@ -759,9 +969,16 @@
     "baseCoinYield": 32,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
-      "baseColor": "#9c8120",
-      "glowIntensity": 0.9,
-      "scaleMultiplier": 2.95
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5012",
@@ -781,9 +998,15 @@
     "baseCoinYield": 15,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
-      "baseColor": "#d4d5be",
-      "glowIntensity": 1.78,
-      "scaleMultiplier": 1.7
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5033",
@@ -803,9 +1026,16 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
-      "baseColor": "#bde26c",
-      "glowIntensity": 0.76,
-      "scaleMultiplier": 2.63
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5031",
@@ -825,9 +1055,15 @@
     "baseCoinYield": 12,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
-      "baseColor": "#668dd9",
-      "glowIntensity": 1.0,
-      "scaleMultiplier": 1.5
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5021",
@@ -847,9 +1083,15 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
-      "baseColor": "#fe1488",
-      "glowIntensity": 1.36,
-      "scaleMultiplier": 3.16
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5013",
@@ -869,9 +1111,16 @@
     "baseCoinYield": 25,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
-      "baseColor": "#635063",
-      "glowIntensity": 1.59,
-      "scaleMultiplier": 2.31
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5005",
@@ -891,9 +1140,16 @@
     "baseCoinYield": 15,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
-      "baseColor": "#fb66d5",
-      "glowIntensity": 1.2,
-      "scaleMultiplier": 2.53
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5011",
@@ -913,9 +1169,16 @@
     "baseCoinYield": 12,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
-      "baseColor": "#d61f1a",
-      "glowIntensity": 1.0,
-      "scaleMultiplier": 3.08
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5038",
@@ -935,9 +1198,16 @@
     "baseCoinYield": 105,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
-      "baseColor": "#de3e56",
-      "glowIntensity": 1.67,
-      "scaleMultiplier": 1.65
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5004",
@@ -957,9 +1227,16 @@
     "baseCoinYield": 14,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
-      "baseColor": "#894464",
-      "glowIntensity": 0.58,
-      "scaleMultiplier": 1.91
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5002",
@@ -979,9 +1256,16 @@
     "baseCoinYield": 10,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
-      "baseColor": "#70dc4a",
-      "glowIntensity": 1.66,
-      "scaleMultiplier": 1.31
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5044",
@@ -1001,9 +1285,16 @@
     "baseCoinYield": 34,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
-      "baseColor": "#3c195c",
-      "glowIntensity": 1.71,
-      "scaleMultiplier": 3.37
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5028",
@@ -1023,9 +1314,16 @@
     "baseCoinYield": 60,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
-      "baseColor": "#8ac932",
-      "glowIntensity": 1.89,
-      "scaleMultiplier": 1.14
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5017",
@@ -1045,9 +1343,16 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
-      "baseColor": "#dd7494",
-      "glowIntensity": 0.76,
-      "scaleMultiplier": 2.6
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5034",
@@ -1067,9 +1372,16 @@
     "baseCoinYield": 28,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
-      "baseColor": "#2fa7f3",
-      "glowIntensity": 1.53,
-      "scaleMultiplier": 3.49
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5039",
@@ -1089,9 +1401,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#c2ff38",
-      "glowIntensity": 0.75,
-      "scaleMultiplier": 2.9
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5028",
@@ -1111,9 +1429,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
-      "baseColor": "#be82c4",
-      "glowIntensity": 1.53,
-      "scaleMultiplier": 2.23
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "ribbon",
+      "bodyLength": 10.0,
+      "bodyHeight": 22.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5011",
@@ -1133,9 +1457,15 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
-      "baseColor": "#afffc3",
-      "glowIntensity": 0.99,
-      "scaleMultiplier": 2.32
+      "primaryColor": "#F8FAFC",
+      "secondaryColor": "#E2E8F0",
+      "accentColor": "#38BDF8",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5005",
@@ -1155,9 +1485,15 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🐌",
     "visualBlueprint": {
-      "baseColor": "#1961db",
-      "glowIntensity": 0.98,
-      "scaleMultiplier": 2.61
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5017",
@@ -1177,9 +1513,15 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
-      "baseColor": "#3425cc",
-      "glowIntensity": 0.64,
-      "scaleMultiplier": 3.29
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5041",
@@ -1199,9 +1541,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
-      "baseColor": "#5b5ca3",
-      "glowIntensity": 1.39,
-      "scaleMultiplier": 3.25
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5016",
@@ -1221,9 +1569,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🌸",
     "visualBlueprint": {
-      "baseColor": "#ae3f3c",
-      "glowIntensity": 0.75,
-      "scaleMultiplier": 3.15
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5034",
@@ -1243,9 +1597,15 @@
     "baseCoinYield": 12,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
-      "baseColor": "#8667f0",
-      "glowIntensity": 1.31,
-      "scaleMultiplier": 3.44
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5017",
@@ -1265,9 +1625,15 @@
     "baseCoinYield": 26,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#c5747c",
-      "glowIntensity": 1.74,
-      "scaleMultiplier": 1.08
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5034",
@@ -1287,9 +1653,15 @@
     "baseCoinYield": 13,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
-      "baseColor": "#ab4097",
-      "glowIntensity": 0.71,
-      "scaleMultiplier": 3.26
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5030",
@@ -1309,9 +1681,15 @@
     "baseCoinYield": 61,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
-      "baseColor": "#593b27",
-      "glowIntensity": 1.03,
-      "scaleMultiplier": 1.16
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5039",
@@ -1331,9 +1709,15 @@
     "baseCoinYield": 12,
     "emojiOrSprite": "🦪",
     "visualBlueprint": {
-      "baseColor": "#c68278",
-      "glowIntensity": 1.65,
-      "scaleMultiplier": 2.36
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5026",
@@ -1353,9 +1737,15 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🦪",
     "visualBlueprint": {
-      "baseColor": "#150d0b",
-      "glowIntensity": 1.12,
-      "scaleMultiplier": 3.02
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5029",
@@ -1375,9 +1765,15 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🌋",
     "visualBlueprint": {
-      "baseColor": "#11d455",
-      "glowIntensity": 0.53,
-      "scaleMultiplier": 1.36
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5003",
@@ -1397,9 +1793,15 @@
     "baseCoinYield": 15,
     "emojiOrSprite": "⭐",
     "visualBlueprint": {
-      "baseColor": "#9e5bcc",
-      "glowIntensity": 0.85,
-      "scaleMultiplier": 1.2
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5045",
@@ -1419,9 +1821,15 @@
     "baseCoinYield": 15,
     "emojiOrSprite": "🌸",
     "visualBlueprint": {
-      "baseColor": "#cf1b08",
-      "glowIntensity": 1.88,
-      "scaleMultiplier": 0.8
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5065",
@@ -1441,9 +1849,15 @@
     "baseCoinYield": 10,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
-      "baseColor": "#8a170a",
-      "glowIntensity": 1.42,
-      "scaleMultiplier": 3.47
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5047",
@@ -1463,9 +1877,15 @@
     "baseCoinYield": 30,
     "emojiOrSprite": "🕷️",
     "visualBlueprint": {
-      "baseColor": "#04ed09",
-      "glowIntensity": 1.55,
-      "scaleMultiplier": 2.82
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5008",
@@ -1485,9 +1905,15 @@
     "baseCoinYield": 12,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
-      "baseColor": "#971851",
-      "glowIntensity": 0.76,
-      "scaleMultiplier": 2.71
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5042",
@@ -1507,9 +1933,15 @@
     "baseCoinYield": 35,
     "emojiOrSprite": "🦠",
     "visualBlueprint": {
-      "baseColor": "#a52841",
-      "glowIntensity": 1.21,
-      "scaleMultiplier": 1.06
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5055",
@@ -1529,9 +1961,16 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
-      "baseColor": "#26745d",
-      "glowIntensity": 1.48,
-      "scaleMultiplier": 2.29
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "tentacles",
+      "bodyLength": 16.0,
+      "bodyHeight": 18.0,
+      "features": [
+        "bioluminescence",
+        "tentacles"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5016",
@@ -1551,9 +1990,15 @@
     "baseCoinYield": 32,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
-      "baseColor": "#67032e",
-      "glowIntensity": 1.98,
-      "scaleMultiplier": 1.01
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5045",
@@ -1573,9 +2018,15 @@
     "baseCoinYield": 28,
     "emojiOrSprite": "🐌",
     "visualBlueprint": {
-      "baseColor": "#0be38b",
-      "glowIntensity": 0.97,
-      "scaleMultiplier": 2.91
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5014",
@@ -1595,9 +2046,15 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "🐌",
     "visualBlueprint": {
-      "baseColor": "#e4b19c",
-      "glowIntensity": 0.99,
-      "scaleMultiplier": 2.14
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "fan",
+      "bodyLength": 20.0,
+      "bodyHeight": 13.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5051",
@@ -1617,9 +2074,15 @@
     "baseCoinYield": 27,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
-      "baseColor": "#6793c0",
-      "glowIntensity": 1.82,
-      "scaleMultiplier": 3.15
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5024",
@@ -1639,9 +2102,15 @@
     "baseCoinYield": 63,
     "emojiOrSprite": "🐌",
     "visualBlueprint": {
-      "baseColor": "#6c268f",
-      "glowIntensity": 0.54,
-      "scaleMultiplier": 2.76
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5069",
@@ -1661,9 +2130,15 @@
     "baseCoinYield": 26,
     "emojiOrSprite": "🪲",
     "visualBlueprint": {
-      "baseColor": "#ea5476",
-      "glowIntensity": 0.92,
-      "scaleMultiplier": 1.44
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5013",
@@ -1683,9 +2158,15 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
-      "baseColor": "#117ced",
-      "glowIntensity": 0.74,
-      "scaleMultiplier": 2.36
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5043",
@@ -1705,9 +2186,16 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
-      "baseColor": "#d88af1",
-      "glowIntensity": 0.65,
-      "scaleMultiplier": 2.41
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "crescent",
+      "bodyLength": 26.0,
+      "bodyHeight": 9.5,
+      "features": [
+        "dorsal_spikes",
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5029",
@@ -1727,9 +2215,15 @@
     "baseCoinYield": 59,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
-      "baseColor": "#af313c",
-      "glowIntensity": 0.78,
-      "scaleMultiplier": 1.66
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5036",
@@ -1749,9 +2243,15 @@
     "baseCoinYield": 14,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
-      "baseColor": "#c27c30",
-      "glowIntensity": 1.06,
-      "scaleMultiplier": 2.61
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5070",
@@ -1771,9 +2271,15 @@
     "baseCoinYield": 63,
     "emojiOrSprite": "🧽",
     "visualBlueprint": {
-      "baseColor": "#afc162",
-      "glowIntensity": 1.41,
-      "scaleMultiplier": 1.6
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5081",
@@ -1793,9 +2299,16 @@
     "baseCoinYield": 13,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
-      "baseColor": "#b7e19c",
-      "glowIntensity": 0.82,
-      "scaleMultiplier": 1.75
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "crescent",
+      "bodyLength": 26.0,
+      "bodyHeight": 9.5,
+      "features": [
+        "dorsal_spikes",
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5020",
@@ -1815,9 +2328,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🕷️",
     "visualBlueprint": {
-      "baseColor": "#43f770",
-      "glowIntensity": 1.25,
-      "scaleMultiplier": 1.54
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5031",
@@ -1837,9 +2356,15 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
-      "baseColor": "#4e0cec",
-      "glowIntensity": 1.2,
-      "scaleMultiplier": 1.6
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5007",
@@ -1859,9 +2384,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
-      "baseColor": "#11dde6",
-      "glowIntensity": 1.7,
-      "scaleMultiplier": 3.14
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5069",
@@ -1881,9 +2412,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🥒",
     "visualBlueprint": {
-      "baseColor": "#4223d1",
-      "glowIntensity": 0.69,
-      "scaleMultiplier": 2.07
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5083",
@@ -1903,9 +2440,15 @@
     "baseCoinYield": 12,
     "emojiOrSprite": "🌰",
     "visualBlueprint": {
-      "baseColor": "#d15a7b",
-      "glowIntensity": 1.1,
-      "scaleMultiplier": 2.06
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5011",
@@ -1925,9 +2468,15 @@
     "baseCoinYield": 10,
     "emojiOrSprite": "🪲",
     "visualBlueprint": {
-      "baseColor": "#65c5f6",
-      "glowIntensity": 0.58,
-      "scaleMultiplier": 3.42
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5079",
@@ -1947,9 +2496,15 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🕷️",
     "visualBlueprint": {
-      "baseColor": "#33dbc1",
-      "glowIntensity": 0.96,
-      "scaleMultiplier": 0.94
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5034",
@@ -1969,9 +2524,15 @@
     "baseCoinYield": 10,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
-      "baseColor": "#d776c8",
-      "glowIntensity": 1.69,
-      "scaleMultiplier": 3.03
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5053",
@@ -1991,9 +2552,15 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
-      "baseColor": "#622d76",
-      "glowIntensity": 1.92,
-      "scaleMultiplier": 1.03
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5044",
@@ -2013,9 +2580,15 @@
     "baseCoinYield": 62,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#09772d",
-      "glowIntensity": 1.65,
-      "scaleMultiplier": 1.05
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5081",
@@ -2035,9 +2608,15 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#6a1615",
-      "glowIntensity": 0.73,
-      "scaleMultiplier": 3.33
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5073",
@@ -2057,9 +2636,15 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#eba3ef",
-      "glowIntensity": 1.92,
-      "scaleMultiplier": 2.56
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5092",
@@ -2079,9 +2664,15 @@
     "baseCoinYield": 10,
     "emojiOrSprite": "⭐",
     "visualBlueprint": {
-      "baseColor": "#942de6",
-      "glowIntensity": 0.69,
-      "scaleMultiplier": 1.09
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5069",
@@ -2101,9 +2692,15 @@
     "baseCoinYield": 13,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
-      "baseColor": "#199511",
-      "glowIntensity": 0.61,
-      "scaleMultiplier": 3.1
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5036",
@@ -2123,9 +2720,15 @@
     "baseCoinYield": 34,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#ebc43c",
-      "glowIntensity": 1.54,
-      "scaleMultiplier": 2.83
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5032",
@@ -2145,9 +2748,15 @@
     "baseCoinYield": 13,
     "emojiOrSprite": "🧽",
     "visualBlueprint": {
-      "baseColor": "#8eb6e7",
-      "glowIntensity": 1.99,
-      "scaleMultiplier": 1.09
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5094",
@@ -2167,9 +2776,15 @@
     "baseCoinYield": 27,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "baseColor": "#cca64b",
-      "glowIntensity": 0.84,
-      "scaleMultiplier": 1.26
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5015",
@@ -2189,9 +2804,15 @@
     "baseCoinYield": 25,
     "emojiOrSprite": "⭐",
     "visualBlueprint": {
-      "baseColor": "#b8f7ac",
-      "glowIntensity": 0.69,
-      "scaleMultiplier": 2.31
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#C4B5FD",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": {
       "parentA": "F_5016",

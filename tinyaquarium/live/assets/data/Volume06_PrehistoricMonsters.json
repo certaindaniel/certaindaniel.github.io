@@ -10,7 +10,15 @@
     "baseSwimSpeed": 12,
     "baseCoinYield": 55,
     "emojiOrSprite": "🦐",
-    "visualBlueprint": "blueprint_prehistoric_001",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "butterfly",
+      "bodyLength": 24.0,
+      "bodyHeight": 18.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -27,7 +35,17 @@
     "baseSwimSpeed": 14,
     "baseCoinYield": 60,
     "emojiOrSprite": "🦑",
-    "visualBlueprint": "blueprint_prehistoric_002",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 10.0,
+      "bodyHeight": 22.0,
+      "features": [
+        "tentacles"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -44,7 +62,15 @@
     "baseSwimSpeed": 16,
     "baseCoinYield": 65,
     "emojiOrSprite": "🪲",
-    "visualBlueprint": "blueprint_prehistoric_003",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "butterfly",
+      "bodyLength": 24.0,
+      "bodyHeight": 18.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -61,7 +87,15 @@
     "baseSwimSpeed": 18,
     "baseCoinYield": 70,
     "emojiOrSprite": "🦐",
-    "visualBlueprint": "blueprint_prehistoric_004",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -78,7 +112,15 @@
     "baseSwimSpeed": 20,
     "baseCoinYield": 75,
     "emojiOrSprite": "🪱",
-    "visualBlueprint": "blueprint_prehistoric_005",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -95,7 +137,17 @@
     "baseSwimSpeed": 22,
     "baseCoinYield": 80,
     "emojiOrSprite": "🌸",
-    "visualBlueprint": "blueprint_prehistoric_006",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -112,7 +164,15 @@
     "baseSwimSpeed": 24,
     "baseCoinYield": 85,
     "emojiOrSprite": "🦂",
-    "visualBlueprint": "blueprint_prehistoric_007",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -129,7 +189,18 @@
     "baseSwimSpeed": 26,
     "baseCoinYield": 90,
     "emojiOrSprite": "🐛",
-    "visualBlueprint": "blueprint_prehistoric_008",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "dorsal_spikes",
+        "tentacles"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -146,7 +217,15 @@
     "baseSwimSpeed": 28,
     "baseCoinYield": 95,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_009",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -163,7 +242,15 @@
     "baseSwimSpeed": 30,
     "baseCoinYield": 100,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_010",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -180,7 +267,15 @@
     "baseSwimSpeed": 32,
     "baseCoinYield": 105,
     "emojiOrSprite": "🦂",
-    "visualBlueprint": "blueprint_prehistoric_011",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -197,7 +292,15 @@
     "baseSwimSpeed": 34,
     "baseCoinYield": 110,
     "emojiOrSprite": "🦐",
-    "visualBlueprint": "blueprint_prehistoric_012",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -214,7 +317,15 @@
     "baseSwimSpeed": 36,
     "baseCoinYield": 115,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_013",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -231,7 +342,17 @@
     "baseSwimSpeed": 38,
     "baseCoinYield": 120,
     "emojiOrSprite": "🐚",
-    "visualBlueprint": "blueprint_prehistoric_014",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -248,7 +369,15 @@
     "baseSwimSpeed": 40,
     "baseCoinYield": 125,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_015",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -265,7 +394,15 @@
     "baseSwimSpeed": 42,
     "baseCoinYield": 130,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_016",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -282,7 +419,15 @@
     "baseSwimSpeed": 44,
     "baseCoinYield": 135,
     "emojiOrSprite": "🦂",
-    "visualBlueprint": "blueprint_prehistoric_017",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -299,7 +444,15 @@
     "baseSwimSpeed": 46,
     "baseCoinYield": 140,
     "emojiOrSprite": "🌿",
-    "visualBlueprint": "blueprint_prehistoric_018",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -316,7 +469,15 @@
     "baseSwimSpeed": 48,
     "baseCoinYield": 145,
     "emojiOrSprite": "🦑",
-    "visualBlueprint": "blueprint_prehistoric_019",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -333,7 +494,15 @@
     "baseSwimSpeed": 50,
     "baseCoinYield": 150,
     "emojiOrSprite": "🕷️",
-    "visualBlueprint": "blueprint_prehistoric_020",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -350,7 +519,15 @@
     "baseSwimSpeed": 52,
     "baseCoinYield": 155,
     "emojiOrSprite": "🦐",
-    "visualBlueprint": "blueprint_prehistoric_021",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -367,7 +544,15 @@
     "baseSwimSpeed": 54,
     "baseCoinYield": 160,
     "emojiOrSprite": "🦐",
-    "visualBlueprint": "blueprint_prehistoric_022",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "butterfly",
+      "bodyLength": 24.0,
+      "bodyHeight": 18.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -384,7 +569,17 @@
     "baseSwimSpeed": 56,
     "baseCoinYield": 165,
     "emojiOrSprite": "🍎",
-    "visualBlueprint": "blueprint_prehistoric_023",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -401,7 +596,15 @@
     "baseSwimSpeed": 58,
     "baseCoinYield": 170,
     "emojiOrSprite": "🦷",
-    "visualBlueprint": "blueprint_prehistoric_024",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -418,7 +621,15 @@
     "baseSwimSpeed": 60,
     "baseCoinYield": 175,
     "emojiOrSprite": "🛡️",
-    "visualBlueprint": "blueprint_prehistoric_025",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -435,7 +646,17 @@
     "baseSwimSpeed": 62,
     "baseCoinYield": 180,
     "emojiOrSprite": "🦈",
-    "visualBlueprint": "blueprint_prehistoric_026",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -452,7 +673,15 @@
     "baseSwimSpeed": 64,
     "baseCoinYield": 185,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_027",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -469,7 +698,17 @@
     "baseSwimSpeed": 66,
     "baseCoinYield": 190,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_028",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -486,7 +725,17 @@
     "baseSwimSpeed": 68,
     "baseCoinYield": 195,
     "emojiOrSprite": "🦈",
-    "visualBlueprint": "blueprint_prehistoric_029",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "crescent",
+      "bodyLength": 26.0,
+      "bodyHeight": 9.5,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -503,7 +752,17 @@
     "baseSwimSpeed": 10,
     "baseCoinYield": 200,
     "emojiOrSprite": "🦈",
-    "visualBlueprint": "blueprint_prehistoric_030",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "crescent",
+      "bodyLength": 26.0,
+      "bodyHeight": 9.5,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -520,7 +779,15 @@
     "baseSwimSpeed": 12,
     "baseCoinYield": 205,
     "emojiOrSprite": "🦎",
-    "visualBlueprint": "blueprint_prehistoric_031",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -537,7 +804,15 @@
     "baseSwimSpeed": 14,
     "baseCoinYield": 210,
     "emojiOrSprite": "🛡️",
-    "visualBlueprint": "blueprint_prehistoric_032",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -554,7 +829,15 @@
     "baseSwimSpeed": 16,
     "baseCoinYield": 215,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_033",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -571,7 +854,17 @@
     "baseSwimSpeed": 18,
     "baseCoinYield": 220,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_034",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -588,7 +881,15 @@
     "baseSwimSpeed": 20,
     "baseCoinYield": 225,
     "emojiOrSprite": "🦎",
-    "visualBlueprint": "blueprint_prehistoric_035",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -605,7 +906,15 @@
     "baseSwimSpeed": 22,
     "baseCoinYield": 230,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_036",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -622,7 +931,17 @@
     "baseSwimSpeed": 24,
     "baseCoinYield": 235,
     "emojiOrSprite": "🦈",
-    "visualBlueprint": "blueprint_prehistoric_037",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "crescent",
+      "bodyLength": 26.0,
+      "bodyHeight": 9.5,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -639,7 +958,17 @@
     "baseSwimSpeed": 26,
     "baseCoinYield": 240,
     "emojiOrSprite": "🦈",
-    "visualBlueprint": "blueprint_prehistoric_038",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "crescent",
+      "bodyLength": 26.0,
+      "bodyHeight": 9.5,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -656,7 +985,17 @@
     "baseSwimSpeed": 28,
     "baseCoinYield": 245,
     "emojiOrSprite": "🦈",
-    "visualBlueprint": "blueprint_prehistoric_039",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "crescent",
+      "bodyLength": 26.0,
+      "bodyHeight": 9.5,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -673,7 +1012,15 @@
     "baseSwimSpeed": 30,
     "baseCoinYield": 250,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_040",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -690,7 +1037,15 @@
     "baseSwimSpeed": 32,
     "baseCoinYield": 255,
     "emojiOrSprite": "🛡️",
-    "visualBlueprint": "blueprint_prehistoric_041",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -707,7 +1062,15 @@
     "baseSwimSpeed": 34,
     "baseCoinYield": 260,
     "emojiOrSprite": "🛡️",
-    "visualBlueprint": "blueprint_prehistoric_042",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -724,7 +1087,15 @@
     "baseSwimSpeed": 36,
     "baseCoinYield": 265,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_043",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -741,7 +1112,15 @@
     "baseSwimSpeed": 38,
     "baseCoinYield": 270,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_044",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -758,7 +1137,15 @@
     "baseSwimSpeed": 40,
     "baseCoinYield": 275,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_045",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -775,7 +1162,15 @@
     "baseSwimSpeed": 42,
     "baseCoinYield": 280,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_046",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -792,7 +1187,15 @@
     "baseSwimSpeed": 44,
     "baseCoinYield": 285,
     "emojiOrSprite": "🦎",
-    "visualBlueprint": "blueprint_prehistoric_047",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -809,7 +1212,15 @@
     "baseSwimSpeed": 46,
     "baseCoinYield": 290,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_048",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -826,7 +1237,15 @@
     "baseSwimSpeed": 48,
     "baseCoinYield": 295,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_049",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -843,7 +1262,17 @@
     "baseSwimSpeed": 50,
     "baseCoinYield": 50,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_050",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -860,7 +1289,15 @@
     "baseSwimSpeed": 52,
     "baseCoinYield": 55,
     "emojiOrSprite": "🐊",
-    "visualBlueprint": "blueprint_prehistoric_051",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -877,7 +1314,17 @@
     "baseSwimSpeed": 54,
     "baseCoinYield": 60,
     "emojiOrSprite": "🦕",
-    "visualBlueprint": "blueprint_prehistoric_052",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": [
+        "whiskers"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -894,7 +1341,15 @@
     "baseSwimSpeed": 56,
     "baseCoinYield": 65,
     "emojiOrSprite": "🦖",
-    "visualBlueprint": "blueprint_prehistoric_053",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -911,7 +1366,15 @@
     "baseSwimSpeed": 58,
     "baseCoinYield": 70,
     "emojiOrSprite": "🐬",
-    "visualBlueprint": "blueprint_prehistoric_054",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -928,7 +1391,15 @@
     "baseSwimSpeed": 60,
     "baseCoinYield": 75,
     "emojiOrSprite": "🦕",
-    "visualBlueprint": "blueprint_prehistoric_055",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -945,7 +1416,17 @@
     "baseSwimSpeed": 62,
     "baseCoinYield": 80,
     "emojiOrSprite": "🐚",
-    "visualBlueprint": "blueprint_prehistoric_056",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "tentacles"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -962,7 +1443,17 @@
     "baseSwimSpeed": 64,
     "baseCoinYield": 85,
     "emojiOrSprite": "🦑",
-    "visualBlueprint": "blueprint_prehistoric_057",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "crescent",
+      "bodyLength": 26.0,
+      "bodyHeight": 9.5,
+      "features": [
+        "tentacles"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -979,7 +1470,15 @@
     "baseSwimSpeed": 66,
     "baseCoinYield": 90,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_058",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -996,7 +1495,15 @@
     "baseSwimSpeed": 68,
     "baseCoinYield": 95,
     "emojiOrSprite": "🪱",
-    "visualBlueprint": "blueprint_prehistoric_059",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1013,7 +1520,15 @@
     "baseSwimSpeed": 10,
     "baseCoinYield": 100,
     "emojiOrSprite": "🦖",
-    "visualBlueprint": "blueprint_prehistoric_060",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1030,7 +1545,15 @@
     "baseSwimSpeed": 12,
     "baseCoinYield": 105,
     "emojiOrSprite": "🐊",
-    "visualBlueprint": "blueprint_prehistoric_061",
+    "visualBlueprint": {
+      "primaryColor": "#1D4ED8",
+      "secondaryColor": "#3B82F6",
+      "accentColor": "#FACC15",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1047,7 +1570,15 @@
     "baseSwimSpeed": 14,
     "baseCoinYield": 110,
     "emojiOrSprite": "🦕",
-    "visualBlueprint": "blueprint_prehistoric_062",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1064,7 +1595,15 @@
     "baseSwimSpeed": 16,
     "baseCoinYield": 115,
     "emojiOrSprite": "🦎",
-    "visualBlueprint": "blueprint_prehistoric_063",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1081,7 +1620,15 @@
     "baseSwimSpeed": 18,
     "baseCoinYield": 120,
     "emojiOrSprite": "🐢",
-    "visualBlueprint": "blueprint_prehistoric_064",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1098,7 +1645,15 @@
     "baseSwimSpeed": 20,
     "baseCoinYield": 125,
     "emojiOrSprite": "🐊",
-    "visualBlueprint": "blueprint_prehistoric_065",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1115,7 +1670,15 @@
     "baseSwimSpeed": 22,
     "baseCoinYield": 130,
     "emojiOrSprite": "🐊",
-    "visualBlueprint": "blueprint_prehistoric_066",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1132,7 +1695,15 @@
     "baseSwimSpeed": 24,
     "baseCoinYield": 135,
     "emojiOrSprite": "🐊",
-    "visualBlueprint": "blueprint_prehistoric_067",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1149,7 +1720,15 @@
     "baseSwimSpeed": 26,
     "baseCoinYield": 140,
     "emojiOrSprite": "🦕",
-    "visualBlueprint": "blueprint_prehistoric_068",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1166,7 +1745,15 @@
     "baseSwimSpeed": 28,
     "baseCoinYield": 145,
     "emojiOrSprite": "🐋",
-    "visualBlueprint": "blueprint_prehistoric_069",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1183,7 +1770,15 @@
     "baseSwimSpeed": 30,
     "baseCoinYield": 150,
     "emojiOrSprite": "🐋",
-    "visualBlueprint": "blueprint_prehistoric_070",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1200,7 +1795,17 @@
     "baseSwimSpeed": 32,
     "baseCoinYield": 155,
     "emojiOrSprite": "🐬",
-    "visualBlueprint": "blueprint_prehistoric_071",
+    "visualBlueprint": {
+      "primaryColor": "#030712",
+      "secondaryColor": "#1E1B4B",
+      "accentColor": "#06B6D4",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": [
+        "bioluminescence"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1217,7 +1822,15 @@
     "baseSwimSpeed": 34,
     "baseCoinYield": 160,
     "emojiOrSprite": "🦕",
-    "visualBlueprint": "blueprint_prehistoric_072",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1234,7 +1847,15 @@
     "baseSwimSpeed": 36,
     "baseCoinYield": 165,
     "emojiOrSprite": "🐢",
-    "visualBlueprint": "blueprint_prehistoric_073",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1251,7 +1872,17 @@
     "baseSwimSpeed": 38,
     "baseCoinYield": 170,
     "emojiOrSprite": "🦖",
-    "visualBlueprint": "blueprint_prehistoric_074",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1268,7 +1899,15 @@
     "baseSwimSpeed": 40,
     "baseCoinYield": 175,
     "emojiOrSprite": "🐊",
-    "visualBlueprint": "blueprint_prehistoric_075",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1285,7 +1924,17 @@
     "baseSwimSpeed": 42,
     "baseCoinYield": 180,
     "emojiOrSprite": "🦈",
-    "visualBlueprint": "blueprint_prehistoric_076",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "crescent",
+      "bodyLength": 26.0,
+      "bodyHeight": 9.5,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1302,7 +1951,17 @@
     "baseSwimSpeed": 44,
     "baseCoinYield": 185,
     "emojiOrSprite": "🐳",
-    "visualBlueprint": "blueprint_prehistoric_077",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "crescent",
+      "bodyLength": 26.0,
+      "bodyHeight": 9.5,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1319,7 +1978,15 @@
     "baseSwimSpeed": 46,
     "baseCoinYield": 190,
     "emojiOrSprite": "🐋",
-    "visualBlueprint": "blueprint_prehistoric_078",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1336,7 +2003,15 @@
     "baseSwimSpeed": 48,
     "baseCoinYield": 195,
     "emojiOrSprite": "🐬",
-    "visualBlueprint": "blueprint_prehistoric_079",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
+      "bodyLength": 28.0,
+      "bodyHeight": 6.5,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1353,7 +2028,15 @@
     "baseSwimSpeed": 50,
     "baseCoinYield": 200,
     "emojiOrSprite": "🐢",
-    "visualBlueprint": "blueprint_prehistoric_080",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1370,7 +2053,15 @@
     "baseSwimSpeed": 52,
     "baseCoinYield": 205,
     "emojiOrSprite": "🐢",
-    "visualBlueprint": "blueprint_prehistoric_081",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1387,7 +2078,18 @@
     "baseSwimSpeed": 54,
     "baseCoinYield": 210,
     "emojiOrSprite": "🐟",
-    "visualBlueprint": "blueprint_prehistoric_082",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "dorsal_spikes",
+        "bioluminescence"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1404,7 +2106,17 @@
     "baseSwimSpeed": 56,
     "baseCoinYield": 215,
     "emojiOrSprite": "🦈",
-    "visualBlueprint": "blueprint_prehistoric_083",
+    "visualBlueprint": {
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#B45309",
+      "tailShape": "crescent",
+      "bodyLength": 26.0,
+      "bodyHeight": 9.5,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1421,7 +2133,15 @@
     "baseSwimSpeed": 58,
     "baseCoinYield": 220,
     "emojiOrSprite": "🐺",
-    "visualBlueprint": "blueprint_prehistoric_084",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1438,7 +2158,15 @@
     "baseSwimSpeed": 60,
     "baseCoinYield": 225,
     "emojiOrSprite": "🐊",
-    "visualBlueprint": "blueprint_prehistoric_085",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1455,7 +2183,15 @@
     "baseSwimSpeed": 62,
     "baseCoinYield": 230,
     "emojiOrSprite": "🐬",
-    "visualBlueprint": "blueprint_prehistoric_086",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1472,7 +2208,15 @@
     "baseSwimSpeed": 64,
     "baseCoinYield": 235,
     "emojiOrSprite": "🐬",
-    "visualBlueprint": "blueprint_prehistoric_087",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "fan",
+      "bodyLength": 17.0,
+      "bodyHeight": 16.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1489,7 +2233,15 @@
     "baseSwimSpeed": 66,
     "baseCoinYield": 240,
     "emojiOrSprite": "🦭",
-    "visualBlueprint": "blueprint_prehistoric_088",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1506,7 +2258,15 @@
     "baseSwimSpeed": 68,
     "baseCoinYield": 245,
     "emojiOrSprite": "🐺",
-    "visualBlueprint": "blueprint_prehistoric_089",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1523,7 +2283,17 @@
     "baseSwimSpeed": 10,
     "baseCoinYield": 250,
     "emojiOrSprite": "🦈",
-    "visualBlueprint": "blueprint_prehistoric_090",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "crescent",
+      "bodyLength": 26.0,
+      "bodyHeight": 9.5,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1540,7 +2310,17 @@
     "baseSwimSpeed": 12,
     "baseCoinYield": 255,
     "emojiOrSprite": "🦈",
-    "visualBlueprint": "blueprint_prehistoric_091",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "crescent",
+      "bodyLength": 26.0,
+      "bodyHeight": 9.5,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1557,7 +2337,17 @@
     "baseSwimSpeed": 14,
     "baseCoinYield": 260,
     "emojiOrSprite": "🦭",
-    "visualBlueprint": "blueprint_prehistoric_092",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "spots"
+      ]
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1574,7 +2364,15 @@
     "baseSwimSpeed": 16,
     "baseCoinYield": 265,
     "emojiOrSprite": "🐋",
-    "visualBlueprint": "blueprint_prehistoric_093",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1591,7 +2389,15 @@
     "baseSwimSpeed": 18,
     "baseCoinYield": 270,
     "emojiOrSprite": "🐋",
-    "visualBlueprint": "blueprint_prehistoric_094",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1608,7 +2414,15 @@
     "baseSwimSpeed": 20,
     "baseCoinYield": 275,
     "emojiOrSprite": "🐻",
-    "visualBlueprint": "blueprint_prehistoric_095",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1625,7 +2439,15 @@
     "baseSwimSpeed": 22,
     "baseCoinYield": 280,
     "emojiOrSprite": "🦭",
-    "visualBlueprint": "blueprint_prehistoric_096",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#D97706",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1642,7 +2464,15 @@
     "baseSwimSpeed": 24,
     "baseCoinYield": 285,
     "emojiOrSprite": "🐬",
-    "visualBlueprint": "blueprint_prehistoric_097",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1659,7 +2489,15 @@
     "baseSwimSpeed": 26,
     "baseCoinYield": 290,
     "emojiOrSprite": "🦭",
-    "visualBlueprint": "blueprint_prehistoric_098",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1676,7 +2514,15 @@
     "baseSwimSpeed": 28,
     "baseCoinYield": 295,
     "emojiOrSprite": "🐋",
-    "visualBlueprint": "blueprint_prehistoric_099",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
@@ -1693,7 +2539,15 @@
     "baseSwimSpeed": 30,
     "baseCoinYield": 50,
     "emojiOrSprite": "🦭",
-    "visualBlueprint": "blueprint_prehistoric_100",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#FDE047",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
