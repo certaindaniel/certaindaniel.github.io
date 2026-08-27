@@ -803,11 +803,11 @@
         let heartEnergy = 100;
         let foodCharges = 5;
         
-        // Sim Fishes
+        // Sim Fishes (100% 同步 TinyAquarium 遊戲內真實魚種與初始數值)
         let fishes = [
-            { x: 180, y: 140, vx: 1.2, vy: 0.4, emoji: '🐟', name: '波波', color: '#00d2ff', size: 28, targetFood: null },
-            { x: 420, y: 220, vx: -0.9, vy: -0.3, emoji: '🐠', name: '小光', color: '#ffd15c', size: 30, targetFood: null },
-            { x: 600, y: 160, vx: 1.5, vy: -0.5, emoji: '🐡', name: '膨膨', color: '#ff7675', size: 26, targetFood: null }
+            { id: 'guppy', name: '波波', species: '彩虹孔雀魚', color: '#EC4899', x: 180, y: 140, vx: 1.2, vy: 0.4, size: 28, targetFood: null },
+            { id: 'neon_tetra', name: '小光', species: '日光燈魚', color: '#00d2ff', x: 420, y: 220, vx: -0.9, vy: -0.3, size: 30, targetFood: null },
+            { id: 'puffer_souffle', name: '膨膨', species: '舒芙蕾小河豚', color: '#FACC15', x: 600, y: 160, vx: 1.5, vy: -0.5, size: 26, targetFood: null }
         ];
 
         // Bubble Coins
@@ -847,22 +847,31 @@
             updateHUD();
         }
 
+        // 遊戲內真實魚種蛋池
+        const authenticFishPool = [
+            { id: 'clownfish', name: '跳跳', species: '眼斑小丑魚', color: '#F97316' },
+            { id: 'tancho_koi', name: '丹丹', species: '日本丹頂錦鯉', color: '#EF4444' },
+            { id: 'formosan_salmon', name: '櫻櫻', species: '台灣櫻花鉤吻鮭', color: '#FB7185' },
+            { id: 'blue_tang', name: '多多', species: '皇家藍倒吊', color: '#1D4ED8' },
+            { id: 'super_red_arowana', name: '龍寶', species: '印尼辣椒紅龍魚', color: '#DC2626' },
+            { id: 'aurora_clownfish', name: '極光', species: '極光螢光小丑魚', color: '#38BDF8' }
+        ];
+
         function spawnNewFish() {
             if (fishes.length >= 8) {
                 alert('魚缸已滿員 (8/8)！請先升級魚缸容量。');
                 return;
             }
-            const emojis = ['🎏', '🥋', '🦑', '🐉', '✨'];
-            const names = ['金金', '小白', '悠悠', '星塵', '小彩'];
-            const e = emojis[Math.floor(Math.random() * emojis.length)];
-            const n = names[Math.floor(Math.random() * names.length)];
+            const candidate = authenticFishPool[Math.floor(Math.random() * authenticFishPool.length)];
             fishes.push({
+                id: candidate.id,
+                name: candidate.name,
+                species: candidate.species,
+                color: candidate.color,
                 x: 100 + Math.random() * 500,
                 y: 100 + Math.random() * 200,
                 vx: (Math.random() - 0.5) * 2,
                 vy: (Math.random() - 0.5) * 1,
-                emoji: e,
-                name: n,
                 size: 28,
                 targetFood: null
             });
