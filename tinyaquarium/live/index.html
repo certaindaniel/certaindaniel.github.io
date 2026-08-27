@@ -890,20 +890,98 @@
                 this.facingRight = this.vx > 0;
             }
             draw() {
+                // 1. Draw Fish Body & Dynamic Fins (Subject to horizontal flip)
                 ctx.save();
                 ctx.translate(this.x, this.y);
                 if (!this.facingRight) ctx.scale(-1, 1);
                 ctx.rotate(this.angle);
                 
-                ctx.font = `${this.size}px sans-serif`;
-                ctx.textAlign = 'center';
-                ctx.textBaseline = 'middle';
-                ctx.fillText(this.emoji, 0, 0);
+                const phase = Date.now() * 0.008 + (this.x * 0.1);
+                const tailAngle = Math.sin(phase) * 0.35;
+                const dorsalAngle = Math.cos(phase * 0.8) * 0.15;
 
-                // Name tag
-                ctx.font = '10px "Noto Sans TC", sans-serif';
-                ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
-                ctx.fillText(this.name, 0, -this.size * 0.65);
+                if (this.emoji === '🎏' || this.emoji === '🐟' || this.emoji === '🐠' || this.emoji === '🪭') {
+                    // Render Vector Pixel Fish with Dorsal Fin & Tail
+                    // A. Dorsal Fin (立體動態背鰭)
+                    ctx.save();
+                    ctx.translate(-2, -9);
+                    ctx.rotate(dorsalAngle);
+                    ctx.fillStyle = this.color || '#00F0FF';
+                    ctx.beginPath();
+                    ctx.moveTo(10, 5);
+                    ctx.quadraticCurveTo(0, -8, -8, 2);
+                    ctx.lineTo(-4, 6);
+                    ctx.closePath();
+                    ctx.fill();
+                    ctx.restore();
+
+                    // B. Ventral Fin (腹鰭)
+                    ctx.fillStyle = this.color || '#00F0FF';
+                    ctx.beginPath();
+                    ctx.moveTo(2, 6);
+                    ctx.quadraticCurveTo(-4, 12, -8, 8);
+                    ctx.closePath();
+                    ctx.fill();
+
+                    // C. Tail Fin (擺動尾鰭)
+                    ctx.save();
+                    ctx.translate(-14, 0);
+                    ctx.rotate(tailAngle);
+                    ctx.fillStyle = this.color || '#00F0FF';
+                    ctx.beginPath();
+                    ctx.moveTo(0, 0);
+                    ctx.lineTo(-13, -11);
+                    ctx.quadraticCurveTo(-7, 0, -13, 11);
+                    ctx.closePath();
+                    ctx.fill();
+                    ctx.restore();
+
+                    // D. Main Body Capsule
+                    ctx.fillStyle = this.color || '#00F0FF';
+                    ctx.beginPath();
+                    ctx.ellipse(2, 0, 15, 9, 0, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    // Tancho crimson crown spot
+                    if (this.name.includes('丹頂')) {
+                        ctx.fillStyle = '#DC2626';
+                        ctx.beginPath();
+                        ctx.arc(8, -3, 3.5, 0, Math.PI * 2);
+                        ctx.fill();
+                    }
+
+                    // Belly highlight
+                    ctx.fillStyle = 'rgba(255, 255, 255, 0.4)';
+                    ctx.beginPath();
+                    ctx.ellipse(3, 2.5, 10, 3, 0, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    // E. Eye
+                    ctx.fillStyle = '#ffffff';
+                    ctx.beginPath();
+                    ctx.arc(9, -2, 3, 0, Math.PI * 2);
+                    ctx.fill();
+                    ctx.fillStyle = '#000000';
+                    ctx.beginPath();
+                    ctx.arc(10, -2, 1.6, 0, Math.PI * 2);
+                    ctx.fill();
+                } else {
+                    // For Sea creatures (Seahorse, Baby Whale)
+                    ctx.font = `${this.size}px sans-serif`;
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    ctx.fillText(this.emoji, 0, 0);
+                }
+                ctx.restore();
+
+                // 2. Draw Unmirrored Crisp Name Tag (Always facing correctly)
+                ctx.save();
+                ctx.font = '500 11px "Plus Jakarta Sans", "Noto Sans TC", sans-serif';
+                ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+                ctx.textAlign = 'center';
+                ctx.shadowColor = 'rgba(0, 0, 0, 0.8)';
+                ctx.shadowBlur = 4;
+                ctx.fillText(this.name, this.x, this.y - this.size * 0.75);
                 ctx.restore();
             }
         }
