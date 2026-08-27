@@ -19,7 +19,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-FFFF-DC26-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_010",
@@ -47,7 +48,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-1E29-DC26-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_001",
@@ -75,7 +77,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0F17-3341-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_001",
@@ -103,7 +106,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0F17-FACC-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_011",
@@ -131,7 +135,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0284-38BD-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_002",
@@ -159,7 +164,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0284-94A3-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_001",
@@ -187,7 +193,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-GUP-F59E-E2E8-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_004",
@@ -215,7 +222,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-4755-DC26-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_005",
@@ -243,7 +251,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-D977-1E29-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_010",
@@ -271,7 +280,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0F17-1E29-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_010",
@@ -299,7 +309,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-7835-9240-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_005",
@@ -327,7 +338,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0F17-FFFF-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_003",
@@ -355,7 +367,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-FFFF-0F17-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_011",
@@ -383,7 +396,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0206-0F17-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_004",
@@ -411,7 +425,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-D977-1E29-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_005",
@@ -440,7 +455,8 @@
       "features": [
         "whiskers",
         "tancho_crown"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-1E29-FFFF-FOR-2"
     },
     "breedingRecipe": {
       "parentA": "koi_005",
@@ -468,7 +484,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-FFFF-7F1D-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_010",
@@ -496,7 +513,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-KOI-0284-EA58-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_001",
@@ -524,7 +542,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-FFFF-F1F5-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_003",
@@ -552,7 +571,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-FACC-FEF0-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_009",
@@ -580,7 +600,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-EA58-F973-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_011",
@@ -608,7 +629,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-DC26-EF44-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_002",
@@ -636,7 +658,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-EAB3-FDE0-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_007",
@@ -664,7 +687,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-65A3-84CC-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_009",
@@ -692,7 +716,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-6474-94A3-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "koi_011",
@@ -712,15 +737,17 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#EA580C",
-      "secondaryColor": "#F97316",
-      "accentColor": "#FDE047",
+      "primaryColor": "#F916BC",
+      "secondaryColor": "#F98016",
+      "accentColor": "#55F6E1",
       "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bubble_eyes"
-      ]
+        "bubble_eyes",
+        "dorsal_spikes"
+      ],
+      "phenotypeHash": "VPH-BUB-F916-F980-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_028",
@@ -748,7 +775,8 @@
       "bodyHeight": 11.0,
       "features": [
         "tancho_crown"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-FFFF-DC26-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "goldfish_026",
@@ -777,7 +805,8 @@
       "features": [
         "strawberry_hood",
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-RAN-FFFF-E2E8-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_033",
@@ -805,7 +834,8 @@
       "bodyHeight": 11.0,
       "features": [
         "celestial_eyes"
-      ]
+      ],
+      "phenotypeHash": "VPH-CEL-EA58-F973-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "goldfish_028",
@@ -833,7 +863,8 @@
       "bodyHeight": 11.0,
       "features": [
         "bubble_eyes"
-      ]
+      ],
+      "phenotypeHash": "VPH-BUB-0284-1E29-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "goldfish_028",
@@ -862,7 +893,8 @@
       "features": [
         "no_dorsal",
         "strawberry_hood"
-      ]
+      ],
+      "phenotypeHash": "VPH-RAN-EA58-F59E-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_032",
@@ -891,7 +923,8 @@
       "features": [
         "strawberry_hood",
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-RAN-DC26-EF44-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_035",
@@ -911,16 +944,18 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#EA580C",
-      "secondaryColor": "#F97316",
-      "accentColor": "#DC2626",
+      "primaryColor": "#47F100",
+      "secondaryColor": "#16F9E3",
+      "accentColor": "#F655C5",
       "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
         "no_dorsal",
-        "strawberry_hood"
-      ]
+        "strawberry_hood",
+        "neon_stripe"
+      ],
+      "phenotypeHash": "VPH-RAN-47F1-16F9-FAN-3"
     },
     "breedingRecipe": {
       "parentA": "goldfish_035",
@@ -948,7 +983,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-GOL-0F17-EAB3-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "goldfish_031",
@@ -977,7 +1013,8 @@
       "features": [
         "pearl_scales",
         "strawberry_hood"
-      ]
+      ],
+      "phenotypeHash": "VPH-RAN-FFFF-EA58-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_032",
@@ -1006,7 +1043,8 @@
       "features": [
         "high_back",
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-DC26-FFFF-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_026",
@@ -1034,7 +1072,8 @@
       "bodyHeight": 11.0,
       "features": [
         "strawberry_hood"
-      ]
+      ],
+      "phenotypeHash": "VPH-RAN-FFFF-F1F5-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "goldfish_031",
@@ -1062,7 +1101,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-GOL-EA58-FFFF-RIB-1"
     },
     "breedingRecipe": {
       "parentA": "goldfish_035",
@@ -1091,7 +1131,8 @@
       "features": [
         "no_dorsal",
         "strawberry_hood"
-      ]
+      ],
+      "phenotypeHash": "VPH-RAN-DC26-F59E-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_026",
@@ -1119,7 +1160,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-GOL-0F17-FFFF-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "goldfish_031",
@@ -1148,7 +1190,8 @@
       "features": [
         "no_dorsal",
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-GOL-EA58-FDE0-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_029",
@@ -1177,7 +1220,8 @@
       "features": [
         "strawberry_hood",
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-RAN-581C-7E22-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_026",
@@ -1206,7 +1250,8 @@
       "features": [
         "telescope_eyes",
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-TEL-FFFF-0F17-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_031",
@@ -1235,7 +1280,8 @@
       "features": [
         "telescope_eyes",
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-TEL-0206-0F17-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_030",
@@ -1264,7 +1310,8 @@
       "features": [
         "telescope_eyes",
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-TEL-FFFF-DC26-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_026",
@@ -1293,7 +1340,8 @@
       "features": [
         "high_back",
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-FB71-FFFF-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_026",
@@ -1322,7 +1370,8 @@
       "features": [
         "no_dorsal",
         "strawberry_hood"
-      ]
+      ],
+      "phenotypeHash": "VPH-RAN-0284-EA58-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_034",
@@ -1351,7 +1400,8 @@
       "features": [
         "no_dorsal",
         "strawberry_hood"
-      ]
+      ],
+      "phenotypeHash": "VPH-RAN-0F17-1E29-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_026",
@@ -1380,7 +1430,8 @@
       "features": [
         "telescope_eyes",
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-TEL-DC26-EA58-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_034",
@@ -1409,7 +1460,8 @@
       "features": [
         "no_dorsal",
         "celestial_eyes"
-      ]
+      ],
+      "phenotypeHash": "VPH-CEL-EA58-F973-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "goldfish_035",
@@ -1429,16 +1481,18 @@
     "baseCoinYield": 24,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#D97706",
-      "accentColor": "#FBBF24",
+      "primaryColor": "#33FC1E",
+      "secondaryColor": "#06C3D9",
+      "accentColor": "#F655A5",
       "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
         "whiskers",
-        "dragon_scales"
-      ]
+        "dragon_scales",
+        "high_back"
+      ],
+      "phenotypeHash": "VPH-ARO-33FC-06C3-FAN-3"
     },
     "breedingRecipe": {
       "parentA": "seasia_059",
@@ -1467,7 +1521,8 @@
       "features": [
         "puffer_belly",
         "stripes"
-      ]
+      ],
+      "phenotypeHash": "VPH-PUF-84CC-EAB3-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "seasia_057",
@@ -1495,7 +1550,8 @@
       "bodyHeight": 11.0,
       "features": [
         "snakehead_pattern"
-      ]
+      ],
+      "phenotypeHash": "VPH-SNA-EAB3-0284-FAN-1"
     },
     "breedingRecipe": {
       "parentA": "seasia_061",
@@ -1523,7 +1579,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-SNA-DC26-0284-FAN-1"
     },
     "breedingRecipe": {
       "parentA": "seasia_052",
@@ -1543,15 +1600,17 @@
     "baseCoinYield": 39,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#78350F",
-      "secondaryColor": "#92400E",
-      "accentColor": "#FBBF24",
+      "primaryColor": "#54930E",
+      "secondaryColor": "#0E9267",
+      "accentColor": "#F655EA",
       "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "wing_fins"
-      ]
+        "wing_fins",
+        "spots"
+      ],
+      "phenotypeHash": "VPH-RAY-5493-0E92-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "seasia_061",
@@ -1571,15 +1630,16 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#F97316",
-      "secondaryColor": "#1E293B",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
+      "primaryColor": "#AE2AFF",
+      "secondaryColor": "#562931",
+      "accentColor": "#55F679",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
         "stripes"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-AE2A-5629-SPI-1"
     },
     "breedingRecipe": {
       "parentA": "seasia_051",
@@ -1607,7 +1667,8 @@
       "bodyHeight": 11.0,
       "features": [
         "strawberry_hood"
-      ]
+      ],
+      "phenotypeHash": "VPH-RAN-0D94-0596-FAN-1"
     },
     "breedingRecipe": {
       "parentA": "seasia_059",
@@ -1635,7 +1696,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-9333-C084-LYR-1"
     },
     "breedingRecipe": {
       "parentA": "seasia_058",
@@ -1663,7 +1725,8 @@
       "bodyHeight": 11.0,
       "features": [
         "stripes"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-EAB3-16A3-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "seasia_057",
@@ -1692,7 +1755,8 @@
       "features": [
         "stripes",
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-E2E8-1E29-FOR-2"
     },
     "breedingRecipe": {
       "parentA": "seasia_061",
@@ -1718,7 +1782,8 @@
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-STA-0284-38BD-FOR-0"
     },
     "breedingRecipe": {
       "parentA": "seasia_053",
@@ -1744,7 +1809,8 @@
       "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-STA-0F17-3341-LYR-0"
     },
     "breedingRecipe": {
       "parentA": "seasia_056",
@@ -1770,7 +1836,8 @@
       "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-STA-EA58-F973-FAN-0"
     },
     "breedingRecipe": {
       "parentA": "seasia_059",
@@ -1798,7 +1865,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-DC26-EF44-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "seasia_056",
@@ -1818,13 +1886,16 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#EA580C",
-      "secondaryColor": "#F97316",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
+      "primaryColor": "#68FF1B",
+      "secondaryColor": "#16F9DA",
+      "accentColor": "#F655CC",
+      "tailShape": "delta",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "wing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-68FF-16F9-DEL-1"
     },
     "breedingRecipe": {
       "parentA": "seasia_061",
@@ -1852,7 +1923,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-BET-DC26-EF44-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "seasia_059",
@@ -1872,13 +1944,16 @@
     "baseCoinYield": 42,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#0284C7",
-      "secondaryColor": "#38BDF8",
-      "accentColor": "#F59E0B",
-      "tailShape": "forked",
+      "primaryColor": "#0087BA",
+      "secondaryColor": "#9338F8",
+      "accentColor": "#F6E255",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "spots"
+      ],
+      "phenotypeHash": "VPH-STA-0087-9338-CRE-1"
     },
     "breedingRecipe": {
       "parentA": "seasia_061",
@@ -1898,13 +1973,16 @@
     "baseCoinYield": 48,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#EA580C",
-      "secondaryColor": "#F97316",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
+      "primaryColor": "#98F100",
+      "secondaryColor": "#16F997",
+      "accentColor": "#F155F6",
+      "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer"
+      ],
+      "phenotypeHash": "VPH-STA-98F1-16F9-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "seasia_060",
@@ -1924,15 +2002,17 @@
     "baseCoinYield": 41,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#DC2626",
-      "secondaryColor": "#EF4444",
-      "accentColor": "#FFFFFF",
+      "primaryColor": "#A8D731",
+      "secondaryColor": "#44EF96",
+      "accentColor": "#E355F6",
       "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "flowing_fins"
-      ]
+        "flowing_fins",
+        "dorsal_spikes"
+      ],
+      "phenotypeHash": "VPH-STA-A8D7-44EF-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "seasia_053",
@@ -1958,7 +2038,8 @@
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-STA-16A3-84CC-FOR-0"
     },
     "breedingRecipe": {
       "parentA": "seasia_060",
@@ -1978,13 +2059,16 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#EA580C",
-      "secondaryColor": "#F97316",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
+      "primaryColor": "#AB0BD2",
+      "secondaryColor": "#F91716",
+      "accentColor": "#55F697",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "bioluminescence"
+      ],
+      "phenotypeHash": "VPH-STA-AB0B-F917-LYR-1"
     },
     "breedingRecipe": {
       "parentA": "seasia_052",
@@ -2004,13 +2088,16 @@
     "baseCoinYield": 18,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#0284C7",
-      "secondaryColor": "#38BDF8",
-      "accentColor": "#F59E0B",
-      "tailShape": "forked",
+      "primaryColor": "#92BA00",
+      "secondaryColor": "#38F888",
+      "accentColor": "#D955F6",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "pearl_scales"
+      ],
+      "phenotypeHash": "VPH-STA-92BA-38F8-SPI-1"
     },
     "breedingRecipe": {
       "parentA": "seasia_061",
@@ -2030,13 +2117,16 @@
     "baseCoinYield": 49,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#334155",
-      "accentColor": "#E2E8F0",
-      "tailShape": "lyre",
+      "primaryColor": "#20184E",
+      "secondaryColor": "#5C2C4C",
+      "accentColor": "#7FF655",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "spots"
+      ],
+      "phenotypeHash": "VPH-STA-2018-5C2C-CRE-1"
     },
     "breedingRecipe": {
       "parentA": "seasia_059",
@@ -2064,7 +2154,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-GLA-9333-C084-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "seasia_052",
@@ -2084,13 +2175,16 @@
     "baseCoinYield": 34,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#EA580C",
-      "secondaryColor": "#F97316",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
+      "primaryColor": "#E10581",
+      "secondaryColor": "#F9A616",
+      "accentColor": "#55F0F6",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "high_back"
+      ],
+      "phenotypeHash": "VPH-STA-E105-F9A6-CRE-1"
     },
     "breedingRecipe": {
       "parentA": "seasia_056",
@@ -2119,7 +2213,8 @@
       "features": [
         "whiskers",
         "spots"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-4755-94A3-FOR-2"
     },
     "breedingRecipe": {
       "parentA": "taiwan_080",
@@ -2139,15 +2234,17 @@
     "baseCoinYield": 12,
     "emojiOrSprite": "🏔️",
     "visualBlueprint": {
-      "primaryColor": "#E2E8F0",
-      "secondaryColor": "#94A3B8",
-      "accentColor": "#00F0FF",
-      "tailShape": "forked",
+      "primaryColor": "#C7D2E7",
+      "secondaryColor": "#BD87C5",
+      "accentColor": "#CAF655",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "shimmer"
-      ]
+        "shimmer",
+        "dorsal_spikes"
+      ],
+      "phenotypeHash": "VPH-STA-C7D2-BD87-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "taiwan_085",
@@ -2167,15 +2264,17 @@
     "baseCoinYield": 30,
     "emojiOrSprite": "🏔️",
     "visualBlueprint": {
-      "primaryColor": "#0284C7",
-      "secondaryColor": "#F43F5E",
-      "accentColor": "#38BDF8",
+      "primaryColor": "#00ED7B",
+      "secondaryColor": "#3F72F4",
+      "accentColor": "#F66855",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "flowing_fins"
-      ]
+        "flowing_fins",
+        "neon_stripe"
+      ],
+      "phenotypeHash": "VPH-STA-00ED-3F72-FOR-2"
     },
     "breedingRecipe": {
       "parentA": "taiwan_080",
@@ -2204,7 +2303,8 @@
       "features": [
         "stripes",
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-CA8A-1E29-FOR-2"
     },
     "breedingRecipe": {
       "parentA": "taiwan_085",
@@ -2232,7 +2332,8 @@
       "bodyHeight": 11.0,
       "features": [
         "spots"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-3341-0F17-FAN-1"
     },
     "breedingRecipe": {
       "parentA": "taiwan_080",
@@ -2260,7 +2361,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-F43F-FB71-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "taiwan_080",
@@ -2289,7 +2391,8 @@
       "features": [
         "whiskers",
         "spots"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-7835-9240-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "taiwan_080",
@@ -2317,7 +2420,8 @@
       "bodyHeight": 11.0,
       "features": [
         "neon_stripe"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-E2E8-0284-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "taiwan_081",
@@ -2345,7 +2449,8 @@
       "bodyHeight": 11.0,
       "features": [
         "spots"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-4755-1E29-FAN-1"
     },
     "breedingRecipe": {
       "parentA": "taiwan_084",
@@ -2373,7 +2478,8 @@
       "bodyHeight": 11.0,
       "features": [
         "spots"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-5252-2727-FAN-1"
     },
     "breedingRecipe": {
       "parentA": "taiwan_081",
@@ -2402,7 +2508,8 @@
       "features": [
         "spots",
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-CA8A-DC26-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "taiwan_079",
@@ -2428,7 +2535,8 @@
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-BET-0284-38BD-FOR-0"
     },
     "breedingRecipe": {
       "parentA": "taiwan_085",
@@ -2448,15 +2556,17 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#DC2626",
-      "secondaryColor": "#EF4444",
-      "accentColor": "#FFFFFF",
-      "tailShape": "butterfly",
+      "primaryColor": "#C820B1",
+      "secondaryColor": "#EF7D44",
+      "accentColor": "#55F6CC",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "flowing_fins"
-      ]
+        "flowing_fins",
+        "wing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-C820-EF7D-LYR-2"
     },
     "breedingRecipe": {
       "parentA": "taiwan_086",
@@ -2476,13 +2586,16 @@
     "baseCoinYield": 33,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#16A34A",
-      "secondaryColor": "#84CC16",
-      "accentColor": "#FACC15",
+      "primaryColor": "#0C6AA8",
+      "secondaryColor": "#8216CC",
+      "accentColor": "#F6F555",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ],
+      "phenotypeHash": "VPH-STA-0C6A-8216-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "taiwan_077",
@@ -2502,13 +2615,16 @@
     "baseCoinYield": 50,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#EA580C",
-      "secondaryColor": "#F97316",
-      "accentColor": "#FDE047",
+      "primaryColor": "#9110C3",
+      "secondaryColor": "#F91628",
+      "accentColor": "#55F689",
       "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-9110-F916-FAN-1"
     },
     "breedingRecipe": {
       "parentA": "taiwan_082",
@@ -2528,13 +2644,16 @@
     "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#0284C7",
-      "secondaryColor": "#38BDF8",
-      "accentColor": "#F59E0B",
-      "tailShape": "forked",
+      "primaryColor": "#07AE02",
+      "secondaryColor": "#38D7F8",
+      "accentColor": "#F6559A",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "wing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-07AE-38D7-LYR-1"
     },
     "breedingRecipe": {
       "parentA": "taiwan_083",
@@ -2554,13 +2673,16 @@
     "baseCoinYield": 38,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#334155",
-      "accentColor": "#E2E8F0",
-      "tailShape": "lyre",
+      "primaryColor": "#1D4931",
+      "secondaryColor": "#2C3C5C",
+      "accentColor": "#F65F55",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "dorsal_spikes"
+      ],
+      "phenotypeHash": "VPH-STA-1D49-2C3C-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "taiwan_076",
@@ -2580,13 +2702,16 @@
     "baseCoinYield": 39,
     "emojiOrSprite": "🏔️",
     "visualBlueprint": {
-      "primaryColor": "#0284C7",
-      "secondaryColor": "#38BDF8",
-      "accentColor": "#F59E0B",
-      "tailShape": "forked",
+      "primaryColor": "#028DAE",
+      "secondaryColor": "#8338F8",
+      "accentColor": "#F6D455",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer"
+      ],
+      "phenotypeHash": "VPH-STA-028D-8338-RIB-1"
     },
     "breedingRecipe": {
       "parentA": "taiwan_079",
@@ -2606,13 +2731,16 @@
     "baseCoinYield": 14,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#EA580C",
-      "secondaryColor": "#F97316",
-      "accentColor": "#FDE047",
+      "primaryColor": "#E91370",
+      "secondaryColor": "#F9C316",
+      "accentColor": "#55DCF6",
       "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-E913-F9C3-FAN-1"
     },
     "breedingRecipe": {
       "parentA": "taiwan_086",
@@ -2638,7 +2766,8 @@
       "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-EEL-0F17-3341-LYR-0"
     },
     "breedingRecipe": {
       "parentA": "taiwan_076",
@@ -2658,13 +2787,16 @@
     "baseCoinYield": 22,
     "emojiOrSprite": "🏔️",
     "visualBlueprint": {
-      "primaryColor": "#16A34A",
-      "secondaryColor": "#84CC16",
-      "accentColor": "#FACC15",
-      "tailShape": "forked",
+      "primaryColor": "#109A51",
+      "secondaryColor": "#1652CC",
+      "accentColor": "#F66155",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "dorsal_spikes"
+      ],
+      "phenotypeHash": "VPH-STA-109A-1652-CRE-1"
     },
     "breedingRecipe": {
       "parentA": "taiwan_086",
@@ -2684,15 +2816,17 @@
     "baseCoinYield": 36,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
-      "primaryColor": "#DC2626",
-      "secondaryColor": "#EF4444",
-      "accentColor": "#FFFFFF",
-      "tailShape": "butterfly",
+      "primaryColor": "#A0DE33",
+      "secondaryColor": "#44EFA4",
+      "accentColor": "#F055F6",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "flowing_fins"
-      ]
+        "flowing_fins",
+        "neon_stripe"
+      ],
+      "phenotypeHash": "VPH-STA-A0DE-44EF-RIB-2"
     },
     "breedingRecipe": {
       "parentA": "taiwan_081",
@@ -2712,13 +2846,16 @@
     "baseCoinYield": 23,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#334155",
-      "accentColor": "#E2E8F0",
-      "tailShape": "lyre",
+      "primaryColor": "#4B1B40",
+      "secondaryColor": "#5C412C",
+      "accentColor": "#55F6DB",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ],
+      "phenotypeHash": "VPH-STA-4B1B-5C41-RIB-1"
     },
     "breedingRecipe": {
       "parentA": "taiwan_086",
@@ -2746,7 +2883,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-9333-C084-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "taiwan_078",
@@ -2766,15 +2904,17 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#DC2626",
-      "secondaryColor": "#EF4444",
-      "accentColor": "#FFFFFF",
-      "tailShape": "butterfly",
+      "primaryColor": "#D71C4F",
+      "secondaryColor": "#EFE244",
+      "accentColor": "#55C2F6",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "flowing_fins"
-      ]
+        "flowing_fins",
+        "pearl_scales"
+      ],
+      "phenotypeHash": "VPH-STA-D71C-EFE2-SPI-2"
     },
     "breedingRecipe": {
       "parentA": "taiwan_076",

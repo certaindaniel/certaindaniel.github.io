@@ -19,7 +19,8 @@
       "bodyHeight": 11.0,
       "features": [
         "stripes"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0F17-3341-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -46,7 +47,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-B453-D977-FAN-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -71,7 +73,8 @@
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-STA-F59E-FDE0-FOR-0"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -98,7 +101,8 @@
       "bodyHeight": 11.0,
       "features": [
         "dorsal_spikes"
-      ]
+      ],
+      "phenotypeHash": "VPH-SHA-F59E-FDE0-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -125,7 +129,8 @@
       "bodyHeight": 11.0,
       "features": [
         "neon_stripe"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-DC26-EF44-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -152,7 +157,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-DC26-EF44-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -179,7 +185,8 @@
       "bodyHeight": 11.0,
       "features": [
         "spots"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-F59E-FDE0-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -198,15 +205,17 @@
     "baseCoinYield": 18,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#334155",
-      "accentColor": "#E2E8F0",
+      "primaryColor": "#165040",
+      "secondaryColor": "#2C305C",
+      "accentColor": "#F68855",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
-      ]
+        "stripes",
+        "neon_stripe"
+      ],
+      "phenotypeHash": "VPH-STA-1650-2C30-FOR-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -225,15 +234,17 @@
     "baseCoinYield": 19,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#B45309",
-      "secondaryColor": "#D97706",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
+      "primaryColor": "#D20543",
+      "secondaryColor": "#D9C306",
+      "accentColor": "#55C7F6",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
-      ]
+        "whiskers",
+        "dorsal_spikes"
+      ],
+      "phenotypeHash": "VPH-STA-D205-D9C3-CRE-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -260,7 +271,8 @@
       "bodyHeight": 11.0,
       "features": [
         "stripes"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-F59E-FDE0-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -287,7 +299,8 @@
       "bodyHeight": 16.0,
       "features": [
         "spots"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-F59E-FDE0-FAN-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -306,15 +319,17 @@
     "baseCoinYield": 22,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#DC2626",
-      "secondaryColor": "#EF4444",
-      "accentColor": "#F59E0B",
-      "tailShape": "forked",
+      "primaryColor": "#64BA24",
+      "secondaryColor": "#44EFC8",
+      "accentColor": "#F655DA",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "neon_stripe"
-      ]
+        "neon_stripe",
+        "flowing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-64BA-44EF-FAN-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -341,7 +356,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-7835-9240-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -366,7 +382,8 @@
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-STA-0596-10B9-FOR-0"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -385,15 +402,17 @@
     "baseCoinYield": 25,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "forked",
+      "primaryColor": "#DDDA09",
+      "secondaryColor": "#4AFA6A",
+      "accentColor": "#B355F6",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
-      ]
+        "stripes",
+        "neon_stripe"
+      ],
+      "phenotypeHash": "VPH-STA-DDDA-4AFA-RIB-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -412,15 +431,17 @@
     "baseCoinYield": 26,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "forked",
+      "primaryColor": "#89CE0E",
+      "secondaryColor": "#4AFAAD",
+      "accentColor": "#F055F6",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "spots"
-      ]
+        "spots",
+        "pearl_scales"
+      ],
+      "phenotypeHash": "VPH-STA-89CE-4AFA-FAN-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -447,7 +468,8 @@
       "bodyHeight": 11.0,
       "features": [
         "wing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-RAY-0F17-1E29-RIB-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -474,7 +496,8 @@
       "bodyHeight": 11.0,
       "features": [
         "spots"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0F17-3341-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -493,13 +516,16 @@
     "baseCoinYield": 29,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "forked",
+      "primaryColor": "#D609DD",
+      "secondaryColor": "#FA674A",
+      "accentColor": "#55F6B0",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "neon_stripe"
+      ],
+      "phenotypeHash": "VPH-STA-D609-FA67-RIB-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -526,7 +552,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-FFFF-E2E8-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -551,7 +578,8 @@
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-STA-7C3A-8B5C-FOR-0"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -578,7 +606,8 @@
       "bodyHeight": 16.0,
       "features": [
         "spots"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-F8FA-E2E8-FAN-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -605,7 +634,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-DC26-EF44-FAN-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -624,15 +654,17 @@
     "baseCoinYield": 34,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#1E293B",
-      "accentColor": "#38BDF8",
+      "primaryColor": "#341650",
+      "secondaryColor": "#562936",
+      "accentColor": "#55F669",
       "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "wing_fins"
-      ]
+        "wing_fins",
+        "tancho_crown"
+      ],
+      "phenotypeHash": "VPH-RAY-3416-5629-RIB-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -659,7 +691,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-DC26-EF44-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -684,7 +717,8 @@
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-STA-7835-9240-FOR-0"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -711,7 +745,8 @@
       "bodyHeight": 18.0,
       "features": [
         "spots"
-      ]
+      ],
+      "phenotypeHash": "VPH-RAY-0F17-3341-BUT-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -738,7 +773,8 @@
       "bodyHeight": 18.0,
       "features": [
         "spots"
-      ]
+      ],
+      "phenotypeHash": "VPH-RAY-F8FA-E2E8-BUT-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -765,7 +801,8 @@
       "bodyHeight": 11.0,
       "features": [
         "stripes"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0478-10B9-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -792,7 +829,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-EEL-B453-D977-FAN-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -811,15 +849,17 @@
     "baseCoinYield": 41,
     "emojiOrSprite": "👻",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#1E293B",
-      "accentColor": "#38BDF8",
+      "primaryColor": "#2B4B1B",
+      "secondaryColor": "#295650",
+      "accentColor": "#F655CC",
       "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "wing_fins"
-      ]
+        "wing_fins",
+        "bioluminescence"
+      ],
+      "phenotypeHash": "VPH-RAY-2B4B-2956-RIB-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -846,7 +886,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-DC26-EF44-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -873,7 +914,8 @@
       "bodyHeight": 11.0,
       "features": [
         "neon_stripe"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0284-38BD-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -900,7 +942,8 @@
       "bodyHeight": 11.0,
       "features": [
         "stripes"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-1E29-DC26-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -927,7 +970,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-6D28-8B5C-LYR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -952,7 +996,8 @@
       "tailShape": "ribbon",
       "bodyLength": 28.0,
       "bodyHeight": 6.5,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-STA-F8FA-E2E8-RIB-0"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -979,7 +1024,8 @@
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0F17-1E29-FAN-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -998,15 +1044,16 @@
     "baseCoinYield": 48,
     "emojiOrSprite": "🦭",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#1E293B",
-      "accentColor": "#38BDF8",
+      "primaryColor": "#1B2A4B",
+      "secondaryColor": "#512956",
+      "accentColor": "#C9F655",
       "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
         "wing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-RAY-1B2A-5129-RIB-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1025,15 +1072,17 @@
     "baseCoinYield": 49,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#1E293B",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#F59E0B",
-      "tailShape": "forked",
+      "primaryColor": "#361F47",
+      "secondaryColor": "#DC2651",
+      "accentColor": "#55F670",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
-      ]
+        "stripes",
+        "high_back"
+      ],
+      "phenotypeHash": "VPH-STA-361F-DC26-BUT-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1052,15 +1101,17 @@
     "baseCoinYield": 50,
     "emojiOrSprite": "🦦",
     "visualBlueprint": {
-      "primaryColor": "#0284C7",
-      "secondaryColor": "#38BDF8",
-      "accentColor": "#DC2626",
-      "tailShape": "forked",
+      "primaryColor": "#06A096",
+      "secondaryColor": "#5338F8",
+      "accentColor": "#F6AC55",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "neon_stripe"
-      ]
+        "neon_stripe",
+        "spots"
+      ],
+      "phenotypeHash": "VPH-STA-06A0-5338-BUT-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1079,15 +1130,17 @@
     "baseCoinYield": 51,
     "emojiOrSprite": "🧛‍♂️",
     "visualBlueprint": {
-      "primaryColor": "#78350F",
-      "secondaryColor": "#92400E",
-      "accentColor": "#FBBF24",
-      "tailShape": "forked",
+      "primaryColor": "#582D0E",
+      "secondaryColor": "#40920E",
+      "accentColor": "#5955F6",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
-      ]
+        "whiskers",
+        "stripes"
+      ],
+      "phenotypeHash": "VPH-STA-582D-4092-FAN-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1106,15 +1159,17 @@
     "baseCoinYield": 52,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#1E293B",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#F59E0B",
-      "tailShape": "forked",
+      "primaryColor": "#471F35",
+      "secondaryColor": "#DC9B26",
+      "accentColor": "#55EFF6",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
-      ]
+        "stripes",
+        "bioluminescence"
+      ],
+      "phenotypeHash": "VPH-STA-471F-DC9B-LYR-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1139,7 +1194,8 @@
       "tailShape": "ribbon",
       "bodyLength": 28.0,
       "bodyHeight": 6.5,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-GUP-0284-38BD-RIB-0"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1158,15 +1214,17 @@
     "baseCoinYield": 54,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#B45309",
-      "secondaryColor": "#D97706",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
+      "primaryColor": "#9204AA",
+      "secondaryColor": "#D91206",
+      "accentColor": "#55F69F",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
-      ]
+        "whiskers",
+        "spots"
+      ],
+      "phenotypeHash": "VPH-STA-9204-D912-CRE-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1193,7 +1251,8 @@
       "bodyHeight": 6.5,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-ARO-F59E-FDE0-RIB-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1212,15 +1271,17 @@
     "baseCoinYield": 56,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#DC2626",
-      "secondaryColor": "#EF4444",
-      "accentColor": "#FACC15",
-      "tailShape": "forked",
+      "primaryColor": "#1C52D7",
+      "secondaryColor": "#DF44EF",
+      "accentColor": "#C5F655",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "flowing_fins"
-      ]
+        "flowing_fins",
+        "pearl_scales"
+      ],
+      "phenotypeHash": "VPH-STA-1C52-DF44-SPI-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1245,7 +1306,8 @@
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-STA-F8FA-E2E8-FOR-0"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1264,15 +1326,17 @@
     "baseCoinYield": 58,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#1E293B",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#F59E0B",
-      "tailShape": "forked",
+      "primaryColor": "#1F473C",
+      "secondaryColor": "#2635DC",
+      "accentColor": "#F68855",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
-      ]
+        "stripes",
+        "dorsal_spikes"
+      ],
+      "phenotypeHash": "VPH-STA-1F47-2635-BUT-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1291,15 +1355,17 @@
     "baseCoinYield": 59,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#6D28D9",
-      "secondaryColor": "#8B5CF6",
-      "accentColor": "#F43F5E",
-      "tailShape": "lyre",
+      "primaryColor": "#AF19E3",
+      "secondaryColor": "#F65C65",
+      "accentColor": "#55F68D",
+      "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "flowing_fins"
-      ]
+        "flowing_fins",
+        "neon_stripe"
+      ],
+      "phenotypeHash": "VPH-STA-AF19-F65C-FOR-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1326,7 +1392,8 @@
       "bodyHeight": 11.0,
       "features": [
         "stripes"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-DC26-EF44-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1345,15 +1412,17 @@
     "baseCoinYield": 61,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#B45309",
-      "secondaryColor": "#D97706",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
+      "primaryColor": "#B40E25",
+      "secondaryColor": "#CCD906",
+      "accentColor": "#55ACF6",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
-      ]
+        "whiskers",
+        "high_back"
+      ],
+      "phenotypeHash": "VPH-STA-B40E-CCD9-BUT-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1378,7 +1447,8 @@
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-RUM-0F17-3341-FOR-0"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1397,15 +1467,17 @@
     "baseCoinYield": 63,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#DC2626",
-      "secondaryColor": "#EF4444",
-      "accentColor": "#FACC15",
+      "primaryColor": "#EC973A",
+      "secondaryColor": "#74EF44",
+      "accentColor": "#6955F6",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "flowing_fins"
-      ]
+        "flowing_fins",
+        "whiskers"
+      ],
+      "phenotypeHash": "VPH-STA-EC97-74EF-FOR-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1424,15 +1496,17 @@
     "baseCoinYield": 64,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#DC2626",
-      "secondaryColor": "#EF4444",
-      "accentColor": "#F59E0B",
-      "tailShape": "forked",
+      "primaryColor": "#A3D71C",
+      "secondaryColor": "#44EF96",
+      "accentColor": "#E355F6",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "neon_stripe"
-      ]
+        "neon_stripe",
+        "high_back"
+      ],
+      "phenotypeHash": "VPH-STA-A3D7-44EF-CRE-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1451,15 +1525,17 @@
     "baseCoinYield": 65,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#78350F",
-      "secondaryColor": "#92400E",
-      "accentColor": "#FBBF24",
-      "tailShape": "forked",
+      "primaryColor": "#A00A3C",
+      "secondaryColor": "#92800E",
+      "accentColor": "#55CBF6",
+      "tailShape": "delta",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
-      ]
+        "whiskers",
+        "bioluminescence"
+      ],
+      "phenotypeHash": "VPH-STA-A00A-9280-DEL-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1478,15 +1554,17 @@
     "baseCoinYield": 66,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#6D28D9",
-      "secondaryColor": "#8B5CF6",
-      "accentColor": "#F43F5E",
-      "tailShape": "lyre",
+      "primaryColor": "#23C547",
+      "secondaryColor": "#5CB5F6",
+      "accentColor": "#F65572",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "flowing_fins"
-      ]
+        "flowing_fins",
+        "whiskers"
+      ],
+      "phenotypeHash": "VPH-STA-23C5-5CB5-RIB-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1505,15 +1583,17 @@
     "baseCoinYield": 67,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#047857",
-      "secondaryColor": "#10B981",
-      "accentColor": "#F59E0B",
+      "primaryColor": "#774100",
+      "secondaryColor": "#3AB910",
+      "accentColor": "#6D55F6",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
-      ]
+        "stripes",
+        "shimmer"
+      ],
+      "phenotypeHash": "VPH-STA-7741-3AB9-FOR-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1532,15 +1612,17 @@
     "baseCoinYield": 68,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#B45309",
-      "secondaryColor": "#D97706",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
+      "primaryColor": "#B8B000",
+      "secondaryColor": "#06D927",
+      "accentColor": "#AF55F6",
+      "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
-      ]
+        "whiskers",
+        "shimmer"
+      ],
+      "phenotypeHash": "VPH-STA-B8B0-06D9-FOR-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1567,7 +1649,8 @@
       "bodyHeight": 11.0,
       "features": [
         "wing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-RAY-DC26-EF44-RIB-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1586,13 +1669,16 @@
     "baseCoinYield": 70,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "forked",
+      "primaryColor": "#C5EF16",
+      "secondaryColor": "#4AFA8F",
+      "accentColor": "#D555F6",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-C5EF-4AFA-FAN-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1611,15 +1697,17 @@
     "baseCoinYield": 71,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#0284C7",
-      "secondaryColor": "#38BDF8",
-      "accentColor": "#DC2626",
-      "tailShape": "forked",
+      "primaryColor": "#36E300",
+      "secondaryColor": "#38F8F1",
+      "accentColor": "#F655BC",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "neon_stripe"
-      ]
+        "neon_stripe",
+        "high_back"
+      ],
+      "phenotypeHash": "VPH-STA-36E3-38F8-CRE-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1638,13 +1726,16 @@
     "baseCoinYield": 72,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#059669",
-      "secondaryColor": "#10B981",
-      "accentColor": "#6EE7B7",
-      "tailShape": "forked",
+      "primaryColor": "#012CB3",
+      "secondaryColor": "#B210B9",
+      "accentColor": "#BDF655",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-012C-B210-SPI-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1671,7 +1762,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0F17-1E29-LYR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1690,15 +1782,17 @@
     "baseCoinYield": 74,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#047857",
-      "secondaryColor": "#10B981",
-      "accentColor": "#F59E0B",
-      "tailShape": "forked",
+      "primaryColor": "#266006",
+      "secondaryColor": "#10B99E",
+      "accentColor": "#F655CF",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
-      ]
+        "stripes",
+        "high_back"
+      ],
+      "phenotypeHash": "VPH-STA-2660-10B9-BUT-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1725,7 +1819,8 @@
       "bodyHeight": 11.0,
       "features": [
         "spots"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-DC26-EA58-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1750,7 +1845,8 @@
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-STA-DC26-EA58-FOR-0"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1769,15 +1865,17 @@
     "baseCoinYield": 77,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#DC2626",
-      "secondaryColor": "#EF4444",
-      "accentColor": "#FACC15",
-      "tailShape": "forked",
+      "primaryColor": "#A9BA24",
+      "secondaryColor": "#44EF79",
+      "accentColor": "#C855F6",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "flowing_fins"
-      ]
+        "flowing_fins",
+        "high_back"
+      ],
+      "phenotypeHash": "VPH-STA-A9BA-44EF-BUT-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1796,15 +1894,17 @@
     "baseCoinYield": 78,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#0284C7",
-      "secondaryColor": "#38BDF8",
-      "accentColor": "#DC2626",
-      "tailShape": "forked",
+      "primaryColor": "#7500ED",
+      "secondaryColor": "#F83873",
+      "accentColor": "#55F664",
+      "tailShape": "delta",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "neon_stripe"
-      ]
+        "neon_stripe",
+        "wing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-7500-F838-DEL-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1823,15 +1923,17 @@
     "baseCoinYield": 79,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#78350F",
-      "secondaryColor": "#92400E",
-      "accentColor": "#FBBF24",
-      "tailShape": "forked",
+      "primaryColor": "#280C61",
+      "secondaryColor": "#920E4D",
+      "accentColor": "#62F655",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
-      ]
+        "whiskers",
+        "tancho_crown"
+      ],
+      "phenotypeHash": "VPH-STA-280C-920E-LYR-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1850,15 +1952,17 @@
     "baseCoinYield": 80,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#6D28D9",
-      "secondaryColor": "#8B5CF6",
-      "accentColor": "#F43F5E",
-      "tailShape": "lyre",
+      "primaryColor": "#E3196D",
+      "secondaryColor": "#F6D55C",
+      "accentColor": "#55D9F6",
+      "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "flowing_fins"
-      ]
+        "flowing_fins",
+        "shimmer"
+      ],
+      "phenotypeHash": "VPH-STA-E319-F6D5-FOR-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1877,15 +1981,17 @@
     "baseCoinYield": 81,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#047857",
-      "secondaryColor": "#10B981",
-      "accentColor": "#F59E0B",
-      "tailShape": "forked",
+      "primaryColor": "#048749",
+      "secondaryColor": "#103FB9",
+      "accentColor": "#F66955",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
-      ]
+        "stripes",
+        "tancho_crown"
+      ],
+      "phenotypeHash": "VPH-STA-0487-103F-LYR-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1904,15 +2010,17 @@
     "baseCoinYield": 82,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
+      "primaryColor": "#FB00D9",
+      "secondaryColor": "#FA854A",
+      "accentColor": "#55F6CB",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "spots"
-      ]
+        "spots",
+        "shimmer"
+      ],
+      "phenotypeHash": "VPH-STA-FB00-FA85-FOR-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1931,15 +2039,17 @@
     "baseCoinYield": 83,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#1E293B",
-      "accentColor": "#38BDF8",
+      "primaryColor": "#1D2849",
+      "secondaryColor": "#542956",
+      "accentColor": "#BCF655",
       "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "wing_fins"
-      ]
+        "wing_fins",
+        "stripes"
+      ],
+      "phenotypeHash": "VPH-RAY-1D28-5429-RIB-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1958,13 +2068,16 @@
     "baseCoinYield": 84,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "forked",
+      "primaryColor": "#DDB609",
+      "secondaryColor": "#4AFA4C",
+      "accentColor": "#9855F6",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer"
+      ],
+      "phenotypeHash": "VPH-STA-DDB6-4AFA-RIB-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1989,7 +2102,8 @@
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-STA-06B6-EC48-FOR-0"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2008,15 +2122,17 @@
     "baseCoinYield": 86,
     "emojiOrSprite": "🍂",
     "visualBlueprint": {
-      "primaryColor": "#78350F",
-      "secondaryColor": "#92400E",
-      "accentColor": "#FBBF24",
-      "tailShape": "forked",
+      "primaryColor": "#792D13",
+      "secondaryColor": "#56920E",
+      "accentColor": "#556DF6",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
-      ]
+        "whiskers",
+        "pearl_scales"
+      ],
+      "phenotypeHash": "VPH-STA-792D-5692-FAN-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2043,7 +2159,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-GLA-6D28-8B5C-LYR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2062,15 +2179,17 @@
     "baseCoinYield": 88,
     "emojiOrSprite": "🙃",
     "visualBlueprint": {
-      "primaryColor": "#047857",
-      "secondaryColor": "#10B981",
-      "accentColor": "#F59E0B",
-      "tailShape": "forked",
+      "primaryColor": "#077A65",
+      "secondaryColor": "#1310B9",
+      "accentColor": "#F69955",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
-      ]
+        "stripes",
+        "dorsal_spikes"
+      ],
+      "phenotypeHash": "VPH-STA-077A-1310-BUT-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2089,15 +2208,17 @@
     "baseCoinYield": 89,
     "emojiOrSprite": "🔪",
     "visualBlueprint": {
-      "primaryColor": "#B45309",
-      "secondaryColor": "#D97706",
-      "accentColor": "#FDE047",
+      "primaryColor": "#B40E2C",
+      "secondaryColor": "#D5D906",
+      "accentColor": "#55B2F6",
       "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
-      ]
+        "whiskers",
+        "stripes"
+      ],
+      "phenotypeHash": "VPH-STA-B40E-D5D9-FAN-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2122,7 +2243,8 @@
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-STA-0F17-3341-FOR-0"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2141,15 +2263,17 @@
     "baseCoinYield": 91,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#1E293B",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#F59E0B",
+      "primaryColor": "#1D2D49",
+      "secondaryColor": "#BF26DC",
+      "accentColor": "#D0F655",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
-      ]
+        "stripes",
+        "shimmer"
+      ],
+      "phenotypeHash": "VPH-STA-1D2D-BF26-FOR-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2168,13 +2292,16 @@
     "baseCoinYield": 92,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
+      "primaryColor": "#25FF91",
+      "secondaryColor": "#4A80FA",
+      "accentColor": "#F66555",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "neon_stripe"
+      ],
+      "phenotypeHash": "VPH-STA-25FF-4A80-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2193,13 +2320,16 @@
     "baseCoinYield": 93,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#DC2626",
-      "secondaryColor": "#EA580C",
-      "accentColor": "#FDE047",
+      "primaryColor": "#EC3ACC",
+      "secondaryColor": "#EA600C",
+      "accentColor": "#55F6D2",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ],
+      "phenotypeHash": "VPH-STA-EC3A-EA60-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2226,7 +2356,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-PUF-6D28-8B5C-LYR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2251,7 +2382,8 @@
       "tailShape": "ribbon",
       "bodyLength": 28.0,
       "bodyHeight": 6.5,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-STA-7835-9240-RIB-0"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2270,15 +2402,17 @@
     "baseCoinYield": 96,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#B45309",
-      "secondaryColor": "#D97706",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
+      "primaryColor": "#980AC3",
+      "secondaryColor": "#D9060C",
+      "accentColor": "#55F691",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
-      ]
+        "whiskers",
+        "shimmer"
+      ],
+      "phenotypeHash": "VPH-STA-980A-D906-RIB-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2297,15 +2431,17 @@
     "baseCoinYield": 97,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#1E293B",
-      "accentColor": "#38BDF8",
+      "primaryColor": "#1D2849",
+      "secondaryColor": "#542956",
+      "accentColor": "#BCF655",
       "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "wing_fins"
-      ]
+        "wing_fins",
+        "flowing_fins"
+      ],
+      "phenotypeHash": "VPH-RAY-1D28-5429-RIB-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2324,15 +2460,17 @@
     "baseCoinYield": 98,
     "emojiOrSprite": "🐘",
     "visualBlueprint": {
-      "primaryColor": "#DC2626",
-      "secondaryColor": "#EF4444",
-      "accentColor": "#FACC15",
-      "tailShape": "forked",
+      "primaryColor": "#9624BA",
+      "secondaryColor": "#EF444B",
+      "accentColor": "#55F68F",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "flowing_fins"
-      ]
+        "flowing_fins",
+        "spots"
+      ],
+      "phenotypeHash": "VPH-STA-9624-EF44-BUT-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2351,15 +2489,17 @@
     "baseCoinYield": 99,
     "emojiOrSprite": "💋",
     "visualBlueprint": {
-      "primaryColor": "#0284C7",
-      "secondaryColor": "#38BDF8",
-      "accentColor": "#DC2626",
-      "tailShape": "forked",
+      "primaryColor": "#0023C4",
+      "secondaryColor": "#F838F4",
+      "accentColor": "#B3F655",
+      "tailShape": "delta",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "neon_stripe"
-      ]
+        "neon_stripe",
+        "tancho_crown"
+      ],
+      "phenotypeHash": "VPH-STA-0023-F838-DEL-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2378,15 +2518,17 @@
     "baseCoinYield": 100,
     "emojiOrSprite": "🙈",
     "visualBlueprint": {
-      "primaryColor": "#78350F",
-      "secondaryColor": "#92400E",
-      "accentColor": "#FBBF24",
+      "primaryColor": "#7A3308",
+      "secondaryColor": "#45920E",
+      "accentColor": "#5559F6",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
-      ]
+        "whiskers",
+        "shimmer"
+      ],
+      "phenotypeHash": "VPH-STA-7A33-4592-FOR-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2405,15 +2547,17 @@
     "baseCoinYield": 101,
     "emojiOrSprite": "💦",
     "visualBlueprint": {
-      "primaryColor": "#6D28D9",
-      "secondaryColor": "#8B5CF6",
-      "accentColor": "#F43F5E",
+      "primaryColor": "#2354C5",
+      "secondaryColor": "#E65CF6",
+      "accentColor": "#C7F655",
       "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "flowing_fins"
-      ]
+        "flowing_fins",
+        "bioluminescence"
+      ],
+      "phenotypeHash": "VPH-STA-2354-E65C-LYR-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2432,15 +2576,17 @@
     "baseCoinYield": 102,
     "emojiOrSprite": "👀",
     "visualBlueprint": {
-      "primaryColor": "#047857",
-      "secondaryColor": "#10B981",
-      "accentColor": "#F59E0B",
-      "tailShape": "forked",
+      "primaryColor": "#049401",
+      "secondaryColor": "#109BB9",
+      "accentColor": "#F65599",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
-      ]
+        "stripes",
+        "dorsal_spikes"
+      ],
+      "phenotypeHash": "VPH-STA-0494-109B-CRE-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2459,15 +2605,16 @@
     "baseCoinYield": 103,
     "emojiOrSprite": "🐸",
     "visualBlueprint": {
-      "primaryColor": "#B45309",
-      "secondaryColor": "#D97706",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
+      "primaryColor": "#4FC30A",
+      "secondaryColor": "#06D9B4",
+      "accentColor": "#F655D2",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
         "whiskers"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-4FC3-06D9-RIB-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2486,15 +2633,17 @@
     "baseCoinYield": 104,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#1E293B",
-      "accentColor": "#38BDF8",
+      "primaryColor": "#184E43",
+      "secondaryColor": "#292A56",
+      "accentColor": "#F69555",
       "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "wing_fins"
-      ]
+        "wing_fins",
+        "high_back"
+      ],
+      "phenotypeHash": "VPH-RAY-184E-292A-RIB-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2521,7 +2670,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-PUF-DC26-EF44-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2540,15 +2690,17 @@
     "baseCoinYield": 106,
     "emojiOrSprite": "🪵",
     "visualBlueprint": {
-      "primaryColor": "#0284C7",
-      "secondaryColor": "#38BDF8",
-      "accentColor": "#DC2626",
-      "tailShape": "forked",
+      "primaryColor": "#15BA00",
+      "secondaryColor": "#38E7F8",
+      "accentColor": "#F655A8",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "neon_stripe"
-      ]
+        "neon_stripe",
+        "stripes"
+      ],
+      "phenotypeHash": "VPH-STA-15BA-38E7-SPI-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2567,15 +2719,17 @@
     "baseCoinYield": 107,
     "emojiOrSprite": "🪵",
     "visualBlueprint": {
-      "primaryColor": "#78350F",
-      "secondaryColor": "#92400E",
-      "accentColor": "#FBBF24",
-      "tailShape": "forked",
+      "primaryColor": "#A00A3C",
+      "secondaryColor": "#92800E",
+      "accentColor": "#55CBF6",
+      "tailShape": "delta",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
-      ]
+        "whiskers",
+        "tancho_crown"
+      ],
+      "phenotypeHash": "VPH-STA-A00A-9280-DEL-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2602,7 +2756,8 @@
       "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
-      ]
+      ],
+      "phenotypeHash": "VPH-ARO-6D28-8B5C-LYR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2621,15 +2776,17 @@
     "baseCoinYield": 109,
     "emojiOrSprite": "🦋",
     "visualBlueprint": {
-      "primaryColor": "#047857",
-      "secondaryColor": "#10B981",
-      "accentColor": "#F59E0B",
-      "tailShape": "forked",
+      "primaryColor": "#1A6C01",
+      "secondaryColor": "#10B9B4",
+      "accentColor": "#F655BB",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
-      ]
+        "stripes",
+        "pearl_scales"
+      ],
+      "phenotypeHash": "VPH-STA-1A6C-10B9-SPI-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -2648,15 +2805,17 @@
     "baseCoinYield": 110,
     "emojiOrSprite": "🦋",
     "visualBlueprint": {
-      "primaryColor": "#B45309",
-      "secondaryColor": "#D97706",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
+      "primaryColor": "#49D205",
+      "secondaryColor": "#06D9BD",
+      "accentColor": "#F655CB",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
-      ]
+        "whiskers",
+        "flowing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-49D2-06D9-SPI-2"
     },
     "breedingRecipe": [
       "placeholder_parent_a",

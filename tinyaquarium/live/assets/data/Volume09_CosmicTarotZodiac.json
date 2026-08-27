@@ -19,7 +19,8 @@
       "bodyHeight": 11.0,
       "features": [
         "bioluminescence"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-FFFF-E2E8-LYR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_6265",
@@ -39,13 +40,16 @@
     "baseCoinYield": 495,
     "emojiOrSprite": "♎️",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "forked",
+      "primaryColor": "#ED0703",
+      "secondaryColor": "#D4FA4A",
+      "accentColor": "#5593F6",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "pearl_scales"
+      ],
+      "phenotypeHash": "VPH-STA-ED07-D4FA-SPI-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_5485",
@@ -65,13 +69,16 @@
     "baseCoinYield": 301,
     "emojiOrSprite": "♊️",
     "visualBlueprint": {
-      "primaryColor": "#7C3AED",
-      "secondaryColor": "#8B5CF6",
-      "accentColor": "#C4B5FD",
-      "tailShape": "forked",
+      "primaryColor": "#48EED9",
+      "secondaryColor": "#685CF6",
+      "accentColor": "#F6A255",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "neon_stripe"
+      ],
+      "phenotypeHash": "VPH-STA-48EE-685C-RIB-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_3195",
@@ -99,7 +106,8 @@
       "bodyHeight": 11.0,
       "features": [
         "shimmer"
-      ]
+      ],
+      "phenotypeHash": "VPH-CRA-0369-0284-RIB-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_5183",
@@ -119,13 +127,16 @@
     "baseCoinYield": 56,
     "emojiOrSprite": "♏️",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
+      "primaryColor": "#25FF47",
+      "secondaryColor": "#4ABBFA",
+      "accentColor": "#F6557C",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ],
+      "phenotypeHash": "VPH-STA-25FF-4ABB-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_6778",
@@ -145,13 +156,16 @@
     "baseCoinYield": 54,
     "emojiOrSprite": "♐️",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
-      "accentColor": "#38BDF8",
-      "tailShape": "forked",
+      "primaryColor": "#C8EAD0",
+      "secondaryColor": "#BACDDE",
+      "accentColor": "#F6556C",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "high_back"
+      ],
+      "phenotypeHash": "VPH-STA-C8EA-BACD-CRE-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_6728",
@@ -179,7 +193,8 @@
       "bodyHeight": 11.0,
       "features": [
         "bioluminescence"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-312E-4338-LYR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_6404",
@@ -207,7 +222,8 @@
       "bodyHeight": 11.0,
       "features": [
         "shimmer"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0F17-1E29-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_4067",
@@ -235,7 +251,8 @@
       "bodyHeight": 11.0,
       "features": [
         "bioluminescence"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-7C3A-A855-FAN-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_3231",
@@ -263,7 +280,8 @@
       "bodyHeight": 11.0,
       "features": [
         "shimmer"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0369-0284-RIB-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_4769",
@@ -291,7 +309,8 @@
       "bodyHeight": 11.0,
       "features": [
         "bioluminescence"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-701A-A21C-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_7210",
@@ -319,7 +338,8 @@
       "bodyHeight": 11.0,
       "features": [
         "shimmer"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-1E29-3341-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_6096",
@@ -339,15 +359,17 @@
     "baseCoinYield": 404,
     "emojiOrSprite": "♓️",
     "visualBlueprint": {
-      "primaryColor": "#312E81",
-      "secondaryColor": "#4338CA",
-      "accentColor": "#38BDF8",
-      "tailShape": "lyre",
+      "primaryColor": "#99308E",
+      "secondaryColor": "#CA6438",
+      "accentColor": "#55F6C7",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "pearl_scales"
+      ],
+      "phenotypeHash": "VPH-STA-9930-CA64-SPI-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_3472",
@@ -375,7 +397,8 @@
       "bodyHeight": 11.0,
       "features": [
         "shimmer"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-581C-7E22-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_3395",
@@ -403,7 +426,8 @@
       "bodyHeight": 11.0,
       "features": [
         "bioluminescence"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0F17-1E1B-FAN-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_6667",
@@ -423,15 +447,17 @@
     "baseCoinYield": 89,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
-      "primaryColor": "#0369A1",
-      "secondaryColor": "#0284C7",
-      "accentColor": "#86EFAC",
-      "tailShape": "ribbon",
+      "primaryColor": "#00956E",
+      "secondaryColor": "#0510C4",
+      "accentColor": "#F68C55",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "shimmer"
-      ]
+        "shimmer",
+        "flowing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-0095-0510-SPI-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_2618",
@@ -451,15 +477,17 @@
     "baseCoinYield": 442,
     "emojiOrSprite": "♉️",
     "visualBlueprint": {
-      "primaryColor": "#701A75",
-      "secondaryColor": "#A21CAF",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#754C1F",
+      "secondaryColor": "#46AF1C",
+      "accentColor": "#6855F6",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "flowing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-754C-46AF-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_8593",
@@ -485,7 +513,8 @@
       "tailShape": "ribbon",
       "bodyLength": 28.0,
       "bodyHeight": 6.5,
-      "features": []
+      "features": [],
+      "phenotypeHash": "VPH-STA-0307-1E1B-RIB-0"
     },
     "breedingRecipe": {
       "parentA": "FISH_7537",
@@ -505,15 +534,17 @@
     "baseCoinYield": 404,
     "emojiOrSprite": "♓️",
     "visualBlueprint": {
-      "primaryColor": "#312E81",
-      "secondaryColor": "#4338CA",
-      "accentColor": "#38BDF8",
-      "tailShape": "lyre",
+      "primaryColor": "#4F276E",
+      "secondaryColor": "#CA385B",
+      "accentColor": "#55F66F",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "neon_stripe"
+      ],
+      "phenotypeHash": "VPH-STA-4F27-CA38-RIB-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_1905",
@@ -541,7 +572,8 @@
       "bodyHeight": 11.0,
       "features": [
         "shimmer"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-7C3A-A855-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_2619",
@@ -561,15 +593,17 @@
     "baseCoinYield": 488,
     "emojiOrSprite": "♒️",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#1E1B4B",
-      "accentColor": "#F43F5E",
+      "primaryColor": "#1D4928",
+      "secondaryColor": "#22435E",
+      "accentColor": "#F6556D",
       "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "pearl_scales"
+      ],
+      "phenotypeHash": "VPH-STA-1D49-2243-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_6115",
@@ -589,15 +623,17 @@
     "baseCoinYield": 247,
     "emojiOrSprite": "♉️",
     "visualBlueprint": {
-      "primaryColor": "#0369A1",
-      "secondaryColor": "#0284C7",
-      "accentColor": "#86EFAC",
-      "tailShape": "ribbon",
+      "primaryColor": "#031988",
+      "secondaryColor": "#C405BD",
+      "accentColor": "#B0F655",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "shimmer"
-      ]
+        "shimmer",
+        "tancho_crown"
+      ],
+      "phenotypeHash": "VPH-STA-0319-C405-LYR-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_7839",
@@ -625,7 +661,8 @@
       "bodyHeight": 11.0,
       "features": [
         "bioluminescence"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-7C3A-A855-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_4794",
@@ -645,15 +682,17 @@
     "baseCoinYield": 408,
     "emojiOrSprite": "♌️",
     "visualBlueprint": {
-      "primaryColor": "#1E293B",
-      "secondaryColor": "#334155",
-      "accentColor": "#38BDF8",
-      "tailShape": "forked",
+      "primaryColor": "#243059",
+      "secondaryColor": "#5A2C5C",
+      "accentColor": "#BBF655",
+      "tailShape": "delta",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "shimmer"
-      ]
+        "shimmer",
+        "tancho_crown"
+      ],
+      "phenotypeHash": "VPH-STA-2430-5A2C-DEL-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_2235",
@@ -673,15 +712,17 @@
     "baseCoinYield": 319,
     "emojiOrSprite": "♉️",
     "visualBlueprint": {
-      "primaryColor": "#312E81",
-      "secondaryColor": "#4338CA",
-      "accentColor": "#38BDF8",
-      "tailShape": "lyre",
+      "primaryColor": "#7A2651",
+      "secondaryColor": "#CA9C38",
+      "accentColor": "#55E9F6",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "spots"
+      ],
+      "phenotypeHash": "VPH-STA-7A26-CA9C-CRE-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_4042",
@@ -701,15 +742,17 @@
     "baseCoinYield": 488,
     "emojiOrSprite": "🦁",
     "visualBlueprint": {
-      "primaryColor": "#581C87",
-      "secondaryColor": "#7E22CE",
-      "accentColor": "#FDE047",
-      "tailShape": "butterfly",
+      "primaryColor": "#571872",
+      "secondaryColor": "#CE2232",
+      "accentColor": "#55F686",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "shimmer"
-      ]
+        "shimmer",
+        "tancho_crown"
+      ],
+      "phenotypeHash": "VPH-STA-5718-CE22-LYR-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_2448",
@@ -729,15 +772,17 @@
     "baseCoinYield": 249,
     "emojiOrSprite": "⚡️",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#1E1B4B",
-      "accentColor": "#F43F5E",
-      "tailShape": "fan",
+      "primaryColor": "#18254E",
+      "secondaryColor": "#5C225E",
+      "accentColor": "#BCF655",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "stripes"
+      ],
+      "phenotypeHash": "VPH-STA-1825-5C22-SPI-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_6667",
@@ -757,13 +802,16 @@
     "baseCoinYield": 234,
     "emojiOrSprite": "🎺",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
-      "accentColor": "#38BDF8",
-      "tailShape": "forked",
+      "primaryColor": "#EAC8E6",
+      "secondaryColor": "#DEC5BA",
+      "accentColor": "#55F6C8",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "dorsal_spikes"
+      ],
+      "phenotypeHash": "VPH-STA-EAC8-DEC5-CRE-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_2384",
@@ -783,15 +831,17 @@
     "baseCoinYield": 116,
     "emojiOrSprite": "🌟",
     "visualBlueprint": {
-      "primaryColor": "#701A75",
-      "secondaryColor": "#A21CAF",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#26146C",
+      "secondaryColor": "#AF1C73",
+      "accentColor": "#74F655",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "spots"
+      ],
+      "phenotypeHash": "VPH-STA-2614-AF1C-CRE-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_8074",
@@ -811,15 +861,17 @@
     "baseCoinYield": 362,
     "emojiOrSprite": "🌟",
     "visualBlueprint": {
-      "primaryColor": "#1E293B",
-      "secondaryColor": "#334155",
-      "accentColor": "#38BDF8",
-      "tailShape": "forked",
+      "primaryColor": "#1F4729",
+      "secondaryColor": "#2C465C",
+      "accentColor": "#F6556D",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "shimmer"
-      ]
+        "shimmer",
+        "wing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-1F47-2C46-LYR-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_1639",
@@ -839,15 +891,17 @@
     "baseCoinYield": 445,
     "emojiOrSprite": "🌙",
     "visualBlueprint": {
-      "primaryColor": "#312E81",
-      "secondaryColor": "#4338CA",
-      "accentColor": "#38BDF8",
-      "tailShape": "lyre",
+      "primaryColor": "#672486",
+      "secondaryColor": "#CA3849",
+      "accentColor": "#55F683",
+      "tailShape": "delta",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "wing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-6724-CA38-DEL-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_3302",
@@ -867,15 +921,17 @@
     "baseCoinYield": 330,
     "emojiOrSprite": "⚡️",
     "visualBlueprint": {
-      "primaryColor": "#581C87",
-      "secondaryColor": "#7E22CE",
-      "accentColor": "#FDE047",
+      "primaryColor": "#661932",
+      "secondaryColor": "#CEB822",
+      "accentColor": "#55CBF6",
       "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "shimmer"
-      ]
+        "shimmer",
+        "spots"
+      ],
+      "phenotypeHash": "VPH-STA-6619-CEB8-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_6265",
@@ -895,15 +951,17 @@
     "baseCoinYield": 156,
     "emojiOrSprite": "⚡️",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#1E1B4B",
-      "accentColor": "#F43F5E",
+      "primaryColor": "#1D2049",
+      "secondaryColor": "#5E2256",
+      "accentColor": "#A1F655",
       "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "pearl_scales"
+      ],
+      "phenotypeHash": "VPH-STA-1D20-5E22-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_7408",
@@ -923,15 +981,17 @@
     "baseCoinYield": 143,
     "emojiOrSprite": "⚖️",
     "visualBlueprint": {
-      "primaryColor": "#0369A1",
-      "secondaryColor": "#0284C7",
-      "accentColor": "#86EFAC",
-      "tailShape": "ribbon",
+      "primaryColor": "#0019C8",
+      "secondaryColor": "#C405B5",
+      "accentColor": "#AAF655",
+      "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "shimmer"
-      ]
+        "shimmer",
+        "neon_stripe"
+      ],
+      "phenotypeHash": "VPH-STA-0019-C405-FOR-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_3144",
@@ -951,15 +1011,17 @@
     "baseCoinYield": 429,
     "emojiOrSprite": "🌍",
     "visualBlueprint": {
-      "primaryColor": "#701A75",
-      "secondaryColor": "#A21CAF",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#82481D",
+      "secondaryColor": "#52AF1C",
+      "accentColor": "#5B55F6",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "wing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-8248-52AF-LYR-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_5284",
@@ -979,15 +1041,17 @@
     "baseCoinYield": 190,
     "emojiOrSprite": "⚖️",
     "visualBlueprint": {
-      "primaryColor": "#1E293B",
-      "secondaryColor": "#334155",
-      "accentColor": "#38BDF8",
-      "tailShape": "forked",
+      "primaryColor": "#1D4945",
+      "secondaryColor": "#322C5C",
+      "accentColor": "#F6AA55",
+      "tailShape": "delta",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "shimmer"
-      ]
+        "shimmer",
+        "tancho_crown"
+      ],
+      "phenotypeHash": "VPH-STA-1D49-322C-DEL-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_2317",
@@ -1007,15 +1071,17 @@
     "baseCoinYield": 152,
     "emojiOrSprite": "🦁",
     "visualBlueprint": {
-      "primaryColor": "#312E81",
-      "secondaryColor": "#4338CA",
-      "accentColor": "#38BDF8",
-      "tailShape": "lyre",
+      "primaryColor": "#803478",
+      "secondaryColor": "#CA6438",
+      "accentColor": "#55F6C7",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "stripes"
+      ],
+      "phenotypeHash": "VPH-STA-8034-CA64-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_6776",
@@ -1035,15 +1101,17 @@
     "baseCoinYield": 486,
     "emojiOrSprite": "🔮",
     "visualBlueprint": {
-      "primaryColor": "#581C87",
-      "secondaryColor": "#7E22CE",
-      "accentColor": "#FDE047",
-      "tailShape": "butterfly",
+      "primaryColor": "#1F945C",
+      "secondaryColor": "#2252CE",
+      "accentColor": "#F66955",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "shimmer"
-      ]
+        "shimmer",
+        "tancho_crown"
+      ],
+      "phenotypeHash": "VPH-STA-1F94-2252-LYR-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_4234",
@@ -1063,15 +1131,17 @@
     "baseCoinYield": 256,
     "emojiOrSprite": "☀️",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#1E1B4B",
-      "accentColor": "#F43F5E",
-      "tailShape": "fan",
+      "primaryColor": "#4E1848",
+      "secondaryColor": "#5E3422",
+      "accentColor": "#55F6C7",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "flowing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-4E18-5E34-SPI-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_1253",
@@ -1091,15 +1161,17 @@
     "baseCoinYield": 315,
     "emojiOrSprite": "⚖️",
     "visualBlueprint": {
-      "primaryColor": "#0369A1",
-      "secondaryColor": "#0284C7",
-      "accentColor": "#86EFAC",
-      "tailShape": "ribbon",
+      "primaryColor": "#067B35",
+      "secondaryColor": "#0550C4",
+      "accentColor": "#F65655",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "shimmer"
-      ]
+        "shimmer",
+        "stripes"
+      ],
+      "phenotypeHash": "VPH-STA-067B-0550-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_1221",
@@ -1127,7 +1199,8 @@
       "bodyHeight": 11.0,
       "features": [
         "bioluminescence"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-0F17-1E29-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_2306",
@@ -1147,15 +1220,17 @@
     "baseCoinYield": 260,
     "emojiOrSprite": "🃏",
     "visualBlueprint": {
-      "primaryColor": "#1E293B",
-      "secondaryColor": "#334155",
-      "accentColor": "#38BDF8",
-      "tailShape": "forked",
+      "primaryColor": "#592441",
+      "secondaryColor": "#5C4B2C",
+      "accentColor": "#55EFF6",
+      "tailShape": "delta",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "shimmer"
-      ]
+        "shimmer",
+        "wing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-5924-5C4B-DEL-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_5892",
@@ -1183,7 +1258,8 @@
       "bodyHeight": 11.0,
       "features": [
         "bioluminescence"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-7C3A-A855-LYR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_1488",
@@ -1203,15 +1279,17 @@
     "baseCoinYield": 390,
     "emojiOrSprite": "⚔️",
     "visualBlueprint": {
-      "primaryColor": "#581C87",
-      "secondaryColor": "#7E22CE",
-      "accentColor": "#FDE047",
-      "tailShape": "butterfly",
+      "primaryColor": "#184272",
+      "secondaryColor": "#9F22CE",
+      "accentColor": "#E1F655",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "shimmer"
-      ]
+        "shimmer",
+        "wing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-1842-9F22-LYR-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_1155",
@@ -1231,13 +1309,16 @@
     "baseCoinYield": 84,
     "emojiOrSprite": "🌍",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "forked",
+      "primaryColor": "#CD09DD",
+      "secondaryColor": "#FA604A",
+      "accentColor": "#55F6AA",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "wing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-CD09-FA60-LYR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_6098",
@@ -1257,15 +1338,17 @@
     "baseCoinYield": 360,
     "emojiOrSprite": "⚡️",
     "visualBlueprint": {
-      "primaryColor": "#0369A1",
-      "secondaryColor": "#0284C7",
-      "accentColor": "#86EFAC",
-      "tailShape": "ribbon",
+      "primaryColor": "#607B06",
+      "secondaryColor": "#05C457",
+      "accentColor": "#DB55F6",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "shimmer"
-      ]
+        "shimmer",
+        "stripes"
+      ],
+      "phenotypeHash": "VPH-STA-607B-05C4-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_2738",
@@ -1285,15 +1368,17 @@
     "baseCoinYield": 157,
     "emojiOrSprite": "⚔️",
     "visualBlueprint": {
-      "primaryColor": "#701A75",
-      "secondaryColor": "#A21CAF",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#164B55",
+      "secondaryColor": "#511CAF",
+      "accentColor": "#F6CF55",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "flowing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-164B-511C-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_4338",
@@ -1313,13 +1398,16 @@
     "baseCoinYield": 72,
     "emojiOrSprite": "🌟",
     "visualBlueprint": {
-      "primaryColor": "#DC2626",
-      "secondaryColor": "#EA580C",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#4B1CD7",
+      "secondaryColor": "#EA0C85",
+      "accentColor": "#6DF655",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "dorsal_spikes"
+      ],
+      "phenotypeHash": "VPH-STA-4B1C-EA0C-CRE-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_5826",
@@ -1339,15 +1427,16 @@
     "baseCoinYield": 440,
     "emojiOrSprite": "🦁",
     "visualBlueprint": {
-      "primaryColor": "#312E81",
-      "secondaryColor": "#4338CA",
-      "accentColor": "#38BDF8",
-      "tailShape": "lyre",
+      "primaryColor": "#A62D66",
+      "secondaryColor": "#CAA238",
+      "accentColor": "#55E2F6",
+      "tailShape": "delta",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
         "bioluminescence"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-A62D-CAA2-DEL-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_7798",
@@ -1367,15 +1456,17 @@
     "baseCoinYield": 86,
     "emojiOrSprite": "⚖️",
     "visualBlueprint": {
-      "primaryColor": "#581C87",
-      "secondaryColor": "#7E22CE",
-      "accentColor": "#FDE047",
-      "tailShape": "butterfly",
+      "primaryColor": "#1C4FA1",
+      "secondaryColor": "#AE22CE",
+      "accentColor": "#D4F655",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "shimmer"
-      ]
+        "shimmer",
+        "flowing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-1C4F-AE22-SPI-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_3846",
@@ -1403,7 +1494,8 @@
       "bodyHeight": 11.0,
       "features": [
         "spots"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-06B6-EC48-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_4665",
@@ -1431,7 +1523,8 @@
       "bodyHeight": 11.0,
       "features": [
         "bioluminescence"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-06B6-EC48-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_3635",
@@ -1451,13 +1544,16 @@
     "baseCoinYield": 434,
     "emojiOrSprite": "💥",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
+      "primaryColor": "#00AAFE",
+      "secondaryColor": "#9F48EC",
+      "accentColor": "#F6EB55",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "neon_stripe"
+      ],
+      "phenotypeHash": "VPH-STA-00AA-9F48-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_2827",
@@ -1477,13 +1573,16 @@
     "baseCoinYield": 364,
     "emojiOrSprite": "💥",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#0568BB",
+      "secondaryColor": "#B448EC",
+      "accentColor": "#EDF655",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "wing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-0568-B448-LYR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_8075",
@@ -1503,13 +1602,16 @@
     "baseCoinYield": 55,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#05BB22",
+      "secondaryColor": "#48B2EC",
+      "accentColor": "#F6557D",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ],
+      "phenotypeHash": "VPH-STA-05BB-48B2-RIB-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_6514",
@@ -1529,13 +1631,16 @@
     "baseCoinYield": 353,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#3401CA",
+      "secondaryColor": "#EC48A1",
+      "accentColor": "#6DF655",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "high_back"
+      ],
+      "phenotypeHash": "VPH-STA-3401-EC48-CRE-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_8345",
@@ -1555,13 +1660,16 @@
     "baseCoinYield": 455,
     "emojiOrSprite": "☄️",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#19AD0A",
+      "secondaryColor": "#48DBEC",
+      "accentColor": "#F655A5",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "high_back"
+      ],
+      "phenotypeHash": "VPH-STA-19AD-48DB-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_3310",
@@ -1581,13 +1689,16 @@
     "baseCoinYield": 363,
     "emojiOrSprite": "🌠",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#01F3D3",
+      "secondaryColor": "#5348EC",
+      "accentColor": "#F6A155",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "pearl_scales"
+      ],
+      "phenotypeHash": "VPH-STA-01F3-5348-SPI-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_6117",
@@ -1607,15 +1718,17 @@
     "baseCoinYield": 110,
     "emojiOrSprite": "🎇",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#1D05BB",
+      "secondaryColor": "#EC48B6",
+      "accentColor": "#81F655",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "tancho_crown"
+      ],
+      "phenotypeHash": "VPH-STA-1D05-EC48-LYR-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_1466",
@@ -1635,13 +1748,16 @@
     "baseCoinYield": 308,
     "emojiOrSprite": "🔭",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#180AAD",
+      "secondaryColor": "#EC48BD",
+      "accentColor": "#88F655",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "spots"
+      ],
+      "phenotypeHash": "VPH-STA-180A-EC48-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_1151",
@@ -1661,13 +1777,16 @@
     "baseCoinYield": 490,
     "emojiOrSprite": "🌟",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
+      "primaryColor": "#0023D5",
+      "secondaryColor": "#EC48E6",
+      "accentColor": "#B0F655",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer"
+      ],
+      "phenotypeHash": "VPH-STA-0023-EC48-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_7982",
@@ -1687,13 +1806,16 @@
     "baseCoinYield": 336,
     "emojiOrSprite": "💥",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#820CD3",
+      "secondaryColor": "#EC486A",
+      "accentColor": "#55F674",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "spots"
+      ],
+      "phenotypeHash": "VPH-STA-820C-EC48-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_8769",
@@ -1713,13 +1835,16 @@
     "baseCoinYield": 175,
     "emojiOrSprite": "🕳️",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#BDCA01",
+      "secondaryColor": "#48EC73",
+      "accentColor": "#C055F6",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "dorsal_spikes"
+      ],
+      "phenotypeHash": "VPH-STA-BDCA-48EC-CRE-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_8010",
@@ -1739,13 +1864,16 @@
     "baseCoinYield": 343,
     "emojiOrSprite": "🛰️",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#00FEC7",
+      "secondaryColor": "#484AEC",
+      "accentColor": "#F69355",
+      "tailShape": "delta",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "bioluminescence"
+      ],
+      "phenotypeHash": "VPH-STA-00FE-484A-DEL-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_3572",
@@ -1765,13 +1893,16 @@
     "baseCoinYield": 398,
     "emojiOrSprite": "🎇",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#3B05BB",
+      "secondaryColor": "#EC489A",
+      "accentColor": "#66F655",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "wing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-3B05-EC48-LYR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_6185",
@@ -1791,13 +1922,16 @@
     "baseCoinYield": 200,
     "emojiOrSprite": "💫",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#00D5A7",
+      "secondaryColor": "#484AEC",
+      "accentColor": "#F69355",
+      "tailShape": "delta",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "bioluminescence"
+      ],
+      "phenotypeHash": "VPH-STA-00D5-484A-DEL-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_1559",
@@ -1817,13 +1951,16 @@
     "baseCoinYield": 373,
     "emojiOrSprite": "🌠",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#B8FE00",
+      "secondaryColor": "#48EC96",
+      "accentColor": "#E255F6",
+      "tailShape": "delta",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "wing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-B8FE-48EC-DEL-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_3734",
@@ -1843,13 +1980,16 @@
     "baseCoinYield": 280,
     "emojiOrSprite": "💥",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#7ACA01",
+      "secondaryColor": "#48ECAA",
+      "accentColor": "#F655F6",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "spots"
+      ],
+      "phenotypeHash": "VPH-STA-7ACA-48EC-CRE-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_4634",
@@ -1869,13 +2009,16 @@
     "baseCoinYield": 151,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#067EE3",
+      "secondaryColor": "#B448EC",
+      "accentColor": "#EDF655",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "wing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-067E-B448-LYR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_1538",
@@ -1895,13 +2038,16 @@
     "baseCoinYield": 197,
     "emojiOrSprite": "🌌",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#A5D30C",
+      "secondaryColor": "#48EC8F",
+      "accentColor": "#DB55F6",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "dorsal_spikes"
+      ],
+      "phenotypeHash": "VPH-STA-A5D3-48EC-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_2528",
@@ -1921,13 +2067,16 @@
     "baseCoinYield": 271,
     "emojiOrSprite": "🛰️",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#50AD0A",
+      "secondaryColor": "#48ECC6",
+      "accentColor": "#F655DB",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "dorsal_spikes"
+      ],
+      "phenotypeHash": "VPH-STA-50AD-48EC-BUT-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_2161",
@@ -1947,13 +2096,16 @@
     "baseCoinYield": 65,
     "emojiOrSprite": "🎇",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#BC01CA",
+      "secondaryColor": "#EC5D48",
+      "accentColor": "#55F6AA",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "spots"
+      ],
+      "phenotypeHash": "VPH-STA-BC01-EC5D-CRE-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_7528",
@@ -1973,13 +2125,16 @@
     "baseCoinYield": 439,
     "emojiOrSprite": "⚛️",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#7600FE",
+      "secondaryColor": "#EC487F",
+      "accentColor": "#55F660",
+      "tailShape": "delta",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "wing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-7600-EC48-DEL-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_3806",
@@ -1999,13 +2154,16 @@
     "baseCoinYield": 332,
     "emojiOrSprite": "🔭",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#06E3E2",
+      "secondaryColor": "#6848EC",
+      "accentColor": "#F6B555",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer"
+      ],
+      "phenotypeHash": "VPH-STA-06E3-6848-RIB-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_5387",
@@ -2025,15 +2183,17 @@
     "baseCoinYield": 66,
     "emojiOrSprite": "🕳️",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#0073D5",
+      "secondaryColor": "#B448EC",
+      "accentColor": "#EDF655",
+      "tailShape": "delta",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "tancho_crown"
+      ],
+      "phenotypeHash": "VPH-STA-0073-B448-DEL-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_3395",
@@ -2053,15 +2213,17 @@
     "baseCoinYield": 479,
     "emojiOrSprite": "🧊",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
-      "accentColor": "#38BDF8",
-      "tailShape": "forked",
+      "primaryColor": "#DBC9E8",
+      "secondaryColor": "#DEBAC2",
+      "accentColor": "#55F670",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "stripes"
+      ],
+      "phenotypeHash": "VPH-STA-DBC9-DEBA-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_7985",
@@ -2081,15 +2243,17 @@
     "baseCoinYield": 330,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#0154CA",
+      "secondaryColor": "#C948EC",
+      "accentColor": "#D9F655",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "high_back"
+      ],
+      "phenotypeHash": "VPH-STA-0154-C948-CRE-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_8929",
@@ -2109,15 +2273,17 @@
     "baseCoinYield": 128,
     "emojiOrSprite": "🧊",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#19AD0A",
+      "secondaryColor": "#48DBEC",
+      "accentColor": "#F655A5",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "high_back"
+      ],
+      "phenotypeHash": "VPH-STA-19AD-48DB-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_2532",
@@ -2137,15 +2303,17 @@
     "baseCoinYield": 315,
     "emojiOrSprite": "❄️",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#0A17AD",
+      "secondaryColor": "#EC48D8",
+      "accentColor": "#A3F655",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "high_back"
+      ],
+      "phenotypeHash": "VPH-STA-0A17-EC48-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_2816",
@@ -2165,15 +2333,17 @@
     "baseCoinYield": 332,
     "emojiOrSprite": "🧊",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#0AAD97",
+      "secondaryColor": "#5348EC",
+      "accentColor": "#F6A155",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "stripes"
+      ],
+      "phenotypeHash": "VPH-STA-0AAD-5348-FAN-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_6455",
@@ -2193,15 +2363,17 @@
     "baseCoinYield": 130,
     "emojiOrSprite": "❄️",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#0A32AD",
+      "secondaryColor": "#E448EC",
+      "accentColor": "#BEF655",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "dorsal_spikes"
+      ],
+      "phenotypeHash": "VPH-STA-0A32-E448-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_8366",
@@ -2221,15 +2393,17 @@
     "baseCoinYield": 299,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#C7D30C",
+      "secondaryColor": "#48EC73",
+      "accentColor": "#C055F6",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "spots"
+      ],
+      "phenotypeHash": "VPH-STA-C7D3-48EC-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_1249",
@@ -2249,15 +2423,17 @@
     "baseCoinYield": 243,
     "emojiOrSprite": "🧊",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#0A4DAD",
+      "secondaryColor": "#C948EC",
+      "accentColor": "#D9F655",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "spots"
+      ],
+      "phenotypeHash": "VPH-STA-0A4D-C948-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_4665",
@@ -2277,15 +2453,17 @@
     "baseCoinYield": 249,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#0675E3",
+      "secondaryColor": "#BB48EC",
+      "accentColor": "#E6F655",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "shimmer"
+      ],
+      "phenotypeHash": "VPH-STA-0675-BB48-RIB-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_1177",
@@ -2313,7 +2491,8 @@
       "bodyHeight": 11.0,
       "features": [
         "bioluminescence"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-DC26-EA58-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_6755",
@@ -2333,15 +2512,17 @@
     "baseCoinYield": 83,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#BBB005",
+      "secondaryColor": "#48EC5F",
+      "accentColor": "#AC55F6",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "tancho_crown"
+      ],
+      "phenotypeHash": "VPH-STA-BBB0-48EC-LYR-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_8648",
@@ -2361,15 +2542,17 @@
     "baseCoinYield": 343,
     "emojiOrSprite": "🔴",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#01CA8E",
+      "secondaryColor": "#4858EC",
+      "accentColor": "#F68655",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "flowing_fins"
+      ],
+      "phenotypeHash": "VPH-STA-01CA-4858-SPI-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_2901",
@@ -2397,7 +2580,8 @@
       "bodyHeight": 11.0,
       "features": [
         "bioluminescence"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-1D4E-3B82-FOR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_5964",
@@ -2417,15 +2601,16 @@
     "baseCoinYield": 225,
     "emojiOrSprite": "🔵",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#A8BB05",
+      "secondaryColor": "#48EC7A",
+      "accentColor": "#C755F6",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
         "bioluminescence"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-A8BB-48EC-LYR-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_3889",
@@ -2445,15 +2630,17 @@
     "baseCoinYield": 397,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#E3F301",
+      "secondaryColor": "#48EC73",
+      "accentColor": "#C055F6",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "spots"
+      ],
+      "phenotypeHash": "VPH-STA-E3F3-48EC-CRE-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_7328",
@@ -2473,15 +2660,17 @@
     "baseCoinYield": 104,
     "emojiOrSprite": "💧",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#60CA01",
+      "secondaryColor": "#48ECBF",
+      "accentColor": "#F655E2",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "pearl_scales"
+      ],
+      "phenotypeHash": "VPH-STA-60CA-48EC-SPI-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_2712",
@@ -2501,15 +2690,17 @@
     "baseCoinYield": 319,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#9DE306",
+      "secondaryColor": "#48EC9D",
+      "accentColor": "#E955F6",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "whiskers"
+      ],
+      "phenotypeHash": "VPH-STA-9DE3-48EC-RIB-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_4644",
@@ -2529,15 +2720,17 @@
     "baseCoinYield": 421,
     "emojiOrSprite": "❄️",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#6A0AAD",
+      "secondaryColor": "#EC486A",
+      "accentColor": "#55F674",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "high_back"
+      ],
+      "phenotypeHash": "VPH-STA-6A0A-EC48-BUT-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_7432",
@@ -2557,15 +2750,17 @@
     "baseCoinYield": 383,
     "emojiOrSprite": "⏳",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#01A1CA",
+      "secondaryColor": "#8B48EC",
+      "accentColor": "#F6D755",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "pearl_scales"
+      ],
+      "phenotypeHash": "VPH-STA-01A1-8B48-SPI-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_2464",
@@ -2585,15 +2780,17 @@
     "baseCoinYield": 163,
     "emojiOrSprite": "🪐",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#3401CA",
+      "secondaryColor": "#EC48A1",
+      "accentColor": "#6DF655",
+      "tailShape": "crescent",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "spots"
+      ],
+      "phenotypeHash": "VPH-STA-3401-EC48-CRE-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_1914",
@@ -2613,15 +2810,17 @@
     "baseCoinYield": 482,
     "emojiOrSprite": "💧",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
+      "primaryColor": "#92D500",
+      "secondaryColor": "#48EC9D",
+      "accentColor": "#E955F6",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "whiskers"
+      ],
+      "phenotypeHash": "VPH-STA-92D5-48EC-FOR-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_1454",
@@ -2650,7 +2849,8 @@
       "features": [
         "bioluminescence",
         "tentacles"
-      ]
+      ],
+      "phenotypeHash": "VPH-JEL-06B6-EC48-TEN-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_3211",
@@ -2678,7 +2878,8 @@
       "bodyHeight": 22.0,
       "features": [
         "bioluminescence"
-      ]
+      ],
+      "phenotypeHash": "VPH-SEA-06B6-EC48-RIB-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_6754",
@@ -2698,15 +2899,16 @@
     "baseCoinYield": 369,
     "emojiOrSprite": "🌌",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#8EFE00",
+      "secondaryColor": "#48ECB1",
+      "accentColor": "#F655EF",
+      "tailShape": "delta",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
         "bioluminescence"
-      ]
+      ],
+      "phenotypeHash": "VPH-STA-8EFE-48EC-DEL-1"
     },
     "breedingRecipe": {
       "parentA": "FISH_4823",
@@ -2726,15 +2928,17 @@
     "baseCoinYield": 280,
     "emojiOrSprite": "💧",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#63BB05",
+      "secondaryColor": "#48ECB8",
+      "accentColor": "#F655E9",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
-      ]
+        "bioluminescence",
+        "whiskers"
+      ],
+      "phenotypeHash": "VPH-STA-63BB-48EC-RIB-2"
     },
     "breedingRecipe": {
       "parentA": "FISH_1956",
