@@ -33,13 +33,15 @@
     "baseCoinYield": 28,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#D97706",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": [
       "TA-2774",
@@ -83,13 +85,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#F43F5E",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": null
   },
@@ -105,14 +109,14 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0D9488",
+      "secondaryColor": "#14B8A6",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
+        "spots"
       ]
     },
     "breedingRecipe": null
@@ -129,14 +133,14 @@
     "baseCoinYield": 16,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#FACC15",
+      "secondaryColor": "#EAB308",
+      "accentColor": "#CA8A04",
       "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "stripes"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": [
@@ -156,12 +160,12 @@
     "baseCoinYield": 42,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
         "stripes"
       ]
@@ -237,14 +241,14 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#F43F5E",
       "accentColor": "#FDE047",
       "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "stripes"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": [
@@ -264,14 +268,14 @@
     "baseCoinYield": 24,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
+      "primaryColor": "#0D9488",
+      "secondaryColor": "#14B8A6",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "stripes"
+        "spots"
       ]
     },
     "breedingRecipe": [
@@ -342,14 +346,14 @@
     "baseCoinYield": 25,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FBBF24",
+      "accentColor": "#0284C7",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "stripes"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": null
@@ -366,10 +370,10 @@
     "baseCoinYield": 17,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
@@ -417,13 +421,15 @@
     "baseCoinYield": 24,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0D9488",
+      "secondaryColor": "#14B8A6",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": [
       "TA-1773",
@@ -442,14 +448,14 @@
     "baseCoinYield": 50,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#FACC15",
+      "secondaryColor": "#EAB308",
+      "accentColor": "#CA8A04",
       "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "stripes"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": [
@@ -469,12 +475,12 @@
     "baseCoinYield": 25,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
         "stripes"
       ]
@@ -493,14 +499,14 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FBBF24",
+      "accentColor": "#0284C7",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "stripes"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": [
@@ -520,12 +526,12 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
         "stripes"
       ]
@@ -547,14 +553,14 @@
     "baseCoinYield": 48,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#F43F5E",
       "accentColor": "#FDE047",
       "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "stripes"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": [
@@ -626,12 +632,12 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#38BDF8",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
         "stripes"
       ]
@@ -650,13 +656,15 @@
     "baseCoinYield": 42,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
-      "features": []
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FBBF24",
+      "accentColor": "#0284C7",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": [
       "TA-1173",
@@ -675,13 +683,15 @@
     "baseCoinYield": 26,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
-      "features": []
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": [
       "TA-2586",
@@ -700,13 +710,15 @@
     "baseCoinYield": 10,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#F43F5E",
       "accentColor": "#FDE047",
       "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
-      "features": []
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": [
       "TA-1811",
@@ -725,13 +737,15 @@
     "baseCoinYield": 35,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
-      "features": []
+      "primaryColor": "#0D9488",
+      "secondaryColor": "#14B8A6",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": [
       "TA-3514",
@@ -775,10 +789,10 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#38BDF8",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
@@ -824,14 +838,14 @@
     "baseCoinYield": 48,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#F59E0B",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "dorsal_spikes"
+        "stripes"
       ]
     },
     "breedingRecipe": [
@@ -876,13 +890,15 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0D9488",
+      "secondaryColor": "#14B8A6",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": [
       "TA-3486",
@@ -901,13 +917,15 @@
     "baseCoinYield": 25,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#FACC15",
+      "secondaryColor": "#EAB308",
+      "accentColor": "#CA8A04",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": null
   },
@@ -948,14 +966,14 @@
     "baseCoinYield": 31,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FBBF24",
+      "accentColor": "#0284C7",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bioluminescence"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": [
@@ -975,13 +993,15 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#D97706",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": null
   },
@@ -1074,10 +1094,10 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
@@ -1101,14 +1121,14 @@
     "baseCoinYield": 48,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FBBF24",
+      "accentColor": "#0284C7",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": [
@@ -1128,13 +1148,15 @@
     "baseCoinYield": 17,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#F59E0B",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": null
   },
@@ -1150,13 +1172,15 @@
     "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#F43F5E",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": [
       "TA-2510",
@@ -1175,13 +1199,15 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
-      "features": []
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#D97706",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": null
   },
@@ -1224,12 +1250,12 @@
     "baseCoinYield": 46,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
         "stripes"
       ]
@@ -1248,13 +1274,15 @@
     "baseCoinYield": 33,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#D97706",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": [
       "TA-3616",
@@ -1273,14 +1301,14 @@
     "baseCoinYield": 10,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "spots"
+        "stripes"
       ]
     },
     "breedingRecipe": [
@@ -1300,13 +1328,15 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#F43F5E",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": [
       "TA-3340",
@@ -1350,14 +1380,14 @@
     "baseCoinYield": 30,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
-      "bodyLength": 17.0,
-      "bodyHeight": 16.0,
+      "primaryColor": "#FACC15",
+      "secondaryColor": "#EAB308",
+      "accentColor": "#CA8A04",
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "spots"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": null
@@ -1374,13 +1404,15 @@
     "baseCoinYield": 24,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#FACC15",
       "tailShape": "fan",
-      "bodyLength": 17.0,
-      "bodyHeight": 16.0,
-      "features": []
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": [
       "TA-2229",
@@ -1399,13 +1431,15 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 10.0,
-      "bodyHeight": 22.0,
-      "features": []
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FBBF24",
+      "accentColor": "#0284C7",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": [
       "TA-2181",
@@ -1424,14 +1458,14 @@
     "baseCoinYield": 19,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 10.0,
-      "bodyHeight": 22.0,
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "dorsal_spikes"
+        "stripes"
       ]
     },
     "breedingRecipe": null
@@ -1470,13 +1504,15 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#0D9488",
+      "secondaryColor": "#14B8A6",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": [
       "TA-2886",
@@ -1495,13 +1531,15 @@
     "baseCoinYield": 1,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 10.0,
-      "bodyHeight": 22.0,
-      "features": []
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#F59E0B",
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": [
       "TA-1536",
@@ -1544,14 +1582,14 @@
     "baseCoinYield": 37,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
-      "bodyLength": 17.0,
-      "bodyHeight": 16.0,
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FBBF24",
+      "accentColor": "#0284C7",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "dorsal_spikes"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": [
@@ -1596,13 +1634,15 @@
     "baseCoinYield": 3,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#F43F5E",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": [
       "TA-1264",
@@ -1643,14 +1683,14 @@
     "baseCoinYield": 1,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
-      "bodyLength": 17.0,
-      "bodyHeight": 16.0,
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#38BDF8",
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "spots"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": null
@@ -1667,14 +1707,14 @@
     "baseCoinYield": 36,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#FACC15",
       "tailShape": "fan",
-      "bodyLength": 17.0,
-      "bodyHeight": 16.0,
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "spots"
+        "stripes"
       ]
     },
     "breedingRecipe": [
@@ -1694,13 +1734,15 @@
     "baseCoinYield": 46,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 10.0,
-      "bodyHeight": 22.0,
-      "features": []
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FBBF24",
+      "accentColor": "#0284C7",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": [
       "TA-1251",
@@ -1719,13 +1761,15 @@
     "baseCoinYield": 14,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": null
   },
@@ -1741,13 +1785,15 @@
     "baseCoinYield": 20,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#F43F5E",
       "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": null
   },
@@ -1763,13 +1809,15 @@
     "baseCoinYield": 28,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#0D9488",
+      "secondaryColor": "#14B8A6",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": null
   },
@@ -1785,13 +1833,15 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#F59E0B",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": null
   },
@@ -1807,13 +1857,15 @@
     "baseCoinYield": 43,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": null
   },
@@ -1856,12 +1908,12 @@
     "baseCoinYield": 40,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FFFFFF",
       "tailShape": "fan",
-      "bodyLength": 17.0,
-      "bodyHeight": 16.0,
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
         "stripes"
       ]
@@ -2074,13 +2126,15 @@
     "baseCoinYield": 30,
     "emojiOrSprite": "🐰",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
-      "bodyLength": 20.0,
-      "bodyHeight": 13.0,
-      "features": []
+      "primaryColor": "#FACC15",
+      "secondaryColor": "#EAB308",
+      "accentColor": "#CA8A04",
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": null
   },
@@ -2096,13 +2150,15 @@
     "baseCoinYield": 32,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": [
       "TA-2219",
@@ -2121,13 +2177,15 @@
     "baseCoinYield": 35,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FBBF24",
+      "accentColor": "#0284C7",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": null
   },
@@ -2167,13 +2225,15 @@
     "baseCoinYield": 10,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#F43F5E",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": null
   },
@@ -2189,13 +2249,15 @@
     "baseCoinYield": 45,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0D9488",
+      "secondaryColor": "#14B8A6",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": [
       "TA-3661",
@@ -2214,13 +2276,15 @@
     "baseCoinYield": 22,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#FACC15",
+      "secondaryColor": "#EAB308",
+      "accentColor": "#CA8A04",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": null
   },
@@ -2236,13 +2300,15 @@
     "baseCoinYield": 13,
     "emojiOrSprite": "🍎",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": [
       "TA-2770",
@@ -2261,14 +2327,14 @@
     "baseCoinYield": 47,
     "emojiOrSprite": "🎄",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 10.0,
-      "bodyHeight": 22.0,
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FBBF24",
+      "accentColor": "#0284C7",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "tentacles"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": [
@@ -2288,14 +2354,14 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "tentacles"
+        "stripes"
       ]
     },
     "breedingRecipe": null
@@ -2312,13 +2378,15 @@
     "baseCoinYield": 16,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#F43F5E",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": [
       "TA-3569",
@@ -2337,13 +2405,15 @@
     "baseCoinYield": 23,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#0D9488",
+      "secondaryColor": "#14B8A6",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": [
       "TA-2755",
@@ -2362,13 +2432,15 @@
     "baseCoinYield": 43,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#FACC15",
+      "secondaryColor": "#EAB308",
+      "accentColor": "#CA8A04",
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": null
   },
@@ -2384,13 +2456,15 @@
     "baseCoinYield": 31,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#D97706",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": [
       "TA-3553",
@@ -2431,13 +2505,15 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🐌",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": null
   },

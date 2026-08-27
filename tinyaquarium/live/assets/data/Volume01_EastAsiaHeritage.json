@@ -45,7 +45,9 @@
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ]
     },
     "breedingRecipe": {
       "parentA": "koi_001",
@@ -67,11 +69,13 @@
     "visualBlueprint": {
       "primaryColor": "#0F172A",
       "secondaryColor": "#334155",
-      "accentColor": "#E2E8F0",
+      "accentColor": "#FFFFFF",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ]
     },
     "breedingRecipe": {
       "parentA": "koi_001",
@@ -91,13 +95,15 @@
     "baseCoinYield": 17,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#FACC15",
+      "accentColor": "#EAB308",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ]
     },
     "breedingRecipe": {
       "parentA": "koi_011",
@@ -119,7 +125,7 @@
     "visualBlueprint": {
       "primaryColor": "#0284C7",
       "secondaryColor": "#38BDF8",
-      "accentColor": "#F97316",
+      "accentColor": "#EA580C",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -146,8 +152,8 @@
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
-      "secondaryColor": "#38BDF8",
-      "accentColor": "#F97316",
+      "secondaryColor": "#94A3B8",
+      "accentColor": "#EA580C",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -174,8 +180,8 @@
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
+      "secondaryColor": "#E2E8F0",
+      "accentColor": "#1E293B",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -201,13 +207,15 @@
     "baseCoinYield": 45,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#7C3AED",
-      "secondaryColor": "#8B5CF6",
-      "accentColor": "#C4B5FD",
+      "primaryColor": "#475569",
+      "secondaryColor": "#DC2626",
+      "accentColor": "#0F172A",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ]
     },
     "breedingRecipe": {
       "parentA": "koi_005",
@@ -227,13 +235,15 @@
     "baseCoinYield": 34,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#1E293B",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#F59E0B",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#FBBF24",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ]
     },
     "breedingRecipe": {
       "parentA": "koi_010",
@@ -253,13 +263,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
-      "accentColor": "#38BDF8",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#FFFFFF",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ]
     },
     "breedingRecipe": {
       "parentA": "koi_010",
@@ -279,9 +291,9 @@
     "baseCoinYield": 14,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#B45309",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -308,11 +320,11 @@
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
-      "secondaryColor": "#334155",
-      "accentColor": "#E2E8F0",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
+      "secondaryColor": "#FFFFFF",
+      "accentColor": "#64748B",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
         "whiskers"
       ]
@@ -335,14 +347,14 @@
     "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#334155",
-      "accentColor": "#E2E8F0",
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#0F172A",
+      "accentColor": "#94A3B8",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "spots"
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -363,13 +375,15 @@
     "baseCoinYield": 41,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#334155",
-      "accentColor": "#E2E8F0",
+      "primaryColor": "#020617",
+      "secondaryColor": "#0F172A",
+      "accentColor": "#1E293B",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ]
     },
     "breedingRecipe": {
       "parentA": "koi_004",
@@ -389,14 +403,14 @@
     "baseCoinYield": 34,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#0F172A",
-      "secondaryColor": "#334155",
-      "accentColor": "#E2E8F0",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#F59E0B",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "spots"
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -417,13 +431,14 @@
     "baseCoinYield": 23,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#FFFFFF",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#FDA4AF",
+      "primaryColor": "#1E293B",
+      "secondaryColor": "#FFFFFF",
+      "accentColor": "#DC2626",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
+        "whiskers",
         "tancho_crown"
       ]
     },
@@ -446,12 +461,14 @@
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#FDA4AF",
+      "secondaryColor": "#7F1D1D",
+      "accentColor": "#312E81",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ]
     },
     "breedingRecipe": {
       "parentA": "koi_010",
@@ -471,9 +488,9 @@
     "baseCoinYield": 35,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#EA580C",
+      "accentColor": "#FFFFFF",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -490,7 +507,7 @@
   {
     "id": "koi_019",
     "commonName": "紅白",
-    "scientificName": "Carassius auratus var. None",
+    "scientificName": "Cyprinus rubrofuscus var. Platinum Ogon",
     "description": "極具東亞古典美學的名門品種【紅白】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "日本錦鯉名門",
@@ -500,12 +517,14 @@
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#FDA4AF",
+      "secondaryColor": "#F1F5F9",
+      "accentColor": "#E2E8F0",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ]
     },
     "breedingRecipe": {
       "parentA": "koi_003",
@@ -516,7 +535,7 @@
   {
     "id": "koi_020",
     "commonName": "大正三色",
-    "scientificName": "Carassius auratus var. None",
+    "scientificName": "Cyprinus rubrofuscus var. Yamabuki Ogon",
     "description": "極具東亞古典美學的名門品種【大正三色】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "日本錦鯉名門",
@@ -525,13 +544,15 @@
     "baseCoinYield": 15,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#1E293B",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#F59E0B",
+      "primaryColor": "#FACC15",
+      "secondaryColor": "#FEF08A",
+      "accentColor": "#EAB308",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ]
     },
     "breedingRecipe": {
       "parentA": "koi_009",
@@ -542,7 +563,7 @@
   {
     "id": "koi_021",
     "commonName": "べっ甲",
-    "scientificName": "Carassius auratus var. None",
+    "scientificName": "Cyprinus rubrofuscus var. Orenji Ogon",
     "description": "極具東亞古典美學的名門品種【べっ甲】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "日本錦鯉名門",
@@ -551,13 +572,15 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FB923C",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ]
     },
     "breedingRecipe": {
       "parentA": "koi_011",
@@ -568,7 +591,7 @@
   {
     "id": "koi_022",
     "commonName": "藍衣",
-    "scientificName": "Carassius auratus var. None",
+    "scientificName": "Cyprinus rubrofuscus var. Benigoi",
     "description": "極具東亞古典美學的名門品種【藍衣】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Epic",
     "category": "日本錦鯉名門",
@@ -577,13 +600,15 @@
     "baseCoinYield": 22,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#B91C1C",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ]
     },
     "breedingRecipe": {
       "parentA": "koi_002",
@@ -594,7 +619,7 @@
   {
     "id": "koi_023",
     "commonName": "紫鯉",
-    "scientificName": "Carassius auratus var. None",
+    "scientificName": "Cyprinus rubrofuscus var. Kigoi",
     "description": "極具東亞古典美學的名門品種【紫鯉】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Uncommon",
     "category": "日本錦鯉名門",
@@ -603,13 +628,15 @@
     "baseCoinYield": 33,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#7C3AED",
-      "secondaryColor": "#8B5CF6",
-      "accentColor": "#C4B5FD",
+      "primaryColor": "#EAB308",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#CA8A04",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ]
     },
     "breedingRecipe": {
       "parentA": "koi_007",
@@ -620,7 +647,7 @@
   {
     "id": "koi_024",
     "commonName": "綠鯉",
-    "scientificName": "Carassius auratus var. None",
+    "scientificName": "Cyprinus rubrofuscus var. Midorigoi",
     "description": "極具東亞古典美學的名門品種【綠鯉】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Legendary",
     "category": "日本錦鯉名門",
@@ -629,13 +656,15 @@
     "baseCoinYield": 21,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#059669",
-      "secondaryColor": "#10B981",
-      "accentColor": "#6EE7B7",
+      "primaryColor": "#65A30D",
+      "secondaryColor": "#84CC16",
+      "accentColor": "#4D7C0F",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ]
     },
     "breedingRecipe": {
       "parentA": "koi_009",
@@ -646,7 +675,7 @@
   {
     "id": "koi_025",
     "commonName": "銀鱗",
-    "scientificName": "Carassius auratus var. None",
+    "scientificName": "Cyprinus rubrofuscus var. Soragoi",
     "description": "極具東亞古典美學的名門品種【銀鱗】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
     "rarity": "Common",
     "category": "日本錦鯉名門",
@@ -655,13 +684,15 @@
     "baseCoinYield": 16,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
-      "accentColor": "#38BDF8",
+      "primaryColor": "#64748B",
+      "secondaryColor": "#94A3B8",
+      "accentColor": "#475569",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ]
     },
     "breedingRecipe": {
       "parentA": "koi_011",
@@ -672,8 +703,8 @@
   {
     "id": "goldfish_026",
     "commonName": "水泡眼",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【水泡眼】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Carassius auratus var. Bubble Eye",
+    "description": "兩頰托著晃悠晶瑩的墨色與金黃大水泡，游動時水泡隨波輕晃，極具古典禪意美感。",
     "rarity": "Common",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 180,
@@ -681,14 +712,14 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
       "accentColor": "#FDE047",
-      "tailShape": "fan",
-      "bodyLength": 17.0,
-      "bodyHeight": 16.0,
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "bubbles"
+        "bubble_eyes"
       ]
     },
     "breedingRecipe": {
@@ -700,8 +731,8 @@
   {
     "id": "goldfish_027",
     "commonName": "十二紅頂",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【十二紅頂】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Carassius auratus var. Twelve Red",
+    "description": "通體雪白純淨，唯頭頂、口唇、胸鰭、尾鰭等十二處染有正圓朱紅點，尊貴無比。",
     "rarity": "Legendary",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3062,
@@ -709,10 +740,10 @@
     "baseCoinYield": 41,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#DC2626",
+      "accentColor": "#FDA4AF",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
@@ -728,8 +759,8 @@
   {
     "id": "goldfish_028",
     "commonName": "丹頂紅帽",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【丹頂紅帽】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Carassius auratus var. Red Cap Oranda",
+    "description": "白玉身軀配上頭頂鮮紅肉瘤，宛如白鶴頂上的紅冠，雍容華貴。",
     "rarity": "Epic",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 1763,
@@ -738,13 +769,14 @@
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#FDA4AF",
-      "tailShape": "forked",
+      "secondaryColor": "#E2E8F0",
+      "accentColor": "#DC2626",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "tancho_crown"
+        "strawberry_hood",
+        "flowing_fins"
       ]
     },
     "breedingRecipe": {
@@ -756,8 +788,8 @@
   {
     "id": "goldfish_029",
     "commonName": "望天眼",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【望天眼】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Carassius auratus var. Celestial Eye",
+    "description": "雙眼向上翻轉 90 度仰望青天，又稱朝天眼，呆萌又具皇家御用莊嚴氣質。",
     "rarity": "Rare",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2556,
@@ -765,13 +797,15 @@
     "baseCoinYield": 13,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "celestial_eyes"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_028",
@@ -782,8 +816,8 @@
   {
     "id": "goldfish_030",
     "commonName": "藍花水泡",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【藍花水泡】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Carassius auratus var. Blue Calico Bubble",
+    "description": "五花水墨色調的水泡眼，鱗片夾雜靛藍、墨黑與金黃斑紋，水泡薄如蟬翼。",
     "rarity": "Epic",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 267,
@@ -791,14 +825,14 @@
     "baseCoinYield": 40,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#38BDF8",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "bubbles"
+        "bubble_eyes"
       ]
     },
     "breedingRecipe": {
@@ -809,9 +843,9 @@
   },
   {
     "id": "goldfish_031",
-    "commonName": "虎頭",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【虎頭】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "虎頭金魚",
+    "scientificName": "Carassius auratus var. Tiger Head",
+    "description": "頭部肉瘤極其發達厚實，無背鰭，身形短圓如球，游動時如威武小老虎。",
     "rarity": "Uncommon",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 1477,
@@ -819,14 +853,15 @@
     "baseCoinYield": 50,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#1E293B",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#F59E0B",
-      "tailShape": "forked",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#1E293B",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
+        "no_dorsal",
+        "strawberry_hood"
       ]
     },
     "breedingRecipe": {
@@ -837,9 +872,9 @@
   },
   {
     "id": "goldfish_032",
-    "commonName": "獅頭",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【獅頭】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "獅頭金魚",
+    "scientificName": "Carassius auratus var. Lionhead",
+    "description": "頭部滿覆厚密肉瘤如雄獅鬃毛，長鰭飄逸，為傳統古典四大名金魚之首。",
     "rarity": "Uncommon",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 310,
@@ -847,13 +882,16 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#FFFFFF",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "strawberry_hood",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_035",
@@ -863,9 +901,9 @@
   },
   {
     "id": "goldfish_033",
-    "commonName": "蘭壽",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【蘭壽】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "日本蘭壽",
+    "scientificName": "Carassius auratus var. Ranchu",
+    "description": "日本金魚之王，背部優美弓背無鰭，草莓肉瘤飽滿，呆萌擺尾極具觀賞價值。",
     "rarity": "Rare",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 4674,
@@ -873,13 +911,16 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#DC2626",
       "tailShape": "fan",
-      "bodyLength": 20.0,
-      "bodyHeight": 13.0,
-      "features": []
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "no_dorsal",
+        "strawberry_hood"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_035",
@@ -889,9 +930,9 @@
   },
   {
     "id": "goldfish_034",
-    "commonName": "黑包金",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【黑包金】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "黑包金金魚",
+    "scientificName": "Carassius auratus var. Black Gold",
+    "description": "腹部與背鰭閃耀黃金光澤，外層包裹濃墨黑斑，尊貴奢華。",
     "rarity": "Common",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3842,
@@ -899,13 +940,15 @@
     "baseCoinYield": 14,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "forked",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#EAB308",
+      "accentColor": "#FDE047",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_031",
@@ -916,8 +959,8 @@
   {
     "id": "goldfish_035",
     "commonName": "皇冠珍珠鱗",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【皇冠珍珠鱗】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Carassius auratus var. Crown Pearlscale",
+    "description": "每顆鱗片如半顆珍珠般圓潤隆起，頭頂頂著單顆或雙顆氣泡皇冠，圓滾如乒乓球。",
     "rarity": "Uncommon",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3851,
@@ -925,13 +968,16 @@
     "baseCoinYield": 27,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
-      "accentColor": "#38BDF8",
-      "tailShape": "forked",
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#EA580C",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "pearl_scales",
+        "strawberry_hood"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_032",
@@ -942,8 +988,8 @@
   {
     "id": "goldfish_036",
     "commonName": "寬尾琉金",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【寬尾琉金】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Carassius auratus var. Ryukin",
+    "description": "高聳如駝峰的背脊與下垂的巨大寬幅尾鰭，在水中如紅色牡丹花瓣綻放。",
     "rarity": "Epic",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 4593,
@@ -951,13 +997,16 @@
     "baseCoinYield": 42,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "fan",
-      "bodyLength": 20.0,
-      "bodyHeight": 13.0,
-      "features": []
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#FFFFFF",
+      "accentColor": "#F87171",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "high_back",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_026",
@@ -968,8 +1017,8 @@
   {
     "id": "goldfish_037",
     "commonName": "鵝頭紅",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【鵝頭紅】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Carassius auratus var. Goose Head Red",
+    "description": "頭頂紅色肉瘤如鵝頭頂端般方正凸起，通體雪白無雜斑，乃宮廷極品。",
     "rarity": "Epic",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2376,
@@ -978,12 +1027,14 @@
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#FDA4AF",
-      "tailShape": "forked",
+      "secondaryColor": "#F1F5F9",
+      "accentColor": "#DC2626",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "strawberry_hood"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_031",
@@ -993,9 +1044,9 @@
   },
   {
     "id": "goldfish_038",
-    "commonName": "玉如意",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【玉如意】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "玉如意金魚",
+    "scientificName": "Carassius auratus var. Comet Ruyi",
+    "description": "單葉長尾如絲帶般飄曳，體形修長靈動，象徵事事如意、福澤綿長。",
     "rarity": "Common",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 546,
@@ -1003,13 +1054,15 @@
     "baseCoinYield": 37,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#FFFFFF",
+      "accentColor": "#F97316",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_035",
@@ -1019,9 +1072,9 @@
   },
   {
     "id": "goldfish_039",
-    "commonName": "壽星",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【壽星】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "壽星金魚",
+    "scientificName": "Carassius auratus var. Shou Xing",
+    "description": "額頭肉瘤高聳突出如老壽星額頭，身形渾圓肥美，寓意健康長壽。",
     "rarity": "Uncommon",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3156,
@@ -1029,13 +1082,16 @@
     "baseCoinYield": 50,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "no_dorsal",
+        "strawberry_hood"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_026",
@@ -1045,9 +1101,9 @@
   },
   {
     "id": "goldfish_040",
-    "commonName": "喜鵲花",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【喜鵲花】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "喜鵲花金魚",
+    "scientificName": "Carassius auratus var. Magpie Calico",
+    "description": "黑白相間如喜鵲羽毛，游動時尾鰭輕盈翻飛，帶來吉祥喜事臨門之意。",
     "rarity": "Uncommon",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 4533,
@@ -1055,13 +1111,15 @@
     "baseCoinYield": 12,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#FFFFFF",
+      "accentColor": "#64748B",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_031",
@@ -1071,9 +1129,9 @@
   },
   {
     "id": "goldfish_041",
-    "commonName": "蛋鳳",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【蛋鳳】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "蛋鳳金魚",
+    "scientificName": "Carassius auratus var. Egg Phoenix",
+    "description": "無背鰭的圓蛋身材，搭配如鳳凰羽翼般超長的雙薄紗尾鰭，仙氣逼人。",
     "rarity": "Common",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2436,
@@ -1081,13 +1139,16 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#FB7185",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "no_dorsal",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_029",
@@ -1097,9 +1158,9 @@
   },
   {
     "id": "goldfish_042",
-    "commonName": "琉金",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【琉金】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "紅頂紫羅袍",
+    "scientificName": "Carassius auratus var. Purple Robe Red Cap",
+    "description": "身披深紫如天鵝絨的珍稀鱗色，唯頭頂一抹朱紅，極具帝王宮廷貴氣。",
     "rarity": "Common",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 4649,
@@ -1107,13 +1168,16 @@
     "baseCoinYield": 49,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "fan",
-      "bodyLength": 20.0,
-      "bodyHeight": 13.0,
-      "features": []
+      "primaryColor": "#581C87",
+      "secondaryColor": "#7E22CE",
+      "accentColor": "#DC2626",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "strawberry_hood",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_026",
@@ -1123,9 +1187,9 @@
   },
   {
     "id": "goldfish_043",
-    "commonName": "蝶尾",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【蝶尾】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "熊貓蝶尾",
+    "scientificName": "Carassius auratus var. Panda Butterfly",
+    "description": "黑白分明如國寶大熊貓，雙眼突出，展開的尾鰭宛如黑色蝴蝶翩翩起舞。",
     "rarity": "Common",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2913,
@@ -1133,13 +1197,16 @@
     "baseCoinYield": 26,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
-      "features": []
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#0F172A",
+      "accentColor": "#334155",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "telescope_eyes",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_031",
@@ -1149,9 +1216,9 @@
   },
   {
     "id": "goldfish_044",
-    "commonName": "珍珠鱗",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【珍珠鱗】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "墨蝶尾",
+    "scientificName": "Carassius auratus var. Black Butterfly",
+    "description": "通體漆黑無瑕，巨大如羽翼的四開尾鰭如水墨畫卷在水底優雅展開。",
     "rarity": "Rare",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2969,
@@ -1159,13 +1226,16 @@
     "baseCoinYield": 30,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
-      "accentColor": "#38BDF8",
-      "tailShape": "forked",
+      "primaryColor": "#020617",
+      "secondaryColor": "#0F172A",
+      "accentColor": "#334155",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "telescope_eyes",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_030",
@@ -1175,9 +1245,9 @@
   },
   {
     "id": "goldfish_045",
-    "commonName": "鶴頂紅",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【鶴頂紅】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "十二紅蝶尾",
+    "scientificName": "Carassius auratus var. Twelve Red Butterfly",
+    "description": "全身純白，十二處關鍵鰭端與眼眶染紅，蝴蝶尾平展如扇。",
     "rarity": "Rare",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3404,
@@ -1185,14 +1255,15 @@
     "baseCoinYield": 47,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#DC2626",
+      "accentColor": "#FDA4AF",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "tancho_crown"
+        "telescope_eyes",
+        "flowing_fins"
       ]
     },
     "breedingRecipe": {
@@ -1203,9 +1274,9 @@
   },
   {
     "id": "goldfish_046",
-    "commonName": "熊貓金魚",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【熊貓金魚】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "櫻花琉金",
+    "scientificName": "Carassius auratus var. Sakura Ryukin",
+    "description": "紅白相間如落櫻繽紛，透明鱗片透出粉紅微光，體態曼妙如春日櫻花。",
     "rarity": "Rare",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 1317,
@@ -1213,13 +1284,16 @@
     "baseCoinYield": 21,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "fan",
-      "bodyLength": 20.0,
-      "bodyHeight": 13.0,
-      "features": []
+      "primaryColor": "#FB7185",
+      "secondaryColor": "#FFFFFF",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "high_back",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_026",
@@ -1229,9 +1303,9 @@
   },
   {
     "id": "goldfish_047",
-    "commonName": "朱文錦",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【朱文錦】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "五花蘭壽",
+    "scientificName": "Carassius auratus var. Calico Ranchu",
+    "description": "集合紅、黃、藍、黑、白五色斑斕的蘭壽，宛如打翻的江戶水彩調色盤。",
     "rarity": "Rare",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3901,
@@ -1239,13 +1313,16 @@
     "baseCoinYield": 21,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#EA580C",
+      "accentColor": "#0F172A",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "no_dorsal",
+        "strawberry_hood"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_034",
@@ -1255,9 +1332,9 @@
   },
   {
     "id": "goldfish_048",
-    "commonName": "彗星",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【彗星】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "黑蘭壽",
+    "scientificName": "Carassius auratus var. Black Ranchu",
+    "description": "漆黑如炭的泰國與日本改良品種，草莓頭厚實，身形短胖極具萌感。",
     "rarity": "Rare",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 690,
@@ -1265,13 +1342,16 @@
     "baseCoinYield": 40,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#334155",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "no_dorsal",
+        "strawberry_hood"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_026",
@@ -1281,9 +1361,9 @@
   },
   {
     "id": "goldfish_049",
-    "commonName": "龍睛",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【龍睛】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "龍睛金魚",
+    "scientificName": "Carassius auratus var. Dragon Eye Telescope",
+    "description": "標誌性的大凸眼如東方神龍之睛，鱗片閃爍金屬赤紅光澤，游動時呆萌靈動。",
     "rarity": "Legendary",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2728,
@@ -1291,13 +1371,16 @@
     "baseCoinYield": 31,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EA580C",
+      "accentColor": "#FACC15",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "telescope_eyes",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_034",
@@ -1307,9 +1390,9 @@
   },
   {
     "id": "goldfish_050",
-    "commonName": "朝天龍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【朝天龍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "朝天龍金魚",
+    "scientificName": "Carassius auratus var. Celestial Dragon",
+    "description": "凸眼朝天望向蒼穹，背脊平滑無鰭，古代皇帝視為與上天溝通的吉兆神魚。",
     "rarity": "Legendary",
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 418,
@@ -1317,13 +1400,16 @@
     "baseCoinYield": 25,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
       "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "no_dorsal",
+        "celestial_eyes"
+      ]
     },
     "breedingRecipe": {
       "parentA": "goldfish_035",
@@ -1333,9 +1419,9 @@
   },
   {
     "id": "seasia_051",
-    "commonName": "古代巨龍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【古代巨龍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "古代巨龍魚",
+    "scientificName": "Scleropages formosus",
+    "description": "亞洲龍魚活化石，金光閃耀的巨大硬鱗如金色裝甲，下顎生有兩根標誌性神龍長鬚。",
     "rarity": "Rare",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 232,
@@ -1343,13 +1429,16 @@
     "baseCoinYield": 24,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#D97706",
+      "accentColor": "#FBBF24",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "whiskers",
+        "dragon_scales"
+      ]
     },
     "breedingRecipe": {
       "parentA": "seasia_059",
@@ -1360,8 +1449,8 @@
   {
     "id": "seasia_052",
     "commonName": "皇冠狗頭",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【皇冠狗頭】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Tetraodon mbu",
+    "description": "淡水河豚之王，黃綠色身軀佈滿金黃迷宮網紋，圓滾滾大肚子與好奇大眼睛極具人氣。",
     "rarity": "Epic",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2410,
@@ -1369,13 +1458,16 @@
     "baseCoinYield": 26,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#84CC16",
+      "secondaryColor": "#EAB308",
+      "accentColor": "#1E293B",
       "tailShape": "fan",
-      "bodyLength": 17.0,
-      "bodyHeight": 16.0,
-      "features": []
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "puffer_belly",
+        "stripes"
+      ]
     },
     "breedingRecipe": {
       "parentA": "seasia_057",
@@ -1386,8 +1478,8 @@
   {
     "id": "seasia_053",
     "commonName": "黃金眼鏡蛇雷龍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【黃金眼鏡蛇雷龍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Channa aurantimaculata",
+    "description": "印度北部原生雷龍，身上覆蓋如眼鏡蛇般的耀眼金黃與深藍斑塊，霸氣十足。",
     "rarity": "Rare",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 1381,
@@ -1395,13 +1487,15 @@
     "baseCoinYield": 48,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#EAB308",
+      "secondaryColor": "#0284C7",
+      "accentColor": "#1E293B",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "snakehead_pattern"
+      ]
     },
     "breedingRecipe": {
       "parentA": "seasia_061",
@@ -1412,8 +1506,8 @@
   {
     "id": "seasia_054",
     "commonName": "幻彩紅寶石雷龍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【幻彩紅寶石雷龍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Channa bleheri",
+    "description": "小型彩虹雷龍，體側散佈著如紅寶石般的火焰斑點，背鰭與尾鰭鑲著夢幻橘紅邊框。",
     "rarity": "Legendary",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 3155,
@@ -1421,13 +1515,15 @@
     "baseCoinYield": 32,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#7C3AED",
-      "secondaryColor": "#8B5CF6",
-      "accentColor": "#C4B5FD",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#0284C7",
+      "accentColor": "#F97316",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "seasia_052",
@@ -1438,8 +1534,8 @@
   {
     "id": "seasia_055",
     "commonName": "古代蝴蝶魚",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【古代蝴蝶魚】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Pantodon buchholzi",
+    "description": "水面滑翔的遠古活化石，胸鰭特化如蝴蝶翅膀，能在水面滑翔捕食昆蟲。",
     "rarity": "Rare",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 3910,
@@ -1447,13 +1543,15 @@
     "baseCoinYield": 39,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
-      "features": []
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
+      "accentColor": "#FBBF24",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "wing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "seasia_061",
@@ -1464,8 +1562,8 @@
   {
     "id": "seasia_056",
     "commonName": "霓虹光鰍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【霓虹光鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Pangio kuhlii",
+    "description": "條紋如蛇般滑溜的小型底棲鰍，橙黃身軀穿插著深黑斑紋，愛在水草間穿梭躲藏。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 1105,
@@ -1473,14 +1571,14 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#F97316",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#FDE047",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
+        "stripes"
       ]
     },
     "breedingRecipe": {
@@ -1491,9 +1589,9 @@
   },
   {
     "id": "seasia_057",
-    "commonName": "紅尾皇冠",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【紅尾皇冠】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "紅尾皇冠短鯛",
+    "scientificName": "Andinoacara rivulatus",
+    "description": "體色泛著金屬綠光，雄魚頭頂隆起高聳皇冠，尾鰭邊緣鑲嵌著一抹鮮豔火紅。",
     "rarity": "Legendary",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 273,
@@ -1501,13 +1599,15 @@
     "baseCoinYield": 17,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0D9488",
+      "secondaryColor": "#059669",
+      "accentColor": "#DC2626",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "strawberry_hood"
+      ]
     },
     "breedingRecipe": {
       "parentA": "seasia_059",
@@ -1518,8 +1618,8 @@
   {
     "id": "seasia_058",
     "commonName": "紫紅短鯛",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【紫紅短鯛】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Apistogramma viejita",
+    "description": "南美與東南亞玩家爭相培育的寶石短鯛，腮蓋散發紫紅霓虹，背鰭飄逸修長。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2102,
@@ -1527,13 +1627,15 @@
     "baseCoinYield": 14,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#7C3AED",
-      "secondaryColor": "#8B5CF6",
-      "accentColor": "#C4B5FD",
-      "tailShape": "forked",
+      "primaryColor": "#9333EA",
+      "secondaryColor": "#C084FC",
+      "accentColor": "#DC2626",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "seasia_058",
@@ -1544,8 +1646,8 @@
   {
     "id": "seasia_059",
     "commonName": "帝王三間",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【帝王三間】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cichla ocellaris",
+    "description": "體型龐大的掠食慈鯛，金黃身軀上有三道標誌性粗黑橫紋，尾柄有著金框眼斑。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 982,
@@ -1553,13 +1655,15 @@
     "baseCoinYield": 48,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#EAB308",
+      "secondaryColor": "#16A34A",
+      "accentColor": "#0F172A",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": {
       "parentA": "seasia_057",
@@ -1570,8 +1674,8 @@
   {
     "id": "seasia_060",
     "commonName": "虎紋鰍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【虎紋鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Botia almorhae",
+    "description": "底棲活躍的虎斑鰍，全身佈滿如大理石與虎皮般的Y型迷宮斑紋，動作滑稽討喜。",
     "rarity": "Legendary",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 3843,
@@ -1579,15 +1683,15 @@
     "baseCoinYield": 13,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#1E293B",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#F59E0B",
+      "primaryColor": "#E2E8F0",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#94A3B8",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers",
-        "stripes"
+        "stripes",
+        "whiskers"
       ]
     },
     "breedingRecipe": {
@@ -1599,8 +1703,8 @@
   {
     "id": "seasia_061",
     "commonName": "白化珍珠龍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【白化珍珠龍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. seasia_061",
+    "description": "東亞清溪與江戶水系培育的名門水族【白化珍珠龍】，體色溫潤、身姿曼妙。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 3718,
@@ -1608,12 +1712,12 @@
     "baseCoinYield": 28,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
-      "accentColor": "#38BDF8",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#F59E0B",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": []
     },
     "breedingRecipe": {
@@ -1625,8 +1729,8 @@
   {
     "id": "seasia_062",
     "commonName": "泰國鯽",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【泰國鯽】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. seasia_062",
+    "description": "東亞清溪與江戶水系培育的名門水族【泰國鯽】，體色溫潤、身姿曼妙。",
     "rarity": "Common",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 818,
@@ -1634,10 +1738,10 @@
     "baseCoinYield": 20,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#E2E8F0",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -1651,8 +1755,8 @@
   {
     "id": "seasia_063",
     "commonName": "亞洲紅龍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【亞洲紅龍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. seasia_063",
+    "description": "東亞清溪與江戶水系培育的名門水族【亞洲紅龍】，體色溫潤、身姿曼妙。",
     "rarity": "Legendary",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 4013,
@@ -1660,12 +1764,12 @@
     "baseCoinYield": 38,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#DC2626",
-      "secondaryColor": "#EA580C",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
       "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": []
     },
     "breedingRecipe": {
@@ -1677,8 +1781,8 @@
   {
     "id": "seasia_064",
     "commonName": "金龍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【金龍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. seasia_064",
+    "description": "東亞清溪與江戶水系培育的名門水族【金龍】，體色溫潤、身姿曼妙。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 695,
@@ -1686,13 +1790,15 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#FFFFFF",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "seasia_056",
@@ -1703,8 +1809,8 @@
   {
     "id": "seasia_065",
     "commonName": "青龍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【青龍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. seasia_065",
+    "description": "東亞清溪與江戶水系培育的名門水族【青龍】，體色溫潤、身姿曼妙。",
     "rarity": "Rare",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 1341,
@@ -1712,12 +1818,12 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#1D4ED8",
-      "secondaryColor": "#3B82F6",
-      "accentColor": "#FACC15",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FDE047",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": []
     },
     "breedingRecipe": {
@@ -1729,8 +1835,8 @@
   {
     "id": "seasia_066",
     "commonName": "泰國鬥魚",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【泰國鬥魚】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. seasia_066",
+    "description": "東亞清溪與江戶水系培育的名門水族【泰國鬥魚】，體色溫潤、身姿曼妙。",
     "rarity": "Common",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 418,
@@ -1738,13 +1844,15 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
-      "bodyLength": 20.0,
-      "bodyHeight": 13.0,
-      "features": []
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#FFFFFF",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "seasia_059",
@@ -1755,8 +1863,8 @@
   {
     "id": "seasia_067",
     "commonName": "展鬥",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【展鬥】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. seasia_067",
+    "description": "東亞清溪與江戶水系培育的名門水族【展鬥】，體色溫潤、身姿曼妙。",
     "rarity": "Epic",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2063,
@@ -1764,9 +1872,9 @@
     "baseCoinYield": 42,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#F59E0B",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -1781,8 +1889,8 @@
   {
     "id": "seasia_068",
     "commonName": "巨型蛇頭魚",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【巨型蛇頭魚】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. seasia_068",
+    "description": "東亞清溪與江戶水系培育的名門水族【巨型蛇頭魚】，體色溫潤、身姿曼妙。",
     "rarity": "Legendary",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2686,
@@ -1790,12 +1898,12 @@
     "baseCoinYield": 48,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
       "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": []
     },
     "breedingRecipe": {
@@ -1807,8 +1915,8 @@
   {
     "id": "seasia_069",
     "commonName": "斑馬丹尼奧",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【斑馬丹尼奧】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. seasia_069",
+    "description": "東亞清溪與江戶水系培育的名門水族【斑馬丹尼奧】，體色溫潤、身姿曼妙。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 112,
@@ -1816,14 +1924,14 @@
     "baseCoinYield": 41,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#FFFFFF",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": {
@@ -1835,8 +1943,8 @@
   {
     "id": "seasia_070",
     "commonName": "櫻桃燈",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【櫻桃燈】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. seasia_070",
+    "description": "東亞清溪與江戶水系培育的名門水族【櫻桃燈】，體色溫潤、身姿曼妙。",
     "rarity": "Legendary",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 828,
@@ -1844,9 +1952,9 @@
     "baseCoinYield": 46,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#16A34A",
+      "secondaryColor": "#84CC16",
+      "accentColor": "#FACC15",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -1861,8 +1969,8 @@
   {
     "id": "seasia_071",
     "commonName": "泰國飛狐",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【泰國飛狐】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. seasia_071",
+    "description": "東亞清溪與江戶水系培育的名門水族【泰國飛狐】，體色溫潤、身姿曼妙。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 1582,
@@ -1870,10 +1978,10 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -1887,8 +1995,8 @@
   {
     "id": "seasia_072",
     "commonName": "一眉道人",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【一眉道人】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. seasia_072",
+    "description": "東亞清溪與江戶水系培育的名門水族【一眉道人】，體色溫潤、身姿曼妙。",
     "rarity": "Epic",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2896,
@@ -1896,9 +2004,9 @@
     "baseCoinYield": 18,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#F59E0B",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -1913,8 +2021,8 @@
   {
     "id": "seasia_073",
     "commonName": "飛魚",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【飛魚】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. seasia_073",
+    "description": "東亞清溪與江戶水系培育的名門水族【飛魚】，體色溫潤、身姿曼妙。",
     "rarity": "Epic",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2952,
@@ -1922,15 +2030,13 @@
     "baseCoinYield": 49,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "butterfly",
-      "bodyLength": 24.0,
-      "bodyHeight": 18.0,
-      "features": [
-        "flowing_fins"
-      ]
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#E2E8F0",
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
     },
     "breedingRecipe": {
       "parentA": "seasia_059",
@@ -1941,8 +2047,8 @@
   {
     "id": "seasia_074",
     "commonName": "玻璃貓",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【玻璃貓】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. seasia_074",
+    "description": "東亞清溪與江戶水系培育的名門水族【玻璃貓】，體色溫潤、身姿曼妙。",
     "rarity": "Common",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 3923,
@@ -1950,13 +2056,15 @@
     "baseCoinYield": 23,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#9333EA",
+      "secondaryColor": "#C084FC",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "seasia_052",
@@ -1967,8 +2075,8 @@
   {
     "id": "seasia_075",
     "commonName": "珍珠馬甲",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【珍珠馬甲】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. seasia_075",
+    "description": "東亞清溪與江戶水系培育的名門水族【珍珠馬甲】，體色溫潤、身姿曼妙。",
     "rarity": "Common",
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 4932,
@@ -1976,10 +2084,10 @@
     "baseCoinYield": 34,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
-      "accentColor": "#38BDF8",
-      "tailShape": "forked",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FDE047",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -1993,8 +2101,8 @@
   {
     "id": "taiwan_076",
     "commonName": "櫻花鉤吻鮭",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【櫻花鉤吻鮭】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Oncorhynchus masou formosanus",
+    "description": "台灣國寶級冰河孑遺活化石，七家灣溪冰冷清泉守護者，體側橢圓黑斑與暗紅斑紋極致尊貴。",
     "rarity": "Epic",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 2683,
@@ -2002,13 +2110,16 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
-      "primaryColor": "#FFFFFF",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#FDA4AF",
+      "primaryColor": "#475569",
+      "secondaryColor": "#94A3B8",
+      "accentColor": "#F43F5E",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers",
+        "spots"
+      ]
     },
     "breedingRecipe": {
       "parentA": "taiwan_080",
@@ -2018,9 +2129,9 @@
   },
   {
     "id": "taiwan_077",
-    "commonName": "高山鯝魚",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【高山鯝魚】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "台灣高山鯝魚",
+    "scientificName": "Onychostoma alticorpus",
+    "description": "台灣特有高山清溪精靈，下唇特化如鏟，在溪石間翻滾刮食藻類時閃耀白金水下流星。",
     "rarity": "Uncommon",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 886,
@@ -2028,13 +2139,15 @@
     "baseCoinYield": 12,
     "emojiOrSprite": "🏔️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#E2E8F0",
+      "secondaryColor": "#94A3B8",
+      "accentColor": "#00F0FF",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer"
+      ]
     },
     "breedingRecipe": {
       "parentA": "taiwan_085",
@@ -2044,9 +2157,9 @@
   },
   {
     "id": "taiwan_078",
-    "commonName": "粗首鱲",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【粗首鱲】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "commonName": "粗首鱲 (溪哥)",
+    "scientificName": "Zacco pachycephalus",
+    "description": "台灣溪流原生之王，雄魚發情期綻放如彩虹般的藍綠與粉紅金屬婚姻色，追逐嬉戲。",
     "rarity": "Common",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4884,
@@ -2054,13 +2167,15 @@
     "baseCoinYield": 30,
     "emojiOrSprite": "🏔️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#F43F5E",
+      "accentColor": "#38BDF8",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "taiwan_080",
@@ -2071,8 +2186,8 @@
   {
     "id": "taiwan_079",
     "commonName": "台灣石賓",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【台灣石賓】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Acrossocheilus paradoxus",
+    "description": "中上游清澈溪流霸主，體側有 7 條鮮明黑色橫帶，具兩對口鬚，身形健美游速極快。",
     "rarity": "Rare",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 166,
@@ -2080,13 +2195,16 @@
     "baseCoinYield": 20,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#CA8A04",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#EAB308",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "stripes",
+        "whiskers"
+      ]
     },
     "breedingRecipe": {
       "parentA": "taiwan_085",
@@ -2097,8 +2215,8 @@
   {
     "id": "taiwan_080",
     "commonName": "七星鱧",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【七星鱧】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Channa asiatica",
+    "description": "台灣原生珍貴小型鱧魚，體側分佈著七顆以上銀白星點與月牙斑，夜間微光閃爍。",
     "rarity": "Rare",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1829,
@@ -2106,13 +2224,15 @@
     "baseCoinYield": 34,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#334155",
+      "secondaryColor": "#0F172A",
+      "accentColor": "#38BDF8",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": {
       "parentA": "taiwan_080",
@@ -2123,8 +2243,8 @@
   {
     "id": "taiwan_081",
     "commonName": "玫瑰鯽",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【玫瑰鯽】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Pethia conchonius",
+    "description": "游動於草澤溪畔的玫瑰寶石，體側泛著玫瑰金與銅紅色澤，在陽光下璀璨奪目。",
     "rarity": "Common",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 2122,
@@ -2132,13 +2252,15 @@
     "baseCoinYield": 19,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#F43F5E",
+      "secondaryColor": "#FB7185",
+      "accentColor": "#F59E0B",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "taiwan_080",
@@ -2149,8 +2271,8 @@
   {
     "id": "taiwan_082",
     "commonName": "台灣纓口鰍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【台灣纓口鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Crossostoma lacustre",
+    "description": "急流吸附大師，口部周圍長滿如流蘇般的纓狀觸鬚，腹部如吸盤牢牢固定在湍急石面上。",
     "rarity": "Rare",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1449,
@@ -2158,14 +2280,15 @@
     "baseCoinYield": 46,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#78350F",
+      "secondaryColor": "#92400E",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
+        "whiskers",
+        "spots"
       ]
     },
     "breedingRecipe": {
@@ -2177,8 +2300,8 @@
   {
     "id": "taiwan_083",
     "commonName": "巴氏銀鮈",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【巴氏銀鮈】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Squalidus banarescui",
+    "description": "台灣極度瀕危特有種，通體銀白半透明，體側有一條如水銀般的深藍光澤水平縱帶。",
     "rarity": "Epic",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4024,
@@ -2186,13 +2309,15 @@
     "baseCoinYield": 31,
     "emojiOrSprite": "🏔️",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
-      "accentColor": "#38BDF8",
+      "primaryColor": "#E2E8F0",
+      "secondaryColor": "#0284C7",
+      "accentColor": "#FFFFFF",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "neon_stripe"
+      ]
     },
     "breedingRecipe": {
       "parentA": "taiwan_081",
@@ -2203,8 +2328,8 @@
   {
     "id": "taiwan_084",
     "commonName": "埔里中華爬岩鰍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【埔里中華爬岩鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Sinogastromyzon puliensis",
+    "description": "台灣特有扁平吸盤鰍，身形如滑鼠般緊貼急流溪石，背上覆蓋精美大理石迷彩花紋。",
     "rarity": "Common",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1361,
@@ -2212,14 +2337,14 @@
     "baseCoinYield": 25,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#475569",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#CA8A04",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
+        "spots"
       ]
     },
     "breedingRecipe": {
@@ -2231,8 +2356,8 @@
   {
     "id": "taiwan_085",
     "commonName": "細體擬平鰍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【細體擬平鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Hemimyzon formosanus",
+    "description": "台灣高山急流隱士，特化寬大胸腹鰭宛如蝙蝠滑翔翼，流線貼底逆水而上。",
     "rarity": "Rare",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4060,
@@ -2240,14 +2365,14 @@
     "baseCoinYield": 37,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#52525B",
+      "secondaryColor": "#27272A",
+      "accentColor": "#A1A1AA",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
+        "spots"
       ]
     },
     "breedingRecipe": {
@@ -2259,8 +2384,8 @@
   {
     "id": "taiwan_086",
     "commonName": "恆春吻鰕虎",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【恆春吻鰕虎】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Rhinogobius henchuenensis",
+    "description": "台灣南部清泉特有鰕虎，兩頰點綴著如紅寶石般的鮮豔斑點，雙鰭張開時極具地盤威勢。",
     "rarity": "Epic",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 3934,
@@ -2268,14 +2393,15 @@
     "baseCoinYield": 17,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
-      "primaryColor": "#1E293B",
+      "primaryColor": "#CA8A04",
       "secondaryColor": "#DC2626",
-      "accentColor": "#F59E0B",
-      "tailShape": "forked",
+      "accentColor": "#38BDF8",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
+        "spots",
+        "flowing_fins"
       ]
     },
     "breedingRecipe": {
@@ -2287,8 +2413,8 @@
   {
     "id": "taiwan_087",
     "commonName": "蓋斑鬥魚",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【蓋斑鬥魚】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. taiwan_087",
+    "description": "東亞清溪與江戶水系培育的名門水族【蓋斑鬥魚】，體色溫潤、身姿曼妙。",
     "rarity": "Rare",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4804,
@@ -2296,12 +2422,12 @@
     "baseCoinYield": 31,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
-      "bodyLength": 20.0,
-      "bodyHeight": 13.0,
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#F59E0B",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": []
     },
     "breedingRecipe": {
@@ -2313,8 +2439,8 @@
   {
     "id": "taiwan_088",
     "commonName": "台灣間爬岩鰍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【台灣間爬岩鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. taiwan_088",
+    "description": "東亞清溪與江戶水系培育的名門水族【台灣間爬岩鰍】，體色溫潤、身姿曼妙。",
     "rarity": "Epic",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 2474,
@@ -2322,14 +2448,14 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#FFFFFF",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": {
@@ -2341,8 +2467,8 @@
   {
     "id": "taiwan_089",
     "commonName": "苦花",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【苦花】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. taiwan_089",
+    "description": "東亞清溪與江戶水系培育的名門水族【苦花】，體色溫潤、身姿曼妙。",
     "rarity": "Rare",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1631,
@@ -2350,9 +2476,9 @@
     "baseCoinYield": 33,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#16A34A",
+      "secondaryColor": "#84CC16",
+      "accentColor": "#FACC15",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -2367,8 +2493,8 @@
   {
     "id": "taiwan_090",
     "commonName": "溪哥",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【溪哥】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. taiwan_090",
+    "description": "東亞清溪與江戶水系培育的名門水族【溪哥】，體色溫潤、身姿曼妙。",
     "rarity": "Common",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 3742,
@@ -2376,10 +2502,10 @@
     "baseCoinYield": 50,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -2393,8 +2519,8 @@
   {
     "id": "taiwan_091",
     "commonName": "短吻鎌柄",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【短吻鎌柄】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. taiwan_091",
+    "description": "東亞清溪與江戶水系培育的名門水族【短吻鎌柄】，體色溫潤、身姿曼妙。",
     "rarity": "Uncommon",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4498,
@@ -2402,9 +2528,9 @@
     "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#F59E0B",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -2419,8 +2545,8 @@
   {
     "id": "taiwan_092",
     "commonName": "粗鱗鱲",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【粗鱗鱲】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. taiwan_092",
+    "description": "東亞清溪與江戶水系培育的名門水族【粗鱗鱲】，體色溫潤、身姿曼妙。",
     "rarity": "Legendary",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4783,
@@ -2428,10 +2554,10 @@
     "baseCoinYield": 38,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#E2E8F0",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -2445,8 +2571,8 @@
   {
     "id": "taiwan_093",
     "commonName": "中華花鰍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【中華花鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. taiwan_093",
+    "description": "東亞清溪與江戶水系培育的名門水族【中華花鰍】，體色溫潤、身姿曼妙。",
     "rarity": "Uncommon",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 2970,
@@ -2454,15 +2580,13 @@
     "baseCoinYield": 39,
     "emojiOrSprite": "🏔️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#F59E0B",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": [
-        "whiskers"
-      ]
+      "features": []
     },
     "breedingRecipe": {
       "parentA": "taiwan_079",
@@ -2473,8 +2597,8 @@
   {
     "id": "taiwan_094",
     "commonName": "泥鰍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【泥鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. taiwan_094",
+    "description": "東亞清溪與江戶水系培育的名門水族【泥鰍】，體色溫潤、身姿曼妙。",
     "rarity": "Legendary",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1132,
@@ -2482,15 +2606,13 @@
     "baseCoinYield": 14,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": [
-        "whiskers"
-      ]
+      "features": []
     },
     "breedingRecipe": {
       "parentA": "taiwan_086",
@@ -2501,8 +2623,8 @@
   {
     "id": "taiwan_095",
     "commonName": "鱸鰻",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【鱸鰻】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. taiwan_095",
+    "description": "東亞清溪與江戶水系培育的名門水族【鱸鰻】，體色溫潤、身姿曼妙。",
     "rarity": "Legendary",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 3910,
@@ -2510,12 +2632,12 @@
     "baseCoinYield": 48,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#E2E8F0",
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": []
     },
     "breedingRecipe": {
@@ -2527,8 +2649,8 @@
   {
     "id": "taiwan_096",
     "commonName": "台灣石鱋",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【台灣石鱋】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. taiwan_096",
+    "description": "東亞清溪與江戶水系培育的名門水族【台灣石鱋】，體色溫潤、身姿曼妙。",
     "rarity": "Legendary",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 644,
@@ -2536,9 +2658,9 @@
     "baseCoinYield": 22,
     "emojiOrSprite": "🏔️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#16A34A",
+      "secondaryColor": "#84CC16",
+      "accentColor": "#FACC15",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -2553,8 +2675,8 @@
   {
     "id": "taiwan_097",
     "commonName": "條紋二鬚䰾",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【條紋二鬚䰾】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. taiwan_097",
+    "description": "東亞清溪與江戶水系培育的名門水族【條紋二鬚䰾】，體色溫潤、身姿曼妙。",
     "rarity": "Uncommon",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4846,
@@ -2562,14 +2684,14 @@
     "baseCoinYield": 36,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#FFFFFF",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "stripes"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": {
@@ -2581,8 +2703,8 @@
   {
     "id": "taiwan_098",
     "commonName": "菊池氏細鯽",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【菊池氏細鯽】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. taiwan_098",
+    "description": "東亞清溪與江戶水系培育的名門水族【菊池氏細鯽】，體色溫潤、身姿曼妙。",
     "rarity": "Epic",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1510,
@@ -2590,10 +2712,10 @@
     "baseCoinYield": 23,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#E2E8F0",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -2607,8 +2729,8 @@
   {
     "id": "taiwan_099",
     "commonName": "圓吻鯝",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【圓吻鯝】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. taiwan_099",
+    "description": "東亞清溪與江戶水系培育的名門水族【圓吻鯝】，體色溫潤、身姿曼妙。",
     "rarity": "Epic",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 243,
@@ -2616,13 +2738,15 @@
     "baseCoinYield": 46,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#9333EA",
+      "secondaryColor": "#C084FC",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": {
       "parentA": "taiwan_078",
@@ -2633,8 +2757,8 @@
   {
     "id": "taiwan_100",
     "commonName": "台東間爬岩鰍",
-    "scientificName": "Carassius auratus var. None",
-    "description": "極具東亞古典美學的名門品種【台東間爬岩鰍】，身姿曼妙靈動，具備優雅的鰭形與溫潤的鱗光。",
+    "scientificName": "Cyprinidae orientalis var. taiwan_100",
+    "description": "東亞清溪與江戶水系培育的名門水族【台東間爬岩鰍】，體色溫潤、身姿曼妙。",
     "rarity": "Legendary",
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4034,
@@ -2642,14 +2766,14 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#FFFFFF",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": {

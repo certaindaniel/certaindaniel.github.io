@@ -11,13 +11,16 @@
     "baseCoinYield": 51,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "butterfly",
-      "bodyLength": 24.0,
-      "bodyHeight": 18.0,
-      "features": []
+      "primaryColor": "#312E81",
+      "secondaryColor": "#4338CA",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "shimmer",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + MythicScale"
   },
@@ -33,13 +36,15 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🧜‍♀️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#047857",
+      "secondaryColor": "#059669",
+      "accentColor": "#38BDF8",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "wing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -55,12 +60,12 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🪽",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#991B1B",
+      "secondaryColor": "#DC2626",
       "accentColor": "#FDE047",
-      "tailShape": "butterfly",
-      "bodyLength": 24.0,
-      "bodyHeight": 18.0,
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
         "flowing_fins"
       ]
@@ -79,13 +84,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#FFFFFF",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "tancho_crown"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -101,13 +108,16 @@
     "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#F59E0B",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer",
+        "whiskers"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -123,13 +133,15 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#6D28D9",
+      "secondaryColor": "#9333EA",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + CommonScale"
   },
@@ -145,13 +157,16 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#312E81",
+      "secondaryColor": "#4338CA",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -167,13 +182,15 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🐕",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#047857",
+      "secondaryColor": "#059669",
+      "accentColor": "#38BDF8",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "wing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -189,13 +206,15 @@
     "baseCoinYield": 1,
     "emojiOrSprite": "🦢",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#991B1B",
+      "secondaryColor": "#DC2626",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + CommonScale"
   },
@@ -211,13 +230,15 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#FFFFFF",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "tancho_crown"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -257,14 +278,14 @@
     "baseCoinYield": 21,
     "emojiOrSprite": "🐲",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
+      "primaryColor": "#6D28D9",
+      "secondaryColor": "#9333EA",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "whiskers"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": "MythicEssence + LegendaryScale"
@@ -281,13 +302,16 @@
     "baseCoinYield": 3,
     "emojiOrSprite": "🦅",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#312E81",
+      "secondaryColor": "#4338CA",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -303,13 +327,15 @@
     "baseCoinYield": 10,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#047857",
+      "secondaryColor": "#059669",
+      "accentColor": "#38BDF8",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "wing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -325,13 +351,15 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🪶",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#991B1B",
+      "secondaryColor": "#DC2626",
       "accentColor": "#FDE047",
-      "tailShape": "butterfly",
-      "bodyLength": 24.0,
-      "bodyHeight": 18.0,
-      "features": []
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -347,13 +375,15 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🐖",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#FFFFFF",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "tancho_crown"
+      ]
     },
     "breedingRecipe": "MythicEssence + CommonScale"
   },
@@ -369,13 +399,16 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#FEF08A",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer",
+        "whiskers"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -391,13 +424,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🐦",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#6D28D9",
+      "secondaryColor": "#9333EA",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -413,13 +448,16 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#312E81",
+      "secondaryColor": "#4338CA",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -435,13 +473,15 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🕊️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#047857",
+      "secondaryColor": "#059669",
+      "accentColor": "#38BDF8",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "wing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + CommonScale"
   },
@@ -457,13 +497,15 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#991B1B",
+      "secondaryColor": "#DC2626",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -479,13 +521,15 @@
     "baseCoinYield": 3,
     "emojiOrSprite": "🗡️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#FFFFFF",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "tancho_crown"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -501,13 +545,16 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🌊",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#FEF08A",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer",
+        "whiskers"
+      ]
     },
     "breedingRecipe": "MythicEssence + CommonScale"
   },
@@ -523,13 +570,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🌪️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#6D28D9",
+      "secondaryColor": "#9333EA",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -545,13 +594,16 @@
     "baseCoinYield": 19,
     "emojiOrSprite": "🧜",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#312E81",
+      "secondaryColor": "#4338CA",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
@@ -589,13 +641,15 @@
     "baseCoinYield": 53,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#991B1B",
+      "secondaryColor": "#DC2626",
       "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + MythicScale"
   },
@@ -657,13 +711,15 @@
     "baseCoinYield": 21,
     "emojiOrSprite": "🦄",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#6D28D9",
+      "secondaryColor": "#9333EA",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
@@ -679,13 +735,16 @@
     "baseCoinYield": 53,
     "emojiOrSprite": "🌋",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#312E81",
+      "secondaryColor": "#4338CA",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "shimmer",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + MythicScale"
   },
@@ -723,13 +782,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🌊",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#991B1B",
+      "secondaryColor": "#DC2626",
       "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -811,13 +872,16 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "⛰️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#F59E0B",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#D97706",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "shimmer",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -833,13 +897,15 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#A855F7",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "wing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -855,13 +921,15 @@
     "baseCoinYield": 3,
     "emojiOrSprite": "🐲",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#991B1B",
+      "secondaryColor": "#DC2626",
       "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -899,13 +967,16 @@
     "baseCoinYield": 3,
     "emojiOrSprite": "🦡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#D97706",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#FEF08A",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "shimmer",
+        "whiskers"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -921,13 +992,15 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🐰",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#6D28D9",
+      "secondaryColor": "#9333EA",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -943,13 +1016,16 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🦊",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#312E81",
+      "secondaryColor": "#4338CA",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "shimmer",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -989,14 +1065,14 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🐆",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#991B1B",
+      "secondaryColor": "#DC2626",
       "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "spots"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
@@ -1013,13 +1089,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🐺",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#FFFFFF",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "tancho_crown"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -1057,13 +1135,15 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🦌",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#6D28D9",
+      "secondaryColor": "#9333EA",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -1079,13 +1159,16 @@
     "baseCoinYield": 3,
     "emojiOrSprite": "🐎",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#A855F7",
+      "accentColor": "#F43F5E",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "shimmer",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -1101,13 +1184,15 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🦌",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#047857",
+      "secondaryColor": "#059669",
+      "accentColor": "#38BDF8",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "wing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -1145,13 +1230,15 @@
     "baseCoinYield": 19,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#FFFFFF",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "tancho_crown"
+      ]
     },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
@@ -1167,13 +1254,16 @@
     "baseCoinYield": 20,
     "emojiOrSprite": "🦊",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#FEF08A",
       "tailShape": "fan",
-      "bodyLength": 20.0,
-      "bodyHeight": 13.0,
-      "features": []
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "shimmer",
+        "whiskers"
+      ]
     },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
@@ -1189,13 +1279,15 @@
     "baseCoinYield": 49,
     "emojiOrSprite": "☯️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#6D28D9",
+      "secondaryColor": "#9333EA",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + MythicScale"
   },
@@ -1211,13 +1303,16 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🐇",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#312E81",
+      "secondaryColor": "#4338CA",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -1255,14 +1350,14 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "📚",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#991B1B",
+      "secondaryColor": "#DC2626",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "spots"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
@@ -1279,13 +1374,15 @@
     "baseCoinYield": 23,
     "emojiOrSprite": "🌊",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#FFFFFF",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "tancho_crown"
+      ]
     },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
@@ -1323,13 +1420,15 @@
     "baseCoinYield": 22,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#6D28D9",
+      "secondaryColor": "#9333EA",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
@@ -1345,13 +1444,16 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#312E81",
+      "secondaryColor": "#4338CA",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -1367,13 +1469,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#047857",
+      "secondaryColor": "#059669",
+      "accentColor": "#38BDF8",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "wing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -1389,13 +1493,15 @@
     "baseCoinYield": 20,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#991B1B",
+      "secondaryColor": "#DC2626",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
@@ -1411,14 +1517,14 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🍑",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#FFFFFF",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
+        "tancho_crown"
       ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
@@ -1435,13 +1541,16 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🐸",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#FEF08A",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer",
+        "whiskers"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -1479,14 +1588,15 @@
     "baseCoinYield": 23,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
+      "primaryColor": "#312E81",
+      "secondaryColor": "#4338CA",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
       "features": [
-        "whiskers"
+        "shimmer",
+        "flowing_fins"
       ]
     },
     "breedingRecipe": "MythicEssence + LegendaryScale"
@@ -1525,13 +1635,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🏮",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#991B1B",
+      "secondaryColor": "#DC2626",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -1569,13 +1681,16 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🪸",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#FEF08A",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer",
+        "whiskers"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -1591,13 +1706,15 @@
     "baseCoinYield": 3,
     "emojiOrSprite": "💎",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#6D28D9",
+      "secondaryColor": "#9333EA",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -1635,13 +1752,15 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🟡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#047857",
+      "secondaryColor": "#059669",
+      "accentColor": "#38BDF8",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "wing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -1657,13 +1776,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "☁️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#991B1B",
+      "secondaryColor": "#DC2626",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -1679,13 +1800,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🌊",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#FFFFFF",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "tancho_crown"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -1701,13 +1824,16 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🐒",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#D97706",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#FEF08A",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "shimmer",
+        "whiskers"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -1723,13 +1849,15 @@
     "baseCoinYield": 22,
     "emojiOrSprite": "🦪",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#38BDF8",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
@@ -1745,13 +1873,16 @@
     "baseCoinYield": 22,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#312E81",
+      "secondaryColor": "#4338CA",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
@@ -1767,13 +1898,15 @@
     "baseCoinYield": 53,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#047857",
+      "secondaryColor": "#059669",
+      "accentColor": "#38BDF8",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "wing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + MythicScale"
   },
@@ -1789,13 +1922,15 @@
     "baseCoinYield": 49,
     "emojiOrSprite": "⛩️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#991B1B",
+      "secondaryColor": "#DC2626",
       "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + MythicScale"
   },
@@ -1833,13 +1968,16 @@
     "baseCoinYield": 21,
     "emojiOrSprite": "🏮",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#FEF08A",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer",
+        "whiskers"
+      ]
     },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
@@ -1855,13 +1993,15 @@
     "baseCoinYield": 10,
     "emojiOrSprite": "🎀",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#F59E0B",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -1899,13 +2039,15 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "🐲",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#047857",
+      "secondaryColor": "#059669",
+      "accentColor": "#38BDF8",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "wing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -1921,13 +2063,15 @@
     "baseCoinYield": 3,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#991B1B",
+      "secondaryColor": "#DC2626",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -1943,13 +2087,15 @@
     "baseCoinYield": 3,
     "emojiOrSprite": "🔱",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#38BDF8",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "tancho_crown"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -1965,13 +2111,16 @@
     "baseCoinYield": 3,
     "emojiOrSprite": "🧚‍♀️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#FEF08A",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer",
+        "whiskers"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -1987,13 +2136,15 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#6D28D9",
+      "secondaryColor": "#9333EA",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + CommonScale"
   },
@@ -2009,13 +2160,16 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "💃",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#312E81",
+      "secondaryColor": "#4338CA",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -2031,13 +2185,15 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "💧",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#047857",
+      "secondaryColor": "#059669",
+      "accentColor": "#38BDF8",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "wing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -2053,13 +2209,15 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "💌",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#991B1B",
+      "secondaryColor": "#DC2626",
       "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -2075,13 +2233,15 @@
     "baseCoinYield": 3,
     "emojiOrSprite": "🌧️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#FFFFFF",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "tancho_crown"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -2097,13 +2257,16 @@
     "baseCoinYield": 10,
     "emojiOrSprite": "🌊",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
-      "bodyLength": 28.0,
-      "bodyHeight": 6.5,
-      "features": []
+      "primaryColor": "#D97706",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#FEF08A",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "shimmer",
+        "whiskers"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   },
@@ -2119,13 +2282,15 @@
     "baseCoinYield": 3,
     "emojiOrSprite": "🧊",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#6D28D9",
+      "secondaryColor": "#9333EA",
+      "accentColor": "#F43F5E",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -2141,13 +2306,16 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "👦",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#312E81",
+      "secondaryColor": "#4338CA",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "shimmer",
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + CommonScale"
   },
@@ -2163,13 +2331,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "⛰️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#047857",
+      "secondaryColor": "#059669",
+      "accentColor": "#38BDF8",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "wing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + RareScale"
   },
@@ -2185,13 +2355,15 @@
     "baseCoinYield": 21,
     "emojiOrSprite": "🌿",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#991B1B",
+      "secondaryColor": "#DC2626",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": "MythicEssence + LegendaryScale"
   },
@@ -2207,13 +2379,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🙏",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#1E293B",
+      "accentColor": "#FFFFFF",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "tancho_crown"
+      ]
     },
     "breedingRecipe": "MythicEssence + EpicScale"
   }

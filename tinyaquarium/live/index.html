@@ -1491,7 +1491,96 @@
                 </svg>`;
             }
 
-            // H. Non-fish Invertebrates
+            // H. Telescope Eye Goldfish (龍睛 / 蝶尾 / 突出龍眼)
+            if (name.includes('龍睛') || features.includes('telescope_eyes') || name.includes('telescope') || name.includes('蝶尾')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Butterfly Long Tail -->
+                    <path d="M14,24 Q2,8 4,16 Q10,24 2,32 Q2,40 14,24 Z" fill="${sColor}"/>
+                    <path d="M12,24 Q6,12 8,18 Q12,24 6,30 Q6,36 12,24 Z" fill="${aColor}" opacity="0.6"/>
+                    <!-- Body -->
+                    <ellipse cx="27" cy="24" rx="13" ry="9" fill="${pColor}"/>
+                    <!-- Dorsal Fin -->
+                    <path d="M22,15 Q27,7 32,15 Z" fill="${sColor}"/>
+                    <!-- Large Protruding Dragon Globe Eyes (突出龍睛大眼) -->
+                    <circle cx="36" cy="18" r="4.2" fill="${pColor}" stroke="${sColor}" stroke-width="0.8"/>
+                    <circle cx="36" cy="18" r="2.6" fill="#0F172A"/>
+                    <circle cx="37" cy="17" r="0.9" fill="#FFFFFF"/>
+                    <circle cx="36" cy="30" r="4.2" fill="${pColor}" stroke="${sColor}" stroke-width="0.8"/>
+                    <circle cx="36" cy="30" r="2.6" fill="#0F172A"/>
+                    <circle cx="37" cy="29" r="0.9" fill="#FFFFFF"/>
+                </svg>`;
+            }
+
+            // I. Celestial Eye Goldfish (朝天龍 / 望天眼 / 朝天雙眸)
+            if (name.includes('朝天') || name.includes('望天') || features.includes('celestial_eyes')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Tail -->
+                    <path d="M14,24 Q2,12 4,18 Q8,24 2,30 Q2,36 14,24 Z" fill="${sColor}"/>
+                    <!-- Body (No Dorsal) -->
+                    <ellipse cx="27" cy="24" rx="13" ry="9" fill="${pColor}"/>
+                    <!-- Upward-Looking Eyes (朝天仰望雙眼) -->
+                    <circle cx="35" cy="17" r="3.8" fill="#FFFFFF" stroke="${sColor}" stroke-width="0.8"/>
+                    <circle cx="35" cy="15.5" r="1.8" fill="#0F172A"/>
+                    <circle cx="35.5" cy="15" r="0.6" fill="#FFFFFF"/>
+                    <circle cx="35" cy="31" r="3.8" fill="#FFFFFF" stroke="${sColor}" stroke-width="0.8"/>
+                    <circle cx="35" cy="29.5" r="1.8" fill="#0F172A"/>
+                    <circle cx="35.5" cy="29" r="0.6" fill="#FFFFFF"/>
+                </svg>`;
+            }
+
+            // J. Asian Arowana / Dragonfish (古代巨龍魚 / 金龍魚 / 霸氣龍鬚)
+            if (name.includes('巨龍') || name.includes('龍魚') || features.includes('dragon_scales') || name.includes('arowana')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Caudal Tail -->
+                    <path d="M10,24 Q2,16 4,20 Q8,24 4,28 Q2,32 10,24 Z" fill="${sColor}"/>
+                    <!-- Sleek Elongated Dragon Body -->
+                    <polygon points="10,21 34,18 42,23 34,28 10,26" fill="${pColor}"/>
+                    <!-- Dragon scales sheen -->
+                    <line x1="18" y1="20" x2="18" y2="26" stroke="${aColor}" stroke-width="1.5" opacity="0.7"/>
+                    <line x1="24" y1="19" x2="24" y2="27" stroke="${aColor}" stroke-width="1.5" opacity="0.7"/>
+                    <line x1="30" y1="20" x2="30" y2="26" stroke="${aColor}" stroke-width="1.5" opacity="0.7"/>
+                    <!-- Long Dorsal & Ventral Fins at rear -->
+                    <path d="M12,19 L26,17 L12,21 Z" fill="${sColor}"/>
+                    <path d="M12,27 L26,29 L12,25 Z" fill="${sColor}"/>
+                    <!-- Chin Barbels (龍鬚) -->
+                    <path d="M42,24 Q46,26 44,29" stroke="${aColor}" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                    <path d="M42,23 Q46,21 44,18" stroke="${aColor}" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                    <!-- Eye -->
+                    <circle cx="39" cy="21" r="2.0" fill="#0F172A"/>
+                    <circle cx="39.5" cy="20.5" r="0.7" fill="#FFFFFF"/>
+                </svg>`;
+            }
+
+            // K. Pufferfish (皇冠狗頭 / 河豚 / 圓滾迷宮肚)
+            if (name.includes('狗頭') || name.includes('河豚') || features.includes('puffer_belly') || name.includes('puffer') || name.includes('tetraodon')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Tiny Tail -->
+                    <path d="M12,24 Q6,20 6,22 Q10,24 6,26 Q6,28 12,24 Z" fill="${sColor}"/>
+                    <!-- Chubby Round Puffer Body -->
+                    <ellipse cx="27" cy="24" rx="15" ry="12" fill="${pColor}"/>
+                    <!-- Yellow/Green Belly Accent -->
+                    <ellipse cx="28" cy="27" rx="11" ry="6" fill="${sColor}" opacity="0.75"/>
+                    <!-- Spots / Labyrinth maze -->
+                    <circle cx="20" cy="20" r="1.8" fill="${aColor}"/>
+                    <circle cx="26" cy="18" r="2.0" fill="${aColor}"/>
+                    <circle cx="31" cy="19" r="1.8" fill="${aColor}"/>
+                    <circle cx="23" cy="24" r="1.8" fill="${aColor}"/>
+                    <!-- Tiny Dorsal & Pectoral Fins -->
+                    <ellipse cx="17" cy="15" rx="3" ry="2" fill="${sColor}"/>
+                    <ellipse cx="28" cy="27" rx="3.5" ry="2.2" fill="${sColor}" transform="rotate(20 28 27)"/>
+                    <!-- Cute Big Curious Eye -->
+                    <circle cx="36" cy="20" r="3.0" fill="#0F172A"/>
+                    <circle cx="37" cy="19" r="1.2" fill="#FFFFFF"/>
+                    <!-- Puffer Beak Mouth -->
+                    <path d="M41,25 Q43,26 41,27" stroke="${sColor}" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                </svg>`;
+            }
+
+            // L. Non-fish Invertebrates
             if (name.includes('水母')) return `<span style="font-size: ${size * 0.75}px;">🪼</span>`;
             if (name.includes('章魚') || name.includes('蛸')) return `<span style="font-size: ${size * 0.75}px;">🐙</span>`;
             if (name.includes('烏賊') || name.includes('魷')) return `<span style="font-size: ${size * 0.75}px;">🦑</span>`;
