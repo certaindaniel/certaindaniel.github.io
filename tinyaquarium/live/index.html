@@ -844,15 +844,19 @@
         let floatingHearts = [];
 
         class VirtualFish {
-            constructor(name, emoji, color, speed, size, archetype) {
+            constructor(name, emoji, color, speed, size, archetype, evolutionTier = 1, evolutionAttachment = null) {
                 this.name = name;
                 this.emoji = emoji;
                 this.color = color;
                 this.size = size || 32;
-                this.x = Math.random() * (width - 100) + 50;
-                this.y = Math.random() * (height - 120) + 60;
-                this.baseSpeed = speed || 1.0;
+                this.baseSize = size || 32;
+                this.evolutionTier = evolutionTier; // 1 = Base, 2 = Alpha, 3 = Mythic Awakened
+                this.evolutionAttachment = evolutionAttachment;
                 this.archetype = archetype || this.deduceArchetype(name);
+                
+                this.x = Math.random() * (width - 120) + 60;
+                this.y = (this.archetype === 'seabed_crawl') ? (height - 38) : (Math.random() * (height - 140) + 60);
+                this.baseSpeed = speed || 1.0;
                 
                 this.vx = (Math.random() > 0.5 ? 1 : -1) * this.baseSpeed * (0.8 + Math.random() * 0.4);
                 this.vy = (Math.random() - 0.5) * 0.4;
@@ -868,9 +872,10 @@
             }
 
             deduceArchetype(name) {
-                if (name.includes('鯨') || name.includes('龍魚') || name.includes('錦鯉') || name.includes('巨骨舌')) return 'majestic_cruise';
+                if (name.includes('蟹') || name.includes('蝦') || name.includes('螺') || name.includes('海星')) return 'seabed_crawl';
+                if (name.includes('鯨') || name.includes('龍魚') || name.includes('錦鯉') || name.includes('巨骨舌') || name.includes('旗魚') || name.includes('鯊')) return 'majestic_cruise';
                 if (name.includes('神仙') || name.includes('七彩')) return 'sway_glide';
-                if (name.includes('海馬')) return 'upright_bob';
+                if (name.includes('海馬') || name.includes('章魚') || name.includes('水母')) return 'upright_bob';
                 if (name.includes('河豚') || name.includes('狗頭')) return 'puffer_waddle';
                 if (name.includes('燈') || name.includes('孔雀') || name.includes('斑馬')) return 'micro_dart';
                 return 'standard';
@@ -889,7 +894,14 @@
                 // 2. State Machine for Swimming Style
                 this.stateTimer -= 0.03;
                 if (this.stateTimer <= 0) {
-                    if (this.archetype === 'micro_dart') {
+                    if (this.archetype === 'seabed_crawl') {
+                        // Seabed crawling
+                        this.stateTimer = 2.0 + Math.random() * 3.0;
+                        if (Math.random() > 0.6) {
+                            this.facingRight = !this.facingRight;
+                            this.vx = (this.facingRight ? 1 : -1) * this.baseSpeed * 0.6;
+                        }
+                    } else if (this.archetype === 'micro_dart') {
                         // Dart and Hover
                         this.isHovering = !this.isHovering;
                         this.isDarting = !this.isHovering && Math.random() > 0.4;
@@ -939,7 +951,11 @@
                 } else {
                     // Apply swimming speed based on state
                     let speedMult = 1.0;
-                    if (this.archetype === 'micro_dart') {
+                    if (this.archetype === 'seabed_crawl') {
+                        speedMult = 0.55;
+                        this.y = height - 38 + Math.sin(Date.now() * 0.002 + this.x) * 2;
+                        this.vy = 0;
+                    } else if (this.archetype === 'micro_dart') {
                         speedMult = this.isHovering ? 0.15 : (this.isDarting ? 2.0 : 1.0);
                     } else if (this.archetype === 'majestic_cruise') {
                         speedMult = 0.85;
@@ -953,7 +969,9 @@
                 }
 
                 this.x += this.vx;
-                this.y += this.vy;
+                if (this.archetype !== 'seabed_crawl') {
+                    this.y += this.vy;
+                }
 
                 // 4. Subtle Micro Bubbles from Tail
                 this.bubbleCooldown--;
@@ -973,8 +991,10 @@
                 const margin = this.size * 0.6 + 20;
                 if (this.x < margin) { this.x = margin; this.facingRight = true; this.vx = Math.abs(this.vx); }
                 if (this.x > width - margin) { this.x = width - margin; this.facingRight = false; this.vx = -Math.abs(this.vx); }
-                if (this.y < 45) { this.y = 45; this.vy = Math.abs(this.vy); }
-                if (this.y > height - 55) { this.y = height - 55; this.vy = -Math.abs(this.vy); }
+                if (this.archetype !== 'seabed_crawl') {
+                    if (this.y < 45) { this.y = 45; this.vy = Math.abs(this.vy); }
+                    if (this.y > height - 55) { this.y = height - 55; this.vy = -Math.abs(this.vy); }
+                }
             }
 
             draw() {
@@ -1403,7 +1423,219 @@
                     ctx.arc(3, -8, 1.6, 0, Math.PI * 2);
                     ctx.fill();
 
-                // MARK: - I. Standard / Generic Fish
+                    // Eye
+                    ctx.fillStyle = '#0F172A';
+                    ctx.beginPath();
+                    ctx.arc(3, -8, 1.6, 0, Math.PI * 2);
+                    ctx.fill();
+
+                // MARK: - J. Cozy Emerald Gator (翡翠呆萌小短吻鱷 - 划水小短腿與鋸齒背脊)
+                } else if (this.name.includes('鱷')) {
+                    // 4 Webbed Paddling Legs
+                    ctx.fillStyle = '#15803D';
+                    const legAngle = Math.sin(phase * 1.5) * 0.4;
+                    // Front leg
+                    ctx.save(); ctx.translate(10, 8); ctx.rotate(legAngle);
+                    ctx.beginPath(); ctx.ellipse(0, 0, 5, 3, 0.4, 0, Math.PI * 2); ctx.fill(); ctx.restore();
+                    // Back leg
+                    ctx.save(); ctx.translate(-10, 8); ctx.rotate(-legAngle);
+                    ctx.beginPath(); ctx.ellipse(0, 0, 5, 3, -0.4, 0, Math.PI * 2); ctx.fill(); ctx.restore();
+
+                    // Serrated Tail
+                    ctx.save();
+                    ctx.translate(-16, 0);
+                    ctx.rotate(tailAngle * 0.8);
+                    ctx.fillStyle = '#16A34A';
+                    ctx.beginPath();
+                    ctx.moveTo(0, -6);
+                    ctx.lineTo(-18, 0);
+                    ctx.lineTo(0, 6);
+                    ctx.closePath();
+                    ctx.fill();
+                    ctx.restore();
+
+                    // Gator Chubby Body
+                    ctx.fillStyle = '#22C55E';
+                    ctx.beginPath();
+                    ctx.ellipse(0, 0, 20, 10, 0, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    // Dorsal Scutes (背部鋸齒甲)
+                    ctx.fillStyle = '#15803D';
+                    for (let s = -12; s <= 12; s += 6) {
+                        ctx.beginPath();
+                        ctx.moveTo(s - 2, -10);
+                        ctx.lineTo(s, -14);
+                        ctx.lineTo(s + 2, -10);
+                        ctx.closePath();
+                        ctx.fill();
+                    }
+
+                    // Snout & Toothy Grin
+                    ctx.fillStyle = '#22C55E';
+                    ctx.beginPath();
+                    ctx.roundRect(10, -6, 12, 11, 4);
+                    ctx.fill();
+
+                    // White Tooth
+                    ctx.fillStyle = '#FFFFFF';
+                    ctx.beginPath();
+                    ctx.moveTo(18, 5); ctx.lineTo(19.5, 8); ctx.lineTo(21, 5);
+                    ctx.closePath(); ctx.fill();
+
+                    // Cute Big Eye
+                    ctx.fillStyle = '#FFFFFF';
+                    ctx.beginPath(); ctx.arc(10, -5, 3.2, 0, Math.PI * 2); ctx.fill();
+                    ctx.fillStyle = '#0F172A';
+                    ctx.beginPath(); ctx.arc(11, -5, 1.8, 0, Math.PI * 2); ctx.fill();
+
+                // MARK: - K. Emperor Armored Crab (帝王黑金刺甲蟹 - 底棲爬行與揮舞雙鉗)
+                } else if (this.name.includes('蟹')) {
+                    // 4 Crawling Legs
+                    ctx.fillStyle = '#991B1B';
+                    for (let leg = -8; leg <= 8; leg += 5) {
+                        ctx.save();
+                        ctx.translate(leg, 8);
+                        ctx.rotate(Math.sin(phase + leg) * 0.35);
+                        ctx.fillRect(-1.5, 0, 3, 9);
+                        ctx.restore();
+                    }
+
+                    // Armored Shell Carapace
+                    ctx.fillStyle = '#DC2626';
+                    ctx.beginPath();
+                    ctx.roundRect(-14, -8, 28, 16, 6);
+                    ctx.fill();
+
+                    // Shell Gold Spikes
+                    ctx.fillStyle = '#FEF08A';
+                    ctx.beginPath();
+                    ctx.moveTo(-10, -8); ctx.lineTo(-10, -12); ctx.lineTo(-7, -8);
+                    ctx.moveTo(7, -8); ctx.lineTo(10, -12); ctx.lineTo(10, -8);
+                    ctx.closePath(); ctx.fill();
+
+                    // Raised Snapping Pincer Claws
+                    const clawAngle = Math.sin(phase * 2) * 0.25;
+                    ctx.fillStyle = '#EF4444';
+                    // Left Claw
+                    ctx.save(); ctx.translate(-14, -4); ctx.rotate(-0.4 + clawAngle);
+                    ctx.beginPath(); ctx.arc(0, -6, 5.5, 0, Math.PI * 2); ctx.fill(); ctx.restore();
+                    // Right Claw
+                    ctx.save(); ctx.translate(14, -4); ctx.rotate(0.4 - clawAngle);
+                    ctx.beginPath(); ctx.arc(0, -6, 5.5, 0, Math.PI * 2); ctx.fill(); ctx.restore();
+
+                    // Stalk Eyes
+                    ctx.fillStyle = '#0F172A';
+                    ctx.beginPath();
+                    ctx.arc(-4, -9, 2.0, 0, Math.PI * 2);
+                    ctx.arc(4, -9, 2.0, 0, Math.PI * 2);
+                    ctx.fill();
+
+                // MARK: - L. Lantern Coral Wizard Octopus (珊瑚提燈巫師章魚 - 微光提燈法杖)
+                } else if (this.name.includes('章魚')) {
+                    // Curly Tentacles
+                    ctx.strokeStyle = '#7C3AED';
+                    ctx.lineWidth = 3.5;
+                    ctx.lineCap = 'round';
+                    for (let t = -6; t <= 6; t += 4) {
+                        ctx.beginPath();
+                        ctx.moveTo(t, 8);
+                        ctx.quadraticCurveTo(t + Math.sin(phase + t) * 6, 16, t + Math.sin(phase + t * 0.5) * 4, 22);
+                        ctx.stroke();
+                    }
+
+                    // Dome Head
+                    ctx.fillStyle = '#8B5CF6';
+                    ctx.beginPath();
+                    ctx.arc(0, -2, 12, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    // Glowing Purple Eye
+                    ctx.fillStyle = '#FDE047';
+                    ctx.beginPath(); ctx.arc(4, -2, 2.8, 0, Math.PI * 2); ctx.fill();
+                    ctx.fillStyle = '#0F172A';
+                    ctx.beginPath(); ctx.arc(5, -2, 1.4, 0, Math.PI * 2); ctx.fill();
+
+                    // Coral Lantern Staff
+                    ctx.strokeStyle = '#EA580C';
+                    ctx.lineWidth = 2.5;
+                    ctx.beginPath();
+                    ctx.moveTo(12, 14); ctx.lineTo(16, -16);
+                    ctx.stroke();
+
+                    // Glowing Amber Lantern (發光琥珀提燈)
+                    ctx.fillStyle = '#F59E0B';
+                    ctx.shadowColor = '#FBBF24';
+                    ctx.shadowBlur = 10;
+                    ctx.beginPath();
+                    ctx.arc(19, -16, 5.5, 0, Math.PI * 2);
+                    ctx.fill();
+                    ctx.shadowBlur = 0;
+
+                // MARK: - M. Ancient Bone-Armored Sailfish (遠古骸骨戰甲大旗魚 - 霸氣骨盔骨刺)
+                } else if (this.name.includes('旗魚') || this.evolutionAttachment === 'bone_armor') {
+                    // Long Bill Snout (長劍吻)
+                    ctx.strokeStyle = '#64748B';
+                    ctx.lineWidth = 2.0;
+                    ctx.beginPath();
+                    ctx.moveTo(16, 0); ctx.lineTo(34, -2);
+                    ctx.stroke();
+
+                    // High Sail Dorsal Fin with Bone Spikes
+                    ctx.fillStyle = '#4338CA';
+                    ctx.beginPath();
+                    ctx.moveTo(-16, -4);
+                    ctx.quadraticCurveTo(0, -24, 12, -4);
+                    ctx.closePath();
+                    ctx.fill();
+
+                    // Forked Caudal Tail
+                    ctx.save();
+                    ctx.translate(-20, 0);
+                    ctx.rotate(tailAngle * 0.9);
+                    ctx.fillStyle = '#1E1B4B';
+                    ctx.beginPath();
+                    ctx.moveTo(0, 0);
+                    ctx.lineTo(-14, -14);
+                    ctx.quadraticCurveTo(-4, 0, -14, 14);
+                    ctx.closePath();
+                    ctx.fill();
+                    ctx.restore();
+
+                    // Sleek Armored Body
+                    ctx.fillStyle = '#3B82F6';
+                    ctx.beginPath();
+                    ctx.ellipse(0, 0, 18, 9, 0, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    // ☠️ Ancient Bone Skull Helmet (遠古骸骨戰甲頭盔)
+                    ctx.fillStyle = '#F8FAFC';
+                    ctx.strokeStyle = '#94A3B8';
+                    ctx.lineWidth = 1.2;
+                    ctx.beginPath();
+                    ctx.roundRect(6, -7, 12, 14, 3);
+                    ctx.fill();
+                    ctx.stroke();
+
+                    // Bone Helmet Crest Spike
+                    ctx.fillStyle = '#E2E8F0';
+                    ctx.beginPath();
+                    ctx.moveTo(10, -7); ctx.lineTo(13, -16); ctx.lineTo(16, -7);
+                    ctx.closePath(); ctx.fill();
+
+                    // Bone Spinal Plates
+                    ctx.fillStyle = '#F1F5F9';
+                    for (let bp = -10; bp <= 2; bp += 4) {
+                        ctx.beginPath();
+                        ctx.moveTo(bp - 2, -7); ctx.lineTo(bp, -12); ctx.lineTo(bp + 2, -7);
+                        ctx.closePath(); ctx.fill();
+                    }
+
+                    // Menacing Red Eye
+                    ctx.fillStyle = '#EF4444';
+                    ctx.beginPath(); ctx.arc(12, -2, 2.0, 0, Math.PI * 2); ctx.fill();
+
+                // MARK: - N. Standard / Generic Fish
                 } else {
                     // Tail
                     ctx.save();
@@ -1443,16 +1675,35 @@
                     ctx.fill();
                 }
 
+                // MARK: - Evolution Tier Overlays (Tier II 霸者光環 / Tier III 星辰金冠)
+                if (this.evolutionTier >= 2) {
+                    ctx.strokeStyle = this.evolutionTier === 3 ? '#FACC15' : '#FB923C';
+                    ctx.lineWidth = 1.6;
+                    ctx.beginPath();
+                    ctx.arc(0, 0, 22, 0, Math.PI * 2);
+                    ctx.stroke();
+                }
+
+                if (this.evolutionTier === 3 && this.evolutionAttachment === 'crystal_crown') {
+                    // Golden Royal Crown
+                    ctx.fillStyle = '#FACC15';
+                    ctx.beginPath();
+                    ctx.moveTo(4, -14); ctx.lineTo(7, -20); ctx.lineTo(10, -16); ctx.lineTo(13, -20); ctx.lineTo(16, -14);
+                    ctx.closePath(); ctx.fill();
+                }
+
                 ctx.restore();
 
-                // 2. Draw Unmirrored Crisp Name Tag
+                // 2. Draw Unmirrored Crisp Name Tag with Evolution Tier Badge
                 ctx.save();
                 ctx.font = '600 11px "Plus Jakarta Sans", "Noto Sans TC", sans-serif';
                 ctx.fillStyle = 'rgba(255, 255, 255, 0.95)';
                 ctx.textAlign = 'center';
                 ctx.shadowColor = 'rgba(0, 0, 0, 0.85)';
                 ctx.shadowBlur = 4;
-                ctx.fillText(this.name, this.x, this.y - this.size * 0.65 - 4);
+                
+                const tierBadge = this.evolutionTier === 3 ? ' 👑 III' : (this.evolutionTier === 2 ? ' ⭐️ II' : '');
+                ctx.fillText(`${this.name}${tierBadge}`, this.x, this.y - this.size * 0.65 - 4);
                 ctx.restore();
             }
         }
@@ -1490,17 +1741,16 @@
 
         function initAquarium() {
             resizeCanvas();
-            // Initial 8 iconic fish with rich size contrasts and diverse swimming speeds:
-            // Giant (68px) -> Large (54px) -> Medium-Large (44px) -> Medium (28px) -> Small (24px) -> Micro (18px)
+            // Initial lineup showcasing both Fish & Non-Fish creatures + Evolution Tiers (I ~ III):
             fishes = [
-                new VirtualFish('蜜瓜小白鯨', '🐋', '#FFFFFF', 0.65, 68, 'majestic_cruise'),
-                new VirtualFish('日本丹頂錦鯉', '🎏', '#DC2626', 0.85, 54, 'majestic_cruise'),
-                new VirtualFish('印尼辣椒紅龍', '🐉', '#DC2626', 0.75, 58, 'majestic_cruise'),
-                new VirtualFish('月光神仙魚', '🌙', '#E2E8F0', 0.90, 44, 'sway_glide'),
-                new VirtualFish('眼斑小丑魚', '🐠', '#EA580C', 1.20, 28, 'standard'),
-                new VirtualFish('彩虹孔雀魚', '🦚', '#F59E0B', 1.30, 24, 'micro_dart'),
-                new VirtualFish('日光燈魚', '🐟', '#00F0FF', 2.10, 18, 'micro_dart'),
-                new VirtualFish('珍珠海馬', '🌟', '#FACC15', 0.45, 32, 'upright_bob')
+                new VirtualFish('翡翠呆萌小短吻鱷', '🐊', '#16A34A', 0.95, 52, 'standard', 1),
+                new VirtualFish('帝王黑金刺甲蟹', '🦀', '#DC2626', 0.65, 36, 'seabed_crawl', 1),
+                new VirtualFish('珊瑚提燈巫師章魚', '🐙', '#8B5CF6', 0.70, 42, 'upright_bob', 2, 'lantern_staff'),
+                new VirtualFish('遠古骸骨戰甲旗魚', '🗡️', '#38BDF8', 1.35, 58, 'majestic_cruise', 3, 'bone_armor'),
+                new VirtualFish('蜜瓜小白鯨', '🐋', '#FFFFFF', 0.65, 68, 'majestic_cruise', 1),
+                new VirtualFish('日本丹頂錦鯉', '🎏', '#DC2626', 0.85, 54, 'majestic_cruise', 2, 'crystal_crown'),
+                new VirtualFish('月光神仙魚', '🌙', '#E2E8F0', 0.90, 44, 'sway_glide', 1),
+                new VirtualFish('日光燈魚', '🐟', '#00F0FF', 2.10, 18, 'micro_dart', 1)
             ];
             bubbles = [];
             for (let i = 0; i < 28; i++) {
