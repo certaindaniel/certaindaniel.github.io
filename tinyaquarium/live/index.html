@@ -1580,7 +1580,110 @@
                 </svg>`;
             }
 
-            // L. Non-fish Invertebrates
+            // M. Discus Fish (七彩神仙魚 / 圓盤熱帶魚之王)
+            if (name.includes('七彩神仙') || name.includes('discus') || features.includes('discus_disc')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Rounded Fan Tail -->
+                    <path d="M12,24 Q4,16 6,18 Q8,24 6,30 Q4,32 12,24 Z" fill="${sColor}"/>
+                    <!-- Circular Disc Body (高圓盤魚身) -->
+                    <circle cx="26" cy="24" r="14" fill="${pColor}"/>
+                    <!-- Long Crest Dorsal & Ventral Trim -->
+                    <path d="M14,14 Q26,6 36,17 L34,19 Q26,10 16,16 Z" fill="${sColor}"/>
+                    <path d="M14,34 Q26,42 36,31 L34,29 Q26,38 16,32 Z" fill="${sColor}"/>
+                    <!-- Turquoise Striation Waves (迷彩松石綠斑紋) -->
+                    <path d="M18,17 Q25,24 22,31" stroke="${sColor}" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+                    <path d="M24,14 Q31,24 28,34" stroke="${sColor}" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+                    <path d="M30,16 Q36,24 33,32" stroke="${sColor}" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+                    <!-- Ruby Red Eye (鮮紅寶石眼) -->
+                    <circle cx="34" cy="21" r="2.5" fill="${aColor || '#DC2626'}"/>
+                    <circle cx="34.2" cy="21" r="1.2" fill="#0F172A"/>
+                    <circle cx="34.8" cy="20.4" r="0.6" fill="#FFFFFF"/>
+                </svg>`;
+            }
+
+            // N. Freshwater Angelfish (月光神仙魚 / 埃及神仙 / 菱形天使)
+            if (name.includes('神仙') || name.includes('angel') || features.includes('angelfish_shape')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Tail -->
+                    <path d="M12,24 Q4,16 6,18 Q8,24 6,30 Q4,32 12,24 Z" fill="${sColor}"/>
+                    <!-- High Sail Triangular Dorsal Fin (高聳三角背鰭) -->
+                    <polygon points="18,18 28,4 32,18" fill="${sColor}"/>
+                    <!-- Deep Ventral Fin -->
+                    <polygon points="18,30 28,44 32,30" fill="${sColor}"/>
+                    <!-- Diamond Body (菱形身軀) -->
+                    <polygon points="12,24 26,14 40,24 26,34" fill="${pColor}"/>
+                    <!-- Long Trailing Thread Feelers (飄逸腹鰭絲鬚) -->
+                    <path d="M26,34 Q24,44 20,46" stroke="${aColor || '#38BDF8'}" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                    <path d="M28,34 Q26,45 23,47" stroke="${aColor || '#38BDF8'}" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                    <!-- Vertical stripes if any -->
+                    <line x1="26" y1="16" x2="26" y2="32" stroke="${sColor}" stroke-width="1.5" opacity="0.8"/>
+                    <!-- Eye -->
+                    <circle cx="34" cy="22" r="2.0" fill="#0F172A"/>
+                    <circle cx="34.5" cy="21.5" r="0.7" fill="#FFFFFF"/>
+                </svg>`;
+            }
+
+            // O. Guppy (彩虹孔雀魚 / 焦糖絲帶孔雀魚 / 華麗羽扇尾)
+            if (name.includes('孔雀') || name.includes('guppy') || features.includes('guppy_tail')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Massive Colorful Fanning Delta Tail (巨大彩虹羽扇大尾鰭) -->
+                    <path d="M16,24 Q2,6 4,14 Q8,24 4,34 Q2,42 16,24 Z" fill="${sColor}"/>
+                    <path d="M14,24 Q6,10 8,16 Q12,24 8,32 Q6,38 14,24 Z" fill="${aColor}" opacity="0.75"/>
+                    <!-- Slender Front Body -->
+                    <ellipse cx="28" cy="24" rx="12" ry="6.5" fill="${pColor}"/>
+                    <!-- Flowing Dorsal Fin -->
+                    <path d="M20,18 Q26,10 32,18 Z" fill="${sColor}"/>
+                    <!-- Eye -->
+                    <circle cx="34" cy="23" r="1.8" fill="#0F172A"/>
+                    <circle cx="34.5" cy="22.5" r="0.6" fill="#FFFFFF"/>
+                </svg>`;
+            }
+
+            // P. Rummy-nose Tetra (紅鼻剪刀 / 櫻桃紅鼻黑白斑馬剪刀尾)
+            if (name.includes('紅鼻') || name.includes('rummy')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Black and White Striped Scissors Tail (黑白斑馬剪刀尾) -->
+                    <path d="M12,24 L2,14 L5,24 L2,34 Z" fill="#0F172A"/>
+                    <line x1="4" y1="18" x2="10" y2="24" stroke="#FFFFFF" stroke-width="1.8"/>
+                    <line x1="4" y1="30" x2="10" y2="24" stroke="#FFFFFF" stroke-width="1.8"/>
+                    <!-- Translucent Silver Body -->
+                    <ellipse cx="26" cy="24" rx="14" ry="7" fill="#E2E8F0"/>
+                    <!-- Cherry Red Snout / Head (標誌性櫻桃鮮紅口吻) -->
+                    <path d="M34,19 Q42,24 34,29 Z" fill="#DC2626"/>
+                    <circle cx="37" cy="24" r="3.5" fill="#DC2626"/>
+                    <!-- Eye -->
+                    <circle cx="35" cy="22" r="1.8" fill="#0F172A"/>
+                    <circle cx="35.5" cy="21.5" r="0.6" fill="#FFFFFF"/>
+                </svg>`;
+            }
+
+            // Q. Glass Catfish (幽靈水晶玻璃貓 / 全透明透視脊骨)
+            if (name.includes('玻璃貓') || name.includes('glass_catfish')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Forked Tail -->
+                    <path d="M12,24 Q4,16 6,18 Q10,24 6,30 Q4,32 12,24 Z" fill="#94A3B8" opacity="0.6"/>
+                    <!-- Crystal Transparent Glass Body (全透明水滴玻璃身) -->
+                    <polygon points="12,24 26,17 38,22 36,28 12,26" fill="#E0F2FE" opacity="0.45" stroke="#94A3B8" stroke-width="0.8"/>
+                    <!-- Visible Spine Skeleton & Ribs (清晰可見魚骨脊樑) -->
+                    <line x1="14" y1="25" x2="34" y2="23" stroke="#475569" stroke-width="1.5"/>
+                    <line x1="20" y1="21" x2="20" y2="27" stroke="#475569" stroke-width="1"/>
+                    <line x1="24" y1="20" x2="24" y2="28" stroke="#475569" stroke-width="1"/>
+                    <line x1="28" y1="21" x2="28" y2="27" stroke="#475569" stroke-width="1"/>
+                    <!-- Long Whisker Barbels (長觸鬚) -->
+                    <path d="M38,22 Q44,20 46,16" stroke="#64748B" stroke-width="1.2" fill="none"/>
+                    <path d="M38,24 Q44,26 46,29" stroke="#64748B" stroke-width="1.2" fill="none"/>
+                    <!-- Head & Heart -->
+                    <circle cx="33" cy="24" r="2.5" fill="#FDA4AF" opacity="0.85"/>
+                    <circle cx="36" cy="22" r="1.8" fill="#0F172A"/>
+                </svg>`;
+            }
+
+            // R. Non-fish Invertebrates
             if (name.includes('水母')) return `<span style="font-size: ${size * 0.75}px;">🪼</span>`;
             if (name.includes('章魚') || name.includes('蛸')) return `<span style="font-size: ${size * 0.75}px;">🐙</span>`;
             if (name.includes('烏賊') || name.includes('魷')) return `<span style="font-size: ${size * 0.75}px;">🦑</span>`;
