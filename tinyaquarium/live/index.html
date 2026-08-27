@@ -1683,7 +1683,56 @@
                 </svg>`;
             }
 
-            // R. Non-fish Invertebrates
+            // R. Snakeheads / Rainbow Snakehead (東南亞七彩雷龍 / 阿薩姆藍月雷龍 / 蛇頭圓筒長鰭)
+            if (name.includes('雷龍') || name.includes('snakehead') || features.includes('snakehead_pattern')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Rounded Fan Tail -->
+                    <path d="M12,24 Q4,16 6,18 Q8,24 6,30 Q4,32 12,24 Z" fill="${sColor}"/>
+                    <!-- Elongated Cylindrical Snakehead Body (圓筒長身) -->
+                    <polygon points="10,21 34,19 42,24 34,29 10,27" fill="${pColor}"/>
+                    <!-- Long Low Crest Dorsal Fin (背部整條長背鰭) -->
+                    <path d="M12,18 L34,17 L34,20 L12,21 Z" fill="${sColor}"/>
+                    <!-- Long Anal Fin -->
+                    <path d="M14,27 L32,27 L32,29 L14,29 Z" fill="${sColor}"/>
+                    <!-- Iridescent Rainbow / Flame Bars (七彩落日火焰斑塊) -->
+                    <path d="M18,20 Q22,24 18,28" stroke="${aColor || '#F97316'}" stroke-width="2.2" stroke-linecap="round"/>
+                    <path d="M24,19 Q28,24 24,29" stroke="${aColor || '#F97316'}" stroke-width="2.2" stroke-linecap="round"/>
+                    <path d="M30,20 Q34,24 30,28" stroke="${aColor || '#F97316'}" stroke-width="2.2" stroke-linecap="round"/>
+                    <!-- Fanning Pectoral Fin -->
+                    <ellipse cx="32" cy="26" rx="4" ry="2.5" fill="${sColor}" transform="rotate(25 32 26)"/>
+                    <!-- Fierce Snakehead Eye -->
+                    <circle cx="39" cy="22" r="2.0" fill="#0F172A"/>
+                    <circle cx="39.5" cy="21.5" r="0.8" fill="${aColor || '#FACC15'}"/>
+                </svg>`;
+            }
+
+            // S. Axolotl (六角恐龍 / 草莓粉紅鰓角)
+            if (name.includes('六角恐龍') || name.includes('axolotl')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Paddle Tail -->
+                    <path d="M12,24 Q4,18 4,20 Q8,24 4,28 Q4,30 12,24 Z" fill="${sColor}"/>
+                    <!-- Chubby Body -->
+                    <ellipse cx="26" cy="24" rx="14" ry="9" fill="${pColor}"/>
+                    <!-- External Gills (標誌性六支粉紅羽狀外鰓) -->
+                    <path d="M34,17 Q37,12 40,11" stroke="${aColor || '#F43F5E'}" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M35,19 Q39,15 43,15" stroke="${aColor || '#F43F5E'}" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M36,21 Q41,19 44,20" stroke="${aColor || '#F43F5E'}" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M34,31 Q37,36 40,37" stroke="${aColor || '#F43F5E'}" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M35,29 Q39,33 43,33" stroke="${aColor || '#F43F5E'}" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M36,27 Q41,29 44,28" stroke="${aColor || '#F43F5E'}" stroke-width="2" stroke-linecap="round"/>
+                    <!-- Tiny Paws -->
+                    <circle cx="28" cy="30" r="2.2" fill="${sColor}"/>
+                    <circle cx="20" cy="30" r="2.2" fill="${sColor}"/>
+                    <!-- Derpy Cute Eyes & Smile -->
+                    <circle cx="37" cy="22" r="1.8" fill="#0F172A"/>
+                    <circle cx="37.5" cy="21.5" r="0.6" fill="#FFFFFF"/>
+                    <path d="M38,26 Q40,27 38,28" stroke="${aColor}" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                </svg>`;
+            }
+
+            // T. Non-fish Invertebrates
             if (name.includes('水母')) return `<span style="font-size: ${size * 0.75}px;">🪼</span>`;
             if (name.includes('章魚') || name.includes('蛸')) return `<span style="font-size: ${size * 0.75}px;">🐙</span>`;
             if (name.includes('烏賊') || name.includes('魷')) return `<span style="font-size: ${size * 0.75}px;">🦑</span>`;
