@@ -1343,14 +1343,116 @@
             const aColor = bp.accentColor || '#FACC15';
             const tail = bp.tailShape || 'forked';
             const features = bp.features || [];
-            
-            // Only use emoji for distinct non-fish taxonomic classes (jellyfish, octopus, squid, crab, turtle)
             const name = (fish.commonName || '') + (fish.id || '');
+
+            // 1. Specialized Vector SVGs for Distinct Marine Life Classes
+            // A. Beluga Whales & Whales (純白圓滾小白鯨 / 巨鯨)
+            if (name.includes('鯨') || name.includes('whale') || name.includes('beluga')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Fluke Tail -->
+                    <path d="M14,24 Q4,12 2,15 Q8,24 2,33 Q4,36 14,24 Z" fill="${pColor}"/>
+                    <!-- Whale Body -->
+                    <ellipse cx="27" cy="24" rx="15" ry="10.5" fill="${pColor}"/>
+                    <!-- Melon Forehead -->
+                    <circle cx="35" cy="20" r="7.5" fill="${pColor}"/>
+                    <!-- Belly highlight -->
+                    <ellipse cx="28" cy="28" rx="10" ry="4" fill="${sColor}" opacity="0.8"/>
+                    <!-- Flipper -->
+                    <ellipse cx="29" cy="28" rx="5.5" ry="3" fill="${sColor}" transform="rotate(25 29 28)"/>
+                    <!-- Eye -->
+                    <circle cx="37" cy="21" r="2.2" fill="#0F172A"/>
+                    <circle cx="37.6" cy="20.4" r="0.8" fill="#FFFFFF"/>
+                    <!-- Smiling Mouth -->
+                    <path d="M38,26 Q42,28 40,29" stroke="${aColor || '#94A3B8'}" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                </svg>`;
+            }
+
+            // B. Seahorses (直立搖曳海馬)
+            if (name.includes('海馬') || name.includes('seahorse')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Crown -->
+                    <polygon points="26,10 29,5 32,10" fill="${aColor}"/>
+                    <!-- Head & Snout -->
+                    <circle cx="28" cy="14" r="5.5" fill="${pColor}"/>
+                    <polygon points="31,13 39,15 31,17" fill="${pColor}"/>
+                    <!-- Eye -->
+                    <circle cx="29" cy="13" r="1.8" fill="#0F172A"/>
+                    <!-- Body -->
+                    <ellipse cx="25" cy="24" rx="6" ry="8.5" fill="${sColor}" transform="rotate(-15 25 24)"/>
+                    <!-- Dorsal Fin -->
+                    <ellipse cx="19" cy="23" rx="3" ry="5" fill="${aColor}" opacity="0.85"/>
+                    <!-- Curled Tail -->
+                    <path d="M24,31 Q20,38 25,41 Q29,42 27,38" stroke="${sColor}" stroke-width="3" fill="none" stroke-linecap="round"/>
+                </svg>`;
+            }
+
+            // C. Sea Otters & Seals (圓臉萌海獺 / 小海豹)
+            if (name.includes('海獺') || name.includes('海豹') || name.includes('seal') || name.includes('otter')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Tail -->
+                    <path d="M12,24 Q4,16 6,12 Q10,22 12,24 Q10,26 6,36 Q4,32 12,24 Z" fill="${sColor}"/>
+                    <!-- Body -->
+                    <ellipse cx="26" cy="24" rx="14" ry="9" fill="${pColor}"/>
+                    <!-- Round Head -->
+                    <circle cx="34" cy="22" r="7" fill="${pColor}"/>
+                    <!-- Ears -->
+                    <circle cx="33" cy="15" r="2" fill="${sColor}"/>
+                    <!-- Muzzle / Whiskers -->
+                    <ellipse cx="38" cy="24" rx="3" ry="2.2" fill="${sColor}"/>
+                    <circle cx="39" cy="23" r="1.2" fill="#0F172A"/>
+                    <!-- Eye -->
+                    <circle cx="35" cy="20" r="1.8" fill="#0F172A"/>
+                    <circle cx="35.5" cy="19.5" r="0.6" fill="#FFFFFF"/>
+                    <!-- Paws -->
+                    <circle cx="30" cy="28" r="3" fill="${sColor}"/>
+                </svg>`;
+            }
+
+            // D. Sea Bunnies & Leaf Sea Sheep / Nudibranchs (毛茸海兔 / 綠葉海羊)
+            if (name.includes('海羊') || name.includes('海兔') || name.includes('海蛞蝓') || name.includes('nudibranch') || name.includes('slug')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Bunny Ears / Rhinophores -->
+                    <ellipse cx="34" cy="13" rx="2" ry="5.5" fill="${aColor}" transform="rotate(-15 34 13)"/>
+                    <ellipse cx="38" cy="14" rx="2" ry="5.5" fill="${aColor}" transform="rotate(15 38 14)"/>
+                    <!-- Mantle / Body -->
+                    <ellipse cx="26" cy="26" rx="15" ry="9" fill="${pColor}"/>
+                    <!-- Leaf spots / Cerata -->
+                    <circle cx="18" cy="23" r="2.5" fill="${sColor}"/>
+                    <circle cx="23" cy="20" r="2.5" fill="${sColor}"/>
+                    <circle cx="28" cy="22" r="2.5" fill="${sColor}"/>
+                    <circle cx="20" cy="28" r="2.5" fill="${sColor}"/>
+                    <circle cx="25" cy="27" r="2.5" fill="${sColor}"/>
+                    <!-- Cute Eyes -->
+                    <circle cx="37" cy="23" r="1.8" fill="#0F172A"/>
+                    <circle cx="37.5" cy="22.5" r="0.6" fill="#FFFFFF"/>
+                </svg>`;
+            }
+
+            // E. Sea Turtles (小海龜)
+            if (name.includes('海龜') || name.includes('龜') || name.includes('turtle')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Flipper Front -->
+                    <ellipse cx="32" cy="14" rx="7" ry="3.5" fill="${sColor}" transform="rotate(-35 32 14)"/>
+                    <ellipse cx="32" cy="34" rx="7" ry="3.5" fill="${sColor}" transform="rotate(35 32 34)"/>
+                    <!-- Carapace Shell -->
+                    <ellipse cx="24" cy="24" rx="12" ry="10" fill="${pColor}"/>
+                    <polygon points="24,18 29,21 29,27 24,30 19,27 19,21" fill="${sColor}" opacity="0.85"/>
+                    <!-- Head -->
+                    <circle cx="36" cy="24" r="4.5" fill="${pColor}"/>
+                    <circle cx="37" cy="23" r="1.5" fill="#0F172A"/>
+                </svg>`;
+            }
+
+            // F. Non-fish Invertebrates
             if (name.includes('水母')) return `<span style="font-size: ${size * 0.75}px;">🪼</span>`;
             if (name.includes('章魚') || name.includes('蛸')) return `<span style="font-size: ${size * 0.75}px;">🐙</span>`;
             if (name.includes('烏賊') || name.includes('魷')) return `<span style="font-size: ${size * 0.75}px;">🦑</span>`;
             if (name.includes('螃蟹') || name.includes('寄居蟹')) return `<span style="font-size: ${size * 0.75}px;">🦀</span>`;
-            if (name.includes('海龜') || name.includes('巨海龜')) return `<span style="font-size: ${size * 0.75}px;">🐢</span>`;
 
             // Procedural SVG Vector Fish with exact blueprint colors & tail geometry
             const gradId = 'g_' + (fish.id || 'f').replace(/[^a-zA-Z0-9]/g, '_');

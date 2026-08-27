@@ -3,7 +3,7 @@
     "id": "fish_1001",
     "commonName": "春櫻夜祭錦鯉",
     "scientificName": "Cyprinus rubrofuscus sakura",
-    "description": "A beautiful koi with cherry blossom patterns on its scales.",
+    "description": "夜櫻盛開時節於神社清泉現身的幻之錦鯉，緋紅鱗片上點綴著落櫻花瓣般的粉白微光。",
     "rarity": "Rare",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 713,
@@ -12,13 +12,13 @@
     "emojiOrSprite": "🌸",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
-      "secondaryColor": "#DC2626",
+      "secondaryColor": "#F43F5E",
       "accentColor": "#FDA4AF",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": ""
@@ -27,7 +27,7 @@
     "id": "fish_1002",
     "commonName": "夏夜花火金魚",
     "scientificName": "Carassius auratus ignis",
-    "description": "Its tail sparkles like a bursting firework in the summer night sky.",
+    "description": "宛如夏日祭典夜空綻放之絢爛煙火，華麗的大扇尾在水中拖曳出璀璨的流光碎屑。",
     "rarity": "Common",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 142,
@@ -35,13 +35,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🎆",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "fan",
+      "primaryColor": "#1E1B4B",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#EF4444",
+      "tailShape": "butterfly",
       "bodyLength": 20.0,
       "bodyHeight": 13.0,
-      "features": []
+      "features": [
+        "glowing_aura"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -49,7 +51,7 @@
     "id": "fish_1003",
     "commonName": "中秋冰皮月餅魚",
     "scientificName": "Pterophyllum luna",
-    "description": "A round fish resembling a delicate snow skin mooncake.",
+    "description": "渾身晶瑩剔透如冰皮月餅般的圓滾萌魚，透著淡淡的奶黃豆沙甜香光澤。",
     "rarity": "Uncommon",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 326,
@@ -57,8 +59,8 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🥮",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#FEF08A",
+      "secondaryColor": "#FFFFFF",
       "accentColor": "#FDE047",
       "tailShape": "fan",
       "bodyLength": 17.0,
@@ -71,7 +73,7 @@
     "id": "fish_1004",
     "commonName": "萬聖南瓜提燈",
     "scientificName": "Pomacanthus jackolantern",
-    "description": "Glows with a warm orange light from within its pumpkin-like body.",
+    "description": "萬聖節夜巡的發光南瓜精靈魚，幽暗深水中提著一盞橙黃明亮的溫暖南瓜燈。",
     "rarity": "Common",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 256,
@@ -79,10 +81,10 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🎃",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
@@ -95,7 +97,7 @@
     "id": "fish_1005",
     "commonName": "聖誕雪球",
     "scientificName": "Symphysodon nix",
-    "description": "A round, transparent fish with swirling snow-like particles inside.",
+    "description": "圓滾晶瑩如手搖雪景球的冬日精靈，體內緩緩飄落著永不融化的細碎純白雪花。",
     "rarity": "Epic",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 1627,
@@ -103,13 +105,15 @@
     "baseCoinYield": 16,
     "emojiOrSprite": "🔮",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
+      "primaryColor": "#E0F2FE",
+      "secondaryColor": "#FFFFFF",
       "accentColor": "#38BDF8",
       "tailShape": "fan",
       "bodyLength": 17.0,
       "bodyHeight": 16.0,
-      "features": []
+      "features": [
+        "glowing_aura"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -117,7 +121,7 @@
     "id": "fish_1006",
     "commonName": "亡靈節萬壽菊",
     "scientificName": "Amphiprion cempasuchil",
-    "description": "Bright orange and yellow stripes like marigold petals.",
+    "description": "身披墨西哥萬壽菊金黃花瓣與絢麗剪紙圖騰的祈福靈魚，引導著思念的溫暖歸途。",
     "rarity": "Epic",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 1152,
@@ -125,13 +129,15 @@
     "baseCoinYield": 17,
     "emojiOrSprite": "🏵️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#DC2626",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -139,7 +145,7 @@
     "id": "fish_1007",
     "commonName": "元宵花燈",
     "scientificName": "Scleropages formosus lanterna",
-    "description": "A glowing fish that looks like a traditional paper lantern.",
+    "description": "上元佳節隨波逐流的水上紙雕花燈魚，通體透亮、燭光搖曳，承載著人間的美好祈願。",
     "rarity": "Rare",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 910,
@@ -147,13 +153,15 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🏮",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#FACC15",
+      "accentColor": "#F87171",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -161,7 +169,7 @@
     "id": "fish_1008",
     "commonName": "端午艾草香包魚",
     "scientificName": "Betta mugwort",
-    "description": "Emits a calming herbal scent, shaped like a small sachet.",
+    "description": "散發著清新艾草與雄黃草本香氣的辟邪錦鱗，翠綠菱形身軀宛如一枚精巧的手作香囊。",
     "rarity": "Uncommon",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 473,
@@ -169,10 +177,10 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🌿",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#15803D",
+      "secondaryColor": "#4ADE80",
+      "accentColor": "#86EFAC",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -183,7 +191,7 @@
     "id": "fish_1009",
     "commonName": "七夕織女銀河魚",
     "scientificName": "Danio galaxia",
-    "description": "Leaves a trail of sparkling stars as it swims.",
+    "description": "相傳由織女雲梭銀絲化成的星河神魚，游動時尾鰭拖曳出一道道微縮的星辰光暈。",
     "rarity": "Rare",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 767,
@@ -191,13 +199,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🌌",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
-      "accentColor": "#38BDF8",
-      "tailShape": "forked",
+      "primaryColor": "#4338CA",
+      "secondaryColor": "#818CF8",
+      "accentColor": "#C084FC",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "glowing_aura"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -205,7 +215,7 @@
     "id": "fish_1010",
     "commonName": "桃花流水金魚",
     "scientificName": "Carassius auratus persica",
-    "description": "Pink scales resembling peach blossoms drifting down a stream.",
+    "description": "『桃花流水鱖魚肥』意境中化生的嬌嫩金魚，魚鰓與寬尾宛如初綻的粉嫩山桃花。",
     "rarity": "Epic",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 1988,
@@ -213,13 +223,15 @@
     "baseCoinYield": 16,
     "emojiOrSprite": "🍑",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "fan",
+      "primaryColor": "#FB7185",
+      "secondaryColor": "#FDA4AF",
+      "accentColor": "#FFE4E6",
+      "tailShape": "butterfly",
       "bodyLength": 20.0,
       "bodyHeight": 13.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -227,7 +239,7 @@
     "id": "fish_1011",
     "commonName": "春分燕子魚",
     "scientificName": "Monodactylus vernalis",
-    "description": "Swims swiftly with long fins resembling a swallow's tail.",
+    "description": "剪刀般修長的燕尾與黑白分明的羽翼背鰭，宣告著大地回春與萬物復甦的春季信使。",
     "rarity": "Rare",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 776,
@@ -235,9 +247,9 @@
     "baseCoinYield": 15,
     "emojiOrSprite": "🐦",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#FFFFFF",
+      "accentColor": "#38BDF8",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -249,7 +261,7 @@
     "id": "fish_1012",
     "commonName": "復活節彩蛋豚",
     "scientificName": "Tetraodontidae pascha",
-    "description": "A pufferfish with pastel-colored stripes and spots.",
+    "description": "渾身彩繪著春日幾何粉彩條紋的圓滾小河豚，性情溫順、最喜歡在珊瑚水草間捉迷藏。",
     "rarity": "Rare",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 601,
@@ -257,13 +269,15 @@
     "baseCoinYield": 13,
     "emojiOrSprite": "🥚",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
+      "primaryColor": "#F472B6",
       "secondaryColor": "#60A5FA",
       "accentColor": "#FDE047",
       "tailShape": "fan",
       "bodyLength": 17.0,
       "bodyHeight": 16.0,
-      "features": []
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -271,7 +285,7 @@
     "id": "fish_1013",
     "commonName": "綠意幸運草神仙魚",
     "scientificName": "Pterophyllum trifolium",
-    "description": "A lucky fish with distinct three-leaf clover patterns.",
+    "description": "背鰭修長如四葉草嫩葉的神仙魚，據說遇見牠游過身旁的人將會迎來一整年的好運。",
     "rarity": "Rare",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 790,
@@ -279,14 +293,14 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🍀",
     "visualBlueprint": {
-      "primaryColor": "#059669",
-      "secondaryColor": "#10B981",
-      "accentColor": "#6EE7B7",
+      "primaryColor": "#16A34A",
+      "secondaryColor": "#22C55E",
+      "accentColor": "#BBF7D0",
       "tailShape": "lyre",
       "bodyLength": 18.0,
       "bodyHeight": 18.0,
       "features": [
-        "stripes"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": ""
@@ -295,7 +309,7 @@
     "id": "fish_1014",
     "commonName": "螢火蟲夜光魚",
     "scientificName": "Paracheirodon innesi lux",
-    "description": "Flashes softly in the dark like a firefly.",
+    "description": "棲息於夏夜靜謐溪畔的發光微型魚，腹部會隨著呼吸節奏發出明滅溫柔的黃綠冷光。",
     "rarity": "Uncommon",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 500,
@@ -303,13 +317,15 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
-      "primaryColor": "#DC2626",
-      "secondaryColor": "#EA580C",
-      "accentColor": "#FDE047",
+      "primaryColor": "#052E16",
+      "secondaryColor": "#84CC16",
+      "accentColor": "#BEF264",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "bioluminescence"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -317,7 +333,7 @@
     "id": "fish_1015",
     "commonName": "盛夏向日葵太陽魚",
     "scientificName": "Mola mola helianthus",
-    "description": "Bright yellow and round, warming the water around it.",
+    "description": "圓潤如盤的背鰭與尾翼泛著向日葵般的燦爛金黃，散發著無窮無盡的陽光與熱情能量。",
     "rarity": "Uncommon",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 331,
@@ -325,10 +341,10 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🌻",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "forked",
+      "primaryColor": "#CA8A04",
+      "secondaryColor": "#FACC15",
+      "accentColor": "#FEF08A",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -339,7 +355,7 @@
     "id": "fish_1016",
     "commonName": "海灘沙雕比目魚",
     "scientificName": "Paralichthys sandcastle",
-    "description": "Camouflages perfectly as a miniature sandcastle.",
+    "description": "身體佈滿細緻金色海沙紋理的擬態比目魚，擅長偽裝成海灘上的貝殼城堡小沙雕。",
     "rarity": "Legendary",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 3984,
@@ -347,13 +363,15 @@
     "baseCoinYield": 50,
     "emojiOrSprite": "🏖️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#FDE68A",
+      "accentColor": "#B45309",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -361,7 +379,7 @@
     "id": "fish_1017",
     "commonName": "楓葉紅秋刀",
     "scientificName": "Cololabis saira rubra",
-    "description": "Its scales turn a brilliant red in the autumn months.",
+    "description": "秋風漸起時鱗片轉為深紅楓葉色的修長名魚，如一片隨深秋溪水漂流的火紅落葉。",
     "rarity": "Uncommon",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 595,
@@ -369,9 +387,9 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🍁",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#B91C1C",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#F97316",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -383,7 +401,7 @@
     "id": "fish_1018",
     "commonName": "重陽菊花鯛",
     "scientificName": "Pagrus auratus chrysanthos",
-    "description": "A golden seabream with fin structures like chrysanthemum petals.",
+    "description": "鰓蓋與魚鱗層層疊疊如金秋盛開之重瓣菊花，典雅高貴，寓意長壽延年與福壽安康。",
     "rarity": "Uncommon",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 338,
@@ -391,13 +409,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🌼",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#FBBF24",
+      "accentColor": "#FEF3C7",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -405,7 +425,7 @@
     "id": "fish_1019",
     "commonName": "豐收麥穗小丑魚",
     "scientificName": "Amphiprion triticum",
-    "description": "Yellow-orange clownfish with patterns resembling wheat ears.",
+    "description": "金黃與焦糖色交錯的條紋宛如秋日飽滿的金黃麥穗，帶來金秋大地沉甸甸的豐收喜悅。",
     "rarity": "Epic",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 1256,
@@ -413,54 +433,10 @@
     "baseCoinYield": 22,
     "emojiOrSprite": "🌾",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
-      "bodyLength": 22.0,
-      "bodyHeight": 11.0,
-      "features": []
-    },
-    "breedingRecipe": ""
-  },
-  {
-    "id": "fish_1020",
-    "commonName": "馴鹿紅鼻魚",
-    "scientificName": "Hemigrammus rhodostomus rudolph",
-    "description": "Features a bright red snout that glows slightly.",
-    "rarity": "Rare",
-    "category": "四季與全球節慶奇蹟",
-    "hatchStepsRequired": 862,
-    "baseSwimSpeed": 78,
-    "baseCoinYield": 13,
-    "emojiOrSprite": "🦌",
-    "visualBlueprint": {
-      "primaryColor": "#DC2626",
-      "secondaryColor": "#EA580C",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
-      "bodyLength": 22.0,
-      "bodyHeight": 11.0,
-      "features": []
-    },
-    "breedingRecipe": ""
-  },
-  {
-    "id": "fish_1021",
-    "commonName": "跨年煙花斑馬魚",
-    "scientificName": "Danio rerio festiva",
-    "description": "Stripes that shimmer with multiple colors when it darts around.",
-    "rarity": "Rare",
-    "category": "四季與全球節慶奇蹟",
-    "hatchStepsRequired": 639,
-    "baseSwimSpeed": 78,
-    "baseCoinYield": 9,
-    "emojiOrSprite": "🎇",
-    "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#B45309",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
@@ -470,10 +446,59 @@
     "breedingRecipe": ""
   },
   {
+    "id": "fish_1020",
+    "commonName": "馴鹿紅鼻魚",
+    "scientificName": "Hemigrammus rhodostomus rudolph",
+    "description": "頭頂長著迷你珊瑚鹿角、鼻尖閃爍著溫暖紅光的冬日信使，在水底為聖誕雪橇引路。",
+    "rarity": "Rare",
+    "category": "四季與全球節慶奇蹟",
+    "hatchStepsRequired": 862,
+    "baseSwimSpeed": 78,
+    "baseCoinYield": 13,
+    "emojiOrSprite": "🦌",
+    "visualBlueprint": {
+      "primaryColor": "#78350F",
+      "secondaryColor": "#B45309",
+      "accentColor": "#EF4444",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bioluminescence"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "fish_1021",
+    "commonName": "跨年煙花斑馬魚",
+    "scientificName": "Danio rerio festiva",
+    "description": "體側的斑馬條紋在子夜交替之際會折射出五彩斑斕的光譜，彷彿倒映著跨年倒數的夜空。",
+    "rarity": "Rare",
+    "category": "四季與全球節慶奇蹟",
+    "hatchStepsRequired": 639,
+    "baseSwimSpeed": 78,
+    "baseCoinYield": 9,
+    "emojiOrSprite": "🎇",
+    "visualBlueprint": {
+      "primaryColor": "#312E81",
+      "secondaryColor": "#EC4899",
+      "accentColor": "#06B6D4",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes",
+        "glowing_aura"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
     "id": "fish_1022",
     "commonName": "冰雕水晶魚",
     "scientificName": "Salangidae glacialis",
-    "description": "Completely transparent, looking like intricately carved ice.",
+    "description": "純淨無瑕、彷彿由萬年冰川手工雕琢而成的高透明神魚，在光線折射下閃耀著七彩菱光。",
     "rarity": "Epic",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 1428,
@@ -481,10 +506,10 @@
     "baseCoinYield": 25,
     "emojiOrSprite": "🧊",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#E0F2FE",
+      "secondaryColor": "#BAE6FD",
+      "accentColor": "#FFFFFF",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -495,7 +520,7 @@
     "id": "fish_1023",
     "commonName": "臘梅香鱂",
     "scientificName": "Cyprinodon mume",
-    "description": "Yellow fish that brings a hint of winter plum blossom fragrance.",
+    "description": "於寒冬臘月盛開之金色臘梅化身，暗香浮動、傲雪凌霜，給冰封的水域帶來一縷幽香。",
     "rarity": "Uncommon",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 595,
@@ -503,10 +528,10 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🌺",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#CA8A04",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#78350F",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -517,7 +542,7 @@
     "id": "fish_1024",
     "commonName": "情人節玫瑰吻魚",
     "scientificName": "Helostoma temminckii rosa",
-    "description": "A pink kissing gourami with rose-like fin shapes.",
+    "description": "花瓣般柔軟的深紅魚鰭與愛心狀的嘟嘟小嘴，經常在水面吐出一串串晶瑩的粉紅愛心泡泡。",
     "rarity": "Common",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 113,
@@ -525,13 +550,15 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🌹",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#BE123C",
+      "secondaryColor": "#FB7185",
+      "accentColor": "#FDA4AF",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -539,7 +566,7 @@
     "id": "fish_1025",
     "commonName": "母親節康乃馨孔雀魚",
     "scientificName": "Poecilia reticulata mater",
-    "description": "Its large tail resembles a blooming pink carnation.",
+    "description": "層層舒展的粉紅蕾絲寬尾宛如盛開的康乃馨花束，散發著溫柔深厚、無微不至的母愛光芒。",
     "rarity": "Epic",
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 1317,
@@ -547,13 +574,15 @@
     "baseCoinYield": 29,
     "emojiOrSprite": "💐",
     "visualBlueprint": {
-      "primaryColor": "#0284C7",
-      "secondaryColor": "#38BDF8",
-      "accentColor": "#F97316",
-      "tailShape": "fan",
+      "primaryColor": "#E11D48",
+      "secondaryColor": "#FB7185",
+      "accentColor": "#FFE4E6",
+      "tailShape": "butterfly",
       "bodyLength": 20.0,
       "bodyHeight": 13.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -561,7 +590,7 @@
     "id": "fish_1026",
     "commonName": "舒芙蕾膨膨豚",
     "scientificName": "Tetraodontidae souffle",
-    "description": "Puffs up to look exactly like a soft, jiggly souffle.",
+    "description": "蓬鬆鬆、軟綿綿如剛出爐法式舒芙蕾的胖河豚，輕輕觸碰就會像棉花糖般微微彈動。",
     "rarity": "Rare",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 994,
@@ -569,15 +598,13 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🥞",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#FEF08A",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#CA8A04",
       "tailShape": "fan",
       "bodyLength": 17.0,
       "bodyHeight": 16.0,
-      "features": [
-        "bubbles"
-      ]
+      "features": []
     },
     "breedingRecipe": ""
   },
@@ -585,7 +612,7 @@
     "id": "fish_1027",
     "commonName": "草莓可麗餅海蛞蝓",
     "scientificName": "Chromodoris fragaria",
-    "description": "A sea slug folded like a crepe, filled with strawberry spots.",
+    "description": "背部摺疊著層層嫩黃餅皮與鮮紅草莓切片紋理的超萌海蛞蝓，宛如一份精巧的法式甜點。",
     "rarity": "Common",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 151,
@@ -593,13 +620,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🍓",
     "visualBlueprint": {
-      "primaryColor": "#FFFFFF",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#FDA4AF",
+      "primaryColor": "#FDE047",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#FFFFFF",
       "tailShape": "fan",
       "bodyLength": 20.0,
       "bodyHeight": 13.0,
-      "features": []
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -607,7 +636,7 @@
     "id": "fish_1028",
     "commonName": "抹茶糰子泥鰍",
     "scientificName": "Misgurnus matcha",
-    "description": "Green, round segments make it look like a skewer of matcha dango.",
+    "description": "由翠綠抹茶、純白米香與嫩粉花瓣三色糰子串聯而成的呆萌泥鰍，游動時憨態可掬。",
     "rarity": "Common",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 107,
@@ -615,14 +644,14 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🍡",
     "visualBlueprint": {
-      "primaryColor": "#059669",
-      "secondaryColor": "#10B981",
-      "accentColor": "#6EE7B7",
-      "tailShape": "forked",
+      "primaryColor": "#15803D",
+      "secondaryColor": "#86EFAC",
+      "accentColor": "#FDA4AF",
+      "tailShape": "ribbon",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "whiskers"
+        "spots"
       ]
     },
     "breedingRecipe": ""
@@ -631,7 +660,7 @@
     "id": "fish_1029",
     "commonName": "焦糖布丁水母",
     "scientificName": "Aurelia aurita caramel",
-    "description": "A golden-brown cap and creamy tentacles like a caramel pudding.",
+    "description": "傘蓋頂部覆蓋著一層晶瑩焦糖色、裙邊如嫩滑布丁般DuangDuang彈跳的治癒小水母。",
     "rarity": "Epic",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 1332,
@@ -639,14 +668,14 @@
     "baseCoinYield": 21,
     "emojiOrSprite": "🍮",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "tentacles",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#FEF08A",
+      "accentColor": "#F59E0B",
+      "tailShape": "fan",
       "bodyLength": 16.0,
       "bodyHeight": 18.0,
       "features": [
-        "tentacles"
+        "bioluminescence"
       ]
     },
     "breedingRecipe": ""
@@ -655,7 +684,7 @@
     "id": "fish_1030",
     "commonName": "馬卡龍七彩鯛",
     "scientificName": "Pagrus macaron",
-    "description": "Pastel-colored round fish with a cream-like layer in the middle.",
+    "description": "體表呈現馬卡龍般溫柔粉彩漸層的神仙鯛，帶著淡淡的杏仁蛋白糖香氣與柔和霧面質感。",
     "rarity": "Rare",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 969,
@@ -663,13 +692,15 @@
     "baseCoinYield": 13,
     "emojiOrSprite": "🧁",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#F472B6",
+      "secondaryColor": "#67E8F9",
       "accentColor": "#FDE047",
-      "tailShape": "ribbon",
+      "tailShape": "butterfly",
       "bodyLength": 28.0,
       "bodyHeight": 6.5,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -677,7 +708,7 @@
     "id": "fish_1031",
     "commonName": "黑糖波霸短鯰",
     "scientificName": "Corydoras boba",
-    "description": "Dark round spots and a sweet brown sugar color.",
+    "description": "圓滾滾如一顆Q彈黑糖珍珠般的呆萌小鯰魚，長著兩條俏皮小鬍鬚，整天在水底尋找甜食。",
     "rarity": "Uncommon",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 502,
@@ -685,10 +716,10 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🧋",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#1C1917",
+      "secondaryColor": "#44403C",
+      "accentColor": "#A8A29E",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
@@ -701,7 +732,7 @@
     "id": "fish_1032",
     "commonName": "鯛魚燒暖暖魚",
     "scientificName": "Taiyaki piscis",
-    "description": "Looks just like a baked pastry fish, always feels warm to the touch.",
+    "description": "外皮烘烤得金黃微焦、背脊烙印著香甜紅豆餡的經典和菓子魚，散發著冬日暖心香氣。",
     "rarity": "Epic",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 1992,
@@ -709,10 +740,10 @@
     "baseCoinYield": 20,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#B45309",
+      "secondaryColor": "#D97706",
+      "accentColor": "#78350F",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -723,7 +754,7 @@
     "id": "fish_1033",
     "commonName": "提拉米蘇神仙魚",
     "scientificName": "Pterophyllum tiramisu",
-    "description": "Striped with coffee, cocoa, and mascarpone colors.",
+    "description": "身披細緻可可粉深褐層、馬斯卡彭起司純白層與手指餅乾金黃層的典雅義大利甜品神魚。",
     "rarity": "Rare",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 888,
@@ -731,9 +762,9 @@
     "baseCoinYield": 13,
     "emojiOrSprite": "🍰",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#451A03",
+      "secondaryColor": "#FEF3C7",
+      "accentColor": "#78350F",
       "tailShape": "lyre",
       "bodyLength": 18.0,
       "bodyHeight": 18.0,
@@ -747,7 +778,7 @@
     "id": "fish_1034",
     "commonName": "鮮奶油草莓蛋糕魚",
     "scientificName": "Symphysodon fragaria",
-    "description": "White base with red spots and a fluffy-looking dorsal fin.",
+    "description": "雪白濃郁的鮮奶油軀體上點綴著顆顆嬌艷欲滴的鮮紅草莓，是慶祝生日與紀念日的幸運魚。",
     "rarity": "Rare",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 656,
@@ -756,12 +787,14 @@
     "emojiOrSprite": "🍰",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
-      "secondaryColor": "#DC2626",
+      "secondaryColor": "#EF4444",
       "accentColor": "#FDA4AF",
-      "tailShape": "forked",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -769,7 +802,7 @@
     "id": "fish_1035",
     "commonName": "巧克力熔岩斗魚",
     "scientificName": "Betta choco",
-    "description": "Deep brown color, seemingly oozing rich chocolate when it flares.",
+    "description": "深醇黑巧克力般的絲絨大尾鰭，游動時邊緣泛著滾燙流動的金紅熔岩焦糖流光。",
     "rarity": "Uncommon",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 434,
@@ -777,13 +810,15 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🍫",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#1F1610",
+      "secondaryColor": "#DC2626",
+      "accentColor": "#EA580C",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -791,7 +826,7 @@
     "id": "fish_1036",
     "commonName": "香草冰淇淋雪蟹",
     "scientificName": "Chionoecetes vanilla",
-    "description": "A crab that looks like a scoop of melting vanilla ice cream.",
+    "description": "甲殼如一球淋上香草籽的頂級冰淇淋，兩隻圓滾小蟹螯經常抱著一顆迷你糖霜小冰晶。",
     "rarity": "Uncommon",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 444,
@@ -799,10 +834,10 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🍨",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
-      "accentColor": "#38BDF8",
-      "tailShape": "forked",
+      "primaryColor": "#FFFBEB",
+      "secondaryColor": "#FEF3C7",
+      "accentColor": "#78350F",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -813,7 +848,7 @@
     "id": "fish_1037",
     "commonName": "芒果布丁熱帶魚",
     "scientificName": "Zebrasoma mango",
-    "description": "Vibrant yellow-orange, smooth and slightly translucent.",
+    "description": "鮮黃濃郁如盛夏芒果果泥的透亮熱帶魚，游動時身後散落著熱帶椰漿般純白微小氣泡。",
     "rarity": "Epic",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 1474,
@@ -821,9 +856,9 @@
     "baseCoinYield": 16,
     "emojiOrSprite": "🥭",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#FACC15",
+      "accentColor": "#FEF08A",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -835,7 +870,7 @@
     "id": "fish_1038",
     "commonName": "蜂蜜鬆餅魟魚",
     "scientificName": "Potamotrygon waffle",
-    "description": "A flat stingray with a waffle-grid pattern and honey-colored hue.",
+    "description": "背部格紋如金黃華夫餅、頂部融化著一塊香濃奶油的扁平魟魚，優雅地在水底翩翩起舞。",
     "rarity": "Uncommon",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 577,
@@ -843,11 +878,33 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🧇",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "butterfly",
+      "primaryColor": "#B45309",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#FEF9C3",
+      "tailShape": "fan",
       "bodyLength": 24.0,
+      "bodyHeight": 18.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "fish_1039",
+    "commonName": "甜甜圈神仙魚",
+    "scientificName": "Pomacanthus donut",
+    "description": "圓環狀修長身軀淋滿了粉紅草莓糖霜與七彩糖針，每一次翻滾都充滿了童趣甜美。",
+    "rarity": "Rare",
+    "category": "烘焙甜點與美味治癒",
+    "hatchStepsRequired": 818,
+    "baseSwimSpeed": 70,
+    "baseCoinYield": 15,
+    "emojiOrSprite": "🍩",
+    "visualBlueprint": {
+      "primaryColor": "#DB2777",
+      "secondaryColor": "#F472B6",
+      "accentColor": "#FDE047",
+      "tailShape": "lyre",
+      "bodyLength": 18.0,
       "bodyHeight": 18.0,
       "features": [
         "spots"
@@ -856,34 +913,10 @@
     "breedingRecipe": ""
   },
   {
-    "id": "fish_1039",
-    "commonName": "甜甜圈神仙魚",
-    "scientificName": "Pomacanthus donut",
-    "description": "A circular fish with colorful sprinkle-like spots.",
-    "rarity": "Rare",
-    "category": "烘焙甜點與美味治癒",
-    "hatchStepsRequired": 818,
-    "baseSwimSpeed": 70,
-    "baseCoinYield": 15,
-    "emojiOrSprite": "🍩",
-    "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "lyre",
-      "bodyLength": 18.0,
-      "bodyHeight": 18.0,
-      "features": [
-        "stripes"
-      ]
-    },
-    "breedingRecipe": ""
-  },
-  {
     "id": "fish_1040",
     "commonName": "蘋果派比目魚",
     "scientificName": "Paralichthys malus",
-    "description": "Lattice-patterned scales smelling faintly of cinnamon and apples.",
+    "description": "金黃酥脆的千層酥皮花紋包裹著香甜肉桂蘋果餡，沉在水底時彷彿剛從烤箱端出的美味派盤。",
     "rarity": "Common",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 135,
@@ -891,13 +924,15 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🥧",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#B45309",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#78350F",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -905,7 +940,7 @@
     "id": "fish_1041",
     "commonName": "檸檬塔小丑魚",
     "scientificName": "Amphiprion limon",
-    "description": "Bright yellow with a meringue-like white fin edge.",
+    "description": "清爽微酸的明亮檸檬黃底色，身上環繞著如炙烤蛋白霜般雪白微焦的波浪條紋。",
     "rarity": "Rare",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 677,
@@ -913,13 +948,15 @@
     "baseCoinYield": 9,
     "emojiOrSprite": "🍋",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#FACC15",
+      "secondaryColor": "#FFFFFF",
+      "accentColor": "#CA8A04",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -927,7 +964,7 @@
     "id": "fish_1042",
     "commonName": "藍莓起司蛋糕鮭魚",
     "scientificName": "Salmo salar vaccinium",
-    "description": "Purple-spotted fish with a creamy white underbelly.",
+    "description": "深邃藍莓果醬紫與濃郁重乳酪金黃交織的高貴鮭魚，鱗片散發著頂級下午茶的精緻光澤。",
     "rarity": "Legendary",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 2254,
@@ -935,9 +972,9 @@
     "baseCoinYield": 59,
     "emojiOrSprite": "🫐",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#312E81",
+      "secondaryColor": "#6366F1",
+      "accentColor": "#FEF08A",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -949,7 +986,7 @@
     "id": "fish_1043",
     "commonName": "爆米花蝦",
     "scientificName": "Caridea popcorn",
-    "description": "A fluffy, golden shrimp that jumps around excitedly.",
+    "description": "外觀金黃膨脹如剛在熱油中炸開之香甜奶油爆米花，動作敏捷活潑，喜歡在水草間蹦跳。",
     "rarity": "Common",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 280,
@@ -957,10 +994,10 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🍿",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#CA8A04",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#FFFFFF",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -971,7 +1008,7 @@
     "id": "fish_1044",
     "commonName": "糖葫蘆金魚",
     "scientificName": "Carassius tanghulu",
-    "description": "Bright red, shiny scales that look like they're coated in sugar.",
+    "description": "三顆圓滾紅潤的金魚緊密依偎在一起，體表覆蓋著一層晶瑩剔透、薄脆欲滴的冰糖琉璃光澤。",
     "rarity": "Common",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 155,
@@ -979,13 +1016,15 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🍡",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
+      "primaryColor": "#B91C1C",
+      "secondaryColor": "#EF4444",
+      "accentColor": "#FEF08A",
       "tailShape": "fan",
       "bodyLength": 20.0,
       "bodyHeight": 13.0,
-      "features": []
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -993,7 +1032,7 @@
     "id": "fish_1045",
     "commonName": "烤棉花糖水母",
     "scientificName": "Chrysaora marshmallow",
-    "description": "A squishy jellyfish with a slightly toasted brown top.",
+    "description": "外層帶有微微炙烤焦糖金黃、內裡如融化棉花糖般拉絲牽引的超軟萌發光小水母。",
     "rarity": "Uncommon",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 302,
@@ -1001,14 +1040,14 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "🍡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "tentacles",
+      "primaryColor": "#FFFBEB",
+      "secondaryColor": "#D97706",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
       "bodyLength": 16.0,
       "bodyHeight": 18.0,
       "features": [
-        "tentacles"
+        "bioluminescence"
       ]
     },
     "breedingRecipe": ""
@@ -1017,7 +1056,7 @@
     "id": "fish_1046",
     "commonName": "可頌麵包海牛",
     "scientificName": "Trichechus croissant",
-    "description": "A chubby manatee shaped like a crescent buttery pastry.",
+    "description": "層層起酥黃金外皮、身軀彎成一彎優雅新月狀的海牛寶寶，性情極其慵懶溫柔。",
     "rarity": "Rare",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 602,
@@ -1025,10 +1064,10 @@
     "baseCoinYield": 12,
     "emojiOrSprite": "🥐",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#B45309",
+      "secondaryColor": "#D97706",
+      "accentColor": "#FDE68A",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -1039,7 +1078,7 @@
     "id": "fish_1047",
     "commonName": "肉桂捲海螺",
     "scientificName": "Gastropoda cinnamomum",
-    "description": "Its shell swirls exactly like a fresh cinnamon roll.",
+    "description": "螺旋貝殼如一枚淋滿香濃糖霜的經典瑞典肉桂捲，在水底爬行時留下一道微甜的氣泡軌跡。",
     "rarity": "Rare",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 892,
@@ -1047,13 +1086,15 @@
     "baseCoinYield": 15,
     "emojiOrSprite": "🥮",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#78350F",
+      "secondaryColor": "#B45309",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1061,7 +1102,7 @@
     "id": "fish_1048",
     "commonName": "冰糖燕窩白魚",
     "scientificName": "Salangidae nidos",
-    "description": "Transparent and stringy, looking like a delicate dessert soup.",
+    "description": "通體如頂級金絲燕窩般絲絲分明、透亮晶瑩的純白神魚，傳說飲其游過之清泉能青春永駐。",
     "rarity": "Epic",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 1209,
@@ -1069,13 +1110,15 @@
     "baseCoinYield": 28,
     "emojiOrSprite": "🥣",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#E0F2FE",
+      "accentColor": "#BAE6FD",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1083,7 +1126,7 @@
     "id": "fish_1049",
     "commonName": "水果塔孔雀魚",
     "scientificName": "Poecilia fructus",
-    "description": "A tail featuring colors of kiwi, strawberry, and peach.",
+    "description": "華麗寬大的尾鰭上鑲嵌著奇異果綠、芒果黃與藍莓紫的繽紛果粒圖騰，宛如一座移動的甜品塔。",
     "rarity": "Rare",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 784,
@@ -1091,13 +1134,16 @@
     "baseCoinYield": 13,
     "emojiOrSprite": "🍇",
     "visualBlueprint": {
-      "primaryColor": "#0284C7",
-      "secondaryColor": "#38BDF8",
-      "accentColor": "#F97316",
-      "tailShape": "fan",
+      "primaryColor": "#DB2777",
+      "secondaryColor": "#FACC15",
+      "accentColor": "#22C55E",
+      "tailShape": "butterfly",
       "bodyLength": 20.0,
       "bodyHeight": 13.0,
-      "features": []
+      "features": [
+        "flowing_fins",
+        "spots"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1105,7 +1151,7 @@
     "id": "fish_1050",
     "commonName": "珍珠奶茶燈魚",
     "scientificName": "Paracheirodon boba",
-    "description": "A small tetra with dark pearl-like spots and a milky hue.",
+    "description": "琥珀色醇厚奶茶底色、體內散落著顆顆飽滿黑糖珍珠的熱門神魚，游動時身後飄散著甜香微粒。",
     "rarity": "Uncommon",
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 590,
@@ -1113,13 +1159,15 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🧋",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
-      "accentColor": "#38BDF8",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#1C1917",
+      "accentColor": "#FEF3C7",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1127,7 +1175,7 @@
     "id": "fish_1051",
     "commonName": "綠葉海羊",
     "scientificName": "Costasiella kuroshimae",
-    "description": "A tiny sea slug that looks like a cute sheep with leaf-like appendages.",
+    "description": "頭頂長著兩隻超萌黑色小羊角、渾身點綴著翠綠光合作用葉綠體葉片的世界級微距萌神。",
     "rarity": "Epic",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 1011,
@@ -1135,13 +1183,15 @@
     "baseCoinYield": 27,
     "emojiOrSprite": "🐑",
     "visualBlueprint": {
-      "primaryColor": "#059669",
-      "secondaryColor": "#10B981",
-      "accentColor": "#6EE7B7",
-      "tailShape": "forked",
+      "primaryColor": "#15803D",
+      "secondaryColor": "#86EFAC",
+      "accentColor": "#0F172A",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1149,7 +1199,7 @@
     "id": "fish_1052",
     "commonName": "毛茸海兔",
     "scientificName": "Jorunna parva",
-    "description": "A fluffy white sea slug resembling a little bunny.",
+    "description": "毛茸茸如一隻純白小白兔的超人氣海蛞蝓，頭頂豎著兩隻黑色嗅角兔耳，萌化所有潛水員。",
     "rarity": "Uncommon",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 357,
@@ -1157,13 +1207,15 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "🐇",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#0F172A",
+      "accentColor": "#E2E8F0",
       "tailShape": "fan",
       "bodyLength": 20.0,
       "bodyHeight": 13.0,
-      "features": []
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1171,7 +1223,7 @@
     "id": "fish_1053",
     "commonName": "太平洋雙角金黃海蛞蝓",
     "scientificName": "Thecacera pacifica",
-    "description": "擁有亮麗金黃體色與黑藍漸層雙角觸角的極萌微距海蛞蝓，宛如珊瑚礁中的電光小精靈。",
+    "description": "鮮黃如熟透香蕉的迷你海蛞蝓，頭頂長著一對招牌黑斑圓耳，在礁岩微距鏡頭下無比吸睛。",
     "rarity": "Epic",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 1959,
@@ -1179,9 +1231,9 @@
     "baseCoinYield": 22,
     "emojiOrSprite": "⚡",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
+      "primaryColor": "#EAB308",
       "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
+      "accentColor": "#0F172A",
       "tailShape": "fan",
       "bodyLength": 20.0,
       "bodyHeight": 13.0,
@@ -1193,7 +1245,7 @@
     "id": "fish_1054",
     "commonName": "藍龍海蛞蝓",
     "scientificName": "Glaucus atlanticus",
-    "description": "A beautiful, tiny blue dragon floating upside down in the water.",
+    "description": "大西洋海神海蛞蝓，銀藍相間的指狀翼鰭在水面優雅倒游，宛如傳說中縮小一萬倍的深藍神龍。",
     "rarity": "Uncommon",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 496,
@@ -1201,13 +1253,15 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
+      "primaryColor": "#1E40AF",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#FFFFFF",
+      "tailShape": "butterfly",
       "bodyLength": 28.0,
       "bodyHeight": 6.5,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1215,7 +1269,7 @@
     "id": "fish_1055",
     "commonName": "草莓海葵",
     "scientificName": "Corynactis californica",
-    "description": "A tiny pinkish-red anemone that looks like a strawberry.",
+    "description": "點綴著無數草莓籽般細小光點的鮮紅微距小海葵，觸鬚隨波舒展，像一朵盛開的水中紅寶石。",
     "rarity": "Epic",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 1607,
@@ -1223,13 +1277,15 @@
     "baseCoinYield": 19,
     "emojiOrSprite": "🍓",
     "visualBlueprint": {
-      "primaryColor": "#FFFFFF",
-      "secondaryColor": "#DC2626",
+      "primaryColor": "#BE123C",
+      "secondaryColor": "#FB7185",
       "accentColor": "#FDA4AF",
-      "tailShape": "forked",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1237,7 +1293,7 @@
     "id": "fish_1056",
     "commonName": "蜜瓜小白鯨",
     "scientificName": "Delphinapterus melo",
-    "description": "A miniature beluga whale with a melon-green tint.",
+    "description": "純白圓滾的北極白鯨幼崽，擁有標誌性Q彈凸起的『蜜瓜額頭』，揮動小胸鰭發出治癒微笑。",
     "rarity": "Rare",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 604,
@@ -1245,13 +1301,15 @@
     "baseCoinYield": 13,
     "emojiOrSprite": "🍈",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "forked",
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#E0F2FE",
+      "accentColor": "#86EFAC",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1259,7 +1317,7 @@
     "id": "fish_1057",
     "commonName": "抱抱海獺幼崽",
     "scientificName": "Enhydra lutris parvulus",
-    "description": "A tiny otter pup that constantly looks for something to hold.",
+    "description": "毛茸茸的深海海獺小寶寶，最喜歡在水面仰泳，胸口抱著一顆最心愛的小貝殼不肯放手。",
     "rarity": "Uncommon",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 573,
@@ -1267,13 +1325,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🦦",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#78350F",
+      "secondaryColor": "#A8A29E",
+      "accentColor": "#FEF3C7",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "whiskers"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1281,7 +1341,7 @@
     "id": "fish_1058",
     "commonName": "粉紅海星仔",
     "scientificName": "Asteroidea roseus",
-    "description": "A miniature, pudgy pink starfish.",
+    "description": "五隻短短圓圓小手臂的嫩粉色迷你海星，在珊瑚砂上緩慢爬行，像一顆掉落在海底的草莓糖。",
     "rarity": "Uncommon",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 431,
@@ -1289,10 +1349,10 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "⭐",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#FB7185",
+      "secondaryColor": "#FDA4AF",
+      "accentColor": "#FFE4E6",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -1303,7 +1363,7 @@
     "id": "fish_1059",
     "commonName": "害羞寄居蟹",
     "scientificName": "Paguroidea pudicus",
-    "description": "Hides quickly in its colorful shell when anyone looks at it.",
+    "description": "背著一顆螺旋小海螺的紅螯寄居蟹，只要有人靠近就會害羞地把大眼睛和圓圓大螯縮進殼裡。",
     "rarity": "Uncommon",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 353,
@@ -1311,10 +1371,10 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🐚",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#FED7AA",
+      "accentColor": "#78350F",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -1325,7 +1385,7 @@
     "id": "fish_1060",
     "commonName": "迷你小章魚",
     "scientificName": "Octopus wolfi",
-    "description": "The smallest octopus, extremely cute and wiggly.",
+    "description": "只有指甲蓋大小的紫紅小章魚，八條捲曲小觸手在珊瑚礁縫隙靈活穿梭，好奇地張望周圍。",
     "rarity": "Uncommon",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 506,
@@ -1333,15 +1393,13 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "tentacles",
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#C084FC",
+      "accentColor": "#F472B6",
+      "tailShape": "fan",
       "bodyLength": 16.0,
       "bodyHeight": 18.0,
-      "features": [
-        "tentacles"
-      ]
+      "features": []
     },
     "breedingRecipe": ""
   },
@@ -1349,7 +1407,7 @@
     "id": "fish_1061",
     "commonName": "豆豆海馬",
     "scientificName": "Hippocampus bargibanti",
-    "description": "A pygmy seahorse with bumpy, coral-like camouflage.",
+    "description": "世界上最小的巴氏豆丁海馬，通體粉白帶有紅色小肉瘤，完美隱身於柳珊瑚枝椏之間。",
     "rarity": "Common",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 202,
@@ -1357,13 +1415,15 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🐎",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
+      "primaryColor": "#FB7185",
+      "secondaryColor": "#FDA4AF",
+      "accentColor": "#BE123C",
+      "tailShape": "lyre",
       "bodyLength": 10.0,
       "bodyHeight": 22.0,
-      "features": []
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1371,7 +1431,7 @@
     "id": "fish_1062",
     "commonName": "雪白小海豹",
     "scientificName": "Pagophilus groenlandicus parvulus",
-    "description": "A tiny, fluffy, pure white seal pup.",
+    "description": "渾身覆蓋著柔軟雪白絨毛的豎琴海豹幼崽，睜著一雙黑溜溜的大眼睛，發出軟糯的呼嚕聲。",
     "rarity": "Epic",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 1391,
@@ -1379,14 +1439,14 @@
     "baseCoinYield": 17,
     "emojiOrSprite": "🦭",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
-      "accentColor": "#38BDF8",
-      "tailShape": "forked",
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#F1F5F9",
+      "accentColor": "#0F172A",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
-        "spots"
+        "whiskers"
       ]
     },
     "breedingRecipe": ""
@@ -1395,7 +1455,7 @@
     "id": "fish_1063",
     "commonName": "絨毛蟹",
     "scientificName": "Polydectus cupulifer",
-    "description": "Covered in fine hairs, making it look like a tiny teddy bear.",
+    "description": "甲殼上長滿茂密柔軟金色絨毛的微距小螃蟹，像一隻穿著溫暖冬裝的小絨球在海底探險。",
     "rarity": "Rare",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 811,
@@ -1403,10 +1463,10 @@
     "baseCoinYield": 12,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#B45309",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#78350F",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -1417,7 +1477,7 @@
     "id": "fish_1064",
     "commonName": "糖果蟹",
     "scientificName": "Hoplophrys oatesii",
-    "description": "Brightly colored pink and white crab that looks like a piece of candy.",
+    "description": "身體半透明、點綴著鮮豔紫紅斑點與棘刺的軟珊瑚寄生蟹，宛如一顆精緻的草莓硬糖。",
     "rarity": "Common",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 256,
@@ -1425,13 +1485,15 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🍬",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#EC4899",
+      "secondaryColor": "#F472B6",
+      "accentColor": "#FFFFFF",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "spots"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1439,7 +1501,7 @@
     "id": "fish_1065",
     "commonName": "小飛象章魚",
     "scientificName": "Grimpoteuthis",
-    "description": "Has ear-like fins it uses to swim through the deep sea.",
+    "description": "頭頂長著一對大象耳朵般的大鰭、在幽暗深海像降落傘般優雅拍動傘膜漂浮的深淵萌神。",
     "rarity": "Rare",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 632,
@@ -1447,14 +1509,14 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🐘",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "tentacles",
+      "primaryColor": "#F472B6",
+      "secondaryColor": "#FDA4AF",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
       "bodyLength": 16.0,
       "bodyHeight": 18.0,
       "features": [
-        "tentacles"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": ""
@@ -1463,7 +1525,7 @@
     "id": "fish_1066",
     "commonName": "波點小箱魨",
     "scientificName": "Ostracion cubicus",
-    "description": "A small, yellow, cube-shaped fish with black polka dots.",
+    "description": "亮黃色方塊身軀上布滿黑白波點的木瓜幼魚，嘟著櫻桃小嘴在礁石間如懸浮小潛艇般穿梭。",
     "rarity": "Legendary",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 2240,
@@ -1471,9 +1533,9 @@
     "baseCoinYield": 41,
     "emojiOrSprite": "🎲",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#EAB308",
+      "secondaryColor": "#FDE047",
+      "accentColor": "#0F172A",
       "tailShape": "fan",
       "bodyLength": 17.0,
       "bodyHeight": 16.0,
@@ -1487,7 +1549,7 @@
     "id": "fish_1067",
     "commonName": "彩虹小蝦虎",
     "scientificName": "Stiphodon ornatus",
-    "description": "A tiny goby with iridescent rainbow colors.",
+    "description": "體側排列著霓虹光譜七彩反光鱗片的高清微距小蝦虎，常年在白沙洞口警惕地守護著共生槍蝦。",
     "rarity": "Rare",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 915,
@@ -1495,9 +1557,9 @@
     "baseCoinYield": 13,
     "emojiOrSprite": "🌈",
     "visualBlueprint": {
-      "primaryColor": "#1E293B",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#F59E0B",
+      "primaryColor": "#06B6D4",
+      "secondaryColor": "#EC4899",
+      "accentColor": "#FACC15",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -1511,7 +1573,7 @@
     "id": "fish_1068",
     "commonName": "微笑刺魨",
     "scientificName": "Diodon holocanthus",
-    "description": "A porcupinefish that always seems to be smiling.",
+    "description": "圓滾滾身軀布滿軟萌小鈍刺的刺豚寶寶，嘴角永遠掛著天真無邪的微笑，生氣時會膨脹成小刺球。",
     "rarity": "Uncommon",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 581,
@@ -1519,15 +1581,13 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#FDE68A",
+      "accentColor": "#0F172A",
+      "tailShape": "spiky",
       "bodyLength": 17.0,
       "bodyHeight": 16.0,
-      "features": [
-        "dorsal_spikes"
-      ]
+      "features": []
     },
     "breedingRecipe": ""
   },
@@ -1535,7 +1595,7 @@
     "id": "fish_1069",
     "commonName": "瞌睡小海龜",
     "scientificName": "Chelonioidea somnus",
-    "description": "A tiny turtle that is almost always taking a nap.",
+    "description": "剛從海灘沙卵中破殼而出的小綠蠵龜，划著一對小槳鰭，總是在珊瑚岩石上打著甜甜的瞌睡。",
     "rarity": "Mythic",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 9753,
@@ -1543,10 +1603,10 @@
     "baseCoinYield": 82,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#15803D",
+      "secondaryColor": "#4ADE80",
+      "accentColor": "#86EFAC",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -1557,7 +1617,7 @@
     "id": "fish_1070",
     "commonName": "胖嘟嘟海牛崽",
     "scientificName": "Trichechus manatus parvulus",
-    "description": "A round, chubby miniature manatee shaped like a potato.",
+    "description": "圓滾滾如巨型灰褐色小地瓜的儒艮寶寶，在海草床裡慢悠悠地啃食嫩草，性情極其憨厚。",
     "rarity": "Rare",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 958,
@@ -1565,10 +1625,10 @@
     "baseCoinYield": 15,
     "emojiOrSprite": "🥔",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#475569",
+      "secondaryColor": "#94A3B8",
+      "accentColor": "#E2E8F0",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -1579,7 +1639,7 @@
     "id": "fish_1071",
     "commonName": "迷你花園鰻",
     "scientificName": "Heteroconger hassi",
-    "description": "Peeks out from the sand, looking like a tiny, spotted plant stalk.",
+    "description": "從白沙洞穴中探出半截修長身軀、隨著海流如音符般整齊搖曳的黑白條紋花園鰻。",
     "rarity": "Uncommon",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 356,
@@ -1587,13 +1647,15 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#F8FAFC",
+      "accentColor": "#38BDF8",
       "tailShape": "ribbon",
       "bodyLength": 28.0,
       "bodyHeight": 6.5,
-      "features": []
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1601,7 +1663,7 @@
     "id": "fish_1072",
     "commonName": "害羞小管蟲",
     "scientificName": "Sabellidae pudicus",
-    "description": "Retracts its feather-like crown in a blink when startled.",
+    "description": "棲息於鈣質小管中的雙環螺旋羽毛鰓管蟲，像一朵盛開的粉紫小羽毛，輕微水流震動就會縮回。",
     "rarity": "Epic",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 1414,
@@ -1609,13 +1671,15 @@
     "baseCoinYield": 21,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
+      "primaryColor": "#9333EA",
+      "secondaryColor": "#C084FC",
+      "accentColor": "#F472B6",
+      "tailShape": "fan",
       "bodyLength": 10.0,
       "bodyHeight": 22.0,
-      "features": []
+      "features": [
+        "flowing_fins"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1623,7 +1687,7 @@
     "id": "fish_1073",
     "commonName": "珍珠小水母",
     "scientificName": "Mastigias papua",
-    "description": "A tiny jellyfish with pearl-like spots on its bell.",
+    "description": "傘蓋上鑲嵌著顆顆溫潤白色珍珠斑點的微型水母，隨波逐流時宛如水底升起的小降落傘。",
     "rarity": "Uncommon",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 495,
@@ -1631,14 +1695,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🫧",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
+      "primaryColor": "#E0F2FE",
+      "secondaryColor": "#FFFFFF",
       "accentColor": "#38BDF8",
-      "tailShape": "tentacles",
+      "tailShape": "fan",
       "bodyLength": 16.0,
       "bodyHeight": 18.0,
       "features": [
-        "tentacles"
+        "spots",
+        "bioluminescence"
       ]
     },
     "breedingRecipe": ""
@@ -1647,7 +1712,7 @@
     "id": "fish_1074",
     "commonName": "櫻花粉小章魚",
     "scientificName": "Opisthoteuthis sakura",
-    "description": "A pale pink flapjack octopus that looks like a cherry blossom petal.",
+    "description": "嬌嫩如初春櫻花瓣的迷你章魚，頭頂傘膜呈現半透明粉紅，游動時像一朵飄舞的花瓣。",
     "rarity": "Rare",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 705,
@@ -1655,15 +1720,13 @@
     "baseCoinYield": 14,
     "emojiOrSprite": "🌸",
     "visualBlueprint": {
-      "primaryColor": "#FFFFFF",
-      "secondaryColor": "#DC2626",
-      "accentColor": "#FDA4AF",
-      "tailShape": "tentacles",
+      "primaryColor": "#FB7185",
+      "secondaryColor": "#FDA4AF",
+      "accentColor": "#FFE4E6",
+      "tailShape": "fan",
       "bodyLength": 16.0,
       "bodyHeight": 18.0,
-      "features": [
-        "tentacles"
-      ]
+      "features": []
     },
     "breedingRecipe": ""
   },
@@ -1671,7 +1734,7 @@
     "id": "fish_1075",
     "commonName": "睡衣海兔",
     "scientificName": "Chromodoris quadricolor",
-    "description": "Striped sea slug that looks like it's wearing striped pajamas.",
+    "description": "背部畫滿黑黃白相間的縱向條紋，宛如穿著一套條紋睡衣在珊瑚上悠閒散步的俏皮海蛞蝓。",
     "rarity": "Epic",
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 1447,
@@ -1679,13 +1742,15 @@
     "baseCoinYield": 25,
     "emojiOrSprite": "👘",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#FACC15",
+      "accentColor": "#FFFFFF",
       "tailShape": "fan",
       "bodyLength": 20.0,
       "bodyHeight": 13.0,
-      "features": []
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1693,7 +1758,7 @@
     "id": "fish_1076",
     "commonName": "發條齒輪魚",
     "scientificName": "Piscis mechanicus",
-    "description": "Swims with a ticking sound, featuring a small wind-up key on its back.",
+    "description": "精密黃銅發條與微型機械齒輪咬合運轉的蒸汽朋克魚，游動時身後伴隨著清脆的滴答鐘錶聲。",
     "rarity": "Epic",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 1212,
@@ -1701,10 +1766,10 @@
     "baseCoinYield": 29,
     "emojiOrSprite": "⚙️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#B45309",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#78350F",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -1715,7 +1780,7 @@
     "id": "fish_1077",
     "commonName": "摺紙天鵝魚",
     "scientificName": "Cygnus origami",
-    "description": "Looks exactly like a paper origami swan folded from waterproof paper.",
+    "description": "由純白防水摺紙精心折疊而成的天鵝形幾何神魚，線條俐落、姿態高貴優雅。",
     "rarity": "Uncommon",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 401,
@@ -1723,15 +1788,13 @@
     "baseCoinYield": 8,
     "emojiOrSprite": "🦢",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#E2E8F0",
+      "accentColor": "#94A3B8",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": [
-        "flowing_fins"
-      ]
+      "features": []
     },
     "breedingRecipe": ""
   },
@@ -1739,7 +1802,7 @@
     "id": "fish_1078",
     "commonName": "水墨彩虹魚",
     "scientificName": "Melanotaenia atramentum",
-    "description": "Leaves a trail of dissipating Chinese ink colors as it swims.",
+    "description": "東方水墨濃淡筆觸描繪其脊骨、西方彩虹光譜點綴其鱗片，游過之處留下一道流動的七彩墨痕。",
     "rarity": "Uncommon",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 537,
@@ -1747,13 +1810,16 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🖌️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#EC4899",
+      "accentColor": "#06B6D4",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "flowing_fins",
+        "stripes"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1761,7 +1827,7 @@
     "id": "fish_1079",
     "commonName": "漂流瓶許願魚",
     "scientificName": "Piscis lagena",
-    "description": "A transparent fish containing a tiny rolled-up piece of parchment.",
+    "description": "棲息於晶瑩剔透玻璃漂流瓶內的微型精靈魚，守護著全世界旅人寫在羊皮紙上的純真願望。",
     "rarity": "Uncommon",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 500,
@@ -1769,13 +1835,15 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "🍾",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#0284C7",
+      "secondaryColor": "#38BDF8",
       "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "glowing_aura"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1783,7 +1851,7 @@
     "id": "fish_1080",
     "commonName": "星空漂浮小海豹",
     "scientificName": "Phoca astra",
-    "description": "A seal with a coat reflecting the night sky, floating weightlessly.",
+    "description": "身軀內蘊藏著浩瀚深邃的紫藍星雲與璀璨星河，在幽暗水體中漂浮如同一顆微縮的銀河天體。",
     "rarity": "Uncommon",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 454,
@@ -1791,13 +1859,14 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#1E1B4B",
+      "secondaryColor": "#6366F1",
+      "accentColor": "#A855F7",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
+        "glowing_aura",
         "spots"
       ]
     },
@@ -1807,7 +1876,7 @@
     "id": "fish_1081",
     "commonName": "水晶雪花魚",
     "scientificName": "Channichthyidae crystallum",
-    "description": "A fish composed entirely of icy crystal structures.",
+    "description": "六角對稱冰晶骨骼構成的純白水晶魚，每一條的雪花圖騰皆獨一無二，散發著極致冰涼的仙氣。",
     "rarity": "Rare",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 690,
@@ -1815,15 +1884,13 @@
     "baseCoinYield": 14,
     "emojiOrSprite": "❄️",
     "visualBlueprint": {
-      "primaryColor": "#F8FAFC",
-      "secondaryColor": "#E2E8F0",
-      "accentColor": "#38BDF8",
-      "tailShape": "forked",
+      "primaryColor": "#E0F2FE",
+      "secondaryColor": "#BAE6FD",
+      "accentColor": "#FFFFFF",
+      "tailShape": "spiky",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": [
-        "spots"
-      ]
+      "features": []
     },
     "breedingRecipe": ""
   },
@@ -1831,7 +1898,7 @@
     "id": "fish_1082",
     "commonName": "霓虹音符魚",
     "scientificName": "Piscis nota",
-    "description": "Shaped like a musical note, glowing in neon colors.",
+    "description": "五線譜上跳動的高音與八分音符化身的靈動游魚，游動時周圍伴隨著悅耳動聽的清脆水音。",
     "rarity": "Common",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 276,
@@ -1839,13 +1906,15 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🎵",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "forked",
+      "primaryColor": "#EC4899",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#06B6D4",
+      "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "glowing_aura"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1853,7 +1922,7 @@
     "id": "fish_1083",
     "commonName": "水滴精靈",
     "scientificName": "Piscis gutta",
-    "description": "A magical entity that looks like a perfect, floating teardrop.",
+    "description": "由一滴純淨無瑕的晨露凝聚而成的透明小精靈，性情無比溫順，能在各種極端水質中治癒受損生態。",
     "rarity": "Uncommon",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 308,
@@ -1861,13 +1930,15 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "💧",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "glowing_aura"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1875,7 +1946,7 @@
     "id": "fish_1084",
     "commonName": "玻璃球夢境魚",
     "scientificName": "Piscis globus",
-    "description": "A fish resembling a snow globe, with a miniature landscape inside.",
+    "description": "包裹在一層永不破裂的夢境氣泡中，體內倒映著每個人童年最深處的一段溫馨回憶。",
     "rarity": "Common",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 192,
@@ -1883,13 +1954,15 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🔮",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#C084FC",
+      "secondaryColor": "#E879F9",
+      "accentColor": "#FEF08A",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "glowing_aura"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1897,7 +1970,7 @@
     "id": "fish_1085",
     "commonName": "魔法陣鰩魚",
     "scientificName": "Manta magica",
-    "description": "Glowing runic patterns light up on its back as it glides.",
+    "description": "寬大扁平的胸鰭上鐫刻著古老玄奧的藍光符文魔法陣，每次揮翼都會在水底激發一圈圈能量漣漪。",
     "rarity": "Uncommon",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 450,
@@ -1905,13 +1978,15 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "🔯",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "butterfly",
+      "primaryColor": "#1E1B4B",
+      "secondaryColor": "#38BDF8",
+      "accentColor": "#6366F1",
+      "tailShape": "fan",
       "bodyLength": 24.0,
       "bodyHeight": 18.0,
-      "features": []
+      "features": [
+        "glowing_aura"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -1919,7 +1994,7 @@
     "id": "fish_1086",
     "commonName": "蒸汽龐克機械鯊",
     "scientificName": "Selachimorpha vapor",
-    "description": "Brass fittings, steam vents, and glowing red mechanical eyes.",
+    "description": "鉚釘裝甲、銅管散熱器與發光儀表盤組裝而成的遠洋機械小鯊，眼神專注、動力無窮。",
     "rarity": "Epic",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 1062,
@@ -1927,15 +2002,13 @@
     "baseCoinYield": 20,
     "emojiOrSprite": "🚂",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "crescent",
+      "primaryColor": "#78350F",
+      "secondaryColor": "#B45309",
+      "accentColor": "#00F0FF",
+      "tailShape": "spiky",
       "bodyLength": 26.0,
       "bodyHeight": 9.5,
-      "features": [
-        "dorsal_spikes"
-      ]
+      "features": []
     },
     "breedingRecipe": ""
   },
@@ -1943,7 +2016,7 @@
     "id": "fish_1087",
     "commonName": "雲朵棉花魚",
     "scientificName": "Piscis nubes",
-    "description": "Looks and feels exactly like a small, fluffy cumulus cloud.",
+    "description": "蓬鬆如晴空萬里浮現的朵朵白雲，身軀輕盈縹緲，彷彿不受水壓重力束縛般自由懸浮。",
     "rarity": "Rare",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 704,
@@ -1951,10 +2024,10 @@
     "baseCoinYield": 10,
     "emojiOrSprite": "☁️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#E0F2FE",
+      "accentColor": "#BAE6FD",
+      "tailShape": "butterfly",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -1965,7 +2038,7 @@
     "id": "fish_1088",
     "commonName": "彩繪玻璃神仙魚",
     "scientificName": "Pterophyllum vitrum",
-    "description": "Its flat body looks like a stained glass window illuminated from behind.",
+    "description": "歐洲哥德大教堂玫瑰花窗般的彩繪玻璃翅翼，陽光穿透水面時會在水底投射出斑斕的神聖光影。",
     "rarity": "Common",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 254,
@@ -1973,14 +2046,14 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🪟",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#BE123C",
+      "secondaryColor": "#3B82F6",
+      "accentColor": "#FACC15",
       "tailShape": "lyre",
       "bodyLength": 18.0,
       "bodyHeight": 18.0,
       "features": [
-        "stripes"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": ""
@@ -1989,7 +2062,7 @@
     "id": "fish_1089",
     "commonName": "銀河星砂金魚",
     "scientificName": "Carassius galaxia",
-    "description": "Its scales are made of tiny, glowing grains of star sand.",
+    "description": "黑色絲絨大尾上撒滿了無數細碎璀璨的純金與銀白星砂，如同一汪裝滿了整個宇宙星系的流動水缽。",
     "rarity": "Epic",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 1437,
@@ -1997,13 +2070,16 @@
     "baseCoinYield": 27,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
-      "primaryColor": "#F59E0B",
-      "secondaryColor": "#FDE047",
-      "accentColor": "#B45309",
-      "tailShape": "fan",
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#FFFFFF",
+      "tailShape": "butterfly",
       "bodyLength": 20.0,
       "bodyHeight": 13.0,
-      "features": []
+      "features": [
+        "spots",
+        "glowing_aura"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -2011,7 +2087,7 @@
     "id": "fish_1090",
     "commonName": "幻影極光水母",
     "scientificName": "Aurelia aurora",
-    "description": "Its bell shifts through the colors of the Northern Lights.",
+    "description": "傘蓋脈動時綻放出如同北極永夜天空中舞動的翠綠與深紫極光，如夢似幻、美不勝收。",
     "rarity": "Uncommon",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 566,
@@ -2019,15 +2095,15 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "🌌",
     "visualBlueprint": {
-      "primaryColor": "#06B6D4",
-      "secondaryColor": "#EC4899",
-      "accentColor": "#A855F7",
-      "tailShape": "tentacles",
+      "primaryColor": "#10B981",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#06B6D4",
+      "tailShape": "fan",
       "bodyLength": 16.0,
       "bodyHeight": 18.0,
       "features": [
         "bioluminescence",
-        "tentacles"
+        "glowing_aura"
       ]
     },
     "breedingRecipe": ""
@@ -2036,7 +2112,7 @@
     "id": "fish_1091",
     "commonName": "糖果屋餅乾魚",
     "scientificName": "Piscis panis",
-    "description": "Constructed from gingerbread, frosting, and gumdrops.",
+    "description": "薑餅人烘烤香氣與糖霜花邊勾勒的童話神魚，最喜歡在水草間收集五顏六色的糖果碎屑。",
     "rarity": "Mythic",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 7536,
@@ -2044,13 +2120,15 @@
     "baseCoinYield": 86,
     "emojiOrSprite": "🏠",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#B45309",
+      "secondaryColor": "#FFFFFF",
+      "accentColor": "#DC2626",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -2058,7 +2136,7 @@
     "id": "fish_1092",
     "commonName": "夢幻泡泡龍魚",
     "scientificName": "Scleropages bulla",
-    "description": "Blows iridescent bubbles instead of breathing air.",
+    "description": "吐出的一顆顆彩虹肥皂泡能在水底長久不滅，龍形身軀散發著珍珠母貝般的七彩珠光。",
     "rarity": "Uncommon",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 520,
@@ -2066,14 +2144,15 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🫧",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
+      "primaryColor": "#F472B6",
+      "secondaryColor": "#38BDF8",
       "accentColor": "#FDE047",
-      "tailShape": "ribbon",
+      "tailShape": "lyre",
       "bodyLength": 28.0,
       "bodyHeight": 6.5,
       "features": [
-        "whiskers"
+        "whiskers",
+        "glowing_aura"
       ]
     },
     "breedingRecipe": ""
@@ -2082,7 +2161,7 @@
     "id": "fish_1093",
     "commonName": "時光沙漏小丑魚",
     "scientificName": "Amphiprion horologium",
-    "description": "Has an hourglass pattern; sand seems to flow inside its scales.",
+    "description": "透明腹腔中靜靜流淌著金色時光細沙的小丑魚，據說在牠身旁專注工作時，時間流速會變得無比寧靜。",
     "rarity": "Uncommon",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 426,
@@ -2090,13 +2169,15 @@
     "baseCoinYield": 6,
     "emojiOrSprite": "⏳",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#FFFFFF",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
-      "features": []
+      "features": [
+        "stripes"
+      ]
     },
     "breedingRecipe": ""
   },
@@ -2104,7 +2185,7 @@
     "id": "fish_1094",
     "commonName": "魔法書籤扁面蛸",
     "scientificName": "Opisthoteuthis libellus",
-    "description": "Flattens itself perfectly to mark pages in submerged spellbooks.",
+    "description": "薄如羊皮紙魔法書籤的深海扁面章魚，夾在古老魔法書中沉睡千年，被水流喚醒後重現生機。",
     "rarity": "Epic",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 1847,
@@ -2112,10 +2193,10 @@
     "baseCoinYield": 25,
     "emojiOrSprite": "🔖",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "tentacles",
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#A855F7",
+      "accentColor": "#FEF08A",
+      "tailShape": "fan",
       "bodyLength": 16.0,
       "bodyHeight": 18.0,
       "features": []
@@ -2126,7 +2207,7 @@
     "id": "fish_1095",
     "commonName": "飛毯魟魚",
     "scientificName": "Potamotrygon tapetes",
-    "description": "Intricate carpet patterns on its back, gliding gracefully.",
+    "description": "波斯古老編織工藝花紋鋪滿雙翼的神奇魟魚，能在水流中像魔毯般平穩滑翔、載人穿梭。",
     "rarity": "Common",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 124,
@@ -2134,14 +2215,14 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🧞",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "butterfly",
+      "primaryColor": "#B91C1C",
+      "secondaryColor": "#F59E0B",
+      "accentColor": "#1E3A8A",
+      "tailShape": "fan",
       "bodyLength": 24.0,
       "bodyHeight": 18.0,
       "features": [
-        "spots"
+        "stripes"
       ]
     },
     "breedingRecipe": ""
@@ -2150,7 +2231,7 @@
     "id": "fish_1096",
     "commonName": "萬花筒斑馬魚",
     "scientificName": "Danio rerio kaleidoscopium",
-    "description": "Its patterns shift in symmetrical geometric shapes as it moves.",
+    "description": "透過折射菱鏡觀察時會分裂出千變萬化幾何對稱圖案的斑馬魚，每一次轉彎都是一場視覺盛宴。",
     "rarity": "Uncommon",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 400,
@@ -2158,9 +2239,9 @@
     "baseCoinYield": 7,
     "emojiOrSprite": "👁️",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
+      "primaryColor": "#EC4899",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#38BDF8",
       "tailShape": "forked",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
@@ -2174,7 +2255,7 @@
     "id": "fish_1097",
     "commonName": "螢光蘑菇海牛",
     "scientificName": "Trichechus fungus",
-    "description": "Grows tiny glowing bioluminescent mushrooms on its back.",
+    "description": "背部生長著幾簇散發柔和藍綠冷光的夜光小蘑菇，游動時如同一座移動的奇幻魔法小森林。",
     "rarity": "Rare",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 703,
@@ -2182,10 +2263,10 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🍄",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#065F46",
+      "secondaryColor": "#34D399",
+      "accentColor": "#6EE7B7",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
@@ -2198,7 +2279,7 @@
     "id": "fish_1098",
     "commonName": "星雲旋渦鯰魚",
     "scientificName": "Corydoras nebula",
-    "description": "Its spotted pattern constantly swirls like a distant galaxy.",
+    "description": "兩條長長鬍鬚能感知宇宙引力波的神秘鯰魚，腹部旋轉著微縮的仙女座星雲漩渦。",
     "rarity": "Common",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 232,
@@ -2206,15 +2287,15 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🌀",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#1E1B4B",
+      "secondaryColor": "#6366F1",
+      "accentColor": "#A855F7",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": [
         "whiskers",
-        "bioluminescence"
+        "glowing_aura"
       ]
     },
     "breedingRecipe": ""
@@ -2223,7 +2304,7 @@
     "id": "fish_1099",
     "commonName": "童話繪本比目魚",
     "scientificName": "Paralichthys fabula",
-    "description": "Camouflages itself as an opened page of an illustrated fairy tale.",
+    "description": "身體兩側印滿安徒生童話經典插畫手稿的比目魚，靜靜貼在魚缸底部，宛如一本展開的童話書頁。",
     "rarity": "Rare",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 723,
@@ -2231,10 +2312,10 @@
     "baseCoinYield": 13,
     "emojiOrSprite": "📖",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "forked",
+      "primaryColor": "#78350F",
+      "secondaryColor": "#FEF3C7",
+      "accentColor": "#9A3412",
+      "tailShape": "fan",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
       "features": []
@@ -2245,7 +2326,7 @@
     "id": "fish_1100",
     "commonName": "幻境迷宮海馬",
     "scientificName": "Hippocampus labyrinthus",
-    "description": "Its intricate body structure looks like an impossible maze.",
+    "description": "金色冠冕、身披錯綜複雜幾何迷宮回紋的遠古海馬，據說只有心靈最純淨之人才能看透其迷宮終點。",
     "rarity": "Common",
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 102,
@@ -2253,14 +2334,14 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🧩",
     "visualBlueprint": {
-      "primaryColor": "#3B82F6",
-      "secondaryColor": "#60A5FA",
-      "accentColor": "#FDE047",
-      "tailShape": "ribbon",
+      "primaryColor": "#CA8A04",
+      "secondaryColor": "#FACC15",
+      "accentColor": "#FEF08A",
+      "tailShape": "lyre",
       "bodyLength": 10.0,
       "bodyHeight": 22.0,
       "features": [
-        "stripes"
+        "flowing_fins"
       ]
     },
     "breedingRecipe": ""
