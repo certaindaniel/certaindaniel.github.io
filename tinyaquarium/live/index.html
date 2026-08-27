@@ -1290,8 +1290,9 @@
 
         async function loadVaultData() {
             try {
+                const timestamp = Date.now();
                 const promises = volumeFiles.map(async (file) => {
-                    const res = await fetch(`assets/data/${file}`);
+                    const res = await fetch(`assets/data/${file}?v=${timestamp}`);
                     if (!res.ok) return [];
                     const data = await res.json();
                     return data.map(item => ({ ...item, volumeFile: file.replace('.json', '') }));
