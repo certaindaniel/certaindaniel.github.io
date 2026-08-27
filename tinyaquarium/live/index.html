@@ -410,7 +410,8 @@
 
             <!-- Volume Tab Buttons -->
             <div class="flex items-center space-x-2 overflow-x-auto pb-4 mb-8 no-scrollbar">
-                <button onclick="switchVolume('all')" class="vol-tab px-4 py-2 rounded-xl bg-cyan-500 text-slate-950 font-bold text-xs whitespace-nowrap transition-all">🌟 全部 1,000 種</button>
+                <button onclick="switchVolume('all')" class="vol-tab px-4 py-2 rounded-xl bg-cyan-500 text-slate-950 font-bold text-xs whitespace-nowrap transition-all">🌟 全部 1,172 種</button>
+                <button onclick="switchVolume('Volume00_CoreHandcrafted')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">👑 核心旗艦手繪 (172)</button>
                 <button onclick="switchVolume('Volume01_EastAsiaHeritage')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">⛩️ 東亞水墨江戶 (100)</button>
                 <button onclick="switchVolume('Volume02_AmazonWilds')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🌿 亞馬遜狂野 (100)</button>
                 <button onclick="switchVolume('Volume03_AfricanRiftLakes')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🌍 東非裂谷慈鯛 (100)</button>
@@ -1276,6 +1277,7 @@
         let currentRarityFilter = 'all';
 
         const volumeFiles = [
+            'Volume00_CoreHandcrafted.json',
             'Volume01_EastAsiaHeritage.json',
             'Volume02_AmazonWilds.json',
             'Volume03_AfricanRiftLakes.json',
@@ -1449,7 +1451,47 @@
                 </svg>`;
             }
 
-            // F. Non-fish Invertebrates
+            // F. Bubble Eye Goldfish (墨黑水泡眼金魚 / 晶瑩水泡)
+            if (name.includes('水泡') || features.includes('bubble_eyes') || name.includes('bubble')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Tail Fin -->
+                    <path d="M14,24 Q2,12 2,18 Q8,24 2,30 Q2,36 14,24 Z" fill="${sColor}"/>
+                    <!-- Body -->
+                    <ellipse cx="27" cy="24" rx="13" ry="8.5" fill="${pColor}"/>
+                    <!-- Dorsal Fin -->
+                    <path d="M22,15 Q26,8 30,15 Z" fill="${sColor}"/>
+                    <!-- Huge Translucent Bubble Eye Sacs -->
+                    <ellipse cx="37" cy="18" rx="5" ry="4" fill="${sColor}" opacity="0.6" stroke="${aColor}" stroke-width="0.8"/>
+                    <circle cx="37" cy="17" r="1.5" fill="#FFFFFF" opacity="0.8"/>
+                    <ellipse cx="37" cy="30" rx="5" ry="4" fill="${sColor}" opacity="0.6" stroke="${aColor}" stroke-width="0.8"/>
+                    <circle cx="37" cy="29" r="1.5" fill="#FFFFFF" opacity="0.8"/>
+                    <!-- Eye Pupil -->
+                    <circle cx="35" cy="24" r="2.2" fill="#0F172A"/>
+                    <circle cx="35.5" cy="23.5" r="0.8" fill="#FFFFFF"/>
+                </svg>`;
+            }
+
+            // G. Ranchu Goldfish (日本蘭壽金魚 / 圓滾草莓頭)
+            if (name.includes('蘭壽') || features.includes('strawberry_hood') || name.includes('ranchu')) {
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Tail Fin -->
+                    <path d="M12,24 Q2,14 4,18 Q10,24 4,30 Q2,34 12,24 Z" fill="${sColor}"/>
+                    <!-- Chubby Egg Body (No Dorsal) -->
+                    <ellipse cx="26" cy="24" rx="14" ry="11" fill="${pColor}"/>
+                    <!-- Strawberry Cranial Hood (頭頂草莓肉瘤) -->
+                    <circle cx="33" cy="18" r="4.5" fill="${aColor}"/>
+                    <circle cx="37" cy="21" r="4" fill="${aColor}"/>
+                    <circle cx="36" cy="26" r="3.8" fill="${aColor}"/>
+                    <circle cx="33" cy="28" r="3.5" fill="${aColor}"/>
+                    <!-- Eye -->
+                    <circle cx="36" cy="23" r="2.0" fill="#0F172A"/>
+                    <circle cx="36.5" cy="22.5" r="0.6" fill="#FFFFFF"/>
+                </svg>`;
+            }
+
+            // H. Non-fish Invertebrates
             if (name.includes('水母')) return `<span style="font-size: ${size * 0.75}px;">🪼</span>`;
             if (name.includes('章魚') || name.includes('蛸')) return `<span style="font-size: ${size * 0.75}px;">🐙</span>`;
             if (name.includes('烏賊') || name.includes('魷')) return `<span style="font-size: ${size * 0.75}px;">🦑</span>`;

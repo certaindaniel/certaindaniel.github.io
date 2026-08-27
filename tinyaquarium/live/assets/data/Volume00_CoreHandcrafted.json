@@ -1,0 +1,3880 @@
+[
+  {
+    "id": "tancho_koi",
+    "commonName": "日本丹頂錦鯉",
+    "scientificName": "Cyprinus carpio tancho",
+    "description": "新潟名貴錦鯉，通體雪白純淨如凝脂玉，唯頭頂嵌有正圓朱紅「丹頂」，象徵旭日東升與吉祥純潔。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 7200,
+    "baseSwimSpeed": 0.85,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🔴",
+    "visualBlueprint": {
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#E2E8F0",
+      "accentColor": "#DC2626",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "tancho_crown"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "ranchu_goldfish",
+    "commonName": "日本蘭壽金魚",
+    "scientificName": "Carassius auratus ranchu",
+    "description": "日本「金魚之王」，無背鰭的圓滾滾蛋形身軀，頭部長滿厚實療癒的草莓肉瘤，游動時呆萌搖擺。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 4500,
+    "baseSwimSpeed": 0.6,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🍓",
+    "visualBlueprint": {
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#DC2626",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "no_dorsal",
+        "strawberry_hood"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "black_bubble_eye",
+    "commonName": "墨黑水泡眼金魚",
+    "scientificName": "Carassius auratus nigro",
+    "description": "東方古典水墨名種，通體如黑曜石般深邃，兩頰托著晃悠晶瑩的墨色水泡，散發禪意與水墨韻味。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 6800,
+    "baseSwimSpeed": 0.6,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🫧",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#64748B",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bubble_eyes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "oranda_goldfish",
+    "commonName": "獅頭紅白金魚",
+    "scientificName": "Carassius auratus oranda",
+    "description": "東亞古典名金魚，頭頂盛開如紅寶石牡丹般的飽滿獅頭肉瘤，搭配飄逸如婚紗般的巨大四尾長鰭。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5000,
+    "baseSwimSpeed": 0.65,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🦁",
+    "visualBlueprint": {
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#DC2626",
+      "accentColor": "#F87171",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins",
+        "strawberry_hood"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "platinum_betta",
+    "commonName": "泰國皇室白金雙尾鬥魚",
+    "scientificName": "Betta splendens platinum",
+    "description": "泰國皇室御用名種，全身披覆如 999 純白金與珍珠母貝的金屬光澤，分岔的雙心型尾鰭在水中如絲緞舞動。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8500,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🪞",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#F43F5E",
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "taiwan_ku_pah",
+    "commonName": "台灣高山苦花魚",
+    "scientificName": "Onychostoma barbatulum",
+    "description": "台灣高山清澈溪流的「水中螢光精靈」，在溪石間翻滾刮食青苔時，腹部銀白光芒宛如水下流星閃爍。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 4000,
+    "baseSwimSpeed": 1.15,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "⛰️",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "taiwan_striped_dace",
+    "commonName": "台灣馬口魚",
+    "scientificName": "Candidia barbata",
+    "description": "台灣特有種溪流寶石，雄魚發情期身披藍黑中線與桃紅鮮豔婚姻色，腮蓋染上羞澀胭脂，極具生命力。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 3600,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "🌸",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "butterfly_telescope",
+    "commonName": "黑金蝶尾出目金",
+    "scientificName": "Carassius auratus telescope",
+    "description": "經典東方宮廷金魚，擁有突出凸起的圓筒龍睛，尾鰭展開如蝴蝶雙翼，游動如水墨黑金蝴蝶翩躚起舞。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5800,
+    "baseSwimSpeed": 0.65,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🦋",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#64748B",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bubble_eyes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "sumatran_tiger_barb",
+    "commonName": "蘇門答臘虎皮魚",
+    "scientificName": "Puntigrus tetrazona",
+    "description": "東南亞熱帶雨林的活潑精靈，金黃透橘的菱形身軀點綴四道曜黑虎斑，背鰭尖端如燃燒小火苗。",
+    "rarity": "Common",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 2800,
+    "baseSwimSpeed": 1.25,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "🐅",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "showa_koi",
+    "commonName": "日本昭和三色錦鯉",
+    "scientificName": "Cyprinus carpio showa",
+    "description": "日本御三家錦鯉之霸，漆黑如墨的底色上翻騰著緋紅火紋與雪白斑塊，胸鰭帶有豪邁的墨斑，如流動的水墨畫。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8200,
+    "baseSwimSpeed": 0.85,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🎨",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "rainbow_snakehead",
+    "commonName": "東南亞七彩雷龍",
+    "scientificName": "Channa bleheri",
+    "description": "亞洲最迷人的原生小型雷龍，圓筒蛇形體態覆蓋著孔雀藍、落日橘與寶石綠的迷幻斑塊，胸鰭如扇子般靈活扇動。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 9200,
+    "baseSwimSpeed": 0.95,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🌈",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "crown_tail_betta",
+    "commonName": "泰國國王冠尾鬥魚",
+    "scientificName": "Betta splendens crowntail",
+    "description": "東南亞名貴鬥魚，鰭條延伸出如王冠骨刺般的一根根針狀射線，在水中展開時如同燃燒的冰晶王冠。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 7800,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "👑",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#F43F5E",
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "neon_tetra",
+    "commonName": "日光燈魚",
+    "scientificName": "Paracheirodon innesi",
+    "description": "亞馬遜流域的經典瑰寶，體側有亮藍與霓虹紅條紋，群游時格外耀眼。",
+    "rarity": "Common",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 1500,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 1,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0284C7",
+      "accentColor": "#DC2626",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "neon_stripe"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "guppy",
+    "commonName": "彩虹孔雀魚",
+    "scientificName": "Poecilia reticulata",
+    "description": "南美溫帶名魚，尾鰭如彩虹羽毛般飄逸靈動，性格溫柔活潑。",
+    "rarity": "Common",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 2000,
+    "baseSwimSpeed": 0.95,
+    "baseCoinYield": 1,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "caramel_guppy",
+    "commonName": "焦糖絲帶孔雀魚",
+    "scientificName": "Poecilia caramel ribbon",
+    "description": "如同融化太妃糖般的琥珀蜜金尾鰭，散發溫暖香甜氣息。",
+    "rarity": "Common",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 2500,
+    "baseSwimSpeed": 0.9,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "🍯",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "puffer_souffle",
+    "commonName": "舒芙蕾小河豚",
+    "scientificName": "Tetraodontidae souffle",
+    "description": "圓滾滾如舒芙蕾鬆餅，被輕摸時會害羞地鼓起雙頰。",
+    "rarity": "Common",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 3000,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "🐡",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "formosan_salmon",
+    "commonName": "台灣櫻花鉤吻鮭",
+    "scientificName": "Oncorhynchus masou formosanus",
+    "description": "台灣高山七家灣溪國寶冰河孑遺魚，背部斑紋如點點落櫻，身形優美高貴。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 3500,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🍁",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "bubble_eye_goldfish",
+    "commonName": "水泡眼金魚",
+    "scientificName": "Carassius auratus bubble",
+    "description": "東亞名貴金魚，兩頰長著晃晃悠悠的晶瑩果凍水泡，游動時呆萌無比。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 4000,
+    "baseSwimSpeed": 0.65,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🫧",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#64748B",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bubble_eyes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "ryukin_goldfish",
+    "commonName": "日本琉金金魚",
+    "scientificName": "Carassius ryukin",
+    "description": "江戶時代培育的名貴金魚，高聳圓潤的背脊與如紗裙般盛開的四尾。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 4200,
+    "baseSwimSpeed": 0.7,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "angelfish",
+    "commonName": "月光神仙魚",
+    "scientificName": "Pterophyllum scalare",
+    "description": "身形如菱形銀月優雅高貴，在水草間翩翩起舞。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 4500,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "🌙",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "rummy_nose",
+    "commonName": "紅鼻剪刀",
+    "scientificName": "Hemigrammus rhodostomus",
+    "description": "亞馬遜黑水名魚，櫻桃鮮紅小鼻子與黑白斑馬剪刀尾，最愛整齊群游。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 4800,
+    "baseSwimSpeed": 1.1,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🍒",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "thai_betta",
+    "commonName": "泰國皇家半月鬥魚",
+    "scientificName": "Betta splendens royal",
+    "description": "泰國國寶名魚，180° 深藍與赤金漸層大扇尾，在水中展開時宛如皇家絲絨。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5500,
+    "baseSwimSpeed": 0.7,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🌌",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#F43F5E",
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "ghost_glasscat",
+    "commonName": "幽靈水晶玻璃貓",
+    "scientificName": "Kryptopterus vitreolus",
+    "description": "東南亞透明神魚，身軀晶瑩通透如水晶，能清晰看見微小的魚骨與跳動的心臟。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 6000,
+    "baseSwimSpeed": 0.85,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "👻",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "discus_fish",
+    "commonName": "秘魯七彩神仙魚",
+    "scientificName": "Symphysodon aequifasciatus",
+    "description": "被譽為「熱帶魚之王」，圓盤狀身軀覆蓋著大理石般的迷幻松石綠斑紋。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 7500,
+    "baseSwimSpeed": 0.7,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "💎",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "strawberry_axolotl",
+    "commonName": "草莓六角恐龍",
+    "scientificName": "Ambystoma mexicanum pink",
+    "description": "墨西哥國寶兩棲精靈，頭頂生長著毛茸茸的粉嫩羽狀鰓，永遠帶著治癒微笑。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8000,
+    "baseSwimSpeed": 0.6,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🍓",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "sakura_koi",
+    "commonName": "櫻花粉蝶尾錦鯉",
+    "scientificName": "Cyprinus carpio sakura",
+    "description": "日本新潟名種，游動時尾鰭如櫻花花瓣飄落水面，純潔浪漫至極。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 9000,
+    "baseSwimSpeed": 0.85,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🌸",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "super_red_arowana",
+    "commonName": "印尼辣椒紅龍魚",
+    "scientificName": "Scleropages formosus red",
+    "description": "東南亞風水之王，全身披覆鮮紅如火的厚實金屬鱗甲，威嚴而高雅。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 10000,
+    "baseSwimSpeed": 0.85,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🔥",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "clownfish",
+    "commonName": "眼斑小丑魚",
+    "scientificName": "Amphiprion ocellaris",
+    "description": "大堡礁與太平洋的代表，亮橘搭配雪白條紋，最喜歡在柔軟海葵中嬉戲。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5000,
+    "baseSwimSpeed": 1.05,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "🐠",
+    "visualBlueprint": {
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "yellow_tang",
+    "commonName": "黃金三角倒吊",
+    "scientificName": "Zebrasoma flavescens",
+    "description": "大堡礁與夏威夷的日光精靈！全身覆蓋著純淨明亮的金黃色，尾柄長有一柄雪白倒刺，性格開朗好動。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5200,
+    "baseSwimSpeed": 1.15,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "💛",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "spotted_garden_eel",
+    "commonName": "條紋斑點花園鰻",
+    "scientificName": "Heteroconger hassi",
+    "description": "大洋洲珊瑚白沙中最呆萌的舞者！從沙洞探出細長身軀隨洋流搖擺，大眼睛好奇地凝視海面。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5800,
+    "baseSwimSpeed": 0.5,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🌱",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "cozy_seahorse",
+    "commonName": "粉萌珊瑚小海馬",
+    "scientificName": "Hippocampus bargibanti",
+    "description": "大堡礁海扇珊瑚中的軟萌小精靈！粉嫩肉嘟嘟的身軀直立懸浮，蜷縮著小尾巴，背鰭極速振動。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 6200,
+    "baseSwimSpeed": 0.6,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🫧",
+    "visualBlueprint": {
+      "primaryColor": "#FACC15",
+      "secondaryColor": "#EAB308",
+      "accentColor": "#CA8A04",
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "blue_tang",
+    "commonName": "皇家藍倒吊",
+    "scientificName": "Paracanthurus hepatus",
+    "description": "印度太平洋珊瑚礁名魚，深邃皇家寶藍色配上鮮黃小三角尾，活潑好奇。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 6500,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🐟",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "flame_angelfish",
+    "commonName": "夏威夷火焰仙",
+    "scientificName": "Centropyge loriculus",
+    "description": "珊瑚礁中最炙熱的緋紅瑰寶，如跳動的赤金火苗，體側披覆黑色虎斑，鰭緣閃耀著電光深藍光暈。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 6800,
+    "baseSwimSpeed": 1.05,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🔥",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "yellow_boxfish",
+    "commonName": "黃金木瓜魨",
+    "scientificName": "Ostracion cubicus",
+    "description": "大堡礁呆萌天花板！幼魚時期為鮮黃成立方體，滿布俏皮黑色小圓點。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 7000,
+    "baseSwimSpeed": 0.65,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "📦",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "moorish_idol",
+    "commonName": "黑白關刀鐮魚",
+    "scientificName": "Zanclus cornutus",
+    "description": "珊瑚海的傳奇貴族，高聳飄逸的雪白旗狀長背鰭如刀客隨波起舞，黑黃白三色對比鮮明典雅。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 7200,
+    "baseSwimSpeed": 0.9,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🗡️",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#64748B",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bubble_eyes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "picasso_triggerfish",
+    "commonName": "畢卡索砲彈魚",
+    "scientificName": "Rhinecanthus aculeatus",
+    "description": "珊瑚海的抽象畫大師，身上交織著前衛的幾何線條與明黃色條紋。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 7200,
+    "baseSwimSpeed": 0.95,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🎨",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "royal_dottyback",
+    "commonName": "雙色草莓魚",
+    "scientificName": "Pictichromis paccagnellae",
+    "description": "前身鮮亮紫紅、後半明亮檸檬黃，對比極為強烈的熱帶精靈。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 7500,
+    "baseSwimSpeed": 1.15,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🍧",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "clown_triggerfish",
+    "commonName": "大花小丑砲彈",
+    "scientificName": "Balistoides conspicillum",
+    "description": "珊瑚海最前衛的幾何大師！腹部布滿醒目的大白圓斑，嘴部抹著鮮豔明黃唇彩，外觀極具視覺震撼。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 7600,
+    "baseSwimSpeed": 1.1,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🎯",
+    "visualBlueprint": {
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "red_lionfish",
+    "commonName": "花斑紅獅子魚",
+    "scientificName": "Pterois volitans",
+    "description": "大堡礁珊瑚宮殿的華麗舞者，展開如孔雀開屏般的飄逸羽狀胸鰭與細長背刺，游動時宛如水中華服。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8200,
+    "baseSwimSpeed": 0.7,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🪶",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "bluespotted_ray",
+    "commonName": "藍點帶尾魟",
+    "scientificName": "Taeniura lymma",
+    "description": "大堡礁淺灘沙洲的滑翔者，金黃沙褐色的圓盤身軀鑲嵌著如霓虹燈般璀璨的電光藍圓點，尾鰭如絲帶波浪。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8500,
+    "baseSwimSpeed": 0.85,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🩵",
+    "visualBlueprint": {
+      "primaryColor": "#1E293B",
+      "secondaryColor": "#0F172A",
+      "accentColor": "#38BDF8",
+      "tailShape": "ribbon",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "wing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "weedy_seadragon",
+    "commonName": "澳洲草海龍",
+    "scientificName": "Phyllopteryx taeniolatus",
+    "description": "澳洲南部國寶，身體如飄逸的彩色海藻羽枝，在洋流中如夢似幻地漫步。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8800,
+    "baseSwimSpeed": 0.55,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🌿",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "baby_seaturtle",
+    "commonName": "迷你綠蠵龜幼崽",
+    "scientificName": "Chelonia mydas baby",
+    "description": "大洋洲珊瑚沙灘破殼的海洋小使者！揮舞著肉嘟嘟的前划水鰭，背著翠綠幾何龜甲，奮力向前漫遊。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 9200,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🐢",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "mandarin_fish",
+    "commonName": "迷幻曼陀羅青蛙魚",
+    "scientificName": "Synchiropus splendidus",
+    "description": "大洋洲最華麗的熱帶底棲寶石！全身覆蓋著松石綠、亮橘與寶藍交織的迷幻迷宮條紋，圓圓的雙頰十分討喜。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 9600,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🎨",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "bluering_octopus",
+    "commonName": "澳洲藍環小章魚",
+    "scientificName": "Hapalochlaena maculosa",
+    "description": "大堡礁潮池中的神秘萌物！沙金色圓滾滾小腦袋，全身浮現一圈圈呼吸閃爍的電光霓虹藍環，呆萌且充滿魔力。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 15000,
+    "baseSwimSpeed": 0.65,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🧿",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "leafy_seadragon",
+    "commonName": "澳洲幻彩葉海龍",
+    "scientificName": "Phycodurus eques",
+    "description": "大洋洲南十字星海域的終極偽裝大師，全身生長著如夢幻水彩般的半透明金綠葉狀枝椏，隨洋流慢速滑行，神聖高雅。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 19000,
+    "baseSwimSpeed": 0.5,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🍃",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "malawi_blue_zebra",
+    "commonName": "馬拉威藍斑馬",
+    "scientificName": "Maylandia zebra blue",
+    "description": "東非大裂谷馬拉威湖的閃耀之星，電光湛藍與深邃黑條紋交錯。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5200,
+    "baseSwimSpeed": 1.1,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "⚡️",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "sea_angel",
+    "commonName": "南極冰海天使",
+    "scientificName": "Clione limacina",
+    "description": "極地冰洋的半透明精靈（裸海蝶），撲動著一對小翅膀，胸口透出溫暖橘紅心臟。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 9000,
+    "baseSwimSpeed": 0.5,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "👼",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "jellyfish_lumi",
+    "commonName": "發光月亮水母",
+    "scientificName": "Aurelia bioluminescens",
+    "description": "在幽暗深藍中伴隨呼吸節奏散發半透明霓虹微光。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 9500,
+    "baseSwimSpeed": 0.45,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🪼",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "blobfish_cozy",
+    "commonName": "軟萌水滴魚",
+    "scientificName": "Psychrolutes marcidus",
+    "description": "深海千米下的粉紅凝膠小魚，有著無辜垂頭與療癒的大鼻子。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 10500,
+    "baseSwimSpeed": 0.4,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "💧",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "anglerfish",
+    "commonName": "暖光小燈籠魚",
+    "scientificName": "Lophiiformes amber",
+    "description": "頭頂懸掛著一顆溫暖琥珀色的小提燈，照亮深海安詳水域。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 11000,
+    "baseSwimSpeed": 0.65,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🏮",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0284C7",
+      "accentColor": "#DC2626",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "neon_stripe"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "dumbo_octopus",
+    "commonName": "粉萌小飛象章魚",
+    "scientificName": "Grimpoteuthis kawaii",
+    "description": "頭部生長著一對如小飛象般拍打的可愛耳朵，像降落傘般優雅漂游。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 13000,
+    "baseSwimSpeed": 0.5,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🦭",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "giant_oarfish",
+    "commonName": "深海皇帶魚",
+    "scientificName": "Regalecus glesne",
+    "description": "傳說中的深海龍王使者，銀白如銀箔的長條身軀，頭頂頂著赤紅鮮豔的龍冠羽鰭。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 13500,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "👑",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "aurora_eel",
+    "commonName": "極光絲帶鰻",
+    "scientificName": "Rhinomuraena aurora",
+    "description": "身形如絲綢飄帶，游動時閃爍著北極光般的青藍與紫紅漸層。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 14000,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "✨",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "cyber_neon_tetra",
+    "commonName": "全息賽博霓虹魚",
+    "scientificName": "Cyber-Tetra v2.0",
+    "description": "由數位全息光子構成的機械魚，體內流淌著超導體螢光線路。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 16000,
+    "baseSwimSpeed": 1.3,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🛸",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0284C7",
+      "accentColor": "#DC2626",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "neon_stripe"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "porcelain_angel",
+    "commonName": "青花瓷神仙魚",
+    "scientificName": "Pterophyllum porcelain",
+    "description": "宛如由東方頂級羊脂白玉與鈷藍釉彩燒製而成的神仙魚，游動時伴隨清脆瓷音。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 18000,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 10,
+    "emojiOrSprite": "🏺",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "cosmic_whale",
+    "commonName": "星夜琉璃幼鯨",
+    "scientificName": "Megaptera cosmica",
+    "description": "體內孕育著微型星雲與流動銀河的深空幼鯨，游動時身側灑落星塵微光。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 22000,
+    "baseSwimSpeed": 0.6,
+    "baseCoinYield": 14,
+    "emojiOrSprite": "🌌",
+    "visualBlueprint": {
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#E0F2FE",
+      "accentColor": "#86EFAC",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "golden_koi",
+    "commonName": "黃金錦鯉神魚",
+    "scientificName": "Cyprinus aurum master",
+    "description": "全身由 24K 純金麟片包裹，游動時伴隨幸運金粉粒子光環。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 20000,
+    "baseSwimSpeed": 0.9,
+    "baseCoinYield": 12,
+    "emojiOrSprite": "👑",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "celestial_dragon",
+    "commonName": "九天金鱗神龍魚",
+    "scientificName": "Scleropages celestial",
+    "description": "傳說中能召喚祥瑞水脈的帝王神龍魚，金光萬道，龍鬚飄逸，神聖非凡。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 25000,
+    "baseSwimSpeed": 0.95,
+    "baseCoinYield": 18,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "kun_cosmic_whale",
+    "commonName": "北溟巨鯤",
+    "scientificName": "Megaptera kun cosmica",
+    "description": "源自莊子逍遙遊傳說，游弋於深空星海的至尊巨鯤，體內流動浩瀚星雲與星座星芒。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 28000,
+    "baseSwimSpeed": 0.55,
+    "baseCoinYield": 20,
+    "emojiOrSprite": "🌌",
+    "visualBlueprint": {
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#E0F2FE",
+      "accentColor": "#86EFAC",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "moon_rabbit_slug",
+    "commonName": "月宮玉兔海蛞蝓",
+    "scientificName": "Jorunna parva lunar",
+    "description": "月宮神話降臨的治癒精靈，長著一對羊脂白玉般的長兔耳與軟萌尾巴，周身散發月魄銀光。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 21000,
+    "baseSwimSpeed": 0.65,
+    "baseCoinYield": 15,
+    "emojiOrSprite": "🐰",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "sun_crow_fish",
+    "commonName": "太陽三足金烏神魚",
+    "scientificName": "Helios corvus piscis",
+    "description": "山海經神鳥化身的水中烈陽，被日冕金焰包裹，身後拖曳三道赤金流光羽翎。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 26000,
+    "baseSwimSpeed": 1.15,
+    "baseCoinYield": 22,
+    "emojiOrSprite": "☀️",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "crystal_phoenix",
+    "commonName": "冰晶霜羽鳳凰魚",
+    "scientificName": "Anima glacialis phoenix",
+    "description": "由極地萬年永凍冰川凝結的神鳥化身，展開晶瑩透亮的霜雪羽翼與極光長尾。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 25000,
+    "baseSwimSpeed": 0.85,
+    "baseCoinYield": 18,
+    "emojiOrSprite": "❄️",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "lucky_clover_fish",
+    "commonName": "四葉草幸運金魚",
+    "scientificName": "Carassius trifolium fortuna",
+    "description": "春日奇蹟與幸福的守護者，通體如溫潤翡翠，尾鰭綻放為翠綠四葉草，帶來無盡好運。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 15000,
+    "baseSwimSpeed": 0.9,
+    "baseCoinYield": 12,
+    "emojiOrSprite": "🍀",
+    "visualBlueprint": {
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "nebula_manta_ray",
+    "commonName": "極光星雲魟魚",
+    "scientificName": "Mobula nebulosa astral",
+    "description": "在深空獵戶座星雲中滑翔的巨魟，天鵝絨星雲翼面上鑲嵌著閃爍的恆星導航節點。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 24000,
+    "baseSwimSpeed": 0.6,
+    "baseCoinYield": 17,
+    "emojiOrSprite": "🪐",
+    "visualBlueprint": {
+      "primaryColor": "#1E293B",
+      "secondaryColor": "#0F172A",
+      "accentColor": "#38BDF8",
+      "tailShape": "ribbon",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "wing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "stardust_seahorse",
+    "commonName": "彩虹星塵海馬",
+    "scientificName": "Hippocampus stardust spectrum",
+    "description": "由超新星彩虹光譜凝聚而成，背部拍動星之精靈薄翅，尾端輕抱一顆發光衛星。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 16000,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 14,
+    "emojiOrSprite": "🦄",
+    "visualBlueprint": {
+      "primaryColor": "#FACC15",
+      "secondaryColor": "#EAB308",
+      "accentColor": "#CA8A04",
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "chrono_fish",
+    "commonName": "時光沙漏幻影魚",
+    "scientificName": "Chronos phantasma tempus",
+    "description": "穿梭時空次元的古老神魚，透明沙漏身軀內翻湧著金色時間流沙與旋轉時鐘光環。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 27000,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 21,
+    "emojiOrSprite": "⏳",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "sakura_night_koi",
+    "commonName": "櫻雨夜光錦鯉",
+    "scientificName": "Cyprinus carpio yozakura",
+    "description": "和風春夜祭典的浪漫傳奇，深邃墨黑身軀上綻放螢光落櫻花瓣，身後拖曳粉色星痕。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 17000,
+    "baseSwimSpeed": 0.85,
+    "baseCoinYield": 13,
+    "emojiOrSprite": "🌸",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "abyssal_leviathan",
+    "commonName": "深淵幽冥利維坦",
+    "scientificName": "Leviathan abyssus tartarus",
+    "description": "海溝最深處沉睡的史前巨獸，披覆黑曜石重鎧，額頭燃燒著幽綠不滅的古魂之火。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 29000,
+    "baseSwimSpeed": 0.7,
+    "baseCoinYield": 24,
+    "emojiOrSprite": "👾",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "astral_dream_jelly",
+    "commonName": "星界夢境水母",
+    "scientificName": "Aurelia somnium astralis",
+    "description": "游弋於造夢者夢境的星界精靈，傘蓋內嵌發光星核，長長的星塵觸鬚如銀河瀑布。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 23000,
+    "baseSwimSpeed": 0.45,
+    "baseCoinYield": 19,
+    "emojiOrSprite": "🔮",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "fortune_ingot_fish",
+    "commonName": "招財金元寶神魚",
+    "scientificName": "Aurum sycee felicitas",
+    "description": "新春慶典限定至尊神魚，形如金光璀璨的黃金元寶，頭頂吉祥結，歡快吐出金幣泡泡。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 20000,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 25,
+    "emojiOrSprite": "💰",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "platinum_arowana",
+    "commonName": "白化雪白珍珠龍魚",
+    "scientificName": "Scleropages formosus platinum",
+    "description": "亞洲風水帝王傳奇，身披無瑕珍珠白玉鱗甲，金光流淌的長龍鬚與深邃紅寶石雙眸，象徵至尊貴氣。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 21000,
+    "baseSwimSpeed": 0.9,
+    "baseCoinYield": 13,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "ink_wash_angelfish",
+    "commonName": "東方水墨青花神龍仙",
+    "scientificName": "Pterophyllum sumi-e",
+    "description": "東方美學巔峰，宣紙白底融合潑墨水墨與景德鎮青花瓷釉，修長的絲帶腹鰭如水中古琴琴弦悠揚飄拂。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 19500,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 12,
+    "emojiOrSprite": "🖌️",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "basilisk_xuanwu",
+    "commonName": "玄武冥甲神龜魚",
+    "scientificName": "Xuanwu testudo abyssalis",
+    "description": "北方玄冥之神，水墨玄黑玄武重甲背負盤繞靈蛇，游動時玄冥水幕護體，鎮守北方幽境。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 30000,
+    "baseSwimSpeed": 0.5,
+    "baseCoinYield": 26,
+    "emojiOrSprite": "🐢",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "vermilion_bird_betta",
+    "commonName": "朱雀赤焰焚天鬥魚",
+    "scientificName": "Betta vermilion phoenix",
+    "description": "南方守護神獸朱雀化身，九尾熾火真羽與離火光環，游動時如南明離火焚天破空。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 31000,
+    "baseSwimSpeed": 1.1,
+    "baseCoinYield": 28,
+    "emojiOrSprite": "🪶",
+    "visualBlueprint": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#60A5FA",
+      "accentColor": "#F43F5E",
+      "tailShape": "lyre",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "azure_dragon_loong",
+    "commonName": "青龍東方震木神龍",
+    "scientificName": "Draco azureus orientalis",
+    "description": "東方七宿之尊青帝神龍，角端生碧玉鹿角，龍鬚乘青雲，游動時伴隨春雷微閃與萬物復甦生機。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 32000,
+    "baseSwimSpeed": 0.95,
+    "baseCoinYield": 30,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "white_tiger_barb",
+    "commonName": "白虎西方庚金劍齒魚",
+    "scientificName": "Tigris albus solaris",
+    "description": "西方戰神白虎化身，霜雪純白皮毛披覆庚金煞氣虎紋，修長劍齒閃耀白金鋒芒，威震八方四海。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 29000,
+    "baseSwimSpeed": 1.25,
+    "baseCoinYield": 27,
+    "emojiOrSprite": "🐅",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "qilin_auspicious_carp",
+    "commonName": "麒麟踏雲祥瑞鯉",
+    "scientificName": "Cyprinus qilin faustus",
+    "description": "太平盛世方現的仁獸麒麟所化，五彩龍鱗璀璨耀眼，鰭足踏金色祥雲，吐出五色祥瑞氣泡。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 28000,
+    "baseSwimSpeed": 0.85,
+    "baseCoinYield": 25,
+    "emojiOrSprite": "🦄",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "poseidon_trident_tuna",
+    "commonName": "波賽頓海神三叉戟旗魚",
+    "scientificName": "Istiophorus poseidon aegis",
+    "description": "希臘海神波塞頓化身，長吻化為黃金三叉戟，背鰭如海皇冠冕，周身環繞深海漩渦與神聖巨浪。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 30000,
+    "baseSwimSpeed": 1.3,
+    "baseCoinYield": 29,
+    "emojiOrSprite": "🔱",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "yggdrasil_world_tree_fish",
+    "commonName": "世界之樹尤克特拉希爾魚",
+    "scientificName": "Yggdrasil arbor mundi",
+    "description": "北歐九界宇宙樹精靈，透明身軀內生長古老世界樹根系，枝椏結出閃爍古老盧恩符文的生命果實。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 33000,
+    "baseSwimSpeed": 0.55,
+    "baseCoinYield": 32,
+    "emojiOrSprite": "🌳",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "midgard_serpent_jormungandr",
+    "commonName": "塵世巨蟒耶夢加得鰻",
+    "scientificName": "Jormungandr ouroboros nordicus",
+    "description": "北歐神話中首尾相銜環繞塵世的無盡古蛇，青銅鱗片倒映北極寒霜，游動時伴隨滅世雷暴微光。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 34000,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 33,
+    "emojiOrSprite": "🐍",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "anubis_underworld_guppy",
+    "commonName": "阿努比斯冥府審判魚",
+    "scientificName": "Anubis psychopomp aegyptius",
+    "description": "古埃及冥府引路神，長著黑曜石胡狼神耳與黃金 Nemes 髮巾，胸前懸掛瑪特真理之羽與聖甲蟲徽記。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 28000,
+    "baseSwimSpeed": 0.9,
+    "baseCoinYield": 25,
+    "emojiOrSprite": "⚖️",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "valkyrie_winged_angelfish",
+    "commonName": "女武神英靈羽翼神仙魚",
+    "scientificName": "Pterophyllum valkyrie aether",
+    "description": "奧丁座下女武神英靈衛士，展開如天鵝般聖潔的白金神翼，游動時灑落極光聖歌與英靈殿光塵。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 29000,
+    "baseSwimSpeed": 0.85,
+    "baseCoinYield": 27,
+    "emojiOrSprite": "🛡️",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "tarot_the_star_guppy",
+    "commonName": "塔羅・星星希望女神魚",
+    "scientificName": "Arcana XVII stella spei",
+    "description": "塔羅大阿爾克那 XVII「星星」，頭頂八角璀璨北極星之冕，胸鰭傾倒出永不乾涸的希望生命星之泉。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 27000,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 26,
+    "emojiOrSprite": "🌟",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "tarot_the_moon_nautilus",
+    "commonName": "塔羅・月亮深潛幻象鸚鵡螺",
+    "scientificName": "Arcana XVIII luna phantasma",
+    "description": "塔羅大阿爾克那 XVIII「月亮」，黃金螺旋螺殼刻印月相圓缺，觸鬚流淌潮汐銀光，映照潛意識夢境。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 28000,
+    "baseSwimSpeed": 0.45,
+    "baseCoinYield": 28,
+    "emojiOrSprite": "🌘",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "tarot_the_sun_lionfish",
+    "commonName": "塔羅・太陽光華榮耀獅子魚",
+    "scientificName": "Arcana XIX sol invictus",
+    "description": "塔羅大阿爾克那 XIX「太陽」，盛開如向日葵的十六道日芒金刺，散發驅散一切黑暗的純真溫暖陽光。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 30000,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 30,
+    "emojiOrSprite": "🌞",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "singularity_blackhole_fish",
+    "commonName": "超弦奇異點黑洞神魚",
+    "scientificName": "Singularis chao abyssus",
+    "description": "宇宙視界邊界之魚，體內塌縮成絕對虛無的重力黑洞，外圍環繞極速旋轉的發光吸積盤與引力透鏡光環。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 35000,
+    "baseSwimSpeed": 0.6,
+    "baseCoinYield": 35,
+    "emojiOrSprite": "🕳️",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#64748B",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bubble_eyes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "supernova_pulsar_ray",
+    "commonName": "超新星脈衝中子魟魚",
+    "scientificName": "Supernova neutron mobula",
+    "description": "恆星大爆炸毀滅重生的高能核心，雙側射出高頻脈衝電磁射線，星環極速旋轉，脈動如宇宙心跳。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 33000,
+    "baseSwimSpeed": 0.9,
+    "baseCoinYield": 31,
+    "emojiOrSprite": "💫",
+    "visualBlueprint": {
+      "primaryColor": "#1E293B",
+      "secondaryColor": "#0F172A",
+      "accentColor": "#38BDF8",
+      "tailShape": "ribbon",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "wing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "andromeda_galaxy_whale",
+    "commonName": "仙女座雙螺旋銀河巨鯨",
+    "scientificName": "Megaptera andromeda spiralis",
+    "description": "深空星系漫遊者，身側展開兩條由萬億恆星編織的仙女座雙螺旋星臂，游動時低鳴宇宙星系之歌。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 36000,
+    "baseSwimSpeed": 0.55,
+    "baseCoinYield": 36,
+    "emojiOrSprite": "🌌",
+    "visualBlueprint": {
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#E0F2FE",
+      "accentColor": "#86EFAC",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "mid_autumn_mooncake_koi",
+    "commonName": "中秋流心金沙月餅鯉",
+    "scientificName": "Cyprinus autumnus aureo-dulcis",
+    "description": "中秋節限定奇蹟，身軀如金黃流沙月餅酥皮，中心透出溫暖鹹蛋黃流心熔岩光芒，散發桂花星屑。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 18000,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 18,
+    "emojiOrSprite": "🥮",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "winter_snowglobe_clownfish",
+    "commonName": "冬雪水晶球聖誕小丑魚",
+    "scientificName": "Amphiprion nivalis claus",
+    "description": "聖誕冬雪限定，透明球形水晶身軀內飄落紛飛鵝毛白雪，頭戴紅絨聖誕帽，喜悅歡慶冬日時節。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 19000,
+    "baseSwimSpeed": 0.9,
+    "baseCoinYield": 20,
+    "emojiOrSprite": "🎅",
+    "visualBlueprint": {
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FFFFFF",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "stripes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "dia_de_muertos_marigold_fish",
+    "commonName": "亡靈節萬壽菊糖骷髏魚",
+    "scientificName": "Calavera caltha memorialis",
+    "description": "墨西哥亡靈節限定，斑斕多彩的華麗糖骷髏面譜，身側盛開金黃萬壽菊與引魂溫暖燭光，歌頌生命永恆。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 26000,
+    "baseSwimSpeed": 0.85,
+    "baseCoinYield": 24,
+    "emojiOrSprite": "💀",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "aurora_midsummer_dragon",
+    "commonName": "仲夏夜之夢極光精靈龍",
+    "scientificName": "Draco somnium astate",
+    "description": "北歐仲夏夜之夢精靈，螢火蟲光點群相隨，周身流轉午夜不落日之彩虹霞光與夢幻薄翼。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 27000,
+    "baseSwimSpeed": 1.05,
+    "baseCoinYield": 26,
+    "emojiOrSprite": "🧚",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "sea_sheep_slug",
+    "commonName": "綠葉海羊海蛞蝓",
+    "scientificName": "Costasiella kuroshimae",
+    "description": "琉球群島與大堡礁的微距奇蹟！通體如多肉植物般翠綠，頭頂兩隻萌萌的黑色綿羊長角，兩側密布行光合作用的綠葉露珠，小黑豆眼無比呆萌。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 7800,
+    "baseSwimSpeed": 0.55,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🐑",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "fluffy_sea_bunny",
+    "commonName": "雪白碎毛海兔",
+    "scientificName": "Jorunna parva",
+    "description": "日本海與太平洋的萌神天花板！毛茸茸純白身軀點綴細微小黑絨毛，頭頂立著一對黑天鵝絨兔耳，尾部頂著小雪球般的呼吸花簇，游動時如雪兔漫步。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8000,
+    "baseSwimSpeed": 0.5,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🐰",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "blue_dragon_glaucus",
+    "commonName": "大西洋海神海蛞蝓",
+    "scientificName": "Glaucus atlanticus",
+    "description": "大洋表層漂浮的夢幻藍龍！銀藍色修長體態，向兩側伸展出三對如孔雀羽翼般的六芒星指狀翼手，游動時如神話冰龍在水下翱翔。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 10000,
+    "baseSwimSpeed": 0.7,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "spanish_dancer_slug",
+    "commonName": "西班牙舞娘海蛞蝓",
+    "scientificName": "Hexabranchus sanguineus",
+    "description": "全球體型最大的裸鰓類舞者！熱情似火的鮮紅身軀鑲嵌雪白波浪蕾絲裙邊，游動時大幅翻滾波浪裙擺，宛如佛朗明哥舞者在水中旋轉。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8400,
+    "baseSwimSpeed": 0.65,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "💃",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "pacific_golden_nudibranch",
+    "commonName": "太平洋雙角金黃海蛞蝓",
+    "scientificName": "Thecacera pacifica",
+    "description": "珊瑚礁中極受歡迎的電光金黃萌獸！半透明金黃亮黃身軀，頭頂聳立兩隻黑藍漸層的修長耳朵觸角，宛如海底的微型金黃小精靈。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 6400,
+    "baseSwimSpeed": 0.65,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "⚡️",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "pygmy_squid",
+    "commonName": "迷你侏儒小烏賊",
+    "scientificName": "Idiosepius pygmaeus",
+    "description": "世界上最小的頭足類精靈！指甲蓋大小的半透明晶瑩身軀，圓滾滾的大眼珠，背部帶有發光微粒，游動時小觸手蜷曲在身前害羞探頭。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5200,
+    "baseSwimSpeed": 1.15,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🦑",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "achilles_tang",
+    "commonName": "阿基里斯紅心倒吊",
+    "scientificName": "Acanthurus achilles",
+    "description": "太平洋浪湧帶的極速黑武士！曜黑絲絨般的高雅身軀，尾柄長著一塊鮮明如烈火般燃燒的橘紅水滴心形斑，背臀鰭緣閃耀著電光冰藍光邊。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 6600,
+    "baseSwimSpeed": 1.15,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🖤",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "harlequin_shrimp",
+    "commonName": "夏威夷貴賓丑蝦",
+    "scientificName": "Hymenocera picta",
+    "description": "珊瑚礁最精緻的高雅紳士！象牙白外骨骼滿布粉紫與天藍圓斑，高高舉起一對如貴婦蕾絲芭蕉扇般的扁平巨螯，步態優雅俏皮。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 6000,
+    "baseSwimSpeed": 0.7,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "copperband_butterfly",
+    "commonName": "三間火箭蝶魚",
+    "scientificName": "Chelmon rostratus",
+    "description": "珊瑚礁中的神箭手！修長如鑷子的管狀吻部，銀白碟形身軀貫穿四道亮橘金色黑邊垂直斑紋，後背鰭嵌有一顆以假亂真的黑金假眼斑。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5600,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🏹",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "harlequin_ghost_pipefish",
+    "commonName": "哈雷鬼海龍",
+    "scientificName": "Solenostomus paradoxus",
+    "description": "擬態海百合的極致幽靈！全身布滿華麗如哥德蕾絲的紅黃黑相間棘刺羽枝，常常倒立懸浮在洋流中隨波飄舞，神秘而夢幻。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8600,
+    "baseSwimSpeed": 0.5,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "👻",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "bicolor_blenny",
+    "commonName": "雙色蝦虎鳚魚",
+    "scientificName": "Ecsenius bicolor",
+    "description": "珊瑚礁最逗趣的半半撞色小精靈！前半身深邃寶藍靛紫，後半身溫暖鮮明金黃，大大的眼睛上方長著長長的睫毛觸鬚，喜歡倒退回洞。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 4800,
+    "baseSwimSpeed": 1.1,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🎨",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "banggae_cardinal",
+    "commonName": "泗水玫瑰天竺鯛",
+    "scientificName": "Pterapogon kauderni",
+    "description": "印尼泗水特有的皇家瑰寶！珍珠銀白底色上烙印三道深黑垂直粗紋，高聳尖長的旗狀背鰭與修長分叉尾鰭上點綴著璀璨的微型銀河星斑。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5400,
+    "baseSwimSpeed": 0.9,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "✨",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "spotted_wobbegong",
+    "commonName": "大堡礁斑點鬚鯊",
+    "scientificName": "Orectolobus maculatus",
+    "description": "珊瑚礁白沙上的慵懶地毯大師！扁平的沙褐色身軀布滿美麗的豹紋甜甜圈圈斑，吻部四周垂著一圈療癒的珊瑚流蘇鬚鬚，性格溫馴可愛。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 9000,
+    "baseSwimSpeed": 0.6,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": {
+      "primaryColor": "#334155",
+      "secondaryColor": "#64748B",
+      "accentColor": "#0F172A",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "humpback_calf",
+    "commonName": "座頭鯨幼崽",
+    "scientificName": "Megaptera novaeangliae calf",
+    "description": "太平洋的海洋歌者小寶寶！圓滾滾的深藍灰身軀，下頜布滿可愛的小肉瘤，展開一對不成比例的雪白巨大胸鰭，歡快地在水中翻滾划鰭拍水。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 17500,
+    "baseSwimSpeed": 0.65,
+    "baseCoinYield": 9,
+    "emojiOrSprite": "🐳",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "orca_calf",
+    "commonName": "虎鯨幼崽",
+    "scientificName": "Orcinus orca calf",
+    "description": "頂級掠食者的軟萌童年！身披筆挺優雅的黑白燕尾服，圓溜溜的大眼睛上方長著萌萌的白色橢圓眼斑，小背鰭短圓，充滿好奇心與活力。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 18500,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 10,
+    "emojiOrSprite": "🐬",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "whale_shark_pup",
+    "commonName": "豆腐鯊小鯨鯊幼崽",
+    "scientificName": "Rhincodon typus pup",
+    "description": "海洋中最溫柔的巨星幼崽！扁平寬大的招牌微笑大嘴，鋼藍色背部整齊排列著如棋盤星象般規律的純白圓點與直紋，游動時呆萌踏實。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 16000,
+    "baseSwimSpeed": 0.7,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "🐋",
+    "visualBlueprint": {
+      "primaryColor": "#334155",
+      "secondaryColor": "#64748B",
+      "accentColor": "#0F172A",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "dugong_calf",
+    "commonName": "美人魚儒艮幼崽",
+    "scientificName": "Dugong dugon calf",
+    "description": "傳說中美人魚原型的小萌物！胖嘟嘟的溫暖灰粉色身軀，向下彎曲的馬蹄形大吻部，小嘴含著一小片翠綠海草，慢吞吞地拍打月牙尾巴。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 9800,
+    "baseSwimSpeed": 0.65,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🫧",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "manta_calf",
+    "commonName": "鬼蝠魟幼崽",
+    "scientificName": "Mobula birostris calf",
+    "description": "漫遊大洋的深海風箏！天鵝絨墨黑背部配上雪白肩紋，頭頂一對如小精靈角般的靈動頭鰭，展開如大鳥般的寬闊雙翼在水族箱中悠揚滑翔。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 10800,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🪁",
+    "visualBlueprint": {
+      "primaryColor": "#1E293B",
+      "secondaryColor": "#0F172A",
+      "accentColor": "#38BDF8",
+      "tailShape": "ribbon",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "wing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "sunfish_mola",
+    "commonName": "圓滾滾翻車魚幼魚",
+    "scientificName": "Mola mola pup",
+    "description": "大洋中最無厘頭的扁圓薄餅！幾乎沒有尾巴，身後是一圈花邊舵鰭，上下立著兩面如長槳般的巨大鰭條同步划水，常年保持張嘴驚呆臉。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 9400,
+    "baseSwimSpeed": 0.6,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🥞",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "beluga_calf",
+    "commonName": "微笑天使小白鯨幼崽",
+    "scientificName": "Delphinapterus leucas calf",
+    "description": "北極與海洋館的微笑天使！頭頂圓潤飽滿的Q彈額隆，自帶上揚無辜的治癒微笑嘴角，通體如溫潤珍珠母貝，親暱地翻滾划鰭。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 19500,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 11,
+    "emojiOrSprite": "🤍",
+    "visualBlueprint": {
+      "primaryColor": "#FFFFFF",
+      "secondaryColor": "#E0F2FE",
+      "accentColor": "#86EFAC",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "kohaku_koi",
+    "commonName": "日本紅白錦鯉",
+    "scientificName": "Cyprinus carpio kohaku",
+    "description": "日本錦鯉御三家之首，被譽為「始於紅白，終於紅白」。雪白如玉的肌底上，宛如朝霞般暈染著兩段至三段階梯狀的赤紅緋斑，氣質沉穩大氣。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5600,
+    "baseSwimSpeed": 0.85,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🎏",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "taisho_sanke_koi",
+    "commonName": "日本大正三色錦鯉",
+    "scientificName": "Cyprinus carpio sanke",
+    "description": "日本錦鯉御三家之雅，大正年間確立的經典銘種。白底上交融著鮮明硃砂緋斑與如水墨點染般的曜黑穴墨斑，胸鰭帶有精巧的黑條紋。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8400,
+    "baseSwimSpeed": 0.85,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🎨",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "tosakin_goldfish",
+    "commonName": "日本土佐金魚",
+    "scientificName": "Carassius auratus tosakin",
+    "description": "日本高知縣指定天然紀念物，有「金魚之后」美譽。圓短身軀後方連接著極致反轉的扇狀大尾鰭，兩端向前捲曲如盛開荷花或江戶和服裙襬。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 7600,
+    "baseSwimSpeed": 0.55,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🪭",
+    "visualBlueprint": {
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "jikin_goldfish",
+    "commonName": "日本地金魚 (六鱗)",
+    "scientificName": "Carassius auratus jikin",
+    "description": "日本愛知縣指定天然紀念物。遵循江戶古法呈現極致對稱美學，全身如羊脂白玉，僅口唇、兩腮蓋、背鰭、臀鰭及孔雀開屏般的尾鰭六處染上艷紅「六鱗」。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 7400,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "💮",
+    "visualBlueprint": {
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "wakin_goldfish",
+    "commonName": "江戶和金",
+    "scientificName": "Carassius auratus wakin",
+    "description": "江戶庶民夏日祭典金魚掬的原型！保留鯽魚般的流線型矯健身姿與活潑生命力，拖曳著分叉的三尾紅鰭，在水盆中歡快穿梭。",
+    "rarity": "Common",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 2200,
+    "baseSwimSpeed": 1.15,
+    "baseCoinYield": 1,
+    "emojiOrSprite": "🏮",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "azuma_nishiki",
+    "commonName": "東錦五花金魚",
+    "scientificName": "Carassius auratus calico",
+    "description": "昭和初年在東京由三色出目金與獅頭金魚交配培育的「東洋之錦」。通體如潑墨藍花瓷，散落著群青淺藍、硃砂赤斑與細密黑芝麻墨點，頭頂肉瘤飽滿。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5400,
+    "baseSwimSpeed": 0.65,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🫐",
+    "visualBlueprint": {
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "chousho_goldfish",
+    "commonName": "頂心紅十二紅頂金魚",
+    "scientificName": "Carassius auratus apex",
+    "description": "中國宮廷古典水墨極品金魚。通體銀白如雪不帶一絲雜質，全身唯有頭頂正中一抹頂心硃砂紅，以及十二處鰭尖點綴著胭脂紅印，空靈縹緲具禪意。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8800,
+    "baseSwimSpeed": 0.65,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🪷",
+    "visualBlueprint": {
+      "primaryColor": "#EA580C",
+      "secondaryColor": "#F97316",
+      "accentColor": "#FACC15",
+      "tailShape": "fan",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "flowing_fins"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "dragon_eye_goldfish",
+    "commonName": "水墨黑龍睛金魚",
+    "scientificName": "Carassius auratus dragon",
+    "description": "中國古典水墨畫中最具威嚴的龍睛。如算盤珠般向兩側突出的大眼球宛如黑曜石，通體天鵝絨純黑，尾鰭寬大如太極水墨流轉。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 4800,
+    "baseSwimSpeed": 0.6,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "👁️",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#64748B",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bubble_eyes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "sumi_e_carp",
+    "commonName": "潑墨山水神鯉",
+    "scientificName": "Cyprinus sumi-e landscape",
+    "description": "彷彿自宋代潑墨山水畫軸中躍出的文人神魚。宣紙白底上濃淡水墨層層暈染，背脊若隱若現遠山蒼翠與流雲墨韻，身側閃爍著若有似無的金箔粒子。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 21500,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 14,
+    "emojiOrSprite": "🖌️",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "taiwan_bitterling",
+    "commonName": "台灣玫瑰牛屎鯽",
+    "scientificName": "Rhodeus ocellatus ocellatus",
+    "description": "台灣傳統水田、古圳與埤塘的鄉土瑰寶。發情時雄魚披上令人驚豔的玫瑰粉紅與孔雀藍綠光澤婚姻色，與田蚌共生繁衍，充滿台灣農村的溫馨回憶。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 3800,
+    "baseSwimSpeed": 1.05,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "🌹",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "taiwan_spade_goby",
+    "commonName": "台灣紅斑吻鰕虎",
+    "scientificName": "Rhinogobius formosanus",
+    "description": "台灣清澈溪流中頂級的「趴石小精靈」。雙頰密布鮮豔的硃砂紅點與藍色蟲紋，大眼睛靈動轉動，腹鰭特化為吸盤牢牢吸附溪石，呆萌好動。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 4200,
+    "baseSwimSpeed": 0.7,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🦎",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "dwarf_snakehead_assam",
+    "commonName": "阿薩姆藍月雷龍",
+    "scientificName": "Channa andrao",
+    "description": "產於印度阿薩姆山麓的迷人小型原生雷龍。修長蛇形身軀閃耀著深邃的金屬電光靛藍，巨大的背鰭與尾鰭外緣鑲嵌著極致鮮豔的落日赤橙螢光邊框。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8600,
+    "baseSwimSpeed": 0.95,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🌙",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "fire_eel_asia",
+    "commonName": "亞洲烈焰火刺鰍",
+    "scientificName": "Mastacembelus erythrotaenia",
+    "description": "東南亞湄公河流域的神秘夜行長鰍。深褐如黑夜的絲滑蛇形身軀上，燃燒著數道鮮紅如熔岩火苗般的橫縱條紋，長吻柔軟敏感，在水草間游動如火焰穿行。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 9000,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🐍",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "pearl_gourami",
+    "commonName": "珍珠絲足鱸",
+    "scientificName": "Trichopodus leerii",
+    "description": "東南亞熱帶泥炭沼澤的優雅紳士。全身覆蓋著如同上萬顆微型珍珠般的白銀光點，喉部與胸膛染上一抹落日紅霞，胸前垂著兩根如探針般靈活探索的絲狀觸鬚。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 4600,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🦪",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "sparkling_pygmy_gourami",
+    "commonName": "璀璨藍眼精靈鱸",
+    "scientificName": "Trichopsis pumila",
+    "description": "東南亞密林小水潭的袖珍奇蹟（體長僅約 3 公分）。擁有藍寶石般發光的璀璨電光雙眸，求偶或興奮時能震動胸鰭發出清脆的「唧唧」鳴叫聲，充滿靈性。",
+    "rarity": "Common",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 2400,
+    "baseSwimSpeed": 1.05,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "✨",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "asian_bumblebee_catfish",
+    "commonName": "亞洲大黃蜂短鯰",
+    "scientificName": "Pseudomystus siamensis",
+    "description": "泰國與湄公河底棲的呆萌小胖子！短胖圓滾的身軀上長滿極為醒目的黑白黃粗斑馬蜂條紋，嘴角翹著四對可愛的白色短貓鬚，最愛躲在沈木底下吃小點心。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 3900,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "🐝",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "celestial_pearl_danio",
+    "commonName": "緬甸星空火翅金斑",
+    "scientificName": "Danio margaritatus",
+    "description": "緬甸高原茵萊湖盆地的瑰麗活化石。深海軍藍天鵝絨般的體側點綴著如繁星密布的亮金珍珠圓點，背鰭與尾鰭展開時如同燃燒的熾紅烈火，小巧卻光彩奪目。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 4300,
+    "baseSwimSpeed": 1.1,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🌌",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "harlequin_rasbora",
+    "commonName": "巽他黑三角小波魚",
+    "scientificName": "Trigonostigma heteromorpha",
+    "description": "馬來半島與蘇門答臘古老雨林黑水溪流的象徵。通體呈現溫潤古銅金與粉紫光澤，後半身印著一道俐落經典的深黑倒三角標記，成群結隊游動如行軍儀隊。",
+    "rarity": "Common",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 2600,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "📐",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#64748B",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bubble_eyes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "kuhli_loach",
+    "commonName": "蘇門答臘黑金苦力鰍",
+    "scientificName": "Pangio kuhlii",
+    "description": "東南亞熱帶軟萌香腸小泥鰍。細長柔軟的身軀穿著黑褐與暖金黃相間的環狀斑馬紋，長著小鬍鬚，經常像逗趣的麵條般在水草根部與砂石間穿梭翻滾。",
+    "rarity": "Common",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 2900,
+    "baseSwimSpeed": 0.7,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "🥖",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#64748B",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bubble_eyes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "crossback_golden_arowana",
+    "commonName": "馬來西亞極品過背金龍",
+    "scientificName": "Scleropages formosus golden",
+    "description": "馬來西亞武吉美拉湖原產的亞洲風水帝王！全身覆蓋著 24K 純金厚重金屬鱗片，金質完全跨越背脊，金心映襯著藍底紫光，龍鬚威嚴挺拔，尊貴無雙。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 22000,
+    "baseSwimSpeed": 0.9,
+    "baseCoinYield": 15,
+    "emojiOrSprite": "🔱",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "royal_pleco",
+    "commonName": "皇冠豹異型",
+    "scientificName": "Panaque nigrolineatus",
+    "description": "奧利諾科與亞馬遜深潭裝甲巨獸（L190），全身覆蓋厚實重裝甲骨板與深邃木質紋理，赤紅明亮的大眼與強力吸盤嘴，在水沉木間刮食木質纖維。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5400,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🪵",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "gold_nugget_pleco",
+    "commonName": "黃金達摩異型",
+    "scientificName": "Baryancistrus xanthellus",
+    "description": "亞馬遜辛古河的黃金裝甲奇蹟（L018），曜黑天鵝絨體表密布著如繁星般的璀璨金黃圓點，背鰭與尾鰭尖端鑲嵌著奢華耀眼的亮金黃寬邊。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8400,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "✨",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "zebra_pleco",
+    "commonName": "辛古帝王斑馬異型",
+    "scientificName": "Hypancistrus zebra",
+    "description": "亞馬遜辛古河特有種國寶（L046），被譽為「異型界的黑白藝術品」。雪白純淨底色上交織著極致對比的墨黑斑馬線條，高聳背鰭如白底黑斑戰旗。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 9500,
+    "baseSwimSpeed": 0.85,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🦓",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "arapaima_gigas",
+    "commonName": "亞馬遜巨骨舌魚",
+    "scientificName": "Arapaima gigas",
+    "description": "亞馬遜流域的史前活化石霸主「巨龍象魚」，擁有古老骨質重鎧頭顱，體後段至尾鰭覆蓋著如燃燒火焰般的血紅碩大鱗甲，威嚴而震撼。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 23000,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 16,
+    "emojiOrSprite": "🐉",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "electric_eel",
+    "commonName": "亞馬遜高壓電鰻",
+    "scientificName": "Electrophorus electricus",
+    "description": "奧利諾科與亞馬遜黑水沼澤的雷霆主宰，圓筒蛇形身軀流淌著高達 860V 的生物強電，喉腹部呈溫暖焦橘色，全身伴隨滋滋電弧粒子。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 11500,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "⚡",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "amazon_leaf_fish",
+    "commonName": "亞馬遜偽裝枯葉魚",
+    "scientificName": "Monocirrhus polyacanthus",
+    "description": "亞馬遜雨林落葉水域的終極偽裝大師，身體扁平呈枯黃落葉狀，下顎長有一根模擬葉柄的小觸鬚，隨水流傾斜漂蕩，極具擬態智慧。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 4800,
+    "baseSwimSpeed": 0.7,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🍂",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "red_bellied_piranha",
+    "commonName": "亞馬遜紅腹食人魚",
+    "scientificName": "Pygocentrus nattereri",
+    "description": "亞馬遜狂野水域的傳奇群獵者，深灰藍背部灑落點點金粉銀屑，下顎與胸腹部燃燒著刺目的鮮血赤紅，微凸的下顎排滿鋒利鋸齒。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5200,
+    "baseSwimSpeed": 1.15,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🩸",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "black_ghost_knifefish",
+    "commonName": "幽靈黑魔鬼翎電鰻",
+    "scientificName": "Apteronotus albifrons",
+    "description": "亞馬遜夜行性弱電精靈，全身如絲絨夜幕般深邃純黑，額頭貫穿一道雪白鼻線，尾柄環繞兩圈聖白光環，下腹長鰭如波浪般流暢前進倒退。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8800,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "👻",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#64748B",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bubble_eyes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "redtail_catfish",
+    "commonName": "亞馬遜紅尾鴨嘴鯰",
+    "scientificName": "Phractocephalus hemioliopterus",
+    "description": "亞馬遜雨林著名的「紅尾巨怪皮拉拉拉」，擁有寬闊扁平的鴨嘴與長長白鬚，黑背與雪白腹部形成鮮明對比，尾鰭與背鰭染上熾熱鮮紅。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 9800,
+    "baseSwimSpeed": 0.85,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🔴",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "silver_arowana",
+    "commonName": "亞馬遜銀帶飛龍魚",
+    "scientificName": "Osteoglossum bicirrhosum",
+    "description": "亞馬遜水面的「銀色飛刀水上龍」，長條形流線魚身閃爍著金屬銀白與微淡粉藍光澤，下顎長有一對敏感短鬚，游動時宛如水下巨型銀綢。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 6500,
+    "baseSwimSpeed": 0.9,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🗡️",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "altum_angelfish",
+    "commonName": "奧利諾科高身埃及神仙",
+    "scientificName": "Pterophyllum altum",
+    "description": "奧利諾科黑水河流的至尊神仙魚，擁有極高聳挺拔的帆狀背鰭與如柳絲般的超長腹鰭，特有的高額凹鼻與巧克力紅褐橫紋，氣派非凡。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8600,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "👑",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "german_blue_ram",
+    "commonName": "奧利諾科七彩荷蘭鳳凰短鯛",
+    "scientificName": "Mikrogeophagus ramirezi",
+    "description": "奧利諾科平原水域的熱帶寶石，體表交織著夢幻的電光青藍螢光鱗片、金黃頭部與腹部的粉桃紅斑，背鰭前緣挺立著帥氣的黑色皇冠刺棘。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 4600,
+    "baseSwimSpeed": 0.85,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "💎",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "cardinal_tetra",
+    "commonName": "奧利諾科頂級紅蓮燈",
+    "scientificName": "Paracheirodon axelrodi",
+    "description": "奧利諾科與內格羅河黑水森林中的永恆經典，一整條橫貫頭尾的電光藍綠霓虹線，下半身全幅覆蓋著濃郁飽和的烈焰血紅，群游時如水底流星雨。",
+    "rarity": "Common",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 2200,
+    "baseSwimSpeed": 1.1,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "🏮",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0284C7",
+      "accentColor": "#DC2626",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "neon_stripe"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "sterbai_corydoras",
+    "commonName": "斯威卡珍珠鼠魚",
+    "scientificName": "Corydoras sterbai",
+    "description": "亞馬遜流域極具人氣的裝甲底棲小精靈，圓滾滾深色體表密布著精緻珍珠白斑點，胸鰭呈現亮眼金黃橘色，呆萌的小鬍鬚隨時在沙底尋寶。",
+    "rarity": "Common",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 2600,
+    "baseSwimSpeed": 0.9,
+    "baseCoinYield": 2,
+    "emojiOrSprite": "🐾",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "african_butterfly_fish",
+    "commonName": "剛果非洲飛蝶魚",
+    "scientificName": "Pantodon buchholzi",
+    "description": "西非與剛果河上層水域的古老奇特滑翔者，展開一對如同蝴蝶翅膀般的斑斕巨型胸鰭，腹鰭特化為修長絲狀觸手，守候在水面伺機捕食。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5600,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🦋",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "frontosa_cichlid",
+    "commonName": "坦干依喀薩伊藍六間慈鯛",
+    "scientificName": "Cyphotilapia frontosa",
+    "description": "非洲坦干依喀湖深邃冷水層的尊貴帝王，頭部隆起標誌性圓潤的薩伊湛藍肉瘤額頭，冰藍體側筆直橫列六道深邃曜黑寬斑，王者威儀盡顯。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 10500,
+    "baseSwimSpeed": 0.8,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🔷",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "lemon_cichlid",
+    "commonName": "坦干依喀黃金檸檬雀慈鯛",
+    "scientificName": "Neolamprologus leleupi",
+    "description": "非洲坦干依喀湖岩礁區的明艷日光，通體均勻覆蓋著純淨濃郁的檸檬金黃色，背鰭與尾鰭邊緣隱隱流淌著極具質感的冰藍螢光細線。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 4900,
+    "baseSwimSpeed": 1.05,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🍋",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "fairy_cichlid",
+    "commonName": "坦湖布隆迪公主天堂鳥",
+    "scientificName": "Neolamprologus brichardi",
+    "description": "坦干依喀湖的「布隆迪公主」，如芭蕾舞者般飄逸優雅。魚鰭延伸出雪白絲帶狀的雙琴尾，臉頰有著神秘的黑色 T 字紋與一抹螢光水藍眼眸。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5300,
+    "baseSwimSpeed": 0.95,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🕊️",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "bichir_endlicheri",
+    "commonName": "非洲虎斑恐龍王古魚",
+    "scientificName": "Polypterus endlicheri",
+    "description": "尼羅河與西非流域的古生代多鰭古魚「恐龍王」，背部長著 11~14 支如風帆般的獨立小旗背鰭，披覆重裝甲硬鱗與粗獷虎斑，以強壯肉鰭在水底漫步。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 11000,
+    "baseSwimSpeed": 0.7,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🦖",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "flameback_cichlid",
+    "commonName": "維多利亞湖赤焰火烈鳥慈鯛",
+    "scientificName": "Pundamilia nyererei",
+    "description": "維多利亞湖島嶼岩礁的烈焰之花，整個背脊燃燒著熾熱火紅的赤金紅暈，腹側則為耀眼的硫磺黃色並帶有暗色虎紋，在光線下閃爍如跳動的火燄。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 5100,
+    "baseSwimSpeed": 1.1,
+    "baseCoinYield": 3,
+    "emojiOrSprite": "🔥",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "black_seadevil",
+    "commonName": "深海黑角鮟鱇",
+    "scientificName": "Melanocetus johnsonii",
+    "description": "棲息於千米幽冥帶的深淵提燈惡魔，漆黑如墨的巨口長滿尖銳獠牙，頭頂引誘獵物的擬餌桿散發著幽藍冰冷的生物發光微光。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 12500,
+    "baseSwimSpeed": 0.65,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🕯️",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#64748B",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bubble_eyes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "vampire_squid",
+    "commonName": "深海幽靈吸血鬼烏賊",
+    "scientificName": "Vampyroteuthis infernalis",
+    "description": "來自萬米深海的古老頭足類活化石，披覆著暗紅絲絨斗篷般的肉膜觸腕，受驚時會翻起發光刺針斗篷並釋放發光微粒。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 13500,
+    "baseSwimSpeed": 0.55,
+    "baseCoinYield": 7,
+    "emojiOrSprite": "🧛",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "giant_isopod",
+    "commonName": "深淵大王具足蟲",
+    "scientificName": "Bathynomus giganteus",
+    "description": "深海海底的裝甲清道夫，身披層層交疊的淡紫粉白甲殼與十四隻靈活步足，如外星機械戰車般在海底沉積物上安靜漫步。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8500,
+    "baseSwimSpeed": 0.45,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🛡️",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "colossal_squid",
+    "commonName": "南極深淵大王酸漿魷",
+    "scientificName": "Mesonychoteuthis hamiltoni",
+    "description": "南極極地幽冥中的終極頭足巨怪，擁有地球生物最大的車輪眼眸，粗壯觸腕上裝備著可360度旋轉的致命雙排旋轉利爪。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 22000,
+    "baseSwimSpeed": 0.75,
+    "baseCoinYield": 16,
+    "emojiOrSprite": "👁️",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "gulper_eel",
+    "commonName": "深海大嘴吞噬鰻",
+    "scientificName": "Eurypharynx pelecanoides",
+    "description": "擁有不成比例巨大鬆垮下顎的深海奇獸，能吞下比自身大數倍的獵物，細長如皮鞭的長尾末端閃爍著一顆紅色警示發光球。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 14000,
+    "baseSwimSpeed": 0.6,
+    "baseCoinYield": 7,
+    "emojiOrSprite": "🏮",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "stygian_jellyfish",
+    "commonName": "冥河黑袍巨水母",
+    "scientificName": "Stygiomedusa gigantea",
+    "description": "萬米海溝中極罕見的幽靈泰坦，暗赤褐色的巨型傘蓋下垂曳著四條長達十公尺的絲絨緞帶口腕，宛如深海死神的黑袍隨波翻飛。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 24000,
+    "baseSwimSpeed": 0.4,
+    "baseCoinYield": 18,
+    "emojiOrSprite": "🪼",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#64748B",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bubble_eyes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "barreleye_fish",
+    "commonName": "太平洋翡翠桶眼魚",
+    "scientificName": "Macropinna microstoma",
+    "description": "頭頂覆蓋著全透明充滿液體的圓形翡翠護罩，護罩內綠寶石般的管狀球形眼球可向上凝視透光海面，宛如深海漫遊太空艙。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 12000,
+    "baseSwimSpeed": 0.7,
+    "baseCoinYield": 6,
+    "emojiOrSprite": "🟢",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "riftia_tubeworm",
+    "commonName": "熱液黑煙囪巨型管蟲",
+    "scientificName": "Riftia pachyptila",
+    "description": "生長於海底黑煙囪350°C熱液旁的耐極端生物，從堅硬白玉幾丁質管中探出鮮血般赤紅的羽狀鰓羽，仰賴共生硫化菌化學合成生命。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 9000,
+    "baseSwimSpeed": 0.35,
+    "baseCoinYield": 5,
+    "emojiOrSprite": "🌋",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#64748B",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bubble_eyes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "yeti_crab",
+    "commonName": "深海金絲雪人蟹",
+    "scientificName": "Kiwa hirsuta",
+    "description": "南太平洋熱液噴口旁的白色毛茸萌物，雙螯覆蓋著如絲綢般的金黃剛毛，在熱浪中持續揮舞雙螯培育發光硫化菌。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 9200,
+    "baseSwimSpeed": 0.5,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🦀",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "scaly_foot_snail",
+    "commonName": "火山黃鐵礦鐵甲螺",
+    "scientificName": "Chrysomallon squamiferum",
+    "description": "印度洋黑煙囪底部的鋼鐵生命，外殼與足部覆蓋著由天然二硫化鐵（黃鐵礦與硫複鐵礦）鑄造的黑金金屬裝甲鱗片，堅不可摧。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 15000,
+    "baseSwimSpeed": 0.35,
+    "baseCoinYield": 8,
+    "emojiOrSprite": "⚙️",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "rimicaris_shrimp",
+    "commonName": "黑煙囪熱感盲蝦",
+    "scientificName": "Rimicaris exoculata",
+    "description": "群聚於千度熱液噴口沸水邊緣的奇蹟盲蝦，背部演化出獨特的熱感光感受器「背眼」，能看見熱液黑煙囪噴發的紅外熱輻射微光。",
+    "rarity": "Rare",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 8800,
+    "baseSwimSpeed": 0.9,
+    "baseCoinYield": 4,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": {
+      "primaryColor": "#0F172A",
+      "secondaryColor": "#334155",
+      "accentColor": "#64748B",
+      "tailShape": "butterfly",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "bubble_eyes"
+      ]
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "pompeii_worm",
+    "commonName": "熾熱龐貝烈焰蠕蟲",
+    "scientificName": "Alvinella pompejana",
+    "description": "地球上最耐高溫的多細胞動物，身體常年承受高達80°C的熾熱高溫，背部覆蓋著毛茸茸的隔熱菌絲絨毛，隨火山熱泉律動。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 13000,
+    "baseSwimSpeed": 0.5,
+    "baseCoinYield": 7,
+    "emojiOrSprite": "🔥",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "lava_vent_anemone",
+    "commonName": "熔岩玄武岩鬼海葵",
+    "scientificName": "Cyanagraea praedator ventis",
+    "description": "扎根於海底玄武岩熔岩縫隙的烈焰海葵，半透明觸鬚流淌著岩漿般的熾橘金黃螢光，隨洋流如火焰花瓣般優雅搖曳。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 14500,
+    "baseSwimSpeed": 0.4,
+    "baseCoinYield": 7,
+    "emojiOrSprite": "🪸",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "dunkleosteus",
+    "commonName": "泥盆紀霸主鄧氏魚",
+    "scientificName": "Dunkleosteus terrelli",
+    "description": "泥盆紀晚期的頂級掠食霸主，頭胸部披覆著重型青銅厚骨板裝甲，口中由自磨骨板構成如巨大液壓鍘刀般的恐怖巨刃。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 26000,
+    "baseSwimSpeed": 0.95,
+    "baseCoinYield": 21,
+    "emojiOrSprite": "💀",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "mosasaurus",
+    "commonName": "白堊紀海皇滄龍",
+    "scientificName": "Mosasaurus hoffmannii",
+    "description": "白堊紀末期的海洋終極統治者，長達17公尺的流線巨型爬行海怪，擁有雙鉸鏈巨顎、強大划水鰭肢與雙葉槳狀巨尾。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 28000,
+    "baseSwimSpeed": 1.1,
+    "baseCoinYield": 23,
+    "emojiOrSprite": "🐊",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "anomalocaris",
+    "commonName": "寒武紀霸王奇蝦",
+    "scientificName": "Anomalocaris canadensis",
+    "description": "寒武紀大爆發的地球首位頂級霸王！兩側生長著波浪狀靈活葉片游動鰭，頭部伸出一對帶刺前附肢與放射狀圓環利齒巨口。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 23000,
+    "baseSwimSpeed": 1.05,
+    "baseCoinYield": 18,
+    "emojiOrSprite": "🦐",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "opal_ammonite",
+    "commonName": "黃金彩虹幾何菊石",
+    "scientificName": "Ammonoidea chrysos opalus",
+    "description": "中生代海洋的幾何瑰寶，外殼呈現完美黃金分割對數螺旋，歷經億萬年轉化為流光溢彩的斑彩寶石，觸腕在水中輕柔擺動。",
+    "rarity": "Epic",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 17500,
+    "baseSwimSpeed": 0.6,
+    "baseCoinYield": 14,
+    "emojiOrSprite": "🐚",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "liopleurodon",
+    "commonName": "侏儸紀巡獵滑齒龍",
+    "scientificName": "Liopleurodon ferox",
+    "description": "侏儸紀海洋的短頸上龍頂級掠食者，擁有四隻巨大的水下機翼狀槳鰭與滿口匕首般交錯的交錯巨齒，具備敏銳的水中立體嗅覺。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 27000,
+    "baseSwimSpeed": 1.0,
+    "baseCoinYield": 22,
+    "emojiOrSprite": "🦖",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "cameroceras",
+    "commonName": "奧陶紀直殼房角石",
+    "scientificName": "Cameroceras hennepini",
+    "description": "奧陶紀淺海長達9公尺的巨大圓錐形直殼頭足霸主，如同一艘浮游的白色重型魚雷，頭部伸出數十條粗壯捕食觸腕與尖銳鸚鵡喙。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 25000,
+    "baseSwimSpeed": 0.7,
+    "baseCoinYield": 20,
+    "emojiOrSprite": "🚀",
+    "visualBlueprint": {
+      "primaryColor": "#00F0FF",
+      "secondaryColor": "#0E7490",
+      "accentColor": "#FACC15",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": []
+    },
+    "breedingRecipe": ""
+  },
+  {
+    "id": "megalodon",
+    "commonName": "新生代滅世巨齒鯊",
+    "scientificName": "Otodus megalodon",
+    "description": "地球歷史上咬合力最強的史前頂級巨鯊，體長可達20公尺，暗青銀灰的流線身軀下隱藏著能輕易粉碎鯨骨的鋸齒巨口與深邃血眸。",
+    "rarity": "Legendary",
+    "category": "核心旗艦手繪",
+    "hatchStepsRequired": 30000,
+    "baseSwimSpeed": 1.2,
+    "baseCoinYield": 26,
+    "emojiOrSprite": "🦈",
+    "visualBlueprint": {
+      "primaryColor": "#334155",
+      "secondaryColor": "#64748B",
+      "accentColor": "#0F172A",
+      "tailShape": "forked",
+      "bodyLength": 22.0,
+      "bodyHeight": 11.0,
+      "features": [
+        "dorsal_spikes"
+      ]
+    },
+    "breedingRecipe": ""
+  }
+]
