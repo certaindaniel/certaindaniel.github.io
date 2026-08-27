@@ -298,7 +298,7 @@
                             <span id="canvas-sound-icon">🔈</span>
                             <span id="canvas-sound-text">開啟水波環境音</span>
                         </button>
-                        <span class="text-slate-400">目前游動：丹頂錦鯉、日光燈魚、藍月雷龍、珍珠海馬、吸血鬼烏賊幼體</span>
+                        <span class="text-slate-400">目前游動：日本丹頂錦鯉、日光燈魚、眼斑小丑魚、土佐金魚、珍珠海馬、蜜瓜小白鯨</span>
                     </div>
                     <button onclick="resetFishTank()" class="text-slate-400 hover:text-cyan-300 transition-colors">🔄 重新整理魚缸</button>
                 </div>
@@ -903,8 +903,132 @@
                 const tailAngle = Math.sin(phase) * 0.35;
                 const dorsalAngle = Math.cos(phase * 0.8) * 0.15;
 
-                if (this.emoji === '🎏' || this.emoji === '🐟' || this.emoji === '🐠' || this.emoji === '🪭') {
-                    // Render Vector Pixel Fish with Dorsal Fin & Tail
+                if (this.name.includes('鯨')) {
+                    // Handcrafted Adorable Baby Beluga Whale Vector Sprite (純白圓滾萌系小白鯨)
+                    ctx.save();
+                    // A. Fluke Tail (水平擺動鯨魚尾鰭)
+                    ctx.save();
+                    ctx.translate(-16, 0);
+                    ctx.rotate(tailAngle * 0.7);
+                    ctx.fillStyle = '#FFFFFF';
+                    ctx.beginPath();
+                    ctx.moveTo(0, 0);
+                    ctx.quadraticCurveTo(-8, -10, -14, -8);
+                    ctx.quadraticCurveTo(-10, 0, -14, 8);
+                    ctx.quadraticCurveTo(-8, 10, 0, 0);
+                    ctx.closePath();
+                    ctx.fill();
+                    ctx.restore();
+
+                    // B. Whale Flipper (揮動小胸鰭)
+                    ctx.save();
+                    ctx.translate(4, 5);
+                    ctx.rotate(Math.sin(phase) * 0.3 + 0.2);
+                    ctx.fillStyle = '#F1F5F9';
+                    ctx.beginPath();
+                    ctx.ellipse(0, 0, 6, 3.5, 0.4, 0, Math.PI * 2);
+                    ctx.fill();
+                    ctx.restore();
+
+                    // C. Main Round Beluga Body (圓滾滾白鯨身軀與招牌蜜瓜額頭)
+                    ctx.fillStyle = '#FFFFFF';
+                    ctx.beginPath();
+                    ctx.ellipse(0, 0, 18, 11, 0, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    // Bulbous Melon Forehead (可愛蜜瓜突起額頭)
+                    ctx.fillStyle = '#FFFFFF';
+                    ctx.beginPath();
+                    ctx.arc(10, -3, 7.5, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    // Belly Soft Shadow/Highlight
+                    ctx.fillStyle = '#F8FAFC';
+                    ctx.beginPath();
+                    ctx.ellipse(2, 3, 13, 5, 0, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    // D. Cute Eye with Glint
+                    ctx.fillStyle = '#0F172A';
+                    ctx.beginPath();
+                    ctx.arc(12, -1, 2.2, 0, Math.PI * 2);
+                    ctx.fill();
+                    ctx.fillStyle = '#FFFFFF';
+                    ctx.beginPath();
+                    ctx.arc(12.6, -1.6, 0.9, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    // E. Gentle Smiling Mouth
+                    ctx.strokeStyle = '#94A3B8';
+                    ctx.lineWidth = 1.2;
+                    ctx.lineCap = 'round';
+                    ctx.beginPath();
+                    ctx.arc(14, 3, 3, 0.1 * Math.PI, 0.8 * Math.PI);
+                    ctx.stroke();
+
+                    ctx.restore();
+                } else if (this.name.includes('海馬')) {
+                    // Handcrafted Cute Seahorse Vector Sprite (直立搖曳小海馬)
+                    ctx.save();
+                    ctx.rotate(Math.sin(phase * 0.6) * 0.15); // gentle upright swaying
+                    
+                    // Crown Coronet
+                    ctx.fillStyle = '#F59E0B';
+                    ctx.beginPath();
+                    ctx.moveTo(3, -16);
+                    ctx.lineTo(6, -12);
+                    ctx.lineTo(1, -12);
+                    ctx.closePath();
+                    ctx.fill();
+
+                    // Head & Snout
+                    ctx.fillStyle = '#FACC15';
+                    ctx.beginPath();
+                    ctx.arc(2, -8, 6, 0, Math.PI * 2);
+                    ctx.fill();
+                    // Snout
+                    ctx.beginPath();
+                    ctx.moveTo(6, -9);
+                    ctx.lineTo(12, -7);
+                    ctx.lineTo(6, -5);
+                    ctx.closePath();
+                    ctx.fill();
+
+                    // Eye
+                    ctx.fillStyle = '#0F172A';
+                    ctx.beginPath();
+                    ctx.arc(3, -9, 1.8, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    // Fluttering Tiny Dorsal Fin on Back
+                    ctx.save();
+                    ctx.translate(-6, 2);
+                    ctx.rotate(Math.sin(phase * 3.0) * 0.4);
+                    ctx.fillStyle = 'rgba(254, 240, 138, 0.85)';
+                    ctx.beginPath();
+                    ctx.ellipse(0, 0, 4, 6, 0.3, 0, Math.PI * 2);
+                    ctx.fill();
+                    ctx.restore();
+
+                    // Plump Belly & S-Curved Body
+                    ctx.fillStyle = '#EAB308';
+                    ctx.beginPath();
+                    ctx.ellipse(0, 3, 6.5, 9, -0.2, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    // Curled Prehensile Tail
+                    ctx.strokeStyle = '#CA8A04';
+                    ctx.lineWidth = 3.5;
+                    ctx.lineCap = 'round';
+                    ctx.beginPath();
+                    ctx.moveTo(-2, 11);
+                    ctx.quadraticCurveTo(-6, 18, 0, 20);
+                    ctx.quadraticCurveTo(4, 21, 2, 17);
+                    ctx.stroke();
+
+                    ctx.restore();
+                } else {
+                    // Render Standard Vector Fish with Dorsal Fin & Tail
                     // A. Dorsal Fin (立體動態背鰭)
                     ctx.save();
                     ctx.translate(-2, -9);
@@ -945,7 +1069,14 @@
                     ctx.ellipse(2, 0, 15, 9, 0, 0, Math.PI * 2);
                     ctx.fill();
 
-                    // Tancho crimson crown spot
+                    // Clownfish White Stripes
+                    if (this.name.includes('小丑')) {
+                        ctx.fillStyle = '#FFFFFF';
+                        ctx.fillRect(0, -8, 3, 16);
+                        ctx.fillRect(8, -7, 2.5, 14);
+                    }
+
+                    // Tancho Crimson Crown Spot
                     if (this.name.includes('丹頂')) {
                         ctx.fillStyle = '#DC2626';
                         ctx.beginPath();
@@ -968,12 +1099,6 @@
                     ctx.beginPath();
                     ctx.arc(10, -2, 1.6, 0, Math.PI * 2);
                     ctx.fill();
-                } else {
-                    // For Sea creatures (Seahorse, Baby Whale)
-                    ctx.font = `${this.size}px sans-serif`;
-                    ctx.textAlign = 'center';
-                    ctx.textBaseline = 'middle';
-                    ctx.fillText(this.emoji, 0, 0);
                 }
                 ctx.restore();
 
@@ -1023,12 +1148,12 @@
         function initAquarium() {
             resizeCanvas();
             fishes = [
-                new VirtualFish('丹頂錦鯉', '🎏', '#DC2626', 1.1, 38),
+                new VirtualFish('日本丹頂錦鯉', '🎏', '#DC2626', 1.1, 38),
                 new VirtualFish('日光燈魚', '🐟', '#00F0FF', 1.4, 28),
-                new VirtualFish('小丑魚', '🐠', '#F97316', 1.0, 30),
+                new VirtualFish('眼斑小丑魚', '🐠', '#F97316', 1.0, 30),
                 new VirtualFish('土佐金魚', '🪭', '#EA580C', 0.8, 34),
                 new VirtualFish('珍珠海馬', '🌟', '#FACC15', 0.6, 32),
-                new VirtualFish('小白鯨幼崽', '🤍', '#FFFFFF', 0.7, 40)
+                new VirtualFish('蜜瓜小白鯨', '🐋', '#FFFFFF', 0.7, 40)
             ];
             bubbles = [];
             for (let i = 0; i < 24; i++) {
