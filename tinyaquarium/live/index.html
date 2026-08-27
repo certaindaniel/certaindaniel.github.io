@@ -441,6 +441,9 @@
                 </div>
             </div>
 
+            <!-- Result Counter -->
+            <div id="vaultResultCount" class="text-xs text-cyan-300 font-mono mb-4 px-1"></div>
+
             <!-- Species Grid -->
             <div id="vaultSpeciesGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 <!-- Dynamically Rendered by JS -->
@@ -1321,26 +1324,52 @@
             </svg>`;
         }
 
+        let currentDisplayLimit = 48;
+
+        function filterVaultSpecies() {
+            currentDisplayLimit = 48;
+            renderVaultGrid();
+        }
+
+        function loadMoreSpecies() {
+            currentDisplayLimit += 48;
+            renderVaultGrid();
+        }
+
         function renderVaultGrid() {
             const query = document.getElementById('vaultSearchInput').value.toLowerCase().trim();
             const grid = document.getElementById('vaultSpeciesGrid');
+            const countEl = document.getElementById('vaultResultCount');
 
             let filtered = allVaultData.filter(fish => {
-                const matchVol = currentVolumeFilter === 'all' || fish.volumeFile === currentVolumeFilter;
+                // When searching with text, search globally across all 1,000 species unless tab specifically selected
+                const matchVol = (!query && currentVolumeFilter !== 'all') ? (fish.volumeFile === currentVolumeFilter) : (currentVolumeFilter === 'all' || fish.volumeFile === currentVolumeFilter || query);
                 const matchRarity = currentRarityFilter === 'all' || (fish.rarity && fish.rarity.toLowerCase() === currentRarityFilter);
                 const matchQuery = !query || 
                     (fish.commonName && fish.commonName.toLowerCase().includes(query)) ||
+                    (fish.category && fish.category.toLowerCase().includes(query)) ||
                     (fish.scientificName && fish.scientificName.toLowerCase().includes(query)) ||
+                    (fish.id && fish.id.toLowerCase().includes(query)) ||
                     (fish.description && fish.description.toLowerCase().includes(query));
-                return matchVol && matchRarity && matchQuery;
+                return matchRarity && matchQuery && matchVol;
             });
 
-            // Display top 48 to keep DOM ultra fast, with load more
-            const displayList = filtered.slice(0, 48);
+            if (countEl) {
+                if (query) {
+                    countEl.innerHTML = `🔍 全庫搜尋「<strong class="text-white">${query}</strong>」：共找到 <strong class="text-cyan-400 font-bold">${filtered.length}</strong> 種生物（全素材庫 1,000 種）`;
+                } else if (currentVolumeFilter !== 'all') {
+                    countEl.innerHTML = `📚 本卷共收錄 <strong class="text-cyan-400 font-bold">${filtered.length}</strong> 種生物`;
+                } else {
+                    countEl.innerHTML = `🌟 全生態素材庫共收錄 <strong class="text-cyan-400 font-bold">${allVaultData.length || 1000}</strong> 種生物`;
+                }
+            }
+
+            const displayList = filtered.slice(0, currentDisplayLimit);
 
             grid.innerHTML = displayList.map(fish => {
                 const rStyle = rarityStyles[fish.rarity?.toLowerCase()] || rarityStyles.common;
                 const fishIcon = generateFishSvg(fish, 40);
+                const volName = fish.category || (fish.volumeFile ? fish.volumeFile.replace('Volume', '卷') : '水族');
                 return `
                     <div onclick="openSpeciesModal('${fish.id}')" class="glass-card p-5 rounded-2xl cursor-pointer group transition-all duration-300 hover:-translate-y-1.5 flex flex-col justify-between">
                         <div class="space-y-3">
@@ -1348,9 +1377,14 @@
                                 <div class="w-14 h-14 rounded-2xl bg-midnightNavy border border-white/15 flex items-center justify-center shadow-inner group-hover:scale-110 transition-transform overflow-hidden">
                                     ${fishIcon}
                                 </div>
-                                <span class="px-2 py-0.5 rounded-full ${rStyle.bg} ${rStyle.text} border ${rStyle.border} text-[10px] font-bold">
-                                    ${rStyle.label}
-                                </span>
+                                <div class="flex flex-col items-end gap-1">
+                                    <span class="px-2 py-0.5 rounded-full ${rStyle.bg} ${rStyle.text} border ${rStyle.border} text-[10px] font-bold">
+                                        ${rStyle.label}
+                                    </span>
+                                    <span class="text-[9px] text-slate-400 px-1.5 py-0.5 rounded bg-white/5 font-mono">
+                                        ${volName}
+                                    </span>
+                                </div>
                             </div>
                             <div>
                                 <h4 class="text-base font-bold text-white group-hover:text-cyanGlow transition-colors">${fish.commonName || fish.id}</h4>
@@ -1369,7 +1403,15 @@
             }).join('');
 
             if (filtered.length === 0) {
-                grid.innerHTML = `<div class="col-span-full text-center py-12 text-slate-400">查無相符魚種素材，請嘗試其他關鍵字。</div>`;
+                grid.innerHTML = `<div class="col-span-full text-center py-12 text-slate-400">查無相符魚種素材，請嘗試搜尋「錦鯉」、「鯊」、「小丑」、「龍」或其他關鍵字。</div>`;
+            } else if (filtered.length > currentDisplayLimit) {
+                grid.innerHTML += `
+                    <div class="col-span-full text-center py-6">
+                        <button onclick="loadMoreSpecies()" class="px-6 py-2.5 rounded-xl bg-white/10 hover:bg-cyan-500 hover:text-slate-950 font-bold text-xs text-cyan-300 border border-cyan-500/30 transition-all">
+                            ➕ 載入更多結果 (剩餘 ${filtered.length - currentDisplayLimit} 種)
+                        </button>
+                    </div>
+                `;
             }
         }
 
