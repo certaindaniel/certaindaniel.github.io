@@ -657,23 +657,25 @@
         <div class="grid-2" style="margin-top: 2rem;">
             <div class="card">
                 <div class="card-icon">🤝</div>
-                <h3>零伺服器 P2P 近場交換</h3>
+                <h3>零伺服器 P2P 活體與黑膠近場交換</h3>
                 <p>像小時候 GameBoy 傳輸線般面對面碰一下：</p>
                 <ul>
-                    <li>• <strong>Apple MultipeerConnectivity</strong>：透過藍牙/WiFi Direct 離線直連。</li>
+                    <li>• <strong>Apple MultipeerConnectivity</strong>：透過藍牙/WiFi Direct 離線直連，零雲端伺服器。</li>
                     <li>• <strong>原子銷毀握手</strong>：確認贈送後，原魚隻游出並銷毀，接收端彈出像素禮盒破殼收下。</li>
-                    <li>• <strong>防複製與雙花</strong>：全流程記憶體加密傳輸，零雲端檔案外洩。</li>
+                    <li>• <strong>黑膠唱片實體交換</strong>：珍藏的物理聲學合成黑膠也能透過近場 P2P 贈予好友！</li>
+                    <li>• <strong>防複製與雙花</strong>：全流程記憶體加密傳輸，絕無複製漏洞。</li>
                 </ul>
             </div>
 
             <div class="card">
-                <div class="card-icon">🎵</div>
-                <h3>Lo-Fi 沉浸專注番茄鐘</h3>
-                <p>工作伴讀時的靜謐水族微陪伴：</p>
+                <div class="card-icon">💿</div>
+                <h3>物理聲學黑膠工坊 (Procedural Vinyl)</h3>
+                <p>純演算法即時合成，零雲端下載、零版權疑慮：</p>
                 <ul>
-                    <li>• <strong>4 首程式化 Lo-Fi 鋼琴</strong>：68 BPM 溫潤和弦，繞過硬體靜音鍵。</li>
-                    <li>• <strong>25 / 50 min 番茄鐘</strong>：專注時魚兒靜靜漫游，完成時收穫「專注珍珠」。</li>
-                    <li>• <strong>柔和粉紅水流白噪音</strong>：沉浸降噪，舒緩焦慮與工作疲勞。</li>
+                    <li>• <strong>6 首純淨聲學黑膠</strong>：《深海微光》《水色波紋》《珊瑚晨曦》《森林溪流》《夜幕微語》《星海冥想》。</li>
+                    <li>• <strong>唱臂落針動效</strong>：微型黑膠唱片機旋轉、唱針落槽，享受復古機械儀式感。</li>
+                    <li>• <strong>Schroeder 空間混響</strong>：雙梳狀濾波與全通濾波營造深邃透亮的水下聽感。</li>
+                    <li>• <strong>智能靜音開關</strong>：右上角一鍵靜音，徹底停止音訊引擎，安靜無干擾。</li>
                 </ul>
             </div>
         </div>
@@ -1017,14 +1019,73 @@
                 if (fish.y < 60) { fish.y = 60; fish.vy = Math.abs(fish.vy); }
                 if (fish.y > canvas.height - 60) { fish.y = canvas.height - 60; fish.vy = -Math.abs(fish.vy); }
 
-                // Draw Sprite
+                // Draw Vector Pixel Fish with Dynamic Dorsal Fin & Tail
                 ctx.save();
                 ctx.translate(fish.x, fish.y);
-                if (fish.vx < 0) {
+                const facingRight = fish.vx >= 0;
+                if (!facingRight) {
                     ctx.scale(-1, 1);
                 }
-                ctx.font = '28px sans-serif';
-                ctx.fillText(fish.emoji, -14, 10);
+                const phase = Date.now() * 0.008 + (fish.x * 0.1);
+                const tailAngle = Math.sin(phase) * 0.35;
+                const dorsalAngle = Math.cos(phase * 0.8) * 0.15;
+
+                // 1. Dynamic Dorsal Fin (立體動態背鰭)
+                ctx.save();
+                ctx.translate(-2, -9);
+                ctx.rotate(dorsalAngle);
+                ctx.fillStyle = fish.color || '#00d2ff';
+                ctx.beginPath();
+                ctx.moveTo(10, 5);
+                ctx.quadraticCurveTo(0, -7, -8, 2);
+                ctx.lineTo(-4, 6);
+                ctx.closePath();
+                ctx.fill();
+                ctx.restore();
+
+                // 2. Ventral Fin (腹鰭)
+                ctx.fillStyle = fish.color || '#00d2ff';
+                ctx.beginPath();
+                ctx.moveTo(2, 6);
+                ctx.quadraticCurveTo(-4, 12, -8, 8);
+                ctx.closePath();
+                ctx.fill();
+
+                // 3. Tail Fin (擺動尾鰭)
+                ctx.save();
+                ctx.translate(-14, 0);
+                ctx.rotate(tailAngle);
+                ctx.fillStyle = fish.color || '#00d2ff';
+                ctx.beginPath();
+                ctx.moveTo(0, 0);
+                ctx.lineTo(-12, -10);
+                ctx.quadraticCurveTo(-7, 0, -12, 10);
+                ctx.closePath();
+                ctx.fill();
+                ctx.restore();
+
+                // 4. Main Body Capsule
+                ctx.fillStyle = fish.color || '#00d2ff';
+                ctx.beginPath();
+                ctx.ellipse(2, 0, 15, 8.5, 0, 0, Math.PI * 2);
+                ctx.fill();
+
+                // Belly highlight
+                ctx.fillStyle = 'rgba(255, 255, 255, 0.4)';
+                ctx.beginPath();
+                ctx.ellipse(3, 2.5, 10, 3, 0, 0, Math.PI * 2);
+                ctx.fill();
+
+                // 5. Eye
+                ctx.fillStyle = '#ffffff';
+                ctx.beginPath();
+                ctx.arc(9, -2, 3, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.fillStyle = '#000000';
+                ctx.beginPath();
+                ctx.arc(10, -2, 1.6, 0, Math.PI * 2);
+                ctx.fill();
+
                 ctx.restore();
 
                 // Name tag
