@@ -1,5 +1,35 @@
 [
   {
+    "id": "emerald_cute_alligator",
+    "commonName": "翡翠呆萌小短吻鱷",
+    "scientificName": "Alligator smaragdus nanus",
+    "description": "棲息於南美黑水沼澤的迷你翡翠短吻鱷幼崽，圓滾肚皮，性情溫馴呆萌，喜歡與水草嬉戲。",
+    "rarity": "Rare",
+    "category": "南美奇特擬態與古生物",
+    "hatchStepsRequired": 4500,
+    "baseSwimSpeed": 0.95,
+    "baseCoinYield": 50,
+    "emojiOrSprite": "🐊",
+    "visualBlueprint": {
+      "primaryColor": "#16A34A",
+      "secondaryColor": "#15803D",
+      "accentColor": "#86EFAC",
+      "tailShape": "standard",
+      "bodyLength": 24.0,
+      "bodyHeight": 12.0,
+      "features": [
+        "cute_snout",
+        "emerald_scales"
+      ],
+      "phenotypeHash": "VPH-GATR-16A3-1580-STD-1"
+    },
+    "breedingRecipe": {
+      "parentA": "枯葉魚",
+      "parentB": "裝甲兵鯰",
+      "mutationHint": "熱帶沼澤雨林泥潭化育"
+    }
+  },
+  {
     "id": "VOL02_001",
     "commonName": "L046帝王斑馬",
     "scientificName": "Hypancistrus zebra",

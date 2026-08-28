@@ -1,5 +1,36 @@
 [
   {
+    "id": "ancient_bone_sailfish",
+    "commonName": "遠古骸骨戰甲旗魚",
+    "scientificName": "Istiophorus osteoarmata",
+    "description": "披覆沉重古代骸骨戰甲與長矛骨刺的史前旗魚霸主，周身散發遠古幽冥霸氣，游動如破浪巨刃。",
+    "rarity": "Legendary",
+    "category": "古生代史前遠古海怪",
+    "hatchStepsRequired": 12800,
+    "baseSwimSpeed": 1.35,
+    "baseCoinYield": 120,
+    "emojiOrSprite": "🗡️",
+    "visualBlueprint": {
+      "primaryColor": "#38BDF8",
+      "secondaryColor": "#0F172A",
+      "accentColor": "#F8FAFC",
+      "tailShape": "sword",
+      "bodyLength": 32.0,
+      "bodyHeight": 14.0,
+      "features": [
+        "bone_armor",
+        "dorsal_spikes",
+        "ancient_skull"
+      ],
+      "phenotypeHash": "VPH-SAIL-38BD-0F17-SWD-3"
+    },
+    "breedingRecipe": {
+      "parentA": "奇蝦",
+      "parentB": "鄧氏魚",
+      "mutationHint": "遠古深淵骨化突變"
+    }
+  },
+  {
     "id": "prehistoric_001",
     "commonName": "奇蝦",
     "scientificName": "Anomalocaris",

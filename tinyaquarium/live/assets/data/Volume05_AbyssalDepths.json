@@ -1,5 +1,35 @@
 [
   {
+    "id": "emperor_armored_crab",
+    "commonName": "帝王黑金刺甲蟹",
+    "scientificName": "Lithodes imperator",
+    "description": "棲息於萬米深海火山口與熱液黑煙囪的黑金刺甲帝王蟹，雙鉗揮舞能擊碎堅硬礁石，翻滾時產出愛心能量。",
+    "rarity": "Epic",
+    "category": "熱液噴口黑煙囪特化生命",
+    "hatchStepsRequired": 6800,
+    "baseSwimSpeed": 0.65,
+    "baseCoinYield": 75,
+    "emojiOrSprite": "🦀",
+    "visualBlueprint": {
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#0F172A",
+      "accentColor": "#F59E0B",
+      "tailShape": "forked",
+      "bodyLength": 18.0,
+      "bodyHeight": 14.0,
+      "features": [
+        "crab_claws",
+        "spiked_armor"
+      ],
+      "phenotypeHash": "VPH-CRAB-DC26-0F17-FOR-2"
+    },
+    "breedingRecipe": {
+      "parentA": "雪人蟹",
+      "parentB": "黃鐵礦鐵甲螺",
+      "mutationHint": "熱液黑煙囪熔岩鍛造"
+    }
+  },
+  {
     "id": "F_5001",
     "commonName": "黑角鮟鱇",
     "scientificName": "Melanocetus johnsonii",

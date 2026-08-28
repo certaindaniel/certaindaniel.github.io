@@ -1,5 +1,35 @@
 [
   {
+    "id": "coral_wizard_octopus",
+    "commonName": "珊瑚提燈巫師章魚",
+    "scientificName": "Octopus magus corallinus",
+    "description": "深藏於大堡礁珊瑚洞穴的巫師章魚，頭戴珊瑚冠冕，觸手手持微光發光提燈引導迷途小魚。",
+    "rarity": "Epic",
+    "category": "礁岩微距奇珍與擬態獵手",
+    "hatchStepsRequired": 6200,
+    "baseSwimSpeed": 0.7,
+    "baseCoinYield": 70,
+    "emojiOrSprite": "🐙",
+    "visualBlueprint": {
+      "primaryColor": "#8B5CF6",
+      "secondaryColor": "#6D28D9",
+      "accentColor": "#FBBF24",
+      "tailShape": "rounded",
+      "bodyLength": 20.0,
+      "bodyHeight": 16.0,
+      "features": [
+        "lantern_staff",
+        "floating_tentacles"
+      ],
+      "phenotypeHash": "VPH-OCTO-8B5C-6D28-RND-2"
+    },
+    "breedingRecipe": {
+      "parentA": "青蛙魚",
+      "parentB": "黃金海蛞蝓",
+      "mutationHint": "珊瑚魔導光譜共鳴"
+    }
+  },
+  {
     "id": "TA-4001",
     "commonName": "藍倒吊",
     "scientificName": "Paracanthurus hepatus",
