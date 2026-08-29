@@ -11,21 +11,41 @@
   <nav class="lang-switch"><a href="/en/tinyaquarium/privacy/">English</a><a href="/zh-hant/tinyaquarium/privacy/">繁體中文</a><a href="/zh-hans/tinyaquarium/privacy/" class="current">简体中文</a></nav>
   <div class="legal">
     <h1>TinyAquarium — 隐私政策</h1>
-    <p class="updated">最后更新：2026 年 8 月 26 日</p>
+    <p class="updated">最后更新：2026 年 8 月 29 日</p>
 
-    <p>TinyAquarium（微型水族箱）是一款结合健康计步的疗愈水族养成手游。无需注册账号、无第三方追踪、无广告干扰。</p>
+    <p>TinyAquarium（迷你水族箱）是一款结合步数计量的治愈系水族养成游戏。无需注册账号、无第三方分析追踪、无广告联盟。我们没有自营服务器，也没有任何渠道能读取你的游戏内容。</p>
 
-    <h2>HealthKit 步数与活动数据</h2>
-    <p>TinyAquarium 通过 Apple HealthKit 读取您的每日步行步数与活动卡路里，仅用于本机计算鱼卵孵化进度与水族箱能量。我们绝不收集、上传、传输或与任何外部第三方服务器分享您的健康数据。</p>
+    <h2>HealthKit 步数</h2>
+    <p>TinyAquarium 通过 Apple HealthKit <strong>只读</strong>访问单一一项数据：你的每日步行步数（<code>stepCount</code>）。它仅用于在你的设备本地计算鱼卵的孵化进度。本 App 不会向 HealthKit 写入任何数据，也不会收集、上传、传输或与任何第三方共享你的健康数据。你可以随时在 iOS「设置 → 隐私与安全性 → 健康」中撤销该权限；撤销后鱼卵孵化进度会停止推进，其余功能不受影响。</p>
 
-    <h2>本机存储与 iCloud 同步</h2>
-    <p>您的已解锁图鉴、鱼缸设置与游戏存档皆保存在您的设备本机，并通过 Apple iCloud 键值存储（KVS）在您的 Apple 设备间自动无缝漫游。我们并未建置任何自营的远端数据库。</p>
+    <h2>本地存储</h2>
+    <p>你的饲养员名称、鱼缸与鱼只数据、图鉴解锁进度、泡泡币余额、造景摆件以及所有游戏存档，都保存在你的设备本地。卸载 App 会一并删除这些数据。</p>
 
-    <h2>无服务器近场 P2P 交换</h2>
-    <p>近场神鱼交易采用 Apple Multipeer Connectivity 本地蓝牙与 Wi-Fi 直连技术，数据直接在彼此设备间端对端传输，不经由任何外部服务器。</p>
+    <h2>iCloud 同步</h2>
+    <p>游戏存档会通过 Apple iCloud 键值存储（<code>NSUbiquitousKeyValueStore</code>）在你自己的 Apple 设备之间漫游同步。这些数据存放在 Apple 的基础设施上、归属于你自己的 iCloud 账号，开发者<strong>无法读取</strong>。你可以在 iOS「设置 → Apple 账号 → iCloud」中移除本 App 的数据。</p>
 
-    <h2>付款与内购</h2>
-    <p>所有赞助解锁或内购皆由 Apple App Store 官方金流（StoreKit）安全处理，我们不会经手或存储您的付款凭据。</p>
+    <h2>近场 P2P 鱼只交换</h2>
+    <p>与附近好友交换鱼只采用 Apple Multipeer Connectivity 技术，通过局域网与蓝牙在两台设备之间<strong>端到端直接传输</strong>，不经过任何外部服务器，开发者无法看到交换内容。此功能需要「本地网络」权限，且仅在你主动打开交换界面时运行。</p>
+
+    <h2>App 内购买</h2>
+    <p>本 App 提供以下 App 内购买项目，全部通过 Apple App Store 官方支付系统（StoreKit 2）处理。我们不会看到或存储你的付款凭证、银行卡号或 Apple 账号信息。</p>
+    <ul>
+      <li><strong>阳光初级小钱袋</strong>（消耗型）— 游戏内泡泡币</li>
+      <li><strong>深海璀璨珍珠罐</strong>（消耗型）— 游戏内泡泡币</li>
+      <li><strong>海盗溢金巨宝箱</strong>（消耗型）— 游戏内泡泡币</li>
+      <li><strong>波塞冬神殿金山</strong>（消耗型）— 游戏内泡泡币</li>
+      <li><strong>TinyAquarium Pro</strong>（非消耗型）— 一次性解锁，提升离线收益上限、饲料罐容量、繁育突变率与专属水体主题</li>
+    </ul>
+    <p>泡泡币是纯游戏内虚拟货币，<strong>没有现金价值</strong>，无法兑换或转让，仅能在本 App 内用于购买造景饰品与升级。</p>
+
+    <h2>桌面小组件</h2>
+    <p>桌面小组件会显示你的鱼缸画面、步数与泡泡币余额。数据通过 App 群组容器在本地共享，不会离开你的设备。</p>
+
+    <h2>个人信息</h2>
+    <p>本 App 不需要注册账号，不会收集姓名、电子邮件、电话号码、位置信息或设备标识符。你输入的饲养员名称与鱼只昵称仅存储在你自己的设备上，不会发送给开发者。</p>
+
+    <h2>儿童</h2>
+    <p>本 App 并非针对儿童设计，也不会刻意收集 13 岁以下儿童的数据。</p>
 
     <h2>联系方式</h2>
     <p>对本政策有任何疑问，欢迎发邮件至：<a href="mailto:certain.daniel@gmail.com">certain.daniel@gmail.com</a></p>

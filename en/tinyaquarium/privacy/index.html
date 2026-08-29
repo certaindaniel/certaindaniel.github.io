@@ -11,24 +11,44 @@
   <nav class="lang-switch"><a href="/en/tinyaquarium/privacy/" class="current">English</a><a href="/zh-hant/tinyaquarium/privacy/">繁體中文</a><a href="/zh-hans/tinyaquarium/privacy/">简体中文</a></nav>
   <div class="legal">
     <h1>TinyAquarium — Privacy Policy</h1>
-    <p class="updated">Last updated: August 26, 2026</p>
+    <p class="updated">Last updated: August 29, 2026</p>
 
-    <p>TinyAquarium is a cozy, health-connected idle aquarium companion app. No account registration, no third-party tracking, no advertising networks.</p>
+    <p>TinyAquarium is a cozy aquarium-raising game paired with your step count. It requires no account registration, has no third-party analytics tracking, and no ad networks. We run no servers of our own, and we have no channel through which to read your in-game content.</p>
 
-    <h2>HealthKit Step & Activity Data</h2>
-    <p>TinyAquarium reads your daily walking steps and active energy via Apple HealthKit solely to calculate egg incubation progress and tank energy on your local device. We do not transmit, sell, or share your HealthKit data with any external servers.</p>
+    <h2>HealthKit Steps</h2>
+    <p>TinyAquarium accesses exactly one piece of data through Apple HealthKit, on a <strong>read-only</strong> basis: your daily walking step count (<code>stepCount</code>). It is used solely to calculate egg-hatching progress locally on your device. This app never writes any data to HealthKit, and it never collects, uploads, transmits, or shares your health data with any third party. You can revoke this permission at any time in iOS "Settings → Privacy & Security → Health"; once revoked, egg-hatching progress stops advancing, but all other features remain unaffected.</p>
 
-    <h2>Local Storage & iCloud Sync</h2>
-    <p>Your unlocked species, tank customizations, and game progress are stored locally on your device and synchronized across your Apple devices using Apple iCloud Key-Value Store. We do not operate our own database servers.</p>
+    <h2>Local Storage</h2>
+    <p>Your keeper name, tank and fish data, encyclopedia (Dex) unlock progress, Bubble Coin balance, décor layout, and all game save data are stored locally on your device. Uninstalling the app deletes all of it.</p>
 
-    <h2>Nearby Peer-to-Peer Trade</h2>
-    <p>Nearby fish trading uses Apple Multipeer Connectivity over local Bluetooth and Wi-Fi. Trading happens directly between devices without passing through external servers.</p>
+    <h2>iCloud Sync</h2>
+    <p>Game save data roams across your own Apple devices via Apple iCloud key-value storage (<code>NSUbiquitousKeyValueStore</code>). This data is stored on Apple's infrastructure, under your own iCloud account, and the developer <strong>cannot read it</strong>. You can remove this app's data in iOS "Settings → Apple Account → iCloud".</p>
 
-    <h2>Payments & Subscriptions</h2>
-    <p>All in-app purchases and optional unlocks are handled securely by Apple StoreKit. We never receive or store your payment credentials.</p>
+    <h2>Nearby Peer-to-Peer Fish Trading</h2>
+    <p>Trading fish with nearby friends uses Apple Multipeer Connectivity, transferring data <strong>directly, end-to-end, between two devices</strong> over local network and Bluetooth — it never passes through any external server, and the developer never sees the contents of the trade. This feature requires Local Network permission and only operates while you actively have the trading screen open.</p>
+
+    <h2>In-App Purchases</h2>
+    <p>This app offers the following in-app purchase items, all processed through Apple's official App Store payment system (StoreKit 2). We never see or store your payment credentials, card numbers, or Apple account information.</p>
+    <ul>
+      <li><strong>Sunlit Starter Pouch</strong> (Consumable) — in-game Bubble Coins</li>
+      <li><strong>Deep-Sea Pearl Jar</strong> (Consumable) — in-game Bubble Coins</li>
+      <li><strong>Pirate's Overflowing Chest</strong> (Consumable) — in-game Bubble Coins</li>
+      <li><strong>Poseidon's Golden Vault</strong> (Consumable) — in-game Bubble Coins</li>
+      <li><strong>TinyAquarium Pro</strong> (Non-consumable) — a one-time unlock raising the idle earning cap, food jar capacity, breeding mutation rate, and exclusive tank themes</li>
+    </ul>
+    <p>Bubble Coins are a purely in-game virtual currency with <strong>no cash value</strong>; they cannot be redeemed for cash or transferred, and can only be used within this app to purchase décor items and upgrades.</p>
+
+    <h2>Desktop Widget</h2>
+    <p>The desktop widget displays your tank view, step count, and Bubble Coin balance. Data is shared locally on-device via an App Group container and never leaves your device.</p>
+
+    <h2>Personal Information</h2>
+    <p>This app requires no account registration and does not collect your name, email address, phone number, location, or device identifiers. The keeper name and fish nicknames you enter are stored only on your own device and are never sent to the developer.</p>
+
+    <h2>Children</h2>
+    <p>This app is not designed for children and does not knowingly collect data from children under the age of 13.</p>
 
     <h2>Contact</h2>
-    <p>For questions about this policy, email: <a href="mailto:certain.daniel@gmail.com">certain.daniel@gmail.com</a></p>
+    <p>If you have any questions about this policy, please email: <a href="mailto:certain.daniel@gmail.com">certain.daniel@gmail.com</a></p>
 
     <a class="back-link" href="/en/tinyaquarium/">← Back to TinyAquarium</a>
   </div>

@@ -11,21 +11,41 @@
   <nav class="lang-switch"><a href="/en/tinyaquarium/privacy/">English</a><a href="/zh-hant/tinyaquarium/privacy/" class="current">繁體中文</a><a href="/zh-hans/tinyaquarium/privacy/">简体中文</a></nav>
   <div class="legal">
     <h1>TinyAquarium — 隱私權政策</h1>
-    <p class="updated">最後更新：2026 年 8 月 26 日</p>
+    <p class="updated">最後更新：2026 年 8 月 29 日</p>
 
-    <p>TinyAquarium（微型水族箱）是一款結合健康計步的療癒水族養成手遊。無須註冊帳號、無第三方追蹤、無廣告干擾。</p>
+    <p>TinyAquarium（口袋水族箱）是一款結合步數計量的療癒水族養成遊戲。無須註冊帳號、無第三方分析追蹤、無廣告聯播網。我們沒有自營伺服器，也沒有任何管道讀取你的遊戲內容。</p>
 
-    <h2>HealthKit 步數與活動資料</h2>
-    <p>TinyAquarium 透過 Apple HealthKit 讀取你的每日步行步數與活動卡路里，僅用於本機計算魚卵孵化進度與水族箱能量。我們絕不收集、上傳、傳輸或與任何外部第三方伺服器分享你的健康資料。</p>
+    <h2>HealthKit 步數</h2>
+    <p>TinyAquarium 透過 Apple HealthKit <strong>唯讀</strong>存取單一一項資料：你的每日步行步數（<code>stepCount</code>）。它只用於在你的裝置本機計算魚卵的孵化進度。本 App 不會向 HealthKit 寫入任何資料，也不會收集、上傳、傳輸或與任何第三方分享你的健康資料。你可以隨時在 iOS「設定 → 隱私權與安全性 → 健康」中撤銷這項權限；撤銷後魚卵孵化進度會停止推進，其餘功能不受影響。</p>
 
-    <h2>本機儲存與 iCloud 同步</h2>
-    <p>你的已解鎖圖鑑、魚缸設定與遊戲存檔皆保存在你的裝置本機，並透過 Apple iCloud 鍵值儲存（KVS）在你的 Apple 設備間自動無縫漫遊。我們並未建置任何自營的遠端資料庫。</p>
+    <h2>本機儲存</h2>
+    <p>你的飼育員名稱、魚缸與魚隻資料、圖鑑解鎖進度、泡泡幣餘額、造景擺設與所有遊戲存檔，都儲存在你裝置本機。解除安裝 App 即會一併刪除。</p>
 
-    <h2>無伺服器近場 P2P 交換</h2>
-    <p>近場神魚交易採用 Apple Multipeer Connectivity 本地藍牙與 Wi-Fi 直連技術，資料直接在彼此裝置間端對端傳輸，不經由任何外部伺服器。</p>
+    <h2>iCloud 同步</h2>
+    <p>遊戲存檔會透過 Apple iCloud 鍵值儲存（<code>NSUbiquitousKeyValueStore</code>）在你自己的 Apple 裝置之間漫遊。這些資料存放在 Apple 的基礎架構上、隸屬於你自己的 iCloud 帳號，開發者<strong>無法讀取</strong>。你可以在 iOS「設定 → Apple 帳號 → iCloud」中移除本 App 的資料。</p>
 
-    <h2>付款與內購</h2>
-    <p>所有贊助解鎖或內購皆由 Apple App Store 官方金流（StoreKit）安全處理，我們不會經手或儲存你的付款憑證。</p>
+    <h2>近場 P2P 魚隻交換</h2>
+    <p>與附近好友交換魚隻採用 Apple Multipeer Connectivity，透過區域網路與藍牙在兩台裝置之間<strong>端對端直傳</strong>，不經過任何外部伺服器，開發者不會看到交換內容。此功能需要「區域網路」權限，且僅在你主動開啟交換畫面時運作。</p>
+
+    <h2>App 內購買</h2>
+    <p>本 App 提供以下 App 內購買項目，全部透過 Apple App Store 官方金流（StoreKit 2）處理。我們不會看到或儲存你的付款憑證、信用卡號或 Apple 帳號資訊。</p>
+    <ul>
+      <li><strong>陽光初級小錢袋</strong>（消耗性）— 遊戲內泡泡幣</li>
+      <li><strong>深海璀璨珍珠罐</strong>（消耗性）— 遊戲內泡泡幣</li>
+      <li><strong>海盜溢金巨寶箱</strong>（消耗性）— 遊戲內泡泡幣</li>
+      <li><strong>波賽頓神殿金山</strong>（消耗性）— 遊戲內泡泡幣</li>
+      <li><strong>TinyAquarium Pro</strong>（非消耗性）— 一次性解鎖，提升離線收益上限、飼料罐容量、繁育突變率與專屬水體主題</li>
+    </ul>
+    <p>泡泡幣是純遊戲內虛擬貨幣，沒有現金價值、無法兌換或轉讓，僅能在本 App 內用於購買造景飾品與升級。</p>
+
+    <h2>桌面小工具</h2>
+    <p>桌面小工具會顯示你的魚缸畫面、步數與泡泡幣餘額。資料透過 App 群組容器在本機共享，不會離開你的裝置。</p>
+
+    <h2>個人資訊</h2>
+    <p>本 App 不需要註冊帳號，不會收集姓名、電子郵件、電話號碼、位置資訊或裝置識別碼。你輸入的飼育員名稱與魚隻暱稱僅儲存在你自己的裝置上，不會傳送給開發者。</p>
+
+    <h2>兒童</h2>
+    <p>本 App 並非針對兒童設計，也不會刻意收集 13 歲以下兒童的資料。</p>
 
     <h2>聯絡方式</h2>
     <p>對本政策有任何疑問，歡迎寄信至：<a href="mailto:certain.daniel@gmail.com">certain.daniel@gmail.com</a></p>
