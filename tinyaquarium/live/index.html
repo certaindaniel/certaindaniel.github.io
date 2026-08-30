@@ -194,7 +194,7 @@
                             <div class="text-xs text-slate-400 mt-1">全球水族與神話圖鑑</div>
                         </div>
                         <div>
-                            <div class="text-2xl sm:text-3xl font-extrabold text-teal-300">100+ 組</div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-teal-300">144 組</div>
                             <div class="text-xs text-slate-400 mt-1">隱藏基因突變配方</div>
                         </div>
                         <div>
@@ -345,7 +345,7 @@
                     🧬
                 </div>
                 <div class="space-y-3">
-                    <h3 class="text-2xl font-bold text-white group-hover:text-rose-400 transition-colors">100+ 組秘密基因繁育突變</h3>
+                    <h3 class="text-2xl font-bold text-white group-hover:text-rose-400 transition-colors">144 組秘密基因繁育突變</h3>
                     <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
                         成年親代雙魚共同進入繁育實驗室，消耗愛心能量觸發隱藏突變配方。櫻花錦鯉與琉金能孕育出頂級「大正三色」，深海巨獸更有機會合成出神秘的「宇宙星空巨鯤」。
                     </p>
@@ -364,7 +364,7 @@
                 <div class="space-y-3">
                     <h3 class="text-2xl font-bold text-white group-hover:text-emerald-300 transition-colors">Lo-Fi 專注番茄鐘與水聲白噪音</h3>
                     <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
-                        內建《晨光水族館》、《深海幽謐》、《午後熱帶雨林》、《櫻花夜祭》等原創舒壓白噪音曲目。支援 15~120 分鐘專注番茄鐘，專注時水族箱進入平靜模式，助你高效率工作與入眠。
+                        內建《陽光踏青》《迷霧探索》《海島度假木琴》等 15 首原創聲學黑膠（14 首演算法合成 + 1 首鋼琴）。支援 15 / 25 / 45 分鐘專注番茄鐘，專注時水族箱進入平靜模式，助你高效率工作與入眠。
                     </p>
                 </div>
                 <div class="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-between text-xs font-mono text-emerald-300">
@@ -1887,8 +1887,7 @@
         ];
 
 
-        // 分頁上的種數一律由實際資料算出。先前是寫死的，四個卷冊實際有 101 種
-        // 卻都標成 100，總數也停留在 1,172。
+        // 分頁上的種數一律由實際資料算出（1,176 種：172 核心 + 1,004 卷庫）。
         function syncVolumeTabCounts() {
             document.querySelectorAll('.vol-tab').forEach(btn => {
                 const call = btn.getAttribute('onclick') || '';
@@ -1919,7 +1918,7 @@
                 renderVaultGrid();
             } catch (err) {
                 console.error('Vault fetch error:', err);
-                document.getElementById('vaultLoading').textContent = '素材庫加載成功（已內嵌 1,000 種資料）。';
+                document.getElementById('vaultLoading').textContent = '素材庫加載成功（已內嵌 1,176 種資料）。';
             }
         }
 
@@ -2572,7 +2571,7 @@
 
             if (countEl) {
                 if (query) {
-                    countEl.innerHTML = `🔍 全庫搜尋「<strong class="text-white">${query}</strong>」：共找到 <strong class="text-cyan-400 font-bold">${filtered.length}</strong> 種生物（全素材庫 1,000 種）`;
+                    countEl.innerHTML = `🔍 全庫搜尋「<strong class="text-white">${query}</strong>」：共找到 <strong class="text-cyan-400 font-bold">${filtered.length}</strong> 種生物（全素材庫 1,176 種）`;
                 } else if (currentVolumeFilter !== 'all') {
                     countEl.innerHTML = `📚 本卷共收錄 <strong class="text-cyan-400 font-bold">${filtered.length}</strong> 種生物`;
                 } else {
