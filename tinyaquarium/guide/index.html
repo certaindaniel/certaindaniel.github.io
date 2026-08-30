@@ -150,31 +150,31 @@
                         <tr>
                             <td class="py-3 px-4 font-bold text-slate-300">⬜ 普通 (Common)</td>
                             <td class="py-3 px-4 text-slate-400">1,000 ~ 2,500 步</td>
-                            <td class="py-3 px-4 text-cyan-400">1 ~ 2 🪙</td>
+                            <td class="py-3 px-4 text-cyan-400">2 ~ 4 🪙</td>
                             <td class="py-3 px-4 text-slate-300">日光燈魚、彩虹孔雀魚、小精靈鼠</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 font-bold text-emerald-400">🟩 精良 (Uncommon)</td>
                             <td class="py-3 px-4 text-slate-400">2,500 ~ 4,000 步</td>
-                            <td class="py-3 px-4 text-cyan-400">2 ~ 3 🪙</td>
+                            <td class="py-3 px-4 text-cyan-400">3 ~ 5 🪙</td>
                             <td class="py-3 px-4 text-slate-300">紅鼻剪刀、眼斑小丑魚、荷蘭鳳凰短鯛</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 font-bold text-blue-400">🟦 稀有 (Rare)</td>
                             <td class="py-3 px-4 text-slate-400">4,000 ~ 6,000 步</td>
-                            <td class="py-3 px-4 text-cyan-400">2 ~ 5 🪙</td>
+                            <td class="py-3 px-4 text-cyan-400">4 ~ 6 🪙</td>
                             <td class="py-3 px-4 text-slate-300">日本蘭壽金魚、黃三角倒吊、台灣高山鯝魚</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 font-bold text-purple-400">🟪 史詩 (Epic)</td>
                             <td class="py-3 px-4 text-slate-400">6,000 ~ 12,000 步</td>
-                            <td class="py-3 px-4 text-cyan-400">4 ~ 20 🪙</td>
+                            <td class="py-3 px-4 text-cyan-400">5 ~ 8 🪙</td>
                             <td class="py-3 px-4 text-slate-300">日本丹頂錦鯉、墨黑水泡眼、白金雙尾鬥魚、黑帝王魟</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 font-bold text-amber-400">🟧 傳說 (Legendary)</td>
                             <td class="py-3 px-4 text-slate-400">15,000 ~ 30,000 步</td>
-                            <td class="py-3 px-4 text-cyan-400">8 ~ 36 🪙</td>
+                            <td class="py-3 px-4 text-cyan-400">7 ~ 11 🪙</td>
                             <td class="py-3 px-4 text-slate-300">北溟巨鯤、滅世巨齒鯊、白堊紀滄龍、耶夢加得</td>
                         </tr>
                     </tbody>
@@ -192,90 +192,109 @@
                 </h2>
             </div>
 
-            <p class="text-slate-300 leading-relaxed mb-6">
-                上一節的「單魚產能」<span class="text-slate-400">不是</span>每分鐘直接入帳的數字，它是一個係數，會餵進下面兩條完全不同的產幣管道。
-                搞懂這兩條，你就知道該多開 App，還是安心關掉去過生活。
-            </p>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-                <div class="bg-slate-900/80 rounded-2xl p-5 border border-cyan-800/50">
-                    <div class="text-2xl mb-2">👀</div>
-                    <div class="font-bold text-white mb-2">管道一 · 開著 App 時的水面泡泡</div>
-                    <ul class="text-xs text-slate-400 space-y-1.5 leading-relaxed">
-                        <li>• 每 <span class="text-cyan-400 font-mono">60 秒</span>，由缸內隨機一隻魚吐出一顆</li>
-                        <li>• 畫面上同時最多 <span class="text-cyan-400 font-mono">4 顆</span>，沒收走就不再生新的</li>
-                        <li>• 每顆幣值 = 該魚產能（稀有／史詩 +1，傳說 +2）</li>
-                        <li>• 用手指滑過或點一下就收進錢包</li>
-                    </ul>
+            <div class="bg-cyan-500/10 border border-cyan-500/30 rounded-2xl p-5 mb-8">
+                <div class="font-bold text-cyan-300 mb-2 flex items-center gap-2">
+                    <i class="fa-solid fa-circle-info"></i> 一句話講完：魚一直在產幣，你怎麼玩都一樣
                 </div>
-                <div class="bg-slate-900/80 rounded-2xl p-5 border border-emerald-800/50">
-                    <div class="text-2xl mb-2">🌙</div>
-                    <div class="font-bold text-white mb-2">管道二 · 關掉 App 也在累積</div>
-                    <ul class="text-xs text-slate-400 space-y-1.5 leading-relaxed">
-                        <li>• 每小時 = <span class="text-emerald-400 font-mono">全缸產能總和 × 4</span> 泡泡幣</li>
-                        <li>• 目前這一缸全額計算，其他魚缸折半</li>
-                        <li>• 累積到 <span class="text-emerald-400 font-mono">12 小時</span> 為止，再久也不會更多</li>
-                        <li>• 至少離開 5 分鐘才會結算，回來時化成最多 8 顆泡泡等你收</li>
-                    </ul>
+                <p class="text-sm text-slate-300 leading-relaxed">
+                    你的魚以一個固定速率持續生產泡泡金幣，<span class="text-white font-semibold">不管你有沒有開著 App</span>。
+                    開著的時候，產出會即時變成水面上的泡泡讓你點；關掉的時候就先累積起來，
+                    下次回來一次變成一批泡泡等你收。
+                    <span class="text-cyan-300">同一份產出，只是兩種呈現方式</span> ——
+                    所以「一直盯著螢幕」不會比「睡一覺再回來」賺得多，你可以放心去過生活。
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+                <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
+                    <div class="text-2xl mb-2">⚙️</div>
+                    <div class="font-bold text-white mb-1 text-sm">產幣速率怎麼算</div>
+                    <div class="text-xs text-slate-400 leading-relaxed">把缸裡每隻魚的「單魚產能」加起來，就是這座缸的總產能。魚越多、越稀有，產得越快。</div>
+                </div>
+                <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
+                    <div class="text-2xl mb-2">📉</div>
+                    <div class="font-bold text-white mb-1 text-sm">成長是遞減的</div>
+                    <div class="text-xs text-slate-400 leading-relaxed">產能翻倍時收益不會跟著翻倍，而是漲得慢一些。收藏稀有魚一定有回報，但不會讓遊戲失去節奏。</div>
+                </div>
+                <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
+                    <div class="text-2xl mb-2">⏳</div>
+                    <div class="font-bold text-white mb-1 text-sm">累積上限 12 小時</div>
+                    <div class="text-xs text-slate-400 leading-relaxed">離開超過 12 小時就不再累積。一天回來看一兩次就能拿滿，不必掐時間。</div>
                 </div>
             </div>
 
-            <div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-800 mb-6">
-                <div class="font-bold text-white mb-3 text-sm">📊 掛機一晚大概有多少？（離線 8 小時）</div>
+            <div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-800 mb-8">
+                <div class="font-bold text-white mb-3 text-sm">📊 各階段大概能拿多少</div>
                 <div class="overflow-x-auto">
                     <table class="w-full text-left text-xs sm:text-sm">
                         <thead>
                             <tr class="border-b border-slate-800 text-slate-400 text-xs uppercase tracking-wider">
                                 <th class="py-2 px-3">魚缸狀態</th>
-                                <th class="py-2 px-3">產能總和</th>
-                                <th class="py-2 px-3">8 小時收益</th>
+                                <th class="py-2 px-3">總產能</th>
+                                <th class="py-2 px-3">睡 8 小時</th>
+                                <th class="py-2 px-3">一整天</th>
+                                <th class="py-2 px-3">多久冒一顆泡泡</th>
                             </tr>
                         </thead>
                         <tbody class="divide-y divide-slate-800/60 font-mono text-xs">
-                            <tr>
-                                <td class="py-2 px-3 text-slate-300">剛開始玩 · 2 隻起始魚</td>
-                                <td class="py-2 px-3 text-slate-400">2</td>
-                                <td class="py-2 px-3 text-amber-400">64 🫧</td>
-                            </tr>
-                            <tr>
-                                <td class="py-2 px-3 text-slate-300">5 隻普通魚</td>
-                                <td class="py-2 px-3 text-slate-400">10</td>
-                                <td class="py-2 px-3 text-amber-400">320 🫧</td>
-                            </tr>
-                            <tr>
-                                <td class="py-2 px-3 text-slate-300">8 隻混養（含幾隻稀有）</td>
-                                <td class="py-2 px-3 text-slate-400">28</td>
-                                <td class="py-2 px-3 text-amber-400">896 🫧</td>
-                            </tr>
-                            <tr>
-                                <td class="py-2 px-3 text-slate-300">滿編高階缸</td>
-                                <td class="py-2 px-3 text-slate-400">40+</td>
-                                <td class="py-2 px-3 text-amber-400">900 🫧（封頂）</td>
-                            </tr>
+                            <tr><td class="py-2 px-3 text-slate-300">剛開始 · 2 隻起始魚</td><td class="py-2 px-3 text-slate-400">6</td><td class="py-2 px-3 text-amber-400">188 🫧</td><td class="py-2 px-3 text-amber-400">564 🫧</td><td class="py-2 px-3 text-slate-400">約 8 分鐘</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300">第 1 週 · 4 隻</td><td class="py-2 px-3 text-slate-400">13</td><td class="py-2 px-3 text-amber-400">349 🫧</td><td class="py-2 px-3 text-amber-400">1,046 🫧</td><td class="py-2 px-3 text-slate-400">約 4.5 分鐘</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300">第 2 週 · 6 隻</td><td class="py-2 px-3 text-slate-400">22</td><td class="py-2 px-3 text-amber-400">531 🫧</td><td class="py-2 px-3 text-amber-400">1,593 🫧</td><td class="py-2 px-3 text-slate-400">約 3.5 分鐘</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300">約 1 個月 · 8 隻</td><td class="py-2 px-3 text-slate-400">31</td><td class="py-2 px-3 text-amber-400">699 🫧</td><td class="py-2 px-3 text-amber-400">2,096 🫧</td><td class="py-2 px-3 text-slate-400">約 3 分鐘</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300">中後期 · 12 隻</td><td class="py-2 px-3 text-slate-400">56</td><td class="py-2 px-3 text-amber-400">1,114 🫧</td><td class="py-2 px-3 text-amber-400">3,341 🫧</td><td class="py-2 px-3 text-slate-400">約 2 分鐘</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300">滿編 16 隻 · 混養</td><td class="py-2 px-3 text-slate-400">74</td><td class="py-2 px-3 text-amber-400">1,402 🫧</td><td class="py-2 px-3 text-amber-400">4,205 🫧</td><td class="py-2 px-3 text-slate-400">約 2 分鐘</td></tr>
+                            <tr><td class="py-2 px-3 text-amber-300">滿編 16 隻 · 全傳說</td><td class="py-2 px-3 text-slate-400">144</td><td class="py-2 px-3 text-amber-400">2,388 🫧</td><td class="py-2 px-3 text-amber-400">7,163 🫧</td><td class="py-2 px-3 text-slate-400">約 2 分鐘</td></tr>
                         </tbody>
                     </table>
                 </div>
                 <p class="text-[11px] text-slate-500 mt-3 leading-relaxed">
-                    單次結算有上限，會隨魚缸數遞減成長：1 缸 900、2 缸 1,100、3 缸 1,300、4 缸以上 1,500。
-                    Pro 買斷版把上限提高 1.5 倍（最高 2,250）。所以多開魚缸會變多，但不會等比翻倍。
+                    「一整天」是指一天回來看至少兩次的情況。多開幾座魚缸也會一起產幣，
+                    目前正在看的那一缸算全額，其他缸算一半。Pro 買斷版的產幣速率額外 +50%。
                 </p>
+            </div>
+
+            <div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-800 mb-8">
+                <div class="font-bold text-white mb-3 text-sm">🎯 換算成「要存幾天」</div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-xs sm:text-sm">
+                        <thead>
+                            <tr class="border-b border-slate-800 text-slate-400 text-xs uppercase tracking-wider">
+                                <th class="py-2 px-3">想買的東西</th>
+                                <th class="py-2 px-3">價格</th>
+                                <th class="py-2 px-3">剛開始</th>
+                                <th class="py-2 px-3">約 1 個月</th>
+                                <th class="py-2 px-3">滿編魚缸</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-800/60 font-mono text-xs">
+                            <tr><td class="py-2 px-3 text-slate-300">普通飾品</td><td class="py-2 px-3 text-slate-400">180</td><td class="py-2 px-3 text-emerald-400">0.3 天</td><td class="py-2 px-3 text-emerald-400">當天</td><td class="py-2 px-3 text-emerald-400">當天</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300">第 1 次擴建魚缸</td><td class="py-2 px-3 text-slate-400">500</td><td class="py-2 px-3 text-emerald-400">0.9 天</td><td class="py-2 px-3 text-emerald-400">0.2 天</td><td class="py-2 px-3 text-emerald-400">當天</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300">擴充飼料罐</td><td class="py-2 px-3 text-slate-400">900</td><td class="py-2 px-3 text-cyan-400">1.6 天</td><td class="py-2 px-3 text-emerald-400">0.4 天</td><td class="py-2 px-3 text-emerald-400">0.2 天</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300">魚隻進化 I → II</td><td class="py-2 px-3 text-slate-400">1,200</td><td class="py-2 px-3 text-cyan-400">2.1 天</td><td class="py-2 px-3 text-emerald-400">0.6 天</td><td class="py-2 px-3 text-emerald-400">0.3 天</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300">稀有飾品</td><td class="py-2 px-3 text-slate-400">2,300</td><td class="py-2 px-3 text-cyan-400">4.1 天</td><td class="py-2 px-3 text-cyan-400">1.1 天</td><td class="py-2 px-3 text-emerald-400">0.5 天</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300">開闢第 2 座魚缸</td><td class="py-2 px-3 text-slate-400">3,600</td><td class="py-2 px-3 text-cyan-400">6.4 天</td><td class="py-2 px-3 text-cyan-400">1.7 天</td><td class="py-2 px-3 text-emerald-400">0.9 天</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300">史詩飾品</td><td class="py-2 px-3 text-slate-400">7,500</td><td class="py-2 px-3 text-amber-400">13 天</td><td class="py-2 px-3 text-cyan-400">3.6 天</td><td class="py-2 px-3 text-cyan-400">1.8 天</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300">傳說飾品</td><td class="py-2 px-3 text-slate-400">16,888</td><td class="py-2 px-3 text-amber-400">30 天</td><td class="py-2 px-3 text-amber-400">8.1 天</td><td class="py-2 px-3 text-cyan-400">4.0 天</td></tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
                 <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
                     <div class="text-2xl mb-2">🎧</div>
                     <div class="font-bold text-white mb-1 text-sm">專注番茄鐘</div>
-                    <div class="text-xs text-slate-400">完成一次 +15 🫧 與 +25 主人經驗。計時走真實時鐘，關掉畫面去做事也照樣在跑。</div>
+                    <div class="text-xs text-slate-400">完成一次 +15 🫧 與 +25 主人經驗。計時走真實時鐘，關掉畫面去做事也照樣在跑。這筆是額外的，不吃魚缸的產出。</div>
                 </div>
                 <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
                     <div class="text-2xl mb-2">🌊</div>
                     <div class="font-bold text-white mb-1 text-sm">放生回大海</div>
-                    <div class="text-xs text-slate-400">依稀有度與進化階段換回泡泡幣，幼魚折半。捨不得的魚記得先點右上角星星鎖起來。</div>
+                    <div class="text-xs text-slate-400">依稀有度與進化階段換回泡泡幣，幼魚折半。捨不得的魚記得先點右上角星星鎖起來，鎖住就放生不掉。</div>
                 </div>
                 <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
                     <div class="text-2xl mb-2">🥫</div>
                     <div class="font-bold text-white mb-1 text-sm">飼料是有限的</div>
-                    <div class="text-xs text-slate-400">飼料罐每 20 分鐘回填 1 格，可在工坊花錢永久擴充。餵魚同時給主人經驗與進化經驗。</div>
+                    <div class="text-xs text-slate-400">飼料罐每 20 分鐘回填 1 格，可在工坊花錢永久擴充。餵魚給的是經驗值不是金幣。</div>
                 </div>
             </div>
 
