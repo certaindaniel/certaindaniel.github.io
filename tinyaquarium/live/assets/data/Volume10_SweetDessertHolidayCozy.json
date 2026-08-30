@@ -8,7 +8,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 713,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🌸",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -43,7 +43,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 142,
     "baseSwimSpeed": 52,
-    "baseCoinYield": 1,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🎆",
     "visualBlueprint": {
       "primaryColor": "#1E1B4B",
@@ -78,7 +78,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 326,
     "baseSwimSpeed": 68,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🥮",
     "visualBlueprint": {
       "primaryColor": "#FEF08A",
@@ -111,7 +111,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 256,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🎃",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -216,7 +216,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 910,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🏮",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -251,7 +251,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 473,
     "baseSwimSpeed": 54,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🌿",
     "visualBlueprint": {
       "primaryColor": "#15803D",
@@ -284,7 +284,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 767,
     "baseSwimSpeed": 64,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🌌",
     "visualBlueprint": {
       "primaryColor": "#4338CA",
@@ -354,7 +354,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 776,
     "baseSwimSpeed": 69,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐦",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -387,7 +387,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 601,
     "baseSwimSpeed": 72,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🥚",
     "visualBlueprint": {
       "primaryColor": "#F472B6",
@@ -422,7 +422,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 790,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🍀",
     "visualBlueprint": {
       "primaryColor": "#16A34A",
@@ -457,7 +457,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 500,
     "baseSwimSpeed": 69,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
       "primaryColor": "#052E16",
@@ -492,7 +492,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 331,
     "baseSwimSpeed": 61,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🌻",
     "visualBlueprint": {
       "primaryColor": "#CA8A04",
@@ -525,7 +525,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 3984,
     "baseSwimSpeed": 98,
-    "baseCoinYield": 28,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🏖️",
     "visualBlueprint": {
       "primaryColor": "#D97706",
@@ -560,7 +560,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 595,
     "baseSwimSpeed": 63,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🍁",
     "visualBlueprint": {
       "primaryColor": "#B91C1C",
@@ -628,7 +628,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 1256,
     "baseSwimSpeed": 86,
-    "baseCoinYield": 12,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🌾",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -663,7 +663,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 862,
     "baseSwimSpeed": 78,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦌",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -698,7 +698,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 639,
     "baseSwimSpeed": 78,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🎇",
     "visualBlueprint": {
       "primaryColor": "#312E81",
@@ -800,7 +800,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 113,
     "baseSwimSpeed": 42,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🌹",
     "visualBlueprint": {
       "primaryColor": "#BE123C",
@@ -835,7 +835,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 1317,
     "baseSwimSpeed": 78,
-    "baseCoinYield": 11,
+    "baseCoinYield": 7,
     "emojiOrSprite": "💐",
     "visualBlueprint": {
       "primaryColor": "#E11D48",
@@ -870,7 +870,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 994,
     "baseSwimSpeed": 68,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🥞",
     "visualBlueprint": {
       "primaryColor": "#FEF08A",
@@ -903,7 +903,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 151,
     "baseSwimSpeed": 55,
-    "baseCoinYield": 1,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🍓",
     "visualBlueprint": {
       "primaryColor": "#FDE047",
@@ -938,7 +938,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 107,
     "baseSwimSpeed": 49,
-    "baseCoinYield": 1,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🍡",
     "visualBlueprint": {
       "primaryColor": "#15803D",
@@ -973,7 +973,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 1332,
     "baseSwimSpeed": 83,
-    "baseCoinYield": 11,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🍮",
     "visualBlueprint": {
       "primaryColor": "#D97706",
@@ -1008,7 +1008,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 969,
     "baseSwimSpeed": 76,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🧁",
     "visualBlueprint": {
       "primaryColor": "#F472B6",
@@ -1043,7 +1043,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 502,
     "baseSwimSpeed": 52,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🧋",
     "visualBlueprint": {
       "primaryColor": "#1C1917",
@@ -1078,7 +1078,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 1992,
     "baseSwimSpeed": 85,
-    "baseCoinYield": 10,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -1111,7 +1111,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 888,
     "baseSwimSpeed": 66,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🍰",
     "visualBlueprint": {
       "primaryColor": "#451A03",
@@ -1146,7 +1146,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 656,
     "baseSwimSpeed": 69,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🍰",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1181,7 +1181,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 434,
     "baseSwimSpeed": 52,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🍫",
     "visualBlueprint": {
       "primaryColor": "#1F1610",
@@ -1216,7 +1216,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 444,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🍨",
     "visualBlueprint": {
       "primaryColor": "#FFFBEB",
@@ -1315,7 +1315,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 818,
     "baseSwimSpeed": 70,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🍩",
     "visualBlueprint": {
       "primaryColor": "#DB2777",
@@ -1350,7 +1350,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 135,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🥧",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -1385,7 +1385,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 677,
     "baseSwimSpeed": 67,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🍋",
     "visualBlueprint": {
       "primaryColor": "#FACC15",
@@ -1420,7 +1420,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 2254,
     "baseSwimSpeed": 88,
-    "baseCoinYield": 23,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🫐",
     "visualBlueprint": {
       "primaryColor": "#312E81",
@@ -1453,7 +1453,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 280,
     "baseSwimSpeed": 51,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🍿",
     "visualBlueprint": {
       "primaryColor": "#CA8A04",
@@ -1486,7 +1486,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 155,
     "baseSwimSpeed": 56,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🍡",
     "visualBlueprint": {
       "primaryColor": "#B91C1C",
@@ -1521,7 +1521,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 302,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🍡",
     "visualBlueprint": {
       "primaryColor": "#FFFBEB",
@@ -1556,7 +1556,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 602,
     "baseSwimSpeed": 80,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🥐",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -1589,7 +1589,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 892,
     "baseSwimSpeed": 76,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🥮",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -1659,7 +1659,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 784,
     "baseSwimSpeed": 73,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🍇",
     "visualBlueprint": {
       "primaryColor": "#DB2777",
@@ -1695,7 +1695,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 590,
     "baseSwimSpeed": 50,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🧋",
     "visualBlueprint": {
       "primaryColor": "#D97706",
@@ -1765,7 +1765,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 357,
     "baseSwimSpeed": 58,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐇",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1903,7 +1903,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 604,
     "baseSwimSpeed": 68,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🍈",
     "visualBlueprint": {
       "primaryColor": "#C9CCE8",
@@ -1939,7 +1939,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 573,
     "baseSwimSpeed": 67,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦦",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -1974,7 +1974,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 431,
     "baseSwimSpeed": 69,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "⭐",
     "visualBlueprint": {
       "primaryColor": "#FB7185",
@@ -2007,7 +2007,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 353,
     "baseSwimSpeed": 67,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐚",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -2040,7 +2040,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 506,
     "baseSwimSpeed": 65,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -2073,7 +2073,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 202,
     "baseSwimSpeed": 40,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐎",
     "visualBlueprint": {
       "primaryColor": "#FB7185",
@@ -2143,7 +2143,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 811,
     "baseSwimSpeed": 67,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -2176,7 +2176,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 256,
     "baseSwimSpeed": 48,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🍬",
     "visualBlueprint": {
       "primaryColor": "#EC4899",
@@ -2211,7 +2211,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 632,
     "baseSwimSpeed": 64,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐘",
     "visualBlueprint": {
       "primaryColor": "#F472B6",
@@ -2246,7 +2246,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 2240,
     "baseSwimSpeed": 87,
-    "baseCoinYield": 22,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🎲",
     "visualBlueprint": {
       "primaryColor": "#EAB308",
@@ -2281,7 +2281,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 915,
     "baseSwimSpeed": 63,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🌈",
     "visualBlueprint": {
       "primaryColor": "#06B6D4",
@@ -2349,7 +2349,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 9753,
     "baseSwimSpeed": 139,
-    "baseCoinYield": 23,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
       "primaryColor": "#15803D",
@@ -2382,7 +2382,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 958,
     "baseSwimSpeed": 74,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🥔",
     "visualBlueprint": {
       "primaryColor": "#475569",
@@ -2450,7 +2450,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 1414,
     "baseSwimSpeed": 71,
-    "baseCoinYield": 11,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
       "primaryColor": "#9333EA",
@@ -2485,7 +2485,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 495,
     "baseSwimSpeed": 61,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🫧",
     "visualBlueprint": {
       "primaryColor": "#E0F2FE",
@@ -2521,7 +2521,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 705,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🌸",
     "visualBlueprint": {
       "primaryColor": "#FB7185",
@@ -2589,7 +2589,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 1212,
     "baseSwimSpeed": 80,
-    "baseCoinYield": 10,
+    "baseCoinYield": 6,
     "emojiOrSprite": "⚙️",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -2622,7 +2622,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 401,
     "baseSwimSpeed": 56,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦢",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -2691,7 +2691,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 500,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🍾",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -2726,7 +2726,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 454,
     "baseSwimSpeed": 63,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
       "primaryColor": "#1E1B4B",
@@ -2762,7 +2762,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 690,
     "baseSwimSpeed": 76,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "❄️",
     "visualBlueprint": {
       "primaryColor": "#E0F2FE",
@@ -2795,7 +2795,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 276,
     "baseSwimSpeed": 47,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🎵",
     "visualBlueprint": {
       "primaryColor": "#EC4899",
@@ -2830,7 +2830,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 308,
     "baseSwimSpeed": 66,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "💧",
     "visualBlueprint": {
       "primaryColor": "#00F0FF",
@@ -2865,7 +2865,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 192,
     "baseSwimSpeed": 40,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🔮",
     "visualBlueprint": {
       "primaryColor": "#C084FC",
@@ -2900,7 +2900,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 450,
     "baseSwimSpeed": 66,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🔯",
     "visualBlueprint": {
       "primaryColor": "#1E1B4B",
@@ -2968,7 +2968,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 704,
     "baseSwimSpeed": 76,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "☁️",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -3001,7 +3001,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 254,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🪟",
     "visualBlueprint": {
       "primaryColor": "#BE123C",
@@ -3072,7 +3072,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 566,
     "baseSwimSpeed": 52,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🌌",
     "visualBlueprint": {
       "primaryColor": "#10B981",
@@ -3108,7 +3108,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 7536,
     "baseSwimSpeed": 123,
-    "baseCoinYield": 15,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🏠",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -3143,7 +3143,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 520,
     "baseSwimSpeed": 66,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🫧",
     "visualBlueprint": {
       "primaryColor": "#F472B6",
@@ -3179,7 +3179,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 426,
     "baseSwimSpeed": 50,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "⏳",
     "visualBlueprint": {
       "primaryColor": "#D97706",
@@ -3214,7 +3214,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 1847,
     "baseSwimSpeed": 86,
-    "baseCoinYield": 11,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🔖",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -3317,7 +3317,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 703,
     "baseSwimSpeed": 68,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🍄",
     "visualBlueprint": {
       "primaryColor": "#065F46",
@@ -3352,7 +3352,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 232,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 1,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🌀",
     "visualBlueprint": {
       "primaryColor": "#1E1B4B",
@@ -3388,7 +3388,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 723,
     "baseSwimSpeed": 71,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "📖",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -3421,7 +3421,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 102,
     "baseSwimSpeed": 46,
-    "baseCoinYield": 1,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🧩",
     "visualBlueprint": {
       "primaryColor": "#CA8A04",

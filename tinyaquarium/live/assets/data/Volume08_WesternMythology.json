@@ -8,7 +8,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 1924,
     "baseSwimSpeed": 0.61,
-    "baseCoinYield": 21,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -44,7 +44,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 3757,
     "baseSwimSpeed": 1.13,
-    "baseCoinYield": 24,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#4C1D95",
@@ -82,7 +82,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 9035,
     "baseSwimSpeed": 0.89,
-    "baseCoinYield": 19,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -120,7 +120,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 588,
     "baseSwimSpeed": 0.92,
-    "baseCoinYield": 29,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -158,7 +158,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 9963,
     "baseSwimSpeed": 0.62,
-    "baseCoinYield": 18,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#15803D",
@@ -196,7 +196,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 9028,
     "baseSwimSpeed": 2.39,
-    "baseCoinYield": 16,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#991B1B",
@@ -234,7 +234,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 4657,
     "baseSwimSpeed": 4.14,
-    "baseCoinYield": 26,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#0369A1",
@@ -272,7 +272,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 7024,
     "baseSwimSpeed": 2.03,
-    "baseCoinYield": 30,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#74261B",
@@ -311,7 +311,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 6324,
     "baseSwimSpeed": 0.94,
-    "baseCoinYield": 1,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -349,7 +349,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 7627,
     "baseSwimSpeed": 2.91,
-    "baseCoinYield": 1,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -387,7 +387,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 6025,
     "baseSwimSpeed": 3.1,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#1A6481",
@@ -425,7 +425,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 4841,
     "baseSwimSpeed": 4.93,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -463,7 +463,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 7528,
     "baseSwimSpeed": 3.36,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#031988",
@@ -502,7 +502,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 4474,
     "baseSwimSpeed": 3.66,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#441B4B",
@@ -541,7 +541,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 2903,
     "baseSwimSpeed": 2.9,
-    "baseCoinYield": 19,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#1B4B4B",
@@ -580,7 +580,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 9225,
     "baseSwimSpeed": 1.49,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#5AB40E",
@@ -619,7 +619,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 6672,
     "baseSwimSpeed": 1.7,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#FB9800",
@@ -657,7 +657,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 8279,
     "baseSwimSpeed": 2.28,
-    "baseCoinYield": 26,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#181C4E",
@@ -696,7 +696,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 2387,
     "baseSwimSpeed": 1.61,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#16A207",
@@ -735,7 +735,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 7119,
     "baseSwimSpeed": 4.54,
-    "baseCoinYield": 22,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#4C1D95",
@@ -773,7 +773,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 8185,
     "baseSwimSpeed": 0.91,
-    "baseCoinYield": 29,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#165018",
@@ -812,7 +812,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 7016,
     "baseSwimSpeed": 3.18,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -850,7 +850,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 4219,
     "baseSwimSpeed": 4.87,
-    "baseCoinYield": 16,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0D834F",
@@ -889,7 +889,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 8897,
     "baseSwimSpeed": 3.88,
-    "baseCoinYield": 1,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#991B1B",
@@ -927,7 +927,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 7533,
     "baseSwimSpeed": 0.51,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#03B008",
@@ -966,7 +966,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 8301,
     "baseSwimSpeed": 3.93,
-    "baseCoinYield": 23,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#771980",
@@ -1005,7 +1005,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 4989,
     "baseSwimSpeed": 4.29,
-    "baseCoinYield": 25,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#16502C",
@@ -1044,7 +1044,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 3358,
     "baseSwimSpeed": 1.19,
-    "baseCoinYield": 20,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#9C0892",
@@ -1083,7 +1083,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 8937,
     "baseSwimSpeed": 4.79,
-    "baseCoinYield": 23,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#103376",
@@ -1122,7 +1122,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 109,
     "baseSwimSpeed": 3.2,
-    "baseCoinYield": 20,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1160,7 +1160,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 1932,
     "baseSwimSpeed": 4.68,
-    "baseCoinYield": 24,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#7C07A2",
@@ -1199,7 +1199,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 4023,
     "baseSwimSpeed": 0.76,
-    "baseCoinYield": 21,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1237,7 +1237,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 8062,
     "baseSwimSpeed": 4.17,
-    "baseCoinYield": 19,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#184E2F",
@@ -1276,7 +1276,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 7887,
     "baseSwimSpeed": 4.76,
-    "baseCoinYield": 25,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#8E8E0B",
@@ -1354,7 +1354,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 6218,
     "baseSwimSpeed": 2.47,
-    "baseCoinYield": 19,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#C2A216",
@@ -1431,7 +1431,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 217,
     "baseSwimSpeed": 0.82,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#BE2018",
@@ -1470,7 +1470,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 5513,
     "baseSwimSpeed": 0.82,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#3C1B4B",
@@ -1509,7 +1509,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 8934,
     "baseSwimSpeed": 1.1,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -1547,7 +1547,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 7849,
     "baseSwimSpeed": 4.13,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#E4C9E8",
@@ -1586,7 +1586,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 5904,
     "baseSwimSpeed": 2.41,
-    "baseCoinYield": 10,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#06B6D4",
@@ -1624,7 +1624,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 1712,
     "baseSwimSpeed": 0.77,
-    "baseCoinYield": 19,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#0119CA",
@@ -1663,7 +1663,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 7450,
     "baseSwimSpeed": 1.13,
-    "baseCoinYield": 28,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1701,7 +1701,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 7360,
     "baseSwimSpeed": 4.14,
-    "baseCoinYield": 1,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1739,7 +1739,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 8956,
     "baseSwimSpeed": 4.26,
-    "baseCoinYield": 20,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#40D205",
@@ -1817,7 +1817,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 7554,
     "baseSwimSpeed": 1.78,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#4CA61D",
@@ -1856,7 +1856,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 2636,
     "baseSwimSpeed": 1.35,
-    "baseCoinYield": 10,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#009555",
@@ -1895,7 +1895,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 1098,
     "baseSwimSpeed": 3.87,
-    "baseCoinYield": 20,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#198075",
@@ -1934,7 +1934,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 9671,
     "baseSwimSpeed": 2.65,
-    "baseCoinYield": 20,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#18374E",
@@ -1973,7 +1973,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 2679,
     "baseSwimSpeed": 0.76,
-    "baseCoinYield": 26,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#250EB4",
@@ -2012,7 +2012,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 3144,
     "baseSwimSpeed": 0.81,
-    "baseCoinYield": 22,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#15803D",
@@ -2050,7 +2050,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 3953,
     "baseSwimSpeed": 2.32,
-    "baseCoinYield": 21,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#1D1977",
@@ -2089,7 +2089,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 4133,
     "baseSwimSpeed": 3.11,
-    "baseCoinYield": 18,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#00FB52",
@@ -2127,7 +2127,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 1443,
     "baseSwimSpeed": 2.39,
-    "baseCoinYield": 23,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#1FA27F",
@@ -2166,7 +2166,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 3446,
     "baseSwimSpeed": 3.51,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#314B1B",
@@ -2205,7 +2205,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 5015,
     "baseSwimSpeed": 2.56,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#A9B800",
@@ -2244,7 +2244,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 9324,
     "baseSwimSpeed": 4.98,
-    "baseCoinYield": 28,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#5E4C13",
@@ -2282,7 +2282,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 2270,
     "baseSwimSpeed": 4.7,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#A8C216",
@@ -2321,7 +2321,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 2684,
     "baseSwimSpeed": 2.47,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#2803B0",
@@ -2360,7 +2360,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 8766,
     "baseSwimSpeed": 0.54,
-    "baseCoinYield": 19,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#228895",
@@ -2398,7 +2398,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 2300,
     "baseSwimSpeed": 1.69,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -2436,7 +2436,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 4716,
     "baseSwimSpeed": 3.22,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#45B40E",
@@ -2475,7 +2475,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 4425,
     "baseSwimSpeed": 2.77,
-    "baseCoinYield": 23,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#ECC6E4",
@@ -2553,7 +2553,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 7339,
     "baseSwimSpeed": 2.98,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#319F00",
@@ -2592,7 +2592,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 2542,
     "baseSwimSpeed": 2.96,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#148099",
@@ -2631,7 +2631,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 7141,
     "baseSwimSpeed": 1.07,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#205016",
@@ -2708,7 +2708,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 2632,
     "baseSwimSpeed": 4.67,
-    "baseCoinYield": 27,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#F61A29",
@@ -2746,7 +2746,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 3038,
     "baseSwimSpeed": 3.81,
-    "baseCoinYield": 1,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#C2A216",
@@ -2785,7 +2785,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 4471,
     "baseSwimSpeed": 1.22,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#0369A1",
@@ -2862,7 +2862,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 3752,
     "baseSwimSpeed": 0.61,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#1B4B1B",
@@ -2901,7 +2901,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 5478,
     "baseSwimSpeed": 1.75,
-    "baseCoinYield": 26,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -2937,7 +2937,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 5853,
     "baseSwimSpeed": 3.39,
-    "baseCoinYield": 29,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#74A811",
@@ -2976,7 +2976,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 8885,
     "baseSwimSpeed": 1.99,
-    "baseCoinYield": 28,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#991B1B",
@@ -3014,7 +3014,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 4379,
     "baseSwimSpeed": 1.3,
-    "baseCoinYield": 30,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#00C8C7",
@@ -3053,7 +3053,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 1876,
     "baseSwimSpeed": 3.18,
-    "baseCoinYield": 19,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#FBF600",
@@ -3091,7 +3091,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 7249,
     "baseSwimSpeed": 3.23,
-    "baseCoinYield": 19,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#059669",
@@ -3127,7 +3127,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 4273,
     "baseSwimSpeed": 0.7,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#C3740A",
@@ -3166,7 +3166,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 3328,
     "baseSwimSpeed": 2.14,
-    "baseCoinYield": 24,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#15803D",
@@ -3204,7 +3204,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 2141,
     "baseSwimSpeed": 3.74,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#717719",
@@ -3243,7 +3243,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 5444,
     "baseSwimSpeed": 2.31,
-    "baseCoinYield": 9,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#7803B0",
@@ -3320,7 +3320,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 6753,
     "baseSwimSpeed": 2.97,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#501639",
@@ -3398,7 +3398,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 3601,
     "baseSwimSpeed": 2.8,
-    "baseCoinYield": 27,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#CC16EF",
@@ -3437,7 +3437,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 8545,
     "baseSwimSpeed": 3.49,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#1A2DB4",
@@ -3476,7 +3476,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 5185,
     "baseSwimSpeed": 1.51,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#038844",
@@ -3551,7 +3551,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 9531,
     "baseSwimSpeed": 1.37,
-    "baseCoinYield": 19,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#181A4E",
@@ -3590,7 +3590,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 190,
     "baseSwimSpeed": 4.52,
-    "baseCoinYield": 16,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -3626,7 +3626,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 8586,
     "baseSwimSpeed": 2.59,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#09D358",
@@ -3666,7 +3666,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 7712,
     "baseSwimSpeed": 3.5,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#F6831A",
@@ -3705,7 +3705,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 8370,
     "baseSwimSpeed": 2.42,
-    "baseCoinYield": 10,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#770095",
@@ -3744,7 +3744,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 7877,
     "baseSwimSpeed": 2.53,
-    "baseCoinYield": 27,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#4C1D95",
@@ -3782,7 +3782,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 8039,
     "baseSwimSpeed": 3.32,
-    "baseCoinYield": 26,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#1EFC70",
@@ -3820,7 +3820,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 3941,
     "baseSwimSpeed": 1.72,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#B45309",

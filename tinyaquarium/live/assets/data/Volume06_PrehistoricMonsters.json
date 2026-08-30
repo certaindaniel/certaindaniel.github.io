@@ -8,7 +8,7 @@
     "category": "古生代史前遠古海怪",
     "hatchStepsRequired": 12800,
     "baseSwimSpeed": 1.35,
-    "baseCoinYield": 22,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🗡️",
     "visualBlueprint": {
       "primaryColor": "#38BDF8",
@@ -88,7 +88,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1200,
     "baseSwimSpeed": 14,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -162,7 +162,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 18,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -200,7 +200,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 20,
-    "baseCoinYield": 10,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
       "primaryColor": "#991B1B",
@@ -238,7 +238,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1600,
     "baseSwimSpeed": 22,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🌸",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -315,7 +315,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐛",
     "visualBlueprint": {
       "primaryColor": "#4B1B42",
@@ -354,7 +354,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1900,
     "baseSwimSpeed": 28,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#310961",
@@ -393,7 +393,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2000,
     "baseSwimSpeed": 30,
-    "baseCoinYield": 25,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#6D6A0A",
@@ -471,7 +471,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2200,
     "baseSwimSpeed": 34,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#374151",
@@ -548,7 +548,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2400,
     "baseSwimSpeed": 38,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐚",
     "visualBlueprint": {
       "primaryColor": "#354E18",
@@ -587,7 +587,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2500,
     "baseSwimSpeed": 40,
-    "baseCoinYield": 10,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#012F65",
@@ -626,7 +626,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2600,
     "baseSwimSpeed": 42,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -703,7 +703,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2800,
     "baseSwimSpeed": 46,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🌿",
     "visualBlueprint": {
       "primaryColor": "#6D0A55",
@@ -741,7 +741,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2900,
     "baseSwimSpeed": 48,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#5C2744",
@@ -780,7 +780,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1000,
     "baseSwimSpeed": 50,
-    "baseCoinYield": 27,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🕷️",
     "visualBlueprint": {
       "primaryColor": "#370A6D",
@@ -818,7 +818,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1100,
     "baseSwimSpeed": 52,
-    "baseCoinYield": 1,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#011F65",
@@ -857,7 +857,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1200,
     "baseSwimSpeed": 54,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#761186",
@@ -896,7 +896,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 56,
-    "baseCoinYield": 1,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🍎",
     "visualBlueprint": {
       "primaryColor": "#771972",
@@ -935,7 +935,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 58,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🦷",
     "visualBlueprint": {
       "primaryColor": "#1F3147",
@@ -974,7 +974,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 10,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🛡️",
     "visualBlueprint": {
       "primaryColor": "#343A78",
@@ -1013,7 +1013,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1600,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#580E2D",
@@ -1052,7 +1052,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 64,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#406006",
@@ -1090,7 +1090,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 66,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#21A00A",
@@ -1129,7 +1129,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1900,
     "baseSwimSpeed": 68,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#327719",
@@ -1168,7 +1168,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2000,
     "baseSwimSpeed": 10,
-    "baseCoinYield": 30,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#374151",
@@ -1206,7 +1206,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2100,
     "baseSwimSpeed": 12,
-    "baseCoinYield": 1,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦎",
     "visualBlueprint": {
       "primaryColor": "#1F4247",
@@ -1245,7 +1245,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2200,
     "baseSwimSpeed": 14,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🛡️",
     "visualBlueprint": {
       "primaryColor": "#536D0A",
@@ -1283,7 +1283,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2300,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 1,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#018704",
@@ -1322,7 +1322,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2400,
     "baseSwimSpeed": 18,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#600E93",
@@ -1360,7 +1360,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2500,
     "baseSwimSpeed": 20,
-    "baseCoinYield": 11,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🦎",
     "visualBlueprint": {
       "primaryColor": "#2F1590",
@@ -1399,7 +1399,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2600,
     "baseSwimSpeed": 22,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#3C0E58",
@@ -1437,7 +1437,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2700,
     "baseSwimSpeed": 24,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#24543B",
@@ -1476,7 +1476,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2800,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -1514,7 +1514,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2900,
     "baseSwimSpeed": 28,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#456D07",
@@ -1553,7 +1553,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1000,
     "baseSwimSpeed": 30,
-    "baseCoinYield": 23,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#79136D",
@@ -1592,7 +1592,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1100,
     "baseSwimSpeed": 32,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🛡️",
     "visualBlueprint": {
       "primaryColor": "#539D11",
@@ -1631,7 +1631,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1200,
     "baseSwimSpeed": 34,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🛡️",
     "visualBlueprint": {
       "primaryColor": "#A00A56",
@@ -1669,7 +1669,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 36,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#4D2143",
@@ -1708,7 +1708,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 38,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#79132D",
@@ -1746,7 +1746,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 40,
-    "baseCoinYield": 9,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#480E58",
@@ -1784,7 +1784,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1600,
     "baseSwimSpeed": 42,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#368611",
@@ -1823,7 +1823,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 44,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦎",
     "visualBlueprint": {
       "primaryColor": "#6E8317",
@@ -1862,7 +1862,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 46,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#34783C",
@@ -1901,7 +1901,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1900,
     "baseSwimSpeed": 48,
-    "baseCoinYield": 1,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#214D49",
@@ -1940,7 +1940,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2000,
     "baseSwimSpeed": 50,
-    "baseCoinYield": 29,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7A5A08",
@@ -2017,7 +2017,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2200,
     "baseSwimSpeed": 54,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦕",
     "visualBlueprint": {
       "primaryColor": "#791328",
@@ -2056,7 +2056,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2300,
     "baseSwimSpeed": 56,
-    "baseCoinYield": 1,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦖",
     "visualBlueprint": {
       "primaryColor": "#772099",
@@ -2095,7 +2095,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2400,
     "baseSwimSpeed": 58,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#3A7834",
@@ -2173,7 +2173,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2600,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐚",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -2211,7 +2211,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2700,
     "baseSwimSpeed": 64,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#046261",
@@ -2250,7 +2250,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2800,
     "baseSwimSpeed": 66,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#3B1186",
@@ -2289,7 +2289,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2900,
     "baseSwimSpeed": 68,
-    "baseCoinYield": 1,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
       "primaryColor": "#0C611C",
@@ -2327,7 +2327,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1000,
     "baseSwimSpeed": 10,
-    "baseCoinYield": 26,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🦖",
     "visualBlueprint": {
       "primaryColor": "#234D21",
@@ -2366,7 +2366,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1100,
     "baseSwimSpeed": 12,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐊",
     "visualBlueprint": {
       "primaryColor": "#1D4ED8",
@@ -2402,7 +2402,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1200,
     "baseSwimSpeed": 14,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦕",
     "visualBlueprint": {
       "primaryColor": "#1D4931",
@@ -2441,7 +2441,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦎",
     "visualBlueprint": {
       "primaryColor": "#7A4F04",
@@ -2480,7 +2480,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 18,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
       "primaryColor": "#0A6D19",
@@ -2518,7 +2518,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 20,
-    "baseCoinYield": 12,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐊",
     "visualBlueprint": {
       "primaryColor": "#A6371D",
@@ -2557,7 +2557,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1600,
     "baseSwimSpeed": 22,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐊",
     "visualBlueprint": {
       "primaryColor": "#214D4A",
@@ -2596,7 +2596,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 24,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐊",
     "visualBlueprint": {
       "primaryColor": "#2C2454",
@@ -2635,7 +2635,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦕",
     "visualBlueprint": {
       "primaryColor": "#1D492A",
@@ -2674,7 +2674,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1900,
     "baseSwimSpeed": 28,
-    "baseCoinYield": 1,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#0F8701",
@@ -2713,7 +2713,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2000,
     "baseSwimSpeed": 30,
-    "baseCoinYield": 23,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#938E0E",
@@ -2751,7 +2751,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2100,
     "baseSwimSpeed": 32,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#030712",
@@ -2789,7 +2789,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2200,
     "baseSwimSpeed": 34,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🦕",
     "visualBlueprint": {
       "primaryColor": "#3E275C",
@@ -2828,7 +2828,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2300,
     "baseSwimSpeed": 36,
-    "baseCoinYield": 1,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
       "primaryColor": "#334155",
@@ -2866,7 +2866,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2400,
     "baseSwimSpeed": 38,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🦖",
     "visualBlueprint": {
       "primaryColor": "#441B4B",
@@ -2944,7 +2944,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2600,
     "baseSwimSpeed": 42,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -2982,7 +2982,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2700,
     "baseSwimSpeed": 44,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -3020,7 +3020,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2800,
     "baseSwimSpeed": 46,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#374151",
@@ -3058,7 +3058,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2900,
     "baseSwimSpeed": 48,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#334155",
@@ -3096,7 +3096,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1000,
     "baseSwimSpeed": 50,
-    "baseCoinYield": 22,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -3132,7 +3132,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1100,
     "baseSwimSpeed": 52,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
       "primaryColor": "#065F46",
@@ -3170,7 +3170,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1200,
     "baseSwimSpeed": 54,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -3209,7 +3209,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 56,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -3247,7 +3247,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 58,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐺",
     "visualBlueprint": {
       "primaryColor": "#5C7130",
@@ -3325,7 +3325,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1600,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -3363,7 +3363,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 64,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -3399,7 +3399,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 66,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦭",
     "visualBlueprint": {
       "primaryColor": "#17930E",
@@ -3476,7 +3476,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2000,
     "baseSwimSpeed": 10,
-    "baseCoinYield": 18,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#713057",
@@ -3514,7 +3514,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2100,
     "baseSwimSpeed": 12,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#79133E",
@@ -3553,7 +3553,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2200,
     "baseSwimSpeed": 14,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🦭",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -3629,7 +3629,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2400,
     "baseSwimSpeed": 18,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -3665,7 +3665,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2500,
     "baseSwimSpeed": 20,
-    "baseCoinYield": 11,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐻",
     "visualBlueprint": {
       "primaryColor": "#829015",
@@ -3704,7 +3704,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2600,
     "baseSwimSpeed": 22,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦭",
     "visualBlueprint": {
       "primaryColor": "#3F6D0A",
@@ -3742,7 +3742,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2700,
     "baseSwimSpeed": 24,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#34785A",
@@ -3781,7 +3781,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2800,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🦭",
     "visualBlueprint": {
       "primaryColor": "#1B4B23",
@@ -3820,7 +3820,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2900,
     "baseSwimSpeed": 28,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#090165",
@@ -3859,7 +3859,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1000,
     "baseSwimSpeed": 30,
-    "baseCoinYield": 29,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🦭",
     "visualBlueprint": {
       "primaryColor": "#796513",

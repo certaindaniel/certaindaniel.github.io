@@ -8,7 +8,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 4500,
     "baseSwimSpeed": 0.95,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐊",
     "visualBlueprint": {
       "primaryColor": "#16A34A",
@@ -48,7 +48,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 29,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -124,7 +124,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -160,7 +160,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -198,7 +198,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 9,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -236,7 +236,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -274,7 +274,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1600,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -312,7 +312,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#165040",
@@ -351,7 +351,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1600,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 12,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#D20543",
@@ -390,7 +390,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 2000,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -428,7 +428,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -466,7 +466,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1900,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 10,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#64BA24",
@@ -505,7 +505,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -579,7 +579,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DDDA09",
@@ -618,7 +618,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 2000,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#89CE0E",
@@ -657,7 +657,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -695,7 +695,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -733,7 +733,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 26,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#D609DD",
@@ -809,7 +809,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -845,7 +845,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -883,7 +883,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -960,7 +960,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1900,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -998,7 +998,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 25,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -1072,7 +1072,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -1148,7 +1148,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 16,
+    "baseCoinYield": 8,
     "emojiOrSprite": "⚡",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -1186,7 +1186,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "👻",
     "visualBlueprint": {
       "primaryColor": "#2B4B1B",
@@ -1301,7 +1301,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1E293B",
@@ -1339,7 +1339,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 30,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#6D28D9",
@@ -1377,7 +1377,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1200,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -1413,7 +1413,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1200,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 12,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1451,7 +1451,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 22,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🦭",
     "visualBlueprint": {
       "primaryColor": "#1B2A4B",
@@ -1489,7 +1489,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#361F47",
@@ -1528,7 +1528,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1600,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 9,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦦",
     "visualBlueprint": {
       "primaryColor": "#06A096",
@@ -1567,7 +1567,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1200,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 9,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🧛‍♂️",
     "visualBlueprint": {
       "primaryColor": "#582D0E",
@@ -1606,7 +1606,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#471F35",
@@ -1645,7 +1645,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 10,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -1681,7 +1681,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#9204AA",
@@ -1720,7 +1720,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 23,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -1758,7 +1758,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 19,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1C52D7",
@@ -1797,7 +1797,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -1872,7 +1872,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 23,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#AF19E3",
@@ -1911,7 +1911,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -1949,7 +1949,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 1,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#B40E25",
@@ -1988,7 +1988,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -2024,7 +2024,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#EC973A",
@@ -2102,7 +2102,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#A00A3C",
@@ -2141,7 +2141,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#23C547",
@@ -2180,7 +2180,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#774100",
@@ -2219,7 +2219,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#B8B000",
@@ -2258,7 +2258,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -2334,7 +2334,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#36E300",
@@ -2373,7 +2373,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#012CB3",
@@ -2411,7 +2411,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -2449,7 +2449,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 1,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#266006",
@@ -2488,7 +2488,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -2526,7 +2526,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -2601,7 +2601,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7500ED",
@@ -2640,7 +2640,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#280C61",
@@ -2718,7 +2718,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 1,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#048749",
@@ -2757,7 +2757,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#FB00D9",
@@ -2796,7 +2796,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 1,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1D2849",
@@ -2835,7 +2835,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DDB609",
@@ -2873,7 +2873,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#06B6D4",
@@ -2909,7 +2909,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 12,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🍂",
     "visualBlueprint": {
       "primaryColor": "#792D13",
@@ -2948,7 +2948,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#6D28D9",
@@ -2986,7 +2986,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🙃",
     "visualBlueprint": {
       "primaryColor": "#077A65",
@@ -3025,7 +3025,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🔪",
     "visualBlueprint": {
       "primaryColor": "#B40E2C",
@@ -3139,7 +3139,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#25FF91",
@@ -3253,7 +3253,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 11,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🦕",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -3367,7 +3367,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐘",
     "visualBlueprint": {
       "primaryColor": "#9624BA",
@@ -3406,7 +3406,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "💋",
     "visualBlueprint": {
       "primaryColor": "#0023C4",
@@ -3445,7 +3445,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🙈",
     "visualBlueprint": {
       "primaryColor": "#7A3308",
@@ -3484,7 +3484,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 9,
+    "baseCoinYield": 5,
     "emojiOrSprite": "💦",
     "visualBlueprint": {
       "primaryColor": "#2354C5",
@@ -3523,7 +3523,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 12,
+    "baseCoinYield": 8,
     "emojiOrSprite": "👀",
     "visualBlueprint": {
       "primaryColor": "#049401",
@@ -3562,7 +3562,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐸",
     "visualBlueprint": {
       "primaryColor": "#4FC30A",
@@ -3600,7 +3600,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#184E43",
@@ -3639,7 +3639,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -3677,7 +3677,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🪵",
     "visualBlueprint": {
       "primaryColor": "#15BA00",
@@ -3716,7 +3716,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🪵",
     "visualBlueprint": {
       "primaryColor": "#A00A3C",
@@ -3793,7 +3793,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦋",
     "visualBlueprint": {
       "primaryColor": "#1A6C01",

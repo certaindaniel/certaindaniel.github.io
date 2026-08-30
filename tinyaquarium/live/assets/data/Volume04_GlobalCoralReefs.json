@@ -8,7 +8,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 6200,
     "baseSwimSpeed": 0.7,
-    "baseCoinYield": 11,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#8B5CF6",
@@ -48,7 +48,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 4119,
     "baseSwimSpeed": 0.57,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1D4ED8",
@@ -81,7 +81,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 3832,
     "baseSwimSpeed": 2.17,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -119,7 +119,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 2488,
     "baseSwimSpeed": 0.84,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#2CDF10",
@@ -157,7 +157,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 1103,
     "baseSwimSpeed": 2.11,
-    "baseCoinYield": 17,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -192,7 +192,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 4038,
     "baseSwimSpeed": 2.73,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0D9488",
@@ -265,7 +265,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 3088,
     "baseSwimSpeed": 1.12,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -303,7 +303,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 1447,
     "baseSwimSpeed": 0.88,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#1D4ED8",
@@ -341,7 +341,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 2848,
     "baseSwimSpeed": 1.51,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -379,7 +379,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 1017,
     "baseSwimSpeed": 1.47,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -417,7 +417,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 2360,
     "baseSwimSpeed": 2.47,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#0D9488",
@@ -455,7 +455,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 4313,
     "baseSwimSpeed": 1.5,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#059669",
@@ -493,7 +493,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 1725,
     "baseSwimSpeed": 2.32,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -528,7 +528,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 1840,
     "baseSwimSpeed": 2.29,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -563,7 +563,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 4112,
     "baseSwimSpeed": 1.14,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#FF1BB8",
@@ -599,7 +599,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 1307,
     "baseSwimSpeed": 1.79,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -637,7 +637,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 4096,
     "baseSwimSpeed": 1.48,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#0D706D",
@@ -676,7 +676,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 2792,
     "baseSwimSpeed": 2.02,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#3CF420",
@@ -714,7 +714,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 3860,
     "baseSwimSpeed": 2.26,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#6B00BA",
@@ -750,7 +750,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 243,
     "baseSwimSpeed": 0.92,
-    "baseCoinYield": 1,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -826,7 +826,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 3724,
     "baseSwimSpeed": 2.8,
-    "baseCoinYield": 12,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#C87120",
@@ -865,7 +865,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 3376,
     "baseSwimSpeed": 0.64,
-    "baseCoinYield": 12,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -904,7 +904,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 2463,
     "baseSwimSpeed": 1.88,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#3A471F",
@@ -940,7 +940,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 1319,
     "baseSwimSpeed": 1.39,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1014,7 +1014,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 3796,
     "baseSwimSpeed": 2.31,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#D20B49",
@@ -1053,7 +1053,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 2810,
     "baseSwimSpeed": 2.7,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#BA6624",
@@ -1092,7 +1092,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 3942,
     "baseSwimSpeed": 2.29,
-    "baseCoinYield": 1,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#680EA2",
@@ -1131,7 +1131,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 1273,
     "baseSwimSpeed": 2.16,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -1206,7 +1206,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 2162,
     "baseSwimSpeed": 2.36,
-    "baseCoinYield": 23,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#C9E8DF",
@@ -1241,7 +1241,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 1208,
     "baseSwimSpeed": 2.15,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#3BE616",
@@ -1280,7 +1280,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 1862,
     "baseSwimSpeed": 1.32,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#164450",
@@ -1318,7 +1318,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 3492,
     "baseSwimSpeed": 2.16,
-    "baseCoinYield": 18,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0D6270",
@@ -1357,7 +1357,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 1482,
     "baseSwimSpeed": 2.58,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#FACC15",
@@ -1392,7 +1392,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 1435,
     "baseSwimSpeed": 2.6,
-    "baseCoinYield": 25,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#25FF63",
@@ -1430,7 +1430,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 1759,
     "baseSwimSpeed": 0.57,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#FC1E5B",
@@ -1469,7 +1469,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 4449,
     "baseSwimSpeed": 2.6,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -1504,7 +1504,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 3443,
     "baseSwimSpeed": 1.35,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#164D50",
@@ -1542,7 +1542,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 2384,
     "baseSwimSpeed": 0.8,
-    "baseCoinYield": 15,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1029DF",
@@ -1580,7 +1580,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 3042,
     "baseSwimSpeed": 1.01,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -1618,7 +1618,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 4005,
     "baseSwimSpeed": 1.85,
-    "baseCoinYield": 24,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -1656,7 +1656,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 1258,
     "baseSwimSpeed": 0.83,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#D203ED",
@@ -1695,7 +1695,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 2477,
     "baseSwimSpeed": 0.58,
-    "baseCoinYield": 1,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#D7317A",
@@ -1731,7 +1731,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 3532,
     "baseSwimSpeed": 2.18,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#EC3A5C",
@@ -1770,7 +1770,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 1604,
     "baseSwimSpeed": 2.55,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -1805,7 +1805,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 745,
     "baseSwimSpeed": 2.99,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#161C50",
@@ -1844,7 +1844,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 2655,
     "baseSwimSpeed": 1.12,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#0628A0",
@@ -1880,7 +1880,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 875,
     "baseSwimSpeed": 2.05,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1AF63D",
@@ -1919,7 +1919,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 3556,
     "baseSwimSpeed": 2.74,
-    "baseCoinYield": 17,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#D28D0B",
@@ -1958,7 +1958,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1668,
     "baseSwimSpeed": 1.78,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#3A16E6",
@@ -1997,7 +1997,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1360,
     "baseSwimSpeed": 1.12,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#26F1E1",
@@ -2035,7 +2035,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1481,
     "baseSwimSpeed": 1.74,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#CDFF01",
@@ -2071,7 +2071,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 3278,
     "baseSwimSpeed": 2.12,
-    "baseCoinYield": 9,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#00C466",
@@ -2110,7 +2110,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1146,
     "baseSwimSpeed": 2.81,
-    "baseCoinYield": 1,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -2148,7 +2148,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 510,
     "baseSwimSpeed": 1.73,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -2216,7 +2216,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 4517,
     "baseSwimSpeed": 1.07,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#0612BF",
@@ -2255,7 +2255,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 4367,
     "baseSwimSpeed": 1.34,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -2293,7 +2293,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 529,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 22,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -2367,7 +2367,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 3624,
     "baseSwimSpeed": 0.98,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#CD23E1",
@@ -2405,7 +2405,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 4138,
     "baseSwimSpeed": 1.62,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#6E20C8",
@@ -2444,7 +2444,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1674,
     "baseSwimSpeed": 0.57,
-    "baseCoinYield": 10,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#A55205",
@@ -2479,7 +2479,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 3409,
     "baseSwimSpeed": 1.27,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#1B4B45",
@@ -2515,7 +2515,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 2656,
     "baseSwimSpeed": 2.11,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#073AC7",
@@ -2629,7 +2629,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1680,
     "baseSwimSpeed": 2.74,
-    "baseCoinYield": 9,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#D76E1C",
@@ -2665,7 +2665,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1523,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#121495",
@@ -2736,7 +2736,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 4820,
     "baseSwimSpeed": 2.99,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#007EE3",
@@ -2772,7 +2772,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1631,
     "baseSwimSpeed": 0.9,
-    "baseCoinYield": 15,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -2845,7 +2845,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 3575,
     "baseSwimSpeed": 0.76,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦎",
     "visualBlueprint": {
       "primaryColor": "#11B301",
@@ -2883,7 +2883,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 3976,
     "baseSwimSpeed": 1.23,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#502247",
@@ -2992,7 +2992,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 3981,
     "baseSwimSpeed": 1.74,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#5281F9",
@@ -3027,7 +3027,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 4099,
     "baseSwimSpeed": 0.72,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#203CC8",
@@ -3066,7 +3066,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 2328,
     "baseSwimSpeed": 2.43,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -3170,7 +3170,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 1616,
     "baseSwimSpeed": 2.83,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#2500ED",
@@ -3209,7 +3209,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 1103,
     "baseSwimSpeed": 2.58,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -3244,7 +3244,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 139,
     "baseSwimSpeed": 1.22,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#059669",
@@ -3315,7 +3315,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 593,
     "baseSwimSpeed": 1.75,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#648A08",
@@ -3354,7 +3354,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 3979,
     "baseSwimSpeed": 0.84,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#11F005",
@@ -3390,7 +3390,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 2104,
     "baseSwimSpeed": 1.89,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🍎",
     "visualBlueprint": {
       "primaryColor": "#0243D6",
@@ -3429,7 +3429,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 270,
     "baseSwimSpeed": 2.55,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🎄",
     "visualBlueprint": {
       "primaryColor": "#7DFC1E",
@@ -3468,7 +3468,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 4175,
     "baseSwimSpeed": 1.96,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -3503,7 +3503,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 1837,
     "baseSwimSpeed": 0.92,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -3541,7 +3541,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 2919,
     "baseSwimSpeed": 2.81,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
       "primaryColor": "#0D9488",
@@ -3579,7 +3579,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 2943,
     "baseSwimSpeed": 1.06,
-    "baseCoinYield": 1,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
       "primaryColor": "#FACC15",
@@ -3614,7 +3614,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 3458,
     "baseSwimSpeed": 1.82,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#A816EF",
@@ -3653,7 +3653,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 2484,
     "baseSwimSpeed": 0.52,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -3722,7 +3722,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 1958,
     "baseSwimSpeed": 2.35,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🍄",
     "visualBlueprint": {
       "primaryColor": "#059669",
