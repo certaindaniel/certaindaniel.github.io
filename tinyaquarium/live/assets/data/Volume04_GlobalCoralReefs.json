@@ -8,7 +8,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 6200,
     "baseSwimSpeed": 0.7,
-    "baseCoinYield": 70,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#8B5CF6",
@@ -27,6 +27,16 @@
       "parentA": "青蛙魚",
       "parentB": "黃金海蛞蝓",
       "mutationHint": "珊瑚魔導光譜共鳴"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Coral-Lantern Wizard Octopus",
+        "description": "A wizard octopus hiding in a coral cave on the Great Barrier Reef, crowned with coral, guiding lost little fish with a softly glowing lantern held in its tentacles."
+      },
+      "zh-Hans": {
+        "commonName": "珊瑚提灯巫师章鱼",
+        "description": "深藏于大堡礁珊瑚洞穴的巫师章鱼，头戴珊瑚冠冕，触手手持微光发光提灯引导迷途小鱼。"
+      }
     }
   },
   {
@@ -38,7 +48,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 4119,
     "baseSwimSpeed": 0.57,
-    "baseCoinYield": 33,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1D4ED8",
@@ -50,7 +60,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-1D4E-3B82-FOR-0"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Blue Tang",
+        "description": "A classic tang with a blue body, black blotch patterns, and a yellow tail."
+      },
+      "zh-Hans": {
+        "commonName": "蓝倒吊",
+        "description": "蓝色身体带有黑色调色板纹路与黄尾的经典倒吊鱼。"
+      }
+    }
   },
   {
     "id": "TA-4002",
@@ -61,7 +81,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 3832,
     "baseSwimSpeed": 2.17,
-    "baseCoinYield": 28,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -78,7 +98,17 @@
     "breedingRecipe": [
       "TA-2774",
       "TA-2327"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Yellow Tang",
+        "description": "A bright yellow, triangular-bodied fish and an iconic reef species of the Hawaiian islands."
+      },
+      "zh-Hans": {
+        "commonName": "黄三角",
+        "description": "通体明黄色，呈三角状，夏威夷群岛的代表性海水鱼。"
+      }
+    }
   },
   {
     "id": "TA-4003",
@@ -89,7 +119,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 2488,
     "baseSwimSpeed": 0.84,
-    "baseCoinYield": 29,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#2CDF10",
@@ -106,7 +136,17 @@
     "breedingRecipe": [
       "TA-1932",
       "TA-1305"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "White-bellied Tang",
+        "description": "A pink-blue body with a black face and a vivid yellow dorsal fin."
+      },
+      "zh-Hans": {
+        "commonName": "粉蓝倒吊",
+        "description": "粉蓝色的身体搭配黑脸与鲜黄色背鳍。"
+      }
+    }
   },
   {
     "id": "TA-4004",
@@ -117,7 +157,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 1103,
     "baseSwimSpeed": 2.11,
-    "baseCoinYield": 5,
+    "baseCoinYield": 17,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -131,7 +171,17 @@
       ],
       "phenotypeHash": "VPH-STA-DC26-F43F-LYR-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Achilles Tang",
+        "description": "It has a vivid orange-red teardrop blotch on the caudal peduncle, making it highly recognizable."
+      },
+      "zh-Hans": {
+        "commonName": "鸡心倒吊",
+        "description": "尾柄处有鲜艳的橘红色水滴状斑块，极具辨识度。"
+      }
+    }
   },
   {
     "id": "TA-4005",
@@ -142,7 +192,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 4038,
     "baseSwimSpeed": 2.73,
-    "baseCoinYield": 11,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0D9488",
@@ -156,7 +206,17 @@
       ],
       "phenotypeHash": "VPH-STA-0D94-14B8-BUT-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Striped Tang",
+        "description": "Its body is covered in vivid parallel stripes alternating yellow and blue."
+      },
+      "zh-Hans": {
+        "commonName": "纹倒吊",
+        "description": "身上布满鲜艳的黄蓝相间平行条纹。"
+      }
+    }
   },
   {
     "id": "TA-4006",
@@ -167,7 +227,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 4550,
     "baseSwimSpeed": 2.82,
-    "baseCoinYield": 16,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#FACC15",
@@ -184,7 +244,17 @@
     "breedingRecipe": [
       "TA-1095",
       "TA-2189"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Queen Angelfish",
+        "description": "A crown-like blue mark sits on its head, and its whole body glows with striking yellow and blue hues."
+      },
+      "zh-Hans": {
+        "commonName": "女王神仙",
+        "description": "头顶带有皇冠状蓝斑，全身散发耀眼的黄蓝光彩。"
+      }
+    }
   },
   {
     "id": "TA-4007",
@@ -195,7 +265,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 3088,
     "baseSwimSpeed": 1.12,
-    "baseCoinYield": 42,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -212,7 +282,17 @@
     "breedingRecipe": [
       "TA-3683",
       "TA-2188"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Emperor Angelfish",
+        "description": "It has vertical stripes of yellow, blue, and white, looking magnificent and noble."
+      },
+      "zh-Hans": {
+        "commonName": "皇帝神仙",
+        "description": "黄蓝白相间的垂直条纹，华丽且带有贵族气息。"
+      }
+    }
   },
   {
     "id": "TA-4008",
@@ -223,7 +303,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 1447,
     "baseSwimSpeed": 0.88,
-    "baseCoinYield": 27,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#1D4ED8",
@@ -240,7 +320,17 @@
     "breedingRecipe": [
       "TA-1449",
       "TA-2897"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Blue-faced Angelfish",
+        "description": "Its face shows a bright blue web-like pattern, with yellow scale accents on the body."
+      },
+      "zh-Hans": {
+        "commonName": "蓝面神仙",
+        "description": "脸部呈现亮蓝色网纹，身上带有黄色鳞片。"
+      }
+    }
   },
   {
     "id": "TA-4009",
@@ -251,7 +341,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 2848,
     "baseSwimSpeed": 1.51,
-    "baseCoinYield": 50,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -268,7 +358,17 @@
     "breedingRecipe": [
       "TA-2565",
       "TA-1001"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "French Angelfish",
+        "description": "A deep black base color, with the edges of its scales trimmed in golden yellow."
+      },
+      "zh-Hans": {
+        "commonName": "法兰西神仙",
+        "description": "深黑色底色，鳞片边缘镶着金黄色边缘。"
+      }
+    }
   },
   {
     "id": "TA-4010",
@@ -279,7 +379,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 1017,
     "baseSwimSpeed": 1.47,
-    "baseCoinYield": 6,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -296,7 +396,17 @@
     "breedingRecipe": [
       "TA-2929",
       "TA-3908"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Arabian Angelfish",
+        "description": "A deep blue body paired with a bright yellow moon-shaped mark."
+      },
+      "zh-Hans": {
+        "commonName": "阿拉伯神仙",
+        "description": "深蓝色体色搭配鲜明黄色月亮斑。"
+      }
+    }
   },
   {
     "id": "TA-4011",
@@ -307,7 +417,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 2360,
     "baseSwimSpeed": 2.47,
-    "baseCoinYield": 24,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#0D9488",
@@ -324,7 +434,17 @@
     "breedingRecipe": [
       "TA-2795",
       "TA-2893"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Saddled Angelfish",
+        "description": "The bold contrast of deep blue and vivid yellow, as if wearing a saddle across its back."
+      },
+      "zh-Hans": {
+        "commonName": "马鞍神仙",
+        "description": "深蓝色与鲜黄色强烈对比，像是披着马鞍。"
+      }
+    }
   },
   {
     "id": "TA-4012",
@@ -335,7 +455,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 4313,
     "baseSwimSpeed": 1.5,
-    "baseCoinYield": 32,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#059669",
@@ -352,7 +472,17 @@
     "breedingRecipe": [
       "TA-1604",
       "TA-2343"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Semicircle Angelfish",
+        "description": "Adults are yellowish-green and brown, while juveniles have a deep blue base with white semicircular patterns."
+      },
+      "zh-Hans": {
+        "commonName": "蓝纹神仙",
+        "description": "成鱼为黄绿褐色，幼鱼时期则是深蓝底带有白色半圆纹。"
+      }
+    }
   },
   {
     "id": "TA-4013",
@@ -363,7 +493,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 1725,
     "baseSwimSpeed": 2.32,
-    "baseCoinYield": 44,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -377,7 +507,17 @@
       ],
       "phenotypeHash": "VPH-STA-DC26-EA58-LYR-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Flame-backed Angelfish",
+        "description": "A small angelfish with a vivid orange-red back while the rest of its body is deep blue."
+      },
+      "zh-Hans": {
+        "commonName": "火背仙",
+        "description": "鲜艳的橘红色背部，其余为深蓝色的小型神仙鱼。"
+      }
+    }
   },
   {
     "id": "TA-4014",
@@ -388,7 +528,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 1840,
     "baseSwimSpeed": 2.29,
-    "baseCoinYield": 25,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -402,7 +542,17 @@
       ],
       "phenotypeHash": "VPH-STA-F59E-FBBF-BUT-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Multicolor Angelfish",
+        "description": "A small angelfish whose body blends white, yellow, blue, and black hues."
+      },
+      "zh-Hans": {
+        "commonName": "多彩仙",
+        "description": "身上融合了白、黄、蓝、黑多种色彩的小神仙。"
+      }
+    }
   },
   {
     "id": "TA-4015",
@@ -413,7 +563,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 4112,
     "baseSwimSpeed": 1.14,
-    "baseCoinYield": 17,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#FF1BB8",
@@ -428,7 +578,17 @@
       ],
       "phenotypeHash": "VPH-STA-FF1B-F98A-DEL-2"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Cockatoo Angelfish",
+        "description": "An orange-red base covered in dense dark maze-like patterns."
+      },
+      "zh-Hans": {
+        "commonName": "波塔仙",
+        "description": "橙红色底带有密集的深色迷宫纹路。"
+      }
+    }
   },
   {
     "id": "TA-4016",
@@ -439,7 +599,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 1307,
     "baseSwimSpeed": 1.79,
-    "baseCoinYield": 47,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -456,7 +616,17 @@
     "breedingRecipe": [
       "TA-1632",
       "TA-3387"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Flame Angelfish",
+        "description": "A vivid fire-red body with black vertical stripes."
+      },
+      "zh-Hans": {
+        "commonName": "火焰神仙",
+        "description": "鲜艳的火红色身体带有黑色垂直条纹。"
+      }
+    }
   },
   {
     "id": "TA-4017",
@@ -467,7 +637,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 4096,
     "baseSwimSpeed": 1.48,
-    "baseCoinYield": 24,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#0D706D",
@@ -485,7 +655,17 @@
     "breedingRecipe": [
       "TA-1773",
       "TA-2824"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Bicolor Angelfish",
+        "description": "The front half is yellow and the rear half is deep blue, creating a strong contrast."
+      },
+      "zh-Hans": {
+        "commonName": "石美人",
+        "description": "前半身黄色，后半身深蓝色，对比强烈。"
+      }
+    }
   },
   {
     "id": "TA-4018",
@@ -496,7 +676,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 2792,
     "baseSwimSpeed": 2.02,
-    "baseCoinYield": 50,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#3CF420",
@@ -513,7 +693,17 @@
     "breedingRecipe": [
       "TA-1798",
       "TA-1983"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Cocos Angelfish",
+        "description": "A very rare bicolor angelfish, yellow up front and blue toward the rear."
+      },
+      "zh-Hans": {
+        "commonName": "可可斯神仙",
+        "description": "非常罕见的双色神仙，前半黄后半蓝。"
+      }
+    }
   },
   {
     "id": "TA-4019",
@@ -524,7 +714,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 3860,
     "baseSwimSpeed": 2.26,
-    "baseCoinYield": 25,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#6B00BA",
@@ -539,7 +729,17 @@
       ],
       "phenotypeHash": "VPH-ANG-6B00-F838-FAN-2"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Masked Angelfish",
+        "description": "It has a white body with a black band around the eyes, resembling a pirate mask."
+      },
+      "zh-Hans": {
+        "commonName": "蒙面神仙",
+        "description": "白色身体，眼睛周围有一道黑色像海盗面罩的条纹。"
+      }
+    }
   },
   {
     "id": "TA-4020",
@@ -550,7 +750,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 243,
     "baseSwimSpeed": 0.92,
-    "baseCoinYield": 11,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -567,7 +767,17 @@
     "breedingRecipe": [
       "TA-1643",
       "TA-2850"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Ringed Angelfish",
+        "description": "Several blue ring-like patterns adorn its body."
+      },
+      "zh-Hans": {
+        "commonName": "蓝环神仙",
+        "description": "身上有数道蓝色环状纹路。"
+      }
+    }
   },
   {
     "id": "TA-4021",
@@ -578,7 +788,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 3274,
     "baseSwimSpeed": 2.38,
-    "baseCoinYield": 11,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -595,7 +805,17 @@
     "breedingRecipe": [
       "TA-1684",
       "TA-1779"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Spotted Angelfish",
+        "description": "A prominent yellow crescent-shaped patch sits on the side of its blue body."
+      },
+      "zh-Hans": {
+        "commonName": "半月神仙",
+        "description": "蓝色身体侧边有明显的黄色半月形斑块。"
+      }
+    }
   },
   {
     "id": "TA-4022",
@@ -606,7 +826,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 3724,
     "baseSwimSpeed": 2.8,
-    "baseCoinYield": 48,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#C87120",
@@ -624,7 +844,17 @@
     "breedingRecipe": [
       "TA-3819",
       "TA-3690"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Duboulay's Coral Reef Angelfish",
+        "description": "A deep blue base crossed by yellow lines, giving it a distinctive Australian character."
+      },
+      "zh-Hans": {
+        "commonName": "澳洲神仙",
+        "description": "深蓝底色有黄色线条，具有独特的澳洲风情。"
+      }
+    }
   },
   {
     "id": "TA-4023",
@@ -635,7 +865,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 3376,
     "baseSwimSpeed": 0.64,
-    "baseCoinYield": 43,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -653,7 +883,17 @@
     "breedingRecipe": [
       "TA-2143",
       "TA-2261"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Gold-Spotted Angelfish",
+        "description": "Its dark body is covered in tiny golden dots."
+      },
+      "zh-Hans": {
+        "commonName": "金点神仙",
+        "description": "深色身体布满金色小点。"
+      }
+    }
   },
   {
     "id": "TA-4024",
@@ -679,7 +919,17 @@
       ],
       "phenotypeHash": "VPH-STA-3A47-26DC-SPI-2"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Eibli's Tang",
+        "description": "A gray body with orange vertical stripes, like a tiger's pattern."
+      },
+      "zh-Hans": {
+        "commonName": "虎皮仙",
+        "description": "灰色身体带有橙色垂直条纹，像老虎斑纹。"
+      }
+    }
   },
   {
     "id": "TA-4025",
@@ -690,7 +940,7 @@
     "category": "倒吊與蓋刺神仙家族",
     "hatchStepsRequired": 1319,
     "baseSwimSpeed": 1.39,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -704,7 +954,17 @@
       ],
       "phenotypeHash": "VPH-ANG-0F17-1E29-FAN-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Vrolik's Tang",
+        "description": "A gray-white body that fades to black at the tail."
+      },
+      "zh-Hans": {
+        "commonName": "黑尾神仙",
+        "description": "灰白色身体，尾部过渡为黑色。"
+      }
+    }
   },
   {
     "id": "TA-4026",
@@ -715,7 +975,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 2128,
     "baseSwimSpeed": 1.23,
-    "baseCoinYield": 42,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#CE3A0E",
@@ -733,7 +993,17 @@
     "breedingRecipe": [
       "TA-1173",
       "TA-2068"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Ornate Butterflyfish",
+        "description": "Crossing diagonal stripes run over its body, with a black spot on the rear back."
+      },
+      "zh-Hans": {
+        "commonName": "人字蝶",
+        "description": "身上有交叉的斜线纹路，后背有一黑斑。"
+      }
+    }
   },
   {
     "id": "TA-4027",
@@ -744,7 +1014,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 3796,
     "baseSwimSpeed": 2.31,
-    "baseCoinYield": 26,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#D20B49",
@@ -762,7 +1032,17 @@
     "breedingRecipe": [
       "TA-2586",
       "TA-2782"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Vagabundus Butterflyfish",
+        "description": "Similar to the ornate butterflyfish, but its diagonal stripes run the opposite way."
+      },
+      "zh-Hans": {
+        "commonName": "假人字蝶",
+        "description": "与人字蝶相似但斜纹方向不同。"
+      }
+    }
   },
   {
     "id": "TA-4028",
@@ -773,7 +1053,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 2810,
     "baseSwimSpeed": 2.7,
-    "baseCoinYield": 10,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#BA6624",
@@ -791,7 +1071,17 @@
     "breedingRecipe": [
       "TA-1811",
       "TA-2478"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Mirror Butterflyfish",
+        "description": "A bright yellow rounded body with one large black spot on the side."
+      },
+      "zh-Hans": {
+        "commonName": "冬瓜蝶",
+        "description": "鲜黄色圆润身体，侧边有一大黑斑。"
+      }
+    }
   },
   {
     "id": "TA-4029",
@@ -802,7 +1092,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 3942,
     "baseSwimSpeed": 2.29,
-    "baseCoinYield": 35,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#680EA2",
@@ -820,7 +1110,17 @@
     "breedingRecipe": [
       "TA-3514",
       "TA-2047"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Saddled Butterflyfish",
+        "description": "A large black saddle-shaped patch sits on its back."
+      },
+      "zh-Hans": {
+        "commonName": "羽桥蝶",
+        "description": "背部有一大块黑色鞍状斑。"
+      }
+    }
   },
   {
     "id": "TA-4030",
@@ -831,7 +1131,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 1273,
     "baseSwimSpeed": 2.16,
-    "baseCoinYield": 31,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -846,7 +1146,17 @@
     "breedingRecipe": [
       "TA-3731",
       "TA-2562"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Lunule Butterflyfish",
+        "description": "Its face wears a black, raccoon-like eye mask."
+      },
+      "zh-Hans": {
+        "commonName": "月光蝶",
+        "description": "脸上有像浣熊般的黑眼罩。"
+      }
+    }
   },
   {
     "id": "TA-4031",
@@ -857,7 +1167,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 466,
     "baseSwimSpeed": 2.13,
-    "baseCoinYield": 11,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#241D49",
@@ -875,7 +1185,17 @@
     "breedingRecipe": [
       "TA-3853",
       "TA-2577"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Melanopus Clownfish",
+        "description": "A deep black body with a single white stripe and red fins."
+      },
+      "zh-Hans": {
+        "commonName": "黑小丑",
+        "description": "深黑色身体带有单一白色条纹与红色鳍。"
+      }
+    }
   },
   {
     "id": "TA-4032",
@@ -886,7 +1206,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 2162,
     "baseSwimSpeed": 2.36,
-    "baseCoinYield": 45,
+    "baseCoinYield": 23,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#C9E8DF",
@@ -900,7 +1220,17 @@
       ],
       "phenotypeHash": "VPH-STA-C9E8-BABD-FAN-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Snow-Printed Clownfish",
+        "description": "An ocellaris clownfish variant carrying large, irregular white blotches."
+      },
+      "zh-Hans": {
+        "commonName": "雪印小丑",
+        "description": "具有大面积不规则白色斑块的变异公子小丑。"
+      }
+    }
   },
   {
     "id": "TA-4033",
@@ -911,7 +1241,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 1208,
     "baseSwimSpeed": 2.15,
-    "baseCoinYield": 48,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#3BE616",
@@ -929,7 +1259,17 @@
     "breedingRecipe": [
       "TA-3516",
       "TA-3898"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Nasoline",
+        "description": "A deep red body with cheek spines and three white stripes."
+      },
+      "zh-Hans": {
+        "commonName": "透红小丑",
+        "description": "深红色体色，脸颊上有棘刺，带有三条白纹。"
+      }
+    }
   },
   {
     "id": "TA-4034",
@@ -940,7 +1280,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 1862,
     "baseSwimSpeed": 1.32,
-    "baseCoinYield": 9,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#164450",
@@ -957,7 +1297,17 @@
     "breedingRecipe": [
       "TA-2964",
       "TA-3825"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Black Ocellaris",
+        "description": "A fully black ocellaris clownfish variant with three white stripes."
+      },
+      "zh-Hans": {
+        "commonName": "黑公子",
+        "description": "全黑的变异公子小丑，带有三条白纹。"
+      }
+    }
   },
   {
     "id": "TA-4035",
@@ -968,7 +1318,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 3492,
     "baseSwimSpeed": 2.16,
-    "baseCoinYield": 7,
+    "baseCoinYield": 18,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0D6270",
@@ -986,7 +1336,17 @@
     "breedingRecipe": [
       "TA-3486",
       "TA-3023"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Clark's Clownfish",
+        "description": "A black body with an orange snout and tail, crossed by two broad white bands."
+      },
+      "zh-Hans": {
+        "commonName": "双带小丑",
+        "description": "黑色身体，橘色吻部与尾巴，两条宽白带。"
+      }
+    }
   },
   {
     "id": "TA-4036",
@@ -997,7 +1357,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 1482,
     "baseSwimSpeed": 2.58,
-    "baseCoinYield": 25,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#FACC15",
@@ -1011,7 +1371,17 @@
       ],
       "phenotypeHash": "VPH-STA-FACC-EAB3-LYR-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Bicinctus Clownfish",
+        "description": "A yellow base crossed by two white stripes."
+      },
+      "zh-Hans": {
+        "commonName": "印度洋双带",
+        "description": "黄色底色带有两条白纹。"
+      }
+    }
   },
   {
     "id": "TA-4037",
@@ -1022,7 +1392,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 1435,
     "baseSwimSpeed": 2.6,
-    "baseCoinYield": 2,
+    "baseCoinYield": 25,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#25FF63",
@@ -1039,7 +1409,17 @@
     "breedingRecipe": [
       "TA-2897",
       "TA-3508"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Golden See-Through Red",
+        "description": "A see-through red clownfish variant whose white stripes turn golden as it grows."
+      },
+      "zh-Hans": {
+        "commonName": "金透红",
+        "description": "透红小丑变异，白纹会随着成长变成金黄色。"
+      }
+    }
   },
   {
     "id": "TA-4038",
@@ -1050,7 +1430,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 1759,
     "baseSwimSpeed": 0.57,
-    "baseCoinYield": 31,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#FC1E5B",
@@ -1068,7 +1448,17 @@
     "breedingRecipe": [
       "TA-2538",
       "TA-1137"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Blue Warbler",
+        "description": "A tiny warbler glowing an intense fluorescent blue across its whole body."
+      },
+      "zh-Hans": {
+        "commonName": "蓝雀",
+        "description": "通体散发强烈萤光蓝色的小巧雀鲷。"
+      }
+    }
   },
   {
     "id": "TA-4039",
@@ -1079,7 +1469,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 4449,
     "baseSwimSpeed": 2.6,
-    "baseCoinYield": 8,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -1093,7 +1483,17 @@
       ],
       "phenotypeHash": "VPH-STA-F59E-FDE0-FAN-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Yellow-Tailed Warbler",
+        "description": "A gem-blue body paired with a bright yellow tail."
+      },
+      "zh-Hans": {
+        "commonName": "黄尾雀",
+        "description": "宝石蓝的身体搭配鲜黄色的尾巴。"
+      }
+    }
   },
   {
     "id": "TA-4040",
@@ -1104,7 +1504,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 3443,
     "baseSwimSpeed": 1.35,
-    "baseCoinYield": 29,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#164D50",
@@ -1121,7 +1521,17 @@
     "breedingRecipe": [
       "TA-1878",
       "TA-1178"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Aruan Damselfish",
+        "description": "Three distinct black-and-white vertical bands."
+      },
+      "zh-Hans": {
+        "commonName": "三间雀",
+        "description": "黑白相间的三条明显垂直宽纹。"
+      }
+    }
   },
   {
     "id": "TA-4041",
@@ -1132,7 +1542,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 2384,
     "baseSwimSpeed": 0.8,
-    "baseCoinYield": 34,
+    "baseCoinYield": 15,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1029DF",
@@ -1149,7 +1559,17 @@
     "breedingRecipe": [
       "TA-2896",
       "TA-2397"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Blue-green Chromis",
+        "description": "Gentle pale blue-green chromis that swim in tight schools."
+      },
+      "zh-Hans": {
+        "commonName": "青魔",
+        "description": "成群结队游动的浅蓝绿色温和雀鲷。"
+      }
+    }
   },
   {
     "id": "TA-4042",
@@ -1160,7 +1580,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 3042,
     "baseSwimSpeed": 1.01,
-    "baseCoinYield": 26,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -1177,7 +1597,17 @@
     "breedingRecipe": [
       "TA-3437",
       "TA-2100"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Yellowtail Damselfish",
+        "description": "Dappled with sparkling blue dots and a yellow tail."
+      },
+      "zh-Hans": {
+        "commonName": "黄木瓜雀",
+        "description": "带有闪亮蓝点，尾巴为黄色。"
+      }
+    }
   },
   {
     "id": "TA-4043",
@@ -1188,7 +1618,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 4005,
     "baseSwimSpeed": 1.85,
-    "baseCoinYield": 6,
+    "baseCoinYield": 24,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -1205,7 +1635,17 @@
     "breedingRecipe": [
       "TA-3467",
       "TA-1947"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Blackbar Damselfish",
+        "description": "The tail also carries a black bar, four black bands in total."
+      },
+      "zh-Hans": {
+        "commonName": "四间雀",
+        "description": "尾巴也带有黑色条纹，共四条黑带。"
+      }
+    }
   },
   {
     "id": "TA-4044",
@@ -1216,7 +1656,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 1258,
     "baseSwimSpeed": 0.83,
-    "baseCoinYield": 48,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#D203ED",
@@ -1234,7 +1674,17 @@
     "breedingRecipe": [
       "TA-3469",
       "TA-1191"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Ocellaris Clownfish",
+        "description": "The classic clownfish with an orange body and three white stripes."
+      },
+      "zh-Hans": {
+        "commonName": "公子小丑",
+        "description": "最经典的橘底三白条纹小丑鱼。"
+      }
+    }
   },
   {
     "id": "TA-4045",
@@ -1245,7 +1695,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 2477,
     "baseSwimSpeed": 0.58,
-    "baseCoinYield": 17,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#D7317A",
@@ -1260,7 +1710,17 @@
       ],
       "phenotypeHash": "VPH-STA-D731-EFC5-FAN-2"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Pink Skunk Clownfish",
+        "description": "Pink-orange body with a single white stripe along the back."
+      },
+      "zh-Hans": {
+        "commonName": "粉红小丑",
+        "description": "粉橘色身体，背部有一条白色纵纹。"
+      }
+    }
   },
   {
     "id": "TA-4046",
@@ -1271,7 +1731,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 3532,
     "baseSwimSpeed": 2.18,
-    "baseCoinYield": 10,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#EC3A5C",
@@ -1289,7 +1749,17 @@
     "breedingRecipe": [
       "TA-2510",
       "TA-3826"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Saddleback Clownfish",
+        "description": "A large white, saddle-shaped blotch on the back."
+      },
+      "zh-Hans": {
+        "commonName": "鞍斑小丑",
+        "description": "背部有像马鞍一样的白色大斑块。"
+      }
+    }
   },
   {
     "id": "TA-4047",
@@ -1300,7 +1770,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 1604,
     "baseSwimSpeed": 2.55,
-    "baseCoinYield": 4,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -1314,7 +1784,17 @@
       ],
       "phenotypeHash": "VPH-STA-F59E-FDE0-BUT-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Yellow-snouted Butterflyfish",
+        "description": "Black body with a yellow snout."
+      },
+      "zh-Hans": {
+        "commonName": "太平洋黄冠蝶",
+        "description": "黑色身体，黄色吻部。"
+      }
+    }
   },
   {
     "id": "TA-4048",
@@ -1325,7 +1805,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 745,
     "baseSwimSpeed": 2.99,
-    "baseCoinYield": 8,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#161C50",
@@ -1343,7 +1823,17 @@
     "breedingRecipe": [
       "TA-2217",
       "TA-2729"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Banded Razorfish",
+        "description": "Elongated dorsal fin like a long blade, with alternating black-and-white stripes."
+      },
+      "zh-Hans": {
+        "commonName": "黑白关刀",
+        "description": "背鳍拉长如长刀，黑白相间条纹。"
+      }
+    }
   },
   {
     "id": "TA-4049",
@@ -1354,7 +1844,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 2655,
     "baseSwimSpeed": 1.12,
-    "baseCoinYield": 46,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#0628A0",
@@ -1369,7 +1859,17 @@
       ],
       "phenotypeHash": "VPH-STA-0628-F438-BUT-2"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Longnose Butterflyfish",
+        "description": "Angelfish-like form with a long snout and protruding dorsal fin, often called the sea angelfish."
+      },
+      "zh-Hans": {
+        "commonName": "角蝶",
+        "description": "神仙鱼般的外型，长长的吻部与突出的背鳍，常被称为海神仙。"
+      }
+    }
   },
   {
     "id": "TA-4050",
@@ -1380,7 +1880,7 @@
     "category": "蝴蝶魚、小丑魚與雀鯛",
     "hatchStepsRequired": 875,
     "baseSwimSpeed": 2.05,
-    "baseCoinYield": 33,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1AF63D",
@@ -1398,7 +1898,17 @@
     "breedingRecipe": [
       "TA-3616",
       "TA-1939"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Orange-band Surgeonfish",
+        "description": "A true surgeonfish placed here to round out the count; juveniles are bright yellow, adults show orange shoulder patches."
+      },
+      "zh-Hans": {
+        "commonName": "黄倒吊",
+        "description": "这其实是倒吊，但放这里凑数，幼鱼鲜黄，成鱼有橘色肩斑。"
+      }
+    }
   },
   {
     "id": "TA-4051",
@@ -1409,7 +1919,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 3556,
     "baseSwimSpeed": 2.74,
-    "baseCoinYield": 10,
+    "baseCoinYield": 17,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#D28D0B",
@@ -1427,7 +1937,17 @@
     "breedingRecipe": [
       "TA-2467",
       "TA-1662"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Conspicuous Triggerfish",
+        "description": "Huge white spot on the belly, yellow net-like markings on the back, and an unusual build."
+      },
+      "zh-Hans": {
+        "commonName": "小丑砲弹",
+        "description": "腹部有巨大的白色圆点，背部有黄色网纹，造型奇特。"
+      }
+    }
   },
   {
     "id": "TA-4052",
@@ -1438,7 +1958,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1668,
     "baseSwimSpeed": 1.78,
-    "baseCoinYield": 6,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#3A16E6",
@@ -1456,7 +1976,17 @@
     "breedingRecipe": [
       "TA-3340",
       "TA-1499"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Clown Triggerfish",
+        "description": "Vivid lines and color blocks scattered like an abstract painting."
+      },
+      "zh-Hans": {
+        "commonName": "毕卡索砲弹",
+        "description": "宛如抽象画的缤纷线条与色块分布。"
+      }
+    }
   },
   {
     "id": "TA-4053",
@@ -1467,7 +1997,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1360,
     "baseSwimSpeed": 1.12,
-    "baseCoinYield": 41,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#26F1E1",
@@ -1484,7 +2014,17 @@
     "breedingRecipe": [
       "TA-1512",
       "TA-3856"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Redtooth Triggerfish",
+        "description": "Deep blue to purple coloration with red teeth."
+      },
+      "zh-Hans": {
+        "commonName": "魔鬼砲弹",
+        "description": "深蓝色至紫色的体色，带有红色的牙齿。"
+      }
+    }
   },
   {
     "id": "TA-4054",
@@ -1495,7 +2035,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1481,
     "baseSwimSpeed": 1.74,
-    "baseCoinYield": 30,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#CDFF01",
@@ -1510,7 +2050,17 @@
       ],
       "phenotypeHash": "VPH-STA-CDFF-08EA-SPI-2"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Whitetail Boxfish",
+        "description": "Juveniles are bright yellow with black spots and a boxy, papaya-like body shape."
+      },
+      "zh-Hans": {
+        "commonName": "木瓜箱鲀",
+        "description": "幼鱼为鲜黄色带黑点，形状像一颗方形木瓜。"
+      }
+    }
   },
   {
     "id": "TA-4055",
@@ -1521,7 +2071,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 3278,
     "baseSwimSpeed": 2.12,
-    "baseCoinYield": 24,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#00C466",
@@ -1539,7 +2089,17 @@
     "breedingRecipe": [
       "TA-2229",
       "TA-3990"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Longhorn Cowfish",
+        "description": "Two protruding 'ox horns' on the head and a comical swimming style."
+      },
+      "zh-Hans": {
+        "commonName": "牛角箱鲀",
+        "description": "头部有两根突出的「牛角」，游泳姿态滑稽。"
+      }
+    }
   },
   {
     "id": "TA-4056",
@@ -1550,7 +2110,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1146,
     "baseSwimSpeed": 2.81,
-    "baseCoinYield": 8,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -1567,7 +2127,17 @@
     "breedingRecipe": [
       "TA-2181",
       "TA-1734"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Bottlenose Seahorse",
+        "description": "Seahorse with a notably protruding belly and a larger body size."
+      },
+      "zh-Hans": {
+        "commonName": "大肚海马",
+        "description": "腹部特别突出，体型较大的海马。"
+      }
+    }
   },
   {
     "id": "TA-4057",
@@ -1578,7 +2148,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 510,
     "baseSwimSpeed": 1.73,
-    "baseCoinYield": 19,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -1592,7 +2162,17 @@
       ],
       "phenotypeHash": "VPH-SEA-EA58-F973-FAN-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Pajama Seahorse",
+        "description": "Body covered in sharp spines with exceptional camouflage ability."
+      },
+      "zh-Hans": {
+        "commonName": "荆棘海马",
+        "description": "全身长满尖刺，拟态能力极佳。"
+      }
+    }
   },
   {
     "id": "TA-4058",
@@ -1603,7 +2183,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 2961,
     "baseSwimSpeed": 2.93,
-    "baseCoinYield": 26,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -1615,7 +2195,17 @@
       "features": [],
       "phenotypeHash": "VPH-SEA-F59E-FDE0-RIB-0"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Yellow Seahorse",
+        "description": "Entire body in bright golden yellow."
+      },
+      "zh-Hans": {
+        "commonName": "黄金海马",
+        "description": "全身呈现明亮的金黄色。"
+      }
+    }
   },
   {
     "id": "TA-4059",
@@ -1626,7 +2216,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 4517,
     "baseSwimSpeed": 1.07,
-    "baseCoinYield": 6,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#0612BF",
@@ -1644,7 +2234,17 @@
     "breedingRecipe": [
       "TA-2886",
       "TA-2489"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Broadnosed Pipefish",
+        "description": "Broad, wide snout, drifting like a blade of floating sea grass."
+      },
+      "zh-Hans": {
+        "commonName": "宽吻海龙",
+        "description": "吻部宽大，像一片漂浮的海草。"
+      }
+    }
   },
   {
     "id": "TA-4060",
@@ -1655,7 +2255,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 4367,
     "baseSwimSpeed": 1.34,
-    "baseCoinYield": 1,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -1672,7 +2272,17 @@
     "breedingRecipe": [
       "TA-1536",
       "TA-2105"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Upright seahorse",
+        "description": "A reddish, upright seahorse with linear markings."
+      },
+      "zh-Hans": {
+        "commonName": "红海马",
+        "description": "体色偏红的直立海马，带有线条斑纹。"
+      }
+    }
   },
   {
     "id": "TA-4061",
@@ -1683,7 +2293,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 529,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 11,
+    "baseCoinYield": 22,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1697,7 +2307,17 @@
       ],
       "phenotypeHash": "VPH-SEA-0F17-3341-RIB-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Zebra seahorse",
+        "description": "Its body is covered in alternating black-and-white zebra stripes."
+      },
+      "zh-Hans": {
+        "commonName": "斑马海马",
+        "description": "全身布满黑白相间的斑马纹。"
+      }
+    }
   },
   {
     "id": "TA-4062",
@@ -1708,7 +2328,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1351,
     "baseSwimSpeed": 1.05,
-    "baseCoinYield": 37,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#00FB7C",
@@ -1726,7 +2346,17 @@
     "breedingRecipe": [
       "TA-3930",
       "TA-1877"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Giant porcupinefish",
+        "description": "When startled, it inflates and raises its sharp spines."
+      },
+      "zh-Hans": {
+        "commonName": "巨型刺鲀",
+        "description": "受到惊吓会膨胀并竖起全身尖刺。"
+      }
+    }
   },
   {
     "id": "TA-4063",
@@ -1737,7 +2367,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 3624,
     "baseSwimSpeed": 0.98,
-    "baseCoinYield": 45,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#CD23E1",
@@ -1754,7 +2384,17 @@
     "breedingRecipe": [
       "TA-3737",
       "TA-2190"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Yellowmargin filefish",
+        "description": "It has a blue face and yellow-edged scales."
+      },
+      "zh-Hans": {
+        "commonName": "蓝面砲弹",
+        "description": "面部呈现蓝色，鳞片边缘有黄色。"
+      }
+    }
   },
   {
     "id": "TA-4064",
@@ -1783,7 +2423,17 @@
     "breedingRecipe": [
       "TA-1264",
       "TA-1017"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Humuhu",
+        "description": "Hawaii's state fish, marked with bold black diagonal stripes (Humuhumunukunukuapua'a)."
+      },
+      "zh-Hans": {
+        "commonName": "斜纹砲弹",
+        "description": "夏威夷州鱼，身上有明显的黑色斜纹 (Humuhumunukunukuapua'a)。"
+      }
+    }
   },
   {
     "id": "TA-4065",
@@ -1794,7 +2444,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1674,
     "baseSwimSpeed": 0.57,
-    "baseCoinYield": 8,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#A55205",
@@ -1808,7 +2458,17 @@
       ],
       "phenotypeHash": "VPH-STA-A552-46B9-LYR-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Queen filefish",
+        "description": "Its elegant blue-green lines end in long filaments on the tail fin."
+      },
+      "zh-Hans": {
+        "commonName": "女王砲弹",
+        "description": "优雅的蓝绿色线条，尾鳍上下端有长长的拉丝。"
+      }
+    }
   },
   {
     "id": "TA-4066",
@@ -1819,7 +2479,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 3409,
     "baseSwimSpeed": 1.27,
-    "baseCoinYield": 1,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#1B4B45",
@@ -1834,7 +2494,17 @@
       ],
       "phenotypeHash": "VPH-STA-1B4B-2D29-RIB-2"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Spotted boxfish",
+        "description": "Males display ornate blue and orange spots on their sides and a white-dotted back."
+      },
+      "zh-Hans": {
+        "commonName": "黑腹箱鲀",
+        "description": "背部布满白点，雄鱼侧面为华丽的蓝色与橘色斑点。"
+      }
+    }
   },
   {
     "id": "TA-4067",
@@ -1845,7 +2515,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 2656,
     "baseSwimSpeed": 2.11,
-    "baseCoinYield": 36,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#073AC7",
@@ -1863,7 +2533,17 @@
     "breedingRecipe": [
       "TA-1003",
       "TA-2164"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Spotted boxfish (female)",
+        "description": "Its deep black body is covered in dense white dots."
+      },
+      "zh-Hans": {
+        "commonName": "米点箱鲀",
+        "description": "通体深黑色，布满密集的白色小圆点。"
+      }
+    }
   },
   {
     "id": "TA-4068",
@@ -1874,7 +2554,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 4172,
     "baseSwimSpeed": 1.25,
-    "baseCoinYield": 46,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#EF1677",
@@ -1892,7 +2572,17 @@
     "breedingRecipe": [
       "TA-1251",
       "TA-3859"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Dwarf seahorse",
+        "description": "An extremely miniature seahorse."
+      },
+      "zh-Hans": {
+        "commonName": "侏儒海马",
+        "description": "体型极为迷你的小海马。"
+      }
+    }
   },
   {
     "id": "TA-4069",
@@ -1903,7 +2593,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1586,
     "baseSwimSpeed": 0.52,
-    "baseCoinYield": 14,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#C31040",
@@ -1918,7 +2608,17 @@
       ],
       "phenotypeHash": "VPH-STA-C310-F9E9-FAN-2"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Leafy seadragon",
+        "description": "Covered in leaf-like appendages, it is a master of camouflage."
+      },
+      "zh-Hans": {
+        "commonName": "叶海龙",
+        "description": "全身长满叶片状的附属物，是完美的伪装大师。"
+      }
+    }
   },
   {
     "id": "TA-4070",
@@ -1929,7 +2629,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1680,
     "baseSwimSpeed": 2.74,
-    "baseCoinYield": 20,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#D76E1C",
@@ -1944,7 +2644,17 @@
       ],
       "phenotypeHash": "VPH-STA-D76E-80F4-CRE-2"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Weedy seadragon",
+        "description": "Vibrantly colored, with seagrass-like appendages."
+      },
+      "zh-Hans": {
+        "commonName": "草海龙",
+        "description": "颜色鲜艳，带有海草般的附属物。"
+      }
+    }
   },
   {
     "id": "TA-4071",
@@ -1955,7 +2665,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1523,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 28,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#121495",
@@ -1970,7 +2680,17 @@
       ],
       "phenotypeHash": "VPH-STA-1214-B814-FAN-2"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Short-tailed seadragon",
+        "description": "A seadragon that lives in estuary regions."
+      },
+      "zh-Hans": {
+        "commonName": "短尾海龙",
+        "description": "生活在河口区域的海龙。"
+      }
+    }
   },
   {
     "id": "TA-4072",
@@ -1981,7 +2701,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 850,
     "baseSwimSpeed": 1.38,
-    "baseCoinYield": 6,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#D71CCD",
@@ -1995,7 +2715,17 @@
       ],
       "phenotypeHash": "VPH-STA-D71C-EF6F-SPI-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Black tuskfish",
+        "description": "It has a black body, a pinkish-white dorsal fin, and a bright red tail."
+      },
+      "zh-Hans": {
+        "commonName": "红尾黑砲弹",
+        "description": "黑色身体，粉白背鳍与鲜红的尾巴。"
+      }
+    }
   },
   {
     "id": "TA-4073",
@@ -2006,7 +2736,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 4820,
     "baseSwimSpeed": 2.99,
-    "baseCoinYield": 43,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#007EE3",
@@ -2021,7 +2751,17 @@
       ],
       "phenotypeHash": "VPH-STA-007E-B338-CRE-2"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Reticulated puffer",
+        "description": "It has a complex reticulated pattern and a plump, rounded body."
+      },
+      "zh-Hans": {
+        "commonName": "网纹鲀",
+        "description": "身上有复杂的网状图案，体型圆润。"
+      }
+    }
   },
   {
     "id": "TA-4074",
@@ -2032,7 +2772,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 1631,
     "baseSwimSpeed": 0.9,
-    "baseCoinYield": 31,
+    "baseCoinYield": 15,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -2049,7 +2789,17 @@
     "breedingRecipe": [
       "TA-1457",
       "TA-3280"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "White-spotted puffer",
+        "description": "A cute puffer with a black background and white spots, or a pure yellow variant."
+      },
+      "zh-Hans": {
+        "commonName": "珍珠狗头",
+        "description": "黑底白点或纯黄色变异的可爱狗头鱼。"
+      }
+    }
   },
   {
     "id": "TA-4075",
@@ -2060,7 +2810,7 @@
     "category": "砲彈、箱魨、海馬與海龍",
     "hatchStepsRequired": 4680,
     "baseSwimSpeed": 2.54,
-    "baseCoinYield": 40,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -2074,7 +2824,17 @@
       ],
       "phenotypeHash": "VPH-PUF-EA58-F973-FAN-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Map puffer",
+        "description": "It has maze-like patterns that resemble map contour lines."
+      },
+      "zh-Hans": {
+        "commonName": "地图狗头",
+        "description": "身上有如地图等高线般的迷宫纹路。"
+      }
+    }
   },
   {
     "id": "TA-4076",
@@ -2085,7 +2845,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 3575,
     "baseSwimSpeed": 0.76,
-    "baseCoinYield": 37,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦎",
     "visualBlueprint": {
       "primaryColor": "#11B301",
@@ -2102,7 +2862,17 @@
     "breedingRecipe": [
       "TA-1600",
       "TA-3026"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Splendid filefish",
+        "description": "A small benthic fish with psychedelic swirl patterns in orange, green, and blue."
+      },
+      "zh-Hans": {
+        "commonName": "青蛙鱼/花斑麒麟",
+        "description": "拥有迷幻漩涡图案的橘绿蓝相间底栖小鱼。"
+      }
+    }
   },
   {
     "id": "TA-4077",
@@ -2113,7 +2883,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 3976,
     "baseSwimSpeed": 1.23,
-    "baseCoinYield": 22,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#502247",
@@ -2128,7 +2898,17 @@
       ],
       "phenotypeHash": "VPH-STA-5022-DC6E-SPI-2"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Banded shrimpgoby",
+        "description": "A goby that lives symbiotically with pistol shrimps and bears red horizontal stripes."
+      },
+      "zh-Hans": {
+        "commonName": "红斑节虾虎",
+        "description": "常与枪虾共生的虾虎鱼，身上有红色横纹。"
+      }
+    }
   },
   {
     "id": "TA-4078",
@@ -2139,7 +2919,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 3471,
     "baseSwimSpeed": 0.58,
-    "baseCoinYield": 25,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#471F40",
@@ -2156,7 +2936,17 @@
     "breedingRecipe": [
       "TA-3338",
       "TA-2477"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Nematodes goby",
+        "description": "Its first dorsal fin stands tall like an antenna; its body is black and yellow."
+      },
+      "zh-Hans": {
+        "commonName": "天线虾虎",
+        "description": "高高竖起的第一背鳍像天线一样，黑黄相间。"
+      }
+    }
   },
   {
     "id": "TA-4079",
@@ -2167,7 +2957,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 4001,
     "baseSwimSpeed": 2.83,
-    "baseCoinYield": 34,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#A316E6",
@@ -2181,7 +2971,17 @@
       ],
       "phenotypeHash": "VPH-STA-A316-EA0C-FOR-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Beautiful shrimpgoby",
+        "description": "White in the front half and fiery red in the back half, with a long, springy fin on its head."
+      },
+      "zh-Hans": {
+        "commonName": "雷达鱼",
+        "description": "前半身白，后半身火红，头顶有一根可弹动的长鳍。"
+      }
+    }
   },
   {
     "id": "TA-4080",
@@ -2192,7 +2992,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 3981,
     "baseSwimSpeed": 1.74,
-    "baseCoinYield": 7,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#5281F9",
@@ -2206,7 +3006,17 @@
       ],
       "phenotypeHash": "VPH-STA-5281-E95C-FOR-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Purple Firefish",
+        "description": "A firefish relative whose body fades from purple to yellow."
+      },
+      "zh-Hans": {
+        "commonName": "紫雷达",
+        "description": "雷达鱼的亲戚，体色为紫色与黄色渐层。"
+      }
+    }
   },
   {
     "id": "TA-4081",
@@ -2217,7 +3027,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 4099,
     "baseSwimSpeed": 0.72,
-    "baseCoinYield": 26,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#203CC8",
@@ -2235,7 +3045,17 @@
     "breedingRecipe": [
       "TA-3386",
       "TA-2786"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Flame Shrimp",
+        "description": "A cleaner shrimp with a vivid blood-red body speckled with tiny white dots."
+      },
+      "zh-Hans": {
+        "commonName": "火焰虾",
+        "description": "鲜艳的血红色身体带有白色小点的清洁虾。"
+      }
+    }
   },
   {
     "id": "TA-4082",
@@ -2246,7 +3066,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 2328,
     "baseSwimSpeed": 2.43,
-    "baseCoinYield": 38,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -2258,7 +3078,17 @@
       "features": [],
       "phenotypeHash": "VPH-GOL-F59E-FDE0-FAN-0"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Sea Goldie",
+        "description": "Bright orange-red and dazzling, it schools above coral reefs."
+      },
+      "zh-Hans": {
+        "commonName": "海金鱼",
+        "description": "亮橘红色，成群游动于珊瑚礁上方，色彩夺目。"
+      }
+    }
   },
   {
     "id": "TA-4083",
@@ -2269,7 +3099,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 1208,
     "baseSwimSpeed": 0.78,
-    "baseCoinYield": 29,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐌",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -2284,7 +3114,17 @@
     "breedingRecipe": [
       "TA-3850",
       "TA-3912"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Golden Nudibranch",
+        "description": "A beautiful shell-less sea slug, brilliant yellow and translucent."
+      },
+      "zh-Hans": {
+        "commonName": "黄金海蛞蝓",
+        "description": "亮黄色且半透明的美丽无壳海蛞蝓。"
+      }
+    }
   },
   {
     "id": "TA-4084",
@@ -2295,7 +3135,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 226,
     "baseSwimSpeed": 2.72,
-    "baseCoinYield": 30,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐰",
     "visualBlueprint": {
       "primaryColor": "#FACC15",
@@ -2309,7 +3149,17 @@
       ],
       "phenotypeHash": "VPH-SLU-FACC-EAB3-LYR-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Puppy Nudibranch",
+        "description": "A super-cute nudibranch with a fluffy appearance like a little white rabbit or puppy."
+      },
+      "zh-Hans": {
+        "commonName": "贵宾狗海蛞蝓",
+        "description": "外观毛茸茸的像只小白兔或小狗的超萌海蛞蝓。"
+      }
+    }
   },
   {
     "id": "TA-4085",
@@ -2320,7 +3170,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 1616,
     "baseSwimSpeed": 2.83,
-    "baseCoinYield": 32,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#2500ED",
@@ -2338,7 +3188,17 @@
     "breedingRecipe": [
       "TA-2219",
       "TA-3773"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Salsa Shrimp",
+        "description": "Often lifts and sways its abdomen up and down, marked with distinct white patches."
+      },
+      "zh-Hans": {
+        "commonName": "性感虾",
+        "description": "常会高举腹部上下摇摆，身上有明显的白色斑块。"
+      }
+    }
   },
   {
     "id": "TA-4086",
@@ -2349,7 +3209,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 1103,
     "baseSwimSpeed": 2.58,
-    "baseCoinYield": 35,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -2363,7 +3223,17 @@
       ],
       "phenotypeHash": "VPH-CRA-F59E-FBBF-BUT-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Boxing Crab",
+        "description": "Grips a small anemone in its claws, defending itself as if holding a colorful ball or boxing gloves."
+      },
+      "zh-Hans": {
+        "commonName": "拳击蟹",
+        "description": "双螯会抓着小海葵像拿着彩球或拳击手套防御。"
+      }
+    }
   },
   {
     "id": "TA-4087",
@@ -2374,7 +3244,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 139,
     "baseSwimSpeed": 1.22,
-    "baseCoinYield": 42,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#059669",
@@ -2388,7 +3258,17 @@
       ],
       "phenotypeHash": "VPH-STA-0596-10B9-FOR-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Peppermint Shrimp",
+        "description": "Translucent with red stripes, it favors feeding on garbage anemones."
+      },
+      "zh-Hans": {
+        "commonName": "薄荷虾",
+        "description": "透明带有红色条纹，喜欢吃垃圾海葵。"
+      }
+    }
   },
   {
     "id": "TA-4088",
@@ -2399,7 +3279,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 2552,
     "baseSwimSpeed": 2.05,
-    "baseCoinYield": 10,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#D71CC5",
@@ -2414,7 +3294,17 @@
       ],
       "phenotypeHash": "VPH-STA-D71C-F474-CRE-2"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Woolly Shrimp",
+        "description": "Its body is covered in fine hairs, and it is adept at removing algae."
+      },
+      "zh-Hans": {
+        "commonName": "假绵羊虾",
+        "description": "身上覆盖细毛，擅长清除藻类。"
+      }
+    }
   },
   {
     "id": "TA-4089",
@@ -2425,7 +3315,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 593,
     "baseSwimSpeed": 1.75,
-    "baseCoinYield": 45,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#648A08",
@@ -2443,7 +3333,17 @@
     "breedingRecipe": [
       "TA-3661",
       "TA-3220"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Cleaner Shrimp",
+        "description": "A striking red-and-white longitudinal stripe runs along its back, and it cleans fish by removing parasites."
+      },
+      "zh-Hans": {
+        "commonName": "清洁虾",
+        "description": "背部有一条醒目的红色与白色纵纹，会帮鱼清理寄生虫。"
+      }
+    }
   },
   {
     "id": "TA-4090",
@@ -2454,7 +3354,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 3979,
     "baseSwimSpeed": 0.84,
-    "baseCoinYield": 22,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#11F005",
@@ -2469,7 +3369,17 @@
       ],
       "phenotypeHash": "VPH-STA-11F0-08C8-LYR-2"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Clown Shrimp",
+        "description": "A gorgeous shrimp with an orchid-like shape that feeds on starfish."
+      },
+      "zh-Hans": {
+        "commonName": "小丑虾",
+        "description": "外型奇特如兰花，以海星为食的华丽虾类。"
+      }
+    }
   },
   {
     "id": "TA-4091",
@@ -2480,7 +3390,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 2104,
     "baseSwimSpeed": 1.89,
-    "baseCoinYield": 13,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🍎",
     "visualBlueprint": {
       "primaryColor": "#0243D6",
@@ -2498,7 +3408,17 @@
     "breedingRecipe": [
       "TA-2770",
       "TA-2609"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Sea Apple",
+        "description": "A strikingly colored, filter-feeding sea cucumber that ejects its toxic viscera when startled."
+      },
+      "zh-Hans": {
+        "commonName": "海苹果",
+        "description": "色彩极为鲜艳的滤食性海参，受惊会吐出有毒内脏。"
+      }
+    }
   },
   {
     "id": "TA-4092",
@@ -2509,7 +3429,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 270,
     "baseSwimSpeed": 2.55,
-    "baseCoinYield": 47,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🎄",
     "visualBlueprint": {
       "primaryColor": "#7DFC1E",
@@ -2527,7 +3447,17 @@
     "breedingRecipe": [
       "TA-2286",
       "TA-3337"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Christmas Tree Worm",
+        "description": "Lives on corals, its unfurled tentacles resembling a colorful Christmas tree."
+      },
+      "zh-Hans": {
+        "commonName": "圣诞树管虫",
+        "description": "栖息在珊瑚上，展开的触手像彩色的圣诞树。"
+      }
+    }
   },
   {
     "id": "TA-4093",
@@ -2538,7 +3468,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 4175,
     "baseSwimSpeed": 1.96,
-    "baseCoinYield": 2,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -2552,7 +3482,17 @@
       ],
       "phenotypeHash": "VPH-CRA-EA58-F973-FAN-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Porcelain Crab",
+        "description": "Usually lives in symbiosis with anemones, using sieve-like tentacles to capture plankton."
+      },
+      "zh-Hans": {
+        "commonName": "瓷蟹",
+        "description": "常与海葵共生，拥有像滤网一样的触手用来捕捉浮游生物。"
+      }
+    }
   },
   {
     "id": "TA-4094",
@@ -2563,7 +3503,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 1837,
     "baseSwimSpeed": 0.92,
-    "baseCoinYield": 16,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -2580,7 +3520,17 @@
     "breedingRecipe": [
       "TA-3569",
       "TA-3498"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Arrow Crab",
+        "description": "Its elongated, spider-like body features a long, pointed rostrum."
+      },
+      "zh-Hans": {
+        "commonName": "箭蟹",
+        "description": "身体细长像蜘蛛，有一个长长的吻部。"
+      }
+    }
   },
   {
     "id": "TA-4095",
@@ -2591,7 +3541,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 2919,
     "baseSwimSpeed": 2.81,
-    "baseCoinYield": 23,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
       "primaryColor": "#0D9488",
@@ -2608,7 +3558,17 @@
     "breedingRecipe": [
       "TA-2755",
       "TA-1537"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Rainbow Moray",
+        "description": "A curious moray whose juveniles are black, males blue, and females yellow."
+      },
+      "zh-Hans": {
+        "commonName": "五彩鳗",
+        "description": "幼体黑色，雄性蓝色，雌性黄色的奇妙海鳗。"
+      }
+    }
   },
   {
     "id": "TA-4096",
@@ -2619,7 +3579,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 2943,
     "baseSwimSpeed": 1.06,
-    "baseCoinYield": 43,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
       "primaryColor": "#FACC15",
@@ -2633,7 +3593,17 @@
       ],
       "phenotypeHash": "VPH-EEL-FACC-EAB3-LYR-1"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Garden Eel",
+        "description": "In groups, they bury their lower bodies in sand, swaying with the current like seaweed."
+      },
+      "zh-Hans": {
+        "commonName": "花园鳗",
+        "description": "成群将下半身埋在沙中，随水流摇摆像海草。"
+      }
+    }
   },
   {
     "id": "TA-4097",
@@ -2644,7 +3614,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 3458,
     "baseSwimSpeed": 1.82,
-    "baseCoinYield": 31,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#A816EF",
@@ -2662,7 +3632,17 @@
     "breedingRecipe": [
       "TA-3553",
       "TA-3963"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Yellow Dragon",
+        "description": "A bright yellow wrasse that burrows into the sand when threatened."
+      },
+      "zh-Hans": {
+        "commonName": "黄龙",
+        "description": "鲜黄色的隆头鱼，遇到危险会钻进沙中。"
+      }
+    }
   },
   {
     "id": "TA-4098",
@@ -2673,7 +3653,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 2484,
     "baseSwimSpeed": 0.52,
-    "baseCoinYield": 30,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -2685,7 +3665,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-7C3A-8B5C-RIB-0"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Sixline Wrasse",
+        "description": "A small wrasse with blue-purple body, six orange stripes, and red eyes."
+      },
+      "zh-Hans": {
+        "commonName": "六线龙",
+        "description": "蓝紫色带有六条橘色纵纹，眼睛红色的小型隆头鱼。"
+      }
+    }
   },
   {
     "id": "TA-4099",
@@ -2696,7 +3686,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 2532,
     "baseSwimSpeed": 0.74,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐌",
     "visualBlueprint": {
       "primaryColor": "#F38912",
@@ -2711,7 +3701,17 @@
       ],
       "phenotypeHash": "VPH-STA-F389-54F9-RIB-2"
     },
-    "breedingRecipe": null
+    "breedingRecipe": null,
+    "i18n": {
+      "en": {
+        "commonName": "Spanish Dancer",
+        "description": "Its large body ripples like a flamenco dancer's skirt while swimming."
+      },
+      "zh-Hans": {
+        "commonName": "西班牙海牛",
+        "description": "体型硕大，游动时裙边会像佛朗明哥舞裙般波浪舞动。"
+      }
+    }
   },
   {
     "id": "TA-4100",
@@ -2722,7 +3722,7 @@
     "category": "礁岩微距奇珍與擬態獵手",
     "hatchStepsRequired": 1958,
     "baseSwimSpeed": 2.35,
-    "baseCoinYield": 44,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🍄",
     "visualBlueprint": {
       "primaryColor": "#059669",
@@ -2740,6 +3740,16 @@
     "breedingRecipe": [
       "TA-3890",
       "TA-2145"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Neon Green Hairy Mushroom",
+        "description": "A coral carpeted in fluorescent green, hair-like tentacles."
+      },
+      "zh-Hans": {
+        "commonName": "绿毛菇",
+        "description": "覆盖着萤光绿色绒毛状触手的珊瑚。"
+      }
+    }
   }
 ]

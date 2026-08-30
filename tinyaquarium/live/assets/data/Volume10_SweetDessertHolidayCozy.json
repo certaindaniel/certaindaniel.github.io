@@ -8,7 +8,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 713,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 9,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🌸",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -22,7 +22,17 @@
       ],
       "phenotypeHash": "VPH-KOI-FFFF-F43F-FOR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Spring Sakura Night-Festival Koi",
+        "description": "A phantom koi that appears in the shrine's spring when the night cherry blossoms are in full bloom, its crimson scales speckled with the pink-white shimmer of falling sakura petals."
+      },
+      "zh-Hans": {
+        "commonName": "春樱夜祭锦鲤",
+        "description": "夜樱盛开时节于神社清泉现身的幻之锦鲤，绯红鳞片上点缀着落樱花瓣般的粉白微光。"
+      }
+    }
   },
   {
     "id": "fish_1002",
@@ -33,7 +43,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 142,
     "baseSwimSpeed": 52,
-    "baseCoinYield": 5,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🎆",
     "visualBlueprint": {
       "primaryColor": "#1E1B4B",
@@ -47,7 +57,17 @@
       ],
       "phenotypeHash": "VPH-GOL-1E1B-F59E-BUT-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Summer Fireworks Goldfish",
+        "description": "Like brilliant fireworks blooming in the night sky of the summer festival, its grand fan tail drags sparkling shards of flowing light through the water."
+      },
+      "zh-Hans": {
+        "commonName": "夏夜花火金鱼",
+        "description": "宛如夏日祭典夜空绽放之绚烂烟火，华丽的大扇尾在水中拖曳出璀璨的流光碎屑。"
+      }
+    }
   },
   {
     "id": "fish_1003",
@@ -58,7 +78,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 326,
     "baseSwimSpeed": 68,
-    "baseCoinYield": 4,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🥮",
     "visualBlueprint": {
       "primaryColor": "#FEF08A",
@@ -70,7 +90,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-FEF0-FFFF-FAN-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Mid-Autumn Icing Mooncake Fish",
+        "description": "A round, adorable fish whose crystal-clear body is like the translucent icing of a mid-autumn mooncake, glowing with the soft milk-yellow luster of sweet bean paste."
+      },
+      "zh-Hans": {
+        "commonName": "中秋冰皮月饼鱼",
+        "description": "浑身晶莹剔透如冰皮月饼般的圆滚萌鱼，透着淡淡的奶黄豆沙甜香光泽。"
+      }
+    }
   },
   {
     "id": "fish_1004",
@@ -81,7 +111,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 256,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 5,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🎃",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -95,7 +125,17 @@
       ],
       "phenotypeHash": "VPH-STA-EA58-F973-SPI-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Halloween Pumpkin Jack-o'-Lantern",
+        "description": "A glowing pumpkin-spirit fish that patrols the dark depths on Halloween night, carrying a warm, bright orange-yellow pumpkin lantern."
+      },
+      "zh-Hans": {
+        "commonName": "万圣南瓜提灯",
+        "description": "万圣节夜巡的发光南瓜精灵鱼，幽暗深水中提着一盏橙黄明亮的温暖南瓜灯。"
+      }
+    }
   },
   {
     "id": "fish_1005",
@@ -106,7 +146,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 1627,
     "baseSwimSpeed": 75,
-    "baseCoinYield": 16,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🔮",
     "visualBlueprint": {
       "primaryColor": "#E0F2FE",
@@ -120,7 +160,17 @@
       ],
       "phenotypeHash": "VPH-STA-E0F2-FFFF-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Christmas Snow Globe",
+        "description": "A round, crystal-clear winter spirit like a hand-shaken snow globe, with fine pure-white snowflakes drifting slowly inside that never melt."
+      },
+      "zh-Hans": {
+        "commonName": "圣诞雪球",
+        "description": "圆滚晶莹如手摇雪景球的冬日精灵，体内缓缓飘落着永不融化的细碎纯白雪花。"
+      }
+    }
   },
   {
     "id": "fish_1006",
@@ -131,7 +181,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 1152,
     "baseSwimSpeed": 70,
-    "baseCoinYield": 17,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🏵️",
     "visualBlueprint": {
       "primaryColor": "#D97706",
@@ -145,7 +195,17 @@
       ],
       "phenotypeHash": "VPH-STA-D977-F59E-BUT-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Day of the Dead Marigold",
+        "description": "A blessed spirit fish draped in the golden marigold petals and vibrant papel picado totems of the Mexican Day of the Dead, guiding the warm homecoming of remembrance."
+      },
+      "zh-Hans": {
+        "commonName": "亡灵节万寿菊",
+        "description": "身披墨西哥万寿菊金黄花瓣与绚丽剪纸图腾的祈福灵鱼，引导着思念的温暖归途。"
+      }
+    }
   },
   {
     "id": "fish_1007",
@@ -156,7 +216,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 910,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 11,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🏮",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -170,7 +230,17 @@
       ],
       "phenotypeHash": "VPH-STA-DC26-FACC-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Lantern Festival Flower Lantern",
+        "description": "A floating paper-carved flower-lantern fish that drifts with the waves during the Lantern Festival, its translucent body flickering with candlelight, carrying the warm wishes of the human world."
+      },
+      "zh-Hans": {
+        "commonName": "元宵花灯",
+        "description": "上元佳节随波逐流的水上纸雕花灯鱼，通体透亮、烛光摇曳，承载着人间的美好祈愿。"
+      }
+    }
   },
   {
     "id": "fish_1008",
@@ -181,7 +251,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 473,
     "baseSwimSpeed": 54,
-    "baseCoinYield": 6,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🌿",
     "visualBlueprint": {
       "primaryColor": "#15803D",
@@ -193,7 +263,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-1580-4ADE-SPI-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Dragon Boat Mugwort Sachet Fish",
+        "description": "An evil-warding koi-scale betta that exudes the fresh herbal scent of mugwort and realgar, its emerald diamond-shaped body like a delicate handmade sachet."
+      },
+      "zh-Hans": {
+        "commonName": "端午艾草香包鱼",
+        "description": "散发着清新艾草与雄黄草本香气的辟邪锦鳞，翠绿菱形身躯宛如一枚精巧的手作香囊。"
+      }
+    }
   },
   {
     "id": "fish_1009",
@@ -204,7 +284,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 767,
     "baseSwimSpeed": 64,
-    "baseCoinYield": 9,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🌌",
     "visualBlueprint": {
       "primaryColor": "#4338CA",
@@ -218,7 +298,17 @@
       ],
       "phenotypeHash": "VPH-STA-4338-818C-LYR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Weaver's Galaxy Fish",
+        "description": "A star-river divine fish said to be formed from the silver threads of the Weaver Girl's cloud loom, its tail fin trailing miniature halos of starlight as it swims."
+      },
+      "zh-Hans": {
+        "commonName": "七夕织女银河鱼",
+        "description": "相传由织女云梭银丝化成的星河神鱼，游动时尾鳍拖曳出一道道微缩的星辰光晕。"
+      }
+    }
   },
   {
     "id": "fish_1010",
@@ -229,7 +319,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 1988,
     "baseSwimSpeed": 82,
-    "baseCoinYield": 16,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🍑",
     "visualBlueprint": {
       "primaryColor": "#FB7185",
@@ -243,7 +333,17 @@
       ],
       "phenotypeHash": "VPH-GOL-FB71-FDA4-BUT-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Peach Blossom Stream Goldfish",
+        "description": "A tender goldfish born from the classic image of peach blossoms drifting over a stream, its gills and broad tail like the freshly opened pink mountain peaches."
+      },
+      "zh-Hans": {
+        "commonName": "桃花流水金鱼",
+        "description": "『桃花流水鳜鱼肥』意境中化生的娇嫩金鱼，鱼鳃与宽尾宛如初绽的粉嫩山桃花。"
+      }
+    }
   },
   {
     "id": "fish_1011",
@@ -254,7 +354,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 776,
     "baseSwimSpeed": 69,
-    "baseCoinYield": 15,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐦",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -266,7 +366,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-0F17-FFFF-FOR-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Vernal Equinox Swallow Fish",
+        "description": "With its scissor-like elongated swallow tail and black-and-white winged dorsal fin, this spring messenger proclaims the return of spring and the revival of all living things."
+      },
+      "zh-Hans": {
+        "commonName": "春分燕子鱼",
+        "description": "剪刀般修长的燕尾与黑白分明的羽翼背鳍，声明着大地回春与万物复苏的春季信使。"
+      }
+    }
   },
   {
     "id": "fish_1012",
@@ -277,7 +387,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 601,
     "baseSwimSpeed": 72,
-    "baseCoinYield": 13,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🥚",
     "visualBlueprint": {
       "primaryColor": "#F472B6",
@@ -291,7 +401,17 @@
       ],
       "phenotypeHash": "VPH-STA-F472-60A5-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Easter Egg Puffer",
+        "description": "A round little pufferfish painted with spring pastel geometric stripes, gentle in temperament and happiest playing hide-and-seek among corals and aquatic plants."
+      },
+      "zh-Hans": {
+        "commonName": "复活节彩蛋豚",
+        "description": "浑身彩绘着春日几何粉彩条纹的圆滚小河豚，性情温顺、最喜欢在珊瑚水草间捉迷藏。"
+      }
+    }
   },
   {
     "id": "fish_1013",
@@ -302,7 +422,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 790,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 11,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🍀",
     "visualBlueprint": {
       "primaryColor": "#16A34A",
@@ -316,7 +436,17 @@
       ],
       "phenotypeHash": "VPH-ANG-16A3-22C5-LYR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Lucky Clover Angelfish",
+        "description": "An angelfish with a dorsal fin as long and slender as the tender leaves of a four-leaf clover; legend says anyone who sees it swim by will be blessed with good fortune for an entire year."
+      },
+      "zh-Hans": {
+        "commonName": "绿意幸运草神仙鱼",
+        "description": "背鳍修长如四叶草嫩叶的神仙鱼，据说遇见牠游过身旁的人将会迎来一整年的好运。"
+      }
+    }
   },
   {
     "id": "fish_1014",
@@ -327,7 +457,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 500,
     "baseSwimSpeed": 69,
-    "baseCoinYield": 6,
+    "baseCoinYield": 3,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
       "primaryColor": "#052E16",
@@ -341,7 +471,17 @@
       ],
       "phenotypeHash": "VPH-STA-052E-84CC-FOR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Firefly Nightglow Fish",
+        "description": "A glowing micro-fish dwelling on the quiet banks of summer nights, its belly pulsing a soft yellow-green cold light in the rhythm of its breathing."
+      },
+      "zh-Hans": {
+        "commonName": "萤火虫夜光鱼",
+        "description": "栖息于夏夜静谧溪畔的发光微型鱼，腹部会随着呼吸节奏发出明灭温柔的黄绿冷光。"
+      }
+    }
   },
   {
     "id": "fish_1015",
@@ -352,7 +492,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 331,
     "baseSwimSpeed": 61,
-    "baseCoinYield": 5,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🌻",
     "visualBlueprint": {
       "primaryColor": "#CA8A04",
@@ -364,7 +504,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-CA8A-FACC-FAN-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Midsummer Sunflower Sunfish",
+        "description": "Its plate-like rounded dorsal and tail fins radiate a brilliant sunflower-gold glow, exuding boundless sunshine and passionate energy."
+      },
+      "zh-Hans": {
+        "commonName": "盛夏向日葵太阳鱼",
+        "description": "圆润如盘的背鳍与尾翼泛着向日葵般的灿烂金黄，散发着无穷无尽的阳光与热情能量。"
+      }
+    }
   },
   {
     "id": "fish_1016",
@@ -375,7 +525,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 3984,
     "baseSwimSpeed": 98,
-    "baseCoinYield": 50,
+    "baseCoinYield": 28,
     "emojiOrSprite": "🏖️",
     "visualBlueprint": {
       "primaryColor": "#D97706",
@@ -389,7 +539,17 @@
       ],
       "phenotypeHash": "VPH-STA-D977-FDE6-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Beach Sandcastle Flounder",
+        "description": "A camouflage flatfish whose body is covered in fine golden sea-sand patterns, adept at disguising itself as a small shell sandcastle on the beach."
+      },
+      "zh-Hans": {
+        "commonName": "海滩沙雕比目鱼",
+        "description": "身体布满细致金色海沙纹理的拟态比目鱼，擅长伪装成海滩上的贝壳城堡小沙雕。"
+      }
+    }
   },
   {
     "id": "fish_1017",
@@ -400,7 +560,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 595,
     "baseSwimSpeed": 63,
-    "baseCoinYield": 8,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🍁",
     "visualBlueprint": {
       "primaryColor": "#B91C1C",
@@ -412,7 +572,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-B91C-EF44-FOR-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Maple Leaf Red Saury",
+        "description": "A slender prized fish whose scales turn the deep red of maple leaves as autumn winds rise, drifting like a fiery fallen leaf on the late-autumn stream."
+      },
+      "zh-Hans": {
+        "commonName": "枫叶红秋刀",
+        "description": "秋风渐起时鳞片转为深红枫叶色的修长名鱼，如一片随深秋溪水漂流的火红落叶。"
+      }
+    }
   },
   {
     "id": "fish_1018",
@@ -423,7 +593,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 338,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 5,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🌼",
     "visualBlueprint": {
       "primaryColor": "#D97706",
@@ -437,7 +607,17 @@
       ],
       "phenotypeHash": "VPH-STA-D977-FBBF-BUT-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Double Ninth Chrysanthemum Bream",
+        "description": "Its gill covers and scales layer like the fully-blooming golden chrysanthemum, elegant and noble, symbolizing longevity and healthy blessings."
+      },
+      "zh-Hans": {
+        "commonName": "重阳菊花鲷",
+        "description": "鳃盖与鱼鳞层层叠叠如金秋盛开之重瓣菊花，典雅高贵，寓意长寿延年与福寿安康。"
+      }
+    }
   },
   {
     "id": "fish_1019",
@@ -448,7 +628,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 1256,
     "baseSwimSpeed": 86,
-    "baseCoinYield": 22,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🌾",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -462,7 +642,17 @@
       ],
       "phenotypeHash": "VPH-STA-B453-F59E-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Harvest Wheat Ear Clownfish",
+        "description": "Its interlaced golden and caramel stripes resemble the plump golden wheat ears of autumn, bringing the weighty joy of a golden harvest."
+      },
+      "zh-Hans": {
+        "commonName": "丰收麦穗小丑鱼",
+        "description": "金黄与焦糖色交错的条纹宛如秋日饱满的金黄麦穗，带来金秋大地沉甸甸的丰收喜悦。"
+      }
+    }
   },
   {
     "id": "fish_1020",
@@ -473,7 +663,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 862,
     "baseSwimSpeed": 78,
-    "baseCoinYield": 13,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦌",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -487,7 +677,17 @@
       ],
       "phenotypeHash": "VPH-RUM-7835-B453-FOR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Reindeer Red-Nose Fish",
+        "description": "A winter messenger with miniature coral antlers on its head and a nose glowing with warm red light, guiding the Christmas sleigh along the seabed."
+      },
+      "zh-Hans": {
+        "commonName": "驯鹿红鼻鱼",
+        "description": "头顶长着迷你珊瑚鹿角、鼻尖闪烁着温暖红光的冬日信使，在水底为圣诞雪橇引路。"
+      }
+    }
   },
   {
     "id": "fish_1021",
@@ -498,7 +698,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 639,
     "baseSwimSpeed": 78,
-    "baseCoinYield": 9,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🎇",
     "visualBlueprint": {
       "primaryColor": "#312E81",
@@ -513,7 +713,17 @@
       ],
       "phenotypeHash": "VPH-STA-312E-EC48-FOR-2"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "New Year Fireworks Zebra Danio",
+        "description": "At the stroke of midnight, the zebra stripes along its sides refract a rainbow spectrum, as if mirroring the fireworks of the New Year's Eve countdown."
+      },
+      "zh-Hans": {
+        "commonName": "跨年烟花斑马鱼",
+        "description": "体侧的斑马条纹在子夜交替之际会折射出五彩斑斓的光谱，仿佛倒映着跨年倒数的夜空。"
+      }
+    }
   },
   {
     "id": "fish_1022",
@@ -524,7 +734,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 1428,
     "baseSwimSpeed": 86,
-    "baseCoinYield": 25,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🧊",
     "visualBlueprint": {
       "primaryColor": "#E0F2FE",
@@ -536,7 +746,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-E0F2-BAE6-LYR-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Glacier Crystal Fish",
+        "description": "Pristine and flawless, as if hand-carved from a ten-thousand-year glacier, this crystal-clear divine fish sparkles with prismatic light as light bends through its body."
+      },
+      "zh-Hans": {
+        "commonName": "冰雕水晶鱼",
+        "description": "纯净无瑕、仿佛由万年冰川手工雕琢而成的高透明神鱼，在光线折射下闪耀着七彩菱光。"
+      }
+    }
   },
   {
     "id": "fish_1023",
@@ -547,7 +767,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 595,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 5,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🌺",
     "visualBlueprint": {
       "primaryColor": "#CA8A04",
@@ -559,7 +779,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-CA8A-FDE0-FAN-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Wintersweet Pupfish",
+        "description": "An incarnation of the golden wintersweet blooming in the coldest twelfth month, its subtle fragrance drifting and defying the frost and snow, bringing a thread of fragrance to the frozen waters."
+      },
+      "zh-Hans": {
+        "commonName": "腊梅香鳉",
+        "description": "于寒冬腊月盛开之金色腊梅化身，暗香浮动、傲雪凌霜，给冰封的水域带来一缕幽香。"
+      }
+    }
   },
   {
     "id": "fish_1024",
@@ -584,7 +814,17 @@
       ],
       "phenotypeHash": "VPH-STA-BE12-FB71-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Valentine's Rose Kiss Fish",
+        "description": "With rose-petal-soft deep red fins and a heart-shaped pouty mouth, it often blows strings of glistening pink heart-shaped bubbles at the surface."
+      },
+      "zh-Hans": {
+        "commonName": "情人节玫瑰吻鱼",
+        "description": "花瓣般柔软的深红鱼鳍与爱心状的嘟嘟小嘴，经常在水面吐出一串串晶莹的粉红爱心泡泡。"
+      }
+    }
   },
   {
     "id": "fish_1025",
@@ -595,7 +835,7 @@
     "category": "四季與全球節慶奇蹟",
     "hatchStepsRequired": 1317,
     "baseSwimSpeed": 78,
-    "baseCoinYield": 29,
+    "baseCoinYield": 11,
     "emojiOrSprite": "💐",
     "visualBlueprint": {
       "primaryColor": "#E11D48",
@@ -609,7 +849,17 @@
       ],
       "phenotypeHash": "VPH-GUP-E11D-FB71-BUT-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Mother's Day Carnation Guppy",
+        "description": "Its layered, unfurling pink lace-like wide tail resembles a blooming carnation bouquet, radiating the glow of tender, devoted motherly love."
+      },
+      "zh-Hans": {
+        "commonName": "母亲节康乃馨孔雀鱼",
+        "description": "层层舒展的粉红蕾丝宽尾宛如盛开的康乃馨花束，散发着温柔深厚、无微不至的母爱光芒。"
+      }
+    }
   },
   {
     "id": "fish_1026",
@@ -620,7 +870,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 994,
     "baseSwimSpeed": 68,
-    "baseCoinYield": 8,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🥞",
     "visualBlueprint": {
       "primaryColor": "#FEF08A",
@@ -632,7 +882,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-FEF0-FDE0-FAN-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Soufflé Puffer",
+        "description": "Fluffy and soft as a freshly baked French soufflé, this chubby puffer gently bounces like a marshmallow when lightly touched."
+      },
+      "zh-Hans": {
+        "commonName": "舒芙蕾膨膨豚",
+        "description": "蓬松松、软绵绵如刚出炉法式舒芙蕾的胖河豚，轻轻触碰就会像棉花糖般微微弹动。"
+      }
+    }
   },
   {
     "id": "fish_1027",
@@ -643,7 +903,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 151,
     "baseSwimSpeed": 55,
-    "baseCoinYield": 5,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🍓",
     "visualBlueprint": {
       "primaryColor": "#FDE047",
@@ -657,7 +917,17 @@
       ],
       "phenotypeHash": "VPH-SLU-FDE0-EF44-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Strawberry Crêpe Sea Slug",
+        "description": "A super-cute sea slug whose back is layered with pale yellow crêpe layers and bright red strawberry slice patterns, like an exquisite French dessert."
+      },
+      "zh-Hans": {
+        "commonName": "草莓可丽饼海蛞蝓",
+        "description": "背部折叠着层层嫩黄饼皮与鲜红草莓切片纹理的超萌海蛞蝓，宛如一份精巧的法式甜点。"
+      }
+    }
   },
   {
     "id": "fish_1028",
@@ -668,7 +938,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 107,
     "baseSwimSpeed": 49,
-    "baseCoinYield": 2,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🍡",
     "visualBlueprint": {
       "primaryColor": "#15803D",
@@ -682,7 +952,17 @@
       ],
       "phenotypeHash": "VPH-STA-1580-86EF-RIB-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Matcha Mochi Loach",
+        "description": "A dopey-cute loach strung together from three-color mochi of emerald matcha, pure white rice fragrance, and tender pink petals, looking adorably dopey as it swims."
+      },
+      "zh-Hans": {
+        "commonName": "抹茶团子泥鳅",
+        "description": "由翠绿抹茶、纯白米香与嫩粉花瓣三色团子串联而成的呆萌泥鳅，游动时憨态可掬。"
+      }
+    }
   },
   {
     "id": "fish_1029",
@@ -693,7 +973,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 1332,
     "baseSwimSpeed": 83,
-    "baseCoinYield": 21,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🍮",
     "visualBlueprint": {
       "primaryColor": "#D97706",
@@ -707,7 +987,17 @@
       ],
       "phenotypeHash": "VPH-JEL-D977-FEF0-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Caramel Pudding Moon Jelly",
+        "description": "The top of its bell is covered with a glistening caramel layer, and its skirt edge is like a soft, bouncy pudding — a healing little jellyfish."
+      },
+      "zh-Hans": {
+        "commonName": "焦糖布丁水母",
+        "description": "伞盖顶部覆盖着一层晶莹焦糖色、裙边如嫩滑布丁般DuangDuang弹跳的治愈小水母。"
+      }
+    }
   },
   {
     "id": "fish_1030",
@@ -718,7 +1008,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 969,
     "baseSwimSpeed": 76,
-    "baseCoinYield": 13,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🧁",
     "visualBlueprint": {
       "primaryColor": "#F472B6",
@@ -732,7 +1022,17 @@
       ],
       "phenotypeHash": "VPH-STA-F472-67E8-BUT-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Macaron Porgy",
+        "description": "A divine porgy with a macaron-like pastel gradient, carrying a faint almond meringue fragrance and a soft matte finish."
+      },
+      "zh-Hans": {
+        "commonName": "马卡龙七彩鲷",
+        "description": "体表呈现马卡龙般温柔粉彩渐层的神仙鲷，带着淡淡的杏仁蛋白糖香气与柔和雾面质感。"
+      }
+    }
   },
   {
     "id": "fish_1031",
@@ -743,7 +1043,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 502,
     "baseSwimSpeed": 52,
-    "baseCoinYield": 6,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🧋",
     "visualBlueprint": {
       "primaryColor": "#1C1917",
@@ -757,7 +1057,17 @@
       ],
       "phenotypeHash": "VPH-STA-1C19-4440-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Brown Sugar Boba Cory",
+        "description": "A round little cory like a Q-bouncy brown sugar boba pearl, with two playful whiskers, spending the whole day searching for sweets on the bottom."
+      },
+      "zh-Hans": {
+        "commonName": "黑糖波霸短鲇",
+        "description": "圆滚滚如一颗Q弹黑糖珍珠般的呆萌小鲇鱼，长着两条俏皮小胡须，整天在水底寻找甜食。"
+      }
+    }
   },
   {
     "id": "fish_1032",
@@ -768,7 +1078,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 1992,
     "baseSwimSpeed": 85,
-    "baseCoinYield": 20,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -780,7 +1090,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-B453-D977-FAN-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Taiyaki Fish",
+        "description": "A classic Japanese confection fish with a golden, slightly scorched exterior and sweet red bean paste branded on its back, giving off a heartwarming winter fragrance."
+      },
+      "zh-Hans": {
+        "commonName": "鲷鱼烧暖暖鱼",
+        "description": "外皮烘烤得金黄微焦、背脊烙印着香甜红豆馅的经典和菓子鱼，散发着冬日暖心香气。"
+      }
+    }
   },
   {
     "id": "fish_1033",
@@ -791,7 +1111,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 888,
     "baseSwimSpeed": 66,
-    "baseCoinYield": 13,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🍰",
     "visualBlueprint": {
       "primaryColor": "#451A03",
@@ -805,7 +1125,17 @@
       ],
       "phenotypeHash": "VPH-ANG-451A-FEF3-LYR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Tiramisu Angel Fish",
+        "description": "An elegant Italian dessert fish draped in a fine cocoa powder dark brown layer, a mascarpone cheese pure white layer, and a ladyfinger biscuit golden layer."
+      },
+      "zh-Hans": {
+        "commonName": "提拉米苏神仙鱼",
+        "description": "身披细致可可粉深褐层、马斯卡彭起司纯白层与手指饼干金黄层的典雅意大利甜品神鱼。"
+      }
+    }
   },
   {
     "id": "fish_1034",
@@ -816,7 +1146,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 656,
     "baseSwimSpeed": 69,
-    "baseCoinYield": 15,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🍰",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -830,7 +1160,17 @@
       ],
       "phenotypeHash": "VPH-STA-FFFF-EF44-BUT-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Whipped Cream Strawberry Cake Fish",
+        "description": "On a snow-white, rich whipped cream body are dotted with plump, glossy red strawberries — a lucky fish for birthdays and anniversaries."
+      },
+      "zh-Hans": {
+        "commonName": "鲜奶油草莓蛋糕鱼",
+        "description": "雪白浓郁的鲜奶油躯体上点缀着颗颗娇艳欲滴的鲜红草莓，是庆祝生日与纪念日的幸运鱼。"
+      }
+    }
   },
   {
     "id": "fish_1035",
@@ -841,7 +1181,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 434,
     "baseSwimSpeed": 52,
-    "baseCoinYield": 4,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🍫",
     "visualBlueprint": {
       "primaryColor": "#1F1610",
@@ -855,7 +1195,17 @@
       ],
       "phenotypeHash": "VPH-STA-1F16-DC26-LYR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Chocolate Lava Betta",
+        "description": "Velvet big tail fins like dark, rich chocolate, with edges glowing with a flowing lava-like gold-red caramel flow as it swims."
+      },
+      "zh-Hans": {
+        "commonName": "巧克力熔岩斗鱼",
+        "description": "深醇黑巧克力般的丝绒大尾鳍，游动时边缘泛着滚烫流动的金红熔岩焦糖流光。"
+      }
+    }
   },
   {
     "id": "fish_1036",
@@ -866,7 +1216,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 444,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 6,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🍨",
     "visualBlueprint": {
       "primaryColor": "#FFFBEB",
@@ -878,7 +1228,17 @@
       "features": [],
       "phenotypeHash": "VPH-CRA-FFFB-FEF3-FAN-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Vanilla Ice Cream Snow Crab",
+        "description": "Its shell is like a scoop of premium ice cream topped with vanilla seeds, and its two round little claws often hold a tiny mini-iced sugar crystal."
+      },
+      "zh-Hans": {
+        "commonName": "香草冰淇淋雪蟹",
+        "description": "甲壳如一球淋上香草籽的顶级冰淇淋，两只圆滚小蟹螯经常抱着一颗迷你糖霜小冰晶。"
+      }
+    }
   },
   {
     "id": "fish_1037",
@@ -889,7 +1249,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 1474,
     "baseSwimSpeed": 78,
-    "baseCoinYield": 16,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🥭",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -901,7 +1261,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-EA58-FACC-FOR-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Mango Pudding Tang",
+        "description": "A bright tropical fish, its vivid yellow like a midsummer mango purée, scattering tropical coconut-milk-white tiny bubbles behind it as it swims."
+      },
+      "zh-Hans": {
+        "commonName": "芒果布丁热带鱼",
+        "description": "鲜黄浓郁如盛夏芒果果泥的透亮热带鱼，游动时身后散落着热带椰浆般纯白微小气泡。"
+      }
+    }
   },
   {
     "id": "fish_1038",
@@ -912,7 +1282,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 577,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 8,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🧇",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -924,7 +1294,17 @@
       "features": [],
       "phenotypeHash": "VPH-RAY-B453-FDE0-FAN-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Honey Waffle Ray",
+        "description": "A flat ray with a back patterned like golden waffles and a rich cream melting on top, elegantly dancing on the bottom."
+      },
+      "zh-Hans": {
+        "commonName": "蜂蜜松饼𫚉鱼",
+        "description": "背部格纹如金黄华夫饼、顶部融化着一块香浓奶油的扁平𫚉鱼，优雅地在水底翩翩起舞。"
+      }
+    }
   },
   {
     "id": "fish_1039",
@@ -935,7 +1315,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 818,
     "baseSwimSpeed": 70,
-    "baseCoinYield": 15,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🍩",
     "visualBlueprint": {
       "primaryColor": "#DB2777",
@@ -949,7 +1329,17 @@
       ],
       "phenotypeHash": "VPH-ANG-DB27-F472-LYR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Donut Angel Fish",
+        "description": "A ring-shaped, elongated body is covered with pink strawberry frosting and colorful sprinkles — every flip is full of childlike sweetness."
+      },
+      "zh-Hans": {
+        "commonName": "甜甜圈神仙鱼",
+        "description": "圆环状修长身躯淋满了粉红草莓糖霜与七彩糖针，每一次翻滚都充满了童趣甜美。"
+      }
+    }
   },
   {
     "id": "fish_1040",
@@ -974,7 +1364,17 @@
       ],
       "phenotypeHash": "VPH-STA-B453-F59E-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Apple Pie Flatfish",
+        "description": "A golden, crispy layered pastry pattern wrapping a sweet cinnamon apple filling; when it settles on the bottom, it looks like a delicious pie plate just out of the oven."
+      },
+      "zh-Hans": {
+        "commonName": "苹果派比目鱼",
+        "description": "金黄酥脆的千层酥皮花纹包裹着香甜肉桂苹果馅，沉在水底时仿佛刚从烤箱端出的美味派盘。"
+      }
+    }
   },
   {
     "id": "fish_1041",
@@ -985,7 +1385,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 677,
     "baseSwimSpeed": 67,
-    "baseCoinYield": 9,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🍋",
     "visualBlueprint": {
       "primaryColor": "#FACC15",
@@ -999,7 +1399,17 @@
       ],
       "phenotypeHash": "VPH-STA-FACC-FFFF-FOR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Lemon Tart Anemonefish",
+        "description": "A bright lemon-yellow body with a refreshing, faintly sour note, wrapped in wavy stripes of snow-white, lightly-toasted meringue frosting."
+      },
+      "zh-Hans": {
+        "commonName": "柠檬塔小丑鱼",
+        "description": "清爽微酸的明亮柠檬黄底色，身上环绕着如炙烤蛋白霜般雪白微焦的波浪条纹。"
+      }
+    }
   },
   {
     "id": "fish_1042",
@@ -1010,7 +1420,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 2254,
     "baseSwimSpeed": 88,
-    "baseCoinYield": 59,
+    "baseCoinYield": 23,
     "emojiOrSprite": "🫐",
     "visualBlueprint": {
       "primaryColor": "#312E81",
@@ -1022,7 +1432,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-312E-6366-FOR-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Blackberry Cheesecake Salmon",
+        "description": "A noble salmon with deep blackberry-jam purple and rich cheese gold interwoven, its scales gleaming with the delicate sheen of a high-tea dessert."
+      },
+      "zh-Hans": {
+        "commonName": "蓝莓起司蛋糕鲑鱼",
+        "description": "深邃蓝莓果酱紫与浓郁重奶酪金黄交织的高贵鲑鱼，鳞片散发着顶级下午茶的精致光泽。"
+      }
+    }
   },
   {
     "id": "fish_1043",
@@ -1033,7 +1453,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 280,
     "baseSwimSpeed": 51,
-    "baseCoinYield": 5,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🍿",
     "visualBlueprint": {
       "primaryColor": "#CA8A04",
@@ -1045,7 +1465,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-CA8A-FDE0-SPI-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Popcorn Shrimp",
+        "description": "Its golden, puffed body looks like sweet buttery popcorn just popped in hot oil; the shrimp darts playfully and loves to bounce among the seaweed."
+      },
+      "zh-Hans": {
+        "commonName": "爆米花虾",
+        "description": "外观金黄膨胀如刚在热油中炸开之香甜奶油爆米花，动作敏捷活泼，喜欢在水草间蹦跳。"
+      }
+    }
   },
   {
     "id": "fish_1044",
@@ -1070,7 +1500,17 @@
       ],
       "phenotypeHash": "VPH-GOL-B91C-EF44-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Candied-Haw Goldfish",
+        "description": "Three round, plump crimson goldfish cling closely together, their bodies coated in a glistening, thin, rock-sugar glaze."
+      },
+      "zh-Hans": {
+        "commonName": "糖葫芦金鱼",
+        "description": "三颗圆滚红润的金鱼紧密依偎在一起，体表覆盖着一层晶莹剔透、薄脆欲滴的冰糖琉璃光泽。"
+      }
+    }
   },
   {
     "id": "fish_1045",
@@ -1081,7 +1521,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 302,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 7,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🍡",
     "visualBlueprint": {
       "primaryColor": "#FFFBEB",
@@ -1095,7 +1535,17 @@
       ],
       "phenotypeHash": "VPH-JEL-FFFB-D977-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Roasted Marshmallow Jellyfish",
+        "description": "A super-cute glowing jellyfish with a lightly-toasted caramel-gold exterior and a stringy, stretchy melted-marshmallow interior."
+      },
+      "zh-Hans": {
+        "commonName": "烤棉花糖水母",
+        "description": "外层带有微微炙烤焦糖金黄、内里如融化棉花糖般拉丝牵引的超软萌发光小水母。"
+      }
+    }
   },
   {
     "id": "fish_1046",
@@ -1106,7 +1556,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 602,
     "baseSwimSpeed": 80,
-    "baseCoinYield": 12,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🥐",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -1118,7 +1568,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-B453-D977-FAN-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Croissant Manatee",
+        "description": "A baby manatee with a flaky, layered golden-crust exterior, its body curved into an elegant crescent, with an extremely lazy, gentle nature."
+      },
+      "zh-Hans": {
+        "commonName": "可颂面包海牛",
+        "description": "层层起酥黄金外皮、身躯弯成一弯优雅新月状的海牛宝宝，性情极其慵懒温柔。"
+      }
+    }
   },
   {
     "id": "fish_1047",
@@ -1129,7 +1589,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 892,
     "baseSwimSpeed": 76,
-    "baseCoinYield": 15,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🥮",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -1143,7 +1603,17 @@
       ],
       "phenotypeHash": "VPH-STA-7835-B453-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Cinnamon Roll Snail",
+        "description": "Its spiral shell resembles a classic Swedish cinnamon roll drizzled with thick, fragrant icing, and as it crawls along the seabed it leaves a faintly sweet trail of bubbles."
+      },
+      "zh-Hans": {
+        "commonName": "肉桂卷海螺",
+        "description": "螺旋贝壳如一枚淋满香浓糖霜的经典瑞典肉桂卷，在水底爬行时留下一道微甜的气泡轨迹。"
+      }
+    }
   },
   {
     "id": "fish_1048",
@@ -1154,7 +1624,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 1209,
     "baseSwimSpeed": 89,
-    "baseCoinYield": 28,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🥣",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1168,7 +1638,17 @@
       ],
       "phenotypeHash": "VPH-STA-FFFF-E0F2-LYR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Rock-Sugar Bird's-Nest Whitefish",
+        "description": "A pure-white divine fish whose body shimmers with fine, distinct threads like premium golden bird's-nest, and legend says drinking the clear spring it swims through keeps one young forever."
+      },
+      "zh-Hans": {
+        "commonName": "冰糖燕窝白鱼",
+        "description": "通体如顶级金丝燕窝般丝丝分明、透亮晶莹的纯白神鱼，传说饮其游过之清泉能青春永驻。"
+      }
+    }
   },
   {
     "id": "fish_1049",
@@ -1179,7 +1659,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 784,
     "baseSwimSpeed": 73,
-    "baseCoinYield": 13,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🍇",
     "visualBlueprint": {
       "primaryColor": "#DB2777",
@@ -1194,7 +1674,17 @@
       ],
       "phenotypeHash": "VPH-GUP-DB27-FACC-BUT-2"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Fruit Tart Guppy",
+        "description": "Its gorgeous, wide tail fin is inlaid with a colorful fruit-seed totem of passion-fruit green, mango yellow, and blackberry purple, like a moving dessert tart."
+      },
+      "zh-Hans": {
+        "commonName": "水果塔孔雀鱼",
+        "description": "华丽宽大的尾鳍上镶嵌着奇异果绿、芒果黄与蓝莓紫的缤纷果粒图腾，宛如一座移动的甜品塔。"
+      }
+    }
   },
   {
     "id": "fish_1050",
@@ -1205,7 +1695,7 @@
     "category": "烘焙甜點與美味治癒",
     "hatchStepsRequired": 590,
     "baseSwimSpeed": 50,
-    "baseCoinYield": 4,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🧋",
     "visualBlueprint": {
       "primaryColor": "#D97706",
@@ -1219,7 +1709,17 @@
       ],
       "phenotypeHash": "VPH-STA-D977-1C19-FOR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Boba-Tea Rainbowfish",
+        "description": "A popular divine fish with a rich amber milk-tea base and plump brown-sugar pearls scattered through its body, trailing sweet-fragrant particles as it swims."
+      },
+      "zh-Hans": {
+        "commonName": "珍珠奶茶灯鱼",
+        "description": "琥珀色醇厚奶茶底色、体内散落着颗颗饱满黑糖珍珠的热门神鱼，游动时身后飘散着甜香微粒。"
+      }
+    }
   },
   {
     "id": "fish_1051",
@@ -1230,7 +1730,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 1011,
     "baseSwimSpeed": 75,
-    "baseCoinYield": 27,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐑",
     "visualBlueprint": {
       "primaryColor": "#15803D",
@@ -1244,7 +1744,17 @@
       ],
       "phenotypeHash": "VPH-SLU-1580-86EF-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Leafy Sea-Goat",
+        "description": "A world-class macro-cute divine sea-goat with two super-cute little black goat horns on its head, its body dotted with emerald, photosynthetic leaf-like flaps."
+      },
+      "zh-Hans": {
+        "commonName": "绿叶海羊",
+        "description": "头顶长着两只超萌黑色小羊角、浑身点缀着翠绿光合作用叶绿体叶片的世界级微距萌神。"
+      }
+    }
   },
   {
     "id": "fish_1052",
@@ -1255,7 +1765,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 357,
     "baseSwimSpeed": 58,
-    "baseCoinYield": 7,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐇",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1269,7 +1779,17 @@
       ],
       "phenotypeHash": "VPH-SLU-FFFF-0F17-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Sea Bunny",
+        "description": "An ultra-popular sea slug that looks like a fluffy, pure-white rabbit, with two black rhinophore 'rabbit ears' on its head, melting every diver's heart."
+      },
+      "zh-Hans": {
+        "commonName": "毛茸海兔",
+        "description": "毛茸茸如一只纯白小白兔的超人气海蛞蝓，头顶竖着两只黑色嗅角兔耳，萌化所有潜水员。"
+      }
+    }
   },
   {
     "id": "fish_1053",
@@ -1280,7 +1800,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 1959,
     "baseSwimSpeed": 86,
-    "baseCoinYield": 22,
+    "baseCoinYield": 7,
     "emojiOrSprite": "⚡",
     "visualBlueprint": {
       "primaryColor": "#EAB308",
@@ -1292,7 +1812,17 @@
       "features": [],
       "phenotypeHash": "VPH-SLU-EAB3-FDE0-FAN-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Pacific Golden Sea-Slug",
+        "description": "A mini sea slug bright yellow like a fully-ripened banana, with a signature pair of black-spotted round 'ears' on its head, irresistibly eye-catching in macro shots on reef rocks."
+      },
+      "zh-Hans": {
+        "commonName": "太平洋双角金黄海蛞蝓",
+        "description": "鲜黄如熟透香蕉的迷你海蛞蝓，头顶长着一对招牌黑斑圆耳，在礁岩微距镜头下无比吸睛。"
+      }
+    }
   },
   {
     "id": "fish_1054",
@@ -1303,7 +1833,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 496,
     "baseSwimSpeed": 69,
-    "baseCoinYield": 6,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#1E40AF",
@@ -1317,7 +1847,17 @@
       ],
       "phenotypeHash": "VPH-SLU-1E40-38BD-BUT-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Glaucus",
+        "description": "An Atlantic sea-god sea slug with silvery-blue banded, finger-like fins gliding upside down at the surface, like the legendary deep-blue divine dragon shrunk a thousandfold."
+      },
+      "zh-Hans": {
+        "commonName": "蓝龙海蛞蝓",
+        "description": "大西洋海神海蛞蝓，银蓝相间的指状翼鳍在水面优雅倒游，宛如传说中缩小一万倍的深蓝神龙。"
+      }
+    }
   },
   {
     "id": "fish_1055",
@@ -1328,7 +1868,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 1607,
     "baseSwimSpeed": 78,
-    "baseCoinYield": 19,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🍓",
     "visualBlueprint": {
       "primaryColor": "#BE123C",
@@ -1342,7 +1882,17 @@
       ],
       "phenotypeHash": "VPH-STA-BE12-FB71-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "California Anemone",
+        "description": "A bright-red macro anemone dotted with tiny light-spots like strawberry seeds, its tentacles unfurling with the waves, like a blooming underwater ruby."
+      },
+      "zh-Hans": {
+        "commonName": "草莓海葵",
+        "description": "点缀着无数草莓籽般细小光点的鲜红微距小海葵，触须随波舒展，像一朵盛开的水中红宝石。"
+      }
+    }
   },
   {
     "id": "fish_1056",
@@ -1353,7 +1903,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 604,
     "baseSwimSpeed": 68,
-    "baseCoinYield": 13,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🍈",
     "visualBlueprint": {
       "primaryColor": "#C9CCE8",
@@ -1368,7 +1918,17 @@
       ],
       "phenotypeHash": "VPH-WHA-C9CC-FC9C-FAN-2"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Melon Baby Whale",
+        "description": "A pure-white, round Arctic baby beluga with a signature bouncy, protruding 'melon forehead', waving its little pectoral fin in a healing smile."
+      },
+      "zh-Hans": {
+        "commonName": "蜜瓜小白鲸",
+        "description": "纯白圆滚的北极白鲸幼崽，拥有标志性Q弹凸起的『蜜瓜额头』，挥动小胸鳍发出治愈微笑。"
+      }
+    }
   },
   {
     "id": "fish_1057",
@@ -1379,7 +1939,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 573,
     "baseSwimSpeed": 67,
-    "baseCoinYield": 5,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦦",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -1393,7 +1953,17 @@
       ],
       "phenotypeHash": "VPH-OTT-7835-A8A2-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Baby Sea Otter",
+        "description": "A fluffy deep-sea baby otter that loves floating on its back at the surface, clutching its most-beloved little seashell to its chest, refusing to let go."
+      },
+      "zh-Hans": {
+        "commonName": "抱抱海獭幼崽",
+        "description": "毛茸茸的深海海獭小宝宝，最喜欢在水面仰泳，胸口抱着一颗最心爱的小贝壳不肯放手。"
+      }
+    }
   },
   {
     "id": "fish_1058",
@@ -1404,7 +1974,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 431,
     "baseSwimSpeed": 69,
-    "baseCoinYield": 5,
+    "baseCoinYield": 3,
     "emojiOrSprite": "⭐",
     "visualBlueprint": {
       "primaryColor": "#FB7185",
@@ -1416,7 +1986,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-FB71-FDA4-FAN-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Pink Baby Starfish",
+        "description": "A tiny, baby-pink starfish with five short, round little arms crawling slowly across the coral sand, like a strawberry candy dropped on the seabed."
+      },
+      "zh-Hans": {
+        "commonName": "粉红海星仔",
+        "description": "五只短短圆圆小手臂的嫩粉色迷你海星，在珊瑚砂上缓慢爬行，像一颗掉落在海底的草莓糖。"
+      }
+    }
   },
   {
     "id": "fish_1059",
@@ -1427,7 +2007,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 353,
     "baseSwimSpeed": 67,
-    "baseCoinYield": 5,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐚",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -1439,7 +2019,17 @@
       "features": [],
       "phenotypeHash": "VPH-CRA-EA58-FED7-SPI-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Shy Hermit Crab",
+        "description": "A red-clawed hermit crab carrying a small spiral shell, shyly tucking its big eyes and round, big claws inside the shell whenever someone approaches."
+      },
+      "zh-Hans": {
+        "commonName": "害羞寄居蟹",
+        "description": "背着一颗螺旋小海螺的红螯寄居蟹，只要有人靠近就会害羞地把大眼睛和圆圆大螯缩进壳里。"
+      }
+    }
   },
   {
     "id": "fish_1060",
@@ -1450,7 +2040,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 506,
     "baseSwimSpeed": 65,
-    "baseCoinYield": 5,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -1462,7 +2052,17 @@
       "features": [],
       "phenotypeHash": "VPH-OCT-7C3A-C084-FAN-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Wolfi Octopus",
+        "description": "A purple-red baby octopus only the size of a fingernail, its eight coiled little tentacles nimbly weaving through reef crevices, curiously peering around."
+      },
+      "zh-Hans": {
+        "commonName": "迷你小章鱼",
+        "description": "只有指甲盖大小的紫红小章鱼，八条卷曲小触手在珊瑚礁缝隙灵活穿梭，好奇地张望周围。"
+      }
+    }
   },
   {
     "id": "fish_1061",
@@ -1473,7 +2073,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 202,
     "baseSwimSpeed": 40,
-    "baseCoinYield": 4,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐎",
     "visualBlueprint": {
       "primaryColor": "#FB7185",
@@ -1487,7 +2087,17 @@
       ],
       "phenotypeHash": "VPH-SEA-FB71-FDA4-LYR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Dwarf Seahorse",
+        "description": "The world's smallest seahorse, a pinkish-white body studded with tiny red bumps that lets it blend perfectly among the branches of sea whiskers."
+      },
+      "zh-Hans": {
+        "commonName": "豆豆海马",
+        "description": "世界上最小的巴氏豆丁海马，通体粉白带有红色小肉瘤，完美隐身于柳珊瑚枝桠之间。"
+      }
+    }
   },
   {
     "id": "fish_1062",
@@ -1498,7 +2108,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 1391,
     "baseSwimSpeed": 79,
-    "baseCoinYield": 17,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦭",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1512,7 +2122,17 @@
       ],
       "phenotypeHash": "VPH-OTT-FFFF-F1F5-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Snowy Bearded Seal Cub",
+        "description": "A bearded seal cub covered in soft snow-white fluff, with big glossy black eyes, cooing softly and gently."
+      },
+      "zh-Hans": {
+        "commonName": "雪白小海豹",
+        "description": "浑身覆盖着柔软雪白绒毛的竖琴海豹幼崽，睁着一双黑溜溜的大眼睛，发出软糯的呼噜声。"
+      }
+    }
   },
   {
     "id": "fish_1063",
@@ -1523,7 +2143,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 811,
     "baseSwimSpeed": 67,
-    "baseCoinYield": 12,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -1535,7 +2155,17 @@
       "features": [],
       "phenotypeHash": "VPH-CRA-B453-FDE0-SPI-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Golden Velvet Crab",
+        "description": "A tiny macro crab whose carapace is thickly covered in soft golden fluff, exploring the seafloor like a small plush ball in warm winter clothes."
+      },
+      "zh-Hans": {
+        "commonName": "绒毛蟹",
+        "description": "甲壳上长满茂密柔软金色绒毛的微距小螃蟹，像一只穿着温暖冬装的小绒球在海底探险。"
+      }
+    }
   },
   {
     "id": "fish_1064",
@@ -1546,7 +2176,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 256,
     "baseSwimSpeed": 48,
-    "baseCoinYield": 4,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🍬",
     "visualBlueprint": {
       "primaryColor": "#EC4899",
@@ -1560,7 +2190,17 @@
       ],
       "phenotypeHash": "VPH-CRA-EC48-F472-SPI-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Candy Crab",
+        "description": "A translucent soft-coral parasitic crab dotted with bright magenta spots and spines, looking just like a delicate strawberry hard candy."
+      },
+      "zh-Hans": {
+        "commonName": "糖果蟹",
+        "description": "身体半透明、点缀着鲜艳紫红斑点与棘刺的软珊瑚寄生蟹，宛如一颗精致的草莓硬糖。"
+      }
+    }
   },
   {
     "id": "fish_1065",
@@ -1571,7 +2211,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 632,
     "baseSwimSpeed": 64,
-    "baseCoinYield": 8,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐘",
     "visualBlueprint": {
       "primaryColor": "#F472B6",
@@ -1585,7 +2225,17 @@
       ],
       "phenotypeHash": "VPH-OCT-F472-FDA4-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Flying Squid",
+        "description": "An abyssal cutie with a pair of elephant-ear-like fins atop its head, gliding through the dark deep sea by paddling its umbrella-like membrane."
+      },
+      "zh-Hans": {
+        "commonName": "小飞象章鱼",
+        "description": "头顶长着一对大象耳朵般的大鳍、在幽暗深海像降落伞般优雅拍动伞膜漂浮的深渊萌神。"
+      }
+    }
   },
   {
     "id": "fish_1066",
@@ -1596,7 +2246,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 2240,
     "baseSwimSpeed": 87,
-    "baseCoinYield": 41,
+    "baseCoinYield": 22,
     "emojiOrSprite": "🎲",
     "visualBlueprint": {
       "primaryColor": "#EAB308",
@@ -1610,7 +2260,17 @@
       ],
       "phenotypeHash": "VPH-STA-EAB3-FDE0-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Polka-Dot Boxfish",
+        "description": "A bright yellow blocky body covered in black-and-white polka dots, pouting with cherry lips and darting between the reef rocks like a tiny suspended submarine."
+      },
+      "zh-Hans": {
+        "commonName": "波点小箱鲀",
+        "description": "亮黄色方块身躯上布满黑白波点的木瓜幼鱼，嘟着樱桃小嘴在礁石间如悬浮小潜艇般穿梭。"
+      }
+    }
   },
   {
     "id": "fish_1067",
@@ -1621,7 +2281,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 915,
     "baseSwimSpeed": 63,
-    "baseCoinYield": 13,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🌈",
     "visualBlueprint": {
       "primaryColor": "#06B6D4",
@@ -1635,7 +2295,17 @@
       ],
       "phenotypeHash": "VPH-STA-06B6-EC48-FOR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Rainbow Goby",
+        "description": "A high-clarity macro goby whose side scales flash like a neon color spectrum, vigilantly guarding its symbiotic pistol shrimp at the mouth of a white-sand burrow."
+      },
+      "zh-Hans": {
+        "commonName": "彩虹小虾虎",
+        "description": "体侧排列着霓虹光谱七彩反光鳞片的高清微距小虾虎，常年在白沙洞口警惕地守护着共生枪虾。"
+      }
+    }
   },
   {
     "id": "fish_1068",
@@ -1646,7 +2316,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 581,
     "baseSwimSpeed": 67,
-    "baseCoinYield": 5,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#D97706",
@@ -1658,7 +2328,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-D977-FDE6-SPI-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Smiling Pufferfish",
+        "description": "A round little puffer covered in cute soft blunt spines, always wearing an innocent smile, and puffing up into a tiny spiny ball when angry."
+      },
+      "zh-Hans": {
+        "commonName": "微笑刺鲀",
+        "description": "圆滚滚身躯布满软萌小钝刺的刺豚宝宝，嘴角永远挂着天真无邪的微笑，生气时会膨胀成小刺球。"
+      }
+    }
   },
   {
     "id": "fish_1069",
@@ -1669,7 +2349,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 9753,
     "baseSwimSpeed": 139,
-    "baseCoinYield": 82,
+    "baseCoinYield": 23,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
       "primaryColor": "#15803D",
@@ -1681,7 +2361,17 @@
       "features": [],
       "phenotypeHash": "VPH-TUR-1580-4ADE-FAN-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Sleepy Sea Turtle",
+        "description": "A little green sea turtle that has just hatched from beach sand eggs, paddling with small flipper fins, always dozing sweetly on coral and rocks."
+      },
+      "zh-Hans": {
+        "commonName": "瞌睡小海龟",
+        "description": "刚从海滩沙卵中破壳而出的小绿蠵龟，划着一对小桨鳍，总是在珊瑚岩石上打着甜甜的瞌睡。"
+      }
+    }
   },
   {
     "id": "fish_1070",
@@ -1692,7 +2382,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 958,
     "baseSwimSpeed": 74,
-    "baseCoinYield": 15,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🥔",
     "visualBlueprint": {
       "primaryColor": "#475569",
@@ -1704,7 +2394,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-4755-94A3-FAN-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Chubby Manatee Calf",
+        "description": "A round manatee baby that looks like a giant gray-brown sweet potato, slowly munching tender grass in the seagrass bed, with an extremely docile disposition."
+      },
+      "zh-Hans": {
+        "commonName": "胖嘟嘟海牛崽",
+        "description": "圆滚滚如巨型灰褐色小地瓜的儒艮宝宝，在海草床里慢悠悠地啃食嫩草，性情极其憨厚。"
+      }
+    }
   },
   {
     "id": "fish_1071",
@@ -1715,7 +2415,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 356,
     "baseSwimSpeed": 67,
-    "baseCoinYield": 4,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1729,7 +2429,17 @@
       ],
       "phenotypeHash": "VPH-EEL-0F17-F8FA-RIB-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Garden Eel",
+        "description": "A black-and-white striped garden eel that pokes half its slender body out of a white-sand burrow, swaying in the current like a row of musical notes."
+      },
+      "zh-Hans": {
+        "commonName": "迷你花园鳗",
+        "description": "从白沙洞穴中探出半截修长身躯、随着海流如音符般整齐摇曳的黑白条纹花园鳗。"
+      }
+    }
   },
   {
     "id": "fish_1072",
@@ -1740,7 +2450,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 1414,
     "baseSwimSpeed": 71,
-    "baseCoinYield": 21,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
       "primaryColor": "#9333EA",
@@ -1754,7 +2464,17 @@
       ],
       "phenotypeHash": "VPH-STA-9333-C084-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Shy Fanworm",
+        "description": "A double-ring spiral feather gill fanworm living in a small calcium tube, blooming like a pink-purple feather that shrinks back at the slightest stirring of the water."
+      },
+      "zh-Hans": {
+        "commonName": "害羞小管虫",
+        "description": "栖息于钙质小管中的双环螺旋羽毛鳃管虫，像一朵盛开的粉紫小羽毛，轻微水流震动就会缩回。"
+      }
+    }
   },
   {
     "id": "fish_1073",
@@ -1765,7 +2485,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 495,
     "baseSwimSpeed": 61,
-    "baseCoinYield": 5,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🫧",
     "visualBlueprint": {
       "primaryColor": "#E0F2FE",
@@ -1780,7 +2500,17 @@
       ],
       "phenotypeHash": "VPH-JEL-E0F2-FFFF-FAN-2"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Pearl Jelly",
+        "description": "A tiny jellyfish whose bell is inlaid with glossy white pearl spots, drifting on the current like a small parachute rising from the seafloor."
+      },
+      "zh-Hans": {
+        "commonName": "珍珠小水母",
+        "description": "伞盖上镶嵌着颗颗温润白色珍珠斑点的微型水母，随波逐流时宛如水底升起的小降落伞。"
+      }
+    }
   },
   {
     "id": "fish_1074",
@@ -1791,7 +2521,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 705,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 14,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🌸",
     "visualBlueprint": {
       "primaryColor": "#FB7185",
@@ -1803,7 +2533,17 @@
       "features": [],
       "phenotypeHash": "VPH-OCT-FB71-FDA4-FAN-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Sakura Squid",
+        "description": "A tender mini squid as delicate as early-spring cherry-blossom petals, with a translucent pink umbrella membrane that dances like a fluttering petal as it swims."
+      },
+      "zh-Hans": {
+        "commonName": "樱花粉小章鱼",
+        "description": "娇嫩如初春樱花瓣的迷你章鱼，头顶伞膜呈现半透明粉红，游动时像一朵飘舞的花瓣。"
+      }
+    }
   },
   {
     "id": "fish_1075",
@@ -1814,7 +2554,7 @@
     "category": "軟萌微距海洋小動物",
     "hatchStepsRequired": 1447,
     "baseSwimSpeed": 85,
-    "baseCoinYield": 25,
+    "baseCoinYield": 5,
     "emojiOrSprite": "👘",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1828,7 +2568,17 @@
       ],
       "phenotypeHash": "VPH-SLU-0F17-FACC-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Pajama Nudibranch",
+        "description": "A mischievous nudibranch whose back is painted in black-yellow-white vertical stripes, strolling leisurely across the coral as if wearing a set of striped pajamas."
+      },
+      "zh-Hans": {
+        "commonName": "睡衣海兔",
+        "description": "背部画满黑黄白相间的纵向条纹，宛如穿着一套条纹睡衣在珊瑚上悠闲散步的俏皮海蛞蝓。"
+      }
+    }
   },
   {
     "id": "fish_1076",
@@ -1839,7 +2589,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 1212,
     "baseSwimSpeed": 80,
-    "baseCoinYield": 29,
+    "baseCoinYield": 10,
     "emojiOrSprite": "⚙️",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -1851,7 +2601,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-B453-F59E-SPI-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Mainspring Gear Fish",
+        "description": "A steampunk fish whose precision brass mainspring and tiny mechanical gears mesh and turn, with a crisp clock-ticking sound following it as it swims."
+      },
+      "zh-Hans": {
+        "commonName": "发条齿轮鱼",
+        "description": "精密黄铜发条与微型机械齿轮咬合运转的蒸汽朋克鱼，游动时身后伴随着清脆的滴答钟表声。"
+      }
+    }
   },
   {
     "id": "fish_1077",
@@ -1862,7 +2622,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 401,
     "baseSwimSpeed": 56,
-    "baseCoinYield": 8,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦢",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1874,7 +2634,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-FFFF-E2E8-LYR-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Origami Swan",
+        "description": "A swan-shaped geometric divinity fish folded from pure white waterproof origami paper, with crisp lines and a noble, elegant posture."
+      },
+      "zh-Hans": {
+        "commonName": "折纸天鹅鱼",
+        "description": "由纯白防水折纸精心折叠而成的天鹅形几何神鱼，线条俐落、姿态高贵优雅。"
+      }
+    }
   },
   {
     "id": "fish_1078",
@@ -1885,7 +2655,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 537,
     "baseSwimSpeed": 51,
-    "baseCoinYield": 6,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🖌️",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1900,7 +2670,17 @@
       ],
       "phenotypeHash": "VPH-STA-0F17-EC48-BUT-2"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Ink-Wash Rainbow Fish",
+        "description": "East Asian ink-wash brushstrokes trace its spine while a Western rainbow spectrum dots its scales, leaving a flowing seven-color ink trail wherever it swims."
+      },
+      "zh-Hans": {
+        "commonName": "水墨彩虹鱼",
+        "description": "东方水墨浓淡笔触描绘其脊骨、西方彩虹光谱点缀其鳞片，游过之处留下一道流动的七彩墨痕。"
+      }
+    }
   },
   {
     "id": "fish_1079",
@@ -1911,7 +2691,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 500,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 6,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🍾",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -1925,7 +2705,17 @@
       ],
       "phenotypeHash": "VPH-STA-0284-38BD-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Message-Bottle Wish Fish",
+        "description": "A tiny spirit fish living inside a crystal-clear glass message bottle, guarding the pure wishes of travelers from around the world written on parchment."
+      },
+      "zh-Hans": {
+        "commonName": "漂流瓶许愿鱼",
+        "description": "栖息于晶莹剔透玻璃漂流瓶内的微型精灵鱼，守护着全世界旅人写在羊皮纸上的纯真愿望。"
+      }
+    }
   },
   {
     "id": "fish_1080",
@@ -1936,7 +2726,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 454,
     "baseSwimSpeed": 63,
-    "baseCoinYield": 4,
+    "baseCoinYield": 2,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
       "primaryColor": "#1E1B4B",
@@ -1951,7 +2741,17 @@
       ],
       "phenotypeHash": "VPH-OTT-1E1B-6366-FAN-2"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Starry Floating Seal",
+        "description": "A floating little seal whose body holds vast deep purple-blue nebulae and brilliant star-rivers, drifting in dark water like a miniature galaxy."
+      },
+      "zh-Hans": {
+        "commonName": "星空漂浮小海豹",
+        "description": "身躯内蕴藏着浩瀚深邃的紫蓝星云与璀璨星河，在幽暗水体中漂浮如同一颗微缩的银河天体。"
+      }
+    }
   },
   {
     "id": "fish_1081",
@@ -1962,7 +2762,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 690,
     "baseSwimSpeed": 76,
-    "baseCoinYield": 14,
+    "baseCoinYield": 4,
     "emojiOrSprite": "❄️",
     "visualBlueprint": {
       "primaryColor": "#E0F2FE",
@@ -1974,7 +2774,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-E0F2-BAE6-SPI-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Crystal Snowflake",
+        "description": "A pure-white crystal fish built from hexagonally symmetrical ice-crystal bones, each bearing a one-of-a-kind snowflake totem that radiates an ice-cold, otherworldly calm."
+      },
+      "zh-Hans": {
+        "commonName": "水晶雪花鱼",
+        "description": "六角对称冰晶骨骼构成的纯白水晶鱼，每一条的雪花图腾皆独一无二，散发着极致冰凉的仙气。"
+      }
+    }
   },
   {
     "id": "fish_1082",
@@ -1985,7 +2795,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 276,
     "baseSwimSpeed": 47,
-    "baseCoinYield": 5,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🎵",
     "visualBlueprint": {
       "primaryColor": "#EC4899",
@@ -1999,7 +2809,17 @@
       ],
       "phenotypeHash": "VPH-STA-EC48-8B5C-LYR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Neon Note",
+        "description": "A spirited fish incarnated from a high note and dancing eighth notes on a musical staff, its every movement accompanied by crisp, melodious water chimes."
+      },
+      "zh-Hans": {
+        "commonName": "霓虹音符鱼",
+        "description": "五线谱上跳动的高音与八分音符化身的灵动游鱼，游动时周围伴随着悦耳动听的清脆水音。"
+      }
+    }
   },
   {
     "id": "fish_1083",
@@ -2010,7 +2830,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 308,
     "baseSwimSpeed": 66,
-    "baseCoinYield": 6,
+    "baseCoinYield": 3,
     "emojiOrSprite": "💧",
     "visualBlueprint": {
       "primaryColor": "#00F0FF",
@@ -2024,7 +2844,17 @@
       ],
       "phenotypeHash": "VPH-STA-00F0-38BD-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Dewdrop Sprite",
+        "description": "A tiny, transparent spirit condensed from a single spotless morning dewdrop, so gentle in temperament that it can heal damaged ecosystems even in the most extreme water conditions."
+      },
+      "zh-Hans": {
+        "commonName": "水滴精灵",
+        "description": "由一滴纯净无瑕的晨露凝聚而成的透明小精灵，性情无比温顺，能在各种极端水质中治愈受损生态。"
+      }
+    }
   },
   {
     "id": "fish_1084",
@@ -2049,7 +2879,17 @@
       ],
       "phenotypeHash": "VPH-STA-C084-E879-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Dream Sphere",
+        "description": "Wrapped in an unbreakable dream-bubble, its body reflects the warmest childhood memory of everyone who looks into it."
+      },
+      "zh-Hans": {
+        "commonName": "玻璃球梦境鱼",
+        "description": "包裹在一层永不破裂的梦境气泡中，体内倒映着每个人童年最深处的一段温馨回忆。"
+      }
+    }
   },
   {
     "id": "fish_1085",
@@ -2060,7 +2900,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 450,
     "baseSwimSpeed": 66,
-    "baseCoinYield": 7,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🔯",
     "visualBlueprint": {
       "primaryColor": "#1E1B4B",
@@ -2074,7 +2914,17 @@
       ],
       "phenotypeHash": "VPH-STA-1E1B-38BD-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Rune Manta",
+        "description": "Its broad, flat wings are engraved with ancient, arcane glowing blue rune circles, and each wingbeat stirs rings of energy ripples across the seafloor."
+      },
+      "zh-Hans": {
+        "commonName": "魔法阵鳐鱼",
+        "description": "宽大扁平的胸鳍上镌刻着古老玄奥的蓝光符文魔法阵，每次挥翼都会在水底激发一圈圈能量涟漪。"
+      }
+    }
   },
   {
     "id": "fish_1086",
@@ -2085,7 +2935,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 1062,
     "baseSwimSpeed": 76,
-    "baseCoinYield": 20,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🚂",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -2097,7 +2947,17 @@
       "features": [],
       "phenotypeHash": "VPH-SHA-7835-B453-SPI-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Steampunk Shark",
+        "description": "Assembled from riveted armor, copper-pipe radiators, and glowing dials, this small mechanical shark roams the deep sea with focused eyes and inexhaustible drive."
+      },
+      "zh-Hans": {
+        "commonName": "蒸汽庞克机械鲨",
+        "description": "铆钉装甲、铜管散热器与发光仪表盘组装而成的远洋机械小鲨，眼神专注、动力无穷。"
+      }
+    }
   },
   {
     "id": "fish_1087",
@@ -2108,7 +2968,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 704,
     "baseSwimSpeed": 76,
-    "baseCoinYield": 10,
+    "baseCoinYield": 5,
     "emojiOrSprite": "☁️",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -2120,7 +2980,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-FFFF-E0F2-BUT-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Cotton Cloud",
+        "description": "Fluffy as the white clouds drifting across a clear sky, its light, ethereal body floats freely as if unbound by water pressure or gravity."
+      },
+      "zh-Hans": {
+        "commonName": "云朵棉花鱼",
+        "description": "蓬松如晴空万里浮现的朵朵白云，身躯轻盈缥缈，仿佛不受水压重力束缚般自由悬浮。"
+      }
+    }
   },
   {
     "id": "fish_1088",
@@ -2131,7 +3001,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 254,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 2,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🪟",
     "visualBlueprint": {
       "primaryColor": "#BE123C",
@@ -2145,7 +3015,17 @@
       ],
       "phenotypeHash": "VPH-ANG-BE12-3B82-LYR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Stained Glass Angel",
+        "description": "Its wings resemble the stained-glass rose window of a Gothic cathedral, and when sunlight pierces the water it casts mottled, sacred light and shadow on the seafloor."
+      },
+      "zh-Hans": {
+        "commonName": "彩绘玻璃神仙鱼",
+        "description": "欧洲哥德大教堂玫瑰花窗般的彩绘玻璃翅翼，阳光穿透水面时会在水底投射出斑斓的神圣光影。"
+      }
+    }
   },
   {
     "id": "fish_1089",
@@ -2156,7 +3036,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 1437,
     "baseSwimSpeed": 73,
-    "baseCoinYield": 27,
+    "baseCoinYield": 6,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -2171,7 +3051,17 @@
       ],
       "phenotypeHash": "VPH-GOL-0F17-F59E-BUT-2"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Galaxy Goldfish",
+        "description": "Its black silk tail is sprinkled with fine, glittering gold and silver stardust, like a flowing water bowl filled with entire galaxy star-clusters."
+      },
+      "zh-Hans": {
+        "commonName": "银河星砂金鱼",
+        "description": "黑色丝绒大尾上撒满了无数细碎璀璨的纯金与银白星砂，如同一汪装满了整个宇宙星系的流动水钵。"
+      }
+    }
   },
   {
     "id": "fish_1090",
@@ -2182,7 +3072,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 566,
     "baseSwimSpeed": 52,
-    "baseCoinYield": 7,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🌌",
     "visualBlueprint": {
       "primaryColor": "#10B981",
@@ -2197,7 +3087,17 @@
       ],
       "phenotypeHash": "VPH-JEL-10B9-8B5C-FAN-2"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Aurora Jellyfish",
+        "description": "As the bell pulses, it bursts into emerald and deep-purple auroras like the dancing lights of the polar night sky, dreamlike and breathtaking."
+      },
+      "zh-Hans": {
+        "commonName": "幻影极光水母",
+        "description": "伞盖脉动时绽放出如同北极永夜天空中舞动的翠绿与深紫极光，如梦似幻、美不胜收。"
+      }
+    }
   },
   {
     "id": "fish_1091",
@@ -2208,7 +3108,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 7536,
     "baseSwimSpeed": 123,
-    "baseCoinYield": 86,
+    "baseCoinYield": 15,
     "emojiOrSprite": "🏠",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -2222,7 +3122,17 @@
       ],
       "phenotypeHash": "VPH-STA-B453-FFFF-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Gingerbread Fish",
+        "description": "A fairy-tale fish decorated with the aroma of baked gingerbread men and icing-piped edges, it loves collecting colorful candy crumbs among the aquatic plants."
+      },
+      "zh-Hans": {
+        "commonName": "糖果屋饼干鱼",
+        "description": "姜饼人烘烤香气与糖霜花边勾勒的童话神鱼，最喜欢在水草间收集五颜六色的糖果碎屑。"
+      }
+    }
   },
   {
     "id": "fish_1092",
@@ -2233,7 +3143,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 520,
     "baseSwimSpeed": 66,
-    "baseCoinYield": 4,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🫧",
     "visualBlueprint": {
       "primaryColor": "#F472B6",
@@ -2248,7 +3158,17 @@
       ],
       "phenotypeHash": "VPH-ARO-F472-38BD-LYR-2"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Dream Bubble Dragonfish",
+        "description": "The rainbow soap bubbles it blows linger at the seafloor without popping, while its dragon-like body glows with iridescent mother-of-pearl luster."
+      },
+      "zh-Hans": {
+        "commonName": "梦幻泡泡龙鱼",
+        "description": "吐出的一颗颗彩虹肥皂泡能在水底长久不灭，龙形身躯散发着珍珠母贝般的七彩珠光。"
+      }
+    }
   },
   {
     "id": "fish_1093",
@@ -2259,7 +3179,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 426,
     "baseSwimSpeed": 50,
-    "baseCoinYield": 6,
+    "baseCoinYield": 3,
     "emojiOrSprite": "⏳",
     "visualBlueprint": {
       "primaryColor": "#D97706",
@@ -2273,7 +3193,17 @@
       ],
       "phenotypeHash": "VPH-STA-D977-F59E-FOR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Hourglass Clownfish",
+        "description": "A clownfish whose transparent belly holds golden time-sand quietly flowing; work done in its presence slows into stillness."
+      },
+      "zh-Hans": {
+        "commonName": "时光沙漏小丑鱼",
+        "description": "透明腹腔中静静流淌着金色时光细沙的小丑鱼，据说在牠身旁专注工作时，时间流速会变得无比宁静。"
+      }
+    }
   },
   {
     "id": "fish_1094",
@@ -2284,7 +3214,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 1847,
     "baseSwimSpeed": 86,
-    "baseCoinYield": 25,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🔖",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -2296,7 +3226,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-7C3A-A855-FAN-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Magic Bookmark Squid",
+        "description": "A deep-sea, flat-faced squid as thin as a parchment magic-bookmark, dormant inside an ancient grimoire for a thousand years, woken back to life by the current."
+      },
+      "zh-Hans": {
+        "commonName": "魔法书签扁面蛸",
+        "description": "薄如羊皮纸魔法书签的深海扁面章鱼，夹在古老魔法书中沉睡千年，被水流唤醒后重现生机。"
+      }
+    }
   },
   {
     "id": "fish_1095",
@@ -2307,7 +3247,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 124,
     "baseSwimSpeed": 47,
-    "baseCoinYield": 4,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🧞",
     "visualBlueprint": {
       "primaryColor": "#B91C1C",
@@ -2321,7 +3261,17 @@
       ],
       "phenotypeHash": "VPH-RAY-B91C-F59E-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Magic Carpet Stingray",
+        "description": "Adorned with ancient Persian weaving patterns across both wings, it glides like a magic carpet and can carry passengers through the currents."
+      },
+      "zh-Hans": {
+        "commonName": "飞毯𫚉鱼",
+        "description": "波斯古老编织工艺花纹铺满双翼的神奇𫚉鱼，能在水流中像魔毯般平稳滑翔、载人穿梭。"
+      }
+    }
   },
   {
     "id": "fish_1096",
@@ -2332,7 +3282,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 400,
     "baseSwimSpeed": 52,
-    "baseCoinYield": 7,
+    "baseCoinYield": 3,
     "emojiOrSprite": "👁️",
     "visualBlueprint": {
       "primaryColor": "#EC4899",
@@ -2346,7 +3296,17 @@
       ],
       "phenotypeHash": "VPH-STA-EC48-8B5C-FOR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Kaleidoscope Zebrafish",
+        "description": "Viewed through a refracting rhombic prism, its stripes split into a thousand geometrically symmetric kaleidoscope patterns, every turn a visual feast."
+      },
+      "zh-Hans": {
+        "commonName": "万花筒斑马鱼",
+        "description": "透过折射菱镜观察时会分裂出千变万化几何对称图案的斑马鱼，每一次转弯都是一场视觉盛宴。"
+      }
+    }
   },
   {
     "id": "fish_1097",
@@ -2357,7 +3317,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 703,
     "baseSwimSpeed": 68,
-    "baseCoinYield": 11,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🍄",
     "visualBlueprint": {
       "primaryColor": "#065F46",
@@ -2371,7 +3331,17 @@
       ],
       "phenotypeHash": "VPH-STA-065F-34D3-FAN-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Glow Mushroom Cowfish",
+        "description": "Clusters of small luminous mushrooms glowing soft blue-green on its back make it drift like a moving magical forest."
+      },
+      "zh-Hans": {
+        "commonName": "萤光蘑菇海牛",
+        "description": "背部生长着几簇散发柔和蓝绿冷光的夜光小蘑菇，游动时如同一座移动的奇幻魔法小森林。"
+      }
+    }
   },
   {
     "id": "fish_1098",
@@ -2382,7 +3352,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 232,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 4,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🌀",
     "visualBlueprint": {
       "primaryColor": "#1E1B4B",
@@ -2397,7 +3367,17 @@
       ],
       "phenotypeHash": "VPH-STA-1E1B-6366-FAN-2"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Nebula Pleco",
+        "description": "A mysterious pleco whose long barbs can sense the universe's gravitational waves, with a miniature Andromeda Nebula vortex rotating on its belly."
+      },
+      "zh-Hans": {
+        "commonName": "星云旋涡鲇鱼",
+        "description": "两条长长胡须能感知宇宙引力波的神秘鲇鱼，腹部旋转着微缩的仙女座星云漩涡。"
+      }
+    }
   },
   {
     "id": "fish_1099",
@@ -2408,7 +3388,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 723,
     "baseSwimSpeed": 71,
-    "baseCoinYield": 13,
+    "baseCoinYield": 4,
     "emojiOrSprite": "📖",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -2420,7 +3400,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-7835-FEF3-FAN-0"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Fairy Tale Flatfish",
+        "description": "Printed on both sides with classic Andersen fairy-tale illustration manuscripts, it rests quietly on the tank bottom, like an open fairy-tale page."
+      },
+      "zh-Hans": {
+        "commonName": "童话绘本比目鱼",
+        "description": "身体两侧印满安徒生童话经典插画手稿的比目鱼，静静贴在鱼缸底部，宛如一本展开的童话书页。"
+      }
+    }
   },
   {
     "id": "fish_1100",
@@ -2431,7 +3421,7 @@
     "category": "奇幻童話與超現實異想",
     "hatchStepsRequired": 102,
     "baseSwimSpeed": 46,
-    "baseCoinYield": 4,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🧩",
     "visualBlueprint": {
       "primaryColor": "#CA8A04",
@@ -2445,6 +3435,16 @@
       ],
       "phenotypeHash": "VPH-SEA-CA8A-FACC-LYR-1"
     },
-    "breedingRecipe": ""
+    "breedingRecipe": "",
+    "i18n": {
+      "en": {
+        "commonName": "Labyrinth Seahorse",
+        "description": "An ancient seahorse wearing a golden crown, its body draped in intricate geometric labyrinth patterns; only those with the purest heart can see where the maze ends."
+      },
+      "zh-Hans": {
+        "commonName": "幻境迷宫海马",
+        "description": "金色冠冕、身披错综复杂几何迷宫回纹的远古海马，据说只有心灵最纯净之人才能看透其迷宫终点。"
+      }
+    }
   }
 ]

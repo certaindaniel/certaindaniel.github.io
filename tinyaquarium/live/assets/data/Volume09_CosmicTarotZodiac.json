@@ -8,7 +8,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 17005,
     "baseSwimSpeed": 3.78,
-    "baseCoinYield": 133,
+    "baseCoinYield": 2,
     "emojiOrSprite": "♊️",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -26,6 +26,16 @@
       "parentA": "FISH_6265",
       "parentB": "FISH_1197",
       "mutationChance": 0.032
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Aries Nebula Fish",
+        "description": "Aries Nebula Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "白羊星云鱼",
+        "description": "白羊星云鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -37,7 +47,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 13402,
     "baseSwimSpeed": 4.97,
-    "baseCoinYield": 495,
+    "baseCoinYield": 7,
     "emojiOrSprite": "♎️",
     "visualBlueprint": {
       "primaryColor": "#ED0703",
@@ -55,6 +65,16 @@
       "parentA": "FISH_5485",
       "parentB": "FISH_3257",
       "mutationChance": 0.128
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Taurus Star-Chart Fish",
+        "description": "Taurus Star-Chart Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "金牛星盘鱼",
+        "description": "金牛星盘鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -66,7 +86,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 6260,
     "baseSwimSpeed": 4.81,
-    "baseCoinYield": 301,
+    "baseCoinYield": 10,
     "emojiOrSprite": "♊️",
     "visualBlueprint": {
       "primaryColor": "#48EED9",
@@ -84,6 +104,16 @@
       "parentA": "FISH_3195",
       "parentB": "FISH_8945",
       "mutationChance": 0.154
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Gemini Symbionic Fish",
+        "description": "Gemini Symbionic Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "双子共生鱼",
+        "description": "双子共生鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -95,7 +125,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 21003,
     "baseSwimSpeed": 0.69,
-    "baseCoinYield": 413,
+    "baseCoinYield": 12,
     "emojiOrSprite": "♑️",
     "visualBlueprint": {
       "primaryColor": "#0369A1",
@@ -113,6 +143,16 @@
       "parentA": "FISH_5183",
       "parentB": "FISH_5656",
       "mutationChance": 0.037
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Cancer Moonbeam Fish",
+        "description": "Cancer Moonbeam Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "巨蟹月芒鱼",
+        "description": "巨蟹月芒鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -124,7 +164,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 10110,
     "baseSwimSpeed": 3.8,
-    "baseCoinYield": 56,
+    "baseCoinYield": 4,
     "emojiOrSprite": "♏️",
     "visualBlueprint": {
       "primaryColor": "#25FF47",
@@ -142,6 +182,16 @@
       "parentA": "FISH_6778",
       "parentB": "FISH_2835",
       "mutationChance": 0.076
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Leo Sunburst Fish",
+        "description": "Leo Sunburst Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "狮子日耀鱼",
+        "description": "狮子日耀鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -153,7 +203,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 24751,
     "baseSwimSpeed": 3.17,
-    "baseCoinYield": 54,
+    "baseCoinYield": 3,
     "emojiOrSprite": "♐️",
     "visualBlueprint": {
       "primaryColor": "#C8EAD0",
@@ -171,6 +221,16 @@
       "parentA": "FISH_6728",
       "parentB": "FISH_8946",
       "mutationChance": 0.062
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Virgo Pure-White Fish",
+        "description": "Virgo Pure-White Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "室女纯白鱼",
+        "description": "室女纯白鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -182,7 +242,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 20179,
     "baseSwimSpeed": 2.37,
-    "baseCoinYield": 300,
+    "baseCoinYield": 2,
     "emojiOrSprite": "♌️",
     "visualBlueprint": {
       "primaryColor": "#312E81",
@@ -200,6 +260,16 @@
       "parentA": "FISH_6404",
       "parentB": "FISH_5596",
       "mutationChance": 0.13
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Libra Balance Fish",
+        "description": "Libra Balance Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "天秤均衡鱼",
+        "description": "天秤均衡鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -211,7 +281,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 5464,
     "baseSwimSpeed": 3.46,
-    "baseCoinYield": 86,
+    "baseCoinYield": 2,
     "emojiOrSprite": "♒️",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -229,6 +299,16 @@
       "parentA": "FISH_4067",
       "parentB": "FISH_2224",
       "mutationChance": 0.198
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Scorpio Dark-Star Fish",
+        "description": "Scorpio Dark-Star Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "天蝎暗星鱼",
+        "description": "天蝎暗星鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -240,7 +320,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 6057,
     "baseSwimSpeed": 4.97,
-    "baseCoinYield": 263,
+    "baseCoinYield": 3,
     "emojiOrSprite": "♒️",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -258,6 +338,16 @@
       "parentA": "FISH_3231",
       "parentB": "FISH_6482",
       "mutationChance": 0.17
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Sagittarius Star-Arrow Fish",
+        "description": "Sagittarius Star-Arrow Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "人马星矢鱼",
+        "description": "人马星矢鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -269,7 +359,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 12452,
     "baseSwimSpeed": 3.19,
-    "baseCoinYield": 193,
+    "baseCoinYield": 8,
     "emojiOrSprite": "♐️",
     "visualBlueprint": {
       "primaryColor": "#0369A1",
@@ -287,6 +377,16 @@
       "parentA": "FISH_4769",
       "parentB": "FISH_5521",
       "mutationChance": 0.046
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Capricorn",
+        "description": "Capricorn. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "摩羯海山羊",
+        "description": "摩羯海山羊。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -298,7 +398,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 5924,
     "baseSwimSpeed": 0.6,
-    "baseCoinYield": 98,
+    "baseCoinYield": 4,
     "emojiOrSprite": "♍️",
     "visualBlueprint": {
       "primaryColor": "#701A75",
@@ -316,6 +416,16 @@
       "parentA": "FISH_7210",
       "parentB": "FISH_2427",
       "mutationChance": 0.176
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Aquarius Nectar Fish",
+        "description": "Aquarius Nectar Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "宝瓶甘露鱼",
+        "description": "宝瓶甘露鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -327,7 +437,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 23395,
     "baseSwimSpeed": 4.21,
-    "baseCoinYield": 72,
+    "baseCoinYield": 5,
     "emojiOrSprite": "♋️",
     "visualBlueprint": {
       "primaryColor": "#1E293B",
@@ -345,6 +455,16 @@
       "parentA": "FISH_6096",
       "parentB": "FISH_1369",
       "mutationChance": 0.067
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Pisces Yin-Yang Fish",
+        "description": "Pisces Yin-Yang Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "双鱼太极鱼",
+        "description": "双鱼太极鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -356,7 +476,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 10956,
     "baseSwimSpeed": 1.01,
-    "baseCoinYield": 404,
+    "baseCoinYield": 1,
     "emojiOrSprite": "♓️",
     "visualBlueprint": {
       "primaryColor": "#99308E",
@@ -375,6 +495,16 @@
       "parentA": "FISH_3472",
       "parentB": "FISH_1248",
       "mutationChance": 0.145
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Ophiuchus Ghost Fish",
+        "description": "Ophiuchus Ghost Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "蛇夫座幽灵鱼",
+        "description": "蛇夫座幽灵鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -386,7 +516,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 20261,
     "baseSwimSpeed": 2.64,
-    "baseCoinYield": 272,
+    "baseCoinYield": 2,
     "emojiOrSprite": "♎️",
     "visualBlueprint": {
       "primaryColor": "#581C87",
@@ -404,6 +534,16 @@
       "parentA": "FISH_3395",
       "parentB": "FISH_3872",
       "mutationChance": 0.186
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Andromeda Chain Fish",
+        "description": "Andromeda Chain Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "仙女座锁链鱼",
+        "description": "仙女座锁链鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -415,7 +555,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 5803,
     "baseSwimSpeed": 0.52,
-    "baseCoinYield": 230,
+    "baseCoinYield": 18,
     "emojiOrSprite": "♈️",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -433,6 +573,16 @@
       "parentA": "FISH_6667",
       "parentB": "FISH_4558",
       "mutationChance": 0.05
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Orion Light-Band Fish",
+        "description": "Orion Light-Band Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "猎户座光带鱼",
+        "description": "猎户座光带鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -444,7 +594,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 23801,
     "baseSwimSpeed": 2.85,
-    "baseCoinYield": 89,
+    "baseCoinYield": 6,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
       "primaryColor": "#00956E",
@@ -463,6 +613,16 @@
       "parentA": "FISH_2618",
       "parentB": "FISH_3784",
       "mutationChance": 0.112
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Lyra String-Sound Fish",
+        "description": "Lyra String-Sound Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "天琴座弦音鱼",
+        "description": "天琴座弦音鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -474,7 +634,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 15708,
     "baseSwimSpeed": 0.89,
-    "baseCoinYield": 442,
+    "baseCoinYield": 24,
     "emojiOrSprite": "♉️",
     "visualBlueprint": {
       "primaryColor": "#754C1F",
@@ -493,6 +653,16 @@
       "parentA": "FISH_8593",
       "parentB": "FISH_5291",
       "mutationChance": 0.148
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Cygnus Cross Fish",
+        "description": "Cygnus Cross Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "天鹅座十字鱼",
+        "description": "天鹅座十字鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -504,7 +674,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 10296,
     "baseSwimSpeed": 1.87,
-    "baseCoinYield": 371,
+    "baseCoinYield": 10,
     "emojiOrSprite": "♐️",
     "visualBlueprint": {
       "primaryColor": "#030712",
@@ -520,6 +690,16 @@
       "parentA": "FISH_7537",
       "parentB": "FISH_6141",
       "mutationChance": 0.094
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Draco Abyss Fish",
+        "description": "Draco Abyss Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "天龙座深渊鱼",
+        "description": "天龙座深渊鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -531,7 +711,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 15288,
     "baseSwimSpeed": 4.04,
-    "baseCoinYield": 404,
+    "baseCoinYield": 23,
     "emojiOrSprite": "♓️",
     "visualBlueprint": {
       "primaryColor": "#4F276E",
@@ -550,6 +730,16 @@
       "parentA": "FISH_1905",
       "parentB": "FISH_3829",
       "mutationChance": 0.086
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Ursa Major Dipper Fish",
+        "description": "Ursa Major Dipper Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "大熊座北斗鱼",
+        "description": "大熊座北斗鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -561,7 +751,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 20130,
     "baseSwimSpeed": 3.71,
-    "baseCoinYield": 281,
+    "baseCoinYield": 2,
     "emojiOrSprite": "♎️",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -579,6 +769,16 @@
       "parentA": "FISH_2619",
       "parentB": "FISH_4753",
       "mutationChance": 0.079
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Ursa Minor Pole-Star Fish",
+        "description": "Ursa Minor Pole-Star Fish. Its body shimmers with the trails of ancient star maps, and as it swims the constellations wheel across the night sky, radiating the faint light of myth and destiny."
+      },
+      "zh-Hans": {
+        "commonName": "小熊座极星鱼",
+        "description": "小熊座极星鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -590,7 +790,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 20822,
     "baseSwimSpeed": 0.92,
-    "baseCoinYield": 488,
+    "baseCoinYield": 3,
     "emojiOrSprite": "♒️",
     "visualBlueprint": {
       "primaryColor": "#1D4928",
@@ -609,6 +809,16 @@
       "parentA": "FISH_6115",
       "parentB": "FISH_1845",
       "mutationChance": 0.011
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Cassiopeia Throne Fish",
+        "description": "Cassiopeia Throne Fish. Its body twinkles with the trails of ancient star maps, and as it swims it is like constellations wheeling across the night sky, emitting the faint light of myth and fate."
+      },
+      "zh-Hans": {
+        "commonName": "仙后座王座鱼",
+        "description": "仙后座王座鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -620,7 +830,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 15294,
     "baseSwimSpeed": 4.3,
-    "baseCoinYield": 247,
+    "baseCoinYield": 5,
     "emojiOrSprite": "♉️",
     "visualBlueprint": {
       "primaryColor": "#031988",
@@ -639,6 +849,16 @@
       "parentA": "FISH_7839",
       "parentB": "FISH_3738",
       "mutationChance": 0.118
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Cepheus Crown Fish",
+        "description": "Cepheus Crown Fish. Its body twinkles with the trails of ancient star maps, and as it swims it is like constellations wheeling across the night sky, emitting the faint light of myth and fate."
+      },
+      "zh-Hans": {
+        "commonName": "仙王座王冠鱼",
+        "description": "仙王座王冠鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -650,7 +870,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 8022,
     "baseSwimSpeed": 0.67,
-    "baseCoinYield": 375,
+    "baseCoinYield": 30,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -668,6 +888,16 @@
       "parentA": "FISH_4794",
       "parentB": "FISH_3769",
       "mutationChance": 0.105
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Perseus Meteor Fish",
+        "description": "Perseus Meteor Fish. Its body twinkles with the trails of ancient star maps, and as it swims it is like constellations wheeling across the night sky, emitting the faint light of myth and fate."
+      },
+      "zh-Hans": {
+        "commonName": "英仙座流星鱼",
+        "description": "英仙座流星鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -679,7 +909,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 13249,
     "baseSwimSpeed": 0.66,
-    "baseCoinYield": 408,
+    "baseCoinYield": 24,
     "emojiOrSprite": "♌️",
     "visualBlueprint": {
       "primaryColor": "#243059",
@@ -698,6 +928,16 @@
       "parentA": "FISH_2235",
       "parentB": "FISH_1355",
       "mutationChance": 0.112
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Pegasus Winged-Horse Fish",
+        "description": "Pegasus Winged-Horse Fish. Its body twinkles with the trails of ancient star maps, and as it swims it is like constellations wheeling across the night sky, emitting the faint light of myth and fate."
+      },
+      "zh-Hans": {
+        "commonName": "飞马座天马鱼",
+        "description": "飞马座天马鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -709,7 +949,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 10419,
     "baseSwimSpeed": 0.52,
-    "baseCoinYield": 319,
+    "baseCoinYield": 2,
     "emojiOrSprite": "♉️",
     "visualBlueprint": {
       "primaryColor": "#7A2651",
@@ -728,6 +968,16 @@
       "parentA": "FISH_4042",
       "parentB": "FISH_2419",
       "mutationChance": 0.094
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Crux Navigator Fish",
+        "description": "Crux Navigator Fish. Its body twinkles with the trails of ancient star maps, and as it swims it is like constellations wheeling across the night sky, emitting the faint light of myth and fate."
+      },
+      "zh-Hans": {
+        "commonName": "南十字导航鱼",
+        "description": "南十字导航鱼。身上闪烁着古老星图的轨迹，游动时宛如星座在夜空流转，散发出神话与命运的微光。"
+      }
     }
   },
   {
@@ -739,7 +989,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 17364,
     "baseSwimSpeed": 3.28,
-    "baseCoinYield": 488,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🦁",
     "visualBlueprint": {
       "primaryColor": "#571872",
@@ -758,6 +1008,16 @@
       "parentA": "FISH_2448",
       "parentB": "FISH_6802",
       "mutationChance": 0.085
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Fool Wanderer Fish",
+        "description": "Fool Wanderer Fish. It harbors the secrets of ancient divination, and every sweep of its tail seems to reveal the card spread of fate, with its scales engraved with mystical symbols."
+      },
+      "zh-Hans": {
+        "commonName": "愚者流浪鱼",
+        "description": "愚者流浪鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -769,7 +1029,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 23251,
     "baseSwimSpeed": 3.69,
-    "baseCoinYield": 249,
+    "baseCoinYield": 17,
     "emojiOrSprite": "⚡️",
     "visualBlueprint": {
       "primaryColor": "#18254E",
@@ -788,6 +1048,16 @@
       "parentA": "FISH_6667",
       "parentB": "FISH_4496",
       "mutationChance": 0.141
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Magician Infinity Fish",
+        "description": "Magician Infinity Fish. It harbors the secrets of ancient divination, and every sweep of its tail seems to reveal the card spread of fate, with its scales engraved with mystical symbols."
+      },
+      "zh-Hans": {
+        "commonName": "魔术师无限鱼",
+        "description": "魔术师无限鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -799,7 +1069,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 9048,
     "baseSwimSpeed": 4.77,
-    "baseCoinYield": 234,
+    "baseCoinYield": 26,
     "emojiOrSprite": "🎺",
     "visualBlueprint": {
       "primaryColor": "#EAC8E6",
@@ -817,6 +1087,16 @@
       "parentA": "FISH_2384",
       "parentB": "FISH_7947",
       "mutationChance": 0.153
+    },
+    "i18n": {
+      "en": {
+        "commonName": "High Priestess Moonlight Fish",
+        "description": "High Priestess Moonlight Fish. It harbors the secrets of ancient divination, and every sweep of its tail seems to reveal the card spread of fate, with its scales engraved with mystical symbols."
+      },
+      "zh-Hans": {
+        "commonName": "女祭司月光鱼",
+        "description": "女祭司月光鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -828,7 +1108,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 16850,
     "baseSwimSpeed": 1.78,
-    "baseCoinYield": 116,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🌟",
     "visualBlueprint": {
       "primaryColor": "#26146C",
@@ -847,6 +1127,16 @@
       "parentA": "FISH_8074",
       "parentB": "FISH_4843",
       "mutationChance": 0.107
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Empress Abundance Fish",
+        "description": "Empress Abundance Fish. It harbors the secrets of ancient divination, and every sweep of its tail seems to reveal the card spread of fate, with its scales engraved with mystical symbols."
+      },
+      "zh-Hans": {
+        "commonName": "女皇丰饶鱼",
+        "description": "女皇丰饶鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -858,7 +1148,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 16496,
     "baseSwimSpeed": 3.36,
-    "baseCoinYield": 362,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🌟",
     "visualBlueprint": {
       "primaryColor": "#1F4729",
@@ -877,6 +1167,16 @@
       "parentA": "FISH_1639",
       "parentB": "FISH_7032",
       "mutationChance": 0.025
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Emperor Majesty Fish",
+        "description": "Emperor Majesty Fish. It harbors the secrets of ancient divination, and every sweep of its tail seems to reveal the card spread of fate, with its scales engraved with mystical symbols."
+      },
+      "zh-Hans": {
+        "commonName": "皇帝威严鱼",
+        "description": "皇帝威严鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -888,7 +1188,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 15213,
     "baseSwimSpeed": 4.24,
-    "baseCoinYield": 445,
+    "baseCoinYield": 19,
     "emojiOrSprite": "🌙",
     "visualBlueprint": {
       "primaryColor": "#672486",
@@ -907,6 +1207,16 @@
       "parentA": "FISH_3302",
       "parentB": "FISH_6668",
       "mutationChance": 0.19
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Hierophant Oracle Fish",
+        "description": "Hierophant Oracle Fish. It harbors the secrets of ancient divination, and every sweep of its tail seems to reveal the card spread of fate, with its scales engraved with mystical symbols."
+      },
+      "zh-Hans": {
+        "commonName": "教皇神谕鱼",
+        "description": "教皇神谕鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -918,7 +1228,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 17368,
     "baseSwimSpeed": 4.43,
-    "baseCoinYield": 330,
+    "baseCoinYield": 4,
     "emojiOrSprite": "⚡️",
     "visualBlueprint": {
       "primaryColor": "#661932",
@@ -937,6 +1247,16 @@
       "parentA": "FISH_6265",
       "parentB": "FISH_1518",
       "mutationChance": 0.038
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Lovers Twin Fish",
+        "description": "Lovers Twin Fish. It harbors the secrets of ancient divination, and every sweep of its tail seems to reveal the card spread of fate, with its scales engraved with mystical symbols."
+      },
+      "zh-Hans": {
+        "commonName": "恋人双生鱼",
+        "description": "恋人双生鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -948,7 +1268,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 11662,
     "baseSwimSpeed": 2.49,
-    "baseCoinYield": 156,
+    "baseCoinYield": 27,
     "emojiOrSprite": "⚡️",
     "visualBlueprint": {
       "primaryColor": "#1D2049",
@@ -967,6 +1287,16 @@
       "parentA": "FISH_7408",
       "parentB": "FISH_2138",
       "mutationChance": 0.111
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Chariot Conqueror Fish",
+        "description": "Chariot Conqueror Fish. It harbors the secrets of ancient divination, and every sweep of its tail seems to reveal the card spread of fate, with its scales engraved with mystical symbols."
+      },
+      "zh-Hans": {
+        "commonName": "战车征服鱼",
+        "description": "战车征服鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -978,7 +1308,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 10684,
     "baseSwimSpeed": 1.96,
-    "baseCoinYield": 143,
+    "baseCoinYield": 2,
     "emojiOrSprite": "⚖️",
     "visualBlueprint": {
       "primaryColor": "#0019C8",
@@ -997,6 +1327,16 @@
       "parentA": "FISH_3144",
       "parentB": "FISH_8720",
       "mutationChance": 0.148
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Strength Lionhead Fish",
+        "description": "Strength Lionhead Fish. It harbors the secrets of ancient divination, and every sweep of its tail seems to reveal the card spread of fate, with its scales engraved with mystical symbols."
+      },
+      "zh-Hans": {
+        "commonName": "力量狮首鱼",
+        "description": "力量狮首鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1008,7 +1348,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 9808,
     "baseSwimSpeed": 4.19,
-    "baseCoinYield": 429,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🌍",
     "visualBlueprint": {
       "primaryColor": "#82481D",
@@ -1027,6 +1367,16 @@
       "parentA": "FISH_5284",
       "parentB": "FISH_2192",
       "mutationChance": 0.116
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Hermit Lantern Fish",
+        "description": "Hermit Lantern Fish. It harbors the secrets of ancient divination, and every sweep of its tail seems to reveal the card spread of fate, with its scales engraved with mystical symbols."
+      },
+      "zh-Hans": {
+        "commonName": "隐士提灯鱼",
+        "description": "隐士提灯鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1038,7 +1388,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 5455,
     "baseSwimSpeed": 4.4,
-    "baseCoinYield": 190,
+    "baseCoinYield": 28,
     "emojiOrSprite": "⚖️",
     "visualBlueprint": {
       "primaryColor": "#1D4945",
@@ -1057,6 +1407,16 @@
       "parentA": "FISH_2317",
       "parentB": "FISH_6764",
       "mutationChance": 0.035
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Wheel of Fortune Fish",
+        "description": "Wheel of Fortune Fish. It harbors the secrets of ancient divination, and every sweep of its tail seems to reveal the card spread of fate, with its scales engraved with mystical symbols."
+      },
+      "zh-Hans": {
+        "commonName": "命运之轮鱼",
+        "description": "命运之轮鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1068,7 +1428,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 5246,
     "baseSwimSpeed": 1.94,
-    "baseCoinYield": 152,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🦁",
     "visualBlueprint": {
       "primaryColor": "#803478",
@@ -1087,6 +1447,16 @@
       "parentA": "FISH_6776",
       "parentB": "FISH_4342",
       "mutationChance": 0.136
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Justice Scales Fish",
+        "description": "Justice Scales Fish. It harbors the secrets of ancient divination, and every sweep of its tail seems to reveal the card spread of fate, with its scales engraved with mystical symbols."
+      },
+      "zh-Hans": {
+        "commonName": "正义天秤鱼",
+        "description": "正义天秤鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1098,7 +1468,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 6040,
     "baseSwimSpeed": 4.35,
-    "baseCoinYield": 486,
+    "baseCoinYield": 29,
     "emojiOrSprite": "🔮",
     "visualBlueprint": {
       "primaryColor": "#1F945C",
@@ -1117,6 +1487,16 @@
       "parentA": "FISH_4234",
       "parentB": "FISH_2692",
       "mutationChance": 0.144
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Hanged Man Reflection Fish",
+        "description": "Hanged Man Reflection Fish. It harbors the secrets of ancient divination, and every sweep of its tail seems to reveal the card spread of fate, with its scales engraved with mystical symbols."
+      },
+      "zh-Hans": {
+        "commonName": "吊人倒影鱼",
+        "description": "吊人倒影鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1128,7 +1508,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 9466,
     "baseSwimSpeed": 3.39,
-    "baseCoinYield": 256,
+    "baseCoinYield": 2,
     "emojiOrSprite": "☀️",
     "visualBlueprint": {
       "primaryColor": "#4E1848",
@@ -1147,6 +1527,16 @@
       "parentA": "FISH_1253",
       "parentB": "FISH_5184",
       "mutationChance": 0.198
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Death's Kiss Fish",
+        "description": "Death's Kiss Fish. It harbors the secrets of ancient divination, and every sweep of its tail seems to reveal the card spread of fate, with its scales engraved with mystical symbols."
+      },
+      "zh-Hans": {
+        "commonName": "死神死吻鱼",
+        "description": "死神死吻鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1158,7 +1548,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 21583,
     "baseSwimSpeed": 3.37,
-    "baseCoinYield": 315,
+    "baseCoinYield": 2,
     "emojiOrSprite": "⚖️",
     "visualBlueprint": {
       "primaryColor": "#067B35",
@@ -1177,6 +1567,16 @@
       "parentA": "FISH_1221",
       "parentB": "FISH_6298",
       "mutationChance": 0.193
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Temperance Flowing-Light Fish",
+        "description": "Temperance Flowing-Light Fish. It harbors the secrets of ancient divination, and every sweep of its tail seems to reveal the card spread of fate, with its scales engraved with mystical symbols."
+      },
+      "zh-Hans": {
+        "commonName": "节制流光鱼",
+        "description": "节制流光鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1188,7 +1588,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 14644,
     "baseSwimSpeed": 4.71,
-    "baseCoinYield": 242,
+    "baseCoinYield": 1,
     "emojiOrSprite": "⚡️",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1206,6 +1606,16 @@
       "parentA": "FISH_2306",
       "parentB": "FISH_8275",
       "mutationChance": 0.023
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Darkflame Devil Fish",
+        "description": "Darkflame Devil Fish. Steeped in the secrets of ancient divination, every sweep of its tail seems to unveil the cards of fate, with mystical sigils etched onto its scales."
+      },
+      "zh-Hans": {
+        "commonName": "恶魔暗炎鱼",
+        "description": "恶魔暗炎鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1217,7 +1627,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 13566,
     "baseSwimSpeed": 3.64,
-    "baseCoinYield": 260,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🃏",
     "visualBlueprint": {
       "primaryColor": "#592441",
@@ -1236,6 +1646,16 @@
       "parentA": "FISH_5892",
       "parentB": "FISH_4458",
       "mutationChance": 0.115
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Thunderbolt Tower Fish",
+        "description": "Thunderbolt Tower Fish. Steeped in the secrets of ancient divination, every sweep of its tail seems to unveil the cards of fate, with mystical sigils etched onto its scales."
+      },
+      "zh-Hans": {
+        "commonName": "高塔雷霆鱼",
+        "description": "高塔雷霆鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1247,7 +1667,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 17892,
     "baseSwimSpeed": 3.4,
-    "baseCoinYield": 97,
+    "baseCoinYield": 27,
     "emojiOrSprite": "🌟",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -1265,6 +1685,16 @@
       "parentA": "FISH_1488",
       "parentB": "FISH_8138",
       "mutationChance": 0.128
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Stellar Hope Fish",
+        "description": "Stellar Hope Fish. Steeped in the secrets of ancient divination, every sweep of its tail seems to unveil the cards of fate, with mystical sigils etched onto its scales."
+      },
+      "zh-Hans": {
+        "commonName": "星星希望鱼",
+        "description": "星星希望鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1276,7 +1706,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 19618,
     "baseSwimSpeed": 1.48,
-    "baseCoinYield": 390,
+    "baseCoinYield": 1,
     "emojiOrSprite": "⚔️",
     "visualBlueprint": {
       "primaryColor": "#184272",
@@ -1295,6 +1725,16 @@
       "parentA": "FISH_1155",
       "parentB": "FISH_7505",
       "mutationChance": 0.102
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Moon Illusion Fish",
+        "description": "Moon Illusion Fish. Steeped in the secrets of ancient divination, every sweep of its tail seems to unveil the cards of fate, with mystical sigils etched onto its scales."
+      },
+      "zh-Hans": {
+        "commonName": "月亮幻惑鱼",
+        "description": "月亮幻惑鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1306,7 +1746,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 10091,
     "baseSwimSpeed": 3.08,
-    "baseCoinYield": 84,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🌍",
     "visualBlueprint": {
       "primaryColor": "#CD09DD",
@@ -1324,6 +1764,16 @@
       "parentA": "FISH_6098",
       "parentB": "FISH_2416",
       "mutationChance": 0.118
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Eternal Sun Fish",
+        "description": "Eternal Sun Fish. Steeped in the secrets of ancient divination, every sweep of its tail seems to unveil the cards of fate, with mystical sigils etched onto its scales."
+      },
+      "zh-Hans": {
+        "commonName": "太阳永恒鱼",
+        "description": "太阳永恒鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1335,7 +1785,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 14129,
     "baseSwimSpeed": 1.87,
-    "baseCoinYield": 360,
+    "baseCoinYield": 3,
     "emojiOrSprite": "⚡️",
     "visualBlueprint": {
       "primaryColor": "#607B06",
@@ -1354,6 +1804,16 @@
       "parentA": "FISH_2738",
       "parentB": "FISH_2385",
       "mutationChance": 0.033
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Judgement Trumpet Fish",
+        "description": "Judgement Trumpet Fish. Steeped in the secrets of ancient divination, every sweep of its tail seems to unveil the cards of fate, with mystical sigils etched onto its scales."
+      },
+      "zh-Hans": {
+        "commonName": "审判号角鱼",
+        "description": "审判号角鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1365,7 +1825,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 14021,
     "baseSwimSpeed": 4.51,
-    "baseCoinYield": 157,
+    "baseCoinYield": 18,
     "emojiOrSprite": "⚔️",
     "visualBlueprint": {
       "primaryColor": "#164B55",
@@ -1384,6 +1844,16 @@
       "parentA": "FISH_4338",
       "parentB": "FISH_4751",
       "mutationChance": 0.191
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Fulfilled World Fish",
+        "description": "Fulfilled World Fish. Steeped in the secrets of ancient divination, every sweep of its tail seems to unveil the cards of fate, with mystical sigils etched onto its scales."
+      },
+      "zh-Hans": {
+        "commonName": "世界圆满鱼",
+        "description": "世界圆满鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1395,7 +1865,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 19737,
     "baseSwimSpeed": 3.69,
-    "baseCoinYield": 72,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🌟",
     "visualBlueprint": {
       "primaryColor": "#4B1CD7",
@@ -1413,6 +1883,16 @@
       "parentA": "FISH_5826",
       "parentB": "FISH_5615",
       "mutationChance": 0.136
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Wands Spark Fish",
+        "description": "Wands Spark Fish. Steeped in the secrets of ancient divination, every sweep of its tail seems to unveil the cards of fate, with mystical sigils etched onto its scales."
+      },
+      "zh-Hans": {
+        "commonName": "权杖星火鱼",
+        "description": "权杖星火鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1424,7 +1904,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 23072,
     "baseSwimSpeed": 2.89,
-    "baseCoinYield": 440,
+    "baseCoinYield": 26,
     "emojiOrSprite": "🦁",
     "visualBlueprint": {
       "primaryColor": "#A62D66",
@@ -1442,6 +1922,16 @@
       "parentA": "FISH_7798",
       "parentB": "FISH_1546",
       "mutationChance": 0.136
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Cups Fountain Fish",
+        "description": "Cups Fountain Fish. Steeped in the secrets of ancient divination, every sweep of its tail seems to unveil the cards of fate, with mystical sigils etched onto its scales."
+      },
+      "zh-Hans": {
+        "commonName": "圣杯涌泉鱼",
+        "description": "圣杯涌泉鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1453,7 +1943,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 10488,
     "baseSwimSpeed": 3.55,
-    "baseCoinYield": 86,
+    "baseCoinYield": 27,
     "emojiOrSprite": "⚖️",
     "visualBlueprint": {
       "primaryColor": "#1C4FA1",
@@ -1472,6 +1962,16 @@
       "parentA": "FISH_3846",
       "parentB": "FISH_1780",
       "mutationChance": 0.106
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Swords Shimmer Fish",
+        "description": "Swords Shimmer Fish. Steeped in the secrets of ancient divination, every sweep of its tail seems to unveil the cards of fate, with mystical sigils etched onto its scales."
+      },
+      "zh-Hans": {
+        "commonName": "宝剑流光鱼",
+        "description": "宝剑流光鱼。蕴含着古老占卜的奥秘，每一次摆尾都仿佛在揭示命运的牌阵，鳞片上铭刻着神秘符号。"
+      }
     }
   },
   {
@@ -1483,7 +1983,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 7028,
     "baseSwimSpeed": 2.27,
-    "baseCoinYield": 105,
+    "baseCoinYield": 16,
     "emojiOrSprite": "🌟",
     "visualBlueprint": {
       "primaryColor": "#06B6D4",
@@ -1501,6 +2001,16 @@
       "parentA": "FISH_4665",
       "parentB": "FISH_7763",
       "mutationChance": 0.125
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Black Hole Singularity Fish",
+        "description": "Black Hole Singularity Fish. Composed purely of physical laws and cosmic energy, its swimming triggers tiny spatial distortions or quantum-interference phenomena."
+      },
+      "zh-Hans": {
+        "commonName": "黑洞奇点鱼",
+        "description": "黑洞奇点鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1512,7 +2022,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 18936,
     "baseSwimSpeed": 3.07,
-    "baseCoinYield": 443,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🕳️",
     "visualBlueprint": {
       "primaryColor": "#06B6D4",
@@ -1530,6 +2040,16 @@
       "parentA": "FISH_3635",
       "parentB": "FISH_6316",
       "mutationChance": 0.091
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Supernova Pulse Fish",
+        "description": "Supernova Pulse Fish. Composed purely of physical laws and cosmic energy, its swimming triggers tiny spatial distortions or quantum-interference phenomena."
+      },
+      "zh-Hans": {
+        "commonName": "超新星脉冲鱼",
+        "description": "超新星脉冲鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1541,7 +2061,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 8560,
     "baseSwimSpeed": 3.83,
-    "baseCoinYield": 434,
+    "baseCoinYield": 2,
     "emojiOrSprite": "💥",
     "visualBlueprint": {
       "primaryColor": "#00AAFE",
@@ -1559,6 +2079,16 @@
       "parentA": "FISH_2827",
       "parentB": "FISH_2807",
       "mutationChance": 0.187
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Andromeda Galaxy Fish",
+        "description": "Andromeda Galaxy Fish. Composed purely of physical laws and cosmic energy, its swimming triggers tiny spatial distortions or quantum-interference phenomena."
+      },
+      "zh-Hans": {
+        "commonName": "仙女座星系鱼",
+        "description": "仙女座星系鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1570,7 +2100,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 10857,
     "baseSwimSpeed": 1.37,
-    "baseCoinYield": 364,
+    "baseCoinYield": 2,
     "emojiOrSprite": "💥",
     "visualBlueprint": {
       "primaryColor": "#0568BB",
@@ -1588,6 +2118,16 @@
       "parentA": "FISH_8075",
       "parentB": "FISH_7202",
       "mutationChance": 0.173
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Quark Particle Fish",
+        "description": "Quark Particle Fish. Composed purely of physical laws and cosmic energy, its swimming triggers tiny spatial distortions or quantum-interference phenomena."
+      },
+      "zh-Hans": {
+        "commonName": "夸克微粒鱼",
+        "description": "夸克微粒鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1599,7 +2139,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 20792,
     "baseSwimSpeed": 0.58,
-    "baseCoinYield": 55,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
       "primaryColor": "#05BB22",
@@ -1617,6 +2157,16 @@
       "parentA": "FISH_6514",
       "parentB": "FISH_5474",
       "mutationChance": 0.161
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Quantum Entangled Fish",
+        "description": "Quantum Entangled Fish. Composed purely of physical laws and cosmic energy, its swimming triggers tiny spatial distortions or quantum-interference phenomena."
+      },
+      "zh-Hans": {
+        "commonName": "量子纠缠鱼",
+        "description": "量子纠缠鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1628,7 +2178,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 18803,
     "baseSwimSpeed": 3.3,
-    "baseCoinYield": 353,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
       "primaryColor": "#3401CA",
@@ -1646,6 +2196,16 @@
       "parentA": "FISH_8345",
       "parentB": "FISH_7145",
       "mutationChance": 0.069
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Event Horizon Fish",
+        "description": "Event Horizon Fish. Composed purely of physical laws and cosmic energy, its swimming triggers tiny spatial distortions or quantum-interference phenomena."
+      },
+      "zh-Hans": {
+        "commonName": "事件视界鱼",
+        "description": "事件视界鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1657,7 +2217,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 15620,
     "baseSwimSpeed": 1.12,
-    "baseCoinYield": 455,
+    "baseCoinYield": 6,
     "emojiOrSprite": "☄️",
     "visualBlueprint": {
       "primaryColor": "#19AD0A",
@@ -1675,6 +2235,16 @@
       "parentA": "FISH_3310",
       "parentB": "FISH_2371",
       "mutationChance": 0.123
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Gravitational Lens Fish",
+        "description": "Gravitational Lens Fish. Composed purely of physical laws and cosmic energy, its swimming triggers tiny spatial distortions or quantum-interference phenomena."
+      },
+      "zh-Hans": {
+        "commonName": "引力透镜鱼",
+        "description": "引力透镜鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1686,7 +2256,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 20595,
     "baseSwimSpeed": 1.45,
-    "baseCoinYield": 363,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🌠",
     "visualBlueprint": {
       "primaryColor": "#01F3D3",
@@ -1704,6 +2274,16 @@
       "parentA": "FISH_6117",
       "parentB": "FISH_3942",
       "mutationChance": 0.041
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Antimatter Flare Fish",
+        "description": "Antimatter Flare Fish. Composed purely of physical laws and cosmic energy, its swimming triggers tiny spatial distortions or quantum-interference phenomena."
+      },
+      "zh-Hans": {
+        "commonName": "反物质耀斑鱼",
+        "description": "反物质耀斑鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1715,7 +2295,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 9888,
     "baseSwimSpeed": 4.61,
-    "baseCoinYield": 110,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🎇",
     "visualBlueprint": {
       "primaryColor": "#1D05BB",
@@ -1734,6 +2314,16 @@
       "parentA": "FISH_1466",
       "parentB": "FISH_3157",
       "mutationChance": 0.197
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Neutron Star Pulse Fish",
+        "description": "Neutron Star Pulse Fish. Composed purely of physical laws and cosmic energy, its swimming triggers tiny spatial distortions or quantum-interference phenomena."
+      },
+      "zh-Hans": {
+        "commonName": "中子星脉冲鱼",
+        "description": "中子星脉冲鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1745,7 +2335,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 5079,
     "baseSwimSpeed": 3.21,
-    "baseCoinYield": 308,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🔭",
     "visualBlueprint": {
       "primaryColor": "#180AAD",
@@ -1763,6 +2353,16 @@
       "parentA": "FISH_1151",
       "parentB": "FISH_5447",
       "mutationChance": 0.102
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Dark Matter Ghost Fish",
+        "description": "Dark Matter Ghost Fish. Composed purely of physical laws and cosmic energy, its swimming triggers tiny spatial distortions or quantum-interference phenomena."
+      },
+      "zh-Hans": {
+        "commonName": "暗物质幽灵鱼",
+        "description": "暗物质幽灵鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1774,7 +2374,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 7890,
     "baseSwimSpeed": 0.83,
-    "baseCoinYield": 490,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🌟",
     "visualBlueprint": {
       "primaryColor": "#0023D5",
@@ -1792,6 +2392,16 @@
       "parentA": "FISH_7982",
       "parentB": "FISH_3631",
       "mutationChance": 0.073
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Microwave Background Fish",
+        "description": "Composed of pure physical laws and cosmic energy, it triggers subtle spacetime distortions or quantum interference while swimming."
+      },
+      "zh-Hans": {
+        "commonName": "微波背景辐射鱼",
+        "description": "微波背景辐射鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1803,7 +2413,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 15879,
     "baseSwimSpeed": 1.57,
-    "baseCoinYield": 336,
+    "baseCoinYield": 11,
     "emojiOrSprite": "💥",
     "visualBlueprint": {
       "primaryColor": "#820CD3",
@@ -1821,6 +2431,16 @@
       "parentA": "FISH_8769",
       "parentB": "FISH_4877",
       "mutationChance": 0.083
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Quasar Storm Fish",
+        "description": "Composed of pure physical laws and cosmic energy, it triggers subtle spacetime distortions or quantum interference while swimming."
+      },
+      "zh-Hans": {
+        "commonName": "类星体风暴鱼",
+        "description": "类星体风暴鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1832,7 +2452,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 21619,
     "baseSwimSpeed": 4.41,
-    "baseCoinYield": 175,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🕳️",
     "visualBlueprint": {
       "primaryColor": "#BDCA01",
@@ -1850,6 +2470,16 @@
       "parentA": "FISH_8010",
       "parentB": "FISH_7279",
       "mutationChance": 0.143
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Red Giant Ember Fish",
+        "description": "Composed of pure physical laws and cosmic energy, it triggers subtle spacetime distortions or quantum interference while swimming."
+      },
+      "zh-Hans": {
+        "commonName": "红巨星余烬鱼",
+        "description": "红巨星余烬鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1861,7 +2491,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 12164,
     "baseSwimSpeed": 4.34,
-    "baseCoinYield": 343,
+    "baseCoinYield": 18,
     "emojiOrSprite": "🛰️",
     "visualBlueprint": {
       "primaryColor": "#00FEC7",
@@ -1879,6 +2509,16 @@
       "parentA": "FISH_3572",
       "parentB": "FISH_6206",
       "mutationChance": 0.076
+    },
+    "i18n": {
+      "en": {
+        "commonName": "White Dwarf Crystal Fish",
+        "description": "Composed of pure physical laws and cosmic energy, it triggers subtle spacetime distortions or quantum interference while swimming."
+      },
+      "zh-Hans": {
+        "commonName": "白矮星晶体鱼",
+        "description": "白矮星晶体鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1890,7 +2530,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 17910,
     "baseSwimSpeed": 2.84,
-    "baseCoinYield": 398,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🎇",
     "visualBlueprint": {
       "primaryColor": "#3B05BB",
@@ -1908,6 +2548,16 @@
       "parentA": "FISH_6185",
       "parentB": "FISH_3151",
       "mutationChance": 0.14
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Bose-Einstein Fish",
+        "description": "Composed of pure physical laws and cosmic energy, it triggers subtle spacetime distortions or quantum interference while swimming."
+      },
+      "zh-Hans": {
+        "commonName": "波色爱因斯坦鱼",
+        "description": "波色爱因斯坦鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1919,7 +2569,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 22242,
     "baseSwimSpeed": 0.77,
-    "baseCoinYield": 200,
+    "baseCoinYield": 17,
     "emojiOrSprite": "💫",
     "visualBlueprint": {
       "primaryColor": "#00D5A7",
@@ -1937,6 +2587,16 @@
       "parentA": "FISH_1559",
       "parentB": "FISH_5611",
       "mutationChance": 0.037
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Schrödinger Fish",
+        "description": "Composed of pure physical laws and cosmic energy, it triggers subtle spacetime distortions or quantum interference while swimming."
+      },
+      "zh-Hans": {
+        "commonName": "薛丁格波函数鱼",
+        "description": "薛丁格波函数鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1948,7 +2608,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 19899,
     "baseSwimSpeed": 0.55,
-    "baseCoinYield": 373,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🌠",
     "visualBlueprint": {
       "primaryColor": "#B8FE00",
@@ -1966,6 +2626,16 @@
       "parentA": "FISH_3734",
       "parentB": "FISH_6676",
       "mutationChance": 0.102
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Planck Scale Fish",
+        "description": "Composed of pure physical laws and cosmic energy, it triggers subtle spacetime distortions or quantum interference while swimming."
+      },
+      "zh-Hans": {
+        "commonName": "普朗克尺度鱼",
+        "description": "普朗克尺度鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -1977,7 +2647,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 24325,
     "baseSwimSpeed": 4.3,
-    "baseCoinYield": 280,
+    "baseCoinYield": 1,
     "emojiOrSprite": "💥",
     "visualBlueprint": {
       "primaryColor": "#7ACA01",
@@ -1995,6 +2665,16 @@
       "parentA": "FISH_4634",
       "parentB": "FISH_4102",
       "mutationChance": 0.174
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Heisenberg Uncertainty Fish",
+        "description": "Composed of pure physical laws and cosmic energy, it triggers subtle spacetime distortions or quantum interference while swimming."
+      },
+      "zh-Hans": {
+        "commonName": "海森堡不确定鱼",
+        "description": "海森堡不确定鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -2006,7 +2686,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 12838,
     "baseSwimSpeed": 2.61,
-    "baseCoinYield": 151,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
       "primaryColor": "#067EE3",
@@ -2024,6 +2704,16 @@
       "parentA": "FISH_1538",
       "parentB": "FISH_8237",
       "mutationChance": 0.121
+    },
+    "i18n": {
+      "en": {
+        "commonName": "String Resonance Fish",
+        "description": "Composed of pure physical laws and cosmic energy, it triggers subtle spacetime distortions or quantum interference while swimming."
+      },
+      "zh-Hans": {
+        "commonName": "弦震荡共鸣鱼",
+        "description": "弦震荡共鸣鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -2035,7 +2725,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 16851,
     "baseSwimSpeed": 1.25,
-    "baseCoinYield": 197,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🌌",
     "visualBlueprint": {
       "primaryColor": "#A5D30C",
@@ -2053,6 +2743,16 @@
       "parentA": "FISH_2528",
       "parentB": "FISH_5689",
       "mutationChance": 0.184
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Higgs Boson Fish",
+        "description": "Composed of pure physical laws and cosmic energy, it triggers subtle spacetime distortions or quantum interference while swimming."
+      },
+      "zh-Hans": {
+        "commonName": "希格斯玻色鱼",
+        "description": "希格斯玻色鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -2064,7 +2764,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 23624,
     "baseSwimSpeed": 4.35,
-    "baseCoinYield": 271,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🛰️",
     "visualBlueprint": {
       "primaryColor": "#50AD0A",
@@ -2082,6 +2782,16 @@
       "parentA": "FISH_2161",
       "parentB": "FISH_4552",
       "mutationChance": 0.161
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Gravitational Ripple Fish",
+        "description": "Composed of pure physical laws and cosmic energy, it triggers subtle spacetime distortions or quantum interference while swimming."
+      },
+      "zh-Hans": {
+        "commonName": "引力波涟漪鱼",
+        "description": "引力波涟漪鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -2093,7 +2803,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 15640,
     "baseSwimSpeed": 1.88,
-    "baseCoinYield": 65,
+    "baseCoinYield": 20,
     "emojiOrSprite": "🎇",
     "visualBlueprint": {
       "primaryColor": "#BC01CA",
@@ -2111,6 +2821,16 @@
       "parentA": "FISH_7528",
       "parentB": "FISH_8371",
       "mutationChance": 0.024
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Dark Energy Fish",
+        "description": "Composed of pure physical laws and cosmic energy, it triggers subtle spacetime distortions or quantum interference while swimming."
+      },
+      "zh-Hans": {
+        "commonName": "暗能量扩张鱼",
+        "description": "暗能量扩张鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -2122,7 +2842,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 23218,
     "baseSwimSpeed": 1.76,
-    "baseCoinYield": 439,
+    "baseCoinYield": 12,
     "emojiOrSprite": "⚛️",
     "visualBlueprint": {
       "primaryColor": "#7600FE",
@@ -2140,6 +2860,16 @@
       "parentA": "FISH_3806",
       "parentB": "FISH_8341",
       "mutationChance": 0.042
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Cosmic Neutrino Fish",
+        "description": "Composed of pure physical laws and cosmic energy, it triggers subtle spacetime distortions or quantum interference while swimming."
+      },
+      "zh-Hans": {
+        "commonName": "宇宙微子穿梭鱼",
+        "description": "宇宙微子穿梭鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -2151,7 +2881,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 15343,
     "baseSwimSpeed": 0.81,
-    "baseCoinYield": 332,
+    "baseCoinYield": 15,
     "emojiOrSprite": "🔭",
     "visualBlueprint": {
       "primaryColor": "#06E3E2",
@@ -2169,6 +2899,16 @@
       "parentA": "FISH_5387",
       "parentB": "FISH_5703",
       "mutationChance": 0.022
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Multiverse Bubble Fish",
+        "description": "Composed of pure physical laws and cosmic energy, it triggers subtle spacetime distortions or quantum interference while swimming."
+      },
+      "zh-Hans": {
+        "commonName": "多重宇宙泡泡鱼",
+        "description": "多重宇宙泡泡鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -2180,7 +2920,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 21168,
     "baseSwimSpeed": 2.39,
-    "baseCoinYield": 66,
+    "baseCoinYield": 16,
     "emojiOrSprite": "🕳️",
     "visualBlueprint": {
       "primaryColor": "#0073D5",
@@ -2199,6 +2939,16 @@
       "parentA": "FISH_3395",
       "parentB": "FISH_5015",
       "mutationChance": 0.116
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Nebula Hatchery Fish",
+        "description": "Composed of pure physical laws and cosmic energy, it triggers subtle spacetime distortions or quantum interference while swimming."
+      },
+      "zh-Hans": {
+        "commonName": "星云诞生池鱼",
+        "description": "星云诞生池鱼。由纯粹的物理法则与宇宙能量构成，游动时会引发微小的空间扭曲或量子干涉现象。"
+      }
     }
   },
   {
@@ -2210,7 +2960,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 16573,
     "baseSwimSpeed": 1.51,
-    "baseCoinYield": 479,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🧊",
     "visualBlueprint": {
       "primaryColor": "#DBC9E8",
@@ -2229,6 +2979,16 @@
       "parentA": "FISH_7985",
       "parentB": "FISH_2924",
       "mutationChance": 0.064
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Europa Ice Sprite",
+        "description": "Breaking the limits of three-dimensional space, it leaves shimmering aurora trails as it swims and occasionally vanishes into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "欧罗巴冰下精灵",
+        "description": "欧罗巴冰下精灵。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2240,7 +3000,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 8228,
     "baseSwimSpeed": 3.56,
-    "baseCoinYield": 330,
+    "baseCoinYield": 23,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
       "primaryColor": "#0154CA",
@@ -2259,6 +3019,16 @@
       "parentA": "FISH_8929",
       "parentB": "FISH_6066",
       "mutationChance": 0.021
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Titan Methane Wraith",
+        "description": "Breaking the limits of three-dimensional space, it leaves shimmering aurora trails as it swims and occasionally vanishes into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "土卫六甲烷水妖",
+        "description": "土卫六甲烷水妖。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2270,7 +3040,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 5226,
     "baseSwimSpeed": 1.46,
-    "baseCoinYield": 128,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🧊",
     "visualBlueprint": {
       "primaryColor": "#19AD0A",
@@ -2289,6 +3059,16 @@
       "parentA": "FISH_2532",
       "parentB": "FISH_3868",
       "mutationChance": 0.041
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Tesseract Fish",
+        "description": "Breaking the limits of three-dimensional space, it leaves shimmering aurora trails as it swims and occasionally vanishes into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "四维超立方鱼",
+        "description": "四维超立方鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2300,7 +3080,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 14452,
     "baseSwimSpeed": 4.74,
-    "baseCoinYield": 315,
+    "baseCoinYield": 2,
     "emojiOrSprite": "❄️",
     "visualBlueprint": {
       "primaryColor": "#0A17AD",
@@ -2319,6 +3099,16 @@
       "parentA": "FISH_2816",
       "parentB": "FISH_6444",
       "mutationChance": 0.068
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Time Vortex Fish",
+        "description": "Breaking the limits of three-dimensional space, it leaves shimmering aurora trails as it swims and occasionally vanishes into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "时间回旋鱼",
+        "description": "时间回旋鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2330,7 +3120,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 14480,
     "baseSwimSpeed": 4.83,
-    "baseCoinYield": 332,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🧊",
     "visualBlueprint": {
       "primaryColor": "#0AAD97",
@@ -2349,6 +3139,16 @@
       "parentA": "FISH_6455",
       "parentB": "FISH_7827",
       "mutationChance": 0.054
+    },
+    "i18n": {
+      "en": {
+        "commonName": "String Vibration Fish",
+        "description": "Breaking the limits of three-dimensional space, it leaves shimmering aurora trails as it swims and occasionally vanishes into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "弦理论震荡鱼",
+        "description": "弦理论震荡鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2360,7 +3160,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 13647,
     "baseSwimSpeed": 4.61,
-    "baseCoinYield": 130,
+    "baseCoinYield": 27,
     "emojiOrSprite": "❄️",
     "visualBlueprint": {
       "primaryColor": "#0A32AD",
@@ -2379,6 +3179,16 @@
       "parentA": "FISH_8366",
       "parentB": "FISH_2240",
       "mutationChance": 0.031
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Wormhole Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "虫洞穿梭鱼",
+        "description": "虫洞穿梭鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2390,7 +3200,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 21176,
     "baseSwimSpeed": 2.33,
-    "baseCoinYield": 299,
+    "baseCoinYield": 2,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
       "primaryColor": "#C7D30C",
@@ -2409,6 +3219,16 @@
       "parentA": "FISH_1249",
       "parentB": "FISH_6619",
       "mutationChance": 0.192
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Aurora Stardust Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "极光星尘鱼",
+        "description": "极光星尘鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2420,7 +3240,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 10286,
     "baseSwimSpeed": 4.04,
-    "baseCoinYield": 243,
+    "baseCoinYield": 16,
     "emojiOrSprite": "🧊",
     "visualBlueprint": {
       "primaryColor": "#0A4DAD",
@@ -2439,6 +3259,16 @@
       "parentA": "FISH_4665",
       "parentB": "FISH_4640",
       "mutationChance": 0.041
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Dimension-Fold Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "维度折叠鱼",
+        "description": "维度折叠鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2450,7 +3280,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 8044,
     "baseSwimSpeed": 4.01,
-    "baseCoinYield": 249,
+    "baseCoinYield": 29,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
       "primaryColor": "#0675E3",
@@ -2469,6 +3299,16 @@
       "parentA": "FISH_1177",
       "parentB": "FISH_6046",
       "mutationChance": 0.196
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Titan Mist Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "泰坦星迷雾鱼",
+        "description": "泰坦星迷雾鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2480,7 +3320,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 14670,
     "baseSwimSpeed": 3.72,
-    "baseCoinYield": 291,
+    "baseCoinYield": 9,
     "emojiOrSprite": "💧",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -2498,6 +3338,16 @@
       "parentA": "FISH_6755",
       "parentB": "FISH_6768",
       "mutationChance": 0.185
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Mars Red-Sand Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "火星赤砂鱼",
+        "description": "火星赤砂鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2509,7 +3359,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 14977,
     "baseSwimSpeed": 0.51,
-    "baseCoinYield": 83,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
       "primaryColor": "#BBB005",
@@ -2528,6 +3378,16 @@
       "parentA": "FISH_8648",
       "parentB": "FISH_4605",
       "mutationChance": 0.076
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Jupiter Great Red Spot Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "木星大红斑鱼",
+        "description": "木星大红斑鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2539,7 +3399,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 9628,
     "baseSwimSpeed": 2.78,
-    "baseCoinYield": 343,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🔴",
     "visualBlueprint": {
       "primaryColor": "#01CA8E",
@@ -2558,6 +3418,16 @@
       "parentA": "FISH_2901",
       "parentB": "FISH_4818",
       "mutationChance": 0.16
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Saturn Ring-Band Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "土星环带鱼",
+        "description": "土星环带鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2569,7 +3439,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 20080,
     "baseSwimSpeed": 1.05,
-    "baseCoinYield": 76,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🌌",
     "visualBlueprint": {
       "primaryColor": "#1D4ED8",
@@ -2587,6 +3457,16 @@
       "parentA": "FISH_5964",
       "parentB": "FISH_1264",
       "mutationChance": 0.128
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Neptune Dark-Spot Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "海王星暗斑鱼",
+        "description": "海王星暗斑鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2598,7 +3478,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 11921,
     "baseSwimSpeed": 2.87,
-    "baseCoinYield": 225,
+    "baseCoinYield": 20,
     "emojiOrSprite": "🔵",
     "visualBlueprint": {
       "primaryColor": "#A8BB05",
@@ -2616,6 +3496,16 @@
       "parentA": "FISH_3889",
       "parentB": "FISH_2238",
       "mutationChance": 0.059
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Uranus Tilt Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "天王星倾斜鱼",
+        "description": "天王星倾斜鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2627,7 +3517,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 13480,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 397,
+    "baseCoinYield": 17,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
       "primaryColor": "#E3F301",
@@ -2646,6 +3536,16 @@
       "parentA": "FISH_7328",
       "parentB": "FISH_3689",
       "mutationChance": 0.071
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Pluto Ice-Heart Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "冥王星冰心鱼",
+        "description": "冥王星冰心鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2657,7 +3557,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 7733,
     "baseSwimSpeed": 1.24,
-    "baseCoinYield": 104,
+    "baseCoinYield": 26,
     "emojiOrSprite": "💧",
     "visualBlueprint": {
       "primaryColor": "#60CA01",
@@ -2676,6 +3576,16 @@
       "parentA": "FISH_2712",
       "parentB": "FISH_6307",
       "mutationChance": 0.141
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Alpha Centauri Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "半人马座阿尔法鱼",
+        "description": "半人马座阿尔法鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2687,7 +3597,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 23376,
     "baseSwimSpeed": 3.48,
-    "baseCoinYield": 319,
+    "baseCoinYield": 7,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
       "primaryColor": "#9DE306",
@@ -2706,6 +3616,16 @@
       "parentA": "FISH_4644",
       "parentB": "FISH_4025",
       "mutationChance": 0.034
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Sirius Twin-Star Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "天狼星双星鱼",
+        "description": "天狼星双星鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2717,7 +3637,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 22210,
     "baseSwimSpeed": 4.33,
-    "baseCoinYield": 421,
+    "baseCoinYield": 17,
     "emojiOrSprite": "❄️",
     "visualBlueprint": {
       "primaryColor": "#6A0AAD",
@@ -2736,6 +3656,16 @@
       "parentA": "FISH_7432",
       "parentB": "FISH_3082",
       "mutationChance": 0.079
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Antares Red Supergiant Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "参宿四红超巨鱼",
+        "description": "参宿四红超巨鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2747,7 +3677,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 7517,
     "baseSwimSpeed": 4.53,
-    "baseCoinYield": 383,
+    "baseCoinYield": 7,
     "emojiOrSprite": "⏳",
     "visualBlueprint": {
       "primaryColor": "#01A1CA",
@@ -2766,6 +3696,16 @@
       "parentA": "FISH_2464",
       "parentB": "FISH_3548",
       "mutationChance": 0.15
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Vega Spindle Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "织女星纺锤鱼",
+        "description": "织女星纺锤鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2777,7 +3717,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 21504,
     "baseSwimSpeed": 1.32,
-    "baseCoinYield": 163,
+    "baseCoinYield": 26,
     "emojiOrSprite": "🪐",
     "visualBlueprint": {
       "primaryColor": "#3401CA",
@@ -2796,6 +3736,16 @@
       "parentA": "FISH_1914",
       "parentB": "FISH_1682",
       "mutationChance": 0.184
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Altair Cowherd Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "牛郎星牵牛鱼",
+        "description": "牛郎星牵牛鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2807,7 +3757,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 18124,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 482,
+    "baseCoinYield": 22,
     "emojiOrSprite": "💧",
     "visualBlueprint": {
       "primaryColor": "#92D500",
@@ -2826,6 +3776,16 @@
       "parentA": "FISH_1454",
       "parentB": "FISH_3475",
       "mutationChance": 0.168
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Beyond-Lightcone Divine Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "光锥之外神鱼",
+        "description": "光锥之外神鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2837,7 +3797,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 14974,
     "baseSwimSpeed": 3.24,
-    "baseCoinYield": 316,
+    "baseCoinYield": 16,
     "emojiOrSprite": "🌀",
     "visualBlueprint": {
       "primaryColor": "#06B6D4",
@@ -2856,6 +3816,16 @@
       "parentA": "FISH_3211",
       "parentB": "FISH_7809",
       "mutationChance": 0.051
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Time-Dilation Jellyfish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "时间膨胀水母",
+        "description": "时间膨胀水母。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2867,7 +3837,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 24991,
     "baseSwimSpeed": 1.1,
-    "baseCoinYield": 491,
+    "baseCoinYield": 3,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
       "primaryColor": "#06B6D4",
@@ -2885,6 +3855,16 @@
       "parentA": "FISH_6754",
       "parentB": "FISH_1794",
       "mutationChance": 0.197
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Space-Curvature Seahorse",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "空间曲率海马",
+        "description": "空间曲率海马。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2896,7 +3876,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 24929,
     "baseSwimSpeed": 2.39,
-    "baseCoinYield": 369,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🌌",
     "visualBlueprint": {
       "primaryColor": "#8EFE00",
@@ -2914,6 +3894,16 @@
       "parentA": "FISH_4823",
       "parentB": "FISH_4968",
       "mutationChance": 0.182
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Virtual Particle Foam Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "虚拟粒子泡沫鱼",
+        "description": "虚拟粒子泡沫鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   },
   {
@@ -2925,7 +3915,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 9347,
     "baseSwimSpeed": 4.85,
-    "baseCoinYield": 280,
+    "baseCoinYield": 23,
     "emojiOrSprite": "💧",
     "visualBlueprint": {
       "primaryColor": "#63BB05",
@@ -2944,6 +3934,16 @@
       "parentA": "FISH_1956",
       "parentB": "FISH_8422",
       "mutationChance": 0.013
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Entropy-Reversal Retrograde Fish",
+        "description": "It breaks through the limits of three-dimensional space, leaving brilliant aurora trails as it swims, and occasionally vanishes briefly into other dimensions."
+      },
+      "zh-Hans": {
+        "commonName": "熵减逆行鱼",
+        "description": "熵减逆行鱼。突破了三维空间的限制，在游动时会留下一道道绚丽的极光轨迹，甚至偶尔会短暂消失在其他维度中。"
+      }
     }
   }
 ]

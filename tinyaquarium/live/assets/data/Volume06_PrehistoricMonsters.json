@@ -8,7 +8,7 @@
     "category": "古生代史前遠古海怪",
     "hatchStepsRequired": 12800,
     "baseSwimSpeed": 1.35,
-    "baseCoinYield": 120,
+    "baseCoinYield": 22,
     "emojiOrSprite": "🗡️",
     "visualBlueprint": {
       "primaryColor": "#38BDF8",
@@ -28,6 +28,16 @@
       "parentA": "奇蝦",
       "parentB": "鄧氏魚",
       "mutationHint": "遠古深淵骨化突變"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Ancient Bone-Armored Sailfish",
+        "description": "A prehistoric sailfish overlaid with heavy ancient bone armor and spear-like bone spines, radiating an eerie primordial dominance as it cuts through the waves like a great blade."
+      },
+      "zh-Hans": {
+        "commonName": "远古骸骨战甲旗鱼",
+        "description": "披覆沉重古代骸骨战甲与长矛骨刺的史前旗鱼霸主，周身散发远古幽冥霸气，游动如破浪巨刃。"
+      }
     }
   },
   {
@@ -39,7 +49,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1100,
     "baseSwimSpeed": 12,
-    "baseCoinYield": 55,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#343778",
@@ -57,7 +67,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Anomalocaris",
+        "description": "An oceanic apex predator and a terrifying Cambrian hunter."
+      },
+      "zh-Hans": {
+        "commonName": "奇虾",
+        "description": "海洋霸主，寒武纪的恐怖猎手"
+      }
+    }
   },
   {
     "id": "prehistoric_002",
@@ -68,7 +88,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1200,
     "baseSwimSpeed": 14,
-    "baseCoinYield": 60,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -85,7 +105,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Cameroceras",
+        "description": "A giant Ordovician cephalopod whose straight outer shell resembles a spear."
+      },
+      "zh-Hans": {
+        "commonName": "直壳房角石",
+        "description": "奥陶纪的巨大头足类，外壳笔直如同长矛"
+      }
+    }
   },
   {
     "id": "prehistoric_003",
@@ -96,7 +126,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 65,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🪲",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -111,7 +141,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Trilobite",
+        "description": "The most iconic arthropod of the ancient seas."
+      },
+      "zh-Hans": {
+        "commonName": "三叶虫",
+        "description": "远古海洋中最具代表性的节肢动物"
+      }
+    }
   },
   {
     "id": "prehistoric_004",
@@ -122,7 +162,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 18,
-    "baseCoinYield": 70,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -139,7 +179,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Fuxianhuia",
+        "description": "An early arthropod with a notably striking brain structure."
+      },
+      "zh-Hans": {
+        "commonName": "抚仙湖虫",
+        "description": "早期节肢动物，脑部结构引人注目"
+      }
+    }
   },
   {
     "id": "prehistoric_005",
@@ -150,7 +200,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 20,
-    "baseCoinYield": 75,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
       "primaryColor": "#991B1B",
@@ -167,7 +217,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Pikaia",
+        "description": "Regarded as an early representative of the chordate lineage."
+      },
+      "zh-Hans": {
+        "commonName": "皮卡虫",
+        "description": "被认为是脊索动物的早期代表"
+      }
+    }
   },
   {
     "id": "prehistoric_006",
@@ -178,7 +238,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1600,
     "baseSwimSpeed": 22,
-    "baseCoinYield": 80,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🌸",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -195,7 +255,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Sea Lily",
+        "description": "A living fossil that looks like a plant but is actually an echinoderm."
+      },
+      "zh-Hans": {
+        "commonName": "海百合",
+        "description": "看似植物，实为棘皮动物的活化石"
+      }
+    }
   },
   {
     "id": "prehistoric_007",
@@ -206,7 +276,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 24,
-    "baseCoinYield": 85,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦂",
     "visualBlueprint": {
       "primaryColor": "#1F3B47",
@@ -224,7 +294,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Opabinia",
+        "description": "A bizarre creature with five eyes and a proboscis-like feeding apparatus."
+      },
+      "zh-Hans": {
+        "commonName": "欧巴宾海蝎",
+        "description": "长有五只眼睛与吻状捕食器的奇特生物"
+      }
+    }
   },
   {
     "id": "prehistoric_008",
@@ -235,7 +315,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 90,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐛",
     "visualBlueprint": {
       "primaryColor": "#4B1B42",
@@ -253,7 +333,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Hallucigenia",
+        "description": "Covered in sharp spines and tentacles, it once fooled paleontologists into mounting it upside down."
+      },
+      "zh-Hans": {
+        "commonName": "怪诞虫",
+        "description": "长满尖刺与触手，曾被古生物学家上下颠倒"
+      }
+    }
   },
   {
     "id": "prehistoric_009",
@@ -264,7 +354,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1900,
     "baseSwimSpeed": 28,
-    "baseCoinYield": 95,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#310961",
@@ -282,7 +372,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Ancestral Birdfish",
+        "description": "One of the evolutionary branches of early fishes."
+      },
+      "zh-Hans": {
+        "commonName": "始祖鸟鱼",
+        "description": "早期鱼类的演化分支之一"
+      }
+    }
   },
   {
     "id": "prehistoric_010",
@@ -293,7 +393,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2000,
     "baseSwimSpeed": 30,
-    "baseCoinYield": 100,
+    "baseCoinYield": 25,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#6D6A0A",
@@ -311,7 +411,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Myllokunmingia",
+        "description": "One of the oldest known vertebrates."
+      },
+      "zh-Hans": {
+        "commonName": "昆明鱼",
+        "description": "已知最古老的脊椎动物之一"
+      }
+    }
   },
   {
     "id": "prehistoric_011",
@@ -322,7 +432,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2100,
     "baseSwimSpeed": 32,
-    "baseCoinYield": 105,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦂",
     "visualBlueprint": {
       "primaryColor": "#112F9D",
@@ -340,7 +450,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Sea Scorpion",
+        "description": "A giant arthropod predator of the ancient seas."
+      },
+      "zh-Hans": {
+        "commonName": "海蝎子",
+        "description": "远古海洋中的巨型节肢捕食者"
+      }
+    }
   },
   {
     "id": "prehistoric_012",
@@ -351,7 +471,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2200,
     "baseSwimSpeed": 34,
-    "baseCoinYield": 110,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#374151",
@@ -368,7 +488,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Waptia",
+        "description": "A bivalved arthropod from the Burgess Shale."
+      },
+      "zh-Hans": {
+        "commonName": "瓦普塔虾",
+        "description": "伯吉斯页岩中的双壳节肢动物"
+      }
+    }
   },
   {
     "id": "prehistoric_013",
@@ -379,7 +509,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2300,
     "baseSwimSpeed": 36,
-    "baseCoinYield": 115,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#2A6347",
@@ -397,7 +527,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Sacabambaspis",
+        "description": "An Ordovician jawless fish with an adorably goofy front-facing face."
+      },
+      "zh-Hans": {
+        "commonName": "萨卡班甲鱼",
+        "description": "奥陶纪的无颌鱼类，有着呆萌的正脸"
+      }
+    }
   },
   {
     "id": "prehistoric_014",
@@ -408,7 +548,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2400,
     "baseSwimSpeed": 38,
-    "baseCoinYield": 120,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐚",
     "visualBlueprint": {
       "primaryColor": "#354E18",
@@ -426,7 +566,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Wiwaxia",
+        "description": "A mysterious soft-bodied animal covered in scales and long spines."
+      },
+      "zh-Hans": {
+        "commonName": "微瓦霞虫",
+        "description": "覆盖着鳞片与长刺的神秘软体动物"
+      }
+    }
   },
   {
     "id": "prehistoric_015",
@@ -437,7 +587,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2500,
     "baseSwimSpeed": 40,
-    "baseCoinYield": 125,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#012F65",
@@ -455,7 +605,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Arandaspis",
+        "description": "An early jawless fish encased in a hard armored shell."
+      },
+      "zh-Hans": {
+        "commonName": "阿兰达鱼",
+        "description": "早期无颌鱼，身披坚硬甲壳"
+      }
+    }
   },
   {
     "id": "prehistoric_016",
@@ -466,7 +626,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2600,
     "baseSwimSpeed": 42,
-    "baseCoinYield": 130,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -483,7 +643,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Astraspis",
+        "description": "An Ordovician jawless fish adorned with star-shaped decorative armor plates."
+      },
+      "zh-Hans": {
+        "commonName": "星甲鱼",
+        "description": "拥有星状装饰甲板的奥陶纪无颌鱼"
+      }
+    }
   },
   {
     "id": "prehistoric_017",
@@ -494,7 +664,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2700,
     "baseSwimSpeed": 44,
-    "baseCoinYield": 135,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦂",
     "visualBlueprint": {
       "primaryColor": "#202A99",
@@ -512,7 +682,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Megalograptus",
+        "description": "A terrifying early eurypterid capable of briefly coming ashore."
+      },
+      "zh-Hans": {
+        "commonName": "巨型羽翅鲎",
+        "description": "早期的恐怖海蝎，能短暂上岸"
+      }
+    }
   },
   {
     "id": "prehistoric_018",
@@ -523,7 +703,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2800,
     "baseSwimSpeed": 46,
-    "baseCoinYield": 140,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🌿",
     "visualBlueprint": {
       "primaryColor": "#6D0A55",
@@ -540,7 +720,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Graptolite",
+        "description": "Colonial hemichordates whose fossils resemble smears of paint on rock."
+      },
+      "zh-Hans": {
+        "commonName": "笔石",
+        "description": "群居的半索动物，化石如岩石上的涂鸦"
+      }
+    }
   },
   {
     "id": "prehistoric_019",
@@ -551,7 +741,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 2900,
     "baseSwimSpeed": 48,
-    "baseCoinYield": 145,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#5C2744",
@@ -569,7 +759,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Orthoceras",
+        "description": "A straight-shelled cephalopod that glides through the water like a torpedo."
+      },
+      "zh-Hans": {
+        "commonName": "角石",
+        "description": "直壳头足类，游动时如鱼雷"
+      }
+    }
   },
   {
     "id": "prehistoric_020",
@@ -580,7 +780,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1000,
     "baseSwimSpeed": 50,
-    "baseCoinYield": 150,
+    "baseCoinYield": 27,
     "emojiOrSprite": "🕷️",
     "visualBlueprint": {
       "primaryColor": "#370A6D",
@@ -597,7 +797,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Marrella",
+        "description": "The most abundant arthropod fossil in the Burgess Shale"
+      },
+      "zh-Hans": {
+        "commonName": "马尔拉虫",
+        "description": "伯吉斯页岩中最丰富的节肢动物化石"
+      }
+    }
   },
   {
     "id": "prehistoric_021",
@@ -608,7 +818,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1100,
     "baseSwimSpeed": 52,
-    "baseCoinYield": 155,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#011F65",
@@ -626,7 +836,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Leanchoilia",
+        "description": "An arthropod with large, specialized appendages"
+      },
+      "zh-Hans": {
+        "commonName": "林乔利虫",
+        "description": "拥有特化大附肢的节肢动物"
+      }
+    }
   },
   {
     "id": "prehistoric_022",
@@ -637,7 +857,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1200,
     "baseSwimSpeed": 54,
-    "baseCoinYield": 160,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#761186",
@@ -655,7 +875,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Anomalocaris",
+        "description": "A predator even larger than the ordinary Anomalocaris"
+      },
+      "zh-Hans": {
+        "commonName": "巨型奇虾",
+        "description": "比普通奇虾更为巨大的掠食者"
+      }
+    }
   },
   {
     "id": "prehistoric_023",
@@ -666,7 +896,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 56,
-    "baseCoinYield": 165,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🍎",
     "visualBlueprint": {
       "primaryColor": "#771972",
@@ -684,7 +914,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Cystoid",
+        "description": "An extinct group of stalked echinoderms"
+      },
+      "zh-Hans": {
+        "commonName": "海林檎",
+        "description": "早已灭绝的有柄棘皮动物"
+      }
+    }
   },
   {
     "id": "prehistoric_024",
@@ -695,7 +935,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 58,
-    "baseCoinYield": 170,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦷",
     "visualBlueprint": {
       "primaryColor": "#1F3147",
@@ -713,7 +953,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Conodont",
+        "description": "Tiny yet abundant prehistoric marine animals"
+      },
+      "zh-Hans": {
+        "commonName": "牙形石",
+        "description": "微小但数量庞大的远古海洋生物"
+      }
+    }
   },
   {
     "id": "prehistoric_025",
@@ -724,7 +974,7 @@
     "category": "寒武紀與奧陶紀遠古黎明",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 175,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🛡️",
     "visualBlueprint": {
       "primaryColor": "#343A78",
@@ -742,7 +992,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Ostracoderm",
+        "description": "An ancient jawless fish encased in heavy bony armor"
+      },
+      "zh-Hans": {
+        "commonName": "甲胄鱼",
+        "description": "披着沉重骨甲的远古无颌鱼类"
+      }
+    }
   },
   {
     "id": "prehistoric_026",
@@ -753,7 +1013,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1600,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 180,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#580E2D",
@@ -771,7 +1031,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Dunkleosteus",
+        "description": "A Devonian top predator with an astonishing bite force"
+      },
+      "zh-Hans": {
+        "commonName": "邓氏鱼",
+        "description": "泥盆纪的顶级掠食者，咬合力惊人"
+      }
+    }
   },
   {
     "id": "prehistoric_027",
@@ -782,7 +1052,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 64,
-    "baseCoinYield": 185,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#406006",
@@ -799,7 +1069,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Lungfish",
+        "description": "An ancient fish that can breathe air, with extremely strong vitality"
+      },
+      "zh-Hans": {
+        "commonName": "含肺鱼",
+        "description": "能够呼吸空气，生命力极强的古老鱼类"
+      }
+    }
   },
   {
     "id": "prehistoric_028",
@@ -810,7 +1090,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 66,
-    "baseCoinYield": 190,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#21A00A",
@@ -828,7 +1108,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Coelacanth",
+        "description": "A legendary living fossil, the representative of lobe-finned fish"
+      },
+      "zh-Hans": {
+        "commonName": "腔棘鱼",
+        "description": "传说中的活化石，肉鳍鱼纲代表"
+      }
+    }
   },
   {
     "id": "prehistoric_029",
@@ -839,7 +1129,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1900,
     "baseSwimSpeed": 68,
-    "baseCoinYield": 195,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#327719",
@@ -857,7 +1147,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Cladoselache",
+        "description": "An early shark, its streamlined body built for high-speed chases"
+      },
+      "zh-Hans": {
+        "commonName": "裂口鲨",
+        "description": "早期鲨鱼，流线型身体适合高速追击"
+      }
+    }
   },
   {
     "id": "prehistoric_030",
@@ -868,7 +1168,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2000,
     "baseSwimSpeed": 10,
-    "baseCoinYield": 200,
+    "baseCoinYield": 30,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#374151",
@@ -885,7 +1185,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Stethacanthus",
+        "description": "A prehistoric shark with a distinctive anvil-shaped dorsal fin"
+      },
+      "zh-Hans": {
+        "commonName": "胸脊鲨",
+        "description": "背鳍如铁砧般奇特的远古鲨鱼"
+      }
+    }
   },
   {
     "id": "prehistoric_031",
@@ -896,7 +1206,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2100,
     "baseSwimSpeed": 12,
-    "baseCoinYield": 205,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🦎",
     "visualBlueprint": {
       "primaryColor": "#1F4247",
@@ -914,7 +1224,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Tiktaalik",
+        "description": "A key transitional species in the evolution from fish to amphibians"
+      },
+      "zh-Hans": {
+        "commonName": "泰塔利克鱼",
+        "description": "鱼类向两栖类演化的关键过渡物种"
+      }
+    }
   },
   {
     "id": "prehistoric_032",
@@ -925,7 +1245,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2200,
     "baseSwimSpeed": 14,
-    "baseCoinYield": 210,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🛡️",
     "visualBlueprint": {
       "primaryColor": "#536D0A",
@@ -942,7 +1262,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Bothriolepis",
+        "description": "A common placoderm fish of the Devonian"
+      },
+      "zh-Hans": {
+        "commonName": "沟鳞鱼",
+        "description": "泥盆纪常见的胴甲鱼类"
+      }
+    }
   },
   {
     "id": "prehistoric_033",
@@ -953,7 +1283,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2300,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 215,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#018704",
@@ -971,7 +1301,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Osteostracian",
+        "description": "A jawless fish with a head covered in large bony plates"
+      },
+      "zh-Hans": {
+        "commonName": "骨甲鱼",
+        "description": "头部覆盖大块骨板的无颌鱼"
+      }
+    }
   },
   {
     "id": "prehistoric_034",
@@ -982,7 +1322,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2400,
     "baseSwimSpeed": 18,
-    "baseCoinYield": 220,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#600E93",
@@ -999,7 +1339,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Acanthodian",
+        "description": "One of the earliest jawed fish, its body covered in sharp spines"
+      },
+      "zh-Hans": {
+        "commonName": "棘鱼",
+        "description": "最早拥有颌部的鱼类之一，全身布满尖刺"
+      }
+    }
   },
   {
     "id": "prehistoric_035",
@@ -1010,7 +1360,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2500,
     "baseSwimSpeed": 20,
-    "baseCoinYield": 225,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🦎",
     "visualBlueprint": {
       "primaryColor": "#2F1590",
@@ -1028,7 +1378,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Tiktaalik",
+        "description": "A great pioneer that witnessed the first vertebrate's move onto land"
+      },
+      "zh-Hans": {
+        "commonName": "提塔利克",
+        "description": "见证脊椎动物登陆的伟大先驱"
+      }
+    }
   },
   {
     "id": "prehistoric_036",
@@ -1039,7 +1399,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2600,
     "baseSwimSpeed": 22,
-    "baseCoinYield": 230,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#3C0E58",
@@ -1056,7 +1416,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Entelognathus",
+        "description": "A key fossil that reveals the origin of the modern bony fish jaw"
+      },
+      "zh-Hans": {
+        "commonName": "全颌鱼",
+        "description": "揭示现代硬骨鱼颌部起源的关键化石"
+      }
+    }
   },
   {
     "id": "prehistoric_037",
@@ -1067,7 +1437,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2700,
     "baseSwimSpeed": 24,
-    "baseCoinYield": 235,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#24543B",
@@ -1085,7 +1455,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Helicoprion",
+        "description": "A bizarre shark with a spiral tooth row like an electric saw"
+      },
+      "zh-Hans": {
+        "commonName": "旋齿鲨",
+        "description": "拥有如同电锯般螺旋齿列的奇异鲨鱼"
+      }
+    }
   },
   {
     "id": "prehistoric_038",
@@ -1096,7 +1476,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2800,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 240,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -1113,7 +1493,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Edestus",
+        "description": "A prehistoric shark with teeth that jut outward like scissors"
+      },
+      "zh-Hans": {
+        "commonName": "剪齿鲨",
+        "description": "牙齿如剪刀般向外突出的史前鲨鱼"
+      }
+    }
   },
   {
     "id": "prehistoric_039",
@@ -1124,7 +1514,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2900,
     "baseSwimSpeed": 28,
-    "baseCoinYield": 245,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#456D07",
@@ -1142,7 +1532,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Petalodus",
+        "description": "A Carboniferous cartilaginous fish with petal-shaped teeth"
+      },
+      "zh-Hans": {
+        "commonName": "瓣齿鲨",
+        "description": "牙齿呈花瓣状的石炭纪软骨鱼"
+      }
+    }
   },
   {
     "id": "prehistoric_040",
@@ -1153,7 +1553,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1000,
     "baseSwimSpeed": 30,
-    "baseCoinYield": 250,
+    "baseCoinYield": 23,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#79136D",
@@ -1171,7 +1571,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Materpiscis",
+        "description": "The oldest known live-bearing vertebrate."
+      },
+      "zh-Hans": {
+        "commonName": "艾登堡鱼母",
+        "description": "已知最古老进行胎生的脊椎动物"
+      }
+    }
   },
   {
     "id": "prehistoric_041",
@@ -1182,7 +1592,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1100,
     "baseSwimSpeed": 32,
-    "baseCoinYield": 255,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🛡️",
     "visualBlueprint": {
       "primaryColor": "#539D11",
@@ -1200,7 +1610,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Placoderm",
+        "description": "An early jawed fish covered in heavy armor."
+      },
+      "zh-Hans": {
+        "commonName": "盾皮鱼",
+        "description": "披着厚重装甲的早期有颌鱼类"
+      }
+    }
   },
   {
     "id": "prehistoric_042",
@@ -1211,7 +1631,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1200,
     "baseSwimSpeed": 34,
-    "baseCoinYield": 260,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🛡️",
     "visualBlueprint": {
       "primaryColor": "#A00A56",
@@ -1228,7 +1648,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Galeaspid",
+        "description": "Fossils of an armored, jawless fish found only in China."
+      },
+      "zh-Hans": {
+        "commonName": "盔甲鱼",
+        "description": "中国独有的无颌鱼类化石"
+      }
+    }
   },
   {
     "id": "prehistoric_043",
@@ -1239,7 +1669,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 36,
-    "baseCoinYield": 265,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#4D2143",
@@ -1257,7 +1687,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Anaspid",
+        "description": "A small jawless fish lacking a heavy shell."
+      },
+      "zh-Hans": {
+        "commonName": "缺甲鱼",
+        "description": "体型小巧，缺乏沉重甲壳的无颌鱼"
+      }
+    }
   },
   {
     "id": "prehistoric_044",
@@ -1268,7 +1708,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 38,
-    "baseCoinYield": 270,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#79132D",
@@ -1285,7 +1725,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Asterolepis",
+        "description": "A heavily armored, bottom-dwelling Devonian fish."
+      },
+      "zh-Hans": {
+        "commonName": "星尾兽鱼",
+        "description": "泥盆纪的重装甲底栖鱼类"
+      }
+    }
   },
   {
     "id": "prehistoric_045",
@@ -1296,7 +1746,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 40,
-    "baseCoinYield": 275,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#480E58",
@@ -1313,7 +1763,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Xiamen Fish",
+        "description": "A giant prehistoric lobe-finned fish."
+      },
+      "zh-Hans": {
+        "commonName": "西门鱼",
+        "description": "史前巨型肉鳍鱼"
+      }
+    }
   },
   {
     "id": "prehistoric_046",
@@ -1324,7 +1784,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1600,
     "baseSwimSpeed": 42,
-    "baseCoinYield": 280,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#368611",
@@ -1342,7 +1802,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Guiyu",
+        "description": "A ghostly dream-fish, the oldest known complete bony fish."
+      },
+      "zh-Hans": {
+        "commonName": "硬骨鱼祖",
+        "description": "梦幻鬼鱼，最古老的完整硬骨鱼"
+      }
+    }
   },
   {
     "id": "prehistoric_047",
@@ -1353,7 +1823,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 44,
-    "baseCoinYield": 285,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦎",
     "visualBlueprint": {
       "primaryColor": "#6E8317",
@@ -1371,7 +1841,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Panderichthys",
+        "description": "A lobe-finned fish remarkably close to tetrapods."
+      },
+      "zh-Hans": {
+        "commonName": "潘氏鱼",
+        "description": "接近四足动物的肉鳍鱼"
+      }
+    }
   },
   {
     "id": "prehistoric_048",
@@ -1382,7 +1862,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 46,
-    "baseCoinYield": 290,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#34783C",
@@ -1400,7 +1880,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Eusthenopteron",
+        "description": "A fish showing the rudiments of tetrapod limb bones."
+      },
+      "zh-Hans": {
+        "commonName": "真掌鳍鱼",
+        "description": "显示出四肢骨骼雏形的鱼类"
+      }
+    }
   },
   {
     "id": "prehistoric_049",
@@ -1411,7 +1901,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 1900,
     "baseSwimSpeed": 48,
-    "baseCoinYield": 295,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#214D49",
@@ -1429,7 +1919,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Iniopteryx",
+        "description": "A strange Carboniferous coelacanth with pectoral fins on the back."
+      },
+      "zh-Hans": {
+        "commonName": "奇异鱼",
+        "description": "胸鳍长在背上的奇特石炭纪全头亚纲"
+      }
+    }
   },
   {
     "id": "prehistoric_050",
@@ -1440,7 +1940,7 @@
     "category": "泥盆紀與石炭紀魚類時代",
     "hatchStepsRequired": 2000,
     "baseSwimSpeed": 50,
-    "baseCoinYield": 50,
+    "baseCoinYield": 29,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7A5A08",
@@ -1458,7 +1958,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Mawsonia",
+        "description": "A giant Cretaceous coelacanth and forerunner of the giant Devonian–Cretaceous coelacanths."
+      },
+      "zh-Hans": {
+        "commonName": "大型腔棘鱼",
+        "description": "泥盆纪/白垩纪巨型腔棘鱼的先驱"
+      }
+    }
   },
   {
     "id": "prehistoric_051",
@@ -1469,7 +1979,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2100,
     "baseSwimSpeed": 52,
-    "baseCoinYield": 55,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐊",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1486,7 +1996,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Mosasaur",
+        "description": "The undisputed ruler of the Cretaceous seas, growing to an enormous size."
+      },
+      "zh-Hans": {
+        "commonName": "白垩纪沧龙",
+        "description": "白垩纪海洋的绝对霸主，体型巨大"
+      }
+    }
   },
   {
     "id": "prehistoric_052",
@@ -1497,7 +2017,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2200,
     "baseSwimSpeed": 54,
-    "baseCoinYield": 60,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦕",
     "visualBlueprint": {
       "primaryColor": "#791328",
@@ -1515,7 +2035,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Plesiosaur",
+        "description": "A long-necked marine reptile, the likely prototype of the Loch Ness Monster legend."
+      },
+      "zh-Hans": {
+        "commonName": "蛇颈龙",
+        "description": "长颈的海洋爬行动物，传说中的尼斯湖水怪原型"
+      }
+    }
   },
   {
     "id": "prehistoric_053",
@@ -1526,7 +2056,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2300,
     "baseSwimSpeed": 56,
-    "baseCoinYield": 65,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🦖",
     "visualBlueprint": {
       "primaryColor": "#772099",
@@ -1544,7 +2074,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Liopleurodon",
+        "description": "A giant Jurassic predator with four powerful flippers."
+      },
+      "zh-Hans": {
+        "commonName": "滑齿龙",
+        "description": "侏罗纪的巨型掠食者，拥有四个强大的鳍状肢"
+      }
+    }
   },
   {
     "id": "prehistoric_054",
@@ -1555,7 +2095,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2400,
     "baseSwimSpeed": 58,
-    "baseCoinYield": 70,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#3A7834",
@@ -1573,7 +2113,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Ichthyosaur",
+        "description": "A Mesozoic marine reptile whose shape resembles a modern dolphin."
+      },
+      "zh-Hans": {
+        "commonName": "鱼龙",
+        "description": "外形酷似现代海豚的中生代海生爬行动物"
+      }
+    }
   },
   {
     "id": "prehistoric_055",
@@ -1584,7 +2134,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2500,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 75,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦕",
     "visualBlueprint": {
       "primaryColor": "#471F47",
@@ -1602,7 +2152,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Elasmosaurus",
+        "description": "A plesiosaur with an extremely long neck."
+      },
+      "zh-Hans": {
+        "commonName": "薄板龙",
+        "description": "脖子极长的蛇颈龙类"
+      }
+    }
   },
   {
     "id": "prehistoric_056",
@@ -1613,7 +2173,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2600,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 80,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐚",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -1630,7 +2190,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Golden Ammonite",
+        "description": "A cephalopod with a beautiful spiral shell."
+      },
+      "zh-Hans": {
+        "commonName": "黄金菊石",
+        "description": "拥有精美螺旋外壳的头足类"
+      }
+    }
   },
   {
     "id": "prehistoric_057",
@@ -1641,7 +2211,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2700,
     "baseSwimSpeed": 64,
-    "baseCoinYield": 85,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#046261",
@@ -1659,7 +2229,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Belemnite",
+        "description": "Resembling a modern cuttlefish, with an arrow-shaped inner shell."
+      },
+      "zh-Hans": {
+        "commonName": "箭石",
+        "description": "形似现代鱿鱼，体内有箭头状内壳"
+      }
+    }
   },
   {
     "id": "prehistoric_058",
@@ -1670,7 +2250,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2800,
     "baseSwimSpeed": 66,
-    "baseCoinYield": 90,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#3B1186",
@@ -1688,7 +2268,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Xiphactinus",
+        "description": "A fierce Cretaceous bony fish with a mouth full of sharp teeth."
+      },
+      "zh-Hans": {
+        "commonName": "剑射鱼",
+        "description": "白垩纪的凶猛硬骨鱼，口中满布利齿"
+      }
+    }
   },
   {
     "id": "prehistoric_059",
@@ -1699,7 +2289,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2900,
     "baseSwimSpeed": 68,
-    "baseCoinYield": 95,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
       "primaryColor": "#0C611C",
@@ -1716,7 +2306,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Elegant Nematode",
+        "description": "A model organism for genetics research (guest-star prehistoric sea monster)."
+      },
+      "zh-Hans": {
+        "commonName": "秀丽隐杆鱼",
+        "description": "基因研究的模式生物(客串史前海怪)"
+      }
+    }
   },
   {
     "id": "prehistoric_060",
@@ -1727,7 +2327,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1000,
     "baseSwimSpeed": 10,
-    "baseCoinYield": 100,
+    "baseCoinYield": 26,
     "emojiOrSprite": "🦖",
     "visualBlueprint": {
       "primaryColor": "#234D21",
@@ -1745,7 +2345,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Kronosaurus",
+        "description": "A short-necked plesiosaur with an enormous skull and astonishing bite force"
+      },
+      "zh-Hans": {
+        "commonName": "克柔龙",
+        "description": "头骨巨大、咬合力惊人的短颈上龙类"
+      }
+    }
   },
   {
     "id": "prehistoric_061",
@@ -1756,7 +2366,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1100,
     "baseSwimSpeed": 12,
-    "baseCoinYield": 105,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐊",
     "visualBlueprint": {
       "primaryColor": "#1D4ED8",
@@ -1771,7 +2381,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Tylosaurus",
+        "description": "A giant mosasaur with a slender body and agile movement"
+      },
+      "zh-Hans": {
+        "commonName": "海王龙",
+        "description": "体型修长、行动敏捷的巨型沧龙"
+      }
+    }
   },
   {
     "id": "prehistoric_062",
@@ -1782,7 +2402,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1200,
     "baseSwimSpeed": 14,
-    "baseCoinYield": 110,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦕",
     "visualBlueprint": {
       "primaryColor": "#1D4931",
@@ -1800,7 +2420,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Tanystropheus",
+        "description": "A marine reptile with an extremely long neck that likely fished from the shoreline"
+      },
+      "zh-Hans": {
+        "commonName": "长颈龙",
+        "description": "拥有极长颈部，可能在岸边捕鱼的爬行动物"
+      }
+    }
   },
   {
     "id": "prehistoric_063",
@@ -1811,7 +2441,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 115,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🦎",
     "visualBlueprint": {
       "primaryColor": "#7A4F04",
@@ -1829,7 +2459,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Nothosaurus",
+        "description": "A semi-aquatic early marine reptile"
+      },
+      "zh-Hans": {
+        "commonName": "幻龙",
+        "description": "半水生的早期海生爬行动物"
+      }
+    }
   },
   {
     "id": "prehistoric_064",
@@ -1840,7 +2480,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 18,
-    "baseCoinYield": 120,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
       "primaryColor": "#0A6D19",
@@ -1857,7 +2497,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Placodus",
+        "description": "A marine reptile with flat teeth specialized for crushing shells"
+      },
+      "zh-Hans": {
+        "commonName": "盾齿龙",
+        "description": "牙齿平坦，专门压碎贝壳的爬行动物"
+      }
+    }
   },
   {
     "id": "prehistoric_065",
@@ -1868,7 +2518,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 20,
-    "baseCoinYield": 125,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🐊",
     "visualBlueprint": {
       "primaryColor": "#A6371D",
@@ -1886,7 +2536,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Dakosaurus",
+        "description": "A fierce sea lizard nicknamed the 'Godzilla' of its time"
+      },
+      "zh-Hans": {
+        "commonName": "达寇龙",
+        "description": "被称为「哥吉拉」的凶猛海鳄"
+      }
+    }
   },
   {
     "id": "prehistoric_066",
@@ -1897,7 +2557,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1600,
     "baseSwimSpeed": 22,
-    "baseCoinYield": 130,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐊",
     "visualBlueprint": {
       "primaryColor": "#214D4A",
@@ -1915,7 +2575,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Metriorhynchus",
+        "description": "A fully marine-adapted reptile with a fin-like tail"
+      },
+      "zh-Hans": {
+        "commonName": "地蜥鳄",
+        "description": "完全适应海洋生活的鳄鱼，尾部呈鳍状"
+      }
+    }
   },
   {
     "id": "prehistoric_067",
@@ -1926,7 +2596,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 24,
-    "baseCoinYield": 135,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐊",
     "visualBlueprint": {
       "primaryColor": "#2C2454",
@@ -1944,7 +2614,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Prognathodon",
+        "description": "A mosasaur with a powerful jaw and strong teeth"
+      },
+      "zh-Hans": {
+        "commonName": "倾齿龙",
+        "description": "拥有强大颌部与牙齿的沧龙科成员"
+      }
+    }
   },
   {
     "id": "prehistoric_068",
@@ -1955,7 +2635,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 140,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦕",
     "visualBlueprint": {
       "primaryColor": "#1D492A",
@@ -1973,7 +2653,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Polycotylus",
+        "description": "A short-necked plesiosaur with a dolphin-like body"
+      },
+      "zh-Hans": {
+        "commonName": "双臼椎龙",
+        "description": "短颈的蛇颈龙类，外型类似海豚"
+      }
+    }
   },
   {
     "id": "prehistoric_069",
@@ -1984,7 +2674,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 1900,
     "baseSwimSpeed": 28,
-    "baseCoinYield": 145,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#0F8701",
@@ -2002,7 +2692,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Shonisaurus",
+        "description": "A giant toothless ichthyosaur from the Triassic"
+      },
+      "zh-Hans": {
+        "commonName": "秀尼鱼龙",
+        "description": "三叠纪的巨型无齿鱼龙"
+      }
+    }
   },
   {
     "id": "prehistoric_070",
@@ -2013,7 +2713,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2000,
     "baseSwimSpeed": 30,
-    "baseCoinYield": 150,
+    "baseCoinYield": 23,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#938E0E",
@@ -2030,7 +2730,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Shastasaurus",
+        "description": "One of the largest known marine reptiles"
+      },
+      "zh-Hans": {
+        "commonName": "萨斯特鱼龙",
+        "description": "已知体型最大的海生爬行动物之一"
+      }
+    }
   },
   {
     "id": "prehistoric_071",
@@ -2041,7 +2751,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2100,
     "baseSwimSpeed": 32,
-    "baseCoinYield": 155,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#030712",
@@ -2058,7 +2768,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Ophthalmosaurus",
+        "description": "An ichthyosaur with disproportionately large eyes, adapted for deep-sea hunting"
+      },
+      "zh-Hans": {
+        "commonName": "大眼鱼龙",
+        "description": "拥有不成比例巨大眼睛，适合深海捕食"
+      }
+    }
   },
   {
     "id": "prehistoric_072",
@@ -2069,7 +2789,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2200,
     "baseSwimSpeed": 34,
-    "baseCoinYield": 160,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦕",
     "visualBlueprint": {
       "primaryColor": "#3E275C",
@@ -2087,7 +2807,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Dinocephalosaurus",
+        "description": "A long-necked marine reptile from the Triassic"
+      },
+      "zh-Hans": {
+        "commonName": "恐头龙",
+        "description": "三叠纪的长颈海生爬行动物"
+      }
+    }
   },
   {
     "id": "prehistoric_073",
@@ -2098,7 +2828,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2300,
     "baseSwimSpeed": 36,
-    "baseCoinYield": 165,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
       "primaryColor": "#334155",
@@ -2115,7 +2845,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Archelon",
+        "description": "A giant Cretaceous sea turtle that grew up to four meters long"
+      },
+      "zh-Hans": {
+        "commonName": "古海龟",
+        "description": "白垩纪的巨型海龟，体长可达四米"
+      }
+    }
   },
   {
     "id": "prehistoric_074",
@@ -2126,7 +2866,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2400,
     "baseSwimSpeed": 38,
-    "baseCoinYield": 170,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦖",
     "visualBlueprint": {
       "primaryColor": "#441B4B",
@@ -2144,7 +2884,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Gorgosaurus",
+        "description": "A land dinosaur that may have taken to swimming, an odd one"
+      },
+      "zh-Hans": {
+        "commonName": "蛇发女妖龙",
+        "description": "虽然是陆地恐龙，但也许会下海游泳(异类)"
+      }
+    }
   },
   {
     "id": "prehistoric_075",
@@ -2155,7 +2905,7 @@
     "category": "中生代侏儸紀/白堊紀海怪",
     "hatchStepsRequired": 2500,
     "baseSwimSpeed": 40,
-    "baseCoinYield": 175,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐊",
     "visualBlueprint": {
       "primaryColor": "#095D59",
@@ -2173,7 +2923,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Halisaurus",
+        "description": "A small early mosasaur"
+      },
+      "zh-Hans": {
+        "commonName": "大洋龙",
+        "description": "体型较小的早期沧龙"
+      }
+    }
   },
   {
     "id": "prehistoric_076",
@@ -2184,7 +2944,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2600,
     "baseSwimSpeed": 42,
-    "baseCoinYield": 180,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -2201,7 +2961,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Megalodon",
+        "description": "The largest predatory shark in history, a symbol of Cenozoic terror"
+      },
+      "zh-Hans": {
+        "commonName": "巨齿鲨",
+        "description": "史上最大的掠食性鲨鱼，新生代的恐怖象征"
+      }
+    }
   },
   {
     "id": "prehistoric_077",
@@ -2212,7 +2982,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2700,
     "baseSwimSpeed": 44,
-    "baseCoinYield": 185,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -2229,7 +2999,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Livyatan",
+        "description": "A prehistoric sperm whale that rivaled Megalodon, armed with massive teeth"
+      },
+      "zh-Hans": {
+        "commonName": "梅尔维尔鲸",
+        "description": "与巨齿鲨争霸的史前抹香鲸，拥有巨齿"
+      }
+    }
   },
   {
     "id": "prehistoric_078",
@@ -2240,7 +3020,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2800,
     "baseSwimSpeed": 46,
-    "baseCoinYield": 190,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#374151",
@@ -2257,7 +3037,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Basilosaurus",
+        "description": "An early whale with a slender, sea-serpent-like body"
+      },
+      "zh-Hans": {
+        "commonName": "龙王鲸",
+        "description": "体型修长如海蛇的早期鲸类"
+      }
+    }
   },
   {
     "id": "prehistoric_079",
@@ -2268,7 +3058,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2900,
     "baseSwimSpeed": 48,
-    "baseCoinYield": 195,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#334155",
@@ -2285,7 +3075,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Dorudon",
+        "description": "A smaller whale from the same era as Basilosaurus and a close relative of modern whales"
+      },
+      "zh-Hans": {
+        "commonName": "矛齿鲸",
+        "description": "与龙王鲸同期的较小鲸类，现代鲸鱼的近亲"
+      }
+    }
   },
   {
     "id": "prehistoric_080",
@@ -2296,7 +3096,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1000,
     "baseSwimSpeed": 50,
-    "baseCoinYield": 200,
+    "baseCoinYield": 22,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -2311,7 +3111,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Stupendemys",
+        "description": "The largest freshwater or coastal turtle in history."
+      },
+      "zh-Hans": {
+        "commonName": "史前巨海龟",
+        "description": "史上最大的淡水/近海龟类"
+      }
+    }
   },
   {
     "id": "prehistoric_081",
@@ -2322,7 +3132,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1100,
     "baseSwimSpeed": 52,
-    "baseCoinYield": 205,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
       "primaryColor": "#065F46",
@@ -2339,7 +3149,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Protostega",
+        "description": "A giant sea turtle that lived from the Cretaceous into the early Cenozoic era."
+      },
+      "zh-Hans": {
+        "commonName": "原海龟",
+        "description": "白垩纪延续至早新生代的巨型海龟"
+      }
+    }
   },
   {
     "id": "prehistoric_082",
@@ -2350,7 +3170,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1200,
     "baseSwimSpeed": 54,
-    "baseCoinYield": 210,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -2368,7 +3188,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Megalocoelacanth",
+        "description": "A giant hidden in the Cenozoic deep sea."
+      },
+      "zh-Hans": {
+        "commonName": "巨型腔棘鱼",
+        "description": "新生代的深海隐藏巨兽"
+      }
+    }
   },
   {
     "id": "prehistoric_083",
@@ -2379,7 +3209,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 56,
-    "baseCoinYield": 215,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -2396,7 +3226,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Cretoxyrhina",
+        "description": "A giant Cretaceous ginsu-shaped shark that persisted into the Cenozoic."
+      },
+      "zh-Hans": {
+        "commonName": "巨型白垩鲨",
+        "description": "穿越至新生代的白垩纪巨鲨(金斯状鲨)"
+      }
+    }
   },
   {
     "id": "prehistoric_084",
@@ -2407,7 +3247,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 58,
-    "baseCoinYield": 220,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐺",
     "visualBlueprint": {
       "primaryColor": "#5C7130",
@@ -2425,7 +3265,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Pakicetus",
+        "description": "A wolf-like terrestrial ancestor of whales."
+      },
+      "zh-Hans": {
+        "commonName": "始祖鲸",
+        "description": "外形似狼的鲸类陆生祖先"
+      }
+    }
   },
   {
     "id": "prehistoric_085",
@@ -2436,7 +3286,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 225,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐊",
     "visualBlueprint": {
       "primaryColor": "#21434D",
@@ -2454,7 +3304,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Walking Whale",
+        "description": "The \"walking whale\" that lived in shallow water like a garfish."
+      },
+      "zh-Hans": {
+        "commonName": "走鲸",
+        "description": "「会走路的鲸鱼」，如鳄鱼般生活在浅水"
+      }
+    }
   },
   {
     "id": "prehistoric_086",
@@ -2465,7 +3325,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1600,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 230,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -2482,7 +3342,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Rodhocetus",
+        "description": "An early whale gradually adapting to marine life."
+      },
+      "zh-Hans": {
+        "commonName": "游鲸",
+        "description": "逐渐适应海洋生活的早期鲸类"
+      }
+    }
   },
   {
     "id": "prehistoric_087",
@@ -2493,7 +3363,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 64,
-    "baseCoinYield": 235,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -2508,7 +3378,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Eurhinodelphis",
+        "description": "A prehistoric dolphin with a long spearfish-like snout."
+      },
+      "zh-Hans": {
+        "commonName": "剑吻古豚",
+        "description": "拥有如剑鱼般长吻的史前海豚"
+      }
+    }
   },
   {
     "id": "prehistoric_088",
@@ -2519,7 +3399,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 66,
-    "baseCoinYield": 240,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦭",
     "visualBlueprint": {
       "primaryColor": "#17930E",
@@ -2537,7 +3417,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Steller's Sea Cow",
+        "description": "Steller's sea cow, a docile giant that went extinct in recent times."
+      },
+      "zh-Hans": {
+        "commonName": "巨海牛",
+        "description": "斯特拉海牛，近代灭绝的温驯巨兽"
+      }
+    }
   },
   {
     "id": "prehistoric_089",
@@ -2548,7 +3438,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1900,
     "baseSwimSpeed": 68,
-    "baseCoinYield": 245,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐺",
     "visualBlueprint": {
       "primaryColor": "#3C7913",
@@ -2565,7 +3455,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Andrewsarchus",
+        "description": "A prehistoric giant carnivorous mammal that foraged on beaches."
+      },
+      "zh-Hans": {
+        "commonName": "安氏中兽",
+        "description": "曾在海滩觅食的史前巨大食肉哺乳类"
+      }
+    }
   },
   {
     "id": "prehistoric_090",
@@ -2576,7 +3476,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2000,
     "baseSwimSpeed": 10,
-    "baseCoinYield": 250,
+    "baseCoinYield": 18,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#713057",
@@ -2593,7 +3493,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Carcharocles",
+        "description": "A close relative of megalodon, equally a terrifying apex predator."
+      },
+      "zh-Hans": {
+        "commonName": "丘布特凯克鲨",
+        "description": "巨齿鲨的近亲，同样是可怕的顶级掠食者"
+      }
+    }
   },
   {
     "id": "prehistoric_091",
@@ -2604,7 +3514,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2100,
     "baseSwimSpeed": 12,
-    "baseCoinYield": 255,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#79133E",
@@ -2622,7 +3532,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Carcharodon",
+        "description": "A prehistoric ancestor of the great white shark."
+      },
+      "zh-Hans": {
+        "commonName": "广齿鲨",
+        "description": "大白鲨的史前祖先"
+      }
+    }
   },
   {
     "id": "prehistoric_092",
@@ -2633,7 +3553,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2200,
     "baseSwimSpeed": 14,
-    "baseCoinYield": 260,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦭",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -2650,7 +3570,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Allodesmus",
+        "description": "A giant sea lion from the Miocene."
+      },
+      "zh-Hans": {
+        "commonName": "巨海豹",
+        "description": "中新世的巨大海狮类"
+      }
+    }
   },
   {
     "id": "prehistoric_093",
@@ -2661,7 +3591,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2300,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 265,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#065F46",
@@ -2678,7 +3608,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Cetotherium",
+        "description": "An early bearded whale, smaller than modern bearded whales."
+      },
+      "zh-Hans": {
+        "commonName": "新须鲸",
+        "description": "早期的须鲸，体型较现代须鲸小"
+      }
+    }
   },
   {
     "id": "prehistoric_094",
@@ -2689,7 +3629,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2400,
     "baseSwimSpeed": 18,
-    "baseCoinYield": 270,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -2704,7 +3644,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Perucetus",
+        "description": "A prehistoric giant whale that challenged the record for Earth's heaviest animal."
+      },
+      "zh-Hans": {
+        "commonName": "秘鲁鲸",
+        "description": "挑战地球史上最重动物纪录的史前巨鲸"
+      }
+    }
   },
   {
     "id": "prehistoric_095",
@@ -2715,7 +3665,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2500,
     "baseSwimSpeed": 20,
-    "baseCoinYield": 275,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🐻",
     "visualBlueprint": {
       "primaryColor": "#829015",
@@ -2733,7 +3683,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Sea Bear",
+        "description": "An early ancestor of the pinnipeds."
+      },
+      "zh-Hans": {
+        "commonName": "海熊兽",
+        "description": "鳍足类的早期祖先"
+      }
+    }
   },
   {
     "id": "prehistoric_096",
@@ -2744,7 +3704,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2600,
     "baseSwimSpeed": 22,
-    "baseCoinYield": 280,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦭",
     "visualBlueprint": {
       "primaryColor": "#3F6D0A",
@@ -2761,7 +3721,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Dread Sea Elephant",
+        "description": "A fierce prehistoric seal predator."
+      },
+      "zh-Hans": {
+        "commonName": "恐海象",
+        "description": "凶猛的史前海象掠食者"
+      }
+    }
   },
   {
     "id": "prehistoric_097",
@@ -2772,7 +3742,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2700,
     "baseSwimSpeed": 24,
-    "baseCoinYield": 285,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#34785A",
@@ -2790,7 +3760,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Protocetus",
+        "description": "An early fully aquatic whale."
+      },
+      "zh-Hans": {
+        "commonName": "半犬鲸",
+        "description": "早期的全水生鲸类"
+      }
+    }
   },
   {
     "id": "prehistoric_098",
@@ -2801,7 +3781,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2800,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 290,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦭",
     "visualBlueprint": {
       "primaryColor": "#1B4B23",
@@ -2819,7 +3799,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Prorastomus",
+        "description": "One of the earliest sea cows, pig-like in form."
+      },
+      "zh-Hans": {
+        "commonName": "巨海牛",
+        "description": "最早的海牛类之一，像猪一样"
+      }
+    }
   },
   {
     "id": "prehistoric_099",
@@ -2830,7 +3820,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 2900,
     "baseSwimSpeed": 28,
-    "baseCoinYield": 295,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#090165",
@@ -2848,7 +3838,17 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Darwin Whale",
+        "description": "An unusual whale that lived in the Pliocene."
+      },
+      "zh-Hans": {
+        "commonName": "达尔文鲸",
+        "description": "生存于上新世的特殊鲸类"
+      }
+    }
   },
   {
     "id": "prehistoric_100",
@@ -2859,7 +3859,7 @@
     "category": "新生代巨獸與滅世巨齒鯊",
     "hatchStepsRequired": 1000,
     "baseSwimSpeed": 30,
-    "baseCoinYield": 50,
+    "baseCoinYield": 29,
     "emojiOrSprite": "🦭",
     "visualBlueprint": {
       "primaryColor": "#796513",
@@ -2876,6 +3876,16 @@
     "breedingRecipe": [
       "mystery_egg",
       "ancient_fossil"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Thalassoleon",
+        "description": "An ancient sea lion from the Miocene and Pliocene epochs."
+      },
+      "zh-Hans": {
+        "commonName": "奇异海狮",
+        "description": "中新世与上新世的远古海狮"
+      }
+    }
   }
 ]

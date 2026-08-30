@@ -8,7 +8,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 1970,
     "baseSwimSpeed": 65,
-    "baseCoinYield": 51,
+    "baseCoinYield": 27,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#312E81",
@@ -23,7 +23,17 @@
       ],
       "phenotypeHash": "VPH-STA-312E-4338-FAN-2"
     },
-    "breedingRecipe": "MythicEssence + MythicScale"
+    "breedingRecipe": "MythicEssence + MythicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Beiming Leviathan",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "北溟巨鲲",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_002_陵魚人魚",
@@ -34,7 +44,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 560,
     "baseSwimSpeed": 23,
-    "baseCoinYield": 8,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🧜‍♀️",
     "visualBlueprint": {
       "primaryColor": "#047857",
@@ -48,7 +58,17 @@
       ],
       "phenotypeHash": "VPH-RAY-0478-0596-BUT-1"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Hillfish Mermaid",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "陵鱼人鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_003_文鰩飛魚",
@@ -59,7 +79,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 200,
     "baseSwimSpeed": 13,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🪽",
     "visualBlueprint": {
       "primaryColor": "#991B1B",
@@ -73,7 +93,17 @@
       ],
       "phenotypeHash": "VPH-STA-991B-DC26-LYR-1"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Patterned-Ling Flying Fish",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "文鳐飞鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_004_何羅十身魚",
@@ -84,7 +114,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 460,
     "baseSwimSpeed": 30,
-    "baseCoinYield": 9,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -98,7 +128,17 @@
       ],
       "phenotypeHash": "VPH-STA-0F17-1E29-FOR-1"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Heluo Ten-Body Fish",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "何罗十身鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_005_赤鱬",
@@ -109,7 +149,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 220,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -124,7 +164,17 @@
       ],
       "phenotypeHash": "VPH-STA-DC26-EF44-FAN-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Crimson Lingfish",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "赤鱬",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_006_鯥魚",
@@ -135,7 +185,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 200,
     "baseSwimSpeed": 15,
-    "baseCoinYield": 4,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#6D28D9",
@@ -149,7 +199,17 @@
       ],
       "phenotypeHash": "VPH-STA-6D28-9333-BUT-1"
     },
-    "breedingRecipe": "MythicEssence + CommonScale"
+    "breedingRecipe": "MythicEssence + CommonScale",
+    "i18n": {
+      "en": {
+        "commonName": "Wu-Fish",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "鯥鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_007_橫公魚",
@@ -176,7 +236,17 @@
       ],
       "phenotypeHash": "VPH-STA-6234-CA38-FAN-3"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "He-Gong Fish",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "横公鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_008_鮨魚",
@@ -187,7 +257,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 260,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐕",
     "visualBlueprint": {
       "primaryColor": "#01016C",
@@ -202,7 +272,17 @@
       ],
       "phenotypeHash": "VPH-RAY-0101-9605-BUT-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Grouper",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "鮨鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_009_鯈魚",
@@ -228,7 +308,17 @@
       ],
       "phenotypeHash": "VPH-STA-35A6-26D8-LYR-2"
     },
-    "breedingRecipe": "MythicEssence + CommonScale"
+    "breedingRecipe": "MythicEssence + CommonScale",
+    "i18n": {
+      "en": {
+        "commonName": "Tiao-Fish",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "鯈鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_010_䱤魚",
@@ -239,7 +329,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 600,
     "baseSwimSpeed": 23,
-    "baseCoinYield": 7,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#184E38",
@@ -254,7 +344,17 @@
       ],
       "phenotypeHash": "VPH-STA-184E-2933-SPI-2"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Liang-Fish",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "䱤鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_011_虎蛟",
@@ -265,7 +365,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 990,
     "baseSwimSpeed": 42,
-    "baseCoinYield": 22,
+    "baseCoinYield": 24,
     "emojiOrSprite": "🐅",
     "visualBlueprint": {
       "primaryColor": "#1F3049",
@@ -280,7 +380,17 @@
       ],
       "phenotypeHash": "VPH-STA-1F30-B726-LYR-2"
     },
-    "breedingRecipe": "MythicEssence + LegendaryScale"
+    "breedingRecipe": "MythicEssence + LegendaryScale",
+    "i18n": {
+      "en": {
+        "commonName": "Tiger Jiao",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "虎蛟",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_012_龍魚",
@@ -291,7 +401,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 1060,
     "baseSwimSpeed": 42,
-    "baseCoinYield": 21,
+    "baseCoinYield": 22,
     "emojiOrSprite": "🐲",
     "visualBlueprint": {
       "primaryColor": "#6D28D9",
@@ -305,7 +415,17 @@
       ],
       "phenotypeHash": "VPH-ARO-6D28-9333-BUT-1"
     },
-    "breedingRecipe": "MythicEssence + LegendaryScale"
+    "breedingRecipe": "MythicEssence + LegendaryScale",
+    "i18n": {
+      "en": {
+        "commonName": "Dragon Fish",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "龙鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_013_蠃魚",
@@ -316,7 +436,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 290,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦅",
     "visualBlueprint": {
       "primaryColor": "#2DA646",
@@ -331,7 +451,17 @@
       ],
       "phenotypeHash": "VPH-STA-2DA6-388F-FOR-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Rong-Fish",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "蠃鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_014_冉遺魚",
@@ -342,7 +472,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 480,
     "baseSwimSpeed": 29,
-    "baseCoinYield": 10,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
       "primaryColor": "#5D00A0",
@@ -357,7 +487,17 @@
       ],
       "phenotypeHash": "VPH-RAY-5D00-9605-BUT-2"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Ranyi-Fish",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "冉遗鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_015_鰩魚",
@@ -368,7 +508,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 160,
     "baseSwimSpeed": 20,
-    "baseCoinYield": 6,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🪶",
     "visualBlueprint": {
       "primaryColor": "#202A99",
@@ -383,7 +523,17 @@
       ],
       "phenotypeHash": "VPH-STA-202A-DC26-BUT-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Ling-Fish",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "鳐鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_016_鱄魚",
@@ -394,7 +544,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 180,
     "baseSwimSpeed": 9,
-    "baseCoinYield": 2,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐖",
     "visualBlueprint": {
       "primaryColor": "#1D4549",
@@ -409,7 +559,17 @@
       ],
       "phenotypeHash": "VPH-STA-1D45-3629-FAN-2"
     },
-    "breedingRecipe": "MythicEssence + CommonScale"
+    "breedingRecipe": "MythicEssence + CommonScale",
+    "i18n": {
+      "en": {
+        "commonName": "Dan-Fish",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "鱄鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_017_䱻魚",
@@ -420,7 +580,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 230,
     "baseSwimSpeed": 15,
-    "baseCoinYield": 4,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
       "primaryColor": "#D97706",
@@ -435,7 +595,17 @@
       ],
       "phenotypeHash": "VPH-STA-D977-F59E-FAN-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Jiao-Fish",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "䱻鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_018_鱃魚",
@@ -461,7 +631,17 @@
       ],
       "phenotypeHash": "VPH-STA-1E7C-B033-CRE-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Zhou-Fish",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "鱃鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_019_鮪魚 (神話版)",
@@ -472,7 +652,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 560,
     "baseSwimSpeed": 25,
-    "baseCoinYield": 11,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#248649",
@@ -488,7 +668,17 @@
       ],
       "phenotypeHash": "VPH-STA-2486-3876-FOR-3"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Divine Perch (Mythical)",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "鲔鱼 (神话版)",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_020_鰼鰼魚",
@@ -499,7 +689,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 110,
     "baseSwimSpeed": 12,
-    "baseCoinYield": 2,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🕊️",
     "visualBlueprint": {
       "primaryColor": "#68A000",
@@ -514,7 +704,17 @@
       ],
       "phenotypeHash": "VPH-RAY-68A0-0596-BUT-2"
     },
-    "breedingRecipe": "MythicEssence + CommonScale"
+    "breedingRecipe": "MythicEssence + CommonScale",
+    "i18n": {
+      "en": {
+        "commonName": "Yiyi-Fish",
+        "description": "A legendary water spirit from the ancient Shanjing, channeling the mystic power of old myth and Eastern immortal essence."
+      },
+      "zh-Hans": {
+        "commonName": "鳛鳛鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_021_鱟魚",
@@ -525,7 +725,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 210,
     "baseSwimSpeed": 13,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#99207E",
@@ -540,7 +740,17 @@
       ],
       "phenotypeHash": "VPH-STA-9920-DC72-FAN-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Divine Fish",
+        "description": "A legendary being from the ancient water spirits of the Shan Hai Jing, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "鲎鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_022_箴魚",
@@ -551,7 +761,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 300,
     "baseSwimSpeed": 20,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🗡️",
     "visualBlueprint": {
       "primaryColor": "#1D493E",
@@ -566,7 +776,17 @@
       ],
       "phenotypeHash": "VPH-STA-1D49-292B-FAN-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Counsel Fish",
+        "description": "A legendary being from the ancient water spirits of the Shan Hai Jing, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "箴鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_023_鯩魚",
@@ -577,7 +797,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 140,
     "baseSwimSpeed": 14,
-    "baseCoinYield": 2,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🌊",
     "visualBlueprint": {
       "primaryColor": "#06E832",
@@ -593,7 +813,17 @@
       ],
       "phenotypeHash": "VPH-STA-06E8-0B99-LYR-3"
     },
-    "breedingRecipe": "MythicEssence + CommonScale"
+    "breedingRecipe": "MythicEssence + CommonScale",
+    "i18n": {
+      "en": {
+        "commonName": "Mystic Fish",
+        "description": "A legendary being from the ancient water spirits of the Shan Hai Jing, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "鯩鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_024_薄魚",
@@ -604,7 +834,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 270,
     "baseSwimSpeed": 19,
-    "baseCoinYield": 5,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🌪️",
     "visualBlueprint": {
       "primaryColor": "#3D27B7",
@@ -619,7 +849,17 @@
       ],
       "phenotypeHash": "VPH-STA-3D27-EA33-BUT-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Gossamer Fish",
+        "description": "A legendary being from the ancient water spirits of the Shan Hai Jing, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "薄鱼",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_025_鮫人",
@@ -630,7 +870,7 @@
     "category": "山海經上古異獸水靈",
     "hatchStepsRequired": 1100,
     "baseSwimSpeed": 39,
-    "baseCoinYield": 19,
+    "baseCoinYield": 24,
     "emojiOrSprite": "🧜",
     "visualBlueprint": {
       "primaryColor": "#2D8CA6",
@@ -646,7 +886,17 @@
       ],
       "phenotypeHash": "VPH-STA-2D8C-7438-FOR-3"
     },
-    "breedingRecipe": "MythicEssence + LegendaryScale"
+    "breedingRecipe": "MythicEssence + LegendaryScale",
+    "i18n": {
+      "en": {
+        "commonName": "Shark Man",
+        "description": "A legendary being from the ancient water spirits of the Shan Hai Jing, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "鲛人",
+        "description": "来自山海经上古异兽水灵的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_026_青龍水靈",
@@ -657,7 +907,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 2070,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 49,
+    "baseCoinYield": 18,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#6C23E1",
@@ -671,7 +921,17 @@
       ],
       "phenotypeHash": "VPH-STA-6C23-F63B-LYR-1"
     },
-    "breedingRecipe": "MythicEssence + MythicScale"
+    "breedingRecipe": "MythicEssence + MythicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Azure Dragon Water Spirit",
+        "description": "A legendary being from the four sacred beasts and the five-element divine dragons, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "青龙水灵",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_027_玄武鎮海",
@@ -682,7 +942,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 2080,
     "baseSwimSpeed": 61,
-    "baseCoinYield": 53,
+    "baseCoinYield": 24,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
       "primaryColor": "#902115",
@@ -697,7 +957,17 @@
       ],
       "phenotypeHash": "VPH-STA-9021-A5DC-CRE-2"
     },
-    "breedingRecipe": "MythicEssence + MythicScale"
+    "breedingRecipe": "MythicEssence + MythicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Black Tortoise Sea-Warden",
+        "description": "A legendary being from the four sacred beasts and the five-element divine dragons, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "玄武镇海",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_028_朱雀火鱨",
@@ -708,7 +978,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 1960,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 49,
+    "baseCoinYield": 21,
     "emojiOrSprite": "🦚",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -720,7 +990,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-DC26-EA58-RIB-0"
     },
-    "breedingRecipe": "MythicEssence + MythicScale"
+    "breedingRecipe": "MythicEssence + MythicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Vermilion Bird Fire-Fish",
+        "description": "A legendary being from the four sacred beasts and the five-element divine dragons, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "朱雀火鲿",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_029_白虎金紋",
@@ -731,7 +1011,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 2100,
     "baseSwimSpeed": 58,
-    "baseCoinYield": 53,
+    "baseCoinYield": 20,
     "emojiOrSprite": "🐯",
     "visualBlueprint": {
       "primaryColor": "#1E293B",
@@ -745,7 +1025,17 @@
       ],
       "phenotypeHash": "VPH-STA-1E29-DC26-RIB-1"
     },
-    "breedingRecipe": "MythicEssence + MythicScale"
+    "breedingRecipe": "MythicEssence + MythicScale",
+    "i18n": {
+      "en": {
+        "commonName": "White Tiger Gold Pattern",
+        "description": "A legendary being from the four sacred beasts and the five-element divine dragons, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "白虎金纹",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_030_麒麟祥瑞",
@@ -756,7 +1046,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 1060,
     "baseSwimSpeed": 38,
-    "baseCoinYield": 21,
+    "baseCoinYield": 28,
     "emojiOrSprite": "🦄",
     "visualBlueprint": {
       "primaryColor": "#199BE3",
@@ -771,7 +1061,17 @@
       ],
       "phenotypeHash": "VPH-STA-199B-9933-DEL-2"
     },
-    "breedingRecipe": "MythicEssence + LegendaryScale"
+    "breedingRecipe": "MythicEssence + LegendaryScale",
+    "i18n": {
+      "en": {
+        "commonName": "Qilin, the Auspicious",
+        "description": "A legendary being from the four sacred beasts and the five-element divine dragons, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "麒麟祥瑞",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_031_燭龍光螭",
@@ -782,7 +1082,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 2090,
     "baseSwimSpeed": 65,
-    "baseCoinYield": 53,
+    "baseCoinYield": 18,
     "emojiOrSprite": "🌋",
     "visualBlueprint": {
       "primaryColor": "#283463",
@@ -798,7 +1098,17 @@
       ],
       "phenotypeHash": "VPH-STA-2834-CA38-BUT-3"
     },
-    "breedingRecipe": "MythicEssence + MythicScale"
+    "breedingRecipe": "MythicEssence + MythicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Candle Dragon, Radiant Chi",
+        "description": "A legendary being from the four sacred beasts and the five-element divine dragons, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "烛龙光螭",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_032_應龍金鱗",
@@ -809,7 +1119,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 1060,
     "baseSwimSpeed": 42,
-    "baseCoinYield": 20,
+    "baseCoinYield": 24,
     "emojiOrSprite": "🐲",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -821,7 +1131,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-F59E-FDE0-RIB-0"
     },
-    "breedingRecipe": "MythicEssence + LegendaryScale"
+    "breedingRecipe": "MythicEssence + LegendaryScale",
+    "i18n": {
+      "en": {
+        "commonName": "Ying Dragon, Golden Scales",
+        "description": "A legendary being from the four sacred beasts and the five-element divine dragons, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "应龙金鳞",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_033_共工水魔",
@@ -832,7 +1152,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 540,
     "baseSwimSpeed": 24,
-    "baseCoinYield": 9,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🌊",
     "visualBlueprint": {
       "primaryColor": "#B41A5E",
@@ -847,7 +1167,17 @@
       ],
       "phenotypeHash": "VPH-STA-B41A-DCB0-SPI-2"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Gonggong, the Water Demon",
+        "description": "A legendary being from the four sacred beasts and the five-element divine dragons, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "共工水魔",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_034_祝融赤鯉",
@@ -858,7 +1188,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 470,
     "baseSwimSpeed": 24,
-    "baseCoinYield": 7,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🔥",
     "visualBlueprint": {
       "primaryColor": "#333ADE",
@@ -872,7 +1202,17 @@
       ],
       "phenotypeHash": "VPH-STA-333A-EA0C-LYR-1"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Zhurong, the Red Carp",
+        "description": "A legendary being from the four sacred beasts and the five-element divine dragons, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "祝融赤鲤",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_035_句芒木靈",
@@ -883,7 +1223,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 490,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 8,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🌿",
     "visualBlueprint": {
       "primaryColor": "#059669",
@@ -895,7 +1235,17 @@
       "features": [],
       "phenotypeHash": "VPH-STA-0596-10B9-RIB-0"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Jumang, the Wood Spirit",
+        "description": "A legendary being from the four sacred beasts and the five-element divine dragons, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "句芒木灵",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_036_蓐收金鱨",
@@ -906,7 +1256,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 490,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 9,
+    "baseCoinYield": 12,
     "emojiOrSprite": "⚔️",
     "visualBlueprint": {
       "primaryColor": "#1CF61A",
@@ -920,7 +1270,17 @@
       ],
       "phenotypeHash": "VPH-STA-1CF6-4AD9-RIB-1"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Xushou, the Gold Fish",
+        "description": "A legendary being from the four sacred beasts and the five-element divine dragons, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "蓐收金鲿",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_037_后土黃紋",
@@ -931,7 +1291,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 460,
     "baseSwimSpeed": 28,
-    "baseCoinYield": 11,
+    "baseCoinYield": 9,
     "emojiOrSprite": "⛰️",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -946,7 +1306,17 @@
       ],
       "phenotypeHash": "VPH-STA-F59E-FDE0-FAN-2"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Houtu, the Yellow Pattern",
+        "description": "A legendary being from the four sacred beasts and the five-element divine dragons, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "后土黄纹",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_038_蒼龍星宿魚",
@@ -957,7 +1327,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 250,
     "baseSwimSpeed": 18,
-    "baseCoinYield": 6,
+    "baseCoinYield": 4,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -971,7 +1341,17 @@
       ],
       "phenotypeHash": "VPH-RAY-7C3A-A855-BUT-1"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Azure Dragon Constellation Fish",
+        "description": "A legendary being from the four sacred beasts and the five-element divine dragons, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "苍龙星宿鱼",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_039_角宿木蛟",
@@ -982,7 +1362,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 210,
     "baseSwimSpeed": 20,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐲",
     "visualBlueprint": {
       "primaryColor": "#997E20",
@@ -997,7 +1377,17 @@
       ],
       "phenotypeHash": "VPH-STA-997E-2BDC-BUT-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Jiao Star, the Wood Dragon",
+        "description": "A legendary being from the four sacred beasts and the five-element divine dragons, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "角宿木蛟",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_040_亢宿金龍",
@@ -1008,7 +1398,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 450,
     "baseSwimSpeed": 30,
-    "baseCoinYield": 10,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#FF3B25",
@@ -1022,7 +1412,17 @@
       ],
       "phenotypeHash": "VPH-STA-FF3B-C5FA-DEL-1"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Kang Star, the Gold Dragon",
+        "description": "A legendary being from the four sacred beasts and the five-element divine dragons, imbued with the mysterious power of ancient mythology and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "亢宿金龙",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_041_氐宿土貉魚",
@@ -1033,7 +1433,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 250,
     "baseSwimSpeed": 20,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦡",
     "visualBlueprint": {
       "primaryColor": "#C700CF",
@@ -1049,7 +1449,17 @@
       ],
       "phenotypeHash": "VPH-STA-C700-F530-CRE-3"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Shì Earth Badger",
+        "description": "A legendary creature born of the Four Symbols' sacred beasts and the Five Elements' divine dragons, steeped in the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "氐宿土貉鱼",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_042_房宿日兔魚",
@@ -1060,7 +1470,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 280,
     "baseSwimSpeed": 13,
-    "baseCoinYield": 4,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐰",
     "visualBlueprint": {
       "primaryColor": "#E3383E",
@@ -1075,7 +1485,17 @@
       ],
       "phenotypeHash": "VPH-STA-E338-CCEA-SPI-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Fáng Sun Rabbit",
+        "description": "A legendary creature born of the Four Symbols' sacred beasts and the Five Elements' divine dragons, steeped in the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "房宿日兔鱼",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_043_心宿月狐魚",
@@ -1086,7 +1506,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 600,
     "baseSwimSpeed": 27,
-    "baseCoinYield": 11,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦊",
     "visualBlueprint": {
       "primaryColor": "#399930",
@@ -1102,7 +1522,17 @@
       ],
       "phenotypeHash": "VPH-STA-3999-38BA-SPI-3"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Xīn Moon Fox",
+        "description": "A legendary creature born of the Four Symbols' sacred beasts and the Five Elements' divine dragons, steeped in the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "心宿月狐鱼",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_044_尾宿火虎魚",
@@ -1113,7 +1543,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 220,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐅",
     "visualBlueprint": {
       "primaryColor": "#222950",
@@ -1128,7 +1558,17 @@
       ],
       "phenotypeHash": "VPH-STA-2229-DC26-SPI-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Wěi Fire Tiger",
+        "description": "A legendary creature born of the Four Symbols' sacred beasts and the Five Elements' divine dragons, steeped in the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "尾宿火虎鱼",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_045_箕宿水豹魚",
@@ -1139,7 +1579,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 190,
     "baseSwimSpeed": 19,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐆",
     "visualBlueprint": {
       "primaryColor": "#2A9D11",
@@ -1154,7 +1594,17 @@
       ],
       "phenotypeHash": "VPH-STA-2A9D-26D8-DEL-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Jī Water Leopard",
+        "description": "A legendary creature born of the Four Symbols' sacred beasts and the Five Elements' divine dragons, steeped in the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "箕宿水豹鱼",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_046_井宿水犴魚",
@@ -1180,7 +1630,17 @@
       ],
       "phenotypeHash": "VPH-STA-4A18-5630-SPI-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Jǐng Water Yak",
+        "description": "A legendary creature born of the Four Symbols' sacred beasts and the Five Elements' divine dragons, steeped in the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "井宿水犴鱼",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_047_鬼宿金羊魚",
@@ -1191,7 +1651,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 210,
     "baseSwimSpeed": 13,
-    "baseCoinYield": 2,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐑",
     "visualBlueprint": {
       "primaryColor": "#8416EF",
@@ -1205,7 +1665,17 @@
       ],
       "phenotypeHash": "VPH-STA-8416-FA4A-FAN-1"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Guǐ Gold Ram",
+        "description": "A legendary creature born of the Four Symbols' sacred beasts and the Five Elements' divine dragons, steeped in the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "鬼宿金羊鱼",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_048_柳宿土獐魚",
@@ -1216,7 +1686,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 220,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 2,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦌",
     "visualBlueprint": {
       "primaryColor": "#E31954",
@@ -1231,7 +1701,17 @@
       ],
       "phenotypeHash": "VPH-STA-E319-EADA-DEL-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Liǔ Earth Cat-Leopard",
+        "description": "A legendary creature born of the Four Symbols' sacred beasts and the Five Elements' divine dragons, steeped in the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "柳宿土獐鱼",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_049_星宿日馬魚",
@@ -1242,7 +1722,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 280,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐎",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -1257,7 +1737,17 @@
       ],
       "phenotypeHash": "VPH-STA-7C3A-A855-FAN-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Xīng Sun Horse",
+        "description": "A legendary creature born of the Four Symbols' sacred beasts and the Five Elements' divine dragons, steeped in the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "星宿日马鱼",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_050_張宿月鹿魚",
@@ -1268,7 +1758,7 @@
     "category": "四象聖獸與五行神龍",
     "hatchStepsRequired": 260,
     "baseSwimSpeed": 19,
-    "baseCoinYield": 6,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦌",
     "visualBlueprint": {
       "primaryColor": "#7A6307",
@@ -1283,7 +1773,17 @@
       ],
       "phenotypeHash": "VPH-RAY-7A63-0596-BUT-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Zhāng Moon Deer",
+        "description": "A legendary creature born of the Four Symbols' sacred beasts and the Five Elements' divine dragons, steeped in the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "张宿月鹿鱼",
+        "description": "来自四象圣兽与五行神龙的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_051_瑤池金鯉",
@@ -1294,7 +1794,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 570,
     "baseSwimSpeed": 30,
-    "baseCoinYield": 10,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#EF1677",
@@ -1308,7 +1808,17 @@
       ],
       "phenotypeHash": "VPH-STA-EF16-FACF-BUT-1"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Jade Pool Golden Koi",
+        "description": "A legendary creature from the auspicious omens of the Eastern fairy-mountain courts, imbued with the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "瑶池金鲤",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_052_蓬萊仙鱸",
@@ -1319,7 +1829,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 1050,
     "baseSwimSpeed": 39,
-    "baseCoinYield": 19,
+    "baseCoinYield": 20,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#165022",
@@ -1334,7 +1844,17 @@
       ],
       "phenotypeHash": "VPH-STA-1650-2944-FOR-2"
     },
-    "breedingRecipe": "MythicEssence + LegendaryScale"
+    "breedingRecipe": "MythicEssence + LegendaryScale",
+    "i18n": {
+      "en": {
+        "commonName": "Penglai Immortal Grouper",
+        "description": "A legendary creature from the auspicious omens of the Eastern fairy-mountain courts, imbued with the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "蓬莱仙鲈",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_053_九尾狐海蛞蝓",
@@ -1345,7 +1865,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 1030,
     "baseSwimSpeed": 44,
-    "baseCoinYield": 20,
+    "baseCoinYield": 19,
     "emojiOrSprite": "🦊",
     "visualBlueprint": {
       "primaryColor": "#D97706",
@@ -1360,7 +1880,17 @@
       ],
       "phenotypeHash": "VPH-SLU-D977-F59E-FAN-2"
     },
-    "breedingRecipe": "MythicEssence + LegendaryScale"
+    "breedingRecipe": "MythicEssence + LegendaryScale",
+    "i18n": {
+      "en": {
+        "commonName": "Nine-Tailed Fox Sea-Angler",
+        "description": "A legendary creature from the auspicious omens of the Eastern fairy-mountain courts, imbued with the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "九尾狐海蛞蝓",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_054_太極陰陽魚",
@@ -1371,7 +1901,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 1990,
     "baseSwimSpeed": 64,
-    "baseCoinYield": 49,
+    "baseCoinYield": 15,
     "emojiOrSprite": "☯️",
     "visualBlueprint": {
       "primaryColor": "#19BCE3",
@@ -1386,7 +1916,17 @@
       ],
       "phenotypeHash": "VPH-STA-19BC-7A33-DEL-2"
     },
-    "breedingRecipe": "MythicEssence + MythicScale"
+    "breedingRecipe": "MythicEssence + MythicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Taiji Yin-Yang",
+        "description": "A legendary creature from the auspicious omens of the Eastern fairy-mountain courts, imbued with the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "太极阴阳鱼",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_055_玉兔踏浪",
@@ -1397,7 +1937,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 580,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 11,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐇",
     "visualBlueprint": {
       "primaryColor": "#2D78A6",
@@ -1413,7 +1953,17 @@
       ],
       "phenotypeHash": "VPH-STA-2D78-8D38-FOR-3"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Jade Rabbit Wave-Strider",
+        "description": "A legendary creature from the auspicious omens of the Eastern fairy-mountain courts, imbued with the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "玉兔踏浪",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_056_金烏浴日",
@@ -1424,7 +1974,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 2100,
     "baseSwimSpeed": 61,
-    "baseCoinYield": 51,
+    "baseCoinYield": 22,
     "emojiOrSprite": "☀️",
     "visualBlueprint": {
       "primaryColor": "#FC1EFA",
@@ -1438,7 +1988,17 @@
       ],
       "phenotypeHash": "VPH-STA-FC1E-FA6E-SPI-1"
     },
-    "breedingRecipe": "MythicEssence + MythicScale"
+    "breedingRecipe": "MythicEssence + MythicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Fusang Golden Crow",
+        "description": "A legendary creature from the auspicious omens of the Eastern fairy-mountain courts, imbued with the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "金乌浴日",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_057_文昌點頭魚",
@@ -1464,7 +2024,17 @@
       ],
       "phenotypeHash": "VPH-STA-3119-DC26-BUT-2"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Wenchang Nodding Fish",
+        "description": "A legendary creature from the auspicious omens of the Eastern fairy-mountain courts, imbued with the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "文昌点头鱼",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_058_八仙過海寶魚",
@@ -1475,7 +2045,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 1020,
     "baseSwimSpeed": 38,
-    "baseCoinYield": 23,
+    "baseCoinYield": 28,
     "emojiOrSprite": "🌊",
     "visualBlueprint": {
       "primaryColor": "#184E41",
@@ -1490,7 +2060,17 @@
       ],
       "phenotypeHash": "VPH-STA-184E-292B-SPI-2"
     },
-    "breedingRecipe": "MythicEssence + LegendaryScale"
+    "breedingRecipe": "MythicEssence + LegendaryScale",
+    "i18n": {
+      "en": {
+        "commonName": "Eight Immortals Treasure Fish",
+        "description": "A legendary creature from the auspicious omens of the Eastern fairy-mountain courts, imbued with the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "八仙过海宝鱼",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_059_靈芝金鯛",
@@ -1501,7 +2081,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 240,
     "baseSwimSpeed": 19,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🍄",
     "visualBlueprint": {
       "primaryColor": "#61CE0E",
@@ -1515,7 +2095,17 @@
       ],
       "phenotypeHash": "VPH-STA-61CE-4AFA-BUT-1"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Lingzhi Golden Bream",
+        "description": "A legendary creature from the auspicious omens of the Eastern fairy-mountain courts, imbued with the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "灵芝金鲷",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_060_方丈神鰲",
@@ -1526,7 +2116,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 1070,
     "baseSwimSpeed": 44,
-    "baseCoinYield": 22,
+    "baseCoinYield": 20,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
       "primaryColor": "#E3385B",
@@ -1541,7 +2131,17 @@
       ],
       "phenotypeHash": "VPH-STA-E338-EAE9-SPI-2"
     },
-    "breedingRecipe": "MythicEssence + LegendaryScale"
+    "breedingRecipe": "MythicEssence + LegendaryScale",
+    "i18n": {
+      "en": {
+        "commonName": "Fangzhang Divine Grouper",
+        "description": "A legendary creature from the auspicious omens of the Eastern fairy-mountain courts, imbued with the mystic power of ancient myth and Eastern fairy spirits."
+      },
+      "zh-Hans": {
+        "commonName": "方丈神鳌",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_061_瀛洲仙鯉",
@@ -1552,7 +2152,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 150,
     "baseSwimSpeed": 20,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#276E3F",
@@ -1568,7 +2168,17 @@
       ],
       "phenotypeHash": "VPH-STA-276E-387C-LYR-3"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Yingzhou Immortal Koi",
+        "description": "A legendary creature from the mythical immortal-mountain court, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "瀛洲仙鲤",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_062_員嶠靈龜",
@@ -1593,7 +2203,17 @@
       ],
       "phenotypeHash": "VPH-TUR-0478-0596-BUT-1"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Yuanqiao Spirit Turtle",
+        "description": "A legendary creature from the mythical immortal-mountain court, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "员峤灵龟",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_063_岱輿神鯨",
@@ -1604,7 +2224,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 1100,
     "baseSwimSpeed": 38,
-    "baseCoinYield": 20,
+    "baseCoinYield": 16,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#991B1B",
@@ -1618,7 +2238,17 @@
       ],
       "phenotypeHash": "VPH-WHA-991B-DC26-LYR-1"
     },
-    "breedingRecipe": "MythicEssence + LegendaryScale"
+    "breedingRecipe": "MythicEssence + LegendaryScale",
+    "i18n": {
+      "en": {
+        "commonName": "Daidiao Divine Whale",
+        "description": "A legendary creature from the mythical immortal-mountain court, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "岱舆神鲸",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_064_蟠桃錦鯉",
@@ -1629,7 +2259,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 470,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 8,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🍑",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1643,7 +2273,17 @@
       ],
       "phenotypeHash": "VPH-KOI-0F17-1E29-FOR-1"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Pan-Tao Koi",
+        "description": "A legendary creature from the mythical immortal-mountain court, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "蟠桃锦鲤",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_065_廣寒玉蟾魚",
@@ -1654,7 +2294,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 200,
     "baseSwimSpeed": 14,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐸",
     "visualBlueprint": {
       "primaryColor": "#F82200",
@@ -1670,7 +2310,17 @@
       ],
       "phenotypeHash": "VPH-STA-F822-A7F5-CRE-3"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Guanghan Jade Toad-Fish",
+        "description": "A legendary creature from the mythical immortal-mountain court, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "广寒玉蟾鱼",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_066_兜率紫金魚",
@@ -1681,7 +2331,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 500,
     "baseSwimSpeed": 29,
-    "baseCoinYield": 8,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🔥",
     "visualBlueprint": {
       "primaryColor": "#98EF16",
@@ -1695,7 +2345,17 @@
       ],
       "phenotypeHash": "VPH-GOL-98EF-4AFA-FAN-1"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Tushita Violet-Gold Fish",
+        "description": "A legendary creature from the mythical immortal-mountain court, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "兜率紫金鱼",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_067_凌霄飛龍魚",
@@ -1706,7 +2366,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 1080,
     "baseSwimSpeed": 41,
-    "baseCoinYield": 23,
+    "baseCoinYield": 21,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#312E81",
@@ -1721,7 +2381,17 @@
       ],
       "phenotypeHash": "VPH-ARO-312E-4338-FAN-2"
     },
-    "breedingRecipe": "MythicEssence + LegendaryScale"
+    "breedingRecipe": "MythicEssence + LegendaryScale",
+    "i18n": {
+      "en": {
+        "commonName": "Lingxiao Flying Dragon-Fish",
+        "description": "A legendary creature from the mythical immortal-mountain court, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "凌霄飞龙鱼",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_068_昆崙雪鱒",
@@ -1732,7 +2402,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 180,
     "baseSwimSpeed": 13,
-    "baseCoinYield": 2,
+    "baseCoinYield": 5,
     "emojiOrSprite": "❄️",
     "visualBlueprint": {
       "primaryColor": "#C9E8E7",
@@ -1746,7 +2416,17 @@
       ],
       "phenotypeHash": "VPH-STA-C9E8-C0BA-LYR-1"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Kunlun Snow Salmon",
+        "description": "A legendary creature from the mythical immortal-mountain court, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "昆仑雪鳟",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_069_琉璃宮燈魚",
@@ -1757,7 +2437,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 290,
     "baseSwimSpeed": 17,
-    "baseCoinYield": 5,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🏮",
     "visualBlueprint": {
       "primaryColor": "#A6651D",
@@ -1772,7 +2452,17 @@
       ],
       "phenotypeHash": "VPH-STA-A665-59DC-RIB-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Glass-Palace Lantern-Fish",
+        "description": "A legendary creature from the mythical immortal-mountain court, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "琉璃宫灯鱼",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_070_翡翠玉盤魚",
@@ -1783,7 +2473,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 260,
     "baseSwimSpeed": 18,
-    "baseCoinYield": 6,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🪷",
     "visualBlueprint": {
       "primaryColor": "#00BF87",
@@ -1797,7 +2487,17 @@
       ],
       "phenotypeHash": "VPH-STA-00BF-1020-FOR-1"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Jade-Pearl Disc Fish",
+        "description": "A legendary creature from the mythical immortal-mountain court, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "翡翠玉盘鱼",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_071_珊瑚寶樹魚",
@@ -1808,7 +2508,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 260,
     "baseSwimSpeed": 13,
-    "baseCoinYield": 5,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🪸",
     "visualBlueprint": {
       "primaryColor": "#3E0CD8",
@@ -1824,7 +2524,17 @@
       ],
       "phenotypeHash": "VPH-STA-3E0C-F50B-FAN-3"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Coral-Treasure Fish",
+        "description": "A legendary creature from the mythical immortal-mountain court, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "珊瑚宝树鱼",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_072_瑪瑙聚寶魚",
@@ -1835,7 +2545,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 270,
     "baseSwimSpeed": 19,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "💎",
     "visualBlueprint": {
       "primaryColor": "#E33894",
@@ -1850,7 +2560,17 @@
       ],
       "phenotypeHash": "VPH-STA-E338-EAAB-SPI-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Agate Treasure Fish",
+        "description": "A legendary creature from the mythical immortal-mountain court, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "玛瑙聚宝鱼",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_073_珍珠如意魚",
@@ -1875,7 +2595,17 @@
       ],
       "phenotypeHash": "VPH-STA-C8D7-D5BA-SPI-1"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Ruyi Pearl Fish",
+        "description": "A legendary creature from the mythical immortal-mountain court, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "珍珠如意鱼",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_074_琥珀琥珀魚",
@@ -1886,7 +2616,7 @@
     "category": "東方仙山宮廷祥瑞",
     "hatchStepsRequired": 160,
     "baseSwimSpeed": 14,
-    "baseCoinYield": 4,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🟡",
     "visualBlueprint": {
       "primaryColor": "#1A6C01",
@@ -1901,7 +2631,17 @@
       ],
       "phenotypeHash": "VPH-RAY-1A6C-0596-BUT-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Ten-Thousand-Year Amber Fish",
+        "description": "A legendary creature from the mythical immortal-mountain court, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "琥珀琥珀鱼",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_075_玳瑁祥雲魚",
@@ -1927,7 +2667,17 @@
       ],
       "phenotypeHash": "VPH-STA-7011-DC26-FOR-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Auspicious-Cloud Tortoiseshell Fish",
+        "description": "A legendary creature from the mythical immortal-mountain court, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "玳瑁祥云鱼",
+        "description": "来自东方仙山宫廷祥瑞的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_076_河伯錦鱗",
@@ -1938,7 +2688,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 460,
     "baseSwimSpeed": 29,
-    "baseCoinYield": 9,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🌊",
     "visualBlueprint": {
       "primaryColor": "#1D3C49",
@@ -1953,7 +2703,17 @@
       ],
       "phenotypeHash": "VPH-STA-1D3C-4029-BUT-2"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "River-Lord Brocade-Scale Fish",
+        "description": "A legendary creature from the water-god retinue of folk legend, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "河伯锦鳞",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_077_水簾龍王",
@@ -1964,7 +2724,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 550,
     "baseSwimSpeed": 28,
-    "baseCoinYield": 11,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐒",
     "visualBlueprint": {
       "primaryColor": "#B20A48",
@@ -1980,7 +2740,17 @@
       ],
       "phenotypeHash": "VPH-STA-B20A-F5CD-BUT-3"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Water-Curtain Dragon King",
+        "description": "A legendary creature from the water-god retinue of folk legend, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "水帘龙王",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_078_夜明珠蚌靈",
@@ -1991,7 +2761,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 1100,
     "baseSwimSpeed": 42,
-    "baseCoinYield": 22,
+    "baseCoinYield": 17,
     "emojiOrSprite": "🦪",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -2005,7 +2775,17 @@
       ],
       "phenotypeHash": "VPH-STA-0F17-1E29-BUT-1"
     },
-    "breedingRecipe": "MythicEssence + LegendaryScale"
+    "breedingRecipe": "MythicEssence + LegendaryScale",
+    "i18n": {
+      "en": {
+        "commonName": "Night-Pearl Clam Spirit",
+        "description": "A legendary creature from the water-god retinue of folk legend, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "夜明珠蚌灵",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_079_福祿壽喜鯉",
@@ -2016,7 +2796,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 980,
     "baseSwimSpeed": 45,
-    "baseCoinYield": 22,
+    "baseCoinYield": 18,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
       "primaryColor": "#328C50",
@@ -2032,7 +2812,17 @@
       ],
       "phenotypeHash": "VPH-STA-328C-387C-LYR-3"
     },
-    "breedingRecipe": "MythicEssence + LegendaryScale"
+    "breedingRecipe": "MythicEssence + LegendaryScale",
+    "i18n": {
+      "en": {
+        "commonName": "Fu-Lu-Shou-Xi Koi",
+        "description": "A legendary creature from the water-god retinue of folk legend, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "福禄寿喜鲤",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_080_鰲魚化龍",
@@ -2043,7 +2833,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 2080,
     "baseSwimSpeed": 63,
-    "baseCoinYield": 53,
+    "baseCoinYield": 24,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#603006",
@@ -2058,7 +2848,17 @@
       ],
       "phenotypeHash": "VPH-RAY-6030-3596-BUT-2"
     },
-    "breedingRecipe": "MythicEssence + MythicScale"
+    "breedingRecipe": "MythicEssence + MythicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Dragon-Gate Koi",
+        "description": "A legendary creature from the water-god retinue of folk legend, imbued with the mystical power of ancient myths and Eastern immortal spirits."
+      },
+      "zh-Hans": {
+        "commonName": "鳌鱼化龙",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_081_鯉魚躍龍門",
@@ -2069,7 +2869,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 1960,
     "baseSwimSpeed": 62,
-    "baseCoinYield": 49,
+    "baseCoinYield": 20,
     "emojiOrSprite": "⛩️",
     "visualBlueprint": {
       "primaryColor": "#C23616",
@@ -2084,7 +2884,17 @@
       ],
       "phenotypeHash": "VPH-STA-C236-96DC-FOR-2"
     },
-    "breedingRecipe": "MythicEssence + MythicScale"
+    "breedingRecipe": "MythicEssence + MythicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Dragon-Gate Carp",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "鲤鱼跃龙门",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_082_金蟾吐珠",
@@ -2109,7 +2919,17 @@
       ],
       "phenotypeHash": "VPH-STA-FBF6-4AFA-FOR-1"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Golden Fortune-Toad",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "金蟾吐珠",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_083_媽祖巡海使者",
@@ -2120,7 +2940,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 1010,
     "baseSwimSpeed": 45,
-    "baseCoinYield": 21,
+    "baseCoinYield": 30,
     "emojiOrSprite": "🏮",
     "visualBlueprint": {
       "primaryColor": "#FF1004",
@@ -2135,7 +2955,17 @@
       ],
       "phenotypeHash": "VPH-STA-FF10-BBF5-FOR-2"
     },
-    "breedingRecipe": "MythicEssence + LegendaryScale"
+    "breedingRecipe": "MythicEssence + LegendaryScale",
+    "i18n": {
+      "en": {
+        "commonName": "Mazu's Sea Envoy",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "妈祖巡海使者",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_084_哪吒鬧海紅綾魚",
@@ -2146,7 +2976,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 500,
     "baseSwimSpeed": 25,
-    "baseCoinYield": 10,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🎀",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -2160,7 +2990,17 @@
       ],
       "phenotypeHash": "VPH-STA-DC26-EF44-BUT-1"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Chaos Ribbon Fish",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "哪吒闹海红绫鱼",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_085_東海定海神針魚",
@@ -2171,7 +3011,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 980,
     "baseSwimSpeed": 40,
-    "baseCoinYield": 23,
+    "baseCoinYield": 26,
     "emojiOrSprite": "🦯",
     "visualBlueprint": {
       "primaryColor": "#0ECE55",
@@ -2185,7 +3025,17 @@
       ],
       "phenotypeHash": "VPH-STA-0ECE-4A96-FAN-1"
     },
-    "breedingRecipe": "MythicEssence + LegendaryScale"
+    "breedingRecipe": "MythicEssence + LegendaryScale",
+    "i18n": {
+      "en": {
+        "commonName": "Sea-Calming Needle Fish",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "东海定海神针鱼",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_086_龍王三太子",
@@ -2196,7 +3046,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 580,
     "baseSwimSpeed": 27,
-    "baseCoinYield": 7,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐲",
     "visualBlueprint": {
       "primaryColor": "#487A07",
@@ -2211,7 +3061,17 @@
       ],
       "phenotypeHash": "VPH-RAY-487A-0596-BUT-2"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Dragon King's Third Prince",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "龙王三太子",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_087_龜丞相",
@@ -2222,7 +3082,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 240,
     "baseSwimSpeed": 14,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐢",
     "visualBlueprint": {
       "primaryColor": "#991B1B",
@@ -2236,7 +3096,17 @@
       ],
       "phenotypeHash": "VPH-TUR-991B-DC26-LYR-1"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Tortoise Grand Minister",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "龟丞相",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_088_巡海夜叉魚",
@@ -2247,7 +3117,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 170,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🔱",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -2261,7 +3131,17 @@
       ],
       "phenotypeHash": "VPH-STA-0F17-1E29-FOR-1"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Sea-Patrolling Yaksha Fish",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "巡海夜叉鱼",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_089_蚌殼精靈",
@@ -2288,7 +3168,17 @@
       ],
       "phenotypeHash": "VPH-STA-40C0-0BF5-LYR-3"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Pearl Shell Spirit",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "蚌壳精灵",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_090_蝦兵蟹將魚",
@@ -2299,7 +3189,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 120,
     "baseSwimSpeed": 10,
-    "baseCoinYield": 4,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#6D28D9",
@@ -2313,7 +3203,17 @@
       ],
       "phenotypeHash": "VPH-CRA-6D28-9333-BUT-1"
     },
-    "breedingRecipe": "MythicEssence + CommonScale"
+    "breedingRecipe": "MythicEssence + CommonScale",
+    "i18n": {
+      "en": {
+        "commonName": "Shrimp-Soldier Crab-General",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "虾兵蟹将鱼",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_091_洛神宓妃魚",
@@ -2324,7 +3224,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 500,
     "baseSwimSpeed": 29,
-    "baseCoinYield": 7,
+    "baseCoinYield": 11,
     "emojiOrSprite": "💃",
     "visualBlueprint": {
       "primaryColor": "#632853",
@@ -2340,7 +3240,17 @@
       ],
       "phenotypeHash": "VPH-STA-6328-CA7D-FAN-3"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Luo River Goddess",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "洛神宓妃鱼",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_092_湘君湘夫人魚",
@@ -2366,7 +3276,17 @@
       ],
       "phenotypeHash": "VPH-RAY-0638-6305-BUT-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Lord and Lady of the Xiang River",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "湘君湘夫人鱼",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_093_洞庭龍女魚",
@@ -2392,7 +3312,17 @@
       ],
       "phenotypeHash": "VPH-STA-3277-26DC-FAN-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Dongting Dragon Girl",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "洞庭龙女鱼",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_094_涇河龍王魚",
@@ -2403,7 +3333,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 170,
     "baseSwimSpeed": 13,
-    "baseCoinYield": 3,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🌧️",
     "visualBlueprint": {
       "primaryColor": "#2B4B1B",
@@ -2418,7 +3348,17 @@
       ],
       "phenotypeHash": "VPH-STA-2B4B-2956-LYR-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Jing River Dragon King",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "泾河龙王鱼",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_095_錢塘君魚",
@@ -2429,7 +3369,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 450,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 10,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🌊",
     "visualBlueprint": {
       "primaryColor": "#DA4B00",
@@ -2445,7 +3385,17 @@
       ],
       "phenotypeHash": "VPH-STA-DA4B-76F5-DEL-3"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Qiantang River Dragon God",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "钱塘君鱼",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_096_水神冰夷魚",
@@ -2456,7 +3406,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 190,
     "baseSwimSpeed": 19,
-    "baseCoinYield": 3,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🧊",
     "visualBlueprint": {
       "primaryColor": "#E93B84",
@@ -2471,7 +3421,17 @@
       ],
       "phenotypeHash": "VPH-STA-E93B-EAC2-FOR-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Yellow River Water Spirit",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "水神冰夷鱼",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_097_井泉童子魚",
@@ -2482,7 +3442,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 160,
     "baseSwimSpeed": 12,
-    "baseCoinYield": 4,
+    "baseCoinYield": 2,
     "emojiOrSprite": "👦",
     "visualBlueprint": {
       "primaryColor": "#346080",
@@ -2498,7 +3458,17 @@
       ],
       "phenotypeHash": "VPH-STA-3460-9338-FAN-3"
     },
-    "breedingRecipe": "MythicEssence + CommonScale"
+    "breedingRecipe": "MythicEssence + CommonScale",
+    "i18n": {
+      "en": {
+        "commonName": "Well-Spring Child",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "井泉童子鱼",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_098_碧霞元君護法魚",
@@ -2509,7 +3479,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 170,
     "baseSwimSpeed": 14,
-    "baseCoinYield": 5,
+    "baseCoinYield": 3,
     "emojiOrSprite": "⛰️",
     "visualBlueprint": {
       "primaryColor": "#048722",
@@ -2524,7 +3494,17 @@
       ],
       "phenotypeHash": "VPH-RAY-0487-0558-BUT-2"
     },
-    "breedingRecipe": "MythicEssence + RareScale"
+    "breedingRecipe": "MythicEssence + RareScale",
+    "i18n": {
+      "en": {
+        "commonName": "Jade-Cloud Dharma Protector",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "碧霞元君护法鱼",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_099_觀音淨瓶柳枝魚",
@@ -2535,7 +3515,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 1080,
     "baseSwimSpeed": 45,
-    "baseCoinYield": 21,
+    "baseCoinYield": 28,
     "emojiOrSprite": "🌿",
     "visualBlueprint": {
       "primaryColor": "#1D34A6",
@@ -2550,7 +3530,17 @@
       ],
       "phenotypeHash": "VPH-STA-1D34-DC26-RIB-2"
     },
-    "breedingRecipe": "MythicEssence + LegendaryScale"
+    "breedingRecipe": "MythicEssence + LegendaryScale",
+    "i18n": {
+      "en": {
+        "commonName": "Pure-Vase Willow Branch",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "观音净瓶柳枝鱼",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   },
   {
     "id": "SJM_100_善財童子捧珠魚",
@@ -2561,7 +3551,7 @@
     "category": "民間傳說水族仙班",
     "hatchStepsRequired": 580,
     "baseSwimSpeed": 24,
-    "baseCoinYield": 9,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🙏",
     "visualBlueprint": {
       "primaryColor": "#165050",
@@ -2575,6 +3565,16 @@
       ],
       "phenotypeHash": "VPH-STA-1650-3329-DEL-1"
     },
-    "breedingRecipe": "MythicEssence + EpicScale"
+    "breedingRecipe": "MythicEssence + EpicScale",
+    "i18n": {
+      "en": {
+        "commonName": "Young Sandipalita Bearing a Pearl",
+        "description": "A legendary creature of the mythical aquatic immortal court, imbued with the mysterious power of ancient myth and Eastern celestial spirits."
+      },
+      "zh-Hans": {
+        "commonName": "善财童子捧珠鱼",
+        "description": "来自民间传说水族仙班的传奇生物，蕴含着上古神话与东方仙灵的神秘力量。"
+      }
+    }
   }
 ]

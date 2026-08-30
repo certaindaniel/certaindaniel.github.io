@@ -8,7 +8,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 6800,
     "baseSwimSpeed": 0.65,
-    "baseCoinYield": 75,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -27,6 +27,16 @@
       "parentA": "雪人蟹",
       "parentB": "黃鐵礦鐵甲螺",
       "mutationHint": "熱液黑煙囪熔岩鍛造"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Emperor Crab",
+        "description": "A black-gold armored emperor crab dwelling among 10,000m deep-sea volcanic vents and hydrothermal black smokers, its massive claws can shatter solid reef rock and it produces heart energy as it rolls."
+      },
+      "zh-Hans": {
+        "commonName": "帝王黑金刺甲蟹",
+        "description": "栖息于万米深海火山口与热液黑烟囱的黑金刺甲帝王蟹，双钳挥舞能击碎坚硬礁石，翻滚时产出爱心能量。"
+      }
     }
   },
   {
@@ -38,7 +48,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 382,
     "baseSwimSpeed": 21,
-    "baseCoinYield": 11,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -56,6 +66,16 @@
       "parentA": "F_5001",
       "parentB": "F_5001",
       "successRate": 0.76
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Black Cusk Eel",
+        "description": "A black cusk eel of the nether deep sea, its unique light organ shimmers in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "黑角𩽾𩾌",
+        "description": "栖息于幽冥深海的黑角𩽾𩾌。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -67,7 +87,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 148,
     "baseSwimSpeed": 30,
-    "baseCoinYield": 6,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -85,6 +105,16 @@
       "parentA": "F_5001",
       "parentB": "F_5002",
       "successRate": 0.66
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Devouring Eel",
+        "description": "A devouring eel of the nether deep sea whose unique light organ glimmers in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "吞噬鳗",
+        "description": "栖息于幽冥深海的吞噬鳗。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -96,7 +126,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 200,
     "baseSwimSpeed": 18,
-    "baseCoinYield": 11,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -114,6 +144,16 @@
       "parentA": "F_5002",
       "parentB": "F_5002",
       "successRate": 0.6
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Sloan's Dragonfish",
+        "description": "A sloan dragonfish of the nether deep sea, its unique light organ glows in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "毒蛇鱼",
+        "description": "栖息于幽冥深海的毒蛇鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -125,7 +165,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 768,
     "baseSwimSpeed": 29,
-    "baseCoinYield": 27,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#E42044",
@@ -144,6 +184,16 @@
       "parentA": "F_5001",
       "parentB": "F_5002",
       "successRate": 0.42
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Giant Tail Fish",
+        "description": "A giant-tailed deep-sea fish whose unique light organ shimmers in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "巨尾鱼",
+        "description": "栖息于幽冥深海的巨尾鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -155,7 +205,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 1247,
     "baseSwimSpeed": 41,
-    "baseCoinYield": 63,
+    "baseCoinYield": 15,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#2AF899",
@@ -174,6 +224,16 @@
       "parentA": "F_5005",
       "parentB": "F_5003",
       "successRate": 0.23
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Tripod Fish",
+        "description": "A tripod fish of the nether deep sea, its unique light organ glimmers in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "三脚架鱼",
+        "description": "栖息于幽冥深海的三脚架鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -185,7 +245,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 776,
     "baseSwimSpeed": 45,
-    "baseCoinYield": 26,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🦎",
     "visualBlueprint": {
       "primaryColor": "#267AF1",
@@ -204,6 +264,16 @@
       "parentA": "F_5002",
       "parentB": "F_5003",
       "successRate": 0.12
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Sail Lizard Fish",
+        "description": "A sail-backed lizard fish of the nether deep sea, its unique light organ shimmers in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "帆蜥鱼",
+        "description": "栖息于幽冥深海的帆蜥鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -215,7 +285,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 142,
     "baseSwimSpeed": 25,
-    "baseCoinYield": 10,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
       "primaryColor": "#F44D6C",
@@ -234,6 +304,16 @@
       "parentA": "F_5005",
       "parentB": "F_5003",
       "successRate": 0.19
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Big-Mouth Eel",
+        "description": "A big-mouth eel of the nether deep sea whose unique light organ glows in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "大嘴鳗",
+        "description": "栖息于幽冥深海的大嘴鳗。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -264,6 +344,16 @@
       "parentA": "F_5001",
       "parentB": "F_5004",
       "successRate": 0.71
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Black Soft-Bone Fish",
+        "description": "A black soft-boned fish of the nether deep sea, its unique light organ shimmers in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "黑柔骨鱼",
+        "description": "栖息于幽冥深海的黑柔骨鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -275,7 +365,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 674,
     "baseSwimSpeed": 36,
-    "baseCoinYield": 28,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#23A7EB",
@@ -294,6 +384,16 @@
       "parentA": "F_5008",
       "parentB": "F_5006",
       "successRate": 0.33
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Post-Anal Fish",
+        "description": "A post-anal fish of the nether deep sea whose unique light organ glimmers in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "后肛鱼",
+        "description": "栖息于幽冥深海的后肛鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -305,7 +405,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 137,
     "baseSwimSpeed": 30,
-    "baseCoinYield": 8,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🪓",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -323,6 +423,16 @@
       "parentA": "F_5008",
       "parentB": "F_5002",
       "successRate": 0.68
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Silver Hatchet Fish",
+        "description": "A silver hatchet fish of the nether deep sea, its unique light organ shimmers in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "银斧鱼",
+        "description": "栖息于幽冥深海的银斧鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -334,7 +444,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 242,
     "baseSwimSpeed": 23,
-    "baseCoinYield": 7,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦎",
     "visualBlueprint": {
       "primaryColor": "#52F9C8",
@@ -353,6 +463,16 @@
       "parentA": "F_5008",
       "parentB": "F_5007",
       "successRate": 0.17
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Deep-Sea Lizard Fish",
+        "description": "A fierce deep-sea lizard fish whose unique light organ glows in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "深海蜥鱼",
+        "description": "栖息于幽冥深海的深海蜥鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -364,7 +484,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 234,
     "baseSwimSpeed": 30,
-    "baseCoinYield": 9,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -383,6 +503,16 @@
       "parentA": "F_5004",
       "parentB": "F_5001",
       "successRate": 0.62
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Deep-Sea Dragon Fish",
+        "description": "A deep-sea dragon fish of the nether deep, its unique light organ shimmers in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "深海龙鱼",
+        "description": "栖息于幽冥深海的深海龙鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -394,7 +524,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 198,
     "baseSwimSpeed": 29,
-    "baseCoinYield": 9,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#2342EB",
@@ -412,6 +542,16 @@
       "parentA": "F_5006",
       "parentB": "F_5005",
       "successRate": 0.51
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Deep-Sea Angler",
+        "description": "A deep-sea anglerfish of the nether deep sea whose unique light organ glimmers in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "深海𩽾𩾌",
+        "description": "栖息于幽冥深海的深海𩽾𩾌。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -423,7 +563,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 491,
     "baseSwimSpeed": 12,
-    "baseCoinYield": 9,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#23E2EB",
@@ -442,6 +582,16 @@
       "parentA": "F_5007",
       "parentB": "F_5002",
       "successRate": 0.61
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Short-Stalk Angler",
+        "description": "A short-stalk anglerfish of the nether deep sea, its unique light organ shimmers in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "短柄𩽾𩾌",
+        "description": "栖息于幽冥深海的短柄𩽾𩾌。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -453,7 +603,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 428,
     "baseSwimSpeed": 12,
-    "baseCoinYield": 5,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#2AF876",
@@ -472,6 +622,16 @@
       "parentA": "F_5013",
       "parentB": "F_5011",
       "successRate": 0.67
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Odd Angler",
+        "description": "An odd anglerfish of the nether deep sea whose unique light organ glows in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "奇𩽾𩾌",
+        "description": "栖息于幽冥深海的奇𩽾𩾌。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -483,7 +643,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 920,
     "baseSwimSpeed": 32,
-    "baseCoinYield": 35,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#23E2EB",
@@ -502,6 +662,16 @@
       "parentA": "F_5008",
       "parentB": "F_5009",
       "successRate": 0.68
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Light-Head Angler",
+        "description": "A light-headed anglerfish of the nether deep sea, its unique light organ glimmers in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "光头𩽾𩾌",
+        "description": "栖息于幽冥深海的光头𩽾𩾌。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -513,7 +683,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 119,
     "baseSwimSpeed": 27,
-    "baseCoinYield": 8,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#9C2AF8",
@@ -532,6 +702,16 @@
       "parentA": "F_5008",
       "parentB": "F_5009",
       "successRate": 0.72
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Whip-Crest Angler",
+        "description": "A whip-crested anglerfish of the nether deep sea whose unique light organ shimmers in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "鞭冠𩽾𩾌",
+        "description": "栖息于幽冥深海的鞭冠𩽾𩾌。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -543,7 +723,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 1160,
     "baseSwimSpeed": 57,
-    "baseCoinYield": 61,
+    "baseCoinYield": 20,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F126D4",
@@ -562,6 +742,16 @@
       "parentA": "F_5009",
       "parentB": "F_5006",
       "successRate": 0.75
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Horned Angler",
+        "description": "A horned anglerfish of the nether deep sea, its unique light organ glows in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "角𩽾𩾌",
+        "description": "栖息于幽冥深海的角𩽾𩾌。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -573,7 +763,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 147,
     "baseSwimSpeed": 29,
-    "baseCoinYield": 15,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F97952",
@@ -592,6 +782,16 @@
       "parentA": "F_5009",
       "parentB": "F_5016",
       "successRate": 0.6
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Long-Whisker Angler",
+        "description": "A long-whiskered anglerfish of the nether deep sea whose unique light organ shimmers in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "长须𩽾𩾌",
+        "description": "栖息于幽冥深海的长须𩽾𩾌。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -603,7 +803,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 923,
     "baseSwimSpeed": 36,
-    "baseCoinYield": 35,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#23EBD2",
@@ -622,6 +822,16 @@
       "parentA": "F_5004",
       "parentB": "F_5002",
       "successRate": 0.25
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Black swallower",
+        "description": "The Black swallower dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "叉齿𬶮",
+        "description": "栖息于幽冥深海的叉齿𬶮。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -633,7 +843,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 231,
     "baseSwimSpeed": 11,
-    "baseCoinYield": 8,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#4DA6F4",
@@ -652,6 +862,16 @@
       "parentA": "F_5010",
       "parentB": "F_5010",
       "successRate": 0.7
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Pelican eel",
+        "description": "The pelican eel dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "宽咽鱼",
+        "description": "栖息于幽冥深海的宽咽鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -663,7 +883,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 124,
     "baseSwimSpeed": 12,
-    "baseCoinYield": 5,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#4DF4D1",
@@ -682,6 +902,16 @@
       "parentA": "F_5012",
       "parentB": "F_5017",
       "successRate": 0.63
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Fangtooth",
+        "description": "The fangtooth dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "深海狼牙鱼",
+        "description": "栖息于幽冥深海的深海狼牙鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -693,7 +923,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 695,
     "baseSwimSpeed": 31,
-    "baseCoinYield": 25,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#5352F9",
@@ -711,6 +941,16 @@
       "parentA": "F_5001",
       "parentB": "F_5003",
       "successRate": 0.37
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Stoplight loosejaw",
+        "description": "The stoplight loosejaw dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "深海光腭鱼",
+        "description": "栖息于幽冥深海的深海光腭鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -722,7 +962,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 939,
     "baseSwimSpeed": 33,
-    "baseCoinYield": 35,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#26F19C",
@@ -741,6 +981,16 @@
       "parentA": "F_5014",
       "parentB": "F_5006",
       "successRate": 0.19
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Triplewart seadevil",
+        "description": "The triplewart seadevil dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "细尾深海𩽾𩾌",
+        "description": "栖息于幽冥深海的细尾深海𩽾𩾌。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -752,7 +1002,7 @@
     "category": "深海提燈鮟鱇與巨口怪獸",
     "hatchStepsRequired": 397,
     "baseSwimSpeed": 11,
-    "baseCoinYield": 9,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#A852F9",
@@ -770,6 +1020,16 @@
       "parentA": "F_5016",
       "parentB": "F_5010",
       "successRate": 0.11
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Pelagic fanfin",
+        "description": "The pelagic fanfin dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "恶魔𩽾𩾌",
+        "description": "栖息于幽冥深海的恶魔𩽾𩾌。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -781,7 +1041,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 871,
     "baseSwimSpeed": 30,
-    "baseCoinYield": 32,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -799,6 +1059,16 @@
       "parentA": "F_5012",
       "parentB": "F_5009",
       "successRate": 0.51
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Vampire squid",
+        "description": "The vampire squid dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "吸血鬼乌贼",
+        "description": "栖息于幽冥深海的吸血鬼乌贼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -810,7 +1080,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 158,
     "baseSwimSpeed": 19,
-    "baseCoinYield": 7,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -828,6 +1098,16 @@
       "parentA": "F_5005",
       "parentB": "F_5023",
       "successRate": 0.64
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Hamilton's vampire squid",
+        "description": "Hamilton's vampire squid dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "大王酸浆鱿",
+        "description": "栖息于幽冥深海的大王酸浆鱿。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -839,7 +1119,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 278,
     "baseSwimSpeed": 28,
-    "baseCoinYield": 6,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -858,6 +1138,16 @@
       "parentA": "F_5027",
       "parentB": "F_5024",
       "successRate": 0.51
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Flying squid",
+        "description": "The flying squid dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "小飞象章鱼",
+        "description": "栖息于幽冥深海的小飞象章鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -869,7 +1159,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 736,
     "baseSwimSpeed": 28,
-    "baseCoinYield": 32,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -888,6 +1178,16 @@
       "parentA": "F_5019",
       "parentB": "F_5007",
       "successRate": 0.24
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Purple stinger",
+        "description": "The purple stinger dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "发光水母",
+        "description": "栖息于幽冥深海的发光水母。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -899,7 +1199,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 390,
     "baseSwimSpeed": 14,
-    "baseCoinYield": 11,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
       "primaryColor": "#23EB4B",
@@ -919,6 +1219,16 @@
       "parentA": "F_5007",
       "parentB": "F_5030",
       "successRate": 0.13
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Giant Styx jelly",
+        "description": "The giant Styx jelly dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "冥河水母",
+        "description": "栖息于幽冥深海的冥河水母。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -930,7 +1240,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 1457,
     "baseSwimSpeed": 40,
-    "baseCoinYield": 65,
+    "baseCoinYield": 23,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
       "primaryColor": "#26D8F1",
@@ -950,6 +1260,16 @@
       "parentA": "F_5016",
       "parentB": "F_5026",
       "successRate": 0.57
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Immortal jellyfish",
+        "description": "The immortal jellyfish dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "灯塔水母",
+        "description": "栖息于幽冥深海的灯塔水母。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -961,7 +1281,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 282,
     "baseSwimSpeed": 29,
-    "baseCoinYield": 9,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#4DF459",
@@ -980,6 +1300,16 @@
       "parentA": "F_5028",
       "parentB": "F_5022",
       "successRate": 0.5
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Giant oarfish",
+        "description": "The giant oarfish dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "皇带鱼",
+        "description": "栖息于幽冥深海的皇带鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -991,7 +1321,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 405,
     "baseSwimSpeed": 15,
-    "baseCoinYield": 8,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -1010,6 +1340,16 @@
       "parentA": "F_5033",
       "parentB": "F_5029",
       "successRate": 0.79
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Glass squid",
+        "description": "The glass squid dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "玻璃鱿鱼",
+        "description": "栖息于幽冥深海的玻璃鱿鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1021,7 +1361,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 167,
     "baseSwimSpeed": 21,
-    "baseCoinYield": 7,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -1039,6 +1379,16 @@
       "parentA": "F_5010",
       "parentB": "F_5016",
       "successRate": 0.39
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Vampire squid",
+        "description": "The vampire squid dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "幽灵蛸",
+        "description": "栖息于幽冥深海的幽灵蛸。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1050,7 +1400,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 632,
     "baseSwimSpeed": 29,
-    "baseCoinYield": 32,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#23A7EB",
@@ -1070,6 +1420,16 @@
       "parentA": "F_5012",
       "parentB": "F_5009",
       "successRate": 0.62
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Seven-arm octopus",
+        "description": "The seven-arm octopus dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "七臂章鱼",
+        "description": "栖息于幽冥深海的七臂章鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1081,7 +1441,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 166,
     "baseSwimSpeed": 29,
-    "baseCoinYield": 15,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#E4204C",
@@ -1100,6 +1460,16 @@
       "parentA": "F_5033",
       "parentB": "F_5029",
       "successRate": 0.12
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Giant squid",
+        "description": "The giant squid dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "大王乌贼",
+        "description": "栖息于幽冥深海的大王乌贼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1111,7 +1481,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 489,
     "baseSwimSpeed": 20,
-    "baseCoinYield": 8,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
       "primaryColor": "#48EE7F",
@@ -1131,6 +1501,16 @@
       "parentA": "F_5031",
       "parentB": "F_5024",
       "successRate": 0.44
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Siphonophore",
+        "description": "The siphonophore dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "深海管水母",
+        "description": "栖息于幽冥深海的深海管水母。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1142,7 +1522,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 435,
     "baseSwimSpeed": 19,
-    "baseCoinYield": 12,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#E844D1",
@@ -1161,6 +1541,16 @@
       "parentA": "F_5021",
       "parentB": "F_5037",
       "successRate": 0.43
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Whip-lash squid",
+        "description": "The whip-lash squid dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "鞭腕鱿",
+        "description": "栖息于幽冥深海的鞭腕鱿。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1172,7 +1562,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 131,
     "baseSwimSpeed": 23,
-    "baseCoinYield": 11,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#3220E4",
@@ -1191,6 +1581,16 @@
       "parentA": "F_5013",
       "parentB": "F_5011",
       "successRate": 0.8
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Hawaiian bobtail squid",
+        "description": "The Hawaiian bobtail squid dwells in the shadowy abyss, its unique light organ twinkling through the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "发光微鳍乌贼",
+        "description": "栖息于幽冥深海的发光微鳍乌贼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1202,7 +1602,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 633,
     "baseSwimSpeed": 34,
-    "baseCoinYield": 25,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
       "primaryColor": "#23E2EB",
@@ -1222,6 +1622,16 @@
       "parentA": "F_5005",
       "parentB": "F_5005",
       "successRate": 0.35
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Giant Siphonophore",
+        "description": "A giant siphonophore dwelling in the shadowy deep sea, its unique bioluminescent organs twinkling in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "巨型管水母",
+        "description": "栖息于幽冥深海的巨型管水母。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1233,7 +1643,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 407,
     "baseSwimSpeed": 14,
-    "baseCoinYield": 15,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
       "primaryColor": "#2423EB",
@@ -1253,6 +1663,16 @@
       "parentA": "F_5011",
       "parentB": "F_5012",
       "successRate": 0.6
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Deep-Sea Comb Jelly",
+        "description": "A deep-sea comb jelly dwelling in the shadowy deep sea, its unique bioluminescent organs twinkling in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "深海栉水母",
+        "description": "栖息于幽冥深海的深海栉水母。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1264,7 +1684,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 210,
     "baseSwimSpeed": 22,
-    "baseCoinYield": 12,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
       "primaryColor": "#2A65F8",
@@ -1284,6 +1704,16 @@
       "parentA": "F_5038",
       "parentB": "F_5025",
       "successRate": 0.77
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Blood-Bell Ctenophore",
+        "description": "A blood-bell ctenophore dwelling in the shadowy deep sea, its unique bioluminescent organs twinkling in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "血腹栉水母",
+        "description": "栖息于幽冥深海的血腹栉水母。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1295,7 +1725,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 2425,
     "baseSwimSpeed": 74,
-    "baseCoinYield": 105,
+    "baseCoinYield": 18,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
       "primaryColor": "#44B8E8",
@@ -1315,6 +1745,16 @@
       "parentA": "F_5004",
       "parentB": "F_5004",
       "successRate": 0.72
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Red-Chimney Ctenophore",
+        "description": "A red-chimney ctenophore dwelling in the shadowy deep sea, its unique bioluminescent organs twinkling in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "红烟囱水母",
+        "description": "栖息于幽冥深海的红烟囱水母。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1326,7 +1766,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 108,
     "baseSwimSpeed": 18,
-    "baseCoinYield": 14,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
       "primaryColor": "#C452F9",
@@ -1346,6 +1786,16 @@
       "parentA": "F_5002",
       "parentB": "F_5023",
       "successRate": 0.63
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Morphing Ctenophore",
+        "description": "A morphing ctenophore dwelling in the shadowy deep sea, its unique bioluminescent organs twinkling in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "异形水母",
+        "description": "栖息于幽冥深海的异形水母。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1357,7 +1807,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 385,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 10,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🪼",
     "visualBlueprint": {
       "primaryColor": "#352AF8",
@@ -1377,6 +1827,16 @@
       "parentA": "F_5044",
       "parentB": "F_5007",
       "successRate": 0.38
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Helmet Ctenophore",
+        "description": "A helmet ctenophore dwelling in the shadowy deep sea, its unique bioluminescent organs twinkling in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "盔水母",
+        "description": "栖息于幽冥深海的盔水母。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1388,7 +1848,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 928,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 34,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#E4202B",
@@ -1408,6 +1868,16 @@
       "parentA": "F_5028",
       "parentB": "F_5031",
       "successRate": 0.13
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Blind Cirrate Octopus",
+        "description": "A blind cirrate octopus dwelling in the shadowy deep sea, its unique bioluminescent organs twinkling in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "无眼章鱼",
+        "description": "栖息于幽冥深海的无眼章鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1419,7 +1889,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 1117,
     "baseSwimSpeed": 54,
-    "baseCoinYield": 60,
+    "baseCoinYield": 18,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#5048EE",
@@ -1439,6 +1909,16 @@
       "parentA": "F_5017",
       "parentB": "F_5033",
       "successRate": 0.32
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Glass Octopus",
+        "description": "A glass octopus dwelling in the shadowy deep sea, its unique bioluminescent organs twinkling in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "玻璃章鱼",
+        "description": "栖息于幽冥深海的玻璃章鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1450,7 +1930,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 306,
     "baseSwimSpeed": 21,
-    "baseCoinYield": 11,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#269CF1",
@@ -1470,6 +1950,16 @@
       "parentA": "F_5034",
       "parentB": "F_5015",
       "successRate": 0.73
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Telescope Octopus",
+        "description": "A telescope octopus dwelling in the shadowy deep sea, its unique bioluminescent organs twinkling in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "望远镜章鱼",
+        "description": "栖息于幽冥深海的望远镜章鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1481,7 +1971,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 619,
     "baseSwimSpeed": 36,
-    "baseCoinYield": 28,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#F82A48",
@@ -1500,6 +1990,16 @@
       "parentA": "F_5039",
       "parentB": "F_5017",
       "successRate": 0.9
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Deep-Sea Blanket Octopus",
+        "description": "A deep-sea blanket octopus dwelling in the shadowy deep sea, its unique bioluminescent organs twinkling in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "深海毯子章鱼",
+        "description": "栖息于幽冥深海的深海毯子章鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1511,7 +2011,7 @@
     "category": "深淵頭足綱與膠質幽靈",
     "hatchStepsRequired": 399,
     "baseSwimSpeed": 21,
-    "baseCoinYield": 9,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#E420D0",
@@ -1530,6 +2030,16 @@
       "parentA": "F_5028",
       "parentB": "F_5008",
       "successRate": 0.63
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Barreleye",
+        "description": "A barreleye dwelling in the shadowy deep sea, its unique bioluminescent organs twinkling in the eternal night."
+      },
+      "zh-Hans": {
+        "commonName": "深渊幽灵鱼",
+        "description": "栖息于幽冥深海的深渊幽灵鱼。其独特的发光器官能在永夜中闪烁。"
+      }
     }
   },
   {
@@ -1560,6 +2070,16 @@
       "parentA": "F_5011",
       "parentB": "F_5004",
       "successRate": 0.17
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Giant Tubeworm",
+        "description": "A giant tubeworm of the shadowy deep sea, evolved with specialized structures suited to extreme pressure, heat, and cold."
+      },
+      "zh-Hans": {
+        "commonName": "巨型管虫",
+        "description": "栖息于幽冥深海的巨型管虫。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -1571,7 +2091,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 217,
     "baseSwimSpeed": 21,
-    "baseCoinYield": 11,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -1589,6 +2109,16 @@
       "parentA": "F_5005",
       "parentB": "F_5037",
       "successRate": 0.25
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Yeti Crab",
+        "description": "A yeti crab of the shadowy deep sea, evolved with specialized structures suited to extreme pressure, heat, and cold."
+      },
+      "zh-Hans": {
+        "commonName": "雪人蟹",
+        "description": "栖息于幽冥深海的雪人蟹。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -1600,7 +2130,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 237,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 8,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐌",
     "visualBlueprint": {
       "primaryColor": "#52A5F9",
@@ -1618,6 +2148,16 @@
       "parentA": "F_5017",
       "parentB": "F_5034",
       "successRate": 0.17
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Scaly-Foot Snail",
+        "description": "A scaly-foot snail of the shadowy deep sea, evolved with specialized structures suited to extreme pressure, heat, and cold."
+      },
+      "zh-Hans": {
+        "commonName": "黄铁矿铁甲螺",
+        "description": "栖息于幽冥深海的黄铁矿铁甲螺。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -1629,7 +2169,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 457,
     "baseSwimSpeed": 18,
-    "baseCoinYield": 7,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#EE48D0",
@@ -1647,6 +2187,16 @@
       "parentA": "F_5041",
       "parentB": "F_5016",
       "successRate": 0.15
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Blind Vent Shrimp",
+        "description": "A blind vent shrimp of the shadowy deep sea, evolved with specialized structures suited to extreme pressure, heat, and cold."
+      },
+      "zh-Hans": {
+        "commonName": "热感盲虾",
+        "description": "栖息于幽冥深海的热感盲虾。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -1658,7 +2208,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 147,
     "baseSwimSpeed": 29,
-    "baseCoinYield": 9,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
       "primaryColor": "#20E49A",
@@ -1677,6 +2227,16 @@
       "parentA": "F_5016",
       "parentB": "F_5024",
       "successRate": 0.78
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Pompeii Worm",
+        "description": "A Pompeii worm of the shadowy deep sea, evolved with specialized structures suited to extreme pressure, heat, and cold."
+      },
+      "zh-Hans": {
+        "commonName": "庞贝蠕虫",
+        "description": "栖息于幽冥深海的庞贝蠕虫。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -1688,7 +2248,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 398,
     "baseSwimSpeed": 28,
-    "baseCoinYield": 5,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🌸",
     "visualBlueprint": {
       "primaryColor": "#E12AF8",
@@ -1707,6 +2267,16 @@
       "parentA": "F_5034",
       "parentB": "F_5046",
       "successRate": 0.68
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Lava Anemone",
+        "description": "A lava anemone of the shadowy deep sea, evolved with specialized structures suited to extreme pressure, heat, and cold."
+      },
+      "zh-Hans": {
+        "commonName": "熔岩海葵",
+        "description": "栖息于幽冥深海的熔岩海葵。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -1718,7 +2288,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 376,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 12,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -1736,6 +2306,16 @@
       "parentA": "F_5017",
       "parentB": "F_5012",
       "successRate": 0.33
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Yeti Crab",
+        "description": "A yeti crab of the shadowy deep sea, evolved with specialized structures suited to extreme pressure, heat, and cold."
+      },
+      "zh-Hans": {
+        "commonName": "硫化菌毛蟹",
+        "description": "栖息于幽冥深海的硫化菌毛蟹。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -1747,7 +2327,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 732,
     "baseSwimSpeed": 27,
-    "baseCoinYield": 26,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F44DA4",
@@ -1766,6 +2346,16 @@
       "parentA": "F_5034",
       "parentB": "F_5058",
       "successRate": 0.76
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Pink Vent Fish",
+        "description": "A pink vent fish of the shadowy deep sea, evolved with specialized structures suited to extreme pressure, heat, and cold."
+      },
+      "zh-Hans": {
+        "commonName": "火山口盲鱼",
+        "description": "栖息于幽冥深海的火山口盲鱼。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -1777,7 +2367,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 127,
     "baseSwimSpeed": 23,
-    "baseCoinYield": 13,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
       "primaryColor": "#23EB8F",
@@ -1796,6 +2386,16 @@
       "parentA": "F_5030",
       "parentB": "F_5008",
       "successRate": 0.15
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Abyssal Polychaete",
+        "description": "An abyssal polychaete of the shadowy deep sea, evolved with specialized structures suited to extreme pressure, heat, and cold."
+      },
+      "zh-Hans": {
+        "commonName": "深渊多毛类",
+        "description": "栖息于幽冥深海的深渊多毛类。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -1807,7 +2407,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 1168,
     "baseSwimSpeed": 60,
-    "baseCoinYield": 61,
+    "baseCoinYield": 27,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#20E492",
@@ -1826,6 +2426,16 @@
       "parentA": "F_5039",
       "parentB": "F_5024",
       "successRate": 0.3
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Shinkaia",
+        "description": "A shinkaia dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "白瓷蟹",
+        "description": "栖息于幽冥深海的白瓷蟹。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -1837,7 +2447,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 400,
     "baseSwimSpeed": 21,
-    "baseCoinYield": 12,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦪",
     "visualBlueprint": {
       "primaryColor": "#BF2AF8",
@@ -1856,6 +2466,16 @@
       "parentA": "F_5026",
       "parentB": "F_5053",
       "successRate": 0.52
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Vent Mussel",
+        "description": "A vent mussel dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "喷口贻贝",
+        "description": "栖息于幽冥深海的喷口贻贝。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -1867,7 +2487,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 352,
     "baseSwimSpeed": 15,
-    "baseCoinYield": 6,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦪",
     "visualBlueprint": {
       "primaryColor": "#8A44E8",
@@ -1886,6 +2506,16 @@
       "parentA": "F_5029",
       "parentB": "F_5055",
       "successRate": 0.43
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Calyptogena",
+        "description": "A calyptogena mussel dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "白瓜贝",
+        "description": "栖息于幽冥深海的白瓜贝。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -1897,7 +2527,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 278,
     "baseSwimSpeed": 29,
-    "baseCoinYield": 8,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🌋",
     "visualBlueprint": {
       "primaryColor": "#48D2EE",
@@ -1916,6 +2546,16 @@
       "parentA": "F_5003",
       "parentB": "F_5057",
       "successRate": 0.44
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Vent Limpet",
+        "description": "A vent limpet dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "热液藤壶",
+        "description": "栖息于幽冥深海的热液藤壶。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -1927,7 +2567,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 280,
     "baseSwimSpeed": 17,
-    "baseCoinYield": 15,
+    "baseCoinYield": 5,
     "emojiOrSprite": "⭐",
     "visualBlueprint": {
       "primaryColor": "#F952D3",
@@ -1946,6 +2586,16 @@
       "parentA": "F_5045",
       "parentB": "F_5044",
       "successRate": 0.35
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Paulasterias",
+        "description": "A paulasterias sea star dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "黑烟囱海星",
+        "description": "栖息于幽冥深海的黑烟囱海星。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -1957,7 +2607,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 485,
     "baseSwimSpeed": 22,
-    "baseCoinYield": 15,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🌸",
     "visualBlueprint": {
       "primaryColor": "#F82AAF",
@@ -1975,6 +2625,16 @@
       "parentA": "F_5065",
       "parentB": "F_5013",
       "successRate": 0.5
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Vent Sea Lily",
+        "description": "A vent sea lily dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "热液海百合",
+        "description": "栖息于幽冥深海的热液海百合。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -1986,7 +2646,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 401,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 10,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#52F96D",
@@ -2004,6 +2664,16 @@
       "parentA": "F_5047",
       "parentB": "F_5003",
       "successRate": 0.42
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Munidopsis",
+        "description": "A munidopsis squat lobster dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "盲眼铠甲虾",
+        "description": "栖息于幽冥深海的盲眼铠甲虾。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2015,7 +2685,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 949,
     "baseSwimSpeed": 25,
-    "baseCoinYield": 30,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🕷️",
     "visualBlueprint": {
       "primaryColor": "#2AF8D5",
@@ -2034,6 +2704,16 @@
       "parentA": "F_5008",
       "parentB": "F_5007",
       "successRate": 0.36
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Vent Sea Spider",
+        "description": "A vent sea spider dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "喷口海蜘蛛",
+        "description": "栖息于幽冥深海的喷口海蜘蛛。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2045,7 +2725,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 160,
     "baseSwimSpeed": 24,
-    "baseCoinYield": 12,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
       "primaryColor": "#26F1E1",
@@ -2064,6 +2744,16 @@
       "parentA": "F_5042",
       "parentB": "F_5068",
       "successRate": 0.39
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Vent Nematode",
+        "description": "A vent nematode dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "热液线虫",
+        "description": "栖息于幽冥深海的热液线虫。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2075,7 +2765,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 624,
     "baseSwimSpeed": 28,
-    "baseCoinYield": 35,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🦠",
     "visualBlueprint": {
       "primaryColor": "#634DF4",
@@ -2094,6 +2784,16 @@
       "parentA": "F_5055",
       "parentB": "F_5005",
       "successRate": 0.66
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Sulfur Bacterial Mat",
+        "description": "A sulfur bacterial mat dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "硫磺细菌毯",
+        "description": "栖息于幽冥深海的硫磺细菌毯。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2105,7 +2805,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 239,
     "baseSwimSpeed": 19,
-    "baseCoinYield": 8,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#F82AAF",
@@ -2125,6 +2825,16 @@
       "parentA": "F_5016",
       "parentB": "F_5044",
       "successRate": 0.27
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Vent Octopus",
+        "description": "A vent octopus dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "热液章鱼",
+        "description": "栖息于幽冥深海的热液章鱼。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2136,7 +2846,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 685,
     "baseSwimSpeed": 35,
-    "baseCoinYield": 32,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#F82A3F",
@@ -2155,6 +2865,16 @@
       "parentA": "F_5045",
       "parentB": "F_5020",
       "successRate": 0.36
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Squat Lobster",
+        "description": "A squat lobster dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "深海铠甲虾",
+        "description": "栖息于幽冥深海的深海铠甲虾。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2166,7 +2886,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 878,
     "baseSwimSpeed": 37,
-    "baseCoinYield": 28,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐌",
     "visualBlueprint": {
       "primaryColor": "#20E471",
@@ -2185,6 +2905,16 @@
       "parentA": "F_5014",
       "parentB": "F_5054",
       "successRate": 0.3
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Ifremeria",
+        "description": "An ifremeria vent snail dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "喷口海蜗牛",
+        "description": "栖息于幽冥深海的喷口海蜗牛。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2196,7 +2926,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 306,
     "baseSwimSpeed": 19,
-    "baseCoinYield": 7,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐌",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -2214,6 +2944,16 @@
       "parentA": "F_5051",
       "parentB": "F_5051",
       "successRate": 0.83
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Nudibranch",
+        "description": "A nudibranch dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "火山口海蛞蝓",
+        "description": "栖息于幽冥深海的火山口海蛞蝓。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2225,7 +2965,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 761,
     "baseSwimSpeed": 45,
-    "baseCoinYield": 27,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
       "primaryColor": "#4487E8",
@@ -2244,6 +2984,16 @@
       "parentA": "F_5024",
       "parentB": "F_5044",
       "successRate": 0.14
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Paralvinella",
+        "description": "A paralvinella vent isopod dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "高温热液虫",
+        "description": "栖息于幽冥深海的高温热液虫。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2255,7 +3005,7 @@
     "category": "熱液噴口黑煙囪特化生命",
     "hatchStepsRequired": 1458,
     "baseSwimSpeed": 54,
-    "baseCoinYield": 63,
+    "baseCoinYield": 25,
     "emojiOrSprite": "🐌",
     "visualBlueprint": {
       "primaryColor": "#6823EB",
@@ -2274,6 +3024,16 @@
       "parentA": "F_5069",
       "parentB": "F_5061",
       "successRate": 0.41
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Scaly-Foot Snail",
+        "description": "A scaly-foot snail dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "铁鳞蜗牛",
+        "description": "栖息于幽冥深海的铁鳞蜗牛。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2285,7 +3045,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 899,
     "baseSwimSpeed": 45,
-    "baseCoinYield": 26,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🪲",
     "visualBlueprint": {
       "primaryColor": "#9C2AF8",
@@ -2304,6 +3064,16 @@
       "parentA": "F_5013",
       "parentB": "F_5037",
       "successRate": 0.47
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Giant Isopod",
+        "description": "A giant isopod dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "大王具足虫",
+        "description": "栖息于幽冥深海的大王具足虫。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2315,7 +3085,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 329,
     "baseSwimSpeed": 24,
-    "baseCoinYield": 8,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐍",
     "visualBlueprint": {
       "primaryColor": "#B620E4",
@@ -2334,6 +3104,16 @@
       "parentA": "F_5043",
       "parentB": "F_5074",
       "successRate": 0.3
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Blind Myxine",
+        "description": "A blind myxine dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "深海盲鳗",
+        "description": "栖息于幽冥深海的深海盲鳗。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2345,7 +3125,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 348,
     "baseSwimSpeed": 18,
-    "baseCoinYield": 11,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -2364,6 +3144,16 @@
       "parentA": "F_5029",
       "parentB": "F_5077",
       "successRate": 0.84
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Frilled Shark",
+        "description": "A frilled shark dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "皱鳃鲨",
+        "description": "栖息于幽冥深海的皱鳃鲨。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2375,7 +3165,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 1121,
     "baseSwimSpeed": 57,
-    "baseCoinYield": 59,
+    "baseCoinYield": 24,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#44E851",
@@ -2394,6 +3184,16 @@
       "parentA": "F_5036",
       "parentB": "F_5063",
       "successRate": 0.42
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Goblin Shark",
+        "description": "A goblin shark dwelling in the abyssal deep sea, with specialized structures evolved to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "欧氏尖吻鲛",
+        "description": "栖息于幽冥深海的欧氏尖吻鲛。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2405,7 +3205,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 125,
     "baseSwimSpeed": 21,
-    "baseCoinYield": 14,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#F82A8D",
@@ -2424,6 +3224,16 @@
       "parentA": "F_5070",
       "parentB": "F_5074",
       "successRate": 0.33
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Deep-Sea Rock Crab",
+        "description": "A deep-sea rock crab that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "深海怪蟹",
+        "description": "栖息于幽冥深海的深海怪蟹。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2435,7 +3245,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 1357,
     "baseSwimSpeed": 40,
-    "baseCoinYield": 63,
+    "baseCoinYield": 25,
     "emojiOrSprite": "🧽",
     "visualBlueprint": {
       "primaryColor": "#23EBA8",
@@ -2454,6 +3264,16 @@
       "parentA": "F_5081",
       "parentB": "F_5024",
       "successRate": 0.22
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Deep-Sea Flower Basket Sponge",
+        "description": "A flower basket sponge that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "深海海绵花篮",
+        "description": "栖息于幽冥深海的深海海绵花篮。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2465,7 +3285,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 156,
     "baseSwimSpeed": 22,
-    "baseCoinYield": 13,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#6426F1",
@@ -2485,6 +3305,16 @@
       "parentA": "F_5020",
       "parentB": "F_5014",
       "successRate": 0.73
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Deep-Sea Ghost Shark",
+        "description": "A ghost shark that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "深海幽灵鲨",
+        "description": "栖息于幽冥深海的深海幽灵鲨。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2496,7 +3326,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 453,
     "baseSwimSpeed": 19,
-    "baseCoinYield": 5,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🕷️",
     "visualBlueprint": {
       "primaryColor": "#48B6EE",
@@ -2514,6 +3344,16 @@
       "parentA": "F_5031",
       "parentB": "F_5030",
       "successRate": 0.29
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Ghost Sea Spider",
+        "description": "A ghost sea spider that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "幽灵海蜘蛛",
+        "description": "栖息于幽冥深海的幽灵海蜘蛛。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2525,7 +3365,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 394,
     "baseSwimSpeed": 30,
-    "baseCoinYield": 8,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#52D6F9",
@@ -2544,6 +3384,16 @@
       "parentA": "F_5007",
       "parentB": "F_5067",
       "successRate": 0.54
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Giant Isopod",
+        "description": "A giant isopod that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "巨型端足虫",
+        "description": "栖息于幽冥深海的巨型端足虫。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2555,7 +3405,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 389,
     "baseSwimSpeed": 29,
-    "baseCoinYield": 9,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#E62E97",
@@ -2575,6 +3425,16 @@
       "parentA": "F_5069",
       "parentB": "F_5010",
       "successRate": 0.78
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Blind-Eyed Lobster",
+        "description": "A blind-lobster that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "盲眼龙虾",
+        "description": "栖息于幽冥深海的盲眼龙虾。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2586,7 +3446,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 466,
     "baseSwimSpeed": 19,
-    "baseCoinYield": 5,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🥒",
     "visualBlueprint": {
       "primaryColor": "#48EEBE",
@@ -2605,6 +3465,16 @@
       "parentA": "F_5083",
       "parentB": "F_5070",
       "successRate": 0.11
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Abyssal Sea Cucumber",
+        "description": "An abyssal sea cucumber that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "深渊海参",
+        "description": "栖息于幽冥深海的深渊海参。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2616,7 +3486,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 331,
     "baseSwimSpeed": 14,
-    "baseCoinYield": 12,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🌰",
     "visualBlueprint": {
       "primaryColor": "#EB23E7",
@@ -2635,6 +3505,16 @@
       "parentA": "F_5011",
       "parentB": "F_5055",
       "successRate": 0.78
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Deep-Sea Urchin",
+        "description": "A deep-sea urchin that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "深海海胆",
+        "description": "栖息于幽冥深海的深海海胆。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2646,7 +3526,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 108,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 10,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🪲",
     "visualBlueprint": {
       "primaryColor": "#E4208E",
@@ -2665,6 +3545,16 @@
       "parentA": "F_5079",
       "parentB": "F_5019",
       "successRate": 0.42
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Armored Woodlouse",
+        "description": "An armored woodlouse that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "铠甲弓背虫",
+        "description": "栖息于幽冥深海的铠甲弓背虫。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2676,7 +3566,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 461,
     "baseSwimSpeed": 29,
-    "baseCoinYield": 6,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🕷️",
     "visualBlueprint": {
       "primaryColor": "#26B6F1",
@@ -2695,6 +3585,16 @@
       "parentA": "F_5034",
       "parentB": "F_5029",
       "successRate": 0.84
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Giant Sea Spider",
+        "description": "A giant sea spider that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "巨型海蜘蛛",
+        "description": "栖息于幽冥深海的巨型海蜘蛛。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2706,7 +3606,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 192,
     "baseSwimSpeed": 16,
-    "baseCoinYield": 10,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#E844B5",
@@ -2725,6 +3625,16 @@
       "parentA": "F_5053",
       "parentB": "F_5066",
       "successRate": 0.52
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Deep-Sea Slipper Crab",
+        "description": "A deep-sea slipper crab that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "深海异尾蟹",
+        "description": "栖息于幽冥深海的深海异尾蟹。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2736,7 +3646,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 129,
     "baseSwimSpeed": 18,
-    "baseCoinYield": 11,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🦐",
     "visualBlueprint": {
       "primaryColor": "#E8449A",
@@ -2755,6 +3665,16 @@
       "parentA": "F_5044",
       "parentB": "F_5053",
       "successRate": 0.44
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Abyssal Squat Lobster",
+        "description": "An abyssal squat lobster that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "深渊铠甲虾",
+        "description": "栖息于幽冥深海的深渊铠甲虾。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2766,7 +3686,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 1414,
     "baseSwimSpeed": 47,
-    "baseCoinYield": 62,
+    "baseCoinYield": 25,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F82F2A",
@@ -2785,6 +3705,16 @@
       "parentA": "F_5081",
       "parentB": "F_5085",
       "successRate": 0.43
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Mariana Lionfish",
+        "description": "A Mariana lionfish that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "马里亚纳狮子鱼",
+        "description": "栖息于幽冥深海的马里亚纳狮子鱼。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2796,7 +3726,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 189,
     "baseSwimSpeed": 21,
-    "baseCoinYield": 8,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F44DA4",
@@ -2815,6 +3745,16 @@
       "parentA": "F_5073",
       "parentB": "F_5003",
       "successRate": 0.7
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Faceless Fish",
+        "description": "A faceless fish that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "无面鱼",
+        "description": "栖息于幽冥深海的无面鱼。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2826,7 +3766,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 197,
     "baseSwimSpeed": 23,
-    "baseCoinYield": 6,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F82A62",
@@ -2845,6 +3785,16 @@
       "parentA": "F_5092",
       "parentB": "F_5011",
       "successRate": 0.83
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Deep-Sea Sculpin",
+        "description": "A deep-sea sculpin that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "深海狗母鱼",
+        "description": "栖息于幽冥深海的深海狗母鱼。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2856,7 +3806,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 377,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 10,
+    "baseCoinYield": 5,
     "emojiOrSprite": "⭐",
     "visualBlueprint": {
       "primaryColor": "#F952A2",
@@ -2875,6 +3825,16 @@
       "parentA": "F_5069",
       "parentB": "F_5015",
       "successRate": 0.44
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Abyssal Brittle Star",
+        "description": "An abyssal brittle star that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "深渊海蛇尾",
+        "description": "栖息于幽冥深海的深渊海蛇尾。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2886,7 +3846,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 414,
     "baseSwimSpeed": 28,
-    "baseCoinYield": 13,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🪱",
     "visualBlueprint": {
       "primaryColor": "#44B8E8",
@@ -2905,6 +3865,16 @@
       "parentA": "F_5036",
       "parentB": "F_5046",
       "successRate": 0.59
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Bone-Eating Worm",
+        "description": "A bone-eating worm that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "食骨蠕虫",
+        "description": "栖息于幽冥深海的食骨蠕虫。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2916,7 +3886,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 801,
     "baseSwimSpeed": 37,
-    "baseCoinYield": 34,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F44DDC",
@@ -2935,6 +3905,16 @@
       "parentA": "F_5032",
       "parentB": "F_5055",
       "successRate": 0.71
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Blind-Eyed Cusk Eel",
+        "description": "A blind-eeled cusk eel that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "盲眼鼬鱼",
+        "description": "栖息于幽冥深海的盲眼鼬鱼。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2946,7 +3926,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 254,
     "baseSwimSpeed": 15,
-    "baseCoinYield": 13,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🧽",
     "visualBlueprint": {
       "primaryColor": "#262DF1",
@@ -2965,6 +3945,16 @@
       "parentA": "F_5094",
       "parentB": "F_5054",
       "successRate": 0.55
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Tubular Sponge",
+        "description": "A tubular sponge that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "管状海绵",
+        "description": "栖息于幽冥深海的管状海绵。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -2976,7 +3966,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 757,
     "baseSwimSpeed": 36,
-    "baseCoinYield": 27,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#233AEB",
@@ -2995,6 +3985,16 @@
       "parentA": "F_5015",
       "parentB": "F_5016",
       "successRate": 0.55
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Abyssal Bottom-Fish",
+        "description": "An abyssal bottom-fish that dwells in the dark abyss and has evolved specialized structures to withstand extreme pressure, heat, or cold."
+      },
+      "zh-Hans": {
+        "commonName": "深海底栖鱼",
+        "description": "栖息于幽冥深海的深海底栖鱼。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   },
   {
@@ -3006,7 +4006,7 @@
     "category": "萬米沉積與甲殼奇觀",
     "hatchStepsRequired": 851,
     "baseSwimSpeed": 26,
-    "baseCoinYield": 25,
+    "baseCoinYield": 8,
     "emojiOrSprite": "⭐",
     "visualBlueprint": {
       "primaryColor": "#E444E8",
@@ -3025,6 +4025,16 @@
       "parentA": "F_5016",
       "parentB": "F_5007",
       "successRate": 0.57
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Silt-Feeder Starfish",
+        "description": "A silt-feeder starfish of the lightless deep sea, with specialized structures evolved to endure extreme pressure, heat, and cold."
+      },
+      "zh-Hans": {
+        "commonName": "沉积物食客海星",
+        "description": "栖息于幽冥深海的沉积物食客海星。演化出适应极端高压、高温或寒冷的特化结构。"
+      }
     }
   }
 ]

@@ -8,7 +8,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 1924,
     "baseSwimSpeed": 0.61,
-    "baseCoinYield": 150,
+    "baseCoinYield": 21,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -23,7 +23,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Poseidon's Trident Barracuda",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Poseidon Trident Barracuda."
+      },
+      "zh-Hans": {
+        "commonName": "波赛顿三叉戟金枪",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 波赛顿三叉戟金枪。"
+      }
+    }
   },
   {
     "id": "myth_002",
@@ -34,7 +44,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 3757,
     "baseSwimSpeed": 1.13,
-    "baseCoinYield": 62,
+    "baseCoinYield": 24,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#4C1D95",
@@ -51,7 +61,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Siren Sea Monster",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Siren Sea Monster."
+      },
+      "zh-Hans": {
+        "commonName": "塞壬海妖",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 塞壬海妖。"
+      }
+    }
   },
   {
     "id": "myth_003",
@@ -62,7 +82,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 9035,
     "baseSwimSpeed": 0.89,
-    "baseCoinYield": 226,
+    "baseCoinYield": 19,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -79,7 +99,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Nine-Headed Hydra Serpent Fish",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Nine-Headed Hydra Serpent Fish."
+      },
+      "zh-Hans": {
+        "commonName": "许德拉九头蛇鱼",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 许德拉九头蛇鱼。"
+      }
+    }
   },
   {
     "id": "myth_004",
@@ -90,7 +120,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 588,
     "baseSwimSpeed": 0.92,
-    "baseCoinYield": 129,
+    "baseCoinYield": 29,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -107,7 +137,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Divine Sea Horse",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Divine Sea Horse."
+      },
+      "zh-Hans": {
+        "commonName": "海马神骏",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 海马神骏。"
+      }
+    }
   },
   {
     "id": "myth_005",
@@ -118,7 +158,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 9963,
     "baseSwimSpeed": 0.62,
-    "baseCoinYield": 111,
+    "baseCoinYield": 18,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#15803D",
@@ -135,7 +175,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Delphinus Messenger",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Delphinus Messenger."
+      },
+      "zh-Hans": {
+        "commonName": "海豚座使者",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 海豚座使者。"
+      }
+    }
   },
   {
     "id": "myth_006",
@@ -146,7 +196,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 9028,
     "baseSwimSpeed": 2.39,
-    "baseCoinYield": 239,
+    "baseCoinYield": 16,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#991B1B",
@@ -163,7 +213,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Charybdis Whirlpool",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Charybdis Whirlpool."
+      },
+      "zh-Hans": {
+        "commonName": "卡律布狄斯漩涡",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 卡律布狄斯漩涡。"
+      }
+    }
   },
   {
     "id": "myth_007",
@@ -174,7 +234,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 4657,
     "baseSwimSpeed": 4.14,
-    "baseCoinYield": 13,
+    "baseCoinYield": 26,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#0369A1",
@@ -191,7 +251,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Scylla Sea Monster",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Scylla Sea Monster."
+      },
+      "zh-Hans": {
+        "commonName": "斯库拉海怪",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 斯库拉海怪。"
+      }
+    }
   },
   {
     "id": "myth_008",
@@ -202,7 +272,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 7024,
     "baseSwimSpeed": 2.03,
-    "baseCoinYield": 89,
+    "baseCoinYield": 30,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#74261B",
@@ -220,7 +290,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Nereus Prophet",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Nereus Prophet."
+      },
+      "zh-Hans": {
+        "commonName": "涅柔斯先知",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 涅柔斯先知。"
+      }
+    }
   },
   {
     "id": "myth_009",
@@ -231,7 +311,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 6324,
     "baseSwimSpeed": 0.94,
-    "baseCoinYield": 443,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -248,7 +328,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Hades' Sea Monster",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Hades Sea Monster."
+      },
+      "zh-Hans": {
+        "commonName": "黑帝斯海妖",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 黑帝斯海妖。"
+      }
+    }
   },
   {
     "id": "myth_010",
@@ -259,7 +349,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 7627,
     "baseSwimSpeed": 2.91,
-    "baseCoinYield": 482,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -276,7 +366,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Zeus' Messenger",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Zeus Messenger."
+      },
+      "zh-Hans": {
+        "commonName": "宙斯使者",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 宙斯使者。"
+      }
+    }
   },
   {
     "id": "myth_011",
@@ -287,7 +387,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 6025,
     "baseSwimSpeed": 3.1,
-    "baseCoinYield": 370,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#1A6481",
@@ -304,7 +404,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Aegean Sea Bream",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Aegean Sea Bream."
+      },
+      "zh-Hans": {
+        "commonName": "爱琴海海鲈",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 爱琴海海鲈。"
+      }
+    }
   },
   {
     "id": "myth_012",
@@ -315,7 +425,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 4841,
     "baseSwimSpeed": 4.93,
-    "baseCoinYield": 447,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -332,7 +442,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Olympus Star Shark",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Olympus Star Shark."
+      },
+      "zh-Hans": {
+        "commonName": "奥林帕斯星鲨",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 奥林帕斯星鲨。"
+      }
+    }
   },
   {
     "id": "myth_013",
@@ -343,7 +463,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 7528,
     "baseSwimSpeed": 3.36,
-    "baseCoinYield": 196,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#031988",
@@ -361,7 +481,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Aegean Sea Monster",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Aegean Sea Monster."
+      },
+      "zh-Hans": {
+        "commonName": "爱琴海海怪",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 爱琴海海怪。"
+      }
+    }
   },
   {
     "id": "myth_014",
@@ -372,7 +502,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 4474,
     "baseSwimSpeed": 3.66,
-    "baseCoinYield": 359,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#441B4B",
@@ -390,7 +520,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Hades' Whirlpool",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Hades Whirlpool."
+      },
+      "zh-Hans": {
+        "commonName": "黑帝斯漩涡",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 黑帝斯漩涡。"
+      }
+    }
   },
   {
     "id": "myth_015",
@@ -401,7 +541,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 2903,
     "baseSwimSpeed": 2.9,
-    "baseCoinYield": 135,
+    "baseCoinYield": 19,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#1B4B4B",
@@ -419,7 +559,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Aegean Divine Carp",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Aegean Divine Carp."
+      },
+      "zh-Hans": {
+        "commonName": "爱琴海神鲤",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 爱琴海神鲤。"
+      }
+    }
   },
   {
     "id": "myth_016",
@@ -430,7 +580,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 9225,
     "baseSwimSpeed": 1.49,
-    "baseCoinYield": 176,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#5AB40E",
@@ -448,7 +598,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Hera's Sea Monster",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Hera Sea Monster."
+      },
+      "zh-Hans": {
+        "commonName": "赫拉海怪",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 赫拉海怪。"
+      }
+    }
   },
   {
     "id": "myth_017",
@@ -459,7 +619,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 6672,
     "baseSwimSpeed": 1.7,
-    "baseCoinYield": 118,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#FB9800",
@@ -476,7 +636,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Athena's Golden Barracuda",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Athena Golden Barracuda."
+      },
+      "zh-Hans": {
+        "commonName": "雅典娜金枪",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 雅典娜金枪。"
+      }
+    }
   },
   {
     "id": "myth_018",
@@ -487,7 +657,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 8279,
     "baseSwimSpeed": 2.28,
-    "baseCoinYield": 478,
+    "baseCoinYield": 26,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#181C4E",
@@ -505,7 +675,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Hades' Divine Steed",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Hades Divine Steed."
+      },
+      "zh-Hans": {
+        "commonName": "黑帝斯神骏",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 黑帝斯神骏。"
+      }
+    }
   },
   {
     "id": "myth_019",
@@ -516,7 +696,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 2387,
     "baseSwimSpeed": 1.61,
-    "baseCoinYield": 297,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#16A207",
@@ -534,7 +714,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Hera's Serpent Fish",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Hera Serpent Fish."
+      },
+      "zh-Hans": {
+        "commonName": "赫拉蛇鱼",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 赫拉蛇鱼。"
+      }
+    }
   },
   {
     "id": "myth_020",
@@ -545,7 +735,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 7119,
     "baseSwimSpeed": 4.54,
-    "baseCoinYield": 214,
+    "baseCoinYield": 22,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#4C1D95",
@@ -562,7 +752,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Apollo's Thunder Ray",
+        "description": "A mythical fish species from the Greek-Roman hall of sea gods — the Apollo Thunder Ray."
+      },
+      "zh-Hans": {
+        "commonName": "阿波罗雷𫚉",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 阿波罗雷𫚉。"
+      }
+    }
   },
   {
     "id": "myth_021",
@@ -573,7 +773,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 8185,
     "baseSwimSpeed": 0.91,
-    "baseCoinYield": 34,
+    "baseCoinYield": 29,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#165018",
@@ -591,7 +791,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Athena Serpentfish",
+        "description": "A mythical fish species from the Greek-Roman hall of sea deities — the Athena Serpentfish."
+      },
+      "zh-Hans": {
+        "commonName": "雅典娜蛇鱼",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 雅典娜蛇鱼。"
+      }
+    }
   },
   {
     "id": "myth_022",
@@ -602,7 +812,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 7016,
     "baseSwimSpeed": 3.18,
-    "baseCoinYield": 207,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -619,7 +829,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Myth Starshark",
+        "description": "A mythical fish species from the Greek-Roman hall of sea deities — the Myth Starshark."
+      },
+      "zh-Hans": {
+        "commonName": "神话星鲨",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 神话星鲨。"
+      }
+    }
   },
   {
     "id": "myth_023",
@@ -630,7 +850,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 4219,
     "baseSwimSpeed": 4.87,
-    "baseCoinYield": 450,
+    "baseCoinYield": 16,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0D834F",
@@ -648,7 +868,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Zeus Oracle",
+        "description": "A mythical fish species from the Greek-Roman hall of sea deities — the Zeus Oracle."
+      },
+      "zh-Hans": {
+        "commonName": "宙斯先知",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 宙斯先知。"
+      }
+    }
   },
   {
     "id": "myth_024",
@@ -659,7 +889,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 8897,
     "baseSwimSpeed": 3.88,
-    "baseCoinYield": 403,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#991B1B",
@@ -676,7 +906,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Dionysus Thunder Ray",
+        "description": "A mythical fish species from the Greek-Roman hall of sea deities — the Dionysus Thunder Ray."
+      },
+      "zh-Hans": {
+        "commonName": "戴奥尼索斯雷𫚉",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 戴奥尼索斯雷𫚉。"
+      }
+    }
   },
   {
     "id": "myth_025",
@@ -687,7 +927,7 @@
     "category": "希臘羅馬海神殿堂",
     "hatchStepsRequired": 7533,
     "baseSwimSpeed": 0.51,
-    "baseCoinYield": 379,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#03B008",
@@ -705,7 +945,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Apollo Sea Monster",
+        "description": "A mythical fish species from the Greek-Roman hall of sea deities — the Apollo Sea Monster."
+      },
+      "zh-Hans": {
+        "commonName": "阿波罗海怪",
+        "description": "来自 希腊罗马海神殿堂 的神话鱼种 - 阿波罗海怪。"
+      }
+    }
   },
   {
     "id": "myth_026",
@@ -716,7 +966,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 8301,
     "baseSwimSpeed": 3.93,
-    "baseCoinYield": 269,
+    "baseCoinYield": 23,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#771980",
@@ -734,7 +984,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Jörmungandr World Serpent",
+        "description": "A mythical fish species from the Norse Nine Realms and the World Serpent — the Jörmungandr World Serpent."
+      },
+      "zh-Hans": {
+        "commonName": "世界之蛇耶梦加得",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 世界之蛇耶梦加得。"
+      }
+    }
   },
   {
     "id": "myth_027",
@@ -745,7 +1005,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 4989,
     "baseSwimSpeed": 4.29,
-    "baseCoinYield": 269,
+    "baseCoinYield": 25,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#16502C",
@@ -763,7 +1023,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Yggdrasil Watersprite",
+        "description": "A mythical fish species from the Norse Nine Realms and the World Serpent — the Yggdrasil Watersprite."
+      },
+      "zh-Hans": {
+        "commonName": "世界之树水灵",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 世界之树水灵。"
+      }
+    }
   },
   {
     "id": "myth_028",
@@ -774,7 +1044,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 3358,
     "baseSwimSpeed": 1.19,
-    "baseCoinYield": 400,
+    "baseCoinYield": 20,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#9C0892",
@@ -792,7 +1062,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "North Sea Kraken",
+        "description": "A mythical fish species from the Norse Nine Realms and the World Serpent — the North Sea Kraken."
+      },
+      "zh-Hans": {
+        "commonName": "北海巨妖克拉肯",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 北海巨妖克拉肯。"
+      }
+    }
   },
   {
     "id": "myth_029",
@@ -803,7 +1083,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 8937,
     "baseSwimSpeed": 4.79,
-    "baseCoinYield": 482,
+    "baseCoinYield": 23,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#103376",
@@ -821,7 +1101,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Valkyrie Wingfish",
+        "description": "A mythical fish species from the Norse Nine Realms and the World Serpent — the Valkyrie Wingfish."
+      },
+      "zh-Hans": {
+        "commonName": "女武神飞翼鱼",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 女武神飞翼鱼。"
+      }
+    }
   },
   {
     "id": "myth_030",
@@ -832,7 +1122,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 109,
     "baseSwimSpeed": 3.2,
-    "baseCoinYield": 260,
+    "baseCoinYield": 20,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -849,7 +1139,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Fenrir Frostwolf Whiteshark",
+        "description": "A mythical fish species from the Norse Nine Realms and the World Serpent — the Fenrir Frostwolf Whiteshark."
+      },
+      "zh-Hans": {
+        "commonName": "芬里尔霜狼白鲨",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 芬里尔霜狼白鲨。"
+      }
+    }
   },
   {
     "id": "myth_031",
@@ -860,7 +1160,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 1932,
     "baseSwimSpeed": 4.68,
-    "baseCoinYield": 459,
+    "baseCoinYield": 24,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#7C07A2",
@@ -878,7 +1178,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Bifrost Sea Angel",
+        "description": "A mythical fish species from the Norse Nine Realms and the World Serpent — the Bifrost Sea Angel."
+      },
+      "zh-Hans": {
+        "commonName": "彩虹桥海天使",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 彩虹桥海天使。"
+      }
+    }
   },
   {
     "id": "myth_032",
@@ -889,7 +1199,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 4023,
     "baseSwimSpeed": 0.76,
-    "baseCoinYield": 459,
+    "baseCoinYield": 21,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -906,7 +1216,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Nidhogg Black Dragonfish",
+        "description": "A mythical fish species from the Norse Nine Realms and the World Serpent — the Nidhogg Black Dragonfish."
+      },
+      "zh-Hans": {
+        "commonName": "尼德霍格黑龙鱼",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 尼德霍格黑龙鱼。"
+      }
+    }
   },
   {
     "id": "myth_033",
@@ -917,7 +1237,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 8062,
     "baseSwimSpeed": 4.17,
-    "baseCoinYield": 399,
+    "baseCoinYield": 19,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#184E2F",
@@ -935,7 +1255,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Vanaheim Sea Monster",
+        "description": "A mythical fish species from the Norse Nine Realms and the World Serpent — the Vanaheim Sea Monster."
+      },
+      "zh-Hans": {
+        "commonName": "华纳海姆巨妖",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 华纳海姆巨妖。"
+      }
+    }
   },
   {
     "id": "myth_034",
@@ -946,7 +1276,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 7887,
     "baseSwimSpeed": 4.76,
-    "baseCoinYield": 94,
+    "baseCoinYield": 25,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#8E8E0B",
@@ -964,7 +1294,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Midgard Wingfish",
+        "description": "A mythical fish species from the Norse Nine Realms and the World Serpent — the Midgard Wingfish."
+      },
+      "zh-Hans": {
+        "commonName": "米德加尔特飞翼鱼",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 米德加尔特飞翼鱼。"
+      }
+    }
   },
   {
     "id": "myth_035",
@@ -975,7 +1315,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 3570,
     "baseSwimSpeed": 4.68,
-    "baseCoinYield": 396,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#1152A8",
@@ -993,7 +1333,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Thor Cold Salmon",
+        "description": "A mythical fish species from the Norse Nine Realms and the World Serpent — the Thor Cold Salmon."
+      },
+      "zh-Hans": {
+        "commonName": "索尔寒鳟",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 索尔寒鳟。"
+      }
+    }
   },
   {
     "id": "myth_036",
@@ -1004,7 +1354,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 6218,
     "baseSwimSpeed": 2.47,
-    "baseCoinYield": 274,
+    "baseCoinYield": 19,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#C2A216",
@@ -1022,7 +1372,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Frost Icefish",
+        "description": "A mythical fish species from the Norse Nine Realms and the World Serpent — the Frost Icefish."
+      },
+      "zh-Hans": {
+        "commonName": "冰霜冰鱼",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 冰霜冰鱼。"
+      }
+    }
   },
   {
     "id": "myth_037",
@@ -1033,7 +1393,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 1149,
     "baseSwimSpeed": 2.02,
-    "baseCoinYield": 311,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1050,7 +1410,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Vanaheim Whiteshark",
+        "description": "A mythical fish species from the Norse Nine Realms and the World Serpent — the Vanaheim Whiteshark."
+      },
+      "zh-Hans": {
+        "commonName": "华纳海姆白鲨",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 华纳海姆白鲨。"
+      }
+    }
   },
   {
     "id": "myth_038",
@@ -1061,7 +1431,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 217,
     "baseSwimSpeed": 0.82,
-    "baseCoinYield": 333,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#BE2018",
@@ -1079,7 +1449,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Jotunheim Cold Salmon",
+        "description": "A mythical fish species from the Norse Nine Realms and the World Serpent — the Jotunheim Cold Salmon."
+      },
+      "zh-Hans": {
+        "commonName": "约顿海姆寒鳟",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 约顿海姆寒鳟。"
+      }
+    }
   },
   {
     "id": "myth_039",
@@ -1090,7 +1470,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 5513,
     "baseSwimSpeed": 0.82,
-    "baseCoinYield": 131,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#3C1B4B",
@@ -1108,7 +1488,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Jotunheim Sea Monster",
+        "description": "A mythical fish species from the Norse Nine Realms and the World Serpent — the Jotunheim Sea Monster."
+      },
+      "zh-Hans": {
+        "commonName": "约顿海姆巨妖",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 约顿海姆巨妖。"
+      }
+    }
   },
   {
     "id": "myth_040",
@@ -1119,7 +1509,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 8934,
     "baseSwimSpeed": 1.1,
-    "baseCoinYield": 488,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -1136,7 +1526,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Heimdall Snowshark",
+        "description": "A mythical fish species from the Norse Nine Realms and the World Serpent — the Heimdall Snowshark."
+      },
+      "zh-Hans": {
+        "commonName": "海姆达尔雪鲨",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 海姆达尔雪鲨。"
+      }
+    }
   },
   {
     "id": "myth_041",
@@ -1147,7 +1547,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 7849,
     "baseSwimSpeed": 4.13,
-    "baseCoinYield": 107,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#E4C9E8",
@@ -1165,7 +1565,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Freya Snow Shark",
+        "description": "A mythological fish species from the Norse Nine Realms and the World Serpent — Freya Snow Shark."
+      },
+      "zh-Hans": {
+        "commonName": "弗蕾亚雪鲨",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 弗蕾亚雪鲨。"
+      }
+    }
   },
   {
     "id": "myth_042",
@@ -1176,7 +1586,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 5904,
     "baseSwimSpeed": 2.41,
-    "baseCoinYield": 249,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#06B6D4",
@@ -1193,7 +1603,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Vanaheim Aurora Fish",
+        "description": "A mythological fish species from the Norse Nine Realms and the World Serpent — Vanaheim Aurora Fish."
+      },
+      "zh-Hans": {
+        "commonName": "华纳海姆极光鱼",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 华纳海姆极光鱼。"
+      }
+    }
   },
   {
     "id": "myth_043",
@@ -1204,7 +1624,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 1712,
     "baseSwimSpeed": 0.77,
-    "baseCoinYield": 382,
+    "baseCoinYield": 19,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#0119CA",
@@ -1222,7 +1642,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Heimdall Aurora Fish",
+        "description": "A mythological fish species from the Norse Nine Realms and the World Serpent — Heimdall Aurora Fish."
+      },
+      "zh-Hans": {
+        "commonName": "海姆达尔极光鱼",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 海姆达尔极光鱼。"
+      }
+    }
   },
   {
     "id": "myth_044",
@@ -1233,7 +1663,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 7450,
     "baseSwimSpeed": 1.13,
-    "baseCoinYield": 103,
+    "baseCoinYield": 28,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1250,7 +1680,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Jotunheim White Shark",
+        "description": "A mythological fish species from the Norse Nine Realms and the World Serpent — Jotunheim White Shark."
+      },
+      "zh-Hans": {
+        "commonName": "约顿海姆白鲨",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 约顿海姆白鲨。"
+      }
+    }
   },
   {
     "id": "myth_045",
@@ -1261,7 +1701,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 7360,
     "baseSwimSpeed": 4.14,
-    "baseCoinYield": 448,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1278,7 +1718,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Loki White Shark",
+        "description": "A mythological fish species from the Norse Nine Realms and the World Serpent — Loki White Shark."
+      },
+      "zh-Hans": {
+        "commonName": "洛基白鲨",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 洛基白鲨。"
+      }
+    }
   },
   {
     "id": "myth_046",
@@ -1289,7 +1739,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 8956,
     "baseSwimSpeed": 4.26,
-    "baseCoinYield": 57,
+    "baseCoinYield": 20,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#40D205",
@@ -1307,7 +1757,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Vanaheim Water Spirit",
+        "description": "A mythological fish species from the Norse Nine Realms and the World Serpent — Vanaheim Water Spirit."
+      },
+      "zh-Hans": {
+        "commonName": "华纳海姆水灵",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 华纳海姆水灵。"
+      }
+    }
   },
   {
     "id": "myth_047",
@@ -1318,7 +1778,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 7986,
     "baseSwimSpeed": 1.46,
-    "baseCoinYield": 215,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1158A8",
@@ -1336,7 +1796,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Midgard Ice Fish",
+        "description": "A mythological fish species from the Norse Nine Realms and the World Serpent — Midgard Ice Fish."
+      },
+      "zh-Hans": {
+        "commonName": "米德加尔特冰鱼",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 米德加尔特冰鱼。"
+      }
+    }
   },
   {
     "id": "myth_048",
@@ -1347,7 +1817,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 7554,
     "baseSwimSpeed": 1.78,
-    "baseCoinYield": 366,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#4CA61D",
@@ -1365,7 +1835,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Asgard Ice Fish",
+        "description": "A mythological fish species from the Norse Nine Realms and the World Serpent — Asgard Ice Fish."
+      },
+      "zh-Hans": {
+        "commonName": "阿斯嘉特冰鱼",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 阿斯嘉特冰鱼。"
+      }
+    }
   },
   {
     "id": "myth_049",
@@ -1376,7 +1856,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 2636,
     "baseSwimSpeed": 1.35,
-    "baseCoinYield": 121,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#009555",
@@ -1394,7 +1874,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Heimdall War Fish",
+        "description": "A mythological fish species from the Norse Nine Realms and the World Serpent — Heimdall War Fish."
+      },
+      "zh-Hans": {
+        "commonName": "海姆达尔战鱼",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 海姆达尔战鱼。"
+      }
+    }
   },
   {
     "id": "myth_050",
@@ -1405,7 +1895,7 @@
     "category": "北歐九界與世界之蛇",
     "hatchStepsRequired": 1098,
     "baseSwimSpeed": 3.87,
-    "baseCoinYield": 39,
+    "baseCoinYield": 20,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#198075",
@@ -1423,7 +1913,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Freya War Fish",
+        "description": "A mythological fish species from the Norse Nine Realms and the World Serpent — Freya War Fish."
+      },
+      "zh-Hans": {
+        "commonName": "弗蕾亚战鱼",
+        "description": "来自 北欧九界与世界之蛇 的神话鱼种 - 弗蕾亚战鱼。"
+      }
+    }
   },
   {
     "id": "myth_051",
@@ -1434,7 +1934,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 9671,
     "baseSwimSpeed": 2.65,
-    "baseCoinYield": 480,
+    "baseCoinYield": 20,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#18374E",
@@ -1452,7 +1952,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Lake Nymph Spirit Fish",
+        "description": "A mythological fish species from the Celtic and Arthurian legends — Lake Nymph Spirit Fish."
+      },
+      "zh-Hans": {
+        "commonName": "湖中仙女精灵鱼",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 湖中仙女精灵鱼。"
+      }
+    }
   },
   {
     "id": "myth_052",
@@ -1463,7 +1973,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 2679,
     "baseSwimSpeed": 0.76,
-    "baseCoinYield": 270,
+    "baseCoinYield": 26,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#250EB4",
@@ -1481,7 +1991,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Loch Ness Monster",
+        "description": "A mythological fish species from the Celtic and Arthurian legends — Loch Ness Monster."
+      },
+      "zh-Hans": {
+        "commonName": "尼斯湖水怪",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 尼斯湖水怪。"
+      }
+    }
   },
   {
     "id": "myth_053",
@@ -1492,7 +2012,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 3144,
     "baseSwimSpeed": 0.81,
-    "baseCoinYield": 44,
+    "baseCoinYield": 22,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#15803D",
@@ -1509,7 +2029,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Sealskin Spirit",
+        "description": "A mythological fish species from the Celtic and Arthurian legends — Sealskin Spirit."
+      },
+      "zh-Hans": {
+        "commonName": "海豹人皮精灵",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 海豹人皮精灵。"
+      }
+    }
   },
   {
     "id": "myth_054",
@@ -1520,7 +2050,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 3953,
     "baseSwimSpeed": 2.32,
-    "baseCoinYield": 492,
+    "baseCoinYield": 21,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#1D1977",
@@ -1538,7 +2068,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Glastonbury Grail Fish",
+        "description": "A mythological fish species from the Celtic and Arthurian legends — Glastonbury Grail Fish."
+      },
+      "zh-Hans": {
+        "commonName": "格拉斯顿伯里圣杯鱼",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 格拉斯顿伯里圣杯鱼。"
+      }
+    }
   },
   {
     "id": "myth_055",
@@ -1549,7 +2089,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 4133,
     "baseSwimSpeed": 3.11,
-    "baseCoinYield": 30,
+    "baseCoinYield": 18,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#00FB52",
@@ -1566,7 +2106,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Sword-in-the-Stone Goldscale",
+        "description": "A mythological fish species from the Celtic and Arthurian legends — Sword-in-the-Stone Goldscale."
+      },
+      "zh-Hans": {
+        "commonName": "石中剑金鳞",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 石中剑金鳞。"
+      }
+    }
   },
   {
     "id": "myth_056",
@@ -1577,7 +2127,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 1443,
     "baseSwimSpeed": 2.39,
-    "baseCoinYield": 308,
+    "baseCoinYield": 23,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#1FA27F",
@@ -1595,7 +2145,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Avalon Apple Fish",
+        "description": "A mythological fish species from the Celtic and Arthurian legends — Avalon Apple Fish."
+      },
+      "zh-Hans": {
+        "commonName": "阿瓦隆苹果鱼",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 阿瓦隆苹果鱼。"
+      }
+    }
   },
   {
     "id": "myth_057",
@@ -1606,7 +2166,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 3446,
     "baseSwimSpeed": 3.51,
-    "baseCoinYield": 170,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#314B1B",
@@ -1624,7 +2184,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Morgana Sacred Fish",
+        "description": "A mythological fish species from the Celtic and Arthurian legends — Morgana Sacred Fish."
+      },
+      "zh-Hans": {
+        "commonName": "摩根圣鱼",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 摩根圣鱼。"
+      }
+    }
   },
   {
     "id": "myth_058",
@@ -1635,7 +2205,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 5015,
     "baseSwimSpeed": 2.56,
-    "baseCoinYield": 485,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#A9B800",
@@ -1653,7 +2223,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Fairy Spirit Salmon",
+        "description": "A mythological fish species from the Celtic and Arthurian legends — Fairy Spirit Salmon."
+      },
+      "zh-Hans": {
+        "commonName": "妖精灵鲑",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 妖精灵鲑。"
+      }
+    }
   },
   {
     "id": "myth_059",
@@ -1664,7 +2244,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 9324,
     "baseSwimSpeed": 4.98,
-    "baseCoinYield": 47,
+    "baseCoinYield": 28,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#5E4C13",
@@ -1681,7 +2261,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Camelot Enchanted Trout",
+        "description": "A mythological fish species from the Celtic and Arthurian legends — Camelot Enchanted Trout."
+      },
+      "zh-Hans": {
+        "commonName": "卡美洛魔鳟",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 卡美洛魔鳟。"
+      }
+    }
   },
   {
     "id": "myth_060",
@@ -1692,7 +2282,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 2270,
     "baseSwimSpeed": 4.7,
-    "baseCoinYield": 461,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#A8C216",
@@ -1710,7 +2300,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Merlin Illusion Fairy",
+        "description": "A mythological fish species from the Celtic and Arthurian legends — Merlin Illusion Fairy."
+      },
+      "zh-Hans": {
+        "commonName": "梅林幻仙",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 梅林幻仙。"
+      }
+    }
   },
   {
     "id": "myth_061",
@@ -1721,7 +2321,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 2684,
     "baseSwimSpeed": 2.47,
-    "baseCoinYield": 288,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#2803B0",
@@ -1739,7 +2339,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Merlin's Holy Fish",
+        "description": "A mythic fish from the legends of the Celts and King Arthur — Merlin's Holy Fish."
+      },
+      "zh-Hans": {
+        "commonName": "梅林圣鱼",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 梅林圣鱼。"
+      }
+    }
   },
   {
     "id": "myth_062",
@@ -1750,7 +2360,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 8766,
     "baseSwimSpeed": 0.54,
-    "baseCoinYield": 428,
+    "baseCoinYield": 19,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#228895",
@@ -1767,7 +2377,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Galahad Divine Fish",
+        "description": "A mythic fish from the legends of the Celts and King Arthur — Galahad Divine Fish."
+      },
+      "zh-Hans": {
+        "commonName": "加拉哈德神鲟",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 加拉哈德神鲟。"
+      }
+    }
   },
   {
     "id": "myth_063",
@@ -1778,7 +2398,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 2300,
     "baseSwimSpeed": 1.69,
-    "baseCoinYield": 465,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -1795,7 +2415,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Fae Silver Shark",
+        "description": "A mythic fish from the legends of the Celts and King Arthur — Fae Silver Shark."
+      },
+      "zh-Hans": {
+        "commonName": "妖精银鲨",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 妖精银鲨。"
+      }
+    }
   },
   {
     "id": "myth_064",
@@ -1806,7 +2436,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 4716,
     "baseSwimSpeed": 3.22,
-    "baseCoinYield": 377,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#45B40E",
@@ -1824,7 +2454,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Morgan's Grail Fish",
+        "description": "A mythic fish from the legends of the Celts and King Arthur — Morgan's Grail Fish."
+      },
+      "zh-Hans": {
+        "commonName": "摩根圣杯鱼",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 摩根圣杯鱼。"
+      }
+    }
   },
   {
     "id": "myth_065",
@@ -1835,7 +2475,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 4425,
     "baseSwimSpeed": 2.77,
-    "baseCoinYield": 138,
+    "baseCoinYield": 23,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#ECC6E4",
@@ -1853,7 +2493,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Merlin's Silver Shark",
+        "description": "A mythic fish from the legends of the Celts and King Arthur — Merlin's Silver Shark."
+      },
+      "zh-Hans": {
+        "commonName": "梅林银鲨",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 梅林银鲨。"
+      }
+    }
   },
   {
     "id": "myth_066",
@@ -1864,7 +2514,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 4633,
     "baseSwimSpeed": 0.7,
-    "baseCoinYield": 180,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#C6CDEC",
@@ -1882,7 +2532,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Round Table Silver Shark",
+        "description": "A mythic fish from the legends of the Celts and King Arthur — Round Table Silver Shark."
+      },
+      "zh-Hans": {
+        "commonName": "圆桌银鲨",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 圆桌银鲨。"
+      }
+    }
   },
   {
     "id": "myth_067",
@@ -1893,7 +2553,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 7339,
     "baseSwimSpeed": 2.98,
-    "baseCoinYield": 228,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#319F00",
@@ -1911,7 +2571,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Bedivere Apple Fish",
+        "description": "A mythic fish from the legends of the Celts and King Arthur — Bedivere Apple Fish."
+      },
+      "zh-Hans": {
+        "commonName": "贝德维尔苹果鱼",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 贝德维尔苹果鱼。"
+      }
+    }
   },
   {
     "id": "myth_068",
@@ -1922,7 +2592,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 2542,
     "baseSwimSpeed": 2.96,
-    "baseCoinYield": 437,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#148099",
@@ -1940,7 +2610,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Camelot Water Monster",
+        "description": "A mythic fish from the legends of the Celts and King Arthur — Camelot Water Monster."
+      },
+      "zh-Hans": {
+        "commonName": "卡美洛水怪",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 卡美洛水怪。"
+      }
+    }
   },
   {
     "id": "myth_069",
@@ -1951,7 +2631,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 7141,
     "baseSwimSpeed": 1.07,
-    "baseCoinYield": 167,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#205016",
@@ -1969,7 +2649,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Galahad Phantom Fae",
+        "description": "A mythic fish from the legends of the Celts and King Arthur — Galahad Phantom Fae."
+      },
+      "zh-Hans": {
+        "commonName": "加拉哈德幻仙",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 加拉哈德幻仙。"
+      }
+    }
   },
   {
     "id": "myth_070",
@@ -1980,7 +2670,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 4188,
     "baseSwimSpeed": 3.5,
-    "baseCoinYield": 191,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#5000B8",
@@ -1997,7 +2687,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Camelot Holy Fish",
+        "description": "A mythic fish from the legends of the Celts and King Arthur — Camelot Holy Fish."
+      },
+      "zh-Hans": {
+        "commonName": "卡美洛圣鱼",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 卡美洛圣鱼。"
+      }
+    }
   },
   {
     "id": "myth_071",
@@ -2008,7 +2708,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 2632,
     "baseSwimSpeed": 4.67,
-    "baseCoinYield": 131,
+    "baseCoinYield": 27,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#F61A29",
@@ -2025,7 +2725,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Gawain Golden Carp",
+        "description": "A mythic fish from the legends of the Celts and King Arthur — Gawain Golden Carp."
+      },
+      "zh-Hans": {
+        "commonName": "高文金鲤",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 高文金鲤。"
+      }
+    }
   },
   {
     "id": "myth_072",
@@ -2036,7 +2746,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 3038,
     "baseSwimSpeed": 3.81,
-    "baseCoinYield": 180,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#C2A216",
@@ -2054,7 +2764,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Arthur Spirit Salmon",
+        "description": "A mythic fish from the legends of the Celts and King Arthur — Arthur Spirit Salmon."
+      },
+      "zh-Hans": {
+        "commonName": "亚瑟灵鲑",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 亚瑟灵鲑。"
+      }
+    }
   },
   {
     "id": "myth_073",
@@ -2065,7 +2785,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 4471,
     "baseSwimSpeed": 1.22,
-    "baseCoinYield": 369,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#0369A1",
@@ -2082,7 +2802,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Bedivere Luminous Ray",
+        "description": "A mythic fish from the legends of the Celts and King Arthur — Bedivere Luminous Ray."
+      },
+      "zh-Hans": {
+        "commonName": "贝德维尔光𫚉",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 贝德维尔光𫚉。"
+      }
+    }
   },
   {
     "id": "myth_074",
@@ -2093,7 +2823,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 3744,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 480,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#BE4318",
@@ -2111,7 +2841,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Gawain Sprite Fish",
+        "description": "A mythic fish from the legends of the Celts and King Arthur — Gawain Sprite Fish."
+      },
+      "zh-Hans": {
+        "commonName": "高文精灵鱼",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 高文精灵鱼。"
+      }
+    }
   },
   {
     "id": "myth_075",
@@ -2122,7 +2862,7 @@
     "category": "凱爾特與阿瑟王傳說",
     "hatchStepsRequired": 3752,
     "baseSwimSpeed": 0.61,
-    "baseCoinYield": 108,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#1B4B1B",
@@ -2140,7 +2880,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Britain Apple Fish",
+        "description": "A mythic fish from the legends of the Celts and King Arthur — Britain Apple Fish."
+      },
+      "zh-Hans": {
+        "commonName": "不列颠苹果鱼",
+        "description": "来自 凯尔特与阿瑟王传说 的神话鱼种 - 不列颠苹果鱼。"
+      }
+    }
   },
   {
     "id": "myth_076",
@@ -2151,7 +2901,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 5478,
     "baseSwimSpeed": 1.75,
-    "baseCoinYield": 45,
+    "baseCoinYield": 26,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -2166,7 +2916,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Anubis Jackal Guppy",
+        "description": "A mythic fish from the legends of the Egyptian underworld and Babylonian deities — Anubis Jackal Guppy."
+      },
+      "zh-Hans": {
+        "commonName": "阿努比斯胡狼孔雀鱼",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 阿努比斯胡狼孔雀鱼。"
+      }
+    }
   },
   {
     "id": "myth_077",
@@ -2177,7 +2937,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 5853,
     "baseSwimSpeed": 3.39,
-    "baseCoinYield": 214,
+    "baseCoinYield": 29,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#74A811",
@@ -2195,7 +2955,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Eye of Horus Divine Fish",
+        "description": "A mythic fish from the legends of the Egyptian underworld and Babylonian deities — Eye of Horus Divine Fish."
+      },
+      "zh-Hans": {
+        "commonName": "荷鲁斯之眼神鱼",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 荷鲁斯之眼神鱼。"
+      }
+    }
   },
   {
     "id": "myth_078",
@@ -2206,7 +2976,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 8885,
     "baseSwimSpeed": 1.99,
-    "baseCoinYield": 24,
+    "baseCoinYield": 28,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#991B1B",
@@ -2223,7 +2993,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Tiamat Chaos Dragon",
+        "description": "A mythic fish from the legends of the Egyptian underworld and Babylonian deities — Tiamat Chaos Dragon."
+      },
+      "zh-Hans": {
+        "commonName": "提亚玛特混沌巨龙",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 提亚玛特混沌巨龙。"
+      }
+    }
   },
   {
     "id": "myth_079",
@@ -2234,7 +3014,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 4379,
     "baseSwimSpeed": 1.3,
-    "baseCoinYield": 145,
+    "baseCoinYield": 30,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#00C8C7",
@@ -2252,7 +3032,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Bastet Cat-face Short Barb",
+        "description": "A mythic fish from the legends of the Egyptian underworld and Babylonian deities — Bastet Cat-face Short Barb."
+      },
+      "zh-Hans": {
+        "commonName": "贝斯特猫脸短鲇",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 贝斯特猫脸短鲇。"
+      }
+    }
   },
   {
     "id": "myth_080",
@@ -2263,7 +3053,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 1876,
     "baseSwimSpeed": 3.18,
-    "baseCoinYield": 186,
+    "baseCoinYield": 19,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#FBF600",
@@ -2280,7 +3070,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Ra's Golden Sunlight Hawk Fish",
+        "description": "A mythic fish from the legends of the Egyptian underworld and Babylonian deities — Ra's Golden Sunlight Hawk Fish."
+      },
+      "zh-Hans": {
+        "commonName": "拉神日光金鹰鱼",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 拉神日光金鹰鱼。"
+      }
+    }
   },
   {
     "id": "myth_081",
@@ -2291,7 +3091,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 7249,
     "baseSwimSpeed": 3.23,
-    "baseCoinYield": 271,
+    "baseCoinYield": 19,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#059669",
@@ -2306,7 +3106,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Osiris Rebirth Greenfish",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "欧西里斯重生绿鱼",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 欧西里斯重生绿鱼。"
+      }
+    }
   },
   {
     "id": "myth_082",
@@ -2317,7 +3127,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 4273,
     "baseSwimSpeed": 0.7,
-    "baseCoinYield": 233,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#C3740A",
@@ -2335,7 +3145,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Sumerian Underworld Carp",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "苏美冥鲤",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 苏美冥鲤。"
+      }
+    }
   },
   {
     "id": "myth_083",
@@ -2346,7 +3166,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 3328,
     "baseSwimSpeed": 2.14,
-    "baseCoinYield": 45,
+    "baseCoinYield": 24,
     "emojiOrSprite": "🦀",
     "visualBlueprint": {
       "primaryColor": "#15803D",
@@ -2363,7 +3183,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Theban Cursed Stingray",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "底比斯咒𫚉",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 底比斯咒𫚉。"
+      }
+    }
   },
   {
     "id": "myth_084",
@@ -2374,7 +3204,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 2141,
     "baseSwimSpeed": 3.74,
-    "baseCoinYield": 163,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#717719",
@@ -2392,7 +3222,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Babylonian Underworld Carp",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "巴比伦冥鲤",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 巴比伦冥鲤。"
+      }
+    }
   },
   {
     "id": "myth_085",
@@ -2403,7 +3243,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 5444,
     "baseSwimSpeed": 2.31,
-    "baseCoinYield": 161,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#7803B0",
@@ -2421,7 +3261,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Desert Luminous Catfish",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "沙漠光鳟",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 沙漠光鳟。"
+      }
+    }
   },
   {
     "id": "myth_086",
@@ -2432,7 +3282,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 6311,
     "baseSwimSpeed": 3.55,
-    "baseCoinYield": 472,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -2449,7 +3299,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Pyramid Short Catfish",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "金字塔短鲇",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 金字塔短鲇。"
+      }
+    }
   },
   {
     "id": "myth_087",
@@ -2460,7 +3320,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 6753,
     "baseSwimSpeed": 2.97,
-    "baseCoinYield": 10,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐬",
     "visualBlueprint": {
       "primaryColor": "#501639",
@@ -2478,7 +3338,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Memphis Underworld Carp",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "曼菲斯冥鲤",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 曼菲斯冥鲤。"
+      }
+    }
   },
   {
     "id": "myth_088",
@@ -2489,7 +3359,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 9602,
     "baseSwimSpeed": 3.23,
-    "baseCoinYield": 174,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#9C3208",
@@ -2507,7 +3377,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Desert Short Catfish",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "沙漠短鲇",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 沙漠短鲇。"
+      }
+    }
   },
   {
     "id": "myth_089",
@@ -2518,7 +3398,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 3601,
     "baseSwimSpeed": 2.8,
-    "baseCoinYield": 416,
+    "baseCoinYield": 27,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#CC16EF",
@@ -2536,7 +3416,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Euphrates Golden Catfish",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "幼发拉底金鲇",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 幼发拉底金鲇。"
+      }
+    }
   },
   {
     "id": "myth_090",
@@ -2547,7 +3437,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 8545,
     "baseSwimSpeed": 3.49,
-    "baseCoinYield": 327,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐳",
     "visualBlueprint": {
       "primaryColor": "#1A2DB4",
@@ -2565,7 +3455,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Giza Divine Fish",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "吉萨神鱼",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 吉萨神鱼。"
+      }
+    }
   },
   {
     "id": "myth_091",
@@ -2576,7 +3476,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 5185,
     "baseSwimSpeed": 1.51,
-    "baseCoinYield": 111,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#038844",
@@ -2594,7 +3494,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Pharaoh's Cursed Stingray",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "法老咒𫚉",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 法老咒𫚉。"
+      }
+    }
   },
   {
     "id": "myth_092",
@@ -2605,7 +3515,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 7884,
     "baseSwimSpeed": 3.25,
-    "baseCoinYield": 403,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -2620,7 +3530,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Nile Peacock Guppy",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "尼罗河孔雀鱼",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 尼罗河孔雀鱼。"
+      }
+    }
   },
   {
     "id": "myth_093",
@@ -2631,7 +3551,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 9531,
     "baseSwimSpeed": 1.37,
-    "baseCoinYield": 366,
+    "baseCoinYield": 19,
     "emojiOrSprite": "🐋",
     "visualBlueprint": {
       "primaryColor": "#181A4E",
@@ -2649,7 +3569,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Euphrates Sandfish",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "幼发拉底沙鱼",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 幼发拉底沙鱼。"
+      }
+    }
   },
   {
     "id": "myth_094",
@@ -2660,7 +3590,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 190,
     "baseSwimSpeed": 4.52,
-    "baseCoinYield": 450,
+    "baseCoinYield": 16,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -2675,7 +3605,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Sun God Dragon",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "太阳神巨龙",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 太阳神巨龙。"
+      }
+    }
   },
   {
     "id": "myth_095",
@@ -2686,7 +3626,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 8586,
     "baseSwimSpeed": 2.59,
-    "baseCoinYield": 295,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#09D358",
@@ -2705,7 +3645,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Sumerian Short Catfish",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "苏美短鲇",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 苏美短鲇。"
+      }
+    }
   },
   {
     "id": "myth_096",
@@ -2716,7 +3666,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 7712,
     "baseSwimSpeed": 3.5,
-    "baseCoinYield": 296,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🦞",
     "visualBlueprint": {
       "primaryColor": "#F6831A",
@@ -2734,7 +3684,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Pharaoh's Golden Catfish",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "法老金鲇",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 法老金鲇。"
+      }
+    }
   },
   {
     "id": "myth_097",
@@ -2745,7 +3705,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 8370,
     "baseSwimSpeed": 2.42,
-    "baseCoinYield": 474,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#770095",
@@ -2763,7 +3723,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Babylonian Cursed Stingray",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "巴比伦咒𫚉",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 巴比伦咒𫚉。"
+      }
+    }
   },
   {
     "id": "myth_098",
@@ -2774,7 +3744,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 7877,
     "baseSwimSpeed": 2.53,
-    "baseCoinYield": 394,
+    "baseCoinYield": 27,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#4C1D95",
@@ -2791,7 +3761,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Euphrates Dragon",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "幼发拉底巨龙",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 幼发拉底巨龙。"
+      }
+    }
   },
   {
     "id": "myth_099",
@@ -2802,7 +3782,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 8039,
     "baseSwimSpeed": 3.32,
-    "baseCoinYield": 150,
+    "baseCoinYield": 26,
     "emojiOrSprite": "🦑",
     "visualBlueprint": {
       "primaryColor": "#1EFC70",
@@ -2819,7 +3799,17 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Giza Golden Eagle Fish",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "吉萨金鹰鱼",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 吉萨金鹰鱼。"
+      }
+    }
   },
   {
     "id": "myth_100",
@@ -2830,7 +3820,7 @@
     "category": "埃及冥界與巴比倫神祇",
     "hatchStepsRequired": 3941,
     "baseSwimSpeed": 1.72,
-    "baseCoinYield": 173,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐙",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -2847,6 +3837,16 @@
     "breedingRecipe": [
       "unknown",
       "unknown"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Pharaoh's Ancient Shark",
+        "description": "A mythical fish species from the Egyptian underworld and Babylonian deities."
+      },
+      "zh-Hans": {
+        "commonName": "法老古鲨",
+        "description": "来自 埃及冥界与巴比伦神祇 的神话鱼种 - 法老古鲨。"
+      }
+    }
   }
 ]

@@ -8,7 +8,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 3451,
     "baseSwimSpeed": 2.56,
-    "baseCoinYield": 20,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -26,6 +26,16 @@
       "parentA": "koi_010",
       "parentB": "koi_001",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Kohaku",
+        "description": "The pinnacle of Japanese koi lineage, with fiery red patches over a pure white base and a massive, majestic build."
+      },
+      "zh-Hans": {
+        "commonName": "大日红白",
+        "description": "日本锦鲤界极致血统，雪白纯净底色上覆盖着鲜红如火的绯盘，体型硕大雄伟。"
+      }
     }
   },
   {
@@ -37,7 +47,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 4720,
     "baseSwimSpeed": 2.15,
-    "baseCoinYield": 14,
+    "baseCoinYield": 25,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#1E293B",
@@ -55,6 +65,16 @@
       "parentA": "koi_001",
       "parentB": "koi_004",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Showa",
+        "description": "A prized three-color koi with a black base woven with scarlet and snow-white, its pectoral fins bearing jet-black blotches and a commanding presence."
+      },
+      "zh-Hans": {
+        "commonName": "昭和三色",
+        "description": "墨黑为底、赤红与雪白交织的三色名品，胸鳍带有漆黑黑斑，极具霸气。"
+      }
     }
   },
   {
@@ -66,7 +86,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 4091,
     "baseSwimSpeed": 2.67,
-    "baseCoinYield": 25,
+    "baseCoinYield": 24,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -84,6 +104,16 @@
       "parentA": "koi_001",
       "parentB": "koi_011",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Shiro Utsuri",
+        "description": "A black-and-white koi like splashed ink-wash art, with night-dark markings spread across its snow-white body."
+      },
+      "zh-Hans": {
+        "commonName": "白写",
+        "description": "如水墨泼洒般的黑白艺术品，雪白躯体上分布着浓郁如夜的墨黑斑纹。"
+      }
     }
   },
   {
@@ -95,7 +125,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 1737,
     "baseSwimSpeed": 0.68,
-    "baseCoinYield": 17,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -113,6 +143,16 @@
       "parentA": "koi_011",
       "parentB": "koi_011",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Ki Utsuri",
+        "description": "A rare black-base, yellow-patched koi, its bright gold-yellow blotches glowing dazzlingly on the pitch-black body."
+      },
+      "zh-Hans": {
+        "commonName": "黄写",
+        "description": "罕见的黑底黄斑名门，鲜黄如金的斑块在漆黑体色上分外耀眼。"
+      }
     }
   },
   {
@@ -124,7 +164,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 1934,
     "baseSwimSpeed": 1.02,
-    "baseCoinYield": 9,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -142,6 +182,16 @@
       "parentA": "koi_002",
       "parentB": "koi_009",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Shusui",
+        "description": "A German scaleless koi with rows of large, jade-deep-blue scales along the spine, its flanks and belly flushed with sunset crimson."
+      },
+      "zh-Hans": {
+        "commonName": "秋翠",
+        "description": "德国鳞无鳞系锦鲤，背脊排列着整齐的深蓝如玉的大鳞片，两侧腹部泛着落日绯红。"
+      }
     }
   },
   {
@@ -153,7 +203,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 3154,
     "baseSwimSpeed": 1.06,
-    "baseCoinYield": 41,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -171,6 +221,16 @@
       "parentA": "koi_001",
       "parentB": "koi_004",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Asagi",
+        "description": "A living fossil of classical koi, with fine indigo-netted scales on the back and a cherry-red tint on the gill covers and pectoral fins."
+      },
+      "zh-Hans": {
+        "commonName": "浅黄",
+        "description": "古典锦鲤活化石，背部呈现蓝靛色网状细致鱼鳞，腮盖与胸鳍染上一抹樱红。"
+      }
     }
   },
   {
@@ -182,7 +242,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 498,
     "baseSwimSpeed": 2.27,
-    "baseCoinYield": 42,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -200,6 +260,16 @@
       "parentA": "koi_004",
       "parentB": "koi_011",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Kujaku",
+        "description": "A metallic-luster koi with gleaming silver-white scales forming a metallic black net pattern, its head covered in showy orange-red patches."
+      },
+      "zh-Hans": {
+        "commonName": "孔雀",
+        "description": "银白闪耀的金属光泽锦鲤，鳞片呈现金属黑网纹，头部覆盖华丽橙红绯斑。"
+      }
     }
   },
   {
@@ -211,7 +281,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 2210,
     "baseSwimSpeed": 2.05,
-    "baseCoinYield": 45,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#475569",
@@ -229,6 +299,16 @@
       "parentA": "koi_005",
       "parentB": "koi_005",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Goshiki",
+        "description": "A mysterious koi blending five tones—white, red, black, blue, and purple—into one dreamlike, illusory whole."
+      },
+      "zh-Hans": {
+        "commonName": "五色",
+        "description": "由白、红、黑、蓝、紫五种色调融汇于一身的神秘铭鲤，如梦似幻。"
+      }
     }
   },
   {
@@ -240,7 +320,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 2165,
     "baseSwimSpeed": 1.85,
-    "baseCoinYield": 34,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#D97706",
@@ -258,6 +338,16 @@
       "parentA": "koi_010",
       "parentB": "koi_010",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Kin Showa",
+        "description": "A Showa tricolor with a dazzling metallic sheen, its gold-like metallic flow covering the red and black blotches."
+      },
+      "zh-Hans": {
+        "commonName": "金昭和",
+        "description": "闪耀金属光泽的昭和三色，黄金般的金属流光覆盖在红黑斑块之上。"
+      }
     }
   },
   {
@@ -269,7 +359,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 2939,
     "baseSwimSpeed": 0.71,
-    "baseCoinYield": 9,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -287,6 +377,16 @@
       "parentA": "koi_010",
       "parentB": "koi_006",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Hajiro",
+        "description": "An all-black koi whose only white is at the tips of its pectoral fins, spreading like white feathers in the dark night."
+      },
+      "zh-Hans": {
+        "commonName": "羽白",
+        "description": "全黑身躯仅有双侧胸鳍末端纯白如雪，游动时如黑夜中展开的白羽。"
+      }
     }
   },
   {
@@ -298,7 +398,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 1859,
     "baseSwimSpeed": 0.52,
-    "baseCoinYield": 14,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -316,6 +416,16 @@
       "parentA": "koi_005",
       "parentB": "koi_005",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Chagoi",
+        "description": "A gentle, affectionate single-color koi with a calm, elegant tea-brown body color and a robust, spirited build."
+      },
+      "zh-Hans": {
+        "commonName": "茶鲤",
+        "description": "性格极其温驯亲人的单色锦鲤，沉稳典雅的茶褐色体色，身型壮硕灵性十足。"
+      }
     }
   },
   {
@@ -327,7 +437,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 2642,
     "baseSwimSpeed": 0.97,
-    "baseCoinYield": 34,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -345,6 +455,16 @@
       "parentA": "koi_003",
       "parentB": "koi_004",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Kumonryu",
+        "description": "A fantastical scaleless koi whose black-and-white cloud patterns shift with water temperature and season, like a black dragon threading through clouds."
+      },
+      "zh-Hans": {
+        "commonName": "九纹龙",
+        "description": "随水温与季节变化体表黑白流云图纹的奇幻无鳞锦鲤，犹如黑龙穿云。"
+      }
     }
   },
   {
@@ -356,7 +476,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 1744,
     "baseSwimSpeed": 1.33,
-    "baseCoinYield": 1,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -374,6 +494,16 @@
       "parentA": "koi_011",
       "parentB": "koi_008",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Bekko",
+        "description": "A koi with a pure white, red, or yellow base, its back adorned with a few offset jet-black square blotches, simple and elegant."
+      },
+      "zh-Hans": {
+        "commonName": "别光",
+        "description": "以白、红或黄为纯净底色，背部错落点缀着几块墨黑方斑，简约优雅。"
+      }
     }
   },
   {
@@ -385,7 +515,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 1448,
     "baseSwimSpeed": 0.67,
-    "baseCoinYield": 41,
+    "baseCoinYield": 16,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#020617",
@@ -403,6 +533,16 @@
       "parentA": "koi_004",
       "parentB": "koi_009",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Karasugoi",
+        "description": "A koi of glossy obsidian-black all over, including a deep black belly, a ghostly stately variety."
+      },
+      "zh-Hans": {
+        "commonName": "乌鲤",
+        "description": "全身乌黑油亮如黑曜石，腹部亦为深沉黑色的幽灵名鲤。"
+      }
     }
   },
   {
@@ -414,7 +554,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 1510,
     "baseSwimSpeed": 2.28,
-    "baseCoinYield": 34,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#D97706",
@@ -432,6 +572,16 @@
       "parentA": "koi_005",
       "parentB": "koi_005",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Matsuba",
+        "description": "Each scale bears a jet-black dot at its center, arranged like the dense, emerald-pine-needle mesh of pine foliage."
+      },
+      "zh-Hans": {
+        "commonName": "松叶",
+        "description": "每片鱼鳞中心皆有一点墨黑，整体排列如茂密苍翠的松针网目。"
+      }
     }
   },
   {
@@ -443,7 +593,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 3946,
     "baseSwimSpeed": 1.82,
-    "baseCoinYield": 23,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#1E293B",
@@ -462,6 +612,16 @@
       "parentA": "koi_005",
       "parentB": "koi_007",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Tancho Showa",
+        "description": "A pitch-black koi crowned with a single round, bright-red spot at the top of its head, dignified and noble."
+      },
+      "zh-Hans": {
+        "commonName": "丹顶昭和",
+        "description": "漆黑身躯配上头顶正中央一颗浑圆鲜红的丹顶绯斑，雍容华贵。"
+      }
     }
   },
   {
@@ -473,7 +633,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 1038,
     "baseSwimSpeed": 1.44,
-    "baseCoinYield": 11,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -491,6 +651,16 @@
       "parentA": "koi_010",
       "parentB": "koi_008",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Koromo",
+        "description": "A red-and-white koi with a layer of violet-blue lace net pattern over the crimson patches, as if wearing a kimono."
+      },
+      "zh-Hans": {
+        "commonName": "衣",
+        "description": "在红白的绯盘上覆盖一层宛如紫蓝薄纱的蓝染网纹，如身着和服。"
+      }
     }
   },
   {
@@ -502,7 +672,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 3853,
     "baseSwimSpeed": 2.29,
-    "baseCoinYield": 35,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -520,6 +690,16 @@
       "parentA": "koi_001",
       "parentB": "koi_010",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Doitsu",
+        "description": "Derived from a German scaleless crossbreed, this koi is smooth and scaleless, with only its lateral line and dorsal fin bearing large mirror scales that catch the light."
+      },
+      "zh-Hans": {
+        "commonName": "德国锦鲤",
+        "description": "源自德国革鲤杂交，全身光滑无鳞，仅侧线与背鳍有大片镜鳞反射光芒。"
+      }
     }
   },
   {
@@ -531,7 +711,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 4838,
     "baseSwimSpeed": 1.94,
-    "baseCoinYield": 36,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -549,6 +729,16 @@
       "parentA": "koi_003",
       "parentB": "koi_007",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Platinum Ogon",
+        "description": "A prestigious [Platinum Ogon] variety rich in East-Asian classical aesthetics, with graceful, lively poise, elegant fin shape, and warm, lustrous scale light."
+      },
+      "zh-Hans": {
+        "commonName": "红白",
+        "description": "极具东亚古典美学的名门品种【红白】，身姿曼妙灵动，具备优雅的鳍形与温润的鳞光。"
+      }
     }
   },
   {
@@ -560,7 +750,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 4411,
     "baseSwimSpeed": 2.8,
-    "baseCoinYield": 15,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#FACC15",
@@ -578,6 +768,16 @@
       "parentA": "koi_009",
       "parentB": "koi_008",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Yamabuki Ogon",
+        "description": "A prestigious [Yamabuki Ogon] variety rich in East-Asian classical aesthetics, with graceful, lively poise, elegant fin shape, and warm, lustrous scale light."
+      },
+      "zh-Hans": {
+        "commonName": "大正三色",
+        "description": "极具东亚古典美学的名门品种【大正三色】，身姿曼妙灵动，具备优雅的鳍形与温润的鳞光。"
+      }
     }
   },
   {
@@ -589,7 +789,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 1666,
     "baseSwimSpeed": 1.01,
-    "baseCoinYield": 4,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -607,6 +807,16 @@
       "parentA": "koi_011",
       "parentB": "koi_007",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Orenji Ogon",
+        "description": "A classic East Asian variety of noble lineage, with a gracefully agile posture, elegant fin shapes, and warm, lustrous scales."
+      },
+      "zh-Hans": {
+        "commonName": "べっ甲",
+        "description": "极具东亚古典美学的名门品种【べっ甲】，身姿曼妙灵动，具备优雅的鳍形与温润的鳞光。"
+      }
     }
   },
   {
@@ -618,7 +828,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 3310,
     "baseSwimSpeed": 2.02,
-    "baseCoinYield": 22,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🎏",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -636,6 +846,16 @@
       "parentA": "koi_002",
       "parentB": "koi_007",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Benigoi",
+        "description": "A classic East Asian variety of noble lineage, with a gracefully agile posture, elegant fin shapes, and warm, lustrous scales."
+      },
+      "zh-Hans": {
+        "commonName": "蓝衣",
+        "description": "极具东亚古典美学的名门品种【蓝衣】，身姿曼妙灵动，具备优雅的鳍形与温润的鳞光。"
+      }
     }
   },
   {
@@ -647,7 +867,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 2071,
     "baseSwimSpeed": 0.64,
-    "baseCoinYield": 33,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#EAB308",
@@ -665,6 +885,16 @@
       "parentA": "koi_007",
       "parentB": "koi_004",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Kigoi",
+        "description": "A classic East Asian variety of noble lineage, with a gracefully agile posture, elegant fin shapes, and warm, lustrous scales."
+      },
+      "zh-Hans": {
+        "commonName": "紫鲤",
+        "description": "极具东亚古典美学的名门品种【紫鲤】，身姿曼妙灵动，具备优雅的鳍形与温润的鳞光。"
+      }
     }
   },
   {
@@ -694,6 +924,16 @@
       "parentA": "koi_009",
       "parentB": "koi_007",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Midorigoi",
+        "description": "A classic East Asian variety of noble lineage, with a gracefully agile posture, elegant fin shapes, and warm, lustrous scales."
+      },
+      "zh-Hans": {
+        "commonName": "绿鲤",
+        "description": "极具东亚古典美学的名门品种【绿鲤】，身姿曼妙灵动，具备优雅的鳍形与温润的鳞光。"
+      }
     }
   },
   {
@@ -705,7 +945,7 @@
     "category": "日本錦鯉名門",
     "hatchStepsRequired": 3261,
     "baseSwimSpeed": 1.29,
-    "baseCoinYield": 16,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#64748B",
@@ -723,6 +963,16 @@
       "parentA": "koi_011",
       "parentB": "koi_002",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Soragoi",
+        "description": "A classic East Asian variety of noble lineage, with a gracefully agile posture, elegant fin shapes, and warm, lustrous scales."
+      },
+      "zh-Hans": {
+        "commonName": "银鳞",
+        "description": "极具东亚古典美学的名门品种【银鳞】，身姿曼妙灵动，具备优雅的鳍形与温润的鳞光。"
+      }
     }
   },
   {
@@ -734,7 +984,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 180,
     "baseSwimSpeed": 0.75,
-    "baseCoinYield": 11,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#F916BC",
@@ -753,6 +1003,16 @@
       "parentA": "goldfish_028",
       "parentB": "goldfish_036",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Bubble Eye",
+        "description": "Great inky-black and golden bubbles, crystal-clear and gently swaying, hang from its cheeks and ripple with each movement, full of quiet, Zen-like elegance."
+      },
+      "zh-Hans": {
+        "commonName": "水泡眼",
+        "description": "两颊托着晃悠晶莹的墨色与金黄大水泡，游动时水泡随波轻晃，极具古典禅意美感。"
+      }
     }
   },
   {
@@ -764,7 +1024,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3062,
     "baseSwimSpeed": 1.61,
-    "baseCoinYield": 41,
+    "baseCoinYield": 27,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -782,6 +1042,16 @@
       "parentA": "goldfish_026",
       "parentB": "goldfish_032",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Twelve Red",
+        "description": "Its body is pure snow-white, with twelve perfectly round crimson spots on its crown, lips, pectoral and tail fins — a mark of unrivaled nobility."
+      },
+      "zh-Hans": {
+        "commonName": "十二红顶",
+        "description": "通体雪白纯净，唯头顶、口唇、胸鳍、尾鳍等十二处染有正圆朱红点，尊贵无比。"
+      }
     }
   },
   {
@@ -793,7 +1063,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 1763,
     "baseSwimSpeed": 0.54,
-    "baseCoinYield": 11,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -812,6 +1082,16 @@
       "parentA": "goldfish_033",
       "parentB": "goldfish_028",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Red Cap Oranda",
+        "description": "A porcelain-white body crowned with a vivid red head tubercle, like a red crest atop a white crane, regal and stately."
+      },
+      "zh-Hans": {
+        "commonName": "丹顶红帽",
+        "description": "白玉身躯配上头顶鲜红肉瘤，宛如白鹤顶上的红冠，雍容华贵。"
+      }
     }
   },
   {
@@ -823,7 +1103,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2556,
     "baseSwimSpeed": 2.94,
-    "baseCoinYield": 13,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -841,6 +1121,16 @@
       "parentA": "goldfish_028",
       "parentB": "goldfish_026",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Celestial Eye",
+        "description": "Its eyes flip upward 90° to gaze at the sky — also called the Heavenly Eye — endearingly quizzical, yet radiating an imperial solemnity."
+      },
+      "zh-Hans": {
+        "commonName": "望天眼",
+        "description": "双眼向上翻转 90 度仰望青天，又称朝天眼，呆萌又具皇家御用庄严气质。"
+      }
     }
   },
   {
@@ -852,7 +1142,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 267,
     "baseSwimSpeed": 1.03,
-    "baseCoinYield": 40,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -870,6 +1160,16 @@
       "parentA": "goldfish_028",
       "parentB": "goldfish_032",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Blue Calico Bubble",
+        "description": "A calico bubble-eye in ink-wash tones, its scales mottled with indigo, ink-black, and gold, and bubbles thin as cicada wings."
+      },
+      "zh-Hans": {
+        "commonName": "蓝花水泡",
+        "description": "五花水墨色调的水泡眼，鳞片夹杂靛蓝、墨黑与金黄斑纹，水泡薄如蝉翼。"
+      }
     }
   },
   {
@@ -881,7 +1181,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 1477,
     "baseSwimSpeed": 0.91,
-    "baseCoinYield": 50,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -900,6 +1200,16 @@
       "parentA": "goldfish_032",
       "parentB": "goldfish_034",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Tiger Head",
+        "description": "Its head tubercle is hugely developed and solid, its body finless and short, round as a ball, swimming with the majesty of a little tiger."
+      },
+      "zh-Hans": {
+        "commonName": "虎头金鱼",
+        "description": "头部肉瘤极其发达厚实，无背鳍，身形短圆如球，游动时如威武小老虎。"
+      }
     }
   },
   {
@@ -911,7 +1221,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 310,
     "baseSwimSpeed": 0.56,
-    "baseCoinYield": 4,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -930,6 +1240,16 @@
       "parentA": "goldfish_035",
       "parentB": "goldfish_027",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Lionhead",
+        "description": "Its head is covered in thick, dense tubercles like a lion's mane, its long fins flowing gracefully; it is held as the head of the four classical goldfish."
+      },
+      "zh-Hans": {
+        "commonName": "狮头金鱼",
+        "description": "头部满覆厚密肉瘤如雄狮鬃毛，长鳍飘逸，为传统古典四大名金鱼之首。"
+      }
     }
   },
   {
@@ -941,7 +1261,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 4674,
     "baseSwimSpeed": 0.75,
-    "baseCoinYield": 8,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#47F100",
@@ -961,6 +1281,16 @@
       "parentA": "goldfish_035",
       "parentB": "goldfish_033",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Ranchu",
+        "description": "The king of Japanese goldfish, with a gracefully arched, finless back, plump strawberry tubercles, and an adorably swaying tail of great ornamental value."
+      },
+      "zh-Hans": {
+        "commonName": "日本兰寿",
+        "description": "日本金鱼之王，背部优美弓背无鳍，草莓肉瘤饱满，呆萌摆尾极具观赏价值。"
+      }
     }
   },
   {
@@ -972,7 +1302,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3842,
     "baseSwimSpeed": 1.82,
-    "baseCoinYield": 14,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -990,6 +1320,16 @@
       "parentA": "goldfish_031",
       "parentB": "goldfish_036",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Black Gold",
+        "description": "Golden luster shines through on its belly and dorsal fin, wrapped in deep ink-black markings, noble and opulent."
+      },
+      "zh-Hans": {
+        "commonName": "黑包金金鱼",
+        "description": "腹部与背鳍闪耀黄金光泽，外层包裹浓墨黑斑，尊贵奢华。"
+      }
     }
   },
   {
@@ -1001,7 +1341,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3851,
     "baseSwimSpeed": 1.63,
-    "baseCoinYield": 27,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1020,6 +1360,16 @@
       "parentA": "goldfish_032",
       "parentB": "goldfish_030",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Crown Pearlscale",
+        "description": "Each scale bulges into a plump, pearl-like dome, and a single or double bubble crown perches on its head, round as a ping-pong ball."
+      },
+      "zh-Hans": {
+        "commonName": "皇冠珍珠鳞",
+        "description": "每颗鳞片如半颗珍珠般圆润隆起，头顶顶着单颗或双颗气泡皇冠，圆滚如乒乓球。"
+      }
     }
   },
   {
@@ -1031,7 +1381,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 4593,
     "baseSwimSpeed": 1.79,
-    "baseCoinYield": 42,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -1050,6 +1400,16 @@
       "parentA": "goldfish_026",
       "parentB": "goldfish_032",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Ryukin",
+        "description": "A towering humpbacked ridge and a massive, drooping wide tail bloom in the water like red peony petals."
+      },
+      "zh-Hans": {
+        "commonName": "宽尾琉金",
+        "description": "高耸如驼峰的背脊与下垂的巨大宽幅尾鳍，在水中如红色牡丹花瓣绽放。"
+      }
     }
   },
   {
@@ -1061,7 +1421,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2376,
     "baseSwimSpeed": 2.14,
-    "baseCoinYield": 40,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1079,6 +1439,16 @@
       "parentA": "goldfish_031",
       "parentB": "goldfish_028",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Goose Head Red",
+        "description": "A red head tubercle rises squarely like the crown of a goose, on a pure snow-white body without stray markings — a supreme court treasure."
+      },
+      "zh-Hans": {
+        "commonName": "鹅头红",
+        "description": "头顶红色肉瘤如鹅头顶端般方正凸起，通体雪白无杂斑，乃宫廷极品。"
+      }
     }
   },
   {
@@ -1090,7 +1460,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 546,
     "baseSwimSpeed": 1.94,
-    "baseCoinYield": 37,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -1108,6 +1478,16 @@
       "parentA": "goldfish_035",
       "parentB": "goldfish_027",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Comet Ruyi",
+        "description": "Its single-lobed long tail trails like a silk ribbon; the slender, agile body symbolizes smooth fortune and enduring blessing."
+      },
+      "zh-Hans": {
+        "commonName": "玉如意金鱼",
+        "description": "单叶长尾如丝带般飘曳，体形修长灵动，象征事事如意、福泽绵长。"
+      }
     }
   },
   {
@@ -1119,7 +1499,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3156,
     "baseSwimSpeed": 1.78,
-    "baseCoinYield": 50,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -1138,6 +1518,16 @@
       "parentA": "goldfish_026",
       "parentB": "goldfish_031",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Shou Xing",
+        "description": "Its forehead tubercle towers like the brow of the God of Longevity; the plump, round body carries a wish for health and long life."
+      },
+      "zh-Hans": {
+        "commonName": "寿星金鱼",
+        "description": "额头肉瘤高耸突出如老寿星额头，身形浑圆肥美，寓意健康长寿。"
+      }
     }
   },
   {
@@ -1149,7 +1539,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 4533,
     "baseSwimSpeed": 2.15,
-    "baseCoinYield": 12,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1167,6 +1557,16 @@
       "parentA": "goldfish_031",
       "parentB": "goldfish_026",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Magpie Calico",
+        "description": "Its black-and-white patterning resembles magpie feathers; as it swims, its fins flutter lightly, bringing the promise of joyful tidings."
+      },
+      "zh-Hans": {
+        "commonName": "喜鹊花金鱼",
+        "description": "黑白相间如喜鹊羽毛，游动时尾鳍轻盈翻飞，带来吉祥喜事临门之意。"
+      }
     }
   },
   {
@@ -1178,7 +1578,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2436,
     "baseSwimSpeed": 2.5,
-    "baseCoinYield": 5,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -1197,6 +1597,16 @@
       "parentA": "goldfish_029",
       "parentB": "goldfish_034",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Egg Phoenix",
+        "description": "A round, dorsal-finless egg body paired with super-long sheer twin tails that shimmer like a phoenix's wings."
+      },
+      "zh-Hans": {
+        "commonName": "蛋凤金鱼",
+        "description": "无背鳍的圆蛋身材，搭配如凤凰羽翼般超长的双薄纱尾鳍，仙气逼人。"
+      }
     }
   },
   {
@@ -1208,7 +1618,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 4649,
     "baseSwimSpeed": 2.57,
-    "baseCoinYield": 49,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#581C87",
@@ -1227,6 +1637,16 @@
       "parentA": "goldfish_026",
       "parentB": "goldfish_028",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Purple Robe Red Cap",
+        "description": "Cloaked in rare deep-purple velvet-like scales, with a single vermilion cap that radiates imperial courtly air."
+      },
+      "zh-Hans": {
+        "commonName": "红顶紫罗袍",
+        "description": "身披深紫如天鹅绒的珍稀鳞色，唯头顶一抹朱红，极具帝王宫廷贵气。"
+      }
     }
   },
   {
@@ -1238,7 +1658,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2913,
     "baseSwimSpeed": 1.51,
-    "baseCoinYield": 26,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1257,6 +1677,16 @@
       "parentA": "goldfish_031",
       "parentB": "goldfish_028",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Panda Butterfly",
+        "description": "Sharp black-and-white markings like a giant panda, with bulging eyes and a tail that unfurls like a dancing black butterfly."
+      },
+      "zh-Hans": {
+        "commonName": "熊猫蝶尾",
+        "description": "黑白分明如国宝大熊猫，双眼突出，展开的尾鳍宛如黑色蝴蝶翩翩起舞。"
+      }
     }
   },
   {
@@ -1268,7 +1698,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2969,
     "baseSwimSpeed": 1.37,
-    "baseCoinYield": 30,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#020617",
@@ -1287,6 +1717,16 @@
       "parentA": "goldfish_030",
       "parentB": "goldfish_026",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Black Butterfly",
+        "description": "A flawless jet-black body, its winged four-part tail unfurling gracefully along the bottom like a scroll of ink-wash painting."
+      },
+      "zh-Hans": {
+        "commonName": "墨蝶尾",
+        "description": "通体漆黑无瑕，巨大如羽翼的四开尾鳍如水墨画卷在水底优雅展开。"
+      }
     }
   },
   {
@@ -1298,7 +1738,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3404,
     "baseSwimSpeed": 2.56,
-    "baseCoinYield": 47,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -1317,6 +1757,16 @@
       "parentA": "goldfish_026",
       "parentB": "goldfish_036",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Twelve Red Butterfly",
+        "description": "A pure-white body with twelve key fin tips and eye rims dyed red, its butterfly tail spread flat like a fan."
+      },
+      "zh-Hans": {
+        "commonName": "十二红蝶尾",
+        "description": "全身纯白，十二处关键鳍端与眼眶染红，蝴蝶尾平展如扇。"
+      }
     }
   },
   {
@@ -1328,7 +1778,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 1317,
     "baseSwimSpeed": 1.55,
-    "baseCoinYield": 21,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐠",
     "visualBlueprint": {
       "primaryColor": "#FB7185",
@@ -1347,6 +1797,16 @@
       "parentA": "goldfish_026",
       "parentB": "goldfish_030",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Sakura Ryukin",
+        "description": "Red and white patches like falling cherry blossoms, translucent scales glowing faintly pink, with a graceful body like springtime sakura."
+      },
+      "zh-Hans": {
+        "commonName": "樱花琉金",
+        "description": "红白相间如落樱缤纷，透明鳞片透出粉红微光，体态曼妙如春日樱花。"
+      }
     }
   },
   {
@@ -1358,7 +1818,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 3901,
     "baseSwimSpeed": 0.79,
-    "baseCoinYield": 21,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -1377,6 +1837,16 @@
       "parentA": "goldfish_034",
       "parentB": "goldfish_032",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Calico Ranchu",
+        "description": "A calico Ranchu carrying five colors — red, yellow, blue, black, and white — like a spilled Edo watercolor palette."
+      },
+      "zh-Hans": {
+        "commonName": "五花兰寿",
+        "description": "集合红、黄、蓝、黑、白五色斑斓的兰寿，宛如打翻的江户水彩调色盘。"
+      }
     }
   },
   {
@@ -1388,7 +1858,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 690,
     "baseSwimSpeed": 2.26,
-    "baseCoinYield": 40,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1407,6 +1877,16 @@
       "parentA": "goldfish_026",
       "parentB": "goldfish_026",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Black Ranchu",
+        "description": "A charcoal-black improved strain from Thailand and Japan, with a thick strawberry head and a short, plump, adorable build."
+      },
+      "zh-Hans": {
+        "commonName": "黑兰寿",
+        "description": "漆黑如炭的泰国与日本改良品种，草莓头厚实，身形短胖极具萌感。"
+      }
     }
   },
   {
@@ -1418,7 +1898,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 2728,
     "baseSwimSpeed": 1.85,
-    "baseCoinYield": 31,
+    "baseCoinYield": 15,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -1437,6 +1917,16 @@
       "parentA": "goldfish_034",
       "parentB": "goldfish_030",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Dragon Eye",
+        "description": "Signature bulging eyes like an eastern dragon's gaze, metallic crimson scale sheen, and a dazed-cute, lively swim."
+      },
+      "zh-Hans": {
+        "commonName": "龙睛金鱼",
+        "description": "标志性的大凸眼如东方神龙之睛，鳞片闪烁金属赤红光泽，游动时呆萌灵动。"
+      }
     }
   },
   {
@@ -1448,7 +1938,7 @@
     "category": "中國與日本古典宮廷金魚",
     "hatchStepsRequired": 418,
     "baseSwimSpeed": 2.2,
-    "baseCoinYield": 25,
+    "baseCoinYield": 26,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -1467,6 +1957,16 @@
       "parentA": "goldfish_035",
       "parentB": "goldfish_036",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Celestial Dragon",
+        "description": "Bulging eyes gazing skyward and a smooth, finless back — the auspicious divine fish ancient emperors kept to commune with heaven."
+      },
+      "zh-Hans": {
+        "commonName": "朝天龙金鱼",
+        "description": "凸眼朝天望向苍穹，背脊平滑无鳍，古代皇帝视为与上天沟通的吉兆神鱼。"
+      }
     }
   },
   {
@@ -1478,7 +1978,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 232,
     "baseSwimSpeed": 0.52,
-    "baseCoinYield": 24,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#33FC1E",
@@ -1498,6 +1998,16 @@
       "parentA": "seasia_059",
       "parentB": "seasia_054",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Asian Arowana",
+        "description": "An Asian living fossil, its shimmering giant scales like golden armor, with two signature dragon whiskers on the lower jaw."
+      },
+      "zh-Hans": {
+        "commonName": "古代巨龙鱼",
+        "description": "亚洲龙鱼活化石，金光闪耀的巨大硬鳞如金色装甲，下腭生有两根标志性神龙长须。"
+      }
     }
   },
   {
@@ -1509,7 +2019,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2410,
     "baseSwimSpeed": 1.67,
-    "baseCoinYield": 26,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#84CC16",
@@ -1528,6 +2038,16 @@
       "parentA": "seasia_057",
       "parentB": "seasia_059",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Mbu Pufferfish",
+        "description": "The king of freshwater puffers, its yellow-green body covered in a golden maze pattern, with a round belly and big, curious eyes."
+      },
+      "zh-Hans": {
+        "commonName": "皇冠狗头",
+        "description": "淡水河豚之王，黄绿色身躯布满金黄迷宫网纹，圆滚滚大肚子与好奇大眼睛极具人气。"
+      }
     }
   },
   {
@@ -1539,7 +2059,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 1381,
     "baseSwimSpeed": 1.3,
-    "baseCoinYield": 48,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#EAB308",
@@ -1557,6 +2077,16 @@
       "parentA": "seasia_061",
       "parentB": "seasia_053",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Orange-spotted Snakehead",
+        "description": "A snakehead native to northern India, its body covered in dazzling gold and deep-blue cobra-like patches, radiating dominance."
+      },
+      "zh-Hans": {
+        "commonName": "黄金眼镜蛇雷龙",
+        "description": "印度北部原生雷龙，身上覆盖如眼镜蛇般的耀眼金黄与深蓝斑块，霸气十足。"
+      }
     }
   },
   {
@@ -1568,7 +2098,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 3155,
     "baseSwimSpeed": 1.89,
-    "baseCoinYield": 32,
+    "baseCoinYield": 15,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -1586,6 +2116,16 @@
       "parentA": "seasia_052",
       "parentB": "seasia_059",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Rainbow Snakehead",
+        "description": "A small rainbow snakehead with ruby-like flame spots along its flanks, its dorsal and caudal fins edged in dreamy orange-red."
+      },
+      "zh-Hans": {
+        "commonName": "幻彩红宝石雷龙",
+        "description": "小型彩虹雷龙，体侧散布着如红宝石般的火焰斑点，背鳍与尾鳍镶着梦幻橘红边框。"
+      }
     }
   },
   {
@@ -1597,7 +2137,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 3910,
     "baseSwimSpeed": 2.55,
-    "baseCoinYield": 39,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#54930E",
@@ -1616,6 +2156,16 @@
       "parentA": "seasia_061",
       "parentB": "seasia_056",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Freshwater Butterflyfish",
+        "description": "An ancient living fossil that glides at the surface, its pectoral fins specialized like butterfly wings for gliding to catch insects."
+      },
+      "zh-Hans": {
+        "commonName": "古代蝴蝶鱼",
+        "description": "水面滑翔的远古活化石，胸鳍特化如蝴蝶翅膀，能在水面滑翔捕食昆虫。"
+      }
     }
   },
   {
@@ -1627,7 +2177,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 1105,
     "baseSwimSpeed": 1.67,
-    "baseCoinYield": 4,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#AE2AFF",
@@ -1645,6 +2195,16 @@
       "parentA": "seasia_051",
       "parentB": "seasia_056",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Kuhli Loach",
+        "description": "A small, snake-like slippery bottom-dwelling loach, its orange-yellow body threaded with deep-black markings, weaving through plants to hide."
+      },
+      "zh-Hans": {
+        "commonName": "霓虹光鳅",
+        "description": "条纹如蛇般滑溜的小型底栖鳅，橙黄身躯穿插着深黑斑纹，爱在水草间穿梭躲藏。"
+      }
     }
   },
   {
@@ -1656,7 +2216,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 273,
     "baseSwimSpeed": 0.69,
-    "baseCoinYield": 17,
+    "baseCoinYield": 15,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#0D9488",
@@ -1674,6 +2234,16 @@
       "parentA": "seasia_059",
       "parentB": "seasia_061",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Crimson-Tail Crown",
+        "description": "Its body glows with a metallic green sheen, the male's head rising into a towering crown, its tail edge inlaid with a vivid scarlet."
+      },
+      "zh-Hans": {
+        "commonName": "红尾皇冠短鲷",
+        "description": "体色泛着金属绿光，雄鱼头顶隆起高耸皇冠，尾鳍边缘镶嵌着一抹鲜艳火红。"
+      }
     }
   },
   {
@@ -1685,7 +2255,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2102,
     "baseSwimSpeed": 2.47,
-    "baseCoinYield": 14,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#9333EA",
@@ -1703,6 +2273,16 @@
       "parentA": "seasia_058",
       "parentB": "seasia_052",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Viejita",
+        "description": "A gem cichlid sought by South American and Southeast Asian keepers, its gill cover glowing in purplish-pink neon, its dorsal fin flowing and slender."
+      },
+      "zh-Hans": {
+        "commonName": "紫红短鲷",
+        "description": "南美与东南亚玩家争相培育的宝石短鲷，腮盖散发紫红霓虹，背鳍飘逸修长。"
+      }
     }
   },
   {
@@ -1714,7 +2294,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 982,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 48,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#EAB308",
@@ -1732,6 +2312,16 @@
       "parentA": "seasia_057",
       "parentB": "seasia_055",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Peacock Bass",
+        "description": "A large predatory cichlid, three bold black horizontal bars on a golden body, with a gold-rimmed ocellus on the caudal peduncle."
+      },
+      "zh-Hans": {
+        "commonName": "帝王三间",
+        "description": "体型庞大的掠食慈鲷，金黄身躯上有三道标志性粗黑横纹，尾柄有着金框眼斑。"
+      }
     }
   },
   {
@@ -1743,7 +2333,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 3843,
     "baseSwimSpeed": 1.63,
-    "baseCoinYield": 13,
+    "baseCoinYield": 26,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#E2E8F0",
@@ -1762,6 +2352,16 @@
       "parentA": "seasia_061",
       "parentB": "seasia_060",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Yoyo Loach",
+        "description": "A lively bottom-dwelling tiger loach, its body covered in Y-shaped marble and tiger-like maze markings, with comical, lovable movements."
+      },
+      "zh-Hans": {
+        "commonName": "虎纹鳅",
+        "description": "底栖活跃的虎斑鳅，全身布满如大理石与虎皮般的Y型迷宫斑纹，动作滑稽讨喜。"
+      }
     }
   },
   {
@@ -1773,7 +2373,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 3718,
     "baseSwimSpeed": 2.42,
-    "baseCoinYield": 28,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -1789,6 +2389,16 @@
       "parentA": "seasia_053",
       "parentB": "seasia_053",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Albino Pearl Dragon",
+        "description": "A distinguished cultivar bred in the clear East Asian streams and Edo waterways, the Albino Pearl Dragon, with a warm body color and a graceful form."
+      },
+      "zh-Hans": {
+        "commonName": "白化珍珠龙",
+        "description": "东亚清溪与江户水系培育的名门水族【白化珍珠龙】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -1800,7 +2410,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 818,
     "baseSwimSpeed": 0.54,
-    "baseCoinYield": 20,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1816,6 +2426,16 @@
       "parentA": "seasia_056",
       "parentB": "seasia_061",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Thai Goby",
+        "description": "A distinguished cultivar bred in the clear East Asian streams and Edo waterways, the Thai Goby, with a warm body color and a graceful form."
+      },
+      "zh-Hans": {
+        "commonName": "泰国鲫",
+        "description": "东亚清溪与江户水系培育的名门水族【泰国鲫】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -1827,7 +2447,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 4013,
     "baseSwimSpeed": 2.71,
-    "baseCoinYield": 38,
+    "baseCoinYield": 20,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#EA580C",
@@ -1843,6 +2463,16 @@
       "parentA": "seasia_059",
       "parentB": "seasia_051",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Asian Red Dragon",
+        "description": "A distinguished cultivar bred in the clear East Asian streams and Edo waterways, the Asian Red Dragon, with a warm body color and a graceful form."
+      },
+      "zh-Hans": {
+        "commonName": "亚洲红龙",
+        "description": "东亚清溪与江户水系培育的名门水族【亚洲红龙】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -1854,7 +2484,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 695,
     "baseSwimSpeed": 1.47,
-    "baseCoinYield": 7,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -1872,6 +2502,16 @@
       "parentA": "seasia_056",
       "parentB": "seasia_059",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Golden Dragon",
+        "description": "A distinguished cultivar bred in the clear East Asian streams and Edo waterways, the Golden Dragon, with a warm body color and a graceful form."
+      },
+      "zh-Hans": {
+        "commonName": "金龙",
+        "description": "东亚清溪与江户水系培育的名门水族【金龙】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -1883,7 +2523,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 1341,
     "baseSwimSpeed": 0.81,
-    "baseCoinYield": 7,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#68FF1B",
@@ -1901,6 +2541,16 @@
       "parentA": "seasia_061",
       "parentB": "seasia_053",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Azure Dragon",
+        "description": "A distinguished cultivar bred in the clear East Asian streams and Edo waterways, the Azure Dragon, with a warm body color and a graceful form."
+      },
+      "zh-Hans": {
+        "commonName": "青龙",
+        "description": "东亚清溪与江户水系培育的名门水族【青龙】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -1912,7 +2562,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 418,
     "baseSwimSpeed": 0.96,
-    "baseCoinYield": 4,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -1930,6 +2580,16 @@
       "parentA": "seasia_059",
       "parentB": "seasia_056",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Thai Fighting Fish",
+        "description": "A distinguished cultivar bred in the clear East Asian streams and Edo waterways, the Thai Fighting Fish, with a warm body color and a graceful form."
+      },
+      "zh-Hans": {
+        "commonName": "泰国斗鱼",
+        "description": "东亚清溪与江户水系培育的名门水族【泰国斗鱼】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -1941,7 +2601,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2063,
     "baseSwimSpeed": 1.41,
-    "baseCoinYield": 42,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#0087BA",
@@ -1959,6 +2619,16 @@
       "parentA": "seasia_061",
       "parentB": "seasia_058",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Show Fighting Fish",
+        "description": "A distinguished cultivar bred in the clear East Asian streams and Edo waterways, the Show Fighting Fish, with a warm body color and a graceful form."
+      },
+      "zh-Hans": {
+        "commonName": "展斗",
+        "description": "东亚清溪与江户水系培育的名门水族【展斗】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -1970,7 +2640,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2686,
     "baseSwimSpeed": 1.63,
-    "baseCoinYield": 48,
+    "baseCoinYield": 25,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#98F100",
@@ -1988,6 +2658,16 @@
       "parentA": "seasia_060",
       "parentB": "seasia_054",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Giant Snakehead",
+        "description": "A distinguished cultivar bred in the clear East Asian streams and Edo waterways, the Giant Snakehead, with a warm body color and a graceful form."
+      },
+      "zh-Hans": {
+        "commonName": "巨型蛇头鱼",
+        "description": "东亚清溪与江户水系培育的名门水族【巨型蛇头鱼】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -1999,7 +2679,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 112,
     "baseSwimSpeed": 2.08,
-    "baseCoinYield": 41,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#A8D731",
@@ -2018,6 +2698,16 @@
       "parentA": "seasia_053",
       "parentB": "seasia_053",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Zebra Danio",
+        "description": "A distinguished cultivar bred in the clear East Asian streams and Edo waterways, the Zebra Danio, with a warm body color and a graceful form."
+      },
+      "zh-Hans": {
+        "commonName": "斑马丹尼奥",
+        "description": "东亚清溪与江户水系培育的名门水族【斑马丹尼奥】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2029,7 +2719,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 828,
     "baseSwimSpeed": 1.3,
-    "baseCoinYield": 46,
+    "baseCoinYield": 29,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#16A34A",
@@ -2045,6 +2735,16 @@
       "parentA": "seasia_060",
       "parentB": "seasia_055",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Cherry Tetra",
+        "description": "A distinguished cultivar bred in the clear East Asian streams and Edo waterways, the Cherry Tetra, with a warm body color and a graceful form."
+      },
+      "zh-Hans": {
+        "commonName": "樱桃灯",
+        "description": "东亚清溪与江户水系培育的名门水族【樱桃灯】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2056,7 +2756,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 1582,
     "baseSwimSpeed": 0.84,
-    "baseCoinYield": 5,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#AB0BD2",
@@ -2074,6 +2774,16 @@
       "parentA": "seasia_052",
       "parentB": "seasia_053",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Thai Flying Fox",
+        "description": "A distinguished cultivar bred in the clear East Asian streams and Edo waterways, the Thai Flying Fox, with a warm body color and a graceful form."
+      },
+      "zh-Hans": {
+        "commonName": "泰国飞狐",
+        "description": "东亚清溪与江户水系培育的名门水族【泰国飞狐】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2085,7 +2795,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2896,
     "baseSwimSpeed": 1.76,
-    "baseCoinYield": 18,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#92BA00",
@@ -2103,6 +2813,16 @@
       "parentA": "seasia_061",
       "parentB": "seasia_058",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "One-Eyebrow Monk",
+        "description": "A distinguished cultivar bred in the clear East Asian streams and Edo waterways, the One-Eyebrow Monk, with a warm body color and a graceful form."
+      },
+      "zh-Hans": {
+        "commonName": "一眉道人",
+        "description": "东亚清溪与江户水系培育的名门水族【一眉道人】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2114,7 +2834,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 2952,
     "baseSwimSpeed": 1.52,
-    "baseCoinYield": 49,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#20184E",
@@ -2132,6 +2852,16 @@
       "parentA": "seasia_059",
       "parentB": "seasia_059",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Flying Fish",
+        "description": "A distinguished cultivar bred in the clear East Asian streams and Edo waterways, the Flying Fish, with a warm body color and a graceful form."
+      },
+      "zh-Hans": {
+        "commonName": "飞鱼",
+        "description": "东亚清溪与江户水系培育的名门水族【飞鱼】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2143,7 +2873,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 3923,
     "baseSwimSpeed": 2.93,
-    "baseCoinYield": 23,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#9333EA",
@@ -2161,6 +2891,16 @@
       "parentA": "seasia_052",
       "parentB": "seasia_059",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Glass Cat",
+        "description": "A distinguished cultivar bred in the clear East Asian streams and Edo waterways, the Glass Cat, with a warm body color and a graceful form."
+      },
+      "zh-Hans": {
+        "commonName": "玻璃猫",
+        "description": "东亚清溪与江户水系培育的名门水族【玻璃猫】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2172,7 +2912,7 @@
     "category": "東南亞與湄公河原生溪流",
     "hatchStepsRequired": 4932,
     "baseSwimSpeed": 2.15,
-    "baseCoinYield": 34,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#E10581",
@@ -2190,6 +2930,16 @@
       "parentA": "seasia_056",
       "parentB": "seasia_056",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Pearl Vest",
+        "description": "A distinguished cultivar bred in the clear East Asian streams and Edo waterways, the Pearl Vest, with a warm body color and a graceful form."
+      },
+      "zh-Hans": {
+        "commonName": "珍珠马甲",
+        "description": "东亚清溪与江户水系培育的名门水族【珍珠马甲】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2201,7 +2951,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 2683,
     "baseSwimSpeed": 0.79,
-    "baseCoinYield": 5,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
       "primaryColor": "#475569",
@@ -2220,6 +2970,16 @@
       "parentA": "taiwan_080",
       "parentB": "taiwan_076",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Sakura Masu",
+        "description": "A national-treasure glacial living fossil, the guardian of the cold, clear springs of Qijiawan Stream, with exquisite oval black spots and dark red markings on its flanks."
+      },
+      "zh-Hans": {
+        "commonName": "樱花钩吻鲑",
+        "description": "台湾国宝级冰河孑遗活化石，七家湾溪冰冷清泉守护者，体侧椭圆黑斑与暗红斑纹极致尊贵。"
+      }
     }
   },
   {
@@ -2231,7 +2991,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 886,
     "baseSwimSpeed": 0.68,
-    "baseCoinYield": 12,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🏔️",
     "visualBlueprint": {
       "primaryColor": "#C7D2E7",
@@ -2250,6 +3010,16 @@
       "parentA": "taiwan_085",
       "parentB": "taiwan_080",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Taiwan Highland Carp",
+        "description": "A spirit of the clear highland streams, endemic to Taiwan; its spade-like lower lip scrapes algae from the stream rocks, glinting like a platinum-white shooting star."
+      },
+      "zh-Hans": {
+        "commonName": "台湾高山鲴鱼",
+        "description": "台湾特有高山清溪精灵，下唇特化如铲，在溪石间翻滚刮食藻类时闪耀白金水下流星。"
+      }
     }
   },
   {
@@ -2261,7 +3031,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4884,
     "baseSwimSpeed": 2.87,
-    "baseCoinYield": 30,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🏔️",
     "visualBlueprint": {
       "primaryColor": "#00ED7B",
@@ -2280,6 +3050,16 @@
       "parentA": "taiwan_080",
       "parentB": "taiwan_077",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Taiwan Zacco",
+        "description": "The native king of Taiwan's streams, whose males flare with rainbow-like blue-green and pink metallic breeding colors as they chase and play."
+      },
+      "zh-Hans": {
+        "commonName": "粗首𫚭 (溪哥)",
+        "description": "台湾溪流原生之王，雄鱼发情期绽放如彩虹般的蓝绿与粉红金属婚姻色，追逐嬉戏。"
+      }
     }
   },
   {
@@ -2291,7 +3071,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 166,
     "baseSwimSpeed": 1.55,
-    "baseCoinYield": 20,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#CA8A04",
@@ -2310,6 +3090,16 @@
       "parentA": "taiwan_085",
       "parentB": "taiwan_079",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Taiwan Stone Carp",
+        "description": "The master of the clear upper- and mid-stream reaches, bearing seven bold black lateral bars and two pairs of mouth barbes, with a sleek, fast-swimming build."
+      },
+      "zh-Hans": {
+        "commonName": "台湾石宾",
+        "description": "中上游清澈溪流霸主，体侧有 7 条鲜明黑色横带，具两对口须，身形健美游速极快。"
+      }
     }
   },
   {
@@ -2321,7 +3111,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1829,
     "baseSwimSpeed": 2.92,
-    "baseCoinYield": 34,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
       "primaryColor": "#334155",
@@ -2339,6 +3129,16 @@
       "parentA": "taiwan_080",
       "parentB": "taiwan_079",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Seven-Star Snakehead",
+        "description": "A rare, precious native snakehead of Taiwan, its flanks bearing silvery star spots and crescent markings that shimmer in the dim light."
+      },
+      "zh-Hans": {
+        "commonName": "七星鳢",
+        "description": "台湾原生珍贵小型鳢鱼，体侧分布着七颗以上银白星点与月牙斑，夜间微光闪烁。"
+      }
     }
   },
   {
@@ -2350,7 +3150,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 2122,
     "baseSwimSpeed": 2.73,
-    "baseCoinYield": 19,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
       "primaryColor": "#F43F5E",
@@ -2368,6 +3168,16 @@
       "parentA": "taiwan_080",
       "parentB": "taiwan_085",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Rosy Barb",
+        "description": "A rosy gem that swims along grassy stream banks, its flanks glinting with rose-gold and copper-red hues, dazzling in the sunlight."
+      },
+      "zh-Hans": {
+        "commonName": "玫瑰鲫",
+        "description": "游动于草泽溪畔的玫瑰宝石，体侧泛着玫瑰金与铜红色泽，在阳光下璀璨夺目。"
+      }
     }
   },
   {
@@ -2379,7 +3189,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1449,
     "baseSwimSpeed": 2.81,
-    "baseCoinYield": 46,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -2398,6 +3208,16 @@
       "parentA": "taiwan_080",
       "parentB": "taiwan_079",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Tasseled-Mouth Loach",
+        "description": "A rapid-clinging master, its mouth fringed with tassel-like tufted barbels, its ventral suction cup anchoring it firmly onto swiftly moving rocks."
+      },
+      "zh-Hans": {
+        "commonName": "台湾缨口鳅",
+        "description": "急流吸附大师，口部周围长满如流苏般的缨状触须，腹部如吸盘牢牢固定在湍急石面上。"
+      }
     }
   },
   {
@@ -2409,7 +3229,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4024,
     "baseSwimSpeed": 1.17,
-    "baseCoinYield": 31,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🏔️",
     "visualBlueprint": {
       "primaryColor": "#E2E8F0",
@@ -2427,6 +3247,16 @@
       "parentA": "taiwan_081",
       "parentB": "taiwan_076",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Banarescu's Gudgeon",
+        "description": "An extremely endangered species endemic to Taiwan, wholly silver-white and translucent, with a deep blue, mercury-like horizontal band along its flanks."
+      },
+      "zh-Hans": {
+        "commonName": "巴氏银𬶋",
+        "description": "台湾极度濒危特有种，通体银白半透明，体侧有一条如水银般的深蓝光泽水平纵带。"
+      }
     }
   },
   {
@@ -2438,7 +3268,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1361,
     "baseSwimSpeed": 2.43,
-    "baseCoinYield": 25,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#475569",
@@ -2456,6 +3286,16 @@
       "parentA": "taiwan_084",
       "parentB": "taiwan_082",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Puli Rock Loach",
+        "description": "A flattened, sucker-footed loach endemic to Taiwan, its body hugging rapid-flow rocks like a slick mouse, its back draped in fine marbled camouflage."
+      },
+      "zh-Hans": {
+        "commonName": "埔里中华爬岩鳅",
+        "description": "台湾特有扁平吸盘鳅，身形如鼠标般紧贴急流溪石，背上覆盖精美大理石迷彩花纹。"
+      }
     }
   },
   {
@@ -2467,7 +3307,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4060,
     "baseSwimSpeed": 2.68,
-    "baseCoinYield": 37,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
       "primaryColor": "#52525B",
@@ -2485,6 +3325,16 @@
       "parentA": "taiwan_081",
       "parentB": "taiwan_084",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Slender Flat Loach",
+        "description": "A hermit of Taiwan's highland rapids, its specialized, broad pectoral and pelvic fins like a bat's gliding wings, pressing streamlined against the current along the riverbed."
+      },
+      "zh-Hans": {
+        "commonName": "细体拟平鳅",
+        "description": "台湾高山急流隐士，特化宽大胸腹鳍宛如蝙蝠滑翔翼，流线贴底逆水而上。"
+      }
     }
   },
   {
@@ -2496,7 +3346,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 3934,
     "baseSwimSpeed": 2.35,
-    "baseCoinYield": 17,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
       "primaryColor": "#CA8A04",
@@ -2515,6 +3365,16 @@
       "parentA": "taiwan_079",
       "parentB": "taiwan_084",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Henchuen Goby",
+        "description": "A clear-water goby endemic to southern Taiwan, its cheeks flecked with ruby-bright spots, its spread fins projecting a commanding territorial presence."
+      },
+      "zh-Hans": {
+        "commonName": "恒春吻鰕虎",
+        "description": "台湾南部清泉特有鰕虎，两颊点缀着如红宝石般的鲜艳斑点，双鳍张开时极具地盘威势。"
+      }
     }
   },
   {
@@ -2526,7 +3386,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4804,
     "baseSwimSpeed": 2.59,
-    "baseCoinYield": 31,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -2542,6 +3402,16 @@
       "parentA": "taiwan_085",
       "parentB": "taiwan_080",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Spotted Brawler",
+        "description": "A prestigious line-bred ornamental brawler 【Spotted Brawler】 from East Asian clear streams and Edo river systems, with mellow coloration and graceful carriage."
+      },
+      "zh-Hans": {
+        "commonName": "盖斑斗鱼",
+        "description": "东亚清溪与江户水系培育的名门水族【盖斑斗鱼】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2553,7 +3423,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 2474,
     "baseSwimSpeed": 1.27,
-    "baseCoinYield": 9,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#C820B1",
@@ -2572,6 +3442,16 @@
       "parentA": "taiwan_086",
       "parentB": "taiwan_085",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Taiwan Gap Rock Loach",
+        "description": "A prestigious line-bred ornamental loach 【Taiwan Gap Rock Loach】 from East Asian clear streams and Edo river systems, with mellow coloration and graceful carriage."
+      },
+      "zh-Hans": {
+        "commonName": "台湾间爬岩鳅",
+        "description": "东亚清溪与江户水系培育的名门水族【台湾间爬岩鳅】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2583,7 +3463,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1631,
     "baseSwimSpeed": 1.26,
-    "baseCoinYield": 33,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0C6AA8",
@@ -2601,6 +3481,16 @@
       "parentA": "taiwan_077",
       "parentB": "taiwan_085",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Bitterbloom",
+        "description": "A prestigious line-bred ornamental fish 【Bitterbloom】 from East Asian clear streams and Edo river systems, with mellow coloration and graceful carriage."
+      },
+      "zh-Hans": {
+        "commonName": "苦花",
+        "description": "东亚清溪与江户水系培育的名门水族【苦花】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2612,7 +3502,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 3742,
     "baseSwimSpeed": 2.43,
-    "baseCoinYield": 50,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#9110C3",
@@ -2630,6 +3520,16 @@
       "parentA": "taiwan_082",
       "parentB": "taiwan_082",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Stream Bro",
+        "description": "A prestigious line-bred ornamental fish 【Stream Bro】 from East Asian clear streams and Edo river systems, with mellow coloration and graceful carriage."
+      },
+      "zh-Hans": {
+        "commonName": "溪哥",
+        "description": "东亚清溪与江户水系培育的名门水族【溪哥】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2641,7 +3541,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4498,
     "baseSwimSpeed": 0.67,
-    "baseCoinYield": 10,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#07AE02",
@@ -2659,6 +3559,16 @@
       "parentA": "taiwan_083",
       "parentB": "taiwan_083",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Snub-Snout Sickle",
+        "description": "A prestigious line-bred ornamental fish 【Snub-Snout Sickle】 from East Asian clear streams and Edo river systems, with mellow coloration and graceful carriage."
+      },
+      "zh-Hans": {
+        "commonName": "短吻镰柄",
+        "description": "东亚清溪与江户水系培育的名门水族【短吻镰柄】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2670,7 +3580,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4783,
     "baseSwimSpeed": 2.06,
-    "baseCoinYield": 38,
+    "baseCoinYield": 29,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1D4931",
@@ -2688,6 +3598,16 @@
       "parentA": "taiwan_076",
       "parentB": "taiwan_081",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Coarse-Scale Characin",
+        "description": "A prestigious line-bred ornamental fish 【Coarse-Scale Characin】 from East Asian clear streams and Edo river systems, with mellow coloration and graceful carriage."
+      },
+      "zh-Hans": {
+        "commonName": "粗鳞𫚭",
+        "description": "东亚清溪与江户水系培育的名门水族【粗鳞𫚭】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2699,7 +3619,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 2970,
     "baseSwimSpeed": 1.77,
-    "baseCoinYield": 39,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🏔️",
     "visualBlueprint": {
       "primaryColor": "#028DAE",
@@ -2717,6 +3637,16 @@
       "parentA": "taiwan_079",
       "parentB": "taiwan_076",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Sinic Spotted Loach",
+        "description": "A prestigious line-bred ornamental loach 【Sinic Spotted Loach】 from East Asian clear streams and Edo river systems, with mellow coloration and graceful carriage."
+      },
+      "zh-Hans": {
+        "commonName": "中华花鳅",
+        "description": "东亚清溪与江户水系培育的名门水族【中华花鳅】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2728,7 +3658,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1132,
     "baseSwimSpeed": 0.9,
-    "baseCoinYield": 14,
+    "baseCoinYield": 19,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#E91370",
@@ -2746,6 +3676,16 @@
       "parentA": "taiwan_086",
       "parentB": "taiwan_078",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Mud Loach",
+        "description": "A prestigious line-bred ornamental loach 【Mud Loach】 from East Asian clear streams and Edo river systems, with mellow coloration and graceful carriage."
+      },
+      "zh-Hans": {
+        "commonName": "泥鳅",
+        "description": "东亚清溪与江户水系培育的名门水族【泥鳅】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2757,7 +3697,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 3910,
     "baseSwimSpeed": 2.53,
-    "baseCoinYield": 48,
+    "baseCoinYield": 21,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -2773,6 +3713,16 @@
       "parentA": "taiwan_076",
       "parentB": "taiwan_082",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Perch-Characin",
+        "description": "A prestigious line-bred ornamental fish 【Perch-Characin】 from East Asian clear streams and Edo river systems, with mellow coloration and graceful carriage."
+      },
+      "zh-Hans": {
+        "commonName": "鲈鳗",
+        "description": "东亚清溪与江户水系培育的名门水族【鲈鳗】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2784,7 +3734,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 644,
     "baseSwimSpeed": 2.71,
-    "baseCoinYield": 22,
+    "baseCoinYield": 15,
     "emojiOrSprite": "🏔️",
     "visualBlueprint": {
       "primaryColor": "#109A51",
@@ -2802,6 +3752,16 @@
       "parentA": "taiwan_086",
       "parentB": "taiwan_082",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Taiwan Rock Minnow",
+        "description": "A prestigious line-bred ornamental fish 【Taiwan Rock Minnow】 from East Asian clear streams and Edo river systems, with mellow coloration and graceful carriage."
+      },
+      "zh-Hans": {
+        "commonName": "台湾石鱋",
+        "description": "东亚清溪与江户水系培育的名门水族【台湾石鱋】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2813,7 +3773,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4846,
     "baseSwimSpeed": 0.81,
-    "baseCoinYield": 36,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
       "primaryColor": "#A0DE33",
@@ -2832,6 +3792,16 @@
       "parentA": "taiwan_081",
       "parentB": "taiwan_078",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Striped Two-Barbel Loach",
+        "description": "A prestigious line-bred ornamental loach 【Striped Two-Barbel Loach】 from East Asian clear streams and Edo river systems, with mellow coloration and graceful carriage."
+      },
+      "zh-Hans": {
+        "commonName": "条纹二须鲃",
+        "description": "东亚清溪与江户水系培育的名门水族【条纹二须鲃】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2843,7 +3813,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 1510,
     "baseSwimSpeed": 2.97,
-    "baseCoinYield": 23,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#4B1B40",
@@ -2861,6 +3831,16 @@
       "parentA": "taiwan_086",
       "parentB": "taiwan_084",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Kikuchi's Slender Minnow",
+        "description": "A prestigious line-bred ornamental fish 【Kikuchi's Slender Minnow】 from East Asian clear streams and Edo river systems, with mellow coloration and graceful carriage."
+      },
+      "zh-Hans": {
+        "commonName": "菊池氏细鲫",
+        "description": "东亚清溪与江户水系培育的名门水族【菊池氏细鲫】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2872,7 +3852,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 243,
     "baseSwimSpeed": 0.59,
-    "baseCoinYield": 46,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🇹🇼",
     "visualBlueprint": {
       "primaryColor": "#9333EA",
@@ -2890,6 +3870,16 @@
       "parentA": "taiwan_078",
       "parentB": "taiwan_078",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Roundsnout Minnow",
+        "description": "A prestigious line-bred ornamental fish 【Roundsnout Minnow】 from East Asian clear streams and Edo river systems, with mellow coloration and graceful carriage."
+      },
+      "zh-Hans": {
+        "commonName": "圆吻鲴",
+        "description": "东亚清溪与江户水系培育的名门水族【圆吻鲴】，体色温润、身姿曼妙。"
+      }
     }
   },
   {
@@ -2901,7 +3891,7 @@
     "category": "台灣與東亞高山清溪原生特有種",
     "hatchStepsRequired": 4034,
     "baseSwimSpeed": 2.21,
-    "baseCoinYield": 9,
+    "baseCoinYield": 15,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#D71C4F",
@@ -2920,6 +3910,16 @@
       "parentA": "taiwan_076",
       "parentB": "taiwan_082",
       "mutationHint": "Requires high purity water."
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Taitung Gap Rock Loach",
+        "description": "A prestigious line-bred ornamental loach 【Taitung Gap Rock Loach】 from East Asian clear streams and Edo river systems, with mellow coloration and graceful carriage."
+      },
+      "zh-Hans": {
+        "commonName": "台东间爬岩鳅",
+        "description": "东亚清溪与江户水系培育的名门水族【台东间爬岩鳅】，体色温润、身姿曼妙。"
+      }
     }
   }
 ]

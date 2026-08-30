@@ -142,7 +142,7 @@
                         <tr class="border-b border-slate-800 text-slate-400 text-xs uppercase tracking-wider">
                             <th class="py-3 px-4">等級階級</th>
                             <th class="py-3 px-4">孵化步數需求</th>
-                            <th class="py-3 px-4">每分鐘產幣</th>
+                            <th class="py-3 px-4">單魚產能</th>
                             <th class="py-3 px-4">代表品種生態</th>
                         </tr>
                     </thead>
@@ -162,19 +162,19 @@
                         <tr>
                             <td class="py-3 px-4 font-bold text-blue-400">🟦 稀有 (Rare)</td>
                             <td class="py-3 px-4 text-slate-400">4,000 ~ 6,000 步</td>
-                            <td class="py-3 px-4 text-cyan-400">3 ~ 5 🪙</td>
+                            <td class="py-3 px-4 text-cyan-400">2 ~ 5 🪙</td>
                             <td class="py-3 px-4 text-slate-300">日本蘭壽金魚、黃三角倒吊、台灣高山鯝魚</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 font-bold text-purple-400">🟪 史詩 (Epic)</td>
                             <td class="py-3 px-4 text-slate-400">6,000 ~ 12,000 步</td>
-                            <td class="py-3 px-4 text-cyan-400">5 ~ 12 🪙</td>
+                            <td class="py-3 px-4 text-cyan-400">4 ~ 20 🪙</td>
                             <td class="py-3 px-4 text-slate-300">日本丹頂錦鯉、墨黑水泡眼、白金雙尾鬥魚、黑帝王魟</td>
                         </tr>
                         <tr>
                             <td class="py-3 px-4 font-bold text-amber-400">🟧 傳說 (Legendary)</td>
                             <td class="py-3 px-4 text-slate-400">15,000 ~ 30,000 步</td>
-                            <td class="py-3 px-4 text-cyan-400">15 ~ 30 🪙</td>
+                            <td class="py-3 px-4 text-cyan-400">8 ~ 36 🪙</td>
                             <td class="py-3 px-4 text-slate-300">北溟巨鯤、滅世巨齒鯊、白堊紀滄龍、耶夢加得</td>
                         </tr>
                     </tbody>
@@ -184,8 +184,151 @@
 
         <!-- Chapter 3: Genetics Breeding Lab -->
         <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+            <div class="absolute -top-12 -left-12 w-48 h-48 bg-amber-500/10 rounded-full blur-3xl"></div>
             <div class="flex items-center gap-3 mb-6">
-                <span class="w-8 h-8 rounded-xl bg-pink-500/20 text-pink-400 flex items-center justify-center font-bold text-sm">03</span>
+                <span class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-sm">03</span>
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                    🫧 泡泡金幣與愛心能量：怎麼拿、拿多快
+                </h2>
+            </div>
+
+            <p class="text-slate-300 leading-relaxed mb-6">
+                上一節的「單魚產能」<span class="text-slate-400">不是</span>每分鐘直接入帳的數字，它是一個係數，會餵進下面兩條完全不同的產幣管道。
+                搞懂這兩條，你就知道該多開 App，還是安心關掉去過生活。
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                <div class="bg-slate-900/80 rounded-2xl p-5 border border-cyan-800/50">
+                    <div class="text-2xl mb-2">👀</div>
+                    <div class="font-bold text-white mb-2">管道一 · 開著 App 時的水面泡泡</div>
+                    <ul class="text-xs text-slate-400 space-y-1.5 leading-relaxed">
+                        <li>• 每 <span class="text-cyan-400 font-mono">60 秒</span>，由缸內隨機一隻魚吐出一顆</li>
+                        <li>• 畫面上同時最多 <span class="text-cyan-400 font-mono">4 顆</span>，沒收走就不再生新的</li>
+                        <li>• 每顆幣值 = 該魚產能（稀有／史詩 +1，傳說 +2）</li>
+                        <li>• 用手指滑過或點一下就收進錢包</li>
+                    </ul>
+                </div>
+                <div class="bg-slate-900/80 rounded-2xl p-5 border border-emerald-800/50">
+                    <div class="text-2xl mb-2">🌙</div>
+                    <div class="font-bold text-white mb-2">管道二 · 關掉 App 也在累積</div>
+                    <ul class="text-xs text-slate-400 space-y-1.5 leading-relaxed">
+                        <li>• 每小時 = <span class="text-emerald-400 font-mono">全缸產能總和 × 4</span> 泡泡幣</li>
+                        <li>• 目前這一缸全額計算，其他魚缸折半</li>
+                        <li>• 累積到 <span class="text-emerald-400 font-mono">12 小時</span> 為止，再久也不會更多</li>
+                        <li>• 至少離開 5 分鐘才會結算，回來時化成最多 8 顆泡泡等你收</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-800 mb-6">
+                <div class="font-bold text-white mb-3 text-sm">📊 掛機一晚大概有多少？（離線 8 小時）</div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-xs sm:text-sm">
+                        <thead>
+                            <tr class="border-b border-slate-800 text-slate-400 text-xs uppercase tracking-wider">
+                                <th class="py-2 px-3">魚缸狀態</th>
+                                <th class="py-2 px-3">產能總和</th>
+                                <th class="py-2 px-3">8 小時收益</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-800/60 font-mono text-xs">
+                            <tr>
+                                <td class="py-2 px-3 text-slate-300">剛開始玩 · 2 隻起始魚</td>
+                                <td class="py-2 px-3 text-slate-400">2</td>
+                                <td class="py-2 px-3 text-amber-400">64 🫧</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-3 text-slate-300">5 隻普通魚</td>
+                                <td class="py-2 px-3 text-slate-400">10</td>
+                                <td class="py-2 px-3 text-amber-400">320 🫧</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-3 text-slate-300">8 隻混養（含幾隻稀有）</td>
+                                <td class="py-2 px-3 text-slate-400">28</td>
+                                <td class="py-2 px-3 text-amber-400">896 🫧</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-3 text-slate-300">滿編高階缸</td>
+                                <td class="py-2 px-3 text-slate-400">40+</td>
+                                <td class="py-2 px-3 text-amber-400">900 🫧（封頂）</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="text-[11px] text-slate-500 mt-3 leading-relaxed">
+                    單次結算有上限，會隨魚缸數遞減成長：1 缸 900、2 缸 1,100、3 缸 1,300、4 缸以上 1,500。
+                    Pro 買斷版把上限提高 1.5 倍（最高 2,250）。所以多開魚缸會變多，但不會等比翻倍。
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+                <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
+                    <div class="text-2xl mb-2">🎧</div>
+                    <div class="font-bold text-white mb-1 text-sm">專注番茄鐘</div>
+                    <div class="text-xs text-slate-400">完成一次 +15 🫧 與 +25 主人經驗。計時走真實時鐘，關掉畫面去做事也照樣在跑。</div>
+                </div>
+                <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
+                    <div class="text-2xl mb-2">🌊</div>
+                    <div class="font-bold text-white mb-1 text-sm">放生回大海</div>
+                    <div class="text-xs text-slate-400">依稀有度與進化階段換回泡泡幣，幼魚折半。捨不得的魚記得先點右上角星星鎖起來。</div>
+                </div>
+                <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
+                    <div class="text-2xl mb-2">🥫</div>
+                    <div class="font-bold text-white mb-1 text-sm">飼料是有限的</div>
+                    <div class="text-xs text-slate-400">飼料罐每 20 分鐘回填 1 格，可在工坊花錢永久擴充。餵魚同時給主人經驗與進化經驗。</div>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-3 mb-4 pt-2">
+                <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                    ❤️ 愛心能量：繁育專用的另一種資源
+                </h3>
+            </div>
+            <p class="text-slate-300 leading-relaxed mb-4 text-sm">
+                愛心能量跟泡泡幣是<span class="text-rose-400 font-semibold">兩套獨立的資源</span>，買不到、也換不來，只能靠跟魚互動累積。它唯一的用途是基因繁育。
+            </p>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left text-sm">
+                    <thead>
+                        <tr class="border-b border-slate-800 text-slate-400 text-xs uppercase tracking-wider">
+                            <th class="py-3 px-4">來源 / 用途</th>
+                            <th class="py-3 px-4">數量</th>
+                            <th class="py-3 px-4">限制</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-800/60 text-xs sm:text-sm">
+                        <tr>
+                            <td class="py-3 px-4 text-slate-300">👆 撫摸魚（點一下魚）</td>
+                            <td class="py-3 px-4 font-mono text-rose-400">+2 ❤️</td>
+                            <td class="py-3 px-4 text-slate-400">每隻魚每天只算 3 次，兩次之間要隔 15 秒</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-slate-300">🥚 孵化出新魚</td>
+                            <td class="py-3 px-4 font-mono text-rose-400">+30 ❤️</td>
+                            <td class="py-3 px-4 text-slate-400">走路累積步數推進魚卵，破殼時一次入帳</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-slate-300">🧬 基因繁育一次</td>
+                            <td class="py-3 px-4 font-mono text-cyan-400">−50 ❤️</td>
+                            <td class="py-3 px-4 text-slate-400">不足 50 就不能配種</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 px-4 text-slate-300">🔝 愛心能量上限</td>
+                            <td class="py-3 px-4 font-mono text-amber-400">500 ❤️</td>
+                            <td class="py-3 px-4 text-slate-400">滿了就別再累積，先拿去繁育</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-[11px] text-slate-500 mt-4 leading-relaxed">
+                換算一下：養 5 隻魚、每天全部摸滿，就是 5 × 3 × 2 = 30 ❤️／天，大約每兩天可以繁育一次。
+                想加快就多養幾隻，或多走路孵蛋（每顆蛋 +30 ❤️ 等於一次半的撫摸日常）。
+            </p>
+        </section>
+
+        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+            <div class="flex items-center gap-3 mb-6">
+                <span class="w-8 h-8 rounded-xl bg-pink-500/20 text-pink-400 flex items-center justify-center font-bold text-sm">04</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">
                     🧬 基因繁育突變實驗室指南
                 </h2>
@@ -216,7 +359,7 @@
         <!-- Chapter 4: Workshop & Tank Expansion -->
         <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
-                <span class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-sm">04</span>
+                <span class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-sm">05</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">
                     🏺 魚缸擴建升級與主題造景
                 </h2>
@@ -249,7 +392,7 @@
         <!-- Chapter 5: P2P Trading -->
         <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
-                <span class="w-8 h-8 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center font-bold text-sm">05</span>
+                <span class="w-8 h-8 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center font-bold text-sm">06</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">
                     📡 近場神魚雷達交換 (P2P Trade)
                 </h2>
@@ -272,7 +415,7 @@
         <!-- Chapter 6: Feeding & Coin Bubbles -->
         <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
-                <span class="w-8 h-8 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-bold text-sm">06</span>
+                <span class="w-8 h-8 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-bold text-sm">07</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">
                     🥫 投餵模式與水面金幣滑動採集
                 </h2>
@@ -305,7 +448,7 @@
         <!-- Chapter 7: Move Fish & Rename -->
         <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
-                <span class="w-8 h-8 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-sm">07</span>
+                <span class="w-8 h-8 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-sm">08</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">
                     🚚 魚隻換缸搬家與雙重命名系統
                 </h2>
@@ -336,7 +479,7 @@
         <!-- Chapter 8: Fish Roster & Dex -->
         <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
-                <span class="w-8 h-8 rounded-xl bg-blue-500/20 text-blue-400 flex items-center justify-center font-bold text-sm">08</span>
+                <span class="w-8 h-8 rounded-xl bg-blue-500/20 text-blue-400 flex items-center justify-center font-bold text-sm">09</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">
                     🐟 現有魚群名冊與萬種千魚圖鑑
                 </h2>
@@ -369,7 +512,7 @@
         <!-- Chapter 9: Showcase / Zen Display Mode -->
         <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
-                <span class="w-8 h-8 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center font-bold text-sm">09</span>
+                <span class="w-8 h-8 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center font-bold text-sm">10</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">
                     🪟 全螢幕禪意展示模式 (Zen Showcase)
                 </h2>
@@ -383,7 +526,7 @@
         <!-- Chapter 10: Office Safe Silent & Minimalist Bottom XP -->
         <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
-                <span class="w-8 h-8 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center font-bold text-sm">10</span>
+                <span class="w-8 h-8 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center font-bold text-sm">11</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">
                     🔇 上班族預設靜音與缸底經驗條
                 </h2>

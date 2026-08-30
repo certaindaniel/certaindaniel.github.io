@@ -8,7 +8,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 2058,
     "baseSwimSpeed": 2.24,
-    "baseCoinYield": 10,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -23,6 +23,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_032",
       "parentB": "AFR_GEN_057"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Gold-Blue Peacock Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Gold-Blue Peacock Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "孔雀鲷金蓝",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【孔雀鲷金蓝】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -34,7 +44,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 4169,
     "baseSwimSpeed": 2.57,
-    "baseCoinYield": 24,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#00FB72",
@@ -51,6 +61,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_041",
       "parentB": "AFR_GEN_056"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Ari Gold-Head Peacock Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Ari Gold-Head Peacock Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "阿里金头",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【阿里金头】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -62,7 +82,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 1622,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 78,
+    "baseCoinYield": 15,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#CE0EC4",
@@ -79,6 +99,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_010",
       "parentB": "AFR_GEN_023"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Golden Peacock Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Golden Peacock Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "黄金雀",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【黄金雀】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -90,7 +120,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 4004,
     "baseSwimSpeed": 4.03,
-    "baseCoinYield": 70,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#3A1F49",
@@ -108,6 +138,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_018",
       "parentB": "AFR_GEN_073"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Zebra Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Zebra Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "斑马十间",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【斑马十间】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -119,7 +159,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 4184,
     "baseSwimSpeed": 2.94,
-    "baseCoinYield": 71,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#C8EAC9",
@@ -136,6 +176,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_098",
       "parentB": "AFR_GEN_017"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Red in the Snow Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Red in the Snow Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "雪中红",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【雪中红】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -147,7 +197,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 4646,
     "baseSwimSpeed": 2.65,
-    "baseCoinYield": 54,
+    "baseCoinYield": 28,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#E65716",
@@ -165,6 +215,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_007",
       "parentB": "AFR_GEN_016"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "African Red-Belly Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, African Red-Belly Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "非洲红肚",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【非洲红肚】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -176,7 +236,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 2677,
     "baseSwimSpeed": 4.5,
-    "baseCoinYield": 42,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1D4ED8",
@@ -193,6 +253,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_006",
       "parentB": "AFR_GEN_074"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Bloodspot Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Bloodspot Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "血中斑",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【血中斑】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -204,7 +274,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 2312,
     "baseSwimSpeed": 2.34,
-    "baseCoinYield": 100,
+    "baseCoinYield": 20,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -221,6 +291,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_065",
       "parentB": "AFR_GEN_032"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "White Horse Prince Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, White Horse Prince Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "白马王子",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【白马王子】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -232,7 +312,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 4848,
     "baseSwimSpeed": 1.47,
-    "baseCoinYield": 49,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#ED6003",
@@ -249,6 +329,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_068",
       "parentB": "AFR_GEN_003"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Golden Squirrel Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Golden Squirrel Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "金松鼠",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【金松鼠】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -260,7 +350,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 4801,
     "baseSwimSpeed": 2.43,
-    "baseCoinYield": 97,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#EC8F3A",
@@ -278,6 +368,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_021",
       "parentB": "AFR_GEN_078"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Red Horse-Face Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Red Horse-Face Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "红马面",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【红马面】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -289,7 +389,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 3505,
     "baseSwimSpeed": 3.14,
-    "baseCoinYield": 90,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#D1C8EA",
@@ -306,6 +406,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_050",
       "parentB": "AFR_GEN_030"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Blue Pearl Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Blue Pearl Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "蓝珍珠",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【蓝珍珠】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -317,7 +427,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 2070,
     "baseSwimSpeed": 1.35,
-    "baseCoinYield": 88,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -334,6 +444,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_028",
       "parentB": "AFR_GEN_040"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Emperor Peacock Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Emperor Peacock Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "帝王雀",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【帝王雀】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -345,7 +465,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 3647,
     "baseSwimSpeed": 2.72,
-    "baseCoinYield": 40,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#4C23E1",
@@ -363,6 +483,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_048",
       "parentB": "AFR_GEN_049"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Ultra-Blue Zebra Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Ultra-Blue Zebra Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "特蓝斑马",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【特蓝斑马】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -374,7 +504,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 2336,
     "baseSwimSpeed": 2.03,
-    "baseCoinYield": 31,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1EFC2E",
@@ -391,6 +521,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_041",
       "parentB": "AFR_GEN_034"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Golden Bird-of-Paradise Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Golden Bird-of-Paradise Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "黄金天堂鸟",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【黄金天堂鸟】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -402,7 +542,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 1308,
     "baseSwimSpeed": 2.82,
-    "baseCoinYield": 73,
+    "baseCoinYield": 15,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -419,6 +559,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_068",
       "parentB": "AFR_GEN_077"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Lightning War God Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Lightning War God Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "闪电战神",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【闪电战神】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -430,7 +580,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 2374,
     "baseSwimSpeed": 1.16,
-    "baseCoinYield": 95,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#CD09DD",
@@ -447,6 +597,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_057",
       "parentB": "AFR_GEN_088"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Sun Peacock Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Sun Peacock Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "太阳孔雀",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【太阳孔雀】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -458,7 +618,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 3136,
     "baseSwimSpeed": 4.58,
-    "baseCoinYield": 96,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -473,6 +633,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_043",
       "parentB": "AFR_GEN_065"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Sapphire Peacock Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Sapphire Peacock Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "蓝宝石孔雀",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【蓝宝石孔雀】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -484,7 +654,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 2889,
     "baseSwimSpeed": 3.95,
-    "baseCoinYield": 32,
+    "baseCoinYield": 25,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#B5E536",
@@ -502,6 +672,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_066",
       "parentB": "AFR_GEN_009"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Ruby Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Ruby Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "红宝石",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【红宝石】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -513,7 +693,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 3881,
     "baseSwimSpeed": 4.76,
-    "baseCoinYield": 51,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#10DFA3",
@@ -531,6 +711,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_047",
       "parentB": "AFR_GEN_059"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Venus Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Venus Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "维纳斯",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【维纳斯】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -542,7 +732,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 4255,
     "baseSwimSpeed": 4.48,
-    "baseCoinYield": 29,
+    "baseCoinYield": 28,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#EAB308",
@@ -559,6 +749,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_045",
       "parentB": "AFR_GEN_051"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Blue Angel Cichlid",
+        "description": "A classic cichlid from the clear lakes of the East African Rift Valley, Blue Angel Cichlid, with stunning marine-like colors and the instinctive wisdom of egg-guarding and fry-rearing."
+      },
+      "zh-Hans": {
+        "commonName": "蓝天使",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【蓝天使】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -570,7 +770,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 1491,
     "baseSwimSpeed": 3.1,
-    "baseCoinYield": 40,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F44DE3",
@@ -587,6 +787,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_041",
       "parentB": "AFR_GEN_013"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Amethyst",
+        "description": "The Amethyst is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "紫水晶",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【紫水晶】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -598,7 +808,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 4068,
     "baseSwimSpeed": 4.37,
-    "baseCoinYield": 59,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#ED031D",
@@ -615,6 +825,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_010",
       "parentB": "AFR_GEN_054"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Diamond Parrot",
+        "description": "The Diamond Parrot is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "金刚鹦鹉",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【金刚鹦鹉】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -626,7 +846,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 4546,
     "baseSwimSpeed": 1.12,
-    "baseCoinYield": 78,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#20FF2F",
@@ -644,6 +864,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_056",
       "parentB": "AFR_GEN_092"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Platinum Bird of Paradise",
+        "description": "The Platinum Bird of Paradise is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "白金天堂鸟",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【白金天堂鸟】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -655,7 +885,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 1204,
     "baseSwimSpeed": 1.73,
-    "baseCoinYield": 84,
+    "baseCoinYield": 21,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -670,6 +900,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_009",
       "parentB": "AFR_GEN_070"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Strawberry Peacock",
+        "description": "The Strawberry Peacock is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "草莓孔雀",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【草莓孔雀】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -681,7 +921,7 @@
     "category": "馬拉威湖岩棲與孔雀慈鯛",
     "hatchStepsRequired": 4001,
     "baseSwimSpeed": 4.5,
-    "baseCoinYield": 29,
+    "baseCoinYield": 21,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#6633DE",
@@ -699,6 +939,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_061",
       "parentB": "AFR_GEN_025"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Crimson Finch",
+        "description": "The Crimson Finch is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "红彩雀",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【红彩雀】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -710,7 +960,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 3563,
     "baseSwimSpeed": 2.24,
-    "baseCoinYield": 54,
+    "baseCoinYield": 16,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1D4ED8",
@@ -727,6 +977,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_050",
       "parentB": "AFR_GEN_005"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Sairei Blue Six-Bar",
+        "description": "The Sairei Blue Six-Bar is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "萨伊蓝六间",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【萨伊蓝六间】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -738,7 +998,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 1260,
     "baseSwimSpeed": 3.68,
-    "baseCoinYield": 31,
+    "baseCoinYield": 28,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#2A42F8",
@@ -756,6 +1016,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_005",
       "parentB": "AFR_GEN_098"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Burundi Princess",
+        "description": "The Burundi Princess is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "布隆迪公主",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【布隆迪公主】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -767,7 +1037,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 4098,
     "baseSwimSpeed": 2.22,
-    "baseCoinYield": 74,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#059669",
@@ -784,6 +1054,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_041",
       "parentB": "AFR_GEN_022"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Nine-Ten Bar",
+        "description": "The Nine-Ten Bar is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "九间十间",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【九间十间】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -795,7 +1075,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 3476,
     "baseSwimSpeed": 3.65,
-    "baseCoinYield": 72,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#CE5A0E",
@@ -812,6 +1092,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_098",
       "parentB": "AFR_GEN_070"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Golden Finch",
+        "description": "The Golden Finch is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "金雀",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【金雀】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -823,7 +1113,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 1480,
     "baseSwimSpeed": 2.41,
-    "baseCoinYield": 23,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#4E1846",
@@ -841,6 +1131,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_099",
       "parentB": "AFR_GEN_079"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Zebra Nine-Bar",
+        "description": "The Zebra Nine-Bar is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "斑马九间",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【斑马九间】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -852,7 +1152,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 1586,
     "baseSwimSpeed": 2.71,
-    "baseCoinYield": 95,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#72ED03",
@@ -870,6 +1170,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_095",
       "parentB": "AFR_GEN_040"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Golden Zebra",
+        "description": "The Golden Zebra is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "黄金斑马",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【黄金斑马】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -881,7 +1191,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 1958,
     "baseSwimSpeed": 4.16,
-    "baseCoinYield": 56,
+    "baseCoinYield": 27,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -898,6 +1208,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_069",
       "parentB": "AFR_GEN_038"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Red Zebra",
+        "description": "The Red Zebra is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "红斑马",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【红斑马】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -909,7 +1229,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 4996,
     "baseSwimSpeed": 1.71,
-    "baseCoinYield": 65,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DD0932",
@@ -926,6 +1246,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_065",
       "parentB": "AFR_GEN_058"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Golden Pearl Finch",
+        "description": "The Golden Pearl Finch is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "黄金珍珠雀",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【黄金珍珠雀】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -937,7 +1267,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 3430,
     "baseSwimSpeed": 1.67,
-    "baseCoinYield": 48,
+    "baseCoinYield": 17,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#E5C6EC",
@@ -954,6 +1284,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_058",
       "parentB": "AFR_GEN_002"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Blue-Winged Pearl",
+        "description": "The Blue-Winged Pearl is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "蓝翼珍珠",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【蓝翼珍珠】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -965,7 +1305,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 2754,
     "baseSwimSpeed": 4.45,
-    "baseCoinYield": 83,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -982,6 +1322,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_083",
       "parentB": "AFR_GEN_038"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Zebra Shell",
+        "description": "The Zebra Shell is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "斑马贝",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【斑马贝】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -993,7 +1343,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 3051,
     "baseSwimSpeed": 4.92,
-    "baseCoinYield": 48,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#09DD45",
@@ -1010,6 +1360,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_022",
       "parentB": "AFR_GEN_074"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Golden Dome Shell",
+        "description": "The Golden Dome Shell is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "黄金圆顶贝",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【黄金圆顶贝】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1021,7 +1381,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 2262,
     "baseSwimSpeed": 4.64,
-    "baseCoinYield": 30,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -1038,6 +1398,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_027",
       "parentB": "AFR_GEN_076"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Black Pearl Six-Bar",
+        "description": "The Black Pearl Six-Bar is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "黑珍珠六间",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【黑珍珠六间】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1049,7 +1419,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 4905,
     "baseSwimSpeed": 4.96,
-    "baseCoinYield": 71,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#FC1ED5",
@@ -1067,6 +1437,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_080",
       "parentB": "AFR_GEN_037"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Platinum Six-Bar",
+        "description": "The Platinum Six-Bar is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "白金六间",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【白金六间】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1078,7 +1458,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 1864,
     "baseSwimSpeed": 3.74,
-    "baseCoinYield": 28,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -1095,6 +1475,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_015",
       "parentB": "AFR_GEN_005"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Golden Lantern",
+        "description": "The Golden Lantern is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "黄金提灯",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【黄金提灯】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1106,7 +1496,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 4717,
     "baseSwimSpeed": 1.48,
-    "baseCoinYield": 82,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#966800",
@@ -1124,6 +1514,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_030",
       "parentB": "AFR_GEN_033"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Blue-Winged Lantern",
+        "description": "The Blue-Winged Lantern is a classic cichlid of the clear lakes of the East African Rift Valley, with marine-fish brilliance and the instinct to guard its eggs and raise its fry."
+      },
+      "zh-Hans": {
+        "commonName": "蓝翼提灯",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【蓝翼提灯】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1135,7 +1535,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 4569,
     "baseSwimSpeed": 1.76,
-    "baseCoinYield": 89,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -1152,6 +1552,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_033",
       "parentB": "AFR_GEN_058"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Red-Winged Lantern",
+        "description": "A classic cichlid Red-Winged Lantern inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "红翼提灯",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【红翼提灯】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1163,7 +1573,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 3153,
     "baseSwimSpeed": 4.28,
-    "baseCoinYield": 73,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#165049",
@@ -1181,6 +1591,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_090",
       "parentB": "AFR_GEN_054"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Queen's Forktail",
+        "description": "A classic cichlid Queen's Forktail inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "女王燕尾",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【女王燕尾】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1192,7 +1612,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 4209,
     "baseSwimSpeed": 1.06,
-    "baseCoinYield": 69,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0ECE14",
@@ -1209,6 +1629,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_062",
       "parentB": "AFR_GEN_009"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Golden Forktail",
+        "description": "A classic cichlid Golden Forktail inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "黄金燕尾",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【黄金燕尾】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1220,7 +1650,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 4026,
     "baseSwimSpeed": 4.7,
-    "baseCoinYield": 15,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1237,6 +1667,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_007",
       "parentB": "AFR_GEN_081"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Black Swordtail",
+        "description": "A classic cichlid Black Swordtail inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "黑剑尾",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【黑剑尾】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1248,7 +1688,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 1099,
     "baseSwimSpeed": 2.57,
-    "baseCoinYield": 16,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#4481E8",
@@ -1266,6 +1706,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_072",
       "parentB": "AFR_GEN_012"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Zebra Swordtail",
+        "description": "A classic cichlid Zebra Swordtail inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "斑马剑尾",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【斑马剑尾】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1277,7 +1727,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 1545,
     "baseSwimSpeed": 3.31,
-    "baseCoinYield": 90,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1D4928",
@@ -1295,6 +1745,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_008",
       "parentB": "AFR_GEN_056"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Tiger-Patterned Cichlid",
+        "description": "A classic cichlid Tiger-Patterned Cichlid inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "虎皮贝",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【虎皮贝】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1306,7 +1766,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 2072,
     "baseSwimSpeed": 3.27,
-    "baseCoinYield": 65,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#EF16C9",
@@ -1323,6 +1783,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_036",
       "parentB": "AFR_GEN_080"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Golden-Line Cichlid",
+        "description": "A classic cichlid Golden-Line Cichlid inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "金线贝",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【金线贝】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1334,7 +1804,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 2108,
     "baseSwimSpeed": 3.49,
-    "baseCoinYield": 30,
+    "baseCoinYield": 17,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#165020",
@@ -1352,6 +1822,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_074",
       "parentB": "AFR_GEN_036"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Blue-Eyed Cichlid",
+        "description": "A classic cichlid Blue-Eyed Cichlid inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "蓝眼贝",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【蓝眼贝】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1363,7 +1843,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 4289,
     "baseSwimSpeed": 4.21,
-    "baseCoinYield": 42,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#26E9E0",
@@ -1381,6 +1861,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_044",
       "parentB": "AFR_GEN_035"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Moon Princess",
+        "description": "A classic cichlid Moon Princess inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "月亮公主",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【月亮公主】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1392,7 +1882,7 @@
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
     "hatchStepsRequired": 1936,
     "baseSwimSpeed": 2.66,
-    "baseCoinYield": 28,
+    "baseCoinYield": 24,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#16EF42",
@@ -1409,6 +1899,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_002",
       "parentB": "AFR_GEN_065"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Sun Princess",
+        "description": "A classic cichlid Sun Princess inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "太阳公主",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【太阳公主】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1420,7 +1920,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 4272,
     "baseSwimSpeed": 3.87,
-    "baseCoinYield": 30,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DE8533",
@@ -1437,6 +1937,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_031",
       "parentB": "AFR_GEN_051"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Crimson-Flame Flamingo",
+        "description": "A classic cichlid Crimson-Flame Flamingo inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "赤焰火烈鸟",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【赤焰火烈鸟】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1448,7 +1958,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 3812,
     "baseSwimSpeed": 1.08,
-    "baseCoinYield": 70,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -1463,6 +1973,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_054",
       "parentB": "AFR_GEN_054"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Sun God",
+        "description": "A classic cichlid Sun God inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "太阳神",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【太阳神】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1474,7 +1994,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 4585,
     "baseSwimSpeed": 3.67,
-    "baseCoinYield": 81,
+    "baseCoinYield": 25,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -1491,6 +2011,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_033",
       "parentB": "AFR_GEN_072"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Blue Star",
+        "description": "A classic cichlid Blue Star inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "蓝星",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【蓝星】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1502,7 +2032,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 1097,
     "baseSwimSpeed": 4.32,
-    "baseCoinYield": 86,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#D731AB",
@@ -1519,6 +2049,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_097",
       "parentB": "AFR_GEN_004"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Fire Fox",
+        "description": "A classic cichlid Fire Fox inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "火狐",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【火狐】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1530,7 +2070,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 3990,
     "baseSwimSpeed": 2.36,
-    "baseCoinYield": 76,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#C9E8CC",
@@ -1547,6 +2087,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_075",
       "parentB": "AFR_GEN_070"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Black Pearl",
+        "description": "A classic cichlid Black Pearl inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "黑珍珠",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【黑珍珠】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1558,7 +2108,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 1748,
     "baseSwimSpeed": 4.89,
-    "baseCoinYield": 35,
+    "baseCoinYield": 27,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#16EF1D",
@@ -1575,6 +2125,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_022",
       "parentB": "AFR_GEN_040"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Golden Blotched",
+        "description": "A classic cichlid Golden Blotched inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "黄金斑烂",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【黄金斑烂】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1586,7 +2146,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 4568,
     "baseSwimSpeed": 3.54,
-    "baseCoinYield": 96,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#4487E8",
@@ -1604,6 +2164,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_080",
       "parentB": "AFR_GEN_087"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Victoria Zebra",
+        "description": "A classic cichlid Victoria Zebra inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "维多利亚斑马",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【维多利亚斑马】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1615,7 +2185,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 3675,
     "baseSwimSpeed": 1.45,
-    "baseCoinYield": 76,
+    "baseCoinYield": 16,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#EC3A7A",
@@ -1633,6 +2203,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_047",
       "parentB": "AFR_GEN_007"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Red-Bellied Zebra",
+        "description": "A classic cichlid Red-Bellied Zebra inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "红肚斑马",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【红肚斑马】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1644,7 +2224,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 1960,
     "baseSwimSpeed": 4.18,
-    "baseCoinYield": 63,
+    "baseCoinYield": 26,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7DBA24",
@@ -1662,6 +2242,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_016",
       "parentB": "AFR_GEN_036"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Red Cross",
+        "description": "A classic cichlid Red Cross inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "红十字",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【红十字】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1673,7 +2263,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 1694,
     "baseSwimSpeed": 1.46,
-    "baseCoinYield": 73,
+    "baseCoinYield": 30,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1B4B2B",
@@ -1691,6 +2281,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_035",
       "parentB": "AFR_GEN_059"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Rainbow-Color Finch",
+        "description": "A classic cichlid Rainbow-Color Finch inhabiting the clear lakes of the East African Great Rift, with the dazzling colors of a marine fish and the instinctive wisdom of guarding eggs and rearing young."
+      },
+      "zh-Hans": {
+        "commonName": "彩虹七彩雀",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【彩虹七彩雀】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1702,7 +2302,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 2866,
     "baseSwimSpeed": 3.97,
-    "baseCoinYield": 49,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#D7851C",
@@ -1719,6 +2319,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_012",
       "parentB": "AFR_GEN_043"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Firebird",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Firebird possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "火焰鸟",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【火焰鸟】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1730,7 +2340,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 1703,
     "baseSwimSpeed": 3.28,
-    "baseCoinYield": 64,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0EFD3F",
@@ -1748,6 +2358,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_092",
       "parentB": "AFR_GEN_098"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Sapphire",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Sapphire possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "蓝宝石",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【蓝宝石】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1759,7 +2379,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 4530,
     "baseSwimSpeed": 3.0,
-    "baseCoinYield": 65,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -1776,6 +2396,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_015",
       "parentB": "AFR_GEN_094"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Red Diamond",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Red Diamond possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "红钻石",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【红钻石】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1787,7 +2417,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 3209,
     "baseSwimSpeed": 4.2,
-    "baseCoinYield": 71,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1804,6 +2434,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_015",
       "parentB": "AFR_GEN_063"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Black Diamond",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Black Diamond possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "黑钻石",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【黑钻石】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1815,7 +2455,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 2775,
     "baseSwimSpeed": 4.62,
-    "baseCoinYield": 84,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#B6FB00",
@@ -1832,6 +2472,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_004",
       "parentB": "AFR_GEN_015"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Gold Deity",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Gold Deity possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "黄金神",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【黄金神】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1843,7 +2493,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 4394,
     "baseSwimSpeed": 3.61,
-    "baseCoinYield": 65,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#3E1B4B",
@@ -1861,6 +2511,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_032",
       "parentB": "AFR_GEN_090"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Blue Deity",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Blue Deity possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "蓝神",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【蓝神】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1872,7 +2532,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 2729,
     "baseSwimSpeed": 4.32,
-    "baseCoinYield": 90,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7936E5",
@@ -1889,6 +2549,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_064",
       "parentB": "AFR_GEN_005"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Fire Deity",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Fire Deity possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "火神",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【火神】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1900,7 +2570,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 2323,
     "baseSwimSpeed": 2.69,
-    "baseCoinYield": 62,
+    "baseCoinYield": 27,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#D10736",
@@ -1918,6 +2588,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_081",
       "parentB": "AFR_GEN_058"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Sea Deity",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Sea Deity possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "海神",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【海神】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1929,7 +2609,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 2556,
     "baseSwimSpeed": 2.22,
-    "baseCoinYield": 83,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#44E8DB",
@@ -1946,6 +2626,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_079",
       "parentB": "AFR_GEN_058"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Poseidon",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Poseidon possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "波塞顿",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【波塞顿】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1957,7 +2647,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 2879,
     "baseSwimSpeed": 4.13,
-    "baseCoinYield": 36,
+    "baseCoinYield": 16,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#00BF9F",
@@ -1975,6 +2665,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_046",
       "parentB": "AFR_GEN_067"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Athena",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Athena possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "雅典娜",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【雅典娜】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -1986,7 +2686,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 3519,
     "baseSwimSpeed": 3.85,
-    "baseCoinYield": 74,
+    "baseCoinYield": 17,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#A7DE33",
@@ -2004,6 +2704,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_055",
       "parentB": "AFR_GEN_060"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Apollo",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Apollo possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "阿波罗",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【阿波罗】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2015,7 +2725,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 1815,
     "baseSwimSpeed": 3.5,
-    "baseCoinYield": 21,
+    "baseCoinYield": 20,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#184E2F",
@@ -2032,6 +2742,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_089",
       "parentB": "AFR_GEN_094"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Zeus",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Zeus possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "宙斯",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【宙斯】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2043,7 +2763,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 1497,
     "baseSwimSpeed": 1.06,
-    "baseCoinYield": 72,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#10DF20",
@@ -2061,6 +2781,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_061",
       "parentB": "AFR_GEN_076"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Hera",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Hera possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "赫拉",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【赫拉】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2072,7 +2802,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 1235,
     "baseSwimSpeed": 3.12,
-    "baseCoinYield": 32,
+    "baseCoinYield": 30,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#80C20C",
@@ -2090,6 +2820,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_042",
       "parentB": "AFR_GEN_045"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Ares",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Ares possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "阿瑞斯",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【阿瑞斯】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2101,7 +2841,7 @@
     "category": "維多利亞湖赤焰與稀有慈鯛",
     "hatchStepsRequired": 3277,
     "baseSwimSpeed": 2.24,
-    "baseCoinYield": 58,
+    "baseCoinYield": 20,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#165018",
@@ -2119,6 +2859,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_075",
       "parentB": "AFR_GEN_053"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Hades",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Hades possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "黑帝斯",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【黑帝斯】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2130,7 +2880,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 3176,
     "baseSwimSpeed": 4.13,
-    "baseCoinYield": 23,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#018B0C",
@@ -2148,6 +2898,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_026",
       "parentB": "AFR_GEN_080"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Many-Finned Dinosaur King",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Many-Finned Dinosaur King possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "多鳍恐龙王",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【多鳍恐龙王】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2159,7 +2919,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 1655,
     "baseSwimSpeed": 3.49,
-    "baseCoinYield": 71,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -2176,6 +2936,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_008",
       "parentB": "AFR_GEN_036"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Golden Dinosaur",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Golden Dinosaur possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "金恐龙",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【金恐龙】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2187,7 +2957,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 2155,
     "baseSwimSpeed": 2.6,
-    "baseCoinYield": 95,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1D492A",
@@ -2205,6 +2975,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_017",
       "parentB": "AFR_GEN_056"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Floral Dinosaur",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Floral Dinosaur possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "大花恐龙",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【大花恐龙】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2216,7 +2996,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 2525,
     "baseSwimSpeed": 1.87,
-    "baseCoinYield": 78,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#151CD0",
@@ -2233,6 +3013,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_033",
       "parentB": "AFR_GEN_053"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Senegal Dinosaur",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, Senegal Dinosaur possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "塞内加尔恐龙",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【塞内加尔恐龙】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2244,7 +3034,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 3265,
     "baseSwimSpeed": 1.66,
-    "baseCoinYield": 66,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#E1B802",
@@ -2262,6 +3052,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_039",
       "parentB": "AFR_GEN_087"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "African Butterfly",
+        "description": "A classic bichir inhabiting the clear lakes of East Africa's Great Rift Valley, African Butterfly possesses sea-fish-like brilliant colors and the instinctive wisdom of guarding eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "非洲飞蝶",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【非洲飞蝶】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2273,7 +3073,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 3017,
     "baseSwimSpeed": 3.23,
-    "baseCoinYield": 28,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#4DF4AE",
@@ -2291,6 +3091,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_072",
       "parentB": "AFR_GEN_089"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Elephantnose Fish",
+        "description": "A classic cichlid (Elephantnose Fish) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "象鼻鱼",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【象鼻鱼】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2302,7 +3112,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 4470,
     "baseSwimSpeed": 4.01,
-    "baseCoinYield": 11,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#975F09",
@@ -2320,6 +3130,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_071",
       "parentB": "AFR_GEN_006"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Harp-tail Fish",
+        "description": "A classic cichlid (Harp-tail Fish) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "琴尾鱼",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【琴尾鱼】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2331,7 +3151,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 4141,
     "baseSwimSpeed": 2.06,
-    "baseCoinYield": 44,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#C82056",
@@ -2349,6 +3169,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_026",
       "parentB": "AFR_GEN_074"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Congo Doll",
+        "description": "A classic cichlid (Congo Doll) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "刚果娃娃",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【刚果娃娃】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2360,7 +3190,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 3216,
     "baseSwimSpeed": 3.17,
-    "baseCoinYield": 84,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#2B471F",
@@ -2378,6 +3208,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_056",
       "parentB": "AFR_GEN_042"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Tiger Fish",
+        "description": "A classic cichlid (Tiger Fish) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "虎鱼",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【虎鱼】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2389,7 +3229,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 3631,
     "baseSwimSpeed": 4.7,
-    "baseCoinYield": 54,
+    "baseCoinYield": 22,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1572D0",
@@ -2407,6 +3247,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_070",
       "parentB": "AFR_GEN_013"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "African Lungfish",
+        "description": "A classic cichlid (African Lungfish) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "非洲肺鱼",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【非洲肺鱼】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2418,7 +3268,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 4343,
     "baseSwimSpeed": 2.47,
-    "baseCoinYield": 91,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#EDD500",
@@ -2436,6 +3286,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_018",
       "parentB": "AFR_GEN_028"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Electric Catfish",
+        "description": "A classic cichlid (Electric Catfish) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "电鲇",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【电鲇】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2447,7 +3307,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 3328,
     "baseSwimSpeed": 3.86,
-    "baseCoinYield": 25,
+    "baseCoinYield": 21,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#52F9E4",
@@ -2465,6 +3325,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_025",
       "parentB": "AFR_GEN_081"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Backswimmer Catfish",
+        "description": "A classic cichlid (Backswimmer Catfish) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "反游鲇",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【反游鲇】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2476,7 +3346,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 2338,
     "baseSwimSpeed": 1.86,
-    "baseCoinYield": 71,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#BF5C00",
@@ -2494,6 +3364,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_078",
       "parentB": "AFR_GEN_018"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Congo Characin",
+        "description": "A classic cichlid (Congo Characin) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "刚果脂鲤",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【刚果脂鲤】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2505,7 +3385,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 3633,
     "baseSwimSpeed": 4.9,
-    "baseCoinYield": 30,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#2DFB00",
@@ -2522,6 +3402,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_096",
       "parentB": "AFR_GEN_075"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Gold Congo",
+        "description": "A classic cichlid (Gold Congo) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "黄金刚果",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【黄金刚果】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2533,7 +3423,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 4092,
     "baseSwimSpeed": 4.93,
-    "baseCoinYield": 50,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#163050",
@@ -2551,6 +3441,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_066",
       "parentB": "AFR_GEN_075"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Blue-Banded Congo",
+        "description": "A classic cichlid (Blue-Banded Congo) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "蓝带刚果",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【蓝带刚果】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2562,7 +3462,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 2683,
     "baseSwimSpeed": 3.53,
-    "baseCoinYield": 53,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7520C8",
@@ -2580,6 +3480,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_081",
       "parentB": "AFR_GEN_068"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Redtail Congo",
+        "description": "A classic cichlid (Redtail Congo) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "红尾刚果",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【红尾刚果】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2591,7 +3501,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 1481,
     "baseSwimSpeed": 3.72,
-    "baseCoinYield": 91,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#D1071D",
@@ -2609,6 +3519,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_023",
       "parentB": "AFR_GEN_073"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Congo Phoenix",
+        "description": "A classic cichlid (Congo Phoenix) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "刚果凤凰",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【刚果凤凰】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2620,7 +3540,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 3124,
     "baseSwimSpeed": 3.04,
-    "baseCoinYield": 84,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#ECCB3A",
@@ -2638,6 +3558,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_064",
       "parentB": "AFR_GEN_095"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Red-Belly Phoenix",
+        "description": "A classic cichlid (Red-Belly Phoenix) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "红肚凤凰",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【红肚凤凰】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2649,7 +3579,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 1003,
     "baseSwimSpeed": 3.76,
-    "baseCoinYield": 66,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#A55905",
@@ -2667,6 +3597,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_082",
       "parentB": "AFR_GEN_058"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Blue-Belly Phoenix",
+        "description": "A classic cichlid (Blue-Belly Phoenix) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "蓝肚凤凰",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【蓝肚凤凰】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2678,7 +3618,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 1755,
     "baseSwimSpeed": 4.53,
-    "baseCoinYield": 14,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#40CE0E",
@@ -2695,6 +3635,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_034",
       "parentB": "AFR_GEN_002"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Golden Phoenix",
+        "description": "A classic cichlid (Golden Phoenix) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "黄金凤凰",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【黄金凤凰】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2706,7 +3656,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 4047,
     "baseSwimSpeed": 4.82,
-    "baseCoinYield": 75,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#371773",
@@ -2725,6 +3675,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_067",
       "parentB": "AFR_GEN_052"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Rainbow Phoenix",
+        "description": "A classic cichlid (Rainbow Phoenix) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "七彩凤凰",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【七彩凤凰】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2736,7 +3696,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 1367,
     "baseSwimSpeed": 2.62,
-    "baseCoinYield": 35,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#9624D6",
@@ -2754,6 +3714,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_006",
       "parentB": "AFR_GEN_041"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Longsnout Elephantnose",
+        "description": "A classic cichlid (Longsnout Elephantnose) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "长吻象鼻鱼",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【长吻象鼻鱼】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2765,7 +3735,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 3175,
     "baseSwimSpeed": 3.84,
-    "baseCoinYield": 69,
+    "baseCoinYield": 16,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#FF17CC",
@@ -2783,6 +3753,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_027",
       "parentB": "AFR_GEN_043"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Shortsnout Elephantnose",
+        "description": "A classic cichlid (Shortsnout Elephantnose) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "短吻象鼻鱼",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【短吻象鼻鱼】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2794,7 +3774,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 1903,
     "baseSwimSpeed": 2.46,
-    "baseCoinYield": 10,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#634DF4",
@@ -2812,6 +3792,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_090",
       "parentB": "AFR_GEN_013"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Zebra Elephantnose",
+        "description": "A classic cichlid (Zebra Elephantnose) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "斑马象鼻鱼",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【斑马象鼻鱼】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   },
   {
@@ -2823,7 +3813,7 @@
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 4658,
     "baseSwimSpeed": 1.19,
-    "baseCoinYield": 26,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#059669",
@@ -2840,6 +3830,16 @@
     "breedingRecipe": {
       "parentA": "AFR_GEN_006",
       "parentB": "AFR_GEN_007"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "African Electric Eel",
+        "description": "A classic cichlid (African Electric Eel) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+      },
+      "zh-Hans": {
+        "commonName": "非洲电鳗",
+        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【非洲电鳗】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+      }
     }
   }
 ]

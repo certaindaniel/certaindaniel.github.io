@@ -8,7 +8,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 4500,
     "baseSwimSpeed": 0.95,
-    "baseCoinYield": 50,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐊",
     "visualBlueprint": {
       "primaryColor": "#16A34A",
@@ -27,6 +27,16 @@
       "parentA": "枯葉魚",
       "parentB": "裝甲兵鯰",
       "mutationHint": "熱帶沼澤雨林泥潭化育"
+    },
+    "i18n": {
+      "en": {
+        "commonName": "Emerald Dopey Mini Alligator",
+        "description": "A miniature emerald short-snout alligator hatchling that lives in the blackwater swamps of South America, with a round tummy, a gentle and dopey temperament, and loves to play with aquatic plants."
+      },
+      "zh-Hans": {
+        "commonName": "翡翠呆萌小短吻鳄",
+        "description": "栖息于南美黑水沼泽的迷你翡翠短吻鳄幼崽，圆滚肚皮，性情温驯呆萌，喜欢与水草嬉戏。"
+      }
     }
   },
   {
@@ -38,7 +48,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 11,
+    "baseCoinYield": 29,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -55,7 +65,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L046 Zebra",
+        "description": "Its body is covered in black-and-white zebra stripes."
+      },
+      "zh-Hans": {
+        "commonName": "L046帝王斑马",
+        "description": "身上布满黑白相间的斑马纹路"
+      }
+    }
   },
   {
     "id": "VOL02_002",
@@ -66,7 +86,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 12,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -83,7 +103,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L190 Crown Leopard",
+        "description": "A large pleco with powerful teeth."
+      },
+      "zh-Hans": {
+        "commonName": "L190皇冠豹",
+        "description": "大型且拥有强大牙齿的异型"
+      }
+    }
   },
   {
     "id": "VOL02_003",
@@ -94,7 +124,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 13,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -109,7 +139,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L018 Golden Darma",
+        "description": "Golden body color and a plump, rounded body shape."
+      },
+      "zh-Hans": {
+        "commonName": "L018黄金达摩",
+        "description": "黄金般的体色，圆润的体态"
+      }
+    }
   },
   {
     "id": "VOL02_004",
@@ -120,7 +160,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 14,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -137,7 +177,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L200 Golden High-Fin",
+        "description": "Yellow-green body color with a tall, erect dorsal fin."
+      },
+      "zh-Hans": {
+        "commonName": "L200黄金高帆",
+        "description": "黄绿色体色，背鳍高耸"
+      }
+    }
   },
   {
     "id": "VOL02_005",
@@ -148,7 +198,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 15,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -165,7 +215,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L024 Red-Fin Tank",
+        "description": "Spiky armor and red fins."
+      },
+      "zh-Hans": {
+        "commonName": "L024红鳍坦克",
+        "description": "充满刺的装甲和红色的鳍"
+      }
+    }
   },
   {
     "id": "VOL02_006",
@@ -176,7 +236,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 16,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -193,7 +253,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L114 Red-Tail Tank",
+        "description": "A perfect blend of leopard patterns and a red tail fin."
+      },
+      "zh-Hans": {
+        "commonName": "L114红尾坦克",
+        "description": "豹纹与红色尾鳍的完美结合"
+      }
+    }
   },
   {
     "id": "VOL02_007",
@@ -204,7 +274,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1600,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 17,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -221,7 +291,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L081 Gold Spots",
+        "description": "A dark body color covered in beautiful golden spots."
+      },
+      "zh-Hans": {
+        "commonName": "L081金点",
+        "description": "深色体色布满美丽的金点"
+      }
+    }
   },
   {
     "id": "VOL02_008",
@@ -232,7 +312,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 18,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#165040",
@@ -250,7 +330,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L260 Black-White Labyrinth",
+        "description": "Black and white labyrinth-like patterns."
+      },
+      "zh-Hans": {
+        "commonName": "L260黑白迷宫",
+        "description": "迷宫般的黑白纹路"
+      }
+    }
   },
   {
     "id": "VOL02_009",
@@ -261,7 +351,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1600,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 19,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#D20543",
@@ -279,7 +369,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L095 Sprayed Spots",
+        "description": "Massive body size and unique splatter spots."
+      },
+      "zh-Hans": {
+        "commonName": "L095喷点",
+        "description": "巨大的体型与独特的喷点"
+      }
+    }
   },
   {
     "id": "VOL02_010",
@@ -290,7 +390,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 2000,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 20,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -307,7 +407,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L333 Golden Emperor Labyrinth",
+        "description": "Labyrinth-like textures in alternating yellow and black."
+      },
+      "zh-Hans": {
+        "commonName": "L333黄金帝王迷宫",
+        "description": "黄黑相间的迷宫纹理"
+      }
+    }
   },
   {
     "id": "VOL02_011",
@@ -318,7 +428,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 21,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -335,7 +445,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L014 Gold-Line Snowball",
+        "description": "Black body color with snowy white spots and gold edges."
+      },
+      "zh-Hans": {
+        "commonName": "L014金线雪球",
+        "description": "黑色体色配上雪白斑点与金边"
+      }
+    }
   },
   {
     "id": "VOL02_012",
@@ -346,7 +466,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1900,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 22,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#64BA24",
@@ -364,7 +484,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L025 Sprayed-Spot Red Swordtail",
+        "description": "Massive body size and a red tail fin."
+      },
+      "zh-Hans": {
+        "commonName": "L025喷点红剑尾",
+        "description": "巨大的体型与红色的尾鳍"
+      }
+    }
   },
   {
     "id": "VOL02_013",
@@ -375,7 +505,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 23,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -392,7 +522,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L066 King Labyrinth",
+        "description": "Complex and beautiful labyrinth-like patterns."
+      },
+      "zh-Hans": {
+        "commonName": "L066国王迷宫",
+        "description": "复杂而美丽的迷宫纹路"
+      }
+    }
   },
   {
     "id": "VOL02_014",
@@ -403,7 +543,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 24,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#059669",
@@ -418,7 +558,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L128 Purple Blue-Green",
+        "description": "A mysterious purple-blue-green body color."
+      },
+      "zh-Hans": {
+        "commonName": "L128紫蓝绿",
+        "description": "神秘的紫蓝绿色体色"
+      }
+    }
   },
   {
     "id": "VOL02_015",
@@ -429,7 +579,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 25,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DDDA09",
@@ -447,7 +597,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L134 Golden Zebra",
+        "description": "Gold base color with black stripes."
+      },
+      "zh-Hans": {
+        "commonName": "L134黄金斑马",
+        "description": "黄金底色加上黑色条纹"
+      }
+    }
   },
   {
     "id": "VOL02_016",
@@ -458,7 +618,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 2000,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 26,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#89CE0E",
@@ -476,7 +636,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L177 Crown Golden Darma",
+        "description": "Massive golden spots."
+      },
+      "zh-Hans": {
+        "commonName": "L177皇冠黄金达摩",
+        "description": "巨大的黄金点点"
+      }
+    }
   },
   {
     "id": "VOL02_017",
@@ -487,7 +657,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 27,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -504,7 +674,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L239 Blue Silk Velvet",
+        "description": "Body color with the texture of blue silk velvet."
+      },
+      "zh-Hans": {
+        "commonName": "L239蓝丝绒",
+        "description": "如蓝丝绒般质感的体色"
+      }
+    }
   },
   {
     "id": "VOL02_018",
@@ -515,7 +695,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 28,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -532,7 +712,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L240 Black-White Twin Stars",
+        "description": "White dots on a black base like the stars in the night sky."
+      },
+      "zh-Hans": {
+        "commonName": "L240黑白双星",
+        "description": "黑底白点如同夜空繁星"
+      }
+    }
   },
   {
     "id": "VOL02_019",
@@ -543,7 +733,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 29,
+    "baseCoinYield": 26,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#D609DD",
@@ -560,7 +750,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L273 Golden Darma",
+        "description": "Rare and beautiful golden armor."
+      },
+      "zh-Hans": {
+        "commonName": "L273金达摩",
+        "description": "稀有且美丽的金色铠甲"
+      }
+    }
   },
   {
     "id": "VOL02_020",
@@ -571,7 +771,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1900,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 30,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -588,7 +788,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L027 Royal Pleco",
+        "description": "Distinct white lines and striking red eyes."
+      },
+      "zh-Hans": {
+        "commonName": "L027白线皇冠豹",
+        "description": "清晰的白线与红眼"
+      }
+    }
   },
   {
     "id": "VOL02_021",
@@ -599,7 +809,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 31,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -614,7 +824,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L091 Three Beacon Pleco",
+        "description": "Vibrant orange-red dorsal and caudal fins."
+      },
+      "zh-Hans": {
+        "commonName": "L091紫罗兰",
+        "description": "背鳍和尾鳍带有鲜艳的橘红色"
+      }
+    }
   },
   {
     "id": "VOL02_022",
@@ -625,7 +845,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1700,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 32,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -642,7 +862,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L201 Snowball Pleco",
+        "description": "Large white spots on a black body."
+      },
+      "zh-Hans": {
+        "commonName": "L201大雪球",
+        "description": "黑底配上大大的白点"
+      }
+    }
   },
   {
     "id": "VOL02_023",
@@ -653,7 +883,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 33,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -670,7 +900,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L340 Mega Clown Pleco",
+        "description": "A small, cute fish with a red tail."
+      },
+      "zh-Hans": {
+        "commonName": "L340红尾迷宫",
+        "description": "小巧可爱且拥有红尾"
+      }
+    }
   },
   {
     "id": "VOL02_024",
@@ -681,7 +921,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1800,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 34,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#341650",
@@ -699,7 +939,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L471 Mini Snowball Pleco",
+        "description": "A miniature maze pleco."
+      },
+      "zh-Hans": {
+        "commonName": "L471迷你迷宫",
+        "description": "体型迷你的迷宫异型"
+      }
+    }
   },
   {
     "id": "VOL02_025",
@@ -710,7 +960,7 @@
     "category": "亞馬遜異型裝甲異型魚家族",
     "hatchStepsRequired": 1900,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 35,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -727,7 +977,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "L129 Colombian Zebra Pleco",
+        "description": "Dark, chocolate-like patterns."
+      },
+      "zh-Hans": {
+        "commonName": "L129巧克力斑马",
+        "description": "如同巧克力般的深色纹路"
+      }
+    }
   },
   {
     "id": "VOL02_026",
@@ -738,7 +998,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 36,
+    "baseCoinYield": 25,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -753,7 +1013,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Black Arapaima",
+        "description": "A living-fossil giant of the Amazon River."
+      },
+      "zh-Hans": {
+        "commonName": "巨骨舌鱼",
+        "description": "亚马逊河的活化石巨兽"
+      }
+    }
   },
   {
     "id": "VOL02_027",
@@ -764,7 +1034,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 37,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -781,7 +1051,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Leopoldi Stingray",
+        "description": "A beautiful freshwater ray with white spots on a black ground."
+      },
+      "zh-Hans": {
+        "commonName": "黑帝王𫚉",
+        "description": "黑底白点的美丽淡水𫚉鱼"
+      }
+    }
   },
   {
     "id": "VOL02_028",
@@ -792,7 +1072,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 38,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -809,7 +1089,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Ocellate River Stingray",
+        "description": "A classic South American freshwater ray."
+      },
+      "zh-Hans": {
+        "commonName": "珍珠𫚉",
+        "description": "经典的南美淡水𫚉鱼"
+      }
+    }
   },
   {
     "id": "VOL02_029",
@@ -820,7 +1110,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 39,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#047857",
@@ -837,7 +1127,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Butterfly Peacock Bass",
+        "description": "A fierce South American predator."
+      },
+      "zh-Hans": {
+        "commonName": "皇冠三间",
+        "description": "南美洲的凶猛掠食者"
+      }
+    }
   },
   {
     "id": "VOL02_030",
@@ -848,7 +1148,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 40,
+    "baseCoinYield": 16,
     "emojiOrSprite": "⚡",
     "visualBlueprint": {
       "primaryColor": "#B45309",
@@ -865,7 +1165,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Electric Eel",
+        "description": "A mysterious creature that discharges powerful electric currents."
+      },
+      "zh-Hans": {
+        "commonName": "巨型电鳗",
+        "description": "能释放强大电流的神秘生物"
+      }
+    }
   },
   {
     "id": "VOL02_031",
@@ -876,7 +1186,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 41,
+    "baseCoinYield": 4,
     "emojiOrSprite": "👻",
     "visualBlueprint": {
       "primaryColor": "#2B4B1B",
@@ -894,7 +1204,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Black Ghost Knifefish",
+        "description": "It dances through the water like a black ghost."
+      },
+      "zh-Hans": {
+        "commonName": "幽灵黑魔鬼",
+        "description": "如同黑色幽灵般在水中舞动"
+      }
+    }
   },
   {
     "id": "VOL02_032",
@@ -905,7 +1225,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 42,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -922,7 +1242,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Redtail Catfish",
+        "description": "A cute and voracious large catfish."
+      },
+      "zh-Hans": {
+        "commonName": "红尾鸭嘴",
+        "description": "可爱又贪吃的大型鲇鱼"
+      }
+    }
   },
   {
     "id": "VOL02_033",
@@ -933,7 +1263,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 43,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🦈",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -950,7 +1280,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Giant Pangasius",
+        "description": "An extremely fast-swimming pelagic fish."
+      },
+      "zh-Hans": {
+        "commonName": "成吉思汗",
+        "description": "游速极快的巡游鱼类"
+      }
+    }
   },
   {
     "id": "VOL02_034",
@@ -961,7 +1301,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 44,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1E293B",
@@ -978,7 +1318,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Barred Sorubim",
+        "description": "A bottom-dwelling predator with tiger-like markings."
+      },
+      "zh-Hans": {
+        "commonName": "虎皮鸭嘴",
+        "description": "带有虎皮纹路的底栖掠食者"
+      }
+    }
   },
   {
     "id": "VOL02_035",
@@ -989,7 +1339,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 45,
+    "baseCoinYield": 30,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#6D28D9",
@@ -1006,7 +1356,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Siamese Tigerfish",
+        "description": "A rare and valuable large ornamental fish."
+      },
+      "zh-Hans": {
+        "commonName": "帝王九间",
+        "description": "珍贵的大型观赏鱼"
+      }
+    }
   },
   {
     "id": "VOL02_036",
@@ -1017,7 +1377,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1200,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 46,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -1032,7 +1392,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Silver Arowana",
+        "description": "An ancient fish that glows with a silvery sheen."
+      },
+      "zh-Hans": {
+        "commonName": "银龙",
+        "description": "闪耀着银色光芒的古老鱼类"
+      }
+    }
   },
   {
     "id": "VOL02_037",
@@ -1043,7 +1413,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1200,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 47,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1060,7 +1430,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Black Arowana",
+        "description": "An elegant and mysterious black arowana."
+      },
+      "zh-Hans": {
+        "commonName": "黑龙",
+        "description": "优雅而神秘的黑色龙鱼"
+      }
+    }
   },
   {
     "id": "VOL02_038",
@@ -1071,7 +1451,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 48,
+    "baseCoinYield": 22,
     "emojiOrSprite": "🦭",
     "visualBlueprint": {
       "primaryColor": "#1B2A4B",
@@ -1088,7 +1468,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Amazonian Manatee",
+        "description": "A gentle, herbivorous giant of the Amazon."
+      },
+      "zh-Hans": {
+        "commonName": "巴西海牛",
+        "description": "亚马逊的温和草食巨兽"
+      }
+    }
   },
   {
     "id": "VOL02_039",
@@ -1099,7 +1489,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 49,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#361F47",
@@ -1117,7 +1507,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Red-bellied Piranha",
+        "description": "A schooling predator with a fearsome reputation."
+      },
+      "zh-Hans": {
+        "commonName": "红腹水虎鱼",
+        "description": "恶名昭彰的群居掠食者"
+      }
+    }
   },
   {
     "id": "VOL02_040",
@@ -1128,7 +1528,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1600,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 50,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🦦",
     "visualBlueprint": {
       "primaryColor": "#06A096",
@@ -1146,7 +1546,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Giant Otter Calf",
+        "description": "Juvenile of the Amazon river's apex predator"
+      },
+      "zh-Hans": {
+        "commonName": "巨型水獭幼豚",
+        "description": "亚马逊河的顶级掠食者幼体"
+      }
+    }
   },
   {
     "id": "VOL02_041",
@@ -1157,7 +1567,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1200,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 51,
+    "baseCoinYield": 9,
     "emojiOrSprite": "🧛‍♂️",
     "visualBlueprint": {
       "primaryColor": "#582D0E",
@@ -1175,7 +1585,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Fierce Fish",
+        "description": "A vampire fish with terrifying fangs"
+      },
+      "zh-Hans": {
+        "commonName": "猛鱼",
+        "description": "拥有恐怖獠牙的吸血鬼鱼"
+      }
+    }
   },
   {
     "id": "VOL02_042",
@@ -1186,7 +1606,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 52,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#471F35",
@@ -1204,7 +1624,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Giant Silver Pacu",
+        "description": "A herbivorous relative of the piranha"
+      },
+      "zh-Hans": {
+        "commonName": "大银板鱼",
+        "description": "水虎鱼的草食性近亲"
+      }
+    }
   },
   {
     "id": "VOL02_043",
@@ -1215,7 +1645,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 53,
+    "baseCoinYield": 10,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0284C7",
@@ -1230,7 +1660,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Peacock Bass",
+        "description": "The largest of the crown cichlids"
+      },
+      "zh-Hans": {
+        "commonName": "孔雀龙",
+        "description": "体型最大的皇冠三间"
+      }
+    }
   },
   {
     "id": "VOL02_044",
@@ -1241,7 +1681,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 54,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#9204AA",
@@ -1259,7 +1699,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Giant Sand Loach",
+        "description": "A large, brightly colored benthic fish"
+      },
+      "zh-Hans": {
+        "commonName": "大沙鳅",
+        "description": "色彩鲜艳的大型底栖鱼"
+      }
+    }
   },
   {
     "id": "VOL02_045",
@@ -1270,7 +1720,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 55,
+    "baseCoinYield": 23,
     "emojiOrSprite": "🐉",
     "visualBlueprint": {
       "primaryColor": "#F59E0B",
@@ -1287,7 +1737,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Platinum Arowana",
+        "description": "An exceptionally rare albino specimen"
+      },
+      "zh-Hans": {
+        "commonName": "白金龙鱼",
+        "description": "极其稀有的白化个体"
+      }
+    }
   },
   {
     "id": "VOL02_046",
@@ -1298,7 +1758,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 56,
+    "baseCoinYield": 19,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1C52D7",
@@ -1316,7 +1776,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Satan Duckbill",
+        "description": "The ultimate giant catfish of the Amazon"
+      },
+      "zh-Hans": {
+        "commonName": "撒旦鸭嘴",
+        "description": "亚马逊河的终极巨鲇"
+      }
+    }
   },
   {
     "id": "VOL02_047",
@@ -1327,7 +1797,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 57,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#F8FAFC",
@@ -1342,7 +1812,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Giant Black Pacu",
+        "description": "A massive herbivorous fish"
+      },
+      "zh-Hans": {
+        "commonName": "巨型黑银板",
+        "description": "巨大的草食性鱼类"
+      }
+    }
   },
   {
     "id": "VOL02_048",
@@ -1353,7 +1833,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 58,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1F473C",
@@ -1371,7 +1851,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Golden Tucunaré",
+        "description": "A fierce predator that glitters with golden light"
+      },
+      "zh-Hans": {
+        "commonName": "黄金河虎",
+        "description": "金光闪闪的凶猛掠食者"
+      }
+    }
   },
   {
     "id": "VOL02_049",
@@ -1382,7 +1872,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 59,
+    "baseCoinYield": 23,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#AF19E3",
@@ -1400,7 +1890,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Zebra Duckbill",
+        "description": "A rare catfish with gorgeous tiger stripes"
+      },
+      "zh-Hans": {
+        "commonName": "斑马鸭嘴",
+        "description": "华丽斑纹的稀有鲇鱼"
+      }
+    }
   },
   {
     "id": "VOL02_050",
@@ -1411,7 +1911,7 @@
     "category": "南美大型巨獸與掠食活化石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 60,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -1428,7 +1928,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Red-tail Peacock Bass",
+        "description": "A beautiful yellow base color with red fins"
+      },
+      "zh-Hans": {
+        "commonName": "红尾平克",
+        "description": "美丽的黄色底色与红鳍"
+      }
+    }
   },
   {
     "id": "VOL02_051",
@@ -1439,7 +1949,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 61,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#B40E25",
@@ -1457,7 +1967,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Lotus Neon",
+        "description": "A classic tetra that glitters with red and blue light"
+      },
+      "zh-Hans": {
+        "commonName": "宝莲灯",
+        "description": "闪耀着红蓝光芒的经典灯鱼"
+      }
+    }
   },
   {
     "id": "VOL02_052",
@@ -1468,7 +1988,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 62,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1483,7 +2003,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Red-nose Scissor-tail",
+        "description": "A red nose and a black-and-white striped tail"
+      },
+      "zh-Hans": {
+        "commonName": "红鼻剪刀",
+        "description": "红色的鼻子与黑白相间的尾巴"
+      }
+    }
   },
   {
     "id": "VOL02_053",
@@ -1494,7 +2024,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 63,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#EC973A",
@@ -1512,7 +2042,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Congo Tetra",
+        "description": "A larger-bodied tetra with dreamlike colors"
+      },
+      "zh-Hans": {
+        "commonName": "刚果灯",
+        "description": "体型较大且色彩梦幻"
+      }
+    }
   },
   {
     "id": "VOL02_054",
@@ -1523,7 +2063,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 64,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#A3D71C",
@@ -1541,7 +2081,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Red-Robed Knight",
+        "description": "Vivid red body coloration"
+      },
+      "zh-Hans": {
+        "commonName": "红衣骑士",
+        "description": "鲜艳的红色体色"
+      }
+    }
   },
   {
     "id": "VOL02_055",
@@ -1552,7 +2102,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 65,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#A00A3C",
@@ -1570,7 +2120,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Ramirez Cichlid",
+        "description": "A small, brightly colored cichlid"
+      },
+      "zh-Hans": {
+        "commonName": "荷兰凤凰",
+        "description": "色彩缤纷的小型慈鲷"
+      }
+    }
   },
   {
     "id": "VOL02_056",
@@ -1581,7 +2141,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 66,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#23C547",
@@ -1599,7 +2159,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Akashi",
+        "description": "A beautiful fringed tail fin"
+      },
+      "zh-Hans": {
+        "commonName": "阿卡西短鲷",
+        "description": "拥有美丽的茅状尾鳍"
+      }
+    }
   },
   {
     "id": "VOL02_057",
@@ -1610,7 +2180,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 67,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#774100",
@@ -1628,7 +2198,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Chief Cichlid",
+        "description": "An elegant build with silk-like fins"
+      },
+      "zh-Hans": {
+        "commonName": "酋长短鲷",
+        "description": "优雅的体态与拉丝的鳍"
+      }
+    }
   },
   {
     "id": "VOL02_058",
@@ -1639,7 +2219,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 68,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#B8B000",
@@ -1657,7 +2237,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Checkerboard Cichlid",
+        "description": "A checkerboard pattern across its body"
+      },
+      "zh-Hans": {
+        "commonName": "棋盘鲷",
+        "description": "身上有着棋盘般的格纹"
+      }
+    }
   },
   {
     "id": "VOL02_059",
@@ -1668,7 +2258,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 69,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -1685,7 +2275,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Redhead Dwarf Cichlid",
+        "description": "Vivid red coloration on its head"
+      },
+      "zh-Hans": {
+        "commonName": "红头短鲷",
+        "description": "头部带有鲜艳的红色"
+      }
+    }
   },
   {
     "id": "VOL02_060",
@@ -1696,7 +2296,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 70,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#C5EF16",
@@ -1713,7 +2313,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Platinum Ember Tetra",
+        "description": "An emperor tetra shimmering with a white-golden luster"
+      },
+      "zh-Hans": {
+        "commonName": "白金帝王灯",
+        "description": "闪耀著白金光泽的帝王灯"
+      }
+    }
   },
   {
     "id": "VOL02_061",
@@ -1724,7 +2334,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 71,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#36E300",
@@ -1742,7 +2352,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Dream Banner Tetra",
+        "description": "Mysterious black markings paired with an oversized dorsal fin"
+      },
+      "zh-Hans": {
+        "commonName": "梦幻旗",
+        "description": "宽大的背鳍与神秘的黑色"
+      }
+    }
   },
   {
     "id": "VOL02_062",
@@ -1753,7 +2373,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 72,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#012CB3",
@@ -1770,7 +2390,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Green Lotus Tetra",
+        "description": "A tiny tetra radiating an alluring green glow"
+      },
+      "zh-Hans": {
+        "commonName": "绿莲灯",
+        "description": "散发着迷人绿光的微型灯鱼"
+      }
+    }
   },
   {
     "id": "VOL02_063",
@@ -1781,7 +2411,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 73,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1798,7 +2428,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Black Lotus Tetra",
+        "description": "Understated elegance marked by a black lateral line"
+      },
+      "zh-Hans": {
+        "commonName": "黑莲灯",
+        "description": "黑色的侧线与低调的华丽"
+      }
+    }
   },
   {
     "id": "VOL02_064",
@@ -1809,7 +2449,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 74,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#266006",
@@ -1827,7 +2467,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Lemon Tetra",
+        "description": "A refreshing lemon-yellow body coloration"
+      },
+      "zh-Hans": {
+        "commonName": "柠檬灯",
+        "description": "清新的柠檬黄色体色"
+      }
+    }
   },
   {
     "id": "VOL02_065",
@@ -1838,7 +2488,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 75,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -1855,7 +2505,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Ember Pearl Danio",
+        "description": "Star-like speckles scattered across its body"
+      },
+      "zh-Hans": {
+        "commonName": "火炽灯",
+        "description": "如同繁星般的斑点"
+      }
+    }
   },
   {
     "id": "VOL02_066",
@@ -1866,7 +2526,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 76,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -1881,7 +2541,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Blood Ruby Tetra",
+        "description": "A crystal-clear blood-red coloration"
+      },
+      "zh-Hans": {
+        "commonName": "血红露比灯",
+        "description": "晶莹剔透的血红色"
+      }
+    }
   },
   {
     "id": "VOL02_067",
@@ -1892,7 +2562,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 77,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#A9BA24",
@@ -1910,7 +2580,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Triangle Tetra",
+        "description": "A unique black triangular marking"
+      },
+      "zh-Hans": {
+        "commonName": "三角灯",
+        "description": "独特的黑色三角形斑块"
+      }
+    }
   },
   {
     "id": "VOL02_068",
@@ -1921,7 +2601,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 78,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#7500ED",
@@ -1939,7 +2619,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Blue-Eye Tetra",
+        "description": "Eyes that glint with a blue glow"
+      },
+      "zh-Hans": {
+        "commonName": "蓝眼灯",
+        "description": "眼睛闪烁着蓝色光芒"
+      }
+    }
   },
   {
     "id": "VOL02_069",
@@ -1950,7 +2640,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 79,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#280C61",
@@ -1968,7 +2658,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Diamond Tetra",
+        "description": "Scales that glitter like diamonds"
+      },
+      "zh-Hans": {
+        "commonName": "钻石灯",
+        "description": "鳞片如钻石般闪闪发光"
+      }
+    }
   },
   {
     "id": "VOL02_070",
@@ -1979,7 +2679,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 80,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#E3196D",
@@ -1997,7 +2697,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Penguin Tetra",
+        "description": "A distinctive tilted swimming posture"
+      },
+      "zh-Hans": {
+        "commonName": "企鹅灯",
+        "description": "独特的倾斜游动方式"
+      }
+    }
   },
   {
     "id": "VOL02_071",
@@ -2008,7 +2718,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 81,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#048749",
@@ -2026,7 +2736,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Rose Barb",
+        "description": "A rose-like, rosy luster"
+      },
+      "zh-Hans": {
+        "commonName": "玫瑰鲫",
+        "description": "散发着玫瑰般红润的光泽"
+      }
+    }
   },
   {
     "id": "VOL02_072",
@@ -2037,7 +2757,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 82,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#FB00D9",
@@ -2055,7 +2775,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Firewing Pearl Danio",
+        "description": "Beautiful speckles and red fins"
+      },
+      "zh-Hans": {
+        "commonName": "火翅金钻",
+        "description": "美丽的斑点与红色的鳍"
+      }
+    }
   },
   {
     "id": "VOL02_073",
@@ -2066,7 +2796,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 83,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1D2849",
@@ -2084,7 +2814,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Cherry Barb",
+        "description": "Adorably cherry-red"
+      },
+      "zh-Hans": {
+        "commonName": "樱桃灯",
+        "description": "如同樱桃般红艳可爱"
+      }
+    }
   },
   {
     "id": "VOL02_074",
@@ -2095,7 +2835,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 84,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#DDB609",
@@ -2112,7 +2852,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Golden Pencilfish",
+        "description": "A slender body and graceful swimming"
+      },
+      "zh-Hans": {
+        "commonName": "黄金水笔仔",
+        "description": "细长的体型与优雅的游姿"
+      }
+    }
   },
   {
     "id": "VOL02_075",
@@ -2123,7 +2873,7 @@
     "category": "亞馬遜黑水燈魚與短鯛璀璨寶石",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 85,
+    "baseCoinYield": 1,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#06B6D4",
@@ -2138,7 +2888,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Neon Tetra",
+        "description": "The classic blue-red glow found in every aquarium"
+      },
+      "zh-Hans": {
+        "commonName": "霓虹灯鱼",
+        "description": "水族箱中最经典的蓝红光芒"
+      }
+    }
   },
   {
     "id": "VOL02_076",
@@ -2149,7 +2909,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 86,
+    "baseCoinYield": 12,
     "emojiOrSprite": "🍂",
     "visualBlueprint": {
       "primaryColor": "#792D13",
@@ -2167,7 +2927,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Leaf Fish",
+        "description": "Perfect dead-leaf mimicry"
+      },
+      "zh-Hans": {
+        "commonName": "枯叶鱼",
+        "description": "完美的枯叶拟态"
+      }
+    }
   },
   {
     "id": "VOL02_077",
@@ -2178,7 +2948,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 87,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#6D28D9",
@@ -2195,7 +2965,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Glass Catfish",
+        "description": "A peculiar catfish with a fully transparent body"
+      },
+      "zh-Hans": {
+        "commonName": "透明玻璃猫",
+        "description": "身体完全透明的奇特鲇鱼"
+      }
+    }
   },
   {
     "id": "VOL02_078",
@@ -2206,7 +2986,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 88,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🙃",
     "visualBlueprint": {
       "primaryColor": "#077A65",
@@ -2224,7 +3004,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Upside-Down Catfish",
+        "description": "A peculiar fish that swims belly-up"
+      },
+      "zh-Hans": {
+        "commonName": "反游猫",
+        "description": "喜欢肚子朝上游泳的怪鱼"
+      }
+    }
   },
   {
     "id": "VOL02_079",
@@ -2235,7 +3025,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 89,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🔪",
     "visualBlueprint": {
       "primaryColor": "#B40E2C",
@@ -2253,7 +3043,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Flying Knife Fish",
+        "description": "A body as flat as a flying knife"
+      },
+      "zh-Hans": {
+        "commonName": "飞刀鱼",
+        "description": "如飞刀般扁平的身体"
+      }
+    }
   },
   {
     "id": "VOL02_080",
@@ -2264,7 +3064,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 90,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐧",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -2279,7 +3079,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Slanted Tetra",
+        "description": "Swims at a 45-degree angle."
+      },
+      "zh-Hans": {
+        "commonName": "黑白企鹅鱼",
+        "description": "以45度角倾斜游动"
+      }
+    }
   },
   {
     "id": "VOL02_081",
@@ -2290,7 +3100,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 91,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1D2D49",
@@ -2308,7 +3118,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Diamond Tetra",
+        "description": "A solitary predator with a powerful bite."
+      },
+      "zh-Hans": {
+        "commonName": "黑斑水虎鱼",
+        "description": "拥有强大咬合力的独居水虎"
+      }
+    }
   },
   {
     "id": "VOL02_082",
@@ -2319,7 +3139,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 92,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#25FF91",
@@ -2336,7 +3156,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Golden Eartheater",
+        "description": "Sifts through the sand to find food."
+      },
+      "zh-Hans": {
+        "commonName": "黄金食土鲷",
+        "description": "喜欢吞吐底砂寻找食物"
+      }
+    }
   },
   {
     "id": "VOL02_083",
@@ -2347,7 +3177,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 93,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#EC3ACC",
@@ -2364,7 +3194,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Red-Fin Tetra",
+        "description": "Spreads its red throat when agitated."
+      },
+      "zh-Hans": {
+        "commonName": "火口鱼",
+        "description": "激动时会张开红色的喉部"
+      }
+    }
   },
   {
     "id": "VOL02_084",
@@ -2375,7 +3215,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 94,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#6D28D9",
@@ -2392,7 +3232,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Mbu Puffer",
+        "description": "A giant freshwater puffer."
+      },
+      "zh-Hans": {
+        "commonName": "皇冠狗头",
+        "description": "体型巨大的淡水河豚"
+      }
+    }
   },
   {
     "id": "VOL02_085",
@@ -2403,7 +3253,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 95,
+    "baseCoinYield": 11,
     "emojiOrSprite": "🦕",
     "visualBlueprint": {
       "primaryColor": "#78350F",
@@ -2418,7 +3268,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "South American Lungfish",
+        "description": "A living fossil that breathes air."
+      },
+      "zh-Hans": {
+        "commonName": "南美肺鱼",
+        "description": "能呼吸空气的活化石"
+      }
+    }
   },
   {
     "id": "VOL02_086",
@@ -2429,7 +3289,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 96,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#980AC3",
@@ -2447,7 +3307,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Bronze Cory",
+        "description": "A cute bottom-dweller armored with bony plates."
+      },
+      "zh-Hans": {
+        "commonName": "装甲兵鲇",
+        "description": "身披骨板的可爱底栖鱼"
+      }
+    }
   },
   {
     "id": "VOL02_087",
@@ -2458,7 +3328,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 97,
+    "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#1D2849",
@@ -2476,7 +3346,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Panda Otocinclus",
+        "description": "A hardworking little algae-eating helper."
+      },
+      "zh-Hans": {
+        "commonName": "小精灵鼠",
+        "description": "勤劳的食藻小帮手"
+      }
+    }
   },
   {
     "id": "VOL02_088",
@@ -2487,7 +3367,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 98,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🐘",
     "visualBlueprint": {
       "primaryColor": "#9624BA",
@@ -2505,7 +3385,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Trunk Puffer",
+        "description": "A strange fish with an unusually long chin."
+      },
+      "zh-Hans": {
+        "commonName": "象鼻鱼",
+        "description": "拥有长长下巴的奇特鱼类"
+      }
+    }
   },
   {
     "id": "VOL02_089",
@@ -2516,7 +3406,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 99,
+    "baseCoinYield": 3,
     "emojiOrSprite": "💋",
     "visualBlueprint": {
       "primaryColor": "#0023C4",
@@ -2534,7 +3424,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Kissing Gourami",
+        "description": "Presses its lips against other fish."
+      },
+      "zh-Hans": {
+        "commonName": "接吻鱼",
+        "description": "会用嘴唇互相推挤的鱼"
+      }
+    }
   },
   {
     "id": "VOL02_090",
@@ -2545,7 +3445,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 100,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🙈",
     "visualBlueprint": {
       "primaryColor": "#7A3308",
@@ -2563,7 +3463,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Mexican Cave Tetra",
+        "description": "Loses its eyes to adapt to cave life."
+      },
+      "zh-Hans": {
+        "commonName": "盲眼鱼",
+        "description": "退化双眼适应洞穴生活的鱼"
+      }
+    }
   },
   {
     "id": "VOL02_091",
@@ -2574,7 +3484,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 101,
+    "baseCoinYield": 9,
     "emojiOrSprite": "💦",
     "visualBlueprint": {
       "primaryColor": "#2354C5",
@@ -2592,7 +3502,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Archerfish",
+        "description": "Shoots jets of water to knock down insects."
+      },
+      "zh-Hans": {
+        "commonName": "射水鱼",
+        "description": "能喷射水柱击落昆虫"
+      }
+    }
   },
   {
     "id": "VOL02_092",
@@ -2603,7 +3523,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 102,
+    "baseCoinYield": 12,
     "emojiOrSprite": "👀",
     "visualBlueprint": {
       "primaryColor": "#049401",
@@ -2621,7 +3541,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Four-Eyed Fish",
+        "description": "A strange fish with eyes split into upper and lower halves."
+      },
+      "zh-Hans": {
+        "commonName": "四眼鱼",
+        "description": "眼睛分为上下两半的奇鱼"
+      }
+    }
   },
   {
     "id": "VOL02_093",
@@ -2632,7 +3562,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 103,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐸",
     "visualBlueprint": {
       "primaryColor": "#4FC30A",
@@ -2649,7 +3579,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Mudskipper",
+        "description": "Hops across the mudflats."
+      },
+      "zh-Hans": {
+        "commonName": "跳跳鱼",
+        "description": "能在泥滩上跳跃的弹涂鱼"
+      }
+    }
   },
   {
     "id": "VOL02_094",
@@ -2660,7 +3600,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 104,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
       "primaryColor": "#184E43",
@@ -2678,7 +3618,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Sail Synodontis",
+        "description": "A bottom-dweller with a huge dorsal fin."
+      },
+      "zh-Hans": {
+        "commonName": "大帆倒吊鼠",
+        "description": "拥有巨大背鳍的倒游鱼"
+      }
+    }
   },
   {
     "id": "VOL02_095",
@@ -2689,7 +3639,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 105,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🐡",
     "visualBlueprint": {
       "primaryColor": "#DC2626",
@@ -2706,7 +3656,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Zebra Puffer",
+        "description": "A freshwater puffer with zebra stripes."
+      },
+      "zh-Hans": {
+        "commonName": "斑马狗头",
+        "description": "带有斑马纹路的淡水河豚"
+      }
+    }
   },
   {
     "id": "VOL02_096",
@@ -2717,7 +3677,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.2,
-    "baseCoinYield": 106,
+    "baseCoinYield": 3,
     "emojiOrSprite": "🪵",
     "visualBlueprint": {
       "primaryColor": "#15BA00",
@@ -2735,7 +3695,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Driftwood Catfish",
+        "description": "A strange catfish that mimics a piece of driftwood."
+      },
+      "zh-Hans": {
+        "commonName": "木纹猫",
+        "description": "拟态成木头的奇特鲇鱼"
+      }
+    }
   },
   {
     "id": "VOL02_097",
@@ -2746,7 +3716,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1400,
     "baseSwimSpeed": 1.4,
-    "baseCoinYield": 107,
+    "baseCoinYield": 5,
     "emojiOrSprite": "🪵",
     "visualBlueprint": {
       "primaryColor": "#A00A3C",
@@ -2764,7 +3734,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Driftwood Pleco",
+        "description": "A pleco that gnaws on driftwood."
+      },
+      "zh-Hans": {
+        "commonName": "枯木异型",
+        "description": "专门啃食沉木的异型"
+      }
+    }
   },
   {
     "id": "VOL02_098",
@@ -2775,7 +3755,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.6,
-    "baseCoinYield": 108,
+    "baseCoinYield": 6,
     "emojiOrSprite": "🦕",
     "visualBlueprint": {
       "primaryColor": "#6D28D9",
@@ -2792,7 +3772,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Senegalese Bichir",
+        "description": "A bichir with ancient features."
+      },
+      "zh-Hans": {
+        "commonName": "恐龙鱼",
+        "description": "拥有古代特征的多鳍鱼"
+      }
+    }
   },
   {
     "id": "VOL02_099",
@@ -2803,7 +3793,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
     "baseSwimSpeed": 1.8,
-    "baseCoinYield": 109,
+    "baseCoinYield": 4,
     "emojiOrSprite": "🦋",
     "visualBlueprint": {
       "primaryColor": "#1A6C01",
@@ -2821,7 +3811,17 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Butterfly Fish",
+        "description": "Its pectoral fins are as broad as butterfly wings."
+      },
+      "zh-Hans": {
+        "commonName": "蝴蝶鱼",
+        "description": "胸鳍如蝴蝶翅膀般宽大"
+      }
+    }
   },
   {
     "id": "VOL02_100",
@@ -2832,7 +3832,7 @@
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1500,
     "baseSwimSpeed": 1.0,
-    "baseCoinYield": 110,
+    "baseCoinYield": 7,
     "emojiOrSprite": "🦋",
     "visualBlueprint": {
       "primaryColor": "#49D205",
@@ -2850,6 +3850,16 @@
     "breedingRecipe": [
       "placeholder_parent_a",
       "placeholder_parent_b"
-    ]
+    ],
+    "i18n": {
+      "en": {
+        "commonName": "Southern Saratoga",
+        "description": "Leaps from the water's surface to catch insects."
+      },
+      "zh-Hans": {
+        "commonName": "古代蝴蝶鱼",
+        "description": "能在水面跳跃捕食昆虫"
+      }
+    }
   }
 ]
