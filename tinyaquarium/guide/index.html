@@ -83,7 +83,7 @@
             TinyAquarium 養魚與繁育全攻略
         </h1>
         <p class="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-            透過日常健走步數孵化千種水族，掌握基因突變實驗室配方，升級擴建專屬水族箱，享受 60 FPS 治癒水聲白噪音。
+            透過日常健走步數孵化千種水族，掌握基因突變實驗室配方，升級擴建專屬水族箱，享受 30 FPS 低耗電治癒水聲白噪音。
         </p>
     </section>
 
@@ -91,7 +91,7 @@
     <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-24 space-y-12">
 
         <!-- Chapter 1: Steps & Incubation -->
-        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+        <section id="ch-steps" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="absolute -top-12 -right-12 w-48 h-48 bg-cyan-500/10 rounded-full blur-3xl"></div>
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-bold text-sm">01</span>
@@ -118,13 +118,13 @@
                 <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
                     <div class="text-2xl mb-2">🎉</div>
                     <div class="font-bold text-white mb-1">破殼滿步儀式</div>
-                    <div class="text-xs text-slate-400">步數達標後，點擊「破殼孵化」按鈕即可在 60 FPS 粒子光暈與水聲中迎來新魚！</div>
+                    <div class="text-xs text-slate-400">步數達標後，點擊「破殼孵化」按鈕即可在 30 FPS 粒子光暈與水聲中迎來新魚！</div>
                 </div>
             </div>
         </section>
 
         <!-- Chapter 2: Rarity System -->
-        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+        <section id="ch-rarity" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center font-bold text-sm">02</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">
@@ -183,7 +183,7 @@
         </section>
 
         <!-- Chapter 3: Genetics Breeding Lab -->
-        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+        <section id="ch-coins" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="absolute -top-12 -left-12 w-48 h-48 bg-amber-500/10 rounded-full blur-3xl"></div>
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-sm">03</span>
@@ -345,7 +345,7 @@
             </p>
         </section>
 
-        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+        <section id="ch-breeding" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-pink-500/20 text-pink-400 flex items-center justify-center font-bold text-sm">04</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">
@@ -376,7 +376,7 @@
         </section>
 
         <!-- Chapter 4: Workshop & Tank Expansion -->
-        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+        <section id="ch-expand" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-sm">05</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">
@@ -409,7 +409,7 @@
         </section>
 
         <!-- Chapter 5: P2P Trading -->
-        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+        <section id="ch-trade" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center font-bold text-sm">06</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">
@@ -432,7 +432,7 @@
         </section>
 
         <!-- Chapter 6: Feeding & Coin Bubbles -->
-        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+        <section id="ch-feeding" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-bold text-sm">07</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">
@@ -465,7 +465,7 @@
         </section>
 
         <!-- Chapter 7: Move Fish & Rename -->
-        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+        <section id="ch-move" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-sm">08</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">
@@ -496,7 +496,7 @@
         </section>
 
         <!-- Chapter 8: Fish Roster & Dex -->
-        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+        <section id="ch-dex" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-blue-500/20 text-blue-400 flex items-center justify-center font-bold text-sm">09</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">
@@ -529,7 +529,7 @@
         </section>
 
         <!-- Chapter 9: Showcase / Zen Display Mode -->
-        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+        <section id="ch-zen" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center font-bold text-sm">10</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">
@@ -543,7 +543,7 @@
         </section>
 
         <!-- Chapter 10: Office Safe Silent & Minimalist Bottom XP -->
-        <section class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+        <section id="ch-muted" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center font-bold text-sm">11</span>
                 <h2 class="text-2xl font-bold text-white flex items-center gap-2">

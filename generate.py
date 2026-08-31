@@ -134,7 +134,7 @@ def app_html(app, locale):
     features = "".join(f"<li>{e(feat)}</li>" for feat in loc["features"])
     qa_items = loc.get("qa") or []
     qa_html = (
-        '<div class="qa">' + "".join(
+        '<div class="qa" id="faq">' + "".join(
             f'<div class="qa-item"><h3>{e(item["q"])}</h3><p>{e(item["a"])}</p></div>'
             for item in qa_items
         ) + "</div>"

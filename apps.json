@@ -66,6 +66,10 @@
             {
               "q": "Is my data stored on the cloud?",
               "a": "Your progress syncs seamlessly across your iPhone, iPad, and Apple Watch using Apple iCloud Key-Value Store."
+            },
+            {
+              "q": "Which devices are supported?",
+              "a": "Supports iPhone and iPad on iOS 17.0+, and Apple Watch on watchOS 10.0+."
             }
           ]
         },
@@ -98,6 +102,10 @@
             {
               "q": "支援跨裝置存檔同步嗎？",
               "a": "支援！透過 Apple iCloud 雲端鍵值儲存（KVS），在 iPhone 上的進度會自動無縫同步至 iPad 與 Apple Watch。"
+            },
+            {
+              "q": "支援哪些裝置？",
+              "a": "支援運行 iOS 17.0+ 的 iPhone、iPad，以及運行 watchOS 10.0+ 的 Apple Watch。"
             }
           ]
         },
@@ -130,6 +138,10 @@
             {
               "q": "支持跨设备存档同步吗？",
               "a": "支持！通过 Apple iCloud 云端键值存储（KVS），在 iPhone 上的进度会自动无缝同步至 iPad 与 Apple Watch。"
+            },
+            {
+              "q": "支持哪些设备？",
+              "a": "支持运行 iOS 17.0+ 的 iPhone、iPad，以及运行 watchOS 10.0+ 的 Apple Watch。"
             }
           ]
         }
