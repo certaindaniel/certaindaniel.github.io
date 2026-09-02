@@ -632,38 +632,125 @@
         </div>
 
         <div class="calc-box">
-            <h3 style="font-size: 1.5rem; font-weight: 800; margin-bottom: 0.5rem;">🧪 互動式繁育配方計算器 (Breeding Mutator)</h3>
-            <p style="color: var(--text-sub);">選擇兩條已成熟的親代魚隻，預覽繁育可能孵化出的神秘突變幼魚：</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 0.5rem;">
+                <h3 style="font-size: 1.5rem; font-weight: 800; color: #fff; margin: 0;">🧪 互動式繁育配方計算器 (Breeding Mutator)</h3>
+                <span style="font-size: 0.8rem; padding: 4px 10px; border-radius: 20px; background: rgba(236,72,153,0.15); border: 1px solid rgba(236,72,153,0.3); color: #f472b6; font-weight: 600;">消耗 50 ❤️ 愛心能量</span>
+            </div>
+            <p style="color: var(--text-sub); font-size: 0.95rem; margin-bottom: 1.5rem;">選擇兩條已成熟的種魚親代（母魚 ♀ ＋ 公魚 ♂），探索隱藏特定突變配方或模擬真實 d100 百面骰掉率分布：</p>
             
             <div class="calc-selectors">
                 <div class="calc-select-group">
-                    <label>親代 A (Father/Mother 1):</label>
+                    <label>親代 A (母魚 ♀ Parent):</label>
                     <select id="parentA" onchange="calculateBreeding()">
-                        <option value="clownfish">🤡 眼斑小丑魚 (Common)</option>
-                        <option value="neon_tetra">✨ 霓虹燈魚 (Common)</option>
-                        <option value="betta">🥋 泰國鬥魚 (Uncommon)</option>
-                        <option value="koi">🎏 日本紅白錦鯉 (Rare)</option>
-                        <option value="manta">🪐 星雲魟魚 (Epic)</option>
+                        <optgroup label="⬜ 普通 (Common)">
+                            <option value="neon_tetra" selected>✨ 日光燈魚 (Neon Tetra)</option>
+                            <option value="cardinal_tetra">❤️ 寶蓮燈魚 (Cardinal Tetra)</option>
+                            <option value="guppy">🦚 彩虹孔雀魚 (Rainbow Guppy)</option>
+                            <option value="otocinclus">🌿 小精靈鼠 (Otocinclus)</option>
+                        </optgroup>
+                        <optgroup label="🟩 精良 (Uncommon)">
+                            <option value="clownfish">🤡 眼斑小丑魚 (Ocellaris Clownfish)</option>
+                            <option value="rummy_nose">🔴 紅鼻剪刀 (Rummy-Nose Tetra)</option>
+                            <option value="formosan_salmon">🐟 台灣櫻花鉤吻鮭 (Formosan Salmon)</option>
+                            <option value="thai_betta">🥋 泰國鬥魚 (Thai Betta)</option>
+                            <option value="ghost_glasscat">👻 幽靈玻璃貓 (Ghost Glasscat)</option>
+                        </optgroup>
+                        <optgroup label="🟦 稀有 (Rare)">
+                            <option value="sakura_koi">🌸 櫻花錦鯉 (Sakura Koi)</option>
+                            <option value="ryukin_goldfish">🎏 琉金金魚 (Ryukin Goldfish)</option>
+                            <option value="bubble_eye_goldfish">🫧 水泡眼金魚 (Bubble Eye Goldfish)</option>
+                            <option value="sea_angel">👼 冰海精靈海天使 (Sea Angel)</option>
+                            <option value="blue_tang">🌊 藍倒吊 (Blue Tang)</option>
+                            <option value="porcelain_angel">👑 陶瓷神仙魚 (Porcelain Angel)</option>
+                        </optgroup>
+                        <optgroup label="🟪 史詩 (Epic)">
+                            <option value="tancho_koi">👑 日本丹頂錦鯉 (Tancho Koi)</option>
+                            <option value="black_bubble_eye">🫧 墨黑水泡眼金魚 (Black Bubble Eye)</option>
+                            <option value="platinum_betta">🥋 白金雙尾鬥魚 (Platinum Betta)</option>
+                            <option value="giant_oarfish">🕯️ 巨型皇帶魚 (Giant Oarfish)</option>
+                            <option value="anglerfish">💡 深海黑角鮟鱇 (Deepsea Anglerfish)</option>
+                            <option value="aurora_eel">⚡️ 極光鰻 (Aurora Eel)</option>
+                        </optgroup>
+                        <optgroup label="🟧 傳說 (Legendary)">
+                            <option value="super_red_arowana">🐉 超紅龍魚 (Super Red Arowana)</option>
+                            <option value="celestial_dragon">🐲 東方青龍神魚 (Celestial Azure Dragon)</option>
+                            <option value="cosmic_whale">🌌 星空巨鯨 (Cosmic Whale)</option>
+                            <option value="chrono_fish">⏳ 賽博時光魚 (Chrono Fish)</option>
+                        </optgroup>
                     </select>
                 </div>
                 <div class="calc-select-group">
-                    <label>親代 B (Father/Mother 2):</label>
+                    <label>親代 B (公魚 ♂ Parent):</label>
                     <select id="parentB" onchange="calculateBreeding()">
-                        <option value="neon_tetra">✨ 霓虹燈魚 (Common)</option>
-                        <option value="clownfish">🤡 眼斑小丑魚 (Common)</option>
-                        <option value="guppy">🦚 七彩孔雀魚 (Common)</option>
-                        <option value="discus">💿 七彩神仙魚 (Rare)</option>
-                        <option value="dragon">🐉 碧玉青龍魚 (Legendary)</option>
+                        <optgroup label="⬜ 普通 (Common)">
+                            <option value="neon_tetra">✨ 日光燈魚 (Neon Tetra)</option>
+                            <option value="cardinal_tetra" selected>❤️ 寶蓮燈魚 (Cardinal Tetra)</option>
+                            <option value="guppy">🦚 彩虹孔雀魚 (Rainbow Guppy)</option>
+                            <option value="otocinclus">🌿 小精靈鼠 (Otocinclus)</option>
+                        </optgroup>
+                        <optgroup label="🟩 精良 (Uncommon)">
+                            <option value="clownfish">🤡 眼斑小丑魚 (Ocellaris Clownfish)</option>
+                            <option value="rummy_nose">🔴 紅鼻剪刀 (Rummy-Nose Tetra)</option>
+                            <option value="formosan_salmon">🐟 台灣櫻花鉤吻鮭 (Formosan Salmon)</option>
+                            <option value="thai_betta">🥋 泰國鬥魚 (Thai Betta)</option>
+                            <option value="ghost_glasscat">👻 幽靈玻璃貓 (Ghost Glasscat)</option>
+                        </optgroup>
+                        <optgroup label="🟦 稀有 (Rare)">
+                            <option value="sakura_koi">🌸 櫻花錦鯉 (Sakura Koi)</option>
+                            <option value="ryukin_goldfish">🎏 琉金金魚 (Ryukin Goldfish)</option>
+                            <option value="bubble_eye_goldfish">🫧 水泡眼金魚 (Bubble Eye Goldfish)</option>
+                            <option value="sea_angel">👼 冰海精靈海天使 (Sea Angel)</option>
+                            <option value="blue_tang">🌊 藍倒吊 (Blue Tang)</option>
+                            <option value="porcelain_angel">👑 陶瓷神仙魚 (Porcelain Angel)</option>
+                        </optgroup>
+                        <optgroup label="🟪 史詩 (Epic)">
+                            <option value="tancho_koi">👑 日本丹頂錦鯉 (Tancho Koi)</option>
+                            <option value="black_bubble_eye">🫧 墨黑水泡眼金魚 (Black Bubble Eye)</option>
+                            <option value="platinum_betta">🥋 白金雙尾鬥魚 (Platinum Betta)</option>
+                            <option value="giant_oarfish">🕯️ 巨型皇帶魚 (Giant Oarfish)</option>
+                            <option value="anglerfish">💡 深海黑角鮟鱇 (Deepsea Anglerfish)</option>
+                            <option value="aurora_eel">⚡️ 極光鰻 (Aurora Eel)</option>
+                        </optgroup>
+                        <optgroup label="🟧 傳說 (Legendary)">
+                            <option value="super_red_arowana">🐉 超紅龍魚 (Super Red Arowana)</option>
+                            <option value="celestial_dragon">🐲 東方青龍神魚 (Celestial Azure Dragon)</option>
+                            <option value="cosmic_whale">🌌 星空巨鯨 (Cosmic Whale)</option>
+                            <option value="chrono_fish">⏳ 賽博時光魚 (Chrono Fish)</option>
+                        </optgroup>
                     </select>
                 </div>
             </div>
 
-            <div class="calc-result">
-                <div class="calc-result-sprite" id="babySprite">✨</div>
-                <div>
-                    <div style="font-size: 1.25rem; font-weight: 800; color: #fff;" id="babyName">極光螢光小丑魚 (Aurora Clownfish)</div>
-                    <div style="font-size: 0.85rem; color: var(--cyan-primary); margin: 4px 0;" id="babyRarity">稀有度：💜 史詩 (Epic) · 需 2,500 步孵化</div>
-                    <div style="font-size: 0.9rem; color: var(--text-sub);" id="babyDesc">完美融合小丑魚的靈巧條紋與霓虹燈魚的生物冷光，游動時在水中留下若隱若現的極光尾跡。</div>
+            <!-- Probability Rate Bar -->
+            <div id="oddsContainer" style="background: rgba(0,0,0,0.3); border-radius: 12px; padding: 12px 16px; margin-bottom: 1.2rem; border: 1px solid rgba(255,255,255,0.06);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                    <span style="font-size: 0.85rem; font-weight: 700; color: #a5b4fc;" id="oddsTitle">🎲 突變百面骰掉率 (雙親稀有度之和: 0 階)</span>
+                    <button onclick="rollRandomBreeding()" style="background: rgba(0,210,255,0.15); border: 1px solid rgba(0,210,255,0.4); color: #00d2ff; font-size: 0.75rem; font-weight: bold; padding: 3px 10px; border-radius: 6px; cursor: pointer;">🎲 擲骰模擬</button>
+                </div>
+                <div id="oddsTable" style="display: flex; gap: 8px; flex-wrap: wrap; font-size: 0.8rem; font-family: monospace;">
+                    <span style="color: #cbd5e1;">⬜ 普通: 40%</span>
+                    <span style="color: #4ade80;">🟩 精良: 30%</span>
+                    <span style="color: #60a5fa;">🟦 稀有: 25%</span>
+                    <span style="color: #c084fc;">🟪 史詩: 5%</span>
+                    <span style="color: #fbbf24;">🟧 傳說: 0%</span>
+                </div>
+            </div>
+
+            <div class="calc-result" style="position: relative;">
+                <div id="secretBadge" style="position: absolute; top: -12px; right: 16px; background: linear-gradient(135deg, #ec4899, #8b5cf6); color: #fff; font-size: 0.72rem; font-weight: 800; padding: 2px 10px; border-radius: 12px; display: none; box-shadow: 0 2px 10px rgba(236,72,153,0.5);">
+                    🌟 觸發特定基因隱藏突變配方
+                </div>
+                <div class="calc-result-sprite" id="babySprite">👑</div>
+                <div style="flex: 1;">
+                    <div style="font-size: 1.3rem; font-weight: 800; color: #fff; display: flex; align-items: center; gap: 8px;" id="babyName">
+                        白金帝王燈 (Platinum Royal Tetra)
+                    </div>
+                    <div style="font-size: 0.88rem; color: var(--cyan-primary); margin: 4px 0; font-weight: 600;" id="babyRarity">
+                        稀有度：🟪 史詩 (Epic) · 需 6,000 步孵化
+                    </div>
+                    <div style="font-size: 0.88rem; color: var(--text-sub); line-height: 1.5;" id="babyDesc">
+                        日光燈魚與寶蓮燈基因深度融合產生的白金突變體，鱗片自帶珍珠微光，在水草間游動如皇家儀仗隊。
+                    </div>
                 </div>
             </div>
         </div>
@@ -1162,33 +1249,182 @@
 
         render();
 
-        // Breeding Calculator Logic
-        const breedingDB = {
-            'clownfish+neon_tetra': { name: '極光螢光小丑魚', sprite: '✨', rarity: '💜 史詩 (Epic)', steps: 2500, desc: '融合小丑魚條紋與霓虹燈魚冷光，游動時在水中留下若隱若現的極光尾跡。' },
-            'clownfish+betta': { name: '火焰羽冠小丑魚', sprite: '🔥', rarity: '💙 稀有 (Rare)', steps: 2000, desc: '長出如泰國鬥魚般威風飄逸的燃燒背鰭，性格活潑可愛。' },
-            'koi+discus': { name: '丹頂七彩神仙魚', sprite: '🎏', rarity: '💜 史詩 (Epic)', steps: 3000, desc: '圓盤狀身軀頂部生有純朱紅頂冠，象徵吉祥與繁榮。' },
-            'manta+dragon': { name: '北溟星海巨鯤', sprite: '🌌', rarity: '👑 神話 (Mythic)', steps: 5000, desc: '極度罕見的終極星宿神魚，周身圍繞星雲光環，能帶來源源不絕的幸運。' }
+        // Full Authentic Breeding Mutator System
+        const FISH_DATA = {
+            'neon_tetra': { name: '日光燈魚', en: 'Neon Tetra', rank: 0, rarity: '⬜ 普通 (Common)', steps: 1000, sprite: '✨', desc: '經典熱帶淡水魚，體側擁有耀眼的藍綠色螢光線條。' },
+            'cardinal_tetra': { name: '寶蓮燈魚', en: 'Cardinal Tetra', rank: 0, rarity: '⬜ 普通 (Common)', steps: 1200, sprite: '❤️', desc: '腹部整條通紅的高雅燈魚，與日光燈魚外觀相近但紅斑更為連貫。' },
+            'guppy': { name: '彩虹孔雀魚', en: 'Rainbow Guppy', rank: 0, rarity: '⬜ 普通 (Common)', steps: 1500, sprite: '🦚', desc: '尾鰭如彩扇般絢麗擺動，生命力頑強的小精靈。' },
+            'otocinclus': { name: '小精靈鼠', en: 'Otocinclus', rank: 0, rarity: '⬜ 普通 (Common)', steps: 1800, sprite: '🌿', desc: '勤勞的水族箱清道夫，喜歡吸附在水草葉片與沉木上覓食。' },
+            
+            'clownfish': { name: '眼斑小丑魚', en: 'Ocellaris Clownfish', rank: 1, rarity: '🟩 精良 (Uncommon)', steps: 2500, sprite: '🤡', desc: '珊瑚礁中的活潑主角，橙白相間的花紋極具辨識度。' },
+            'rummy_nose': { name: '紅鼻剪刀', en: 'Rummy-Nose Tetra', rank: 1, rarity: '🟩 精良 (Uncommon)', steps: 2800, sprite: '🔴', desc: '頭部鮮紅、尾鰭黑白斑馬紋，對水質極度敏感的指標魚。' },
+            'formosan_salmon': { name: '台灣櫻花鉤吻鮭', en: 'Formosan Salmon', rank: 1, rarity: '🟩 精良 (Uncommon)', steps: 3000, sprite: '🐟', desc: '台灣高山清溪國寶魚，冰河時期孑遺的珍貴活化石。' },
+            'thai_betta': { name: '泰國鬥魚', en: 'Thai Betta', rank: 1, rarity: '🟩 精良 (Uncommon)', steps: 3500, sprite: '🥋', desc: '雄性具備飄逸宏偉的戰袍鰭，性格威猛自信。' },
+            'ghost_glasscat': { name: '幽靈玻璃貓', en: 'Ghost Glasscat', rank: 1, rarity: '🟩 精良 (Uncommon)', steps: 3800, sprite: '👻', desc: '身體近乎百分之百透明，體內骨骼清晰可見。' },
+            
+            'sakura_koi': { name: '櫻花錦鯉', en: 'Sakura Koi', rank: 2, rarity: '🟦 稀有 (Rare)', steps: 4000, sprite: '🌸', desc: '背部泛著淡粉如櫻花瓣般的斑紋，游動間宛如落櫻拂水。' },
+            'ryukin_goldfish': { name: '琉金金魚', en: 'Ryukin Goldfish', rank: 2, rarity: '🟦 稀有 (Rare)', steps: 4500, sprite: '🎏', desc: '江戶名貴金魚，駝背高聳、腹部圓潤、尾鰭飄逸。' },
+            'bubble_eye_goldfish': { name: '水泡眼金魚', en: 'Bubble Eye Goldfish', rank: 2, rarity: '🟦 稀有 (Rare)', steps: 5000, sprite: '🫧', desc: '眼部下方長有兩顆裝滿淋巴液的晶瑩水泡，呆萌可愛。' },
+            'sea_angel': { name: '冰海精靈海天使', en: 'Sea Angel', rank: 2, rarity: '🟦 稀有 (Rare)', steps: 5500, sprite: '👼', desc: '極地寒水浮游神仙，揮動半透明雙翼宛如天使起舞。' },
+            'blue_tang': { name: '藍倒吊', en: 'Blue Tang', rank: 2, rarity: '🟦 稀有 (Rare)', steps: 5800, sprite: '🌊', desc: '寶藍色體色與黃色尾部形成鮮明對比的大堡礁常客。' },
+            'porcelain_angel': { name: '陶瓷神仙魚', en: 'Porcelain Angel', rank: 2, rarity: '🟦 稀有 (Rare)', steps: 6000, sprite: '👑', desc: '宛如宋代青花瓷般晶瑩剔透的身軀，泳姿雍容優雅。' },
+            
+            'tancho_koi': { name: '日本丹頂錦鯉', en: 'Tancho Koi', rank: 3, rarity: '🟪 史詩 (Epic)', steps: 8000, sprite: '👑', desc: '全身純白、頭頂中央單生一團純朱紅圓斑，象徵東方至高祥瑞。' },
+            'black_bubble_eye': { name: '墨黑水泡眼金魚', en: 'Black Bubble Eye', rank: 3, rarity: '🟪 史詩 (Epic)', steps: 9000, sprite: '🫧', desc: '漆黑如墨的通體色澤配上晃動的水泡，江戶極致造化。' },
+            'platinum_betta': { name: '白金雙尾鬥魚', en: 'Platinum Betta', rank: 3, rarity: '🟪 史詩 (Epic)', steps: 10000, sprite: '🥋', desc: '如白金鍛造般耀眼的光澤，雙叉尾鰭飄逸如王爵斗篷。' },
+            'giant_oarfish': { name: '巨型皇帶魚', en: 'Giant Oarfish', rank: 3, rarity: '🟪 史詩 (Epic)', steps: 11000, sprite: '🕯️', desc: '深海龍宮使者，銀色長條身軀頂著一簇鮮紅皇冠背鰭。' },
+            'anglerfish': { name: '深海黑角鮟鱇', en: 'Deepsea Anglerfish', rank: 3, rarity: '🟪 史詩 (Epic)', steps: 11500, sprite: '💡', desc: '漆黑萬米深淵中的獵手，頭頂發光引誘獵物。' },
+            'aurora_eel': { name: '極光鰻', en: 'Aurora Eel', rank: 3, rarity: '🟪 史詩 (Epic)', steps: 12000, sprite: '⚡️', desc: '通體泛著極光綠與幽藍電流光暈，在暗水中穿梭如星軌。' },
+            
+            'super_red_arowana': { name: '超紅龍魚', en: 'Super Red Arowana', rank: 4, rarity: '🟧 傳說 (Legendary)', steps: 20000, sprite: '🐉', desc: '亞洲頂級風水神魚，鱗片覆蓋如烈火般的深邃朱紅。' },
+            'celestial_dragon': { name: '東方青龍神魚', en: 'Celestial Azure Dragon', rank: 4, rarity: '🟧 傳說 (Legendary)', steps: 25000, sprite: '🐲', desc: '山海經神獸化身，游弋於水界掌控四海風雲。' },
+            'cosmic_whale': { name: '星空巨鯨', en: 'Cosmic Whale', rank: 4, rarity: '🟧 傳說 (Legendary)', steps: 28000, sprite: '🌌', desc: '背負銀河星塵的深空巨獸，游動時伴隨低頻宇宙脈衝。' },
+            'chrono_fish': { name: '賽博時光魚', en: 'Chrono Fish', rank: 4, rarity: '🟧 傳說 (Legendary)', steps: 30000, sprite: '⏳', desc: '融合未來量子鐘擺與霓虹能量，能穿梭於維度水族箱。' }
         };
 
-        function calculateBreeding() {
-            const p1 = document.getElementById('parentA').value;
-            const p2 = document.getElementById('parentB').value;
-            const key1 = `${p1}+${p2}`;
-            const key2 = `${p2}+${p1}`;
+        const SECRET_RECIPES = {
+            'neon_tetra+cardinal_tetra': { name: '白金帝王燈 (Platinum Royal Tetra)', sprite: '👑', rarity: '🟪 史詩 (Epic)', steps: 6000, desc: '日光燈魚與寶蓮燈基因深度融合產生的白金突變體，鱗片自帶珍珠微光，在水草間游動如皇家儀仗隊。' },
+            'sakura_koi+ryukin_goldfish': { name: '日本丹頂錦鯉 (Tancho Koi)', sprite: '👑', rarity: '🟪 史詩 (Epic)', steps: 8000, desc: '櫻花錦鯉的純白底色與琉金的朱紅基因完美碰撞，在頭頂正中凝聚出無暇的一品丹頂。' },
+            'bubble_eye_goldfish+ghost_glasscat': { name: '墨黑水泡眼金魚 (Black Bubble Eye)', sprite: '🫧', rarity: '🟪 史詩 (Epic)', steps: 9000, desc: '玻璃貓的隱性色素與水泡眼結合引發深沉黑化，產出漆黑如黑曜石的珍稀神品。' },
+            'thai_betta+ghost_glasscat': { name: '白金雙尾鬥魚 (Platinum Betta)', sprite: '🥋', rarity: '🟪 史詩 (Epic)', steps: 10000, desc: '泰國鬥魚的威武體型褪去凡彩，轉化為通體純淨如白金鍛造的雙尾王爵。' },
+            'formosan_salmon+neon_tetra': { name: '台灣高山苦花魚 (Taiwan Ku-Pah)', sprite: '🐟', rarity: '🟦 稀有 (Rare)', steps: 4500, desc: '台灣櫻花鉤吻鮭的高山清流抗性結合日光燈的冷光微粒，在湍急水流中翻滾出閃爍銀光。' },
+            'formosan_salmon+guppy': { name: '台灣石賓魚 (Taiwan Striped Dace)', sprite: '🐟', rarity: '🟩 精良 (Uncommon)', steps: 3500, desc: '孔雀魚的橫紋基因融入鮭魚體態，條紋分明且動作靈巧敏捷。' },
+            'tancho_koi+super_red_arowana': { name: '昭和三色錦鯉 (Showa Sanshoku Koi)', sprite: '🎏', rarity: '🟧 傳說 (Legendary)', steps: 22000, desc: '丹頂的朱紅與超紅龍的墨黑厚重底色交織，鑄就霸氣磅礴的三色墨雲錦鯉。' },
+            'cosmic_whale+celestial_dragon': { name: '北溟巨鯤 (Kun Cosmic Whale)', sprite: '🐋', rarity: '🟧 傳說 (Legendary)', steps: 30000, desc: '莊子逍遙遊神獸入水！其廣不知其幾千里也，化而為鳥其名為鵬，周身散發星塵極光。' },
+            'porcelain_angel+sea_angel': { name: '月兔海蛞蝓 (Moon Rabbit Slug)', sprite: '🐰', rarity: '🟪 史詩 (Epic)', steps: 7500, desc: '陶瓷神仙的純白瓷質與海天使的精靈之翼結合，誕生頭頂長著萌兔雙耳的海中精靈。' },
+            'sea_angel+aurora_eel': { name: '水晶不死鳥 (Crystal Phoenix)', sprite: '🔥', rarity: '🟧 傳說 (Legendary)', steps: 24000, desc: '極光能量與冰海純淨力量涅槃重生，在水中劃出如鳳凰浴火般的璀璨光尾。' },
+            'giant_oarfish+anglerfish': { name: '深海利維坦 (Abyssal Leviathan)', sprite: '🦑', rarity: '🟧 傳說 (Legendary)', steps: 28000, desc: '皇帶魚的巨龍長軀結合深海鮟鱇的幽冥發光器，化身萬米海溝深淵的終極巨獸。' },
+            'aurora_eel+giant_oarfish': { name: '塵世巨蟒·耶夢加得 (Jörmungandr)', sprite: '🐍', rarity: '🟧 傳說 (Legendary)', steps: 30000, desc: '北歐神話中環繞人間的巨蛇，蛇身覆蓋極光雷電符文，震撼整個水族世界。' },
+            'clownfish+sea_angel': { name: '冬日雪球小丑魚 (Snowglobe Clownfish)', sprite: '❄️', rarity: '🟪 史詩 (Epic)', steps: 7000, desc: '小丑魚換上冰雪晶瑩的冬日雪衣，周圍常年環繞飄落的微小雪晶粒子。' },
+            'blue_tang+sea_angel': { name: '大西洋海神海蛞蝓 (Blue Dragon Glaucus)', sprite: '🐉', rarity: '🟪 史詩 (Epic)', steps: 8500, desc: '寶藍色神獸體態，宛如六翼藍色神龍在水面上翩翩起舞。' },
+            'chrono_fish+cosmic_whale': { name: '奇點黑洞魚 (Singularity Black Hole Fish)', sprite: '🕳️', rarity: '🟧 傳說 (Legendary)', steps: 30000, desc: '時光魚與星空巨鯨引發時空坍縮，中心生成微型引力透鏡，吸引周遭一切光線。' },
+            'sakura_koi+aurora_eel': { name: '櫻花暗夜錦鯉 (Sakura Night Koi)', sprite: '🌸', rarity: '🟪 史詩 (Epic)', steps: 9500, desc: '落櫻粉色在幽綠極光中綻放，黑夜般的深邃底色上映襯出幽魅的夜櫻之美。' },
+            'celestial_dragon+otocinclus': { name: '玄武鎮海神獸魚 (Basilisk Xuanwu)', sprite: '🐢', rarity: '🟧 傳說 (Legendary)', steps: 26000, desc: '四象神獸玄武顯化，蛇龜相纏、鎮守萬水，象徵堅定不移的長壽與守護。' },
+            'super_red_arowana+sakura_koi': { name: '金烏三足太陽神魚 (Sun Crow Fish)', sprite: '☀️', rarity: '🟧 傳說 (Legendary)', steps: 27000, desc: '山海經羲和之子，身披烈焰金羽，游動時如一輪微型烈陽照耀整座魚缸。' }
+        };
 
-            const res = breedingDB[key1] || breedingDB[key2] || {
-                name: '神秘斑斕雜交幼魚',
-                sprite: '🐣',
-                rarity: '💚 罕見 (Uncommon)',
-                steps: 1800,
-                desc: '雙親基因交織出獨特的斑點與體態，充滿未知的成長驚喜！'
-            };
+        const D100_TABLE = {
+            0: { common: 40, uncommon: 30, rare: 25, epic: 5, legendary: 0 },
+            1: { common: 0, uncommon: 75, rare: 25, epic: 0, legendary: 0 },
+            2: { common: 5, uncommon: 0, rare: 77, epic: 18, legendary: 0 },
+            3: { common: 0, uncommon: 0, rare: 5, epic: 83, legendary: 0 },
+            4: { common: 0, uncommon: 0, rare: 5, epic: 60, legendary: 35 },
+            5: { common: 0, uncommon: 0, rare: 5, epic: 40, legendary: 55 },
+            6: { common: 0, uncommon: 0, rare: 5, epic: 25, legendary: 70 },
+            7: { common: 0, uncommon: 0, rare: 5, epic: 15, legendary: 80 },
+            8: { common: 0, uncommon: 0, rare: 5, epic: 5, legendary: 90 }
+        };
 
-            document.getElementById('babyName').innerText = res.name;
-            document.getElementById('babySprite').innerText = res.sprite;
-            document.getElementById('babyRarity').innerText = `稀有度：${res.rarity} · 需 ${res.steps} 步孵化`;
-            document.getElementById('babyDesc').innerText = res.desc;
+        const TIER_NAMES = {
+            common: { name: '⬜ 普通 (Common)', color: '#cbd5e1' },
+            uncommon: { name: '🟩 精良 (Uncommon)', color: '#4ade80' },
+            rare: { name: '🟦 稀有 (Rare)', color: '#60a5fa' },
+            epic: { name: '🟪 史詩 (Epic)', color: '#c084fc' },
+            legendary: { name: '🟧 傳說 (Legendary)', color: '#fbbf24' }
+        };
+
+        const TIER_SAMPLES = {
+            common: [
+                { name: '日光燈魚 (Neon Tetra)', sprite: '✨', steps: 1000, desc: '常規繁殖的健康魚苗，承襲雙親淡水燈魚靈動基因。' },
+                { name: '彩虹孔雀魚 (Rainbow Guppy)', sprite: '🦚', steps: 1500, desc: '尾鰭斑斕的小魚苗，活潑親人。' }
+            ],
+            uncommon: [
+                { name: '紅鼻剪刀 (Rummy-Nose Tetra)', sprite: '🔴', steps: 2800, desc: '健康強壯的精良魚種，對水質適應良好。' },
+                { name: '荷蘭鳳凰短鯛 (German Blue Ram)', sprite: '🐠', steps: 3200, desc: '華麗體色與藍色金屬光斑，性格溫順高雅。' }
+            ],
+            rare: [
+                { name: '日本蘭壽金魚 (Ranchu Goldfish)', sprite: '🎏', steps: 5000, desc: '無背鰭、肉瘤發達的江戶古典名品金魚。' },
+                { name: '黃三角倒吊 (Yellow Tang)', sprite: '🌊', steps: 5500, desc: '通體鮮明純黃的珊瑚礁經典熱帶魚。' }
+            ],
+            epic: [
+                { name: '黑帝王魟 (Black Diamond Stingray)', sprite: '🪐', steps: 10000, desc: '背盤漆黑覆蓋雪白圓點的亞馬遜頂級魟魚。' },
+                { name: '白金雙尾鬥魚 (Platinum Betta)', sprite: '🥋', steps: 10000, desc: '白金光澤覆體，雙叉尾鰭飄逸如王爵。' }
+            ],
+            legendary: [
+                { name: '白堊紀滄龍 (Cretaceous Mosasaur)', sprite: '🦖', steps: 25000, desc: '遠古中生代海洋頂級掠食者，巨型下顎充滿威壓。' },
+                { name: '滅世巨齒鯊 (Megalodon)', sprite: '🦈', steps: 30000, desc: '史前巨獸王者，撕裂深海波濤的終極霸主。' }
+            ]
+        };
+
+        function calculateBreeding(forceRoll = false) {
+            const pA = document.getElementById("parentA").value;
+            const pB = document.getElementById("parentB").value;
+            const fishA = FISH_DATA[pA] || FISH_DATA["neon_tetra"];
+            const fishB = FISH_DATA[pB] || FISH_DATA["cardinal_tetra"];
+            
+            const key1 = `${pA}+${pB}`;
+            const key2 = `${pB}+${pA}`;
+            const secret = SECRET_RECIPES[key1] || SECRET_RECIPES[key2];
+            
+            const raritySum = Math.min(8, Math.max(0, fishA.rank + fishB.rank));
+            const odds = D100_TABLE[raritySum] || D100_TABLE[0];
+            
+            // Render Odds Bar
+            const oddsTitle = document.getElementById("oddsTitle");
+            const oddsTable = document.getElementById("oddsTable");
+            const secretBadge = document.getElementById("secretBadge");
+            
+            if (oddsTitle) oddsTitle.innerHTML = `🎲 突變百面骰掉率 (雙親稀有度之和: ${raritySum} 階)`;
+            if (oddsTable) {
+                oddsTable.innerHTML = `
+                    <span style="color: #cbd5e1;">⬜ 普通: ${odds.common}%</span>
+                    <span style="color: #4ade80;">🟩 精良: ${odds.uncommon}%</span>
+                    <span style="color: #60a5fa;">🟦 稀有: ${odds.rare}%</span>
+                    <span style="color: #c084fc;">🟪 史詩: ${odds.epic}%</span>
+                    <span style="color: #fbbf24;">🟧 傳說: ${odds.legendary}%</span>
+                `;
+            }
+            
+            if (secret && !forceRoll) {
+                if (secretBadge) {
+                    secretBadge.style.display = "block";
+                    secretBadge.innerText = "🌟 觸發特定基因隱藏突變配方";
+                }
+                document.getElementById("babyName").innerText = secret.name;
+                document.getElementById("babySprite").innerText = secret.sprite;
+                document.getElementById("babyRarity").innerText = `稀有度：${secret.rarity} · 需 ${secret.steps.toLocaleString()} 步孵化`;
+                document.getElementById("babyDesc").innerText = secret.desc;
+            } else {
+                if (secretBadge) {
+                    secretBadge.style.display = secret ? "block" : "none";
+                    if (secret) secretBadge.innerText = "🎲 擲骰模擬模式 (可切換回配方)";
+                }
+                
+                // Roll d100
+                const rand = Math.floor(Math.random() * 100);
+                let selectedTier = "common";
+                let accum = odds.common;
+                if (rand >= accum) {
+                    accum += odds.uncommon;
+                    if (rand < accum) selectedTier = "uncommon";
+                    else {
+                        accum += odds.rare;
+                        if (rand < accum) selectedTier = "rare";
+                        else {
+                            accum += odds.epic;
+                            if (rand < accum) selectedTier = "epic";
+                            else selectedTier = "legendary";
+                        }
+                    }
+                }
+                
+                const sampleList = TIER_SAMPLES[selectedTier] || TIER_SAMPLES["common"];
+                const pick = sampleList[Math.floor(Math.random() * sampleList.length)];
+                const tierInfo = TIER_NAMES[selectedTier];
+                
+                document.getElementById("babyName").innerText = pick.name;
+                document.getElementById("babySprite").innerText = pick.sprite;
+                document.getElementById("babyRarity").innerHTML = `稀有度：<span style="color: ${tierInfo.color}; font-weight: bold;">${tierInfo.name}</span> · 需 ${pick.steps.toLocaleString()} 步孵化 (Roll: ${rand + 1}/100)`;
+                document.getElementById("babyDesc").innerText = pick.desc;
+            }
         }
+
+        function rollRandomBreeding() {
+            calculateBreeding(true);
+        }
+
+        // Initialize on load
+        calculateBreeding();
 
         // FAQ Toggle
         function toggleFaq(el) {

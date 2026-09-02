@@ -368,7 +368,7 @@
                     <div class="text-xl text-pink-400 mt-1"><i class="fa-solid fa-crown"></i></div>
                     <div>
                         <div class="font-bold text-white" data-i18n="g124">成熟種魚條件</div>
-                        <div class="text-xs text-slate-400 mt-1" data-i18n="g125">只有成長階段達到「成年（👑）」且愛心飽食度充足的魚隻，才能作為親代進入繁育艙。</div>
+                        <div class="text-xs text-slate-400 mt-1" data-i18n="g125">只有成長階段達到「成年（👑）」、飽食度過半，且<strong class=\"text-pink-300\">一公一母</strong>的魚隻，才能作為親代進入繁育艙。</div>
                     </div>
                 </div>
                 <div class="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 flex items-start gap-4">
@@ -416,6 +416,45 @@
         </section>
 
         <!-- Chapter 5: Workshop & Tank Expansion -->
+        <!-- Hidden Breeding Recipes -->
+        <section id="ch-recipes" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
+            <div class="flex items-center gap-3 mb-6">
+                <span class="w-8 h-8 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-bold text-sm">🔬</span>
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2" data-i18n="g300">隱藏配方大全（146 組）</h2>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-amber-500/5 border border-amber-500/20 mb-5">
+                <div class="text-xs text-amber-200/90 leading-relaxed" data-i18n="g301">以下是遊戲內全部 146 組固定配方。配方命中時直接產出指定魚種，不經過突變骰 —— 也就是說 100% 成功。想自己摸索的話，這一章可以先跳過。</div>
+            </div>
+
+            <div class="flex flex-wrap items-center gap-3 mb-4">
+                <div class="relative flex-1 min-w-[200px]">
+                    <input id="rc-search" type="search" autocomplete="off"
+                           class="w-full bg-slate-900/80 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-cyan-500"
+                           data-i18n-placeholder="g302" placeholder="搜尋魚名…">
+                </div>
+                <div class="text-xs text-slate-400 whitespace-nowrap"><span id="rc-count">146</span> <span data-i18n="g307">組配方</span></div>
+            </div>
+
+            <div class="overflow-x-auto rounded-2xl border border-slate-800">
+                <table class="w-full text-left text-xs sm:text-sm">
+                    <thead class="bg-slate-900/90">
+                        <tr>
+                            <th class="py-2.5 px-3 font-bold text-slate-300" data-i18n="g303">親代 A</th>
+                            <th class="py-2.5 px-3 font-bold text-slate-300" data-i18n="g304">親代 B</th>
+                            <th class="py-2.5 px-3 font-bold text-slate-300" data-i18n="g305">子代</th>
+                        </tr>
+                    </thead>
+                    <tbody id="rc-body"></tbody>
+                </table>
+            </div>
+
+            <div class="text-xs text-slate-500 mt-3 leading-relaxed">
+                <div data-i18n="g309">同一組親代不分先後順序。標示「或」的配方會在兩個結果之間隨機。</div>
+                <div class="text-pink-300/80 mt-1" data-i18n="g310">別忘了：親代必須一公一母，同性別無法配種。</div>
+            </div>
+        </section>
+
         <section id="ch-expand" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-sm">05</span>
@@ -675,6 +714,17 @@
     <script>
     const I18N = {
       "zh-Hant": {
+        "g300": "🔬 隱藏配方大全（146 組）",
+        "g301": "以下是遊戲內全部 146 組固定配方。配方命中時直接產出指定魚種，不經過突變骰 —— 也就是說 100% 成功。想自己摸索的話，這一章可以先跳過。",
+        "g302": "搜尋魚名…",
+        "g303": "親代 A",
+        "g304": "親代 B",
+        "g305": "子代",
+        "g306": "或",
+        "g307": "組配方",
+        "g308": "沒有符合的配方",
+        "g309": "同一組親代不分先後順序。標示「或」的配方會在兩個結果之間隨機。",
+        "g310": "別忘了：親代必須一公一母，同性別無法配種。",
         "pageTitle": "TinyAquarium 口袋水族館 - 官方玩法與新手養成指南 | Official Player Manual",
         "navVault": "萬魚圖鑑展廳",
         "heroBadge": "新手必讀 • 完整的口袋水族生態指南",
@@ -802,7 +852,7 @@
         "g122": "🧬 基因繁育突變實驗室指南",
         "g123": "進入【工坊】分頁的「基因繁育室」，您可以選定水族箱中的兩隻成熟種魚進行人工繁育：",
         "g124": "成熟種魚條件",
-        "g125": "只有成長階段達到「成年（👑）」且愛心飽食度充足的魚隻，才能作為親代進入繁育艙。",
+        "g125": "只有成長階段達到「成年（👑）」、飽食度過半，且<strong class=\"text-pink-300\">一公一母</strong>的魚隻，才能作為親代進入繁育艙。",
         "g126": "隱性突變配方",
         "mutationExamples": "特定親代組合會觸發基因突變！例如：<span class=\"text-cyan-300\">日光燈魚 + 寶蓮燈</span> 突變為 <span class=\"text-purple-300\">白金帝王燈</span>；<span class=\"text-cyan-300\">日本紅白錦鯉 + 烏鯉</span> 突變為 <span class=\"text-amber-300\">昭和三色錦鯉</span>。",
         "g194": "（還有更多隱藏配方等你發現）",
@@ -883,6 +933,17 @@
         "g183": "返回 1,176 種萬魚圖鑑"
       },
       "zh-Hans": {
+        "g300": "🔬 隐藏配方大全（146 组）",
+        "g301": "以下是游戏内全部 146 组固定配方。配方命中时直接产出指定鱼种，不经过突变骰 —— 也就是说 100% 成功。想自己摸索的话，这一章可以先跳过。",
+        "g302": "搜索鱼名…",
+        "g303": "亲代 A",
+        "g304": "亲代 B",
+        "g305": "子代",
+        "g306": "或",
+        "g307": "组配方",
+        "g308": "没有符合的配方",
+        "g309": "同一组亲代不分先后顺序。标示「或」的配方会在两个结果之间随机。",
+        "g310": "别忘了：亲代必须一公一母，同性别无法配种。",
         "pageTitle": "TinyAquarium 口袋水族馆 - 官方玩法与新手养成指南 | Official Player Manual",
         "navVault": "万鱼图鉴展厅",
         "heroBadge": "新手必读 • 完整的口袋水族生态指南",
@@ -1010,7 +1071,7 @@
         "g122": "🧬 基因繁育突变实验室指南",
         "g123": "进入【工坊】分页的「基因繁育室」，您可以选定水族箱中的两只成熟种鱼进行人工繁育：",
         "g124": "成熟种鱼条件",
-        "g125": "只有成长阶段达到「成年（👑）」且爱心饱食度充足的鱼只，才能作为亲代进入繁育舱。",
+        "g125": "只有成长阶段达到「成年（👑）」、饱食度过半，且<strong class=\"text-pink-300\">一公一母</strong>的鱼只，才能作为亲代进入繁育舱。",
         "g126": "隐性突变配方",
         "mutationExamples": "特定亲代组合会触发基因突变！例如：<span class=\"text-cyan-300\">日光灯鱼 + 宝莲灯</span> 突变为 <span class=\"text-purple-300\">白金帝王灯</span>；<span class=\"text-cyan-300\">日本红白锦鲤 + 乌鲤</span> 突变为 <span class=\"text-amber-300\">昭和三色锦鲤</span>。",
         "g194": "（还有更多隐藏配方等你发现）",
@@ -1091,6 +1152,17 @@
         "g183": "返回 1,176 种万鱼图鉴"
       },
       "en-US": {
+        "g300": "🔬 Complete Hidden Recipe List (146)",
+        "g301": "Every one of the game's 146 fixed recipes. A recipe hit produces the named species directly, skipping the mutation roll entirely — a guaranteed 100%. Skip this chapter if you would rather find them yourself.",
+        "g302": "Search fish name…",
+        "g303": "Parent A",
+        "g304": "Parent B",
+        "g305": "Offspring",
+        "g306": "or",
+        "g307": "recipes",
+        "g308": "No matching recipes",
+        "g309": "Parent order does not matter. Recipes marked “or” pick randomly between the two results.",
+        "g310": "Remember: parents must be one female and one male — same-sex pairs cannot breed.",
         "pageTitle": "TinyAquarium Pocket Fish Tank - Official Guide & Player Manual",
         "navVault": "1,176-Species Vault",
         "heroBadge": "Beginner Guide • Pocket Aquarium Ecosystem Manual",
@@ -1218,7 +1290,7 @@
         "g122": "🧬 Genetics & Breeding Lab Walkthrough",
         "g123": "Enter the Genetics Lab in the Workshop tab to pair two mature adult fish for artificial breeding:",
         "g124": "Breeder Requirements",
-        "g125": "Only fish that have reached Adult (👑) stage with sufficient satiety can enter breeding pods.",
+        "g125": "Only fish that are Adult (👑), at least half fed, and <strong class=\"text-pink-300\">one female and one male</strong> can enter the breeding pod as parents.",
         "g126": "Secret Mutation Recipes",
         "mutationExamples": "Certain parent combinations trigger rare genetic mutations! E.g. <span class=\"text-cyan-300\">Neon Tetra + Cardinal Tetra</span> mutates into <span class=\"text-purple-300\">Platinum Royal Tetra</span>; <span class=\"text-cyan-300\">Kohaku Koi + Karasugoi</span> mutates into <span class=\"text-amber-300\">Showa Sanshoku Koi</span>.",
         "g194": "(More secret combinations await discovery)",
@@ -1307,7 +1379,7 @@
       if (q && map[q.toLowerCase()]) { currentLang = map[q.toLowerCase()]; return; }
       const stored = localStorage.getItem("ta_lang");
       if (stored && LANGS.includes(stored)) { currentLang = stored; return; }
-      const m = location.pathname.match(/\\/(en|zh-hant|zh-hans)\\//);
+      const m = location.pathname.match(/\/(en|zh-hant|zh-hans)\//);
       if (m) currentLang = map[m[1]];
     })();
     function t(key) {
@@ -1341,6 +1413,49 @@
         const el = document.getElementById(id);
         if (el) el.href = "../live/?lang=" + langPath;
       });
+      if (typeof renderRecipes === "function") renderRecipes();
+    }
+    const RECIPE_FISH = {"tancho_koi":{"n":{"zh-Hant":"日本丹頂錦鯉","zh-Hans":"日本丹顶锦鲤","en-US":"Tancho Koi"},"r":"Epic"},"ranchu_goldfish":{"n":{"zh-Hant":"日本蘭壽金魚","zh-Hans":"日本兰寿金鱼","en-US":"Ranchu Goldfish"},"r":"Rare"},"black_bubble_eye":{"n":{"zh-Hant":"墨黑水泡眼金魚","zh-Hans":"墨黑水泡眼金鱼","en-US":"Black Bubble Eye Goldfish"},"r":"Epic"},"oranda_goldfish":{"n":{"zh-Hant":"獅頭紅白金魚","zh-Hans":"狮头红白金鱼","en-US":"Oranda Goldfish"},"r":"Rare"},"platinum_betta":{"n":{"zh-Hant":"泰國皇室白金雙尾鬥魚","zh-Hans":"泰国皇室白金双尾斗鱼","en-US":"Platinum Double-Tail Betta"},"r":"Epic"},"taiwan_ku_pah":{"n":{"zh-Hant":"台灣高山苦花魚","zh-Hans":"台湾高山苦花鱼","en-US":"Formosan Ku Pah"},"r":"Rare"},"taiwan_striped_dace":{"n":{"zh-Hant":"台灣馬口魚","zh-Hans":"台湾马口鱼","en-US":"Taiwan Striped Dace"},"r":"Rare"},"butterfly_telescope":{"n":{"zh-Hant":"黑金蝶尾出目金","zh-Hans":"黑金蝶尾出目金","en-US":"Black-Gold Butterfly-Tail Telescope"},"r":"Rare"},"sumatran_tiger_barb":{"n":{"zh-Hant":"蘇門答臘虎皮魚","zh-Hans":"苏门答腊虎皮鱼","en-US":"Tiger Barb"},"r":"Common"},"showa_koi":{"n":{"zh-Hant":"日本昭和三色錦鯉","zh-Hans":"日本昭和三色锦鲤","en-US":"Showa Koi"},"r":"Epic"},"rainbow_snakehead":{"n":{"zh-Hant":"東南亞七彩雷龍","zh-Hans":"东南亚七彩雷龙","en-US":"Rainbow Snakehead"},"r":"Epic"},"crown_tail_betta":{"n":{"zh-Hant":"泰國國王冠尾鬥魚","zh-Hans":"泰国国王冠尾斗鱼","en-US":"Crown Tail Betta"},"r":"Epic"},"neon_tetra":{"n":{"zh-Hant":"日光燈魚","zh-Hans":"日光灯鱼","en-US":"Neon Tetra"},"r":"Common"},"guppy":{"n":{"zh-Hant":"彩虹孔雀魚","zh-Hans":"彩虹孔雀鱼","en-US":"Guppy"},"r":"Common"},"caramel_guppy":{"n":{"zh-Hant":"焦糖絲帶孔雀魚","zh-Hans":"焦糖丝带孔雀鱼","en-US":"Caramel Ribbon Guppy"},"r":"Common"},"puffer_souffle":{"n":{"zh-Hant":"舒芙蕾小河豚","zh-Hans":"舒芙蕾小河豚","en-US":"Souffle Puffer"},"r":"Common"},"formosan_salmon":{"n":{"zh-Hant":"台灣櫻花鉤吻鮭","zh-Hans":"台湾樱花钩吻鲑","en-US":"Formosan Masu"},"r":"Rare"},"bubble_eye_goldfish":{"n":{"zh-Hant":"水泡眼金魚","zh-Hans":"水泡眼金鱼","en-US":"Bubble Eye Goldfish"},"r":"Rare"},"ryukin_goldfish":{"n":{"zh-Hant":"日本琉金金魚","zh-Hans":"日本琉金金鱼","en-US":"Ryukin"},"r":"Rare"},"angelfish":{"n":{"zh-Hant":"月光神仙魚","zh-Hans":"月光神仙鱼","en-US":"Angelfish"},"r":"Rare"},"rummy_nose":{"n":{"zh-Hant":"紅鼻剪刀","zh-Hans":"红鼻剪刀","en-US":"Rummy-nose Tetra"},"r":"Rare"},"thai_betta":{"n":{"zh-Hant":"泰國皇家半月鬥魚","zh-Hans":"泰国皇家半月斗鱼","en-US":"Royal Halfmoon Betta"},"r":"Rare"},"ghost_glasscat":{"n":{"zh-Hant":"幽靈水晶玻璃貓","zh-Hans":"幽灵水晶玻璃猫","en-US":"Ghost Glass Catfish"},"r":"Rare"},"discus_fish":{"n":{"zh-Hant":"秘魯七彩神仙魚","zh-Hans":"秘鲁七彩神仙鱼","en-US":"Discus"},"r":"Epic"},"strawberry_axolotl":{"n":{"zh-Hant":"草莓六角恐龍","zh-Hans":"草莓六角恐龙","en-US":"Strawberry Axolotl"},"r":"Epic"},"sakura_koi":{"n":{"zh-Hant":"櫻花粉蝶尾錦鯉","zh-Hans":"樱花粉蝶尾锦鲤","en-US":"Sakura Koi"},"r":"Epic"},"super_red_arowana":{"n":{"zh-Hant":"印尼辣椒紅龍魚","zh-Hans":"印尼辣椒红龙鱼","en-US":"Super Red Arowana"},"r":"Epic"},"clownfish":{"n":{"zh-Hant":"眼斑小丑魚","zh-Hans":"眼斑小丑鱼","en-US":"Ocellaris Clownfish"},"r":"Rare"},"yellow_tang":{"n":{"zh-Hant":"黃金三角倒吊","zh-Hans":"黄金三角倒吊","en-US":"Yellow Tang"},"r":"Rare"},"spotted_garden_eel":{"n":{"zh-Hant":"條紋斑點花園鰻","zh-Hans":"条纹斑点花园鳗","en-US":"Spotted Garden Eel"},"r":"Rare"},"cozy_seahorse":{"n":{"zh-Hant":"粉萌珊瑚小海馬","zh-Hans":"粉萌珊瑚小海马","en-US":"Cozy Seahorse"},"r":"Rare"},"blue_tang":{"n":{"zh-Hant":"皇家藍倒吊","zh-Hans":"皇家蓝倒吊","en-US":"Royal Blue Tang"},"r":"Rare"},"flame_angelfish":{"n":{"zh-Hant":"夏威夷火焰仙","zh-Hans":"夏威夷火焰仙","en-US":"Flame Angelfish"},"r":"Rare"},"yellow_boxfish":{"n":{"zh-Hant":"黃金木瓜魨","zh-Hans":"黄金木瓜鲀","en-US":"Yellow Boxfish"},"r":"Rare"},"moorish_idol":{"n":{"zh-Hant":"黑白關刀鐮魚","zh-Hans":"黑白关刀镰鱼","en-US":"Moorish Idol"},"r":"Rare"},"picasso_triggerfish":{"n":{"zh-Hant":"畢卡索砲彈魚","zh-Hans":"毕卡索砲弹鱼","en-US":"Picasso Triggerfish"},"r":"Rare"},"royal_dottyback":{"n":{"zh-Hant":"雙色草莓魚","zh-Hans":"双色草莓鱼","en-US":"Twin-Tone Dottyback"},"r":"Rare"},"clown_triggerfish":{"n":{"zh-Hant":"大花小丑砲彈","zh-Hans":"大花小丑砲弹","en-US":"Clown Triggerfish"},"r":"Rare"},"red_lionfish":{"n":{"zh-Hant":"花斑紅獅子魚","zh-Hans":"花斑红狮子鱼","en-US":"Red Lionfish"},"r":"Epic"},"bluespotted_ray":{"n":{"zh-Hant":"藍點帶尾魟","zh-Hans":"蓝点带尾𫚉","en-US":"Bluespotted Ray"},"r":"Epic"},"weedy_seadragon":{"n":{"zh-Hant":"澳洲草海龍","zh-Hans":"澳洲草海龙","en-US":"Weedy Sea Dragon"},"r":"Epic"},"baby_seaturtle":{"n":{"zh-Hant":"迷你綠蠵龜幼崽","zh-Hans":"迷你绿蠵龟幼崽","en-US":"Mini Green Sea Turtle Hatchling"},"r":"Epic"},"mandarin_fish":{"n":{"zh-Hant":"迷幻曼陀羅青蛙魚","zh-Hans":"迷幻曼陀罗青蛙鱼","en-US":"Mandarin Fish"},"r":"Epic"},"bluering_octopus":{"n":{"zh-Hant":"澳洲藍環小章魚","zh-Hans":"澳洲蓝环小章鱼","en-US":"Blue-Ringed Octopus"},"r":"Legendary"},"leafy_seadragon":{"n":{"zh-Hant":"澳洲幻彩葉海龍","zh-Hans":"澳洲幻彩叶海龙","en-US":"Leafy Sea Dragon"},"r":"Legendary"},"malawi_blue_zebra":{"n":{"zh-Hant":"馬拉威藍斑馬","zh-Hans":"马拉威蓝斑马","en-US":"Blue Zebra"},"r":"Rare"},"sea_angel":{"n":{"zh-Hant":"南極冰海天使","zh-Hans":"南极冰海天使","en-US":"Sea Angel"},"r":"Epic"},"jellyfish_lumi":{"n":{"zh-Hant":"發光月亮水母","zh-Hans":"发光月亮水母","en-US":"Glowing Moon Jelly"},"r":"Epic"},"blobfish_cozy":{"n":{"zh-Hant":"軟萌水滴魚","zh-Hans":"软萌水滴鱼","en-US":"Cozy Blobfish"},"r":"Epic"},"anglerfish":{"n":{"zh-Hant":"暖光小燈籠魚","zh-Hans":"暖光小灯笼鱼","en-US":"Amber Anglerfish"},"r":"Epic"},"dumbo_octopus":{"n":{"zh-Hant":"粉萌小飛象章魚","zh-Hans":"粉萌小飞象章鱼","en-US":"Dumbo Octopus"},"r":"Epic"},"giant_oarfish":{"n":{"zh-Hant":"深海皇帶魚","zh-Hans":"深海皇带鱼","en-US":"Giant Oarfish"},"r":"Epic"},"aurora_eel":{"n":{"zh-Hant":"極光絲帶鰻","zh-Hans":"极光丝带鳗","en-US":"Aurora Eel"},"r":"Epic"},"cyber_neon_tetra":{"n":{"zh-Hant":"全息賽博霓虹魚","zh-Hans":"全息赛博霓虹鱼","en-US":"Holo Neon Tetra"},"r":"Epic"},"porcelain_angel":{"n":{"zh-Hant":"青花瓷神仙魚","zh-Hans":"青花瓷神仙鱼","en-US":"Porcelain Angelfish"},"r":"Legendary"},"cosmic_whale":{"n":{"zh-Hant":"星夜琉璃幼鯨","zh-Hans":"星夜琉璃幼鲸","en-US":"Cosmic Glass Whale"},"r":"Legendary"},"golden_koi":{"n":{"zh-Hant":"黃金錦鯉神魚","zh-Hans":"黄金锦鲤神鱼","en-US":"Golden Koi"},"r":"Legendary"},"celestial_dragon":{"n":{"zh-Hant":"九天金鱗神龍魚","zh-Hans":"九天金鳞神龙鱼","en-US":"Celestial Dragon"},"r":"Legendary"},"kun_cosmic_whale":{"n":{"zh-Hant":"北溟巨鯤","zh-Hans":"北溟巨鲲","en-US":"Kun Cosmic Whale"},"r":"Legendary"},"moon_rabbit_slug":{"n":{"zh-Hant":"月宮玉兔海蛞蝓","zh-Hans":"月宫玉兔海蛞蝓","en-US":"Moon Rabbit Sea Slug"},"r":"Legendary"},"sun_crow_fish":{"n":{"zh-Hant":"太陽三足金烏神魚","zh-Hans":"太阳三足金乌神鱼","en-US":"Solar Three-Legged Crow Divine Fish"},"r":"Legendary"},"crystal_phoenix":{"n":{"zh-Hant":"冰晶霜羽鳳凰魚","zh-Hans":"冰晶霜羽凤凰鱼","en-US":"Glacier Crystal Phoenix Fish"},"r":"Legendary"},"lucky_clover_fish":{"n":{"zh-Hant":"四葉草幸運金魚","zh-Hans":"四叶草幸运金鱼","en-US":"Four-Leaf Clover Lucky Goldfish"},"r":"Epic"},"nebula_manta_ray":{"n":{"zh-Hant":"極光星雲魟魚","zh-Hans":"极光星云𫚉鱼","en-US":"Aurora Nebula Manta Ray"},"r":"Legendary"},"stardust_seahorse":{"n":{"zh-Hant":"彩虹星塵海馬","zh-Hans":"彩虹星尘海马","en-US":"Rainbow Stardust Seahorse"},"r":"Epic"},"chrono_fish":{"n":{"zh-Hant":"時光沙漏幻影魚","zh-Hans":"时光沙漏幻影鱼","en-US":"Hourglass Time Phantom Fish"},"r":"Legendary"},"sakura_night_koi":{"n":{"zh-Hant":"櫻雨夜光錦鯉","zh-Hans":"樱雨夜光锦鲤","en-US":"Cherry-Blossom Night-Glow Koi"},"r":"Epic"},"abyssal_leviathan":{"n":{"zh-Hant":"深淵幽冥利維坦","zh-Hans":"深渊幽冥利维坦","en-US":"Abyssal Netherworld Leviathan"},"r":"Legendary"},"astral_dream_jelly":{"n":{"zh-Hant":"星界夢境水母","zh-Hans":"星界梦境水母","en-US":"Astral Dream Jellyfish"},"r":"Legendary"},"fortune_ingot_fish":{"n":{"zh-Hant":"招財金元寶神魚","zh-Hans":"招财金元宝神鱼","en-US":"Fortune-Attracting Gold Ingot Divine Fish"},"r":"Legendary"},"platinum_arowana":{"n":{"zh-Hant":"白化雪白珍珠龍魚","zh-Hans":"白化雪白珍珠龙鱼","en-US":"Platinum Snow-White Pearl Arowana"},"r":"Legendary"},"ink_wash_angelfish":{"n":{"zh-Hant":"東方水墨青花神龍仙","zh-Hans":"东方水墨青花神龙仙","en-US":"Ink-Wash Blue-and-White Dragon Immortal"},"r":"Legendary"},"basilisk_xuanwu":{"n":{"zh-Hant":"玄武冥甲神龜魚","zh-Hans":"玄武冥甲神龟鱼","en-US":"Xuanwu Netherworld-Armored Turtle Divine Fish"},"r":"Legendary"},"vermilion_bird_betta":{"n":{"zh-Hant":"朱雀赤焰焚天鬥魚","zh-Hans":"朱雀赤焰焚天斗鱼","en-US":"Vermilion Bird Crimson-Flame Betta"},"r":"Legendary"},"azure_dragon_loong":{"n":{"zh-Hant":"青龍東方震木神龍","zh-Hans":"青龙东方震木神龙","en-US":"Eastern Azure Divine Dragon"},"r":"Legendary"},"white_tiger_barb":{"n":{"zh-Hant":"白虎西方庚金劍齒魚","zh-Hans":"白虎西方庚金剑齿鱼","en-US":"Western White Tiger Sword-Fang Fish"},"r":"Legendary"},"qilin_auspicious_carp":{"n":{"zh-Hant":"麒麟踏雲祥瑞鯉","zh-Hans":"麒麟踏云祥瑞鲤","en-US":"Cloud-Treading Qilin Auspicious Carp"},"r":"Legendary"},"poseidon_trident_tuna":{"n":{"zh-Hant":"波賽頓海神三叉戟旗魚","zh-Hans":"波赛顿海神三叉戟旗鱼","en-US":"Poseidon Trident Sailfish"},"r":"Legendary"},"yggdrasil_world_tree_fish":{"n":{"zh-Hant":"世界之樹尤克特拉希爾魚","zh-Hans":"世界之树尤克特拉希尔鱼","en-US":"Yggdrasil World-Tree Fish"},"r":"Legendary"},"midgard_serpent_jormungandr":{"n":{"zh-Hant":"塵世巨蟒耶夢加得鰻","zh-Hans":"尘世巨蟒耶梦加得鳗","en-US":"Jormungandr Midgard World Serpent"},"r":"Legendary"},"anubis_underworld_guppy":{"n":{"zh-Hant":"阿努比斯冥府審判魚","zh-Hans":"阿努比斯冥府审判鱼","en-US":"Anubis Underworld Judgement Guppy"},"r":"Legendary"},"valkyrie_winged_angelfish":{"n":{"zh-Hant":"女武神英靈羽翼神仙魚","zh-Hans":"女武神英灵羽翼神仙鱼","en-US":"Valkyrie Spirit-Wing Angelfish"},"r":"Legendary"},"tarot_the_star_guppy":{"n":{"zh-Hant":"塔羅・星星希望女神魚","zh-Hans":"塔罗・星星希望女神鱼","en-US":"Tarot Star Goddess Guppy"},"r":"Legendary"},"tarot_the_moon_nautilus":{"n":{"zh-Hant":"塔羅・月亮深潛幻象鸚鵡螺","zh-Hans":"塔罗・月亮深潜幻象鹦鹉螺","en-US":"Tarot Moon Phantom Nautilus"},"r":"Legendary"},"tarot_the_sun_lionfish":{"n":{"zh-Hant":"塔羅・太陽光華榮耀獅子魚","zh-Hans":"塔罗・太阳光华荣耀狮子鱼","en-US":"Tarot Sun Glory Lionfish"},"r":"Legendary"},"singularity_blackhole_fish":{"n":{"zh-Hant":"超弦奇異點黑洞神魚","zh-Hans":"超弦奇异点黑洞神鱼","en-US":"Superstring Singularity Blackhole"},"r":"Legendary"},"supernova_pulsar_ray":{"n":{"zh-Hant":"超新星脈衝中子魟魚","zh-Hans":"超新星脉冲中子𫚉鱼","en-US":"Supernova Pulsar Ray"},"r":"Legendary"},"andromeda_galaxy_whale":{"n":{"zh-Hant":"仙女座雙螺旋銀河巨鯨","zh-Hans":"仙女座双螺旋银河巨鲸","en-US":"Andromeda Double-Spiral Galaxy Whale"},"r":"Legendary"},"mid_autumn_mooncake_koi":{"n":{"zh-Hant":"中秋流心金沙月餅鯉","zh-Hans":"中秋流心金沙月饼鲤","en-US":"Mid-Autumn Molten-Gold Mooncake Koi"},"r":"Epic"},"winter_snowglobe_clownfish":{"n":{"zh-Hant":"冬雪水晶球聖誕小丑魚","zh-Hans":"冬雪水晶球圣诞小丑鱼","en-US":"Winter Snowglobe Christmas Clownfish"},"r":"Epic"},"dia_de_muertos_marigold_fish":{"n":{"zh-Hant":"亡靈節萬壽菊糖骷髏魚","zh-Hans":"亡灵节万寿菊糖骷髅鱼","en-US":"Day of the Dead Marigold Sugar-Skull Fish"},"r":"Legendary"},"aurora_midsummer_dragon":{"n":{"zh-Hant":"仲夏夜之夢極光精靈龍","zh-Hans":"仲夏夜之梦极光精灵龙","en-US":"Midsummer Night's Dream Aurora Spirit Dragon"},"r":"Legendary"},"sea_sheep_slug":{"n":{"zh-Hant":"綠葉海羊海蛞蝓","zh-Hans":"绿叶海羊海蛞蝓","en-US":"Leaf Sheep"},"r":"Epic"},"fluffy_sea_bunny":{"n":{"zh-Hant":"雪白碎毛海兔","zh-Hans":"雪白碎毛海兔","en-US":"Sea Bunny"},"r":"Epic"},"blue_dragon_glaucus":{"n":{"zh-Hant":"大西洋海神海蛞蝓","zh-Hans":"大西洋海神海蛞蝓","en-US":"Blue Dragon"},"r":"Epic"},"spanish_dancer_slug":{"n":{"zh-Hant":"西班牙舞娘海蛞蝓","zh-Hans":"西班牙舞娘海蛞蝓","en-US":"Spanish Dancer"},"r":"Epic"},"pacific_golden_nudibranch":{"n":{"zh-Hant":"太平洋雙角金黃海蛞蝓","zh-Hans":"太平洋双角金黄海蛞蝓","en-US":"Pikachu Nudibranch"},"r":"Rare"},"pygmy_squid":{"n":{"zh-Hant":"迷你侏儒小烏賊","zh-Hans":"迷你侏儒小乌贼","en-US":"Two-Tone Pygmy Squid"},"r":"Rare"},"achilles_tang":{"n":{"zh-Hant":"阿基里斯紅心倒吊","zh-Hans":"阿基里斯红心倒吊","en-US":"Achilles Tang"},"r":"Rare"},"harlequin_shrimp":{"n":{"zh-Hant":"夏威夷貴賓丑蝦","zh-Hans":"夏威夷贵宾丑虾","en-US":"Harlequin Shrimp"},"r":"Rare"},"copperband_butterfly":{"n":{"zh-Hant":"三間火箭蝶魚","zh-Hans":"三间火箭蝶鱼","en-US":"Copperband Butterflyfish"},"r":"Rare"},"harlequin_ghost_pipefish":{"n":{"zh-Hant":"哈雷鬼海龍","zh-Hans":"哈雷鬼海龙","en-US":"Harlequin Ghost Pipefish"},"r":"Epic"},"bicolor_blenny":{"n":{"zh-Hant":"雙色蝦虎鳚魚","zh-Hans":"双色虾虎鳚鱼","en-US":"Bicolor Blenny"},"r":"Rare"},"banggae_cardinal":{"n":{"zh-Hant":"泗水玫瑰天竺鯛","zh-Hans":"泗水玫瑰天竺鲷","en-US":"Banggai Cardinalfish"},"r":"Rare"},"spotted_wobbegong":{"n":{"zh-Hant":"大堡礁斑點鬚鯊","zh-Hans":"大堡礁斑点须鲨","en-US":"Spotted Wobbegong"},"r":"Epic"},"humpback_calf":{"n":{"zh-Hant":"座頭鯨幼崽","zh-Hans":"座头鲸幼崽","en-US":"Humpback Whale Calf"},"r":"Legendary"},"orca_calf":{"n":{"zh-Hant":"虎鯨幼崽","zh-Hans":"虎鲸幼崽","en-US":"Orca Calf"},"r":"Legendary"},"whale_shark_pup":{"n":{"zh-Hant":"豆腐鯊小鯨鯊幼崽","zh-Hans":"豆腐鲨小鲸鲨幼崽","en-US":"Whale Shark Pup"},"r":"Legendary"},"dugong_calf":{"n":{"zh-Hant":"美人魚儒艮幼崽","zh-Hans":"美人鱼儒艮幼崽","en-US":"Dugong Calf"},"r":"Epic"},"manta_calf":{"n":{"zh-Hant":"鬼蝠魟幼崽","zh-Hans":"鬼蝠𫚉幼崽","en-US":"Manta Ray Calf"},"r":"Epic"},"sunfish_mola":{"n":{"zh-Hant":"圓滾滾翻車魚幼魚","zh-Hans":"圆滚滚翻车鱼幼鱼","en-US":"Ocean Sunfish Pup"},"r":"Epic"},"beluga_calf":{"n":{"zh-Hant":"微笑天使小白鯨幼崽","zh-Hans":"微笑天使小白鲸幼崽","en-US":"Beluga Whale Calf"},"r":"Legendary"},"kohaku_koi":{"n":{"zh-Hant":"日本紅白錦鯉","zh-Hans":"日本红白锦鲤","en-US":"Kohaku"},"r":"Rare"},"taisho_sanke_koi":{"n":{"zh-Hant":"日本大正三色錦鯉","zh-Hans":"日本大正三色锦鲤","en-US":"Taisho Sanke"},"r":"Epic"},"tosakin_goldfish":{"n":{"zh-Hant":"日本土佐金魚","zh-Hans":"日本土佐金鱼","en-US":"Tosakin Goldfish"},"r":"Epic"},"jikin_goldfish":{"n":{"zh-Hant":"日本地金魚 (六鱗)","zh-Hans":"日本地金鱼 (六鳞)","en-US":"Jikin Goldfish"},"r":"Epic"},"wakin_goldfish":{"n":{"zh-Hant":"江戶和金","zh-Hans":"江户和金","en-US":"Wakin Goldfish"},"r":"Common"},"azuma_nishiki":{"n":{"zh-Hant":"東錦五花金魚","zh-Hans":"东锦五花金鱼","en-US":"Azuma Nishiki Goldfish"},"r":"Rare"},"chousho_goldfish":{"n":{"zh-Hant":"頂心紅十二紅頂金魚","zh-Hans":"顶心红十二红顶金鱼","en-US":"Chousho Goldfish"},"r":"Epic"},"dragon_eye_goldfish":{"n":{"zh-Hant":"水墨黑龍睛金魚","zh-Hans":"水墨黑龙睛金鱼","en-US":"Dragon Eye Goldfish"},"r":"Rare"},"sumi_e_carp":{"n":{"zh-Hant":"潑墨山水神鯉","zh-Hans":"泼墨山水神鲤","en-US":"Sumi-e Landscape Spirit Carp"},"r":"Legendary"},"taiwan_bitterling":{"n":{"zh-Hant":"台灣玫瑰牛屎鯽","zh-Hans":"台湾玫瑰牛屎鲫","en-US":"Rosy Bitterling"},"r":"Rare"},"taiwan_spade_goby":{"n":{"zh-Hant":"台灣紅斑吻鰕虎","zh-Hans":"台湾红斑吻鰕虎","en-US":"Formosa Brook Goby"},"r":"Rare"},"dwarf_snakehead_assam":{"n":{"zh-Hant":"阿薩姆藍月雷龍","zh-Hans":"阿萨姆蓝月雷龙","en-US":"Assam Snakehead"},"r":"Epic"},"fire_eel_asia":{"n":{"zh-Hant":"亞洲烈焰火刺鰍","zh-Hans":"亚洲烈焰火刺鳅","en-US":"Fire Eel"},"r":"Epic"},"pearl_gourami":{"n":{"zh-Hant":"珍珠絲足鱸","zh-Hans":"珍珠丝足鲈","en-US":"Pearl Gourami"},"r":"Rare"},"sparkling_pygmy_gourami":{"n":{"zh-Hant":"璀璨藍眼精靈鱸","zh-Hans":"璀璨蓝眼精灵鲈","en-US":"Sparkling Gourami"},"r":"Common"},"asian_bumblebee_catfish":{"n":{"zh-Hant":"亞洲大黃蜂短鯰","zh-Hans":"亚洲大黄蜂短鲇","en-US":"Asian Bumblebee Catfish"},"r":"Rare"},"celestial_pearl_danio":{"n":{"zh-Hant":"緬甸星空火翅金斑","zh-Hans":"缅甸星空火翅金斑","en-US":"Celestial Pearl Danio"},"r":"Rare"},"harlequin_rasbora":{"n":{"zh-Hant":"巽他黑三角小波魚","zh-Hans":"巽他黑三角小波鱼","en-US":"Harlequin Rasbora"},"r":"Common"},"kuhli_loach":{"n":{"zh-Hant":"蘇門答臘黑金苦力鰍","zh-Hans":"苏门答腊黑金苦力鳅","en-US":"Kuhli Loach"},"r":"Common"},"crossback_golden_arowana":{"n":{"zh-Hant":"馬來西亞極品過背金龍","zh-Hans":"马来西亚极品过背金龙","en-US":"Golden Arowana"},"r":"Legendary"},"royal_pleco":{"n":{"zh-Hant":"皇冠豹異型","zh-Hans":"皇冠豹异型","en-US":"Royal Pleco"},"r":"Rare"},"gold_nugget_pleco":{"n":{"zh-Hant":"黃金達摩異型","zh-Hans":"黄金达摩异型","en-US":"Gold Nugget Pleco"},"r":"Epic"},"zebra_pleco":{"n":{"zh-Hant":"辛古帝王斑馬異型","zh-Hans":"辛古帝王斑马异型","en-US":"Zebra Pleco"},"r":"Epic"},"arapaima_gigas":{"n":{"zh-Hant":"亞馬遜巨骨舌魚","zh-Hans":"亚马逊巨骨舌鱼","en-US":"Arapaima"},"r":"Legendary"},"electric_eel":{"n":{"zh-Hant":"亞馬遜高壓電鰻","zh-Hans":"亚马逊高压电鳗","en-US":"Electric Eel"},"r":"Epic"},"amazon_leaf_fish":{"n":{"zh-Hant":"亞馬遜偽裝枯葉魚","zh-Hans":"亚马逊伪装枯叶鱼","en-US":"Leaf Fish"},"r":"Rare"},"red_bellied_piranha":{"n":{"zh-Hant":"亞馬遜紅腹食人魚","zh-Hans":"亚马逊红腹食人鱼","en-US":"Red-bellied Piranha"},"r":"Rare"},"black_ghost_knifefish":{"n":{"zh-Hant":"幽靈黑魔鬼翎電鰻","zh-Hans":"幽灵黑魔鬼翎电鳗","en-US":"Black Ghost Knifefish"},"r":"Epic"},"redtail_catfish":{"n":{"zh-Hant":"亞馬遜紅尾鴨嘴鯰","zh-Hans":"亚马逊红尾鸭嘴鲇","en-US":"Redtail Duckbill Catfish"},"r":"Epic"},"silver_arowana":{"n":{"zh-Hant":"亞馬遜銀帶飛龍魚","zh-Hans":"亚马逊银带飞龙鱼","en-US":"Silver Arowana"},"r":"Rare"},"altum_angelfish":{"n":{"zh-Hant":"奧利諾科高身埃及神仙","zh-Hans":"奥利诺科高身埃及神仙","en-US":"Altum Angelfish"},"r":"Epic"},"german_blue_ram":{"n":{"zh-Hant":"奧利諾科七彩荷蘭鳳凰短鯛","zh-Hans":"奥利诺科七彩荷兰凤凰短鲷","en-US":"German Blue Ram"},"r":"Rare"},"cardinal_tetra":{"n":{"zh-Hant":"奧利諾科頂級紅蓮燈","zh-Hans":"奥利诺科顶级红莲灯","en-US":"Cardinal Tetra"},"r":"Common"},"sterbai_corydoras":{"n":{"zh-Hant":"斯威卡珍珠鼠魚","zh-Hans":"斯威卡珍珠鼠鱼","en-US":"Sterbai Corydoras"},"r":"Common"},"african_butterfly_fish":{"n":{"zh-Hant":"剛果非洲飛蝶魚","zh-Hans":"刚果非洲飞蝶鱼","en-US":"African Butterflyfish"},"r":"Rare"},"frontosa_cichlid":{"n":{"zh-Hant":"坦干依喀薩伊藍六間慈鯛","zh-Hans":"坦干依喀萨伊蓝六间慈鲷","en-US":"Frontosa Cichlid"},"r":"Epic"},"lemon_cichlid":{"n":{"zh-Hant":"坦干依喀黃金檸檬雀慈鯛","zh-Hans":"坦干依喀黄金柠檬雀慈鲷","en-US":"Lemon Cichlid"},"r":"Rare"},"fairy_cichlid":{"n":{"zh-Hant":"坦湖布隆迪公主天堂鳥","zh-Hans":"坦湖布隆迪公主天堂鸟","en-US":"Fairy Cichlid"},"r":"Rare"},"bichir_endlicheri":{"n":{"zh-Hant":"非洲虎斑恐龍王古魚","zh-Hans":"非洲虎斑恐龙王古鱼","en-US":"Endlicher's Bichir"},"r":"Epic"},"flameback_cichlid":{"n":{"zh-Hant":"維多利亞湖赤焰火烈鳥慈鯛","zh-Hans":"维多利亚湖赤焰火烈鸟慈鲷","en-US":"Flameback Cichlid"},"r":"Rare"},"black_seadevil":{"n":{"zh-Hant":"深海黑角鮟鱇","zh-Hans":"深海黑角𩽾𩾌","en-US":"Black Seadevil"},"r":"Epic"},"vampire_squid":{"n":{"zh-Hant":"深海幽靈吸血鬼烏賊","zh-Hans":"深海幽灵吸血鬼乌贼","en-US":"Vampire Squid"},"r":"Epic"},"giant_isopod":{"n":{"zh-Hant":"深淵大王具足蟲","zh-Hans":"深渊大王具足虫","en-US":"Giant Isopod"},"r":"Rare"},"colossal_squid":{"n":{"zh-Hant":"南極深淵大王酸漿魷","zh-Hans":"南极深渊大王酸浆鱿","en-US":"Colossal Squid"},"r":"Legendary"},"gulper_eel":{"n":{"zh-Hant":"深海大嘴吞噬鰻","zh-Hans":"深海大嘴吞噬鳗","en-US":"Gulper Eel"},"r":"Epic"},"stygian_jellyfish":{"n":{"zh-Hant":"冥河黑袍巨水母","zh-Hans":"冥河黑袍巨水母","en-US":"Stygian Jellyfish"},"r":"Legendary"},"barreleye_fish":{"n":{"zh-Hant":"太平洋翡翠桶眼魚","zh-Hans":"太平洋翡翠桶眼鱼","en-US":"Barreleye Fish"},"r":"Epic"},"riftia_tubeworm":{"n":{"zh-Hant":"熱液黑煙囪巨型管蟲","zh-Hans":"热液黑烟囱巨型管虫","en-US":"Giant Tube Worm"},"r":"Rare"},"yeti_crab":{"n":{"zh-Hant":"深海金絲雪人蟹","zh-Hans":"深海金丝雪人蟹","en-US":"Yeti Crab"},"r":"Rare"},"scaly_foot_snail":{"n":{"zh-Hant":"火山黃鐵礦鐵甲螺","zh-Hans":"火山黄铁矿铁甲螺","en-US":"Scaly-Foot Snail"},"r":"Epic"},"rimicaris_shrimp":{"n":{"zh-Hant":"黑煙囪熱感盲蝦","zh-Hans":"黑烟囱热感盲虾","en-US":"Rimicaris Shrimp"},"r":"Rare"},"pompeii_worm":{"n":{"zh-Hant":"熾熱龐貝烈焰蠕蟲","zh-Hans":"炽热庞贝烈焰蠕虫","en-US":"Pompeii Worm"},"r":"Epic"},"lava_vent_anemone":{"n":{"zh-Hant":"熔岩玄武岩鬼海葵","zh-Hans":"熔岩玄武岩鬼海葵","en-US":"Lava Vent Ghost Anemone"},"r":"Epic"},"dunkleosteus":{"n":{"zh-Hant":"泥盆紀霸主鄧氏魚","zh-Hans":"泥盆纪霸主邓氏鱼","en-US":"Dunkleosteus"},"r":"Legendary"},"mosasaurus":{"n":{"zh-Hant":"白堊紀海皇滄龍","zh-Hans":"白垩纪海皇沧龙","en-US":"Mosasaurus"},"r":"Legendary"},"anomalocaris":{"n":{"zh-Hant":"寒武紀霸王奇蝦","zh-Hans":"寒武纪霸王奇虾","en-US":"Anomalocaris"},"r":"Legendary"},"opal_ammonite":{"n":{"zh-Hant":"黃金彩虹幾何菊石","zh-Hans":"黄金彩虹几何菊石","en-US":"Golden Rainbow Geometric Ammonite"},"r":"Epic"},"liopleurodon":{"n":{"zh-Hant":"侏儸紀巡獵滑齒龍","zh-Hans":"侏㑩纪巡猎滑齿龙","en-US":"Liopleurodon"},"r":"Legendary"},"cameroceras":{"n":{"zh-Hant":"奧陶紀直殼房角石","zh-Hans":"奥陶纪直壳房角石","en-US":"Cameroceras"},"r":"Legendary"},"megalodon":{"n":{"zh-Hant":"新生代滅世巨齒鯊","zh-Hans":"新生代灭世巨齿鲨","en-US":"Megalodon"},"r":"Legendary"},"koi_014":{"n":{"zh-Hant":"烏鯉","zh-Hans":"乌鲤","en-US":"Karasugoi"},"r":"Legendary"},"VOL02_051":{"n":{"zh-Hant":"寶蓮燈","zh-Hans":"宝莲灯","en-US":"Lotus Neon"},"r":"Common"},"VOL02_060":{"n":{"zh-Hant":"白金帝王燈","zh-Hans":"白金帝王灯","en-US":"Platinum Ember Tetra"},"r":"Epic"}};
+    const RECIPES = [["celestial_dragon","baby_seaturtle",["basilisk_xuanwu"]],["celestial_dragon","crystal_phoenix",["azure_dragon_loong"]],["celestial_dragon","ink_wash_angelfish",["sumi_e_carp"]],["cyber_neon_tetra","porcelain_angel",["chrono_fish"]],["kun_cosmic_whale","nebula_manta_ray",["andromeda_galaxy_whale"]],["sea_angel","aurora_eel",["crystal_phoenix"]],["sea_angel","cosmic_whale",["beluga_calf"]],["sea_angel","jellyfish_lumi",["cosmic_whale","giant_oarfish"]],["super_red_arowana","porcelain_angel",["platinum_arowana"]],["super_red_arowana","golden_koi",["sun_crow_fish"]],["super_red_arowana","abyssal_leviathan",["arapaima_gigas"]],["clown_triggerfish","ghost_glasscat",["orca_calf"]],["sun_crow_fish","crown_tail_betta",["vermilion_bird_betta"]],["sun_crow_fish","red_lionfish",["tarot_the_sun_lionfish"]],["stardust_seahorse","moon_rabbit_slug",["tarot_the_star_guppy"]],["ryukin_goldfish","bubble_eye_goldfish",["porcelain_angel","golden_koi"]],["cosmic_whale","celestial_dragon",["kun_cosmic_whale"]],["cosmic_whale","dumbo_octopus",["nebula_manta_ray"]],["cosmic_whale","baby_seaturtle",["humpback_calf"]],["astral_dream_jelly","abyssal_leviathan",["stygian_jellyfish"]],["chrono_fish","kun_cosmic_whale",["singularity_blackhole_fish"]],["moon_rabbit_slug","ghost_glasscat",["tarot_the_moon_nautilus"]],["nebula_manta_ray","cyber_neon_tetra",["supernova_pulsar_ray"]],["aurora_eel","abyssal_leviathan",["midgard_serpent_jormungandr"]],["sakura_koi","ryukin_goldfish",["tancho_koi","golden_koi"]],["sakura_night_koi","stardust_seahorse",["aurora_midsummer_dragon"]],["platinum_betta","crystal_phoenix",["valkyrie_winged_angelfish"]],["giant_oarfish","anglerfish",["abyssal_leviathan"]],["giant_oarfish","dumbo_octopus",["cameroceras"]],["abyssal_leviathan","bichir_endlicheri",["dunkleosteus"]],["abyssal_leviathan","celestial_dragon",["mosasaurus"]],["abyssal_leviathan","baby_seaturtle",["liopleurodon"]],["abyssal_leviathan","super_red_arowana",["megalodon"]],["leafy_seadragon","astral_dream_jelly",["yggdrasil_world_tree_fish"]],["bluering_octopus","abyssal_leviathan",["colossal_squid"]],["bluering_octopus","strawberry_axolotl",["anomalocaris"]],["jellyfish_lumi","cosmic_whale",["astral_dream_jelly"]],["jellyfish_lumi","anglerfish",["cyber_neon_tetra","golden_koi"]],["cozy_seahorse","leafy_seadragon",["stardust_seahorse","crystal_phoenix"]],["red_lionfish","flame_angelfish",["bluering_octopus","super_red_arowana"]],["strawberry_axolotl","sakura_koi",["celestial_dragon"]],["sumatran_tiger_barb","platinum_arowana",["white_tiger_barb"]],["baby_seaturtle","weedy_seadragon",["leafy_seadragon","cosmic_whale"]],["mandarin_fish","kun_cosmic_whale",["whale_shark_pup"]],["mandarin_fish","bluespotted_ray",["bluering_octopus","leafy_seadragon"]],["porcelain_angel","celestial_dragon",["ink_wash_angelfish"]],["porcelain_angel","sea_angel",["moon_rabbit_slug"]],["porcelain_angel","black_bubble_eye",["anubis_underworld_guppy"]],["golden_koi","yellow_boxfish",["fortune_ingot_fish"]],["golden_koi","lucky_clover_fish",["qilin_auspicious_carp"]],["golden_koi","super_red_arowana",["crossback_golden_arowana"]],["moorish_idol","abyssal_leviathan",["poseidon_trident_tuna"]],["butterfly_telescope","mandarin_fish",["dia_de_muertos_marigold_fish"]],["fire_eel_asia","aurora_eel",["pompeii_worm"]],["super_red_arowana","giant_oarfish",["bichir_endlicheri"]],["formosan_salmon","discus_fish",["super_red_arowana","sakura_koi"]],["ghost_glasscat","aurora_eel",["black_ghost_knifefish"]],["ghost_glasscat","anglerfish",["barreleye_fish"]],["guppy","caramel_guppy",["sakura_koi","puffer_souffle"]],["neon_tetra","VOL02_051",["VOL02_060"]],["tancho_koi","super_red_arowana",["showa_koi"]],["tancho_koi","caramel_guppy",["mid_autumn_mooncake_koi"]],["tancho_koi","bubble_eye_goldfish",["tosakin_goldfish"]],["kohaku_koi","golden_koi",["taisho_sanke_koi"]],["kohaku_koi","koi_014",["showa_koi"]],["anglerfish","abyssal_leviathan",["black_seadevil"]],["angelfish","porcelain_angel",["altum_angelfish"]],["moon_rabbit_slug","puffer_souffle",["fluffy_sea_bunny"]],["rainbow_snakehead","aurora_eel",["dwarf_snakehead_assam"]],["aurora_eel","super_red_arowana",["fire_eel_asia"]],["aurora_eel","cyber_neon_tetra",["electric_eel"]],["sakura_koi","aurora_eel",["sakura_night_koi"]],["bubble_eye_goldfish","ghost_glasscat",["black_bubble_eye"]],["bubble_eye_goldfish","porcelain_angel",["opal_ammonite"]],["wakin_goldfish","platinum_betta",["jikin_goldfish"]],["thai_betta","ghost_glasscat",["platinum_betta"]],["thai_betta","caramel_guppy",["rainbow_snakehead"]],["thai_betta","picasso_triggerfish",["crown_tail_betta"]],["thai_betta","flame_angelfish",["spanish_dancer_slug"]],["giant_oarfish","aurora_eel",["gulper_eel"]],["leafy_seadragon","red_lionfish",["harlequin_ghost_pipefish"]],["weedy_seadragon","ryukin_goldfish",["lucky_clover_fish"]],["weedy_seadragon","cyber_neon_tetra",["stardust_seahorse"]],["jellyfish_lumi","red_lionfish",["lava_vent_anemone"]],["blue_tang","sea_angel",["blue_dragon_glaucus"]],["blue_tang","yellow_boxfish",["bluespotted_ray","baby_seaturtle"]],["clownfish","sea_angel",["winter_snowglobe_clownfish"]],["clownfish","blue_tang",["dumbo_octopus","aurora_eel"]],["discus_fish","puffer_souffle",["sunfish_mola"]],["dumbo_octopus","black_bubble_eye",["vampire_squid"]],["cozy_seahorse","weedy_seadragon",["sea_sheep_slug"]],["puffer_souffle","baby_seaturtle",["dugong_calf"]],["puffer_souffle","super_red_arowana",["redtail_catfish"]],["bluespotted_ray","blobfish_cozy",["spotted_wobbegong"]],["bluespotted_ray","nebula_manta_ray",["manta_calf"]],["sumatran_tiger_barb","platinum_betta",["zebra_pleco"]],["porcelain_angel","tancho_koi",["chousho_goldfish"]],["malawi_blue_zebra","discus_fish",["frontosa_cichlid"]],["malawi_blue_zebra","thai_betta",["giant_oarfish","discus_fish"]],["yellow_boxfish","ghost_glasscat",["gold_nugget_pleco"]],["yellow_boxfish","black_bubble_eye",["scaly_foot_snail"]],["yellow_boxfish","picasso_triggerfish",["weedy_seadragon","royal_dottyback"]],["moorish_idol","picasso_triggerfish",["red_lionfish","mandarin_fish"]],["cyber_neon_tetra","guppy",["celestial_pearl_danio"]],["super_red_arowana","ghost_glasscat",["silver_arowana"]],["formosan_salmon","neon_tetra",["taiwan_ku_pah"]],["formosan_salmon","guppy",["taiwan_striped_dace"]],["formosan_salmon","taiwan_striped_dace",["taiwan_bitterling"]],["taiwan_ku_pah","spotted_garden_eel",["taiwan_spade_goby"]],["black_bubble_eye","ryukin_goldfish",["butterfly_telescope"]],["black_bubble_eye","ghost_glasscat",["dragon_eye_goldfish"]],["flame_angelfish","malawi_blue_zebra",["flameback_cichlid"]],["ghost_glasscat","sumatran_tiger_barb",["asian_bumblebee_catfish"]],["ghost_glasscat","royal_dottyback",["royal_pleco"]],["ghost_glasscat","cyber_neon_tetra",["rimicaris_shrimp"]],["ryukin_goldfish","strawberry_axolotl",["oranda_goldfish"]],["angelfish","sumatran_tiger_barb",["banggae_cardinal"]],["angelfish","platinum_betta",["pearl_gourami"]],["angelfish","thai_betta",["african_butterfly_fish"]],["angelfish","neon_tetra",["thai_betta","ghost_glasscat"]],["spotted_garden_eel","fire_eel_asia",["riftia_tubeworm"]],["bubble_eye_goldfish","puffer_souffle",["ranchu_goldfish"]],["platinum_betta","angelfish",["fairy_cichlid"]],["thai_betta","neon_tetra",["german_blue_ram"]],["weedy_seadragon","clownfish",["cozy_seahorse","spotted_garden_eel"]],["clownfish","yellow_boxfish",["yellow_tang","spotted_garden_eel"]],["discus_fish","rummy_nose",["amazon_leaf_fish"]],["dumbo_octopus","bluering_octopus",["pygmy_squid"]],["puffer_souffle","anglerfish",["giant_isopod"]],["strawberry_axolotl","picasso_triggerfish",["harlequin_shrimp"]],["strawberry_axolotl","ghost_glasscat",["yeti_crab"]],["sumatran_tiger_barb","red_lionfish",["red_bellied_piranha"]],["royal_dottyback","spotted_garden_eel",["bicolor_blenny"]],["yellow_tang","black_bubble_eye",["achilles_tang"]],["yellow_tang","malawi_blue_zebra",["lemon_cichlid"]],["yellow_tang","royal_dottyback",["flame_angelfish","clown_triggerfish"]],["yellow_boxfish","malawi_blue_zebra",["pacific_golden_nudibranch"]],["moorish_idol","rummy_nose",["copperband_butterfly"]],["butterfly_telescope","oranda_goldfish",["azuma_nishiki"]],["guppy","taiwan_ku_pah",["wakin_goldfish"]],["neon_tetra","caramel_guppy",["sparkling_pygmy_gourami"]],["neon_tetra","rummy_nose",["cardinal_tetra"]],["spotted_garden_eel","ghost_glasscat",["kuhli_loach"]],["rummy_nose","guppy",["sumatran_tiger_barb"]],["rummy_nose","neon_tetra",["harlequin_rasbora"]],["puffer_souffle","taiwan_ku_pah",["sterbai_corydoras"]]];
+    const RC_COLOR = {Legendary:"text-amber-400",Epic:"text-purple-400",Rare:"text-blue-400",Uncommon:"text-emerald-400",Common:"text-slate-300"};
+    function rcName(id) {
+      const f = RECIPE_FISH[id];
+      return f ? (f.n[currentLang] || f.n["zh-Hant"] || id) : id;
+    }
+    function rcCell(id) {
+      const f = RECIPE_FISH[id];
+      const cls = f ? (RC_COLOR[f.r] || "text-slate-300") : "text-slate-300";
+      return '<span class="' + cls + '">' + rcName(id) + '</span>';
+    }
+    function renderRecipes() {
+      const body = document.getElementById("rc-body");
+      if (!body) return;
+      const input = document.getElementById("rc-search");
+      const q = ((input && input.value) || "").trim().toLowerCase();
+      const or = " " + t("g306") + " ";
+      let rows = "", n = 0;
+      for (const [a, b, outs] of RECIPES) {
+        if (q) {
+          const hay = [a, b].concat(outs).map(rcName).join(" ").toLowerCase();
+          if (hay.indexOf(q) === -1) continue;
+        }
+        n++;
+        rows += '<tr class="border-t border-slate-800/80">'
+             +  '<td class="py-2 px-3">' + rcCell(a) + '</td>'
+             +  '<td class="py-2 px-3">' + rcCell(b) + '</td>'
+             +  '<td class="py-2 px-3 font-semibold">' + outs.map(rcCell).join(or) + '</td>'
+             +  '</tr>';
+      }
+      body.innerHTML = rows || '<tr><td colspan="3" class="py-6 px-3 text-center text-slate-500">' + t("g308") + '</td></tr>';
+      const c = document.getElementById("rc-count");
+      if (c) c.textContent = n;
+      document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+        el.placeholder = t(el.getAttribute("data-i18n-placeholder"));
+      });
+      if (input && !input.dataset.bound) {
+        input.dataset.bound = "1";
+        input.addEventListener("input", renderRecipes);
+      }
     }
     function setLang(lang) {
       if (!LANGS.includes(lang)) lang = "zh-Hant";
