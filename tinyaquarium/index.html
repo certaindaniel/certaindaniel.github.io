@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TinyAquarium 微型水族箱 | 掌心上的治癒水世界・步數孵化與基因繁育</title>
+    <title data-i18n="pageTitle">TinyAquarium 微型水族箱 | 掌心上的治癒水世界・步數孵化與基因繁育</title>
     <meta name="description" content="TinyAquarium（微型水族箱）是一款結合 Apple HealthKit 步數孵化、1,176 種全水域水族與神話生物、Lo-Fi 沉浸白噪音與近場 P2P 交換的極致療癒放置手遊。">
     <meta name="keywords" content="TinyAquarium, 水族箱手遊, 步數孵化, HealthKit, 放置遊戲, 錦鯉, 治癒遊戲, 基因繁育, Lo-Fi 白噪音, Apple Watch 水族館">
     <link rel="icon" type="image/png" href="assets/icon.png">
@@ -99,7 +99,14 @@
             animation: pulse-ring 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
         }
     </style>
-</head>
+<!-- 語系走 ?lang= 而不是各自的路徑，所以要明確告訴搜尋引擎
+     哪個是正規網址、三語各自在哪。 -->
+    <link rel="canonical" href="https://certaindaniel.github.io/tinyaquarium/">
+    <link rel="alternate" hreflang="en" href="https://certaindaniel.github.io/tinyaquarium/?lang=en">
+    <link rel="alternate" hreflang="zh-Hant" href="https://certaindaniel.github.io/tinyaquarium/?lang=zh-hant">
+    <link rel="alternate" hreflang="zh-Hans" href="https://certaindaniel.github.io/tinyaquarium/?lang=zh-hans">
+    <link rel="alternate" hreflang="x-default" href="https://certaindaniel.github.io/tinyaquarium/">
+    </head>
 <body class="bg-deepOcean text-slate-100 font-sans antialiased selection:bg-cyanGlow selection:text-deepOcean overflow-x-hidden min-h-screen">
 
     <!-- Ambient Background Lighting -->
@@ -727,7 +734,7 @@
         })();
 
         const I18N = {
-            'zh-Hant': { nav_faq: '常見問題', faq_h: '常見問題', faq_sub: '步數同步、存檔、繁育與近場交換的疑問，這裡先回答', faq_more: '還想知道更多玩法細節？', faq_cta: '前往玩法攻略手冊', faq_q0: '需要一直開啟 App 才能記錄步數嗎？', faq_a0: '完全不需要！TinyAquarium 透過 Apple HealthKit 與 CoreMotion 系統後台自動讀取步數，日常通勤走路即可持續累積孵化進度。', faq_q1: '近場神魚交易（P2P Trade）需要網路嗎？', faq_a1: '不需要外部網際網路！只要兩台裝置在數公尺內，打開藍牙與 Wi-Fi，即可透過 Apple Multipeer 點對點加密直連交換。', faq_q2: '基因繁育會消耗掉親代魚嗎？', faq_a2: '不會！繁育完成後親代魚依然會在水族箱中自由游動，僅消耗一次繁育次數與愛心能量。', faq_q3: '支援跨裝置存檔同步嗎？', faq_a3: '支援！透過 Apple iCloud 雲端鍵值儲存（KVS），在 iPhone 上的進度會自動無縫備份與同步至其他 iOS 裝置。', faq_q4: '支援哪些裝置？', faq_a4: '支援運行 iOS 17.0+ 的 iPhone 與 iPad。', nav_privacy: '隱私權政策', nav_home: '首頁', nav_guide: '玩法攻略', nav_vault: '萬魚圖鑑', nav_download: '下載', vault_badge: '萬魚圖鑑展廳', vault_teaser_h: '探索 1,176 種水族與神話生物', vault_teaser_p: '172 種核心旗艦手繪名門，加上東亞江戶、亞馬遜熱帶、非洲大湖、大堡礁、萬米深淵、史前海怪、山海經神話、塔羅星宿至甜點節慶共 10 大主題卷冊。可依卷冊與稀有度篩選、搜尋，點開看每一種的生態解說。', vault_teaser_cta: '進入萬魚圖鑑展廳',
+            'zh-Hant': { pageTitle: 'TinyAquarium 微型水族箱 | 掌心上的治癒水世界・步數孵化與基因繁育', nav_faq: '常見問題', faq_h: '常見問題', faq_sub: '步數同步、存檔、繁育與近場交換的疑問，這裡先回答', faq_more: '還想知道更多玩法細節？', faq_cta: '前往玩法攻略手冊', faq_q0: '需要一直開啟 App 才能記錄步數嗎？', faq_a0: '完全不需要！TinyAquarium 透過 Apple HealthKit 與 CoreMotion 系統後台自動讀取步數，日常通勤走路即可持續累積孵化進度。', faq_q1: '近場神魚交易（P2P Trade）需要網路嗎？', faq_a1: '不需要外部網際網路！只要兩台裝置在數公尺內，打開藍牙與 Wi-Fi，即可透過 Apple Multipeer 點對點加密直連交換。', faq_q2: '基因繁育會消耗掉親代魚嗎？', faq_a2: '不會！繁育完成後親代魚依然會在水族箱中自由游動，僅消耗一次繁育次數與愛心能量。', faq_q3: '支援跨裝置存檔同步嗎？', faq_a3: '支援！透過 Apple iCloud 雲端鍵值儲存（KVS），在 iPhone 上的進度會自動無縫備份與同步至其他 iOS 裝置。', faq_q4: '支援哪些裝置？', faq_a4: '支援運行 iOS 17.0+ 的 iPhone 與 iPad。', nav_privacy: '隱私權政策', nav_home: '首頁', nav_guide: '玩法攻略', nav_vault: '萬魚圖鑑', nav_download: '下載', vault_badge: '萬魚圖鑑展廳', vault_teaser_h: '探索 1,176 種水族與神話生物', vault_teaser_p: '172 種核心旗艦手繪名門，加上東亞江戶、亞馬遜熱帶、非洲大湖、大堡礁、萬米深淵、史前海怪、山海經神話、塔羅星宿至甜點節慶共 10 大主題卷冊。可依卷冊與稀有度篩選、搜尋，點開看每一種的生態解說。', vault_teaser_cta: '進入萬魚圖鑑展廳',
                 back: '← 回到作品集', sound: '水聲白噪音', coming: '即將推出',
                 hero_badge: 'Apple HealthKit 步數連動・1,176 種全水域生物庫',
                 hero_title: '把每一步步伐，<br>化作掌心的', hero_title_hl: '治癒深海世界',
@@ -810,7 +817,7 @@
                 vol_v05: '🕯️ 萬米深海幽冥 (101)', vol_v06: '🦖 史前遠古海怪 (101)', vol_v07: '🐉 山海經神鯤 (100)',
                 vol_v08: '🏛️ 西方奧林帕斯 (100)', vol_v09: '🌌 星系塔羅星座 (100)', vol_v10: '🍰 甜蜜節慶萌物 (100)',
             },
-            'zh-Hans': { nav_faq: '常见问题', faq_h: '常见问题', faq_sub: '步数同步、存档、繁育与近场交换的疑问，这里先回答', faq_more: '还想知道更多玩法细节？', faq_cta: '前往玩法攻略手册', faq_q0: '需要一直开启 App 才能记录步数吗？', faq_a0: '完全不需要！TinyAquarium 通过 Apple HealthKit 与 CoreMotion 系统后台自动读取步数，日常通勤走路即可持续累积孵化进度。', faq_q1: '近场神鱼交易（P2P Trade）需要网络吗？', faq_a1: '不需要外部互联网！只要两台设备在数米内，打开蓝牙与 Wi-Fi，即可通过 Apple Multipeer 点对点加密直连交换。', faq_q2: '基因繁育会消耗掉亲代鱼吗？', faq_a2: '不会！繁育完成后亲代鱼依然会在水族箱中自由游动，仅消耗一次繁育次数与爱心能量。', faq_q3: '支持跨设备存档同步吗？', faq_a3: '支持！通过 Apple iCloud 云端键值存储（KVS），在 iPhone 上的进度会自动无缝备份与同步至其他 iOS 设备。', faq_q4: '支持哪些设备？', faq_a4: '支持运行 iOS 17.0+ 的 iPhone 与 iPad。', nav_privacy: '隐私权政策', nav_home: '首页', nav_guide: '玩法攻略', nav_vault: '万鱼图鉴', nav_download: '下载', vault_badge: '万鱼图鉴展厅', vault_teaser_h: '探索 1,176 种水族与神话生物', vault_teaser_p: '172 种核心旗舰手绘名门，加上东亚江户、亚马逊热带、非洲大湖、大堡礁、万米深渊、史前海怪、山海经神话、塔罗星宿至甜点节庆共 10 大主题卷册。可依卷册与稀有度筛选、搜索，点开看每一种的生态解说。', vault_teaser_cta: '进入万鱼图鉴展厅',
+            'zh-Hans': { pageTitle: 'TinyAquarium 微型鱼缸 | 掌心上的治愈水世界・步数孵化与基因繁育', nav_faq: '常见问题', faq_h: '常见问题', faq_sub: '步数同步、存档、繁育与近场交换的疑问，这里先回答', faq_more: '还想知道更多玩法细节？', faq_cta: '前往玩法攻略手册', faq_q0: '需要一直开启 App 才能记录步数吗？', faq_a0: '完全不需要！TinyAquarium 通过 Apple HealthKit 与 CoreMotion 系统后台自动读取步数，日常通勤走路即可持续累积孵化进度。', faq_q1: '近场神鱼交易（P2P Trade）需要网络吗？', faq_a1: '不需要外部互联网！只要两台设备在数米内，打开蓝牙与 Wi-Fi，即可通过 Apple Multipeer 点对点加密直连交换。', faq_q2: '基因繁育会消耗掉亲代鱼吗？', faq_a2: '不会！繁育完成后亲代鱼依然会在水族箱中自由游动，仅消耗一次繁育次数与爱心能量。', faq_q3: '支持跨设备存档同步吗？', faq_a3: '支持！通过 Apple iCloud 云端键值存储（KVS），在 iPhone 上的进度会自动无缝备份与同步至其他 iOS 设备。', faq_q4: '支持哪些设备？', faq_a4: '支持运行 iOS 17.0+ 的 iPhone 与 iPad。', nav_privacy: '隐私权政策', nav_home: '首页', nav_guide: '玩法攻略', nav_vault: '万鱼图鉴', nav_download: '下载', vault_badge: '万鱼图鉴展厅', vault_teaser_h: '探索 1,176 种水族与神话生物', vault_teaser_p: '172 种核心旗舰手绘名门，加上东亚江户、亚马逊热带、非洲大湖、大堡礁、万米深渊、史前海怪、山海经神话、塔罗星宿至甜点节庆共 10 大主题卷册。可依卷册与稀有度筛选、搜索，点开看每一种的生态解说。', vault_teaser_cta: '进入万鱼图鉴展厅',
                 back: '← 回到作品集', sound: '水声白噪音', coming: '即将推出',
                 hero_badge: 'Apple HealthKit 步数联动・1,176 种全水域生物库',
                 hero_title: '把每一步步伐，<br>化作掌心的', hero_title_hl: '治愈深海世界',
@@ -888,7 +895,7 @@
                 vault_no_result: '查无相符鱼种素材，请尝试搜索「锦鲤」、「鲨」、「小丑」、「龙」或其他关键字。',
                 vault_load_more_left: '➕ 载入更多结果 (剩余 {n} 种)',
             },
-            'en-US': { nav_faq: 'FAQ', faq_h: 'FAQ', faq_sub: 'Steps, saves, breeding and nearby trade — answered here first', faq_more: 'Want more detail on how it all works?', faq_cta: 'Open the player guide', faq_q0: 'Do I need to keep the app open to track steps?', faq_a0: 'No — TinyAquarium reads your steps in the background via Apple HealthKit and CoreMotion. Walk normally and your eggs will continue to hatch.', faq_q1: 'How does Nearby Trade work?', faq_a1: 'It uses Apple Multipeer Connectivity over local Bluetooth and Wi-Fi. No accounts, no servers, and 100% private.', faq_q2: 'Does crossbreeding consume my adult fish?', faq_a2: 'No — adult parent fish stay in your tank and continue swimming happily after breeding.', faq_q3: 'Is my data stored on the cloud?', faq_a3: 'Your progress syncs seamlessly across your iOS devices using Apple iCloud Key-Value Store.', faq_q4: 'Which devices are supported?', faq_a4: 'Supports iPhone and iPad running iOS 17.0 or later.', nav_privacy: 'Privacy Policy', nav_home: 'Home', nav_guide: 'Guide', nav_vault: 'Fish Vault', nav_download: 'Download', vault_badge: 'Fish Vault', vault_teaser_h: 'Explore 1,176 aquatic and mythical species', vault_teaser_p: '172 hand-drawn flagship species plus ten themed volumes — Edo East Asia, the Amazon, the African rift lakes, the Great Barrier Reef, the abyss, prehistoric monsters, Shan Hai Jing myth, tarot constellations and holiday desserts. Filter by volume and rarity, search by name, and open any species for its ecology notes.', vault_teaser_cta: 'Open the Fish Vault',
+            'en-US': { pageTitle: 'TinyAquarium | A calming pocket aquarium — hatch by walking, breed rare fish', nav_faq: 'FAQ', faq_h: 'FAQ', faq_sub: 'Steps, saves, breeding and nearby trade — answered here first', faq_more: 'Want more detail on how it all works?', faq_cta: 'Open the player guide', faq_q0: 'Do I need to keep the app open to track steps?', faq_a0: 'No — TinyAquarium reads your steps in the background via Apple HealthKit and CoreMotion. Walk normally and your eggs will continue to hatch.', faq_q1: 'How does Nearby Trade work?', faq_a1: 'It uses Apple Multipeer Connectivity over local Bluetooth and Wi-Fi. No accounts, no servers, and 100% private.', faq_q2: 'Does crossbreeding consume my adult fish?', faq_a2: 'No — adult parent fish stay in your tank and continue swimming happily after breeding.', faq_q3: 'Is my data stored on the cloud?', faq_a3: 'Your progress syncs seamlessly across your iOS devices using Apple iCloud Key-Value Store.', faq_q4: 'Which devices are supported?', faq_a4: 'Supports iPhone and iPad running iOS 17.0 or later.', nav_privacy: 'Privacy Policy', nav_home: 'Home', nav_guide: 'Guide', nav_vault: 'Fish Vault', nav_download: 'Download', vault_badge: 'Fish Vault', vault_teaser_h: 'Explore 1,176 aquatic and mythical species', vault_teaser_p: '172 hand-drawn flagship species plus ten themed volumes — Edo East Asia, the Amazon, the African rift lakes, the Great Barrier Reef, the abyss, prehistoric monsters, Shan Hai Jing myth, tarot constellations and holiday desserts. Filter by volume and rarity, search by name, and open any species for its ecology notes.', vault_teaser_cta: 'Open the Fish Vault',
                 back: '← Back to portfolio', sound: 'Water ambience', coming: 'Coming soon',
                 hero_badge: 'Apple HealthKit Steps・1,176 Species Library',
                 hero_title: 'Every step you take,<br>becomes a pocket-sized', hero_title_hl: 'healing deep-sea world',

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TinyAquarium 萬魚圖鑑展廳 | 1,176 種水族與神話生物</title>
+    <title data-i18n="pageTitle">TinyAquarium 萬魚圖鑑展廳 | 1,176 種水族與神話生物</title>
     <meta name="description" content="TinyAquarium 萬魚圖鑑展廳：1,176 種水族與神話生物，涵蓋核心手繪名門與東亞江戶、亞馬遜、非洲大湖、大堡礁、萬米深淵、史前海怪、山海經、塔羅星宿等 10 大主題卷冊。">
     <meta name="keywords" content="TinyAquarium, 水族箱手遊, 步數孵化, HealthKit, 放置遊戲, 錦鯉, 治癒遊戲, 基因繁育, Lo-Fi 白噪音, Apple Watch 水族館">
     <link rel="icon" type="image/png" href="../assets/icon.png">
@@ -99,7 +99,14 @@
             animation: pulse-ring 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
         }
     </style>
-</head>
+<!-- 語系走 ?lang= 而不是各自的路徑，所以要明確告訴搜尋引擎
+     哪個是正規網址、三語各自在哪。 -->
+    <link rel="canonical" href="https://certaindaniel.github.io/tinyaquarium/vault/">
+    <link rel="alternate" hreflang="en" href="https://certaindaniel.github.io/tinyaquarium/vault/?lang=en">
+    <link rel="alternate" hreflang="zh-Hant" href="https://certaindaniel.github.io/tinyaquarium/vault/?lang=zh-hant">
+    <link rel="alternate" hreflang="zh-Hans" href="https://certaindaniel.github.io/tinyaquarium/vault/?lang=zh-hans">
+    <link rel="alternate" hreflang="x-default" href="https://certaindaniel.github.io/tinyaquarium/vault/">
+    </head>
 <body class="bg-deepOcean text-slate-100 font-sans antialiased selection:bg-cyanGlow selection:text-deepOcean overflow-x-hidden min-h-screen">
 
     <!-- Ambient Background Lighting -->
@@ -417,7 +424,7 @@
         })();
 
         const I18N = {
-            'zh-Hant': { nav_faq: '常見問題', nav_privacy: '隱私權政策', nav_home: '首頁', nav_guide: '玩法攻略', nav_vault: '萬魚圖鑑', nav_download: '下載',
+            'zh-Hant': { pageTitle: 'TinyAquarium 萬魚圖鑑展廳 | 1,176 種水族與神話生物', nav_faq: '常見問題', nav_privacy: '隱私權政策', nav_home: '首頁', nav_guide: '玩法攻略', nav_vault: '萬魚圖鑑', nav_download: '下載',
                 back: '← 回到作品集', sound: '水聲白噪音', coming: '即將推出',
                 hero_badge: 'Apple HealthKit 步數連動・1,176 種全水域生物庫',
                 hero_title: '把每一步步伐，<br>化作掌心的', hero_title_hl: '治癒深海世界',
@@ -500,7 +507,7 @@
                 vol_v05: '🕯️ 萬米深海幽冥 (101)', vol_v06: '🦖 史前遠古海怪 (101)', vol_v07: '🐉 山海經神鯤 (100)',
                 vol_v08: '🏛️ 西方奧林帕斯 (100)', vol_v09: '🌌 星系塔羅星座 (100)', vol_v10: '🍰 甜蜜節慶萌物 (100)',
             },
-            'zh-Hans': { nav_faq: '常见问题', nav_privacy: '隐私权政策', nav_home: '首页', nav_guide: '玩法攻略', nav_vault: '万鱼图鉴', nav_download: '下载',
+            'zh-Hans': { pageTitle: 'TinyAquarium 万鱼图鉴展厅 | 1,176 种水族与神话生物', nav_faq: '常见问题', nav_privacy: '隐私权政策', nav_home: '首页', nav_guide: '玩法攻略', nav_vault: '万鱼图鉴', nav_download: '下载',
                 back: '← 回到作品集', sound: '水声白噪音', coming: '即将推出',
                 hero_badge: 'Apple HealthKit 步数联动・1,176 种全水域生物库',
                 hero_title: '把每一步步伐，<br>化作掌心的', hero_title_hl: '治愈深海世界',
@@ -578,7 +585,7 @@
                 vault_no_result: '查无相符鱼种素材，请尝试搜索「锦鲤」、「鲨」、「小丑」、「龙」或其他关键字。',
                 vault_load_more_left: '➕ 载入更多结果 (剩余 {n} 种)',
             },
-            'en-US': { nav_faq: 'FAQ', nav_privacy: 'Privacy Policy', nav_home: 'Home', nav_guide: 'Guide', nav_vault: 'Fish Vault', nav_download: 'Download',
+            'en-US': { pageTitle: 'TinyAquarium Fish Vault | 1,176 aquatic and mythical species', nav_faq: 'FAQ', nav_privacy: 'Privacy Policy', nav_home: 'Home', nav_guide: 'Guide', nav_vault: 'Fish Vault', nav_download: 'Download',
                 back: '← Back to portfolio', sound: 'Water ambience', coming: 'Coming soon',
                 hero_badge: 'Apple HealthKit Steps・1,176 Species Library',
                 hero_title: 'Every step you take,<br>becomes a pocket-sized', hero_title_hl: 'healing deep-sea world',

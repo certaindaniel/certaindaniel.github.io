@@ -208,6 +208,39 @@ def app_html(app, locale):
     return page(f"{loc['name']} — {loc['tagline']}", body, locale)
 
 
+SITE_LANG_QUERY = {"en": "en", "zh-hant": "zh-hant", "zh-hans": "zh-hans"}
+
+
+def site_redirect_page(app, locale):
+    """把 /{locale}/{app}/ 直接送到該 App 自己的官網，語系照傳。
+
+    旗艦 App 有完整的官網之後，產生頁就只剩「薄薄一頁再點一次」的作用 ——
+    使用者從作品集點進來，看到的是一個像官網但不是官網的頁面，然後還要再點。
+    有 siteUrl 的就別讓他多繞這一跳。隱私權政策頁不走這條（政策本文在那）。
+    """
+    url = app["siteUrl"]
+    sep = "&" if "?" in url else "?"
+    target = f"{url}{sep}lang={SITE_LANG_QUERY.get(locale, 'en')}"
+    loc = app["locales"][locale]
+    return f"""<!doctype html>
+<html lang="{locale}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{e(loc['name'])}</title>
+<link rel="canonical" href="{e(target)}">
+<meta name="robots" content="noindex,follow">
+<script>location.replace({json.dumps(target)});</script>
+<meta http-equiv="refresh" content="0; url={e(target)}">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="wrap"><p><a href="{e(target)}">{e(loc['name'])} →</a></p></div>
+</body>
+</html>
+"""
+
+
 def write(path, content):
     full = os.path.join(ROOT, path)
     os.makedirs(os.path.dirname(full), exist_ok=True)
@@ -222,6 +255,9 @@ for locale in LOCALES:
         write("index.html", hub_content)
     for app in APPS:
         if app.get("flagship"):
-            write(f"{locale}/{app['id']}/index.html", app_html(app, locale))
+            if app.get("siteUrl"):
+                write(f"{locale}/{app['id']}/index.html", site_redirect_page(app, locale))
+            else:
+                write(f"{locale}/{app['id']}/index.html", app_html(app, locale))
 
 print(f"Generated {len(LOCALES)} hub(s) + {sum(1 for a in APPS if a.get('flagship')) * len(LOCALES)} app page(s).")

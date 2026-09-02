@@ -151,7 +151,8 @@
       },
       "comingSoon": true,
       "liveDemoUrl": "/tinyaquarium/",
-      "guideUrl": "/tinyaquarium/guide/"
+      "guideUrl": "/tinyaquarium/guide/",
+      "siteUrl": "/tinyaquarium/"
     },
     {
       "id": "tinymsgviewer",
