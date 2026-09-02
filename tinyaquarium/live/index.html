@@ -125,31 +125,37 @@
 
             <!-- Desktop Nav Links -->
             <div class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-300">
-                <a href="#features" class="hover:text-cyanGlow transition-colors">核心特色</a>
-                <a href="#live-tank" class="hover:text-cyanGlow transition-colors">在線魚缸試玩</a>
+                <a href="#features" class="hover:text-cyanGlow transition-colors" data-i18n="nav_features">核心特色</a>
+                <a href="#live-tank" class="hover:text-cyanGlow transition-colors" data-i18n="nav_live">在線魚缸試玩</a>
                 <a href="../guide/" class="text-cyan-400 hover:text-cyan-300 transition-colors flex items-center gap-1.5 font-bold">
                     <i class="fa-solid fa-book-bookmark text-xs"></i>
-                    <span>玩法攻略指南</span>
+                    <span data-i18n="nav_guide">玩法攻略指南</span>
                 </a>
                 <a href="#vault" class="hover:text-cyanGlow transition-colors flex items-center gap-1.5">
-                    <span>1,176 種神魚圖鑑</span>
+                    <span data-i18n="nav_vault">1,176 種神魚圖鑑</span>
                     <span class="px-1.5 py-0.2 text-[10px] bg-rose-500/20 text-rose-300 border border-rose-500/30 rounded-full">New</span>
                 </a>
-                <a href="../guide/#ch-coins" class="hover:text-cyanGlow transition-colors">Lo-Fi 專注白噪音</a>
-                <a href="#apple-ecosystem" class="hover:text-cyanGlow transition-colors">手錶與桌面 Widget</a>
-                <a href="/zh-hant/tinyaquarium/#faq" class="hover:text-cyanGlow transition-colors">常見問題</a>
+                <a href="../guide/#ch-coins" class="hover:text-cyanGlow transition-colors" data-i18n="nav_lofi">Lo-Fi 專注白噪音</a>
+                <a href="#apple-ecosystem" class="hover:text-cyanGlow transition-colors" data-i18n="nav_widget">手錶與桌面 Widget</a>
+                <a href="/zh-hant/tinyaquarium/#faq" class="hover:text-cyanGlow transition-colors" data-i18n="nav_faq">常見問題</a>
             </div>
 
             <div class="flex items-center space-x-3">
+                <!-- Language Switcher -->
+                <div class="hidden sm:flex items-center space-x-1 px-2 py-1.5 rounded-xl bg-white/5 border border-white/10 text-xs">
+                    <button onclick="setLang('zh-Hant')" data-lang-btn="zh-Hant" class="lang-btn px-2 py-1 rounded-lg font-bold bg-cyan-500 text-slate-950 transition-all">繁中</button>
+                    <button onclick="setLang('zh-Hans')" data-lang-btn="zh-Hans" class="lang-btn px-2 py-1 rounded-lg font-medium text-slate-300 hover:text-white transition-all">簡中</button>
+                    <button onclick="setLang('en-US')" data-lang-btn="en-US" class="lang-btn px-2 py-1 rounded-lg font-medium text-slate-300 hover:text-white transition-all">EN</button>
+                </div>
                 <a href="/zh-hant/tinyaquarium/" class="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 border border-white/15 text-xs font-semibold text-slate-200 transition-all">
-                    <span>← 回到作品集</span>
+                    <span data-i18n="back">← 回到作品集</span>
                 </a>
                 <button onclick="toggleAudio()" id="global-sound-btn" class="hidden sm:flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-medium text-slate-300 transition-all">
                     <span id="sound-icon">🔈</span>
-                    <span id="sound-text">水聲白噪音</span>
+                    <span id="sound-text" data-i18n="sound">水聲白噪音</span>
                 </button>
                 <span class="px-4 py-2 rounded-xl bg-slate-800 text-slate-300 border border-slate-700 font-bold text-xs">
-                    即將推出
+                    <span data-i18n="coming">即將推出</span>
                 </span>
             </div>
         </div>
@@ -164,15 +170,14 @@
                 <div class="lg:col-span-7 space-y-8 text-center lg:text-left">
                     <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 text-xs font-semibold tracking-wide">
                         <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
-                        <span>Apple HealthKit 步數連動・1,176 種全水域生物庫</span>
+                        <span data-i18n="hero_badge">Apple HealthKit 步數連動・1,176 種全水域生物庫</span>
                     </div>
 
                     <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1]">
-                        把每一步步伐，<br>
-                        化作掌心的<span class="bg-gradient-to-r from-cyan-400 via-teal-300 to-emerald-400 bg-clip-text text-transparent text-glow">治癒深海世界</span>
+                        <span data-i18n-html="hero_title">把每一步步伐，<br>化作掌心的</span><span class="bg-gradient-to-r from-cyan-400 via-teal-300 to-emerald-400 bg-clip-text text-transparent text-glow" data-i18n="hero_title_hl">治癒深海世界</span>
                     </h1>
 
-                    <p class="text-lg sm:text-xl text-slate-300 font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                    <p class="text-lg sm:text-xl text-slate-300 font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0" data-i18n-html="hero_p">
                         <strong class="text-white font-semibold">TinyAquarium（微型水族箱）</strong> 是一款專為都市生活打造的放置水族養成手遊。走路解鎖真實與傳說神魚、探索百種隱藏基因突變、在 Lo-Fi 水聲白噪音中沉浸專注，並透過 Apple Watch 與桌面小組件隨時投餵守護。
                     </p>
 
@@ -180,10 +185,10 @@
                     <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
                         <a href="#download" class="w-full sm:w-auto glow-btn px-8 py-4 rounded-2xl bg-gradient-to-r from-cyan-500 via-teal-400 to-emerald-400 text-slate-950 font-extrabold text-base flex items-center justify-center space-x-3 hover:scale-105 transition-all">
                             <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 0.92-2.85-.9.04-1.99.6-2.63 1.35-.57.65-1.07 1.72-.94 2.74 1 .08 2.03-.49 2.65-1.24z"/></svg>
-                            <span>App Store 免費下載</span>
+                            <span data-i18n="hero_cta1">App Store 免費下載</span>
                         </a>
                         <a href="#live-tank" class="w-full sm:w-auto px-7 py-4 rounded-2xl bg-white/10 hover:bg-white/15 border border-white/15 text-white font-bold text-base flex items-center justify-center space-x-2 transition-all">
-                            <span>🎮 試玩網頁虛擬魚缸</span>
+                            <span data-i18n="hero_cta2">🎮 試玩網頁虛擬魚缸</span>
                         </a>
                     </div>
 
@@ -191,15 +196,15 @@
                     <div class="grid grid-cols-3 gap-4 pt-6 border-t border-white/10 max-w-lg mx-auto lg:mx-0">
                         <div>
                             <div class="text-2xl sm:text-3xl font-extrabold text-cyan-400">1,176</div>
-                            <div class="text-xs text-slate-400 mt-1">全球水族與神話圖鑑</div>
+                            <div class="text-xs text-slate-400 mt-1" data-i18n="hero_m1">全球水族與神話圖鑑</div>
                         </div>
                         <div>
                             <div class="text-2xl sm:text-3xl font-extrabold text-teal-300">144 組</div>
-                            <div class="text-xs text-slate-400 mt-1">隱藏基因突變配方</div>
+                            <div class="text-xs text-slate-400 mt-1" data-i18n="hero_m2">隱藏基因突變配方</div>
                         </div>
                         <div>
                             <div class="text-2xl sm:text-3xl font-extrabold text-rose-400">P2P</div>
-                            <div class="text-xs text-slate-400 mt-1">無伺服器近場直連交換</div>
+                            <div class="text-xs text-slate-400 mt-1" data-i18n="hero_m3">無伺服器近場直連交換</div>
                         </div>
                     </div>
                 </div>
@@ -227,8 +232,8 @@
                                 📱
                             </div>
                             <div>
-                                <div class="text-xs font-bold text-cyan-300">iOS 17+ 互動小組件</div>
-                                <div class="text-[11px] text-slate-300">桌面一鍵投餵・鎖定畫面步數</div>
+                                <div class="text-xs font-bold text-cyan-300" data-i18n="hero_widget">iOS 17+ 互動小組件</div>
+                                <div class="text-[11px] text-slate-300" data-i18n="hero_widget_sub">桌面一鍵投餵・鎖定畫面步數</div>
                             </div>
                         </div>
 
@@ -236,8 +241,8 @@
                         <div class="absolute top-12 -right-6 sm:-right-8 glass-panel p-3.5 rounded-2xl border border-rose-400/30 shadow-xl flex items-center space-x-3">
                             <span class="text-2xl animate-pulse">❤️</span>
                             <div>
-                                <div class="text-xs font-bold text-rose-300">摸摸 360° 翻滾</div>
-                                <div class="text-[11px] text-slate-300">每日獲取愛心能量</div>
+                                <div class="text-xs font-bold text-rose-300" data-i18n="hero_pet">摸摸 360° 翻滾</div>
+                                <div class="text-[11px] text-slate-300" data-i18n="hero_pet_sub">每日獲取愛心能量</div>
                             </div>
                         </div>
                     </div>
@@ -255,9 +260,9 @@
                     Interactive Live Aquarium
                 </span>
                 <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white">
-                    在網頁裡，即刻享受這份<span class="text-cyan-400">寧靜與治癒</span>
+                    <span data-i18n="live_title">在網頁裡，即刻享受這份</span><span class="text-cyan-400" data-i18n="live_title_hl">寧靜與治癒</span>
                 </h2>
-                <p class="text-slate-300 text-base sm:text-lg">
+                <p class="text-slate-300 text-base sm:text-lg" data-i18n-html="live_p">
                     點擊魚缸任意位置進行 <strong class="text-cyan-300">投餵 (Feed 🦐)</strong>，點擊游動的魚兒觸發 <strong class="text-rose-400">摸摸互動 (Pet ❤️)</strong>，還能隨時切換水體氛圍光效！
                 </p>
             </div>
@@ -268,16 +273,16 @@
                 <div class="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-white/10 px-2">
                     <div class="flex items-center space-x-3">
                         <span class="w-3 h-3 rounded-full bg-emerald-400 animate-ping"></span>
-                        <span class="text-xs font-bold text-slate-200">當前環境：<span id="tank-theme-label" class="text-cyan-300">晨曦微光淡水缸</span></span>
-                        <span class="text-xs text-slate-400">| 魚缸愛心：<span id="live-heart-count" class="text-rose-400 font-bold">120 ❤️</span></span>
+                        <span class="text-xs font-bold text-slate-200"><span data-i18n="live_env">當前環境：</span><span id="tank-theme-label" class="text-cyan-300">晨曦微光淡水缸</span></span>
+                        <span class="text-xs text-slate-400">| <span data-i18n="live_heart">魚缸愛心：</span><span id="live-heart-count" class="text-rose-400 font-bold">120 ❤️</span></span>
                     </div>
 
                     <!-- Theme Switcher Buttons -->
                     <div class="flex items-center space-x-2 text-xs">
-                        <button onclick="setTankTheme('morning')" class="theme-btn px-3 py-1.5 rounded-lg bg-cyan-500/20 border border-cyan-500/40 text-cyan-300 font-semibold transition-all">🌅 晨曦</button>
-                        <button onclick="setTankTheme('reef')" class="theme-btn px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-slate-300 hover:text-white transition-all">🪸 珊瑚海</button>
-                        <button onclick="setTankTheme('deep')" class="theme-btn px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-slate-300 hover:text-white transition-all">🌌 深海幽冥</button>
-                        <button onclick="setTankTheme('sakura')" class="theme-btn px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-slate-300 hover:text-white transition-all">🌸 櫻夜</button>
+                        <button onclick="setTankTheme('morning')" class="theme-btn px-3 py-1.5 rounded-lg bg-cyan-500/20 border border-cyan-500/40 text-cyan-300 font-semibold transition-all" data-i18n="live_btn_morning">🌅 晨曦</button>
+                        <button onclick="setTankTheme('reef')" class="theme-btn px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-slate-300 hover:text-white transition-all" data-i18n="live_btn_reef">🪸 珊瑚海</button>
+                        <button onclick="setTankTheme('deep')" class="theme-btn px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-slate-300 hover:text-white transition-all" data-i18n="live_btn_deep">🌌 深海幽冥</button>
+                        <button onclick="setTankTheme('sakura')" class="theme-btn px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-slate-300 hover:text-white transition-all" data-i18n="live_btn_sakura">🌸 櫻夜</button>
                     </div>
                 </div>
 
@@ -287,7 +292,7 @@
                     
                     <!-- In-tank Floating Prompt -->
                     <div class="absolute bottom-4 left-1/2 -translate-x-1/2 pointer-events-none px-4 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/10 text-xs text-slate-200 text-center opacity-80 group-hover:opacity-100 transition-opacity">
-                        👆 點擊魚缸投餵小蝦食・點擊魚兒旋轉翻滾愛心 +2
+                        <span data-i18n="live_prompt">👆 點擊魚缸投餵小蝦食・點擊魚兒旋轉翻滾愛心 +2</span>
                     </div>
                 </div>
 
@@ -298,9 +303,9 @@
                             <span id="canvas-sound-icon">🔈</span>
                             <span id="canvas-sound-text">開啟水波環境音</span>
                         </button>
-                        <span class="text-slate-400">目前游動：日本丹頂錦鯉、日光燈魚、眼斑小丑魚、土佐金魚、珍珠海馬、蜜瓜小白鯨</span>
+                        <span class="text-slate-400" data-i18n="live_fish_now">目前游動：日本丹頂錦鯉、日光燈魚、眼斑小丑魚、土佐金魚、珍珠海馬、蜜瓜小白鯨</span>
                     </div>
-                    <button onclick="resetFishTank()" class="text-slate-400 hover:text-cyan-300 transition-colors">🔄 重新整理魚缸</button>
+                    <button onclick="resetFishTank()" class="text-slate-400 hover:text-cyan-300 transition-colors" data-i18n="live_reset">🔄 重新整理魚缸</button>
                 </div>
             </div>
         </div>
@@ -313,9 +318,9 @@
                 Core Features
             </span>
             <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white">
-                四大核心特色，重塑你的<span class="bg-gradient-to-r from-teal-300 to-cyan-400 bg-clip-text text-transparent">日常療癒體驗</span>
+                <span data-i18n="feat_title">四大核心特色，重塑你的</span><span class="bg-gradient-to-r from-teal-300 to-cyan-400 bg-clip-text text-transparent" data-i18n="feat_title_hl">日常療癒體驗</span>
             </h2>
-            <p class="text-slate-300 text-lg">
+            <p class="text-slate-300 text-lg" data-i18n="feat_p">
                 將健康計步、遺傳基因合成、沉浸專注與去中心化近場社交完美融為一體。
             </p>
         </div>
@@ -328,14 +333,14 @@
                     🚶
                 </div>
                 <div class="space-y-3">
-                    <h3 class="text-2xl font-bold text-white group-hover:text-cyanGlow transition-colors"><a href="../guide/#ch-steps" class="hover:underline">步數孵化與 Apple Health 連動</a></h3>
-                    <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+                    <h3 class="text-2xl font-bold text-white group-hover:text-cyanGlow transition-colors"><a href="../guide/#ch-steps" class="hover:underline" data-i18n="feat1_t">步數孵化與 Apple Health 連動</a></h3>
+                    <p class="text-slate-300 leading-relaxed text-sm sm:text-base" data-i18n="feat1_p">
                         日常健走步數自動轉為魚卵孵化能量，完整機制詳見攻略 01 章。
                     </p>
                 </div>
                 <div class="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-between text-xs font-mono text-cyan-300">
-                    <span>🔥 今日步數：8,420 步</span>
-                    <span class="text-emerald-400">🥚 孵化進度：100% (即將破殼)</span>
+                    <span data-i18n="feat1_s1">🔥 今日步數：8,420 步</span>
+                    <span class="text-emerald-400" data-i18n="feat1_s2">🥚 孵化進度：100% (即將破殼)</span>
                 </div>
             </div>
 
@@ -345,14 +350,14 @@
                     🧬
                 </div>
                 <div class="space-y-3">
-                    <h3 class="text-2xl font-bold text-white group-hover:text-rose-400 transition-colors"><a href="../guide/#ch-breeding" class="hover:underline">144 組秘密基因繁育突變</a></h3>
-                    <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+                    <h3 class="text-2xl font-bold text-white group-hover:text-rose-400 transition-colors"><a href="../guide/#ch-breeding" class="hover:underline" data-i18n="feat2_t">144 組秘密基因繁育突變</a></h3>
+                    <p class="text-slate-300 leading-relaxed text-sm sm:text-base" data-i18n="feat2_p">
                         成年親代雙魚進入繁育實驗室，消耗愛心能量觸發隱藏突變配方，全部 144 組配方詳見攻略 04 章。
                     </p>
                 </div>
                 <div class="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-between text-xs font-mono text-rose-300">
-                    <span>🎏 丹頂錦鯉 + 皇冠豹異型</span>
-                    <span class="text-amber-400">⚡ 突變概率：18% 史詩/傳說</span>
+                    <span data-i18n="feat2_s1">🎏 丹頂錦鯉 + 皇冠豹異型</span>
+                    <span class="text-amber-400" data-i18n="feat2_s2">⚡ 突變概率：18% 史詩/傳說</span>
                 </div>
             </div>
 
@@ -362,14 +367,14 @@
                     🎧
                 </div>
                 <div class="space-y-3">
-                    <h3 class="text-2xl font-bold text-white group-hover:text-emerald-300 transition-colors"><a href="../guide/#ch-coins" class="hover:underline">Lo-Fi 專注番茄鐘與水聲白噪音</a></h3>
-                    <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+                    <h3 class="text-2xl font-bold text-white group-hover:text-emerald-300 transition-colors"><a href="../guide/#ch-coins" class="hover:underline" data-i18n="feat3_t">Lo-Fi 專注番茄鐘與水聲白噪音</a></h3>
+                    <p class="text-slate-300 leading-relaxed text-sm sm:text-base" data-i18n="feat3_p">
                         內建《陽光踏青》《迷霧探索》《海島度假木琴》等 15 首原創聲學黑膠（14 首演算法合成 + 1 首鋼琴）。支援 15 / 25 / 45 分鐘專注番茄鐘，專注時水族箱進入平靜模式，助你高效率工作與入眠。
                     </p>
                 </div>
                 <div class="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-between text-xs font-mono text-emerald-300">
-                    <span>☕ 專注倒數：25:00</span>
-                    <span class="text-cyan-300">🎵 01. 晨光水族館 (Morning Sunlit)</span>
+                    <span data-i18n="feat3_s1">☕ 專注倒數：25:00</span>
+                    <span class="text-cyan-300" data-i18n="feat3_s2">🎵 01. 晨光水族館 (Morning Sunlit)</span>
                 </div>
             </div>
 
@@ -379,14 +384,14 @@
                     📡
                 </div>
                 <div class="space-y-3">
-                    <h3 class="text-2xl font-bold text-white group-hover:text-amber-300 transition-colors"><a href="../guide/#ch-trade" class="hover:underline">無伺服器近場 P2P 神魚交易</a></h3>
-                    <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+                    <h3 class="text-2xl font-bold text-white group-hover:text-amber-300 transition-colors"><a href="../guide/#ch-trade" class="hover:underline" data-i18n="feat4_t">無伺服器近場 P2P 神魚交易</a></h3>
+                    <p class="text-slate-300 leading-relaxed text-sm sm:text-base" data-i18n="feat4_p">
                         兩台裝置靠近即可秒速交換神魚與魚卵，免帳號、無伺服器，完整交易機制詳見攻略 06 章。
                     </p>
                 </div>
                 <div class="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-between text-xs font-mono text-amber-300">
-                    <span>📶 發現周邊探索者 (3m)</span>
-                    <span class="text-emerald-400">🛡️ 端對端加密傳輸</span>
+                    <span data-i18n="feat4_s1">📶 發現周邊探索者 (3m)</span>
+                    <span class="text-emerald-400" data-i18n="feat4_s2">🛡️ 端對端加密傳輸</span>
                 </div>
             </div>
 
@@ -401,27 +406,27 @@
                     Species Vault Collection
                 </span>
                 <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white">
-                    探索 <span class="bg-gradient-to-r from-rose-400 via-amber-300 to-cyan-300 bg-clip-text text-transparent">1,176 種水族與神話生物</span>
+                    <span data-i18n="vault_title">探索</span> <span class="bg-gradient-to-r from-rose-400 via-amber-300 to-cyan-300 bg-clip-text text-transparent" data-i18n="vault_title_hl">1,176 種水族與神話生物</span>
                 </h2>
-                <p class="text-slate-300 text-lg">
+                <p class="text-slate-300 text-lg" data-i18n="vault_p">
                     包含 172 種核心旗艦手繪名門，以及東亞江戶、亞馬遜熱帶、非洲大湖、大堡礁、萬米深淵、史前海怪、山海經神話、塔羅星宿至甜點節慶 10 大主題卷冊！
                 </p>
             </div>
 
             <!-- Volume Tab Buttons -->
             <div class="flex items-center space-x-2 overflow-x-auto pb-4 mb-8 no-scrollbar">
-                <button onclick="switchVolume('all')" class="vol-tab px-4 py-2 rounded-xl bg-cyan-500 text-slate-950 font-bold text-xs whitespace-nowrap transition-all">🌟 全部 1,176 種</button>
-                <button onclick="switchVolume('Volume00_CoreHandcrafted')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">👑 核心旗艦手繪 (172)</button>
-                <button onclick="switchVolume('Volume01_EastAsiaHeritage')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">⛩️ 東亞水墨江戶 (100)</button>
-                <button onclick="switchVolume('Volume02_AmazonWilds')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🌿 亞馬遜狂野 (101)</button>
-                <button onclick="switchVolume('Volume03_AfricanRiftLakes')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🌍 東非裂谷慈鯛 (100)</button>
-                <button onclick="switchVolume('Volume04_GlobalCoralReefs')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🪸 大堡礁珊瑚 (101)</button>
-                <button onclick="switchVolume('Volume05_AbyssalDepths')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🕯️ 萬米深海幽冥 (101)</button>
-                <button onclick="switchVolume('Volume06_PrehistoricMonsters')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🦖 史前遠古海怪 (101)</button>
-                <button onclick="switchVolume('Volume07_ShanHaiJingMythology')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🐉 山海經神鯤 (100)</button>
-                <button onclick="switchVolume('Volume08_WesternMythology')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🏛️ 西方奧林帕斯 (100)</button>
-                <button onclick="switchVolume('Volume09_CosmicTarotZodiac')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🌌 星系塔羅星座 (100)</button>
-                <button onclick="switchVolume('Volume10_SweetDessertHolidayCozy')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all">🍰 甜蜜節慶萌物 (100)</button>
+                <button onclick="switchVolume('all')" class="vol-tab px-4 py-2 rounded-xl bg-cyan-500 text-slate-950 font-bold text-xs whitespace-nowrap transition-all" data-i18n="vol_all">🌟 全部 1,176 種</button>
+                <button onclick="switchVolume('Volume00_CoreHandcrafted')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all" data-i18n="vol_v00">👑 核心旗艦手繪 (172)</button>
+                <button onclick="switchVolume('Volume01_EastAsiaHeritage')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all" data-i18n="vol_v01">⛩️ 東亞水墨江戶 (100)</button>
+                <button onclick="switchVolume('Volume02_AmazonWilds')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all" data-i18n="vol_v02">🌿 亞馬遜狂野 (101)</button>
+                <button onclick="switchVolume('Volume03_AfricanRiftLakes')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all" data-i18n="vol_v03">🌍 東非裂谷慈鯛 (100)</button>
+                <button onclick="switchVolume('Volume04_GlobalCoralReefs')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all" data-i18n="vol_v04">🪸 大堡礁珊瑚 (101)</button>
+                <button onclick="switchVolume('Volume05_AbyssalDepths')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all" data-i18n="vol_v05">🕯️ 萬米深海幽冥 (101)</button>
+                <button onclick="switchVolume('Volume06_PrehistoricMonsters')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all" data-i18n="vol_v06">🦖 史前遠古海怪 (101)</button>
+                <button onclick="switchVolume('Volume07_ShanHaiJingMythology')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all" data-i18n="vol_v07">🐉 山海經神鯤 (100)</button>
+                <button onclick="switchVolume('Volume08_WesternMythology')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all" data-i18n="vol_v08">🏛️ 西方奧林帕斯 (100)</button>
+                <button onclick="switchVolume('Volume09_CosmicTarotZodiac')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all" data-i18n="vol_v09">🌌 星系塔羅星座 (100)</button>
+                <button onclick="switchVolume('Volume10_SweetDessertHolidayCozy')" class="vol-tab px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white font-medium text-xs whitespace-nowrap transition-all" data-i18n="vol_v10">🍰 甜蜜節慶萌物 (100)</button>
             </div>
 
             <!-- Search & Rarity Filter Bar -->
@@ -432,7 +437,7 @@
                 </div>
 
                 <div class="flex items-center space-x-2 text-xs">
-                    <span class="text-slate-400">稀有度篩選：</span>
+                    <span class="text-slate-400" data-i18n="vault_rarity_label">稀有度篩選：</span>
                     <button onclick="setRarityFilter('all')" class="rarity-btn px-2.5 py-1 rounded-lg bg-white/10 text-white font-medium">全部</button>
                     <button onclick="setRarityFilter('common')" class="rarity-btn px-2.5 py-1 rounded-lg bg-slate-500/20 text-slate-300 border border-slate-500/30">普通</button>
                     <button onclick="setRarityFilter('rare')" class="rarity-btn px-2.5 py-1 rounded-lg bg-blue-500/20 text-blue-300 border border-blue-500/30">稀有</button>
@@ -466,9 +471,9 @@
                     Apple Ecosystem Integration
                 </span>
                 <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-                    深度融入你的 <span class="text-cyan-400">iOS 17+</span> 日常生活
+                    <span data-i18n="widget_title">深度融入你的</span> <span class="text-cyan-400">iOS 17+</span> <span data-i18n="widget_daily">日常生活</span>
                 </h2>
-                <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
+                <p class="text-slate-300 text-base sm:text-lg leading-relaxed" data-i18n="widget_p">
                     不必每次都解鎖進入 App。無論是瞥一眼手機桌面，或是隨時查看鎖定畫面，水族箱的靈動生命都在陪伴著你。
                 </p>
 
@@ -476,24 +481,24 @@
                     <div class="flex items-start space-x-4 p-4 rounded-2xl bg-white/5 border border-white/10">
                         <div class="p-2.5 rounded-xl bg-cyan-500/20 text-cyan-300 text-xl font-bold">👟</div>
                         <div>
-                            <h4 class="text-white font-bold text-base">Apple HealthKit 步數健康連動</h4>
-                            <p class="text-slate-300 text-xs sm:text-sm mt-1">智慧融合 Apple Watch 與 iPhone 健康步數，日常走路每一步都無縫加速多卵溫室孵化破殼。</p>
+                            <h4 class="text-white font-bold text-base" data-i18n="widget_w1">Apple HealthKit 步數健康連動</h4>
+                            <p class="text-slate-300 text-xs sm:text-sm mt-1" data-i18n="widget_w1_sub">智慧融合 Apple Watch 與 iPhone 健康步數，日常走路每一步都無縫加速多卵溫室孵化破殼。</p>
                         </div>
                     </div>
 
                     <div class="flex items-start space-x-4 p-4 rounded-2xl bg-white/5 border border-white/10">
                         <div class="p-2.5 rounded-xl bg-purple-500/20 text-purple-300 text-xl font-bold">📱</div>
                         <div>
-                            <h4 class="text-white font-bold text-base">iOS 桌面與鎖定畫面動態 Widget</h4>
-                            <p class="text-slate-300 text-xs sm:text-sm mt-1">支援 iOS 17 互動式小組件（一鍵桌面快速投餵）、實時展示孵化魚卵步數進度與水族動態。</p>
+                            <h4 class="text-white font-bold text-base" data-i18n="widget_w2">iOS 桌面與鎖定畫面動態 Widget</h4>
+                            <p class="text-slate-300 text-xs sm:text-sm mt-1" data-i18n="widget_w2_sub">支援 iOS 17 互動式小組件（一鍵桌面快速投餵）、實時展示孵化魚卵步數進度與水族動態。</p>
                         </div>
                     </div>
 
                     <div class="flex items-start space-x-4 p-4 rounded-2xl bg-white/5 border border-white/10">
                         <div class="p-2.5 rounded-xl bg-emerald-500/20 text-emerald-300 text-xl font-bold">☁️</div>
                         <div>
-                            <h4 class="text-white font-bold text-base">iCloud KVS 雲端雙向同步</h4>
-                            <p class="text-slate-300 text-xs sm:text-sm mt-1">在 iPhone 上培育出的神魚與解鎖飾品，登入相同 Apple ID 立即無縫同步，無須手動備份。</p>
+                            <h4 class="text-white font-bold text-base" data-i18n="widget_w3">iCloud KVS 雲端雙向同步</h4>
+                            <p class="text-slate-300 text-xs sm:text-sm mt-1" data-i18n="widget_w3_sub">在 iPhone 上培育出的神魚與解鎖飾品，登入相同 Apple ID 立即無縫同步，無須手動備份。</p>
                         </div>
                     </div>
                 </div>
@@ -506,8 +511,8 @@
                         <!-- Widget Preview Box -->
                         <div class="p-5 rounded-2xl bg-gradient-to-br from-slate-900 to-midnightNavy border border-cyan-500/30 shadow-lg">
                             <div class="flex items-center justify-between text-xs text-slate-400 mb-3">
-                                <span class="font-bold text-cyan-300">TINYAQUARIUM 桌面互動小組件</span>
-                                <span class="font-mono">7,200 / 8,000 步</span>
+                                <span class="font-bold text-cyan-300" data-i18n="widget_mock_title">TINYAQUARIUM 桌面互動小組件</span>
+                                <span class="font-mono" data-i18n="widget_mock_steps">7,200 / 8,000 步</span>
                             </div>
                             <div class="flex items-center space-x-4">
                                 <div class="w-14 h-14 rounded-2xl bg-cyan-950 border border-cyan-400/40 flex items-center justify-center text-3xl animate-pulse">
@@ -515,13 +520,13 @@
                                 </div>
                                 <div class="flex-1 space-y-1.5">
                                     <div class="flex items-center justify-between text-xs font-bold text-white">
-                                        <span>日本丹頂錦鯉 (史詩)</span>
+                                        <span data-i18n="widget_mock_fish">日本丹頂錦鯉 (史詩)</span>
                                         <span class="text-emerald-400">90%</span>
                                     </div>
                                     <div class="w-full h-2.5 rounded-full bg-white/10 overflow-hidden">
                                         <div class="h-full bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-full" style="width: 90%;"></div>
                                     </div>
-                                    <div class="text-[10px] text-slate-400">再走 800 步即可孵化！</div>
+                                    <div class="text-[10px] text-slate-400" data-i18n="widget_mock_note">再走 800 步即可孵化！</div>
                                 </div>
                             </div>
                         </div>
@@ -532,9 +537,9 @@
                                 🔒
                             </div>
                             <div class="space-y-1">
-                                <div class="text-xs font-bold text-purple-300">iOS 鎖定畫面小組件 (Lock Screen Widget)</div>
-                                <div class="text-sm font-semibold text-white">晨光淡水缸・3 隻神魚漫遊</div>
-                                <div class="text-[11px] text-slate-400">步數健康連動中・飽食度 100% 💖</div>
+                                <div class="text-xs font-bold text-purple-300" data-i18n="widget_lock_title">iOS 鎖定畫面小組件 (Lock Screen Widget)</div>
+                                <div class="text-sm font-semibold text-white" data-i18n="widget_lock_fish">晨光淡水缸・3 隻神魚漫遊</div>
+                                <div class="text-[11px] text-slate-400" data-i18n="widget_lock_sub">步數健康連動中・飽食度 100% 💖</div>
                             </div>
                         </div>
                     </div>
@@ -549,32 +554,32 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-2xl mx-auto mb-14">
                 <span class="px-3.5 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 text-xs font-bold uppercase tracking-wider">Testimonials</span>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3">來自水族冒險者的真實評價</h2>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3" data-i18n="review_title">來自水族冒險者的真實評價</h2>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="glass-card p-6 rounded-2xl space-y-4">
                     <div class="flex text-amber-400 text-sm">★★★★★</div>
-                    <p class="text-slate-300 text-sm leading-relaxed">
+                    <p class="text-slate-300 text-sm leading-relaxed" data-i18n="rev1">
                         「以前總覺得走路運動很枯燥，自從裝了 TinyAquarium，每天通勤下班都想多走兩站，只為了快點把那顆神話級魚卵孵出來！」
                     </p>
-                    <div class="text-xs font-bold text-white">— 林小姐 (每日萬步水族玩家)</div>
+                    <div class="text-xs font-bold text-white" data-i18n="rev1_name">— 林小姐 (每日萬步水族玩家)</div>
                 </div>
 
                 <div class="glass-card p-6 rounded-2xl space-y-4">
                     <div class="flex text-amber-400 text-sm">★★★★★</div>
-                    <p class="text-slate-300 text-sm leading-relaxed">
+                    <p class="text-slate-300 text-sm leading-relaxed" data-i18n="rev2">
                         「Lo-Fi 專注模式的水聲真的太舒服了！寫代碼焦慮時，打開水族箱看著小魚擺尾，心情立刻就平靜下來，沒有任何垃圾廣告。」
                     </p>
-                    <div class="text-xs font-bold text-white">— Kevin (獨立工程師)</div>
+                    <div class="text-xs font-bold text-white" data-i18n="rev2_name">— Kevin (獨立工程師)</div>
                 </div>
 
                 <div class="glass-card p-6 rounded-2xl space-y-4">
                     <div class="flex text-amber-400 text-sm">★★★★★</div>
-                    <p class="text-slate-300 text-sm leading-relaxed">
+                    <p class="text-slate-300 text-sm leading-relaxed" data-i18n="rev3">
                         「基因突變繁育系統超有深度！跟朋友用近場交換到了彼此缺少的魚種，居然合成出了傳說中的十二紅頂金魚，超有成就感！」
                     </p>
-                    <div class="text-xs font-bold text-white">— Alan (資深收集狂)</div>
+                    <div class="text-xs font-bold text-white" data-i18n="rev3_name">— Alan (資深收集狂)</div>
                 </div>
             </div>
         </div>
@@ -585,10 +590,10 @@
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="relative overflow-hidden rounded-[36px] bg-gradient-to-r from-cyan-600 via-teal-600 to-emerald-600 p-8 sm:p-14 text-center space-y-8 shadow-2xl shadow-cyan-500/20">
                 <div class="max-w-2xl mx-auto space-y-4">
-                    <h2 class="text-3xl sm:text-5xl font-black text-slate-950 tracking-tight">
+                    <h2 class="text-3xl sm:text-5xl font-black text-slate-950 tracking-tight" data-i18n-html="download_title">
                         立即開始你的<br>掌心治癒水族之旅
                     </h2>
-                    <p class="text-slate-900 font-medium text-base sm:text-lg">
+                    <p class="text-slate-900 font-medium text-base sm:text-lg" data-i18n="download_p">
                         免費下載 TinyAquarium，在每一步的步伐中，遇見屬於你的傳奇神魚。
                     </p>
                 </div>
@@ -596,10 +601,10 @@
                 <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
                     <a href="https://apps.apple.com" target="_blank" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-slate-950 text-white font-extrabold text-base flex items-center justify-center space-x-3 hover:bg-slate-900 transition-all shadow-xl">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 0.92-2.85-.9.04-1.99.6-2.63 1.35-.57.65-1.07 1.72-.94 2.74 1 .08 2.03-.49 2.65-1.24z"/></svg>
-                        <span>App Store 下載</span>
+                        <span data-i18n="download_btn1">App Store 下載</span>
                     </a>
                     <button onclick="openQrModal()" class="w-full sm:w-auto px-7 py-4 rounded-2xl bg-white/20 hover:bg-white/30 border border-white/30 text-slate-950 font-bold text-base flex items-center justify-center space-x-2 transition-all">
-                        <span>📱 掃描 QR Code 取得</span>
+                        <span data-i18n="download_btn2">📱 掃描 QR Code 取得</span>
                     </button>
                 </div>
             </div>
@@ -610,10 +615,10 @@
     <footer class="py-12 border-t border-white/10 text-slate-400 text-xs text-center z-10 relative">
         <div class="max-w-7xl mx-auto px-4 space-y-4">
             <div class="flex justify-center space-x-6 text-sm text-slate-300">
-                <a href="#" class="hover:text-cyanGlow transition-colors">隱私權政策 (Privacy)</a>
-                <a href="#" class="hover:text-cyanGlow transition-colors">服務條款 (Terms)</a>
-                <a href="#" class="hover:text-cyanGlow transition-colors">開發者聯絡 (Contact)</a>
-                <a href="#" class="hover:text-cyanGlow transition-colors">媒體素材 (Press Kit)</a>
+                <a href="#" class="hover:text-cyanGlow transition-colors" data-i18n="footer_p">隱私權政策 (Privacy)</a>
+                <a href="#" class="hover:text-cyanGlow transition-colors" data-i18n="footer_t">服務條款 (Terms)</a>
+                <a href="#" class="hover:text-cyanGlow transition-colors" data-i18n="footer_c">開發者聯絡 (Contact)</a>
+                <a href="#" class="hover:text-cyanGlow transition-colors" data-i18n="footer_m">媒體素材 (Press Kit)</a>
             </div>
             <p>© 2026 TinyAquarium. All rights reserved. Crafted with care for calm minds and healthy steps.</p>
         </div>
@@ -628,37 +633,37 @@
                     🐟
                 </div>
                 <div>
-                    <h3 id="modalName" class="text-xl font-black text-white">魚種名稱</h3>
-                    <div id="modalScientific" class="text-xs text-slate-400 font-mono italic">Scientific name</div>
+                    <h3 id="modalName" class="text-xl font-black text-white" data-i18n="modal_placeholder">魚種名稱</h3>
+                    <div id="modalScientific" class="text-xs text-slate-400 font-mono italic" data-i18n="modal_placeholder_sc">Scientific name</div>
                     <div class="flex items-center space-x-2 mt-1.5">
-                        <span id="modalRarityBadge" class="px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider">稀有度</span>
-                        <span id="modalCategoryBadge" class="px-2 py-0.5 rounded-full bg-white/10 text-[10px] text-slate-300">分類</span>
+                        <span id="modalRarityBadge" class="px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider" data-i18n="rarity_common">稀有度</span>
+                        <span id="modalCategoryBadge" class="px-2 py-0.5 rounded-full bg-white/10 text-[10px] text-slate-300" data-i18n="modal_default_cat">分類</span>
                     </div>
                 </div>
             </div>
 
-            <p id="modalDesc" class="text-sm text-slate-200 leading-relaxed bg-white/5 p-4 rounded-2xl border border-white/10">
+            <p id="modalDesc" class="text-sm text-slate-200 leading-relaxed bg-white/5 p-4 rounded-2xl border border-white/10" data-i18n="modal_placeholder_desc">
                 生態描述與背景故事...
             </p>
 
             <div class="grid grid-cols-3 gap-3 text-center text-xs font-mono">
                 <div class="p-3 rounded-xl bg-white/5 border border-white/10">
-                    <div class="text-slate-400">孵化步數</div>
+                    <div class="text-slate-400" data-i18n="modal_steps">孵化步數</div>
                     <div id="modalSteps" class="text-cyan-300 font-bold mt-0.5">5,000 步</div>
                 </div>
                 <div class="p-3 rounded-xl bg-white/5 border border-white/10">
-                    <div class="text-slate-400">金幣產出</div>
+                    <div class="text-slate-400" data-i18n="modal_coins">金幣產出</div>
                     <div id="modalCoins" class="text-amber-400 font-bold mt-0.5">3 / 時</div>
                 </div>
                 <div class="p-3 rounded-xl bg-white/5 border border-white/10">
-                    <div class="text-slate-400">泳速等級</div>
+                    <div class="text-slate-400" data-i18n="modal_speed">泳速等級</div>
                     <div id="modalSpeed" class="text-emerald-400 font-bold mt-0.5">0.85</div>
                 </div>
             </div>
 
             <div id="modalRecipeBox" class="p-3.5 rounded-xl bg-rose-500/10 border border-rose-500/20 text-xs text-rose-300 space-y-1">
                 <div class="font-bold flex items-center space-x-1.5">
-                    <span>🧬 秘密基因突變配方</span>
+                    <span data-i18n="modal_recipe">🧬 秘密基因突變配方</span>
                 </div>
                 <div id="modalRecipe" class="text-slate-300 font-mono text-[11px]">親代 A + 親代 B ➡️ 突變產出</div>
             </div>
@@ -669,7 +674,7 @@
     <div id="qrModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4 hidden">
         <div class="glass-panel w-full max-w-sm rounded-3xl p-6 text-center space-y-5 border border-white/20 shadow-2xl relative">
             <button onclick="closeQrModal()" class="absolute top-4 right-4 w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white">✕</button>
-            <h3 class="text-lg font-bold text-white">使用 iPhone 掃描下載</h3>
+            <h3 class="text-lg font-bold text-white" data-i18n="qr_title">使用 iPhone 掃描下載</h3>
             <div class="w-48 h-48 mx-auto bg-white p-3 rounded-2xl shadow-inner flex items-center justify-center">
                 <!-- SVG QR Code Mockup -->
                 <svg class="w-full h-full text-slate-900" viewBox="0 0 100 100" fill="currentColor">
@@ -687,12 +692,347 @@
                     <rect x="75" y="68" width="10" height="15"/>
                 </svg>
             </div>
-            <p class="text-xs text-slate-300">相機對準 QR Code 即可直接前往 App Store 安裝。</p>
+            <p class="text-xs text-slate-300" data-i18n="qr_p">相機對準 QR Code 即可直接前往 App Store 安裝。</p>
         </div>
     </div>
 
     <!-- Application Script -->
     <script>
+        // --- 0. i18n: 三語系 (zh-Hant / zh-Hans / en-US) ---
+        // 靜態 UI 字串字典 + 魚種 i18n 解析 (1,176 種的 commonName/description 從 JSON i18n 欄取)
+        const LANGS = ['zh-Hant', 'zh-Hans', 'en-US'];
+        let currentLang = localStorage.getItem('ta_lang') || 'zh-Hant';
+        if (!LANGS.includes(currentLang)) currentLang = 'zh-Hant';
+
+        const I18N = {
+            'zh-Hant': {
+                back: '← 回到作品集', sound: '水聲白噪音', coming: '即將推出',
+                nav_features: '核心特色', nav_live: '在線魚缸試玩', nav_guide: '玩法攻略指南',
+                nav_vault: '1,176 種神魚圖鑑', nav_lofi: 'Lo-Fi 專注白噪音', nav_widget: '手錶與桌面 Widget', nav_faq: '常見問題',
+                hero_badge: 'Apple HealthKit 步數連動・1,176 種全水域生物庫',
+                hero_title: '把每一步步伐，<br>化作掌心的', hero_title_hl: '治癒深海世界',
+                hero_p: '<strong class="text-white font-semibold">TinyAquarium（微型水族箱）</strong> 是一款專為都市生活打造的放置水族養成手遊。走路解鎖真實與傳說神魚、探索百種隱藏基因突變、在 Lo-Fi 水聲白噪音中沉浸專注，並透過 Apple Watch 與桌面小組件隨時投餵守護。',
+                hero_cta1: 'App Store 免費下載', hero_cta2: '🎮 試玩網頁虛擬魚缸',
+                hero_m1: '全球水族與神話圖鑑', hero_m2: '隱藏基因突變配方', hero_m3: '無伺服器近場直連交換',
+                hero_widget: 'iOS 17+ 互動小組件', hero_widget_sub: '桌面一鍵投餵・鎖定畫面步數',
+                hero_pet: '摸摸 360° 翻滾', hero_pet_sub: '每日獲取愛心能量',
+                live_title: '在網頁裡，即刻享受這份', live_title_hl: '寧靜與治癒',
+                live_p: '點擊魚缸任意位置進行 <strong class="text-cyan-300">投餵 (Feed 🦐)</strong>，點擊游動的魚兒觸發 <strong class="text-rose-400">摸摸互動 (Pet ❤️)</strong>，還能隨時切換水體氛圍光效！',
+                live_env: '當前環境：', live_heart: '魚缸愛心：',
+                live_theme_morning: '晨曦微光淡水缸', live_theme_reef: '大堡礁蔚藍珊瑚缸', live_theme_deep: '萬米深海幽冥缸', live_theme_sakura: '櫻夜微醺景觀缸',
+                live_btn_morning: '🌅 晨曦', live_btn_reef: '🪸 珊瑚海', live_btn_deep: '🌌 深海幽冥', live_btn_sakura: '🌸 櫻夜',
+                live_prompt: '👆 點擊魚缸投餵小蝦食・點擊魚兒旋轉翻滾愛心 +2',
+                live_reset: '🔄 重新整理魚缸', live_sound_off: '關閉環境音', live_sound_on: '開啟水波環境音',
+                live_fish_now: '目前游動：翡翠呆萌小短吻鱷、帝王黑金刺甲蟹、珊瑚提燈巫師章魚、遠古骸骨戰甲旗魚、蜜瓜小白鯨、日本丹頂錦鯉、月光神仙魚、日光燈魚',
+                feat_title: '四大核心特色，重塑你的', feat_title_hl: '日常療癒體驗',
+                feat_p: '將健康計步、遺傳基因合成、沉浸專注與去中心化近場社交完美融為一體。',
+                feat1_t: '步數孵化與 Apple Health 連動', feat1_p: '日常健走步數自動轉為魚卵孵化能量，完整機制詳見攻略 01 章。',
+                feat1_s1: '🔥 今日步數：8,420 步', feat1_s2: '🥚 孵化進度：100% (即將破殼)',
+                feat2_t: '144 組秘密基因繁育突變', feat2_p: '成年親代雙魚進入繁育實驗室，消耗愛心能量觸發隱藏突變配方，全部 144 組配方詳見攻略 04 章。',
+                feat2_s1: '🎏 丹頂錦鯉 + 皇冠豹異型', feat2_s2: '⚡ 突變概率：18% 史詩/傳說',
+                feat3_t: 'Lo-Fi 專注番茄鐘與水聲白噪音', feat3_p: '內建《陽光踏青》《迷霧探索》《海島度假木琴》等 15 首原創聲學黑膠（14 首演算法合成 + 1 首鋼琴）。支援 15 / 25 / 45 分鐘專注番茄鐘，專注時水族箱進入平靜模式，助你高效率工作與入眠。',
+                feat3_s1: '☕ 專注倒數：25:00', feat3_s2: '🎵 01. 晨光水族館 (Morning Sunlit)',
+                feat4_t: '無伺服器近場 P2P 神魚交易', feat4_p: '兩台裝置靠近即可秒速交換神魚與魚卵，免帳號、無伺服器，完整交易機制詳見攻略 06 章。',
+                feat4_s1: '📶 發現周邊探索者 (3m)', feat4_s2: '🛡️ 端對端加密傳輸',
+                vault_title: '探索', vault_title_hl: '1,176 種水族與神話生物',
+                vault_p: '包含 172 種核心旗艦手繪名門，以及東亞江戶、亞馬遜熱帶、非洲大湖、大堡礁、萬米深淵、史前海怪、山海經神話、塔羅星宿至甜點節慶 10 大主題卷冊！',
+                vault_search: '🔍 搜尋魚種中文名稱、學名或特徵...', vault_rarity_all: '全部',
+                rarity_common: '普通', rarity_rare: '稀有', rarity_epic: '史詩', rarity_legendary: '傳說', rarity_mythical: '神話',
+                vault_load_more: '➕ 載入更多結果', vault_steps: '步', vault_detail: '查看詳情 →',
+                vault_rarity_label: '稀有度篩選：',
+                vol_all: '🌟 全部 1,176 種', vol_v00: '👑 核心旗艦手繪 (172)', vol_v01: '⛩️ 東亞水墨江戶 (100)',
+                vol_v02: '🌿 亞馬遜狂野 (101)', vol_v03: '🌍 東非裂谷慈鯛 (100)', vol_v04: '🪸 大堡礁珊瑚 (101)',
+                vol_v05: '🕯️ 萬米深海幽冥 (101)', vol_v06: '🦖 史前遠古海怪 (101)', vol_v07: '🐉 山海經神鯤 (100)',
+                vol_v08: '🏛️ 西方奧林帕斯 (100)', vol_v09: '🌌 星系塔羅星座 (100)', vol_v10: '🍰 甜蜜節慶萌物 (100)',
+                vault_count_search: '🔍 全庫搜尋「<strong class="text-white">{q}</strong>」：共找到 <strong class="text-cyan-400 font-bold">{n}</strong> 種生物（全素材庫 1,176 種）',
+                vault_count_volume: '📚 本卷共收錄 <strong class="text-cyan-400 font-bold">{n}</strong> 種生物',
+                vault_count_all: '🌟 全生態素材庫共收錄 <strong class="text-cyan-400 font-bold">{n}</strong> 種生物',
+                vault_no_result: '查無相符魚種素材，請嘗試搜尋「錦鯉」、「鯊」、「小丑」、「龍」或其他關鍵字。',
+                vault_load_more_left: '➕ 載入更多結果 (剩餘 {n} 種)',
+                vault_loading: '載入素材庫中...',
+                widget_title: '深度融入你的', widget_title_hl: 'iOS 17+',
+                widget_p: '不必每次都解鎖進入 App。無論是瞥一眼手機桌面，或是隨時查看鎖定畫面，水族箱的靈動生命都在陪伴著你。',
+                widget_daily: '日常生活',
+                widget_w1: 'Apple HealthKit 步數健康連動',
+                widget_w1_sub: '智慧融合 Apple Watch 與 iPhone 健康步數，日常走路每一步都無縫加速多卵溫室孵化破殼。',
+                widget_w2: 'iOS 桌面與鎖定畫面動態 Widget',
+                widget_w2_sub: '支援 iOS 17 互動式小組件（一鍵桌面快速投餵）、實時展示孵化魚卵步數進度與水族動態。',
+                widget_w3: 'iCloud KVS 雲端雙向同步',
+                widget_w3_sub: '在 iPhone 上培育出的神魚與解鎖飾品，登入相同 Apple ID 立即無縫同步，無須手動備份。',
+                widget_mock_title: 'TINYAQUARIUM 桌面互動小組件',
+                widget_mock_steps: '7,200 / 8,000 步',
+                widget_mock_note: '再走 800 步即可孵化！',
+                widget_lock_title: 'iOS 鎖定畫面小組件 (Lock Screen Widget)',
+                widget_lock_fish: '晨光淡水缸・3 隻神魚漫遊',
+                widget_lock_sub: '步數健康連動中・飽食度 100% 💖',
+                widget_mock_fish: '日本丹頂錦鯉 (史詩)',
+                review_title: '來自水族冒險者的真實評價',
+                rev1: '「以前總覺得走路運動很枯燥，自從裝了 TinyAquarium，每天通勤下班都想多走兩站，只為了快點把那顆神話級魚卵孵出來！」',
+                rev1_name: '— 林小姐 (每日萬步水族玩家)',
+                rev2: '「Lo-Fi 專注模式的水聲真的太舒服了！寫代碼焦慮時，打開水族箱看著小魚擺尾，心情立刻就平靜下來，沒有任何垃圾廣告。」',
+                rev2_name: '— Kevin (獨立工程師)',
+                rev3: '「基因突變繁育系統超有深度！跟朋友用近場交換到了彼此缺少的魚種，居然合成出了傳說中的十二紅頂金魚，超有成就感！」',
+                rev3_name: '— Alan (資深收集狂)',
+                download_title: '立即開始你的<br>掌心治癒水族之旅', download_p: '免費下載 TinyAquarium，在每一步的步伐中，遇見屬於你的傳奇神魚。',
+                download_btn1: 'App Store 下載', download_btn2: '📱 掃描 QR Code 取得',
+                footer_p: '隱私權政策 (Privacy)', footer_t: '服務條款 (Terms)', footer_c: '開發者聯絡 (Contact)', footer_m: '媒體素材 (Press Kit)',
+                modal_steps: '孵化步數', modal_coins: '金幣產出', modal_speed: '泳速等級',
+                modal_recipe: '🧬 秘密基因突變配方', modal_default_cat: '水族生物',
+                modal_placeholder: '魚種名稱', modal_placeholder_sc: 'Scientific name', modal_placeholder_desc: '生態描述與背景故事...',
+                qr_title: '使用 iPhone 掃描下載', qr_p: '相機對準 QR Code 即可直接前往 App Store 安裝。',
+                per_hour: '時', pet: '❤️ +2 摸摸',
+                tank_fish_croc: '翡翠呆萌小短吻鱷', tank_fish_crab: '帝王黑金刺甲蟹', tank_fish_octo: '珊瑚提燈巫師章魚',
+                tank_fish_sword: '遠古骸骨戰甲旗魚', tank_fish_whale: '蜜瓜小白鯨', tank_fish_koi: '日本丹頂錦鯉',
+                tank_fish_moon: '月光神仙魚', tank_fish_neon: '日光燈魚',
+                vault_rarity_label: '稀有度篩選：',
+                vol_all: '🌟 全部 1,176 種', vol_v00: '👑 核心旗艦手繪 (172)', vol_v01: '⛩️ 東亞水墨江戶 (100)',
+                vol_v02: '🌿 亞馬遜狂野 (101)', vol_v03: '🌍 東非裂谷慈鯛 (100)', vol_v04: '🪸 大堡礁珊瑚 (101)',
+                vol_v05: '🕯️ 萬米深海幽冥 (101)', vol_v06: '🦖 史前遠古海怪 (101)', vol_v07: '🐉 山海經神鯤 (100)',
+                vol_v08: '🏛️ 西方奧林帕斯 (100)', vol_v09: '🌌 星系塔羅星座 (100)', vol_v10: '🍰 甜蜜節慶萌物 (100)',
+            },
+            'zh-Hans': {
+                back: '← 回到作品集', sound: '水声白噪音', coming: '即将推出',
+                nav_features: '核心特色', nav_live: '在线鱼缸试玩', nav_guide: '玩法攻略指南',
+                nav_vault: '1,176 种神鱼图鉴', nav_lofi: 'Lo-Fi 专注白噪音', nav_widget: '手表与桌面 Widget', nav_faq: '常见问题',
+                hero_badge: 'Apple HealthKit 步数联动・1,176 种全水域生物库',
+                hero_title: '把每一步步伐，<br>化作掌心的', hero_title_hl: '治愈深海世界',
+                hero_p: '<strong class="text-white font-semibold">TinyAquarium（微型水族箱）</strong> 是一款专为都市生活打造的放置水族养成手游。走路解锁真实与传说神鱼、探索百种隐藏基因突变、在 Lo-Fi 水声白噪音中沉浸专注，并透过 Apple Watch 与桌面小组件随时投喂守护。',
+                hero_cta1: 'App Store 免费下载', hero_cta2: '🎮 试玩网页虚拟鱼缸',
+                hero_m1: '全球水族与神话图鉴', hero_m2: '隐藏基因突变配方', hero_m3: '无服务器近场直连交换',
+                hero_widget: 'iOS 17+ 互动小组件', hero_widget_sub: '桌面一键投喂・锁屏画面步数',
+                hero_pet: '摸摸 360° 翻滚', hero_pet_sub: '每日获取爱心能量',
+                live_title: '在网页里，即刻享受这份', live_title_hl: '宁静与治愈',
+                live_p: '点击鱼缸任意位置进行 <strong class="text-cyan-300">投喂 (Feed 🦐)</strong>，点击游动的鱼儿触发 <strong class="text-rose-400">摸摸互动 (Pet ❤️)</strong>，还能随时切换水体氛围光效！',
+                live_env: '当前环境：', live_heart: '鱼缸爱心：',
+                live_theme_morning: '晨曦微光淡水缸', live_theme_reef: '大堡礁蔚蓝珊瑚缸', live_theme_deep: '万米深海幽冥缸', live_theme_sakura: '樱夜微醺景观缸',
+                live_btn_morning: '🌅 晨曦', live_btn_reef: '🪸 珊瑚海', live_btn_deep: '🌌 深海幽冥', live_btn_sakura: '🌸 樱夜',
+                live_prompt: '👆 点击鱼缸投喂小虾食・点击鱼儿旋转翻滚爱心 +2',
+                live_reset: '🔄 重新整理鱼缸', live_sound_off: '关闭环境音', live_sound_on: '开启水波环境音',
+                live_fish_now: '目前游动：翡翠呆萌小短吻鳄、帝王黑金刺甲蟹、珊瑚提灯巫师章鱼、远古骸骨战甲旗鱼、蜜瓜小巴鲸、日本丹顶锦鲤、月光神仙鱼、日光灯鱼',
+                feat_title: '四大核心特色，重塑你的', feat_title_hl: '日常疗愈体验',
+                feat_p: '将健康计步、遗传基因合成、沉浸专注与去中心化近场社交完美融为一体。',
+                feat1_t: '步数孵化与 Apple Health 联动', feat1_p: '日常健走步数自动转为鱼卵孵化能量，完整机制详见攻略 01 章。',
+                feat1_s1: '🔥 今日步数：8,420 步', feat1_s2: '🥚 孵化进度：100% (即将破壳)',
+                feat2_t: '144 组秘密基因繁育突变', feat2_p: '成年亲代双鱼进入繁育实验室，消耗爱心能量触发隐藏突变配方，全部 144 组配方详见攻略 04 章。',
+                feat2_s1: '🎏 丹顶锦鲤 + 皇冠豹异型', feat2_s2: '⚡ 突变概率：18% 史诗/传说',
+                feat3_t: 'Lo-Fi 专注番茄钟与水声白噪音', feat3_p: '内置《阳光踏青》《迷雾探索》《海岛度假木琴》等 15 首原创声学黑胶（14 首演算法合成 + 1 首钢琴）。支援 15 / 25 / 45 分钟专注番茄钟，专注时水族箱进入平静模式，助你高效率工作与入眠。',
+                feat3_s1: '☕ 专注倒数：25:00', feat3_s2: '🎵 01. 晨光水族馆 (Morning Sunlit)',
+                feat4_t: '无服务器近场 P2P 神鱼交易', feat4_p: '两台装置靠近即可秒速交换神鱼与鱼卵，免账号、无服务器，完整交易机制详见攻略 06 章。',
+                feat4_s1: '📶 发现周边探索者 (3m)', feat4_s2: '🛡️ 端对端加密传输',
+                vault_title: '探索', vault_title_hl: '1,176 种水族与神话生物',
+                vault_p: '包含 172 种核心旗舰手绘名门，以及东亚江户、亚马逊热带、非洲大湖、大堡礁、万米深渊、史前海怪、山海经神话、塔罗星宿至甜点节庆 10 大主题卷册！',
+                vault_search: '🔍 搜寻鱼种中文名称、学名或特征...', vault_rarity_all: '全部',
+                rarity_common: '普通', rarity_rare: '稀有', rarity_epic: '史诗', rarity_legendary: '传说', rarity_mythical: '神话',
+                vault_load_more: '➕ 载入更多结果', vault_steps: '步', vault_detail: '查看详情 →',
+                vault_loading: '载入素材库中...',
+                widget_title: '深度融入你的', widget_title_hl: 'iOS 17+',
+                widget_p: '不必每次都解锁进入 App。无论是瞥一眼手机桌面，或是随时查看锁定画面，水族箱的灵动生命都在陪伴着你。',
+                widget_daily: '日常生活',
+                widget_w1: 'Apple HealthKit 步数健康联动',
+                widget_w1_sub: '智慧融合 Apple Watch 与 iPhone 健康步数，日常走路每一步都无缝加速多卵温室孵化破壳。',
+                widget_w2: 'iOS 桌面与锁定画面动态 Widget',
+                widget_w2_sub: '支援 iOS 17 互动式小组件（一键桌面快速投喂）、实时展示孵化鱼卵步数进度与水族动态。',
+                widget_w3: 'iCloud KVS 云端双向同步',
+                widget_w3_sub: '在 iPhone 上培育出的神鱼与解锁饰品，登入相同 Apple ID 立即无缝同步，无须手动备份。',
+                widget_mock_title: 'TINYAQUARIUM 桌面互动小组件',
+                widget_mock_steps: '7,200 / 8,000 步',
+                widget_mock_note: '再走 800 步即可孵化！',
+                widget_lock_title: 'iOS 锁定画面小组件 (Lock Screen Widget)',
+                widget_lock_fish: '晨光淡水缸・3 只神鱼漫游',
+                widget_lock_sub: '步数健康联动中・饱食度 100% 💖',
+                widget_mock_fish: '日本丹顶锦鲤 (史诗)',
+                review_title: '来自水族冒险者的真实评价',
+                rev1: '「以前总觉得走路运动很枯燥，自从装了 TinyAquarium，每天通勤下班都想多走两站，只为了快点把那颗神话级鱼卵孵出来！」',
+                rev1_name: '— 林小姐 (每日万步水族玩家)',
+                rev2: '「Lo-Fi 专注模式的水声真的太舒服了！写代码焦虑时，打开水族箱看着小鱼摆尾，心情立刻就平静下来，没有任何垃圾广告。」',
+                rev2_name: '— Kevin (独立工程师)',
+                rev3: '「基因突变繁育系统超有深度！跟朋友用近场交换到了彼此缺少的鱼种，居然合成出了传说中的十二红顶金鱼，超有成就感！」',
+                rev3_name: '— Alan (资深收集狂)',
+                download_title: '立即开始你的<br>掌心治愈水族之旅', download_p: '免费下载 TinyAquarium，在每一步的步伐中，遇见属于你的传奇神鱼。',
+                download_btn1: 'App Store 下载', download_btn2: '📱 扫描 QR Code 取得',
+                footer_p: '隐私权政策 (Privacy)', footer_t: '服务条款 (Terms)', footer_c: '开发者联络 (Contact)', footer_m: '媒体素材 (Press Kit)',
+                modal_steps: '孵化步数', modal_coins: '金币产出', modal_speed: '泳速等级',
+                modal_recipe: '🧬 秘密基因突变配方', modal_default_cat: '水族生物',
+                modal_placeholder: '鱼种名称', modal_placeholder_sc: 'Scientific name', modal_placeholder_desc: '生态描述与背景故事...',
+                qr_title: '使用 iPhone 扫描下载', qr_p: '相机对准 QR Code 即可直接前往 App Store 安装。',
+                per_hour: '时', pet: '❤️ +2 摸摸',
+                tank_fish_croc: '翡翠呆萌小短吻鳄', tank_fish_crab: '帝王黑金刺甲蟹', tank_fish_octo: '珊瑚提灯巫师章鱼',
+                tank_fish_sword: '远古骸骨战甲旗鱼', tank_fish_whale: '蜜瓜小巴鲸', tank_fish_koi: '日本丹顶锦鲤',
+                tank_fish_moon: '月光神仙鱼', tank_fish_neon: '日光灯鱼',
+                vault_rarity_label: '稀有度筛选：',
+                vol_all: '🌟 全部 1,176 种', vol_v00: '👑 核心旗舰手绘 (172)', vol_v01: '⛩️ 东亚水墨江户 (100)',
+                vol_v02: '🌿 亚马逊狂野 (101)', vol_v03: '🌍 东非裂谷慈鲷 (100)', vol_v04: '🪸 大堡礁珊瑚 (101)',
+                vol_v05: '🕯️ 万米深海幽冥 (101)', vol_v06: '🦖 史前远古海怪 (101)', vol_v07: '🐉 山海经神鲲 (100)',
+                vol_v08: '🏛️ 西方奥林帕斯 (100)', vol_v09: '🌌 星系塔罗星座 (100)', vol_v10: '🍰 甜蜜节庆萌物 (100)',
+                vault_count_search: '🔍 全库搜索「<strong class="text-white">{q}</strong>」：共找到 <strong class="text-cyan-400 font-bold">{n}</strong> 种生物（全素材库 1,176 种）',
+                vault_count_volume: '📚 本卷共收录 <strong class="text-cyan-400 font-bold">{n}</strong> 种生物',
+                vault_count_all: '🌟 全生态素材库共收录 <strong class="text-cyan-400 font-bold">{n}</strong> 种生物',
+                vault_no_result: '查无相符鱼种素材，请尝试搜索「锦鲤」、「鲨」、「小丑」、「龙」或其他关键字。',
+                vault_load_more_left: '➕ 载入更多结果 (剩余 {n} 种)',
+            },
+            'en-US': {
+                back: '← Back to portfolio', sound: 'Water ambience', coming: 'Coming soon',
+                nav_features: 'Features', nav_live: 'Live Tank Demo', nav_guide: 'How to Play',
+                nav_vault: '1,176 Species Vault', nav_lofi: 'Lo-Fi Focus', nav_widget: 'Watch & Widget', nav_faq: 'FAQ',
+                hero_badge: 'Apple HealthKit Steps・1,176 Species Library',
+                hero_title: 'Every step you take,<br>becomes a pocket-sized', hero_title_hl: 'healing deep-sea world',
+                hero_p: '<strong class="text-white font-semibold">TinyAquarium</strong> is a laid-back idle aquarium game for city life. Walk to hatch real and legendary fish, explore hundreds of hidden genetic mutations, focus with Lo-Fi water-sound white noise, and care for your tank anytime via Apple Watch and home-screen widgets.',
+                hero_cta1: 'Download free on App Store', hero_cta2: '🎮 Try the web tank',
+                hero_m1: 'Global species & myth vault', hero_m2: 'Hidden genetic recipes', hero_m3: 'Serverless P2P trading',
+                hero_widget: 'iOS 17+ interactive widget', hero_widget_sub: 'One-tap feed from home screen・lock-screen steps',
+                hero_pet: 'Pet 360° spin', hero_pet_sub: 'Earn heart energy daily',
+                live_title: 'In your browser,', live_title_hl: 'instant calm & healing',
+                live_p: 'Tap anywhere in the tank to <strong class="text-cyan-300">Feed 🦐</strong>, tap a swimming fish to <strong class="text-rose-400">Pet ❤️</strong>, and switch water ambience anytime!',
+                live_env: 'Environment: ', live_heart: 'Tank hearts: ',
+                live_theme_morning: 'Sunrise freshwater tank', live_theme_reef: 'Great Barrier Reef', live_theme_deep: 'Abyssal depths', live_theme_sakura: 'Sakura night',
+                live_btn_morning: '🌅 Dawn', live_btn_reef: '🪸 Reef', live_btn_deep: '🌌 Deep', live_btn_sakura: '🌸 Sakura',
+                live_prompt: '👆 Tap the tank to feed shrimp・tap a fish to roll it +2 ❤️',
+                live_reset: '🔄 Reset tank', live_sound_off: 'Mute ambience', live_sound_on: 'Enable water ambience',
+                live_fish_now: 'Now swimming: Jade Baby Croc, Imperial Gold-Spiked Crab, Coral Lantern Wizard Octopus, Ancient Bone-Armored Swordfish, Melon Beluga, Tancho Koi, Moonlight Angelfish, Neon Tetra',
+                feat_title: 'Four core features that', feat_title_hl: 'reshape your daily calm',
+                feat_p: 'Health step-counting, genetic synthesis, immersive focus, and decentralized local social — woven into one.',
+                feat1_t: 'Step hatching & Apple Health sync', feat1_p: 'Your daily steps automatically become egg-hatching energy. Full mechanics in Guide 01.',
+                feat1_s1: '🔥 Today: 8,420 steps', feat1_s2: '🥚 Hatch progress: 100% (about to hatch)',
+                feat2_t: '144 secret genetic mutations', feat2_p: 'Pair adult fish in the breeding lab; heart energy triggers hidden mutation recipes. All 144 in Guide 04.',
+                feat2_s1: '🎏 Tancho Koi + Crown Pleco', feat2_s2: '⚡ Mutation: 18% Epic/Legendary',
+                feat3_t: 'Lo-Fi focus & water-sound white noise', feat3_p: '15 original acoustic records (14 algorithm-synthesized + 1 piano). 15/25/45-min pomodoro; the tank enters a calm mode to keep you focused.',
+                feat3_s1: '☕ Focus timer: 25:00', feat3_s2: '🎵 01. Morning Sunlit Aquarium',
+                feat4_t: 'Serverless P2P fish trading', feat4_p: 'Bring two devices close to swap fish and eggs instantly. No account, no server. Full mechanics in Guide 06.',
+                feat4_s1: '📶 Explorer nearby (3m)', feat4_s2: '🛡️ End-to-end encrypted',
+                vault_title: 'Explore', vault_title_hl: '1,176 aquatic & mythical species',
+                vault_p: '172 core hand-crafted flagships plus 10 themed volumes: East-Asia Edo, Amazon wilds, African rift lakes, Great Barrier Reef, the abyss, prehistoric monsters, Shan-Hai-Jing myths, tarot & zodiac, to sweet dessert cozy creatures.',
+                vault_search: '🔍 Search species name, scientific name, or trait...', vault_rarity_all: 'All',
+                rarity_common: 'Common', rarity_rare: 'Rare', rarity_epic: 'Epic', rarity_legendary: 'Legendary', rarity_mythical: 'Mythic',
+                vault_load_more: '➕ Load more', vault_steps: 'steps', vault_detail: 'Details →',
+                vault_loading: 'Loading species vault...',
+                widget_title: 'Deeply woven into your', widget_title_hl: 'iOS 17+',
+                widget_p: 'No need to unlock the app every time. Glance at your home screen or lock screen — your aquarium is always by your side.',
+                widget_daily: 'daily life',
+                widget_w1: 'Apple HealthKit steps sync',
+                widget_w1_sub: 'Smartly merges Apple Watch and iPhone step data; every step seamlessly accelerates egg hatching.',
+                widget_w2: 'iOS home & lock-screen live Widget',
+                widget_w2_sub: 'iOS 17 interactive widgets (one-tap feed from home screen), live hatch progress and aquarium activity.',
+                widget_w3: 'iCloud KVS two-way sync',
+                widget_w3_sub: 'Fish and unlocked decor on iPhone sync instantly across devices with the same Apple ID — no manual backup.',
+                widget_mock_title: 'TINYAQUARIUM Home Widget',
+                widget_mock_steps: '7,200 / 8,000 steps',
+                widget_mock_note: '800 more steps to hatch!',
+                widget_lock_title: 'iOS Lock Screen Widget',
+                widget_lock_fish: 'Sunrise tank・3 legendary fish roaming',
+                widget_lock_sub: 'Step sync active・100% satiation 💖',
+                widget_mock_fish: 'Tancho Koi (Epic)',
+                review_title: 'Real reviews from aquarium adventurers',
+                rev1: '“I used to find walking boring. Since I installed TinyAquarium, I take two extra stops on my commute just to hatch that mythical egg faster!”',
+                rev1_name: '— Ms. Lin (10,000-daily-steps aquarist)',
+                rev2: '“The Lo-Fi focus mode water sounds are so soothing! When I feel stressed writing code, opening the aquarium and watching the fish tail fins calm me right down. Zero ads.”',
+                rev2_name: '— Kevin (indie engineer)',
+                rev3: '“The gene mutation breeding system is so deep! I traded with a friend locally and somehow synthesized the legendary Twelve-Crest Goldfish — incredible!”',
+                rev3_name: '— Alan (veteran collector)',
+                download_title: 'Start your<br>palm-sized healing aquarium journey', download_p: 'Download TinyAquarium free and meet your legendary fish with every step.',
+                download_btn1: 'App Store', download_btn2: '📱 Scan QR to get',
+                footer_p: 'Privacy', footer_t: 'Terms', footer_c: 'Contact', footer_m: 'Press Kit',
+                modal_steps: 'Hatch steps', modal_coins: 'Coin yield', modal_speed: 'Swim speed',
+                modal_recipe: '🧬 Secret Genetic Mutation Recipe', modal_default_cat: 'Aquatic Species',
+                modal_placeholder: 'Species Name', modal_placeholder_sc: 'Scientific name', modal_placeholder_desc: 'Eco description & backstory...',
+                qr_title: 'Scan with your iPhone', qr_p: 'Point your camera at the QR code to open the App Store.',
+                per_hour: 'hr', pet: '❤️ +2 Pet',
+                tank_fish_croc: 'Jade Baby Croc', tank_fish_crab: 'Imperial Gold-Spiked Crab', tank_fish_octo: 'Coral Lantern Wizard Octopus',
+                tank_fish_sword: 'Ancient Bone-Armored Swordfish', tank_fish_whale: 'Melon Beluga', tank_fish_koi: 'Tancho Koi',
+                tank_fish_moon: 'Moonlight Angelfish', tank_fish_neon: 'Neon Tetra',
+                vault_rarity_label: 'Rarity filter:',
+                vol_all: '🌟 All 1,176 species', vol_v00: '👑 Core handcrafted (172)', vol_v01: '⛩️ Edo ink-wash East Asia (100)',
+                vol_v02: '🌿 Amazon wilds (101)', vol_v03: '🌍 East African rift lakes (100)', vol_v04: '🪸 Great Barrier Reef (101)',
+                vol_v05: '🕯️ Abyssal depths (101)', vol_v06: '🦖 Prehistoric monsters (101)', vol_v07: '🐉 Shanhaijing myths (100)',
+                vol_v08: '🏛️ Western Olympus (100)', vol_v09: '🌌 Cosmic tarot & zodiac (100)', vol_v10: '🍰 Sweet dessert & holiday (100)',
+                vault_count_search: '🔍 Search all: "<strong class="text-white">{q}</strong>" — <strong class="text-cyan-400 font-bold">{n}</strong> species found (of 1,176 total)',
+                vault_count_volume: '📚 This volume has <strong class="text-cyan-400 font-bold">{n}</strong> species',
+                vault_count_all: '🌟 Full collection: <strong class="text-cyan-400 font-bold">{n}</strong> species',
+                vault_no_result: 'No matching species. Try "koi", "shark", "clown", "dragon" or another keyword.',
+                vault_load_more_left: '➕ Load more ({n} remaining)',
+            },
+        };
+
+        // 魚種 i18n 解析：1,176 種的 commonName/description 從 JSON i18n 欄取（en / zh-Hans），繁中用原文
+        function speciesCommonName(fish) {
+            if (currentLang === 'zh-Hant') return fish.commonName || fish.id;
+            const i = fish.i18n || {};
+            if (currentLang === 'zh-Hans' && i['zh-Hans'] && i['zh-Hans'].commonName) return i['zh-Hans'].commonName;
+            if (currentLang === 'en-US' && i['en'] && i['en'].commonName) return i['en'].commonName;
+            return fish.commonName || fish.id;
+        }
+        function speciesDescription(fish) {
+            if (currentLang === 'zh-Hant') return fish.description || '';
+            const i = fish.i18n || {};
+            if (currentLang === 'zh-Hans' && i['zh-Hans'] && i['zh-Hans'].description) return i['zh-Hans'].description;
+            if (currentLang === 'en-US' && i['en'] && i['en'].description) return i['en'].description;
+            return fish.description || '';
+        }
+        function t(key) {
+            const dict = I18N[currentLang] || I18N['zh-Hant'];
+            return dict[key] !== undefined ? dict[key] : (I18N['zh-Hant'][key] !== undefined ? I18N['zh-Hant'][key] : key);
+        }
+
+        function setLang(lang) {
+            if (!LANGS.includes(lang)) lang = 'zh-Hant';
+            currentLang = lang;
+            localStorage.setItem('ta_lang', lang);
+            // 切換按鈕高亮
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                const active = btn.getAttribute('data-lang-btn') === lang;
+                btn.classList.toggle('bg-cyan-500', active);
+                btn.classList.toggle('text-slate-950', active);
+                btn.classList.toggle('font-bold', active);
+                btn.classList.toggle('text-slate-300', !active);
+                btn.classList.toggle('font-medium', !active);
+            });
+            applyAllI18n();
+            if (typeof allVaultData !== 'undefined' && allVaultData.length) renderVaultGrid();
+        }
+
+        function applyAllI18n() {
+            // 語言按鈕高亮同步 (setLang 與初始載入共用)
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                const active = btn.getAttribute('data-lang-btn') === currentLang;
+                btn.classList.toggle('bg-cyan-500', active);
+                btn.classList.toggle('text-slate-950', active);
+                btn.classList.toggle('font-bold', active);
+                btn.classList.toggle('text-slate-300', !active);
+                btn.classList.toggle('font-medium', !active);
+            });
+            // data-i18n (純文字) + data-i18n-html (含 <strong>/<br>)
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                el.textContent = t(el.getAttribute('data-i18n'));
+            });
+            document.querySelectorAll('[data-i18n-html]').forEach(el => {
+                el.innerHTML = t(el.getAttribute('data-i18n-html'));
+            });
+            // live-tank 固定 id / 文案
+            const set = (id, val) => { const e = document.getElementById(id); if (e) e.textContent = val; };
+            set('vaultLoading', t('vault_loading'));
+            document.querySelector('input#vaultSearchInput')?.setAttribute('placeholder', t('vault_search'));
+            document.querySelectorAll('.rarity-btn').forEach(b => {
+                const m = (b.getAttribute('onclick')||'').match(/setRarityFilter\('(\w+)'\)/);
+                if (m && m[1] !== 'all' && t('rarity_'+m[1])) b.textContent = t('rarity_'+m[1]);
+            });
+            // 卷冊 tab 依語言覆寫 (syncVolumeTabCounts 用 i18n 取)
+            if (typeof syncVolumeTabCounts === 'function') syncVolumeTabCounts();
+            // <html lang>
+            document.documentElement.lang = (currentLang === 'zh-Hant') ? 'zh-TW' : (currentLang === 'zh-Hans' ? 'zh-CN' : 'en');
+            // 音訊標籤
+            if (!isAudioPlaying) {
+                document.getElementById('sound-text').textContent = t('sound');
+                document.getElementById('canvas-sound-text').textContent = t('live_sound_on');
+            }
+            // canvas 魚缸 theme 標籤
+            setTankTheme(currentTheme);
+            // canvas 魚缸固定 8 隻依語言重新命名
+            if (typeof fishes !== 'undefined' && fishes && TANK_FISH_SPECS) {
+                fishes.forEach((f, i) => {
+                    if (TANK_FISH_SPECS[i]) f.name = tankFishName(TANK_FISH_SPECS[i].key);
+                });
+            }
+        }
+
         // --- 1. Global Audio Synth Engine (Web Audio API) ---
         let audioCtx = null;
         let isAudioPlaying = false;
@@ -770,11 +1110,11 @@
 
         function updateAudioUI(playing) {
             const icon = playing ? '🔊' : '🔈';
-            const text = playing ? '靜音白噪音' : '水聲白噪音';
+            const text = playing ? t('sound_off') : t('sound');
             document.getElementById('sound-icon').textContent = icon;
             document.getElementById('sound-text').textContent = text;
             document.getElementById('canvas-sound-icon').textContent = icon;
-            document.getElementById('canvas-sound-text').textContent = playing ? '關閉環境音' : '開啟水波環境音';
+            document.getElementById('canvas-sound-text').textContent = playing ? t('live_sound_off') : t('live_sound_on');
         }
 
         function playPopSound() {
@@ -1709,19 +2049,27 @@
             height = rect.height;
         }
 
+        // 魚缸固定 8 隻：依語言取名字 (tank_fish_* 字典)，切語系時 applyAllI18n 重新命名
+        const TANK_FISH_SPECS = [
+            { key: 'tank_fish_croc', icon: '🐊', color: '#16A34A', speed: 0.95, size: 52, move: 'standard', tier: 1 },
+            { key: 'tank_fish_crab', icon: '🦀', color: '#DC2626', speed: 0.65, size: 36, move: 'seabed_crawl', tier: 1 },
+            { key: 'tank_fish_octo', icon: '🐙', color: '#8B5CF6', speed: 0.70, size: 42, move: 'upright_bob', tier: 2, attach: 'lantern_staff' },
+            { key: 'tank_fish_sword', icon: '🗡️', color: '#38BDF8', speed: 1.35, size: 58, move: 'majestic_cruise', tier: 3, attach: 'bone_armor' },
+            { key: 'tank_fish_whale', icon: '🐋', color: '#FFFFFF', speed: 0.65, size: 68, move: 'majestic_cruise', tier: 1 },
+            { key: 'tank_fish_koi', icon: '🎏', color: '#DC2626', speed: 0.85, size: 54, move: 'majestic_cruise', tier: 2, attach: 'crystal_crown' },
+            { key: 'tank_fish_moon', icon: '🌙', color: '#E2E8F0', speed: 0.90, size: 44, move: 'sway_glide', tier: 1 },
+            { key: 'tank_fish_neon', icon: '🐟', color: '#00F0FF', speed: 2.10, size: 18, move: 'micro_dart', tier: 1 }
+        ];
+
+        function tankFishName(key) {
+            return I18N[currentLang] && I18N[currentLang][key] ? I18N[currentLang][key] : I18N['zh-Hant'][key];
+        }
+
         function initAquarium() {
             resizeCanvas();
             // Initial lineup showcasing both Fish & Non-Fish creatures + Evolution Tiers (I ~ III):
-            fishes = [
-                new VirtualFish('翡翠呆萌小短吻鱷', '🐊', '#16A34A', 0.95, 52, 'standard', 1),
-                new VirtualFish('帝王黑金刺甲蟹', '🦀', '#DC2626', 0.65, 36, 'seabed_crawl', 1),
-                new VirtualFish('珊瑚提燈巫師章魚', '🐙', '#8B5CF6', 0.70, 42, 'upright_bob', 2, 'lantern_staff'),
-                new VirtualFish('遠古骸骨戰甲旗魚', '🗡️', '#38BDF8', 1.35, 58, 'majestic_cruise', 3, 'bone_armor'),
-                new VirtualFish('蜜瓜小白鯨', '🐋', '#FFFFFF', 0.65, 68, 'majestic_cruise', 1),
-                new VirtualFish('日本丹頂錦鯉', '🎏', '#DC2626', 0.85, 54, 'majestic_cruise', 2, 'crystal_crown'),
-                new VirtualFish('月光神仙魚', '🌙', '#E2E8F0', 0.90, 44, 'sway_glide', 1),
-                new VirtualFish('日光燈魚', '🐟', '#00F0FF', 2.10, 18, 'micro_dart', 1)
-            ];
+            fishes = TANK_FISH_SPECS.map(s =>
+                new VirtualFish(tankFishName(s.key), s.icon, s.color, s.speed, s.size, s.move, s.tier, s.attach));
             bubbles = [];
             for (let i = 0; i < 28; i++) {
                 bubbles.push({
@@ -1735,13 +2083,9 @@
 
         function setTankTheme(theme) {
             currentTheme = theme;
-            const labels = {
-                morning: '晨曦微光淡水缸',
-                reef: '大堡礁蔚藍珊瑚缸',
-                deep: '萬米深海幽冥缸',
-                sakura: '櫻夜微醺景觀缸'
-            };
-            document.getElementById('tank-theme-label').textContent = labels[theme];
+            const keyMap = {morning: 'live_theme_morning', reef: 'live_theme_reef', deep: 'live_theme_deep', sakura: 'live_theme_sakura'};
+            const labels = keyMap[theme] ? t(keyMap[theme]) : theme;
+            document.getElementById('tank-theme-label').textContent = labels;
         }
 
         function animateTank() {
@@ -1858,17 +2202,26 @@
 
 
         // 分頁上的種數一律由實際資料算出（1,176 種：172 核心 + 1,004 卷庫）。
+        // 走 i18n：依 currentLang 取 vol_all / vol_vNN 字典 key，避免切語系後被覆回繁中
+        const VOLUME_I18N_KEYS = {
+            'all': 'vol_all',
+            'Volume00_CoreHandcrafted': 'vol_v00', 'Volume01_EastAsiaHeritage': 'vol_v01',
+            'Volume02_AmazonWilds': 'vol_v02', 'Volume03_AfricanRiftLakes': 'vol_v03',
+            'Volume04_GlobalCoralReefs': 'vol_v04', 'Volume05_AbyssalDepths': 'vol_v05',
+            'Volume06_PrehistoricMonsters': 'vol_v06', 'Volume07_ShanHaiJingMythology': 'vol_v07',
+            'Volume08_WesternMythology': 'vol_v08', 'Volume09_CosmicTarotZodiac': 'vol_v09',
+            'Volume10_SweetDessertHolidayCozy': 'vol_v10',
+        };
         function syncVolumeTabCounts() {
             document.querySelectorAll('.vol-tab').forEach(btn => {
                 const call = btn.getAttribute('onclick') || '';
                 const m = call.match(/switchVolume\('([^']+)'\)/);
                 if (!m) return;
                 const key = m[1];
-                const count = key === 'all'
-                    ? allVaultData.length
-                    : allVaultData.filter(x => x.volumeFile === key).length;
-                btn.textContent = btn.textContent.replace(/\(?[\d,]+\s*種?\)?\s*$/, '').trim()
-                    + (key === 'all' ? ` ${count.toLocaleString()} 種` : ` (${count})`);
+                const i18nKey = VOLUME_I18N_KEYS[key];
+                if (i18nKey && typeof t === 'function' && I18N[currentLang] && I18N[currentLang][i18nKey]) {
+                    btn.textContent = I18N[currentLang][i18nKey];
+                }
             });
         }
 
@@ -2530,22 +2883,24 @@
                 // When searching with text, search globally across all 1,000 species unless tab specifically selected
                 const matchVol = (!query && currentVolumeFilter !== 'all') ? (fish.volumeFile === currentVolumeFilter) : (currentVolumeFilter === 'all' || fish.volumeFile === currentVolumeFilter || query);
                 const matchRarity = currentRarityFilter === 'all' || (fish.rarity && fish.rarity.toLowerCase() === currentRarityFilter);
-                const matchQuery = !query || 
+                const localized = speciesCommonName(fish);
+                const matchQuery = !query ||
+                    (localized && localized.toLowerCase().includes(query)) ||
                     (fish.commonName && fish.commonName.toLowerCase().includes(query)) ||
                     (fish.category && fish.category.toLowerCase().includes(query)) ||
                     (fish.scientificName && fish.scientificName.toLowerCase().includes(query)) ||
                     (fish.id && fish.id.toLowerCase().includes(query)) ||
-                    (fish.description && fish.description.toLowerCase().includes(query));
+                    (speciesDescription(fish) && speciesDescription(fish).toLowerCase().includes(query));
                 return matchRarity && matchQuery && matchVol;
             });
 
             if (countEl) {
                 if (query) {
-                    countEl.innerHTML = `🔍 全庫搜尋「<strong class="text-white">${query}</strong>」：共找到 <strong class="text-cyan-400 font-bold">${filtered.length}</strong> 種生物（全素材庫 1,176 種）`;
+                    countEl.innerHTML = t('vault_count_search').replace('{q}', query).replace('{n}', filtered.length);
                 } else if (currentVolumeFilter !== 'all') {
-                    countEl.innerHTML = `📚 本卷共收錄 <strong class="text-cyan-400 font-bold">${filtered.length}</strong> 種生物`;
+                    countEl.innerHTML = t('vault_count_volume').replace('{n}', filtered.length);
                 } else {
-                    countEl.innerHTML = `🌟 全生態素材庫共收錄 <strong class="text-cyan-400 font-bold">${allVaultData.length || 1000}</strong> 種生物`;
+                    countEl.innerHTML = t('vault_count_all').replace('{n}', allVaultData.length || 1000);
                 }
             }
 
@@ -2572,28 +2927,28 @@
                                 </div>
                             </div>
                             <div>
-                                <h4 class="text-base font-bold text-white group-hover:text-cyanGlow transition-colors">${fish.commonName || fish.id}</h4>
+                                <h4 class="text-base font-bold text-white group-hover:text-cyanGlow transition-colors">${speciesCommonName(fish)}</h4>
                                 <div class="text-[11px] text-slate-400 font-mono italic truncate">${fish.scientificName || ''}</div>
                             </div>
                             <p class="text-xs text-slate-300 line-clamp-2 leading-relaxed">
-                                ${fish.description || ''}
+                                ${speciesDescription(fish)}
                             </p>
                         </div>
                         <div class="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-[10px] font-mono text-slate-400">
-                            <span>👣 ${(fish.hatchStepsRequired || 3000).toLocaleString()} 步</span>
-                            <span class="text-cyan-300 font-bold">查看詳情 →</span>
+                            <span>👣 ${(fish.hatchStepsRequired || 3000).toLocaleString()} ${t('vault_steps')}</span>
+                            <span class="text-cyan-300 font-bold">${t('vault_detail')}</span>
                         </div>
                     </div>
                 `;
             }).join('');
 
             if (filtered.length === 0) {
-                grid.innerHTML = `<div class="col-span-full text-center py-12 text-slate-400">查無相符魚種素材，請嘗試搜尋「錦鯉」、「鯊」、「小丑」、「龍」或其他關鍵字。</div>`;
+                grid.innerHTML = `<div class="col-span-full text-center py-12 text-slate-400">${t('vault_no_result')}</div>`;
             } else if (filtered.length > currentDisplayLimit) {
                 grid.innerHTML += `
                     <div class="col-span-full text-center py-6">
                         <button onclick="loadMoreSpecies()" class="px-6 py-2.5 rounded-xl bg-white/10 hover:bg-cyan-500 hover:text-slate-950 font-bold text-xs text-cyan-300 border border-cyan-500/30 transition-all">
-                            ➕ 載入更多結果 (剩餘 ${filtered.length - currentDisplayLimit} 種)
+                            ${t('vault_load_more_left').replace('{n}', filtered.length - currentDisplayLimit)}
                         </button>
                     </div>
                 `;
@@ -2605,18 +2960,18 @@
             if (!fish) return;
             const rStyle = rarityStyles[fish.rarity?.toLowerCase()] || rarityStyles.common;
             document.getElementById('modalEmoji').innerHTML = generateFishSvg(fish, 56);
-            document.getElementById('modalName').textContent = fish.commonName || fish.id;
+            document.getElementById('modalName').textContent = speciesCommonName(fish);
             document.getElementById('modalScientific').textContent = fish.scientificName || '';
             document.getElementById('modalRarityBadge').className = `px-2 py-0.5 rounded-full ${rStyle.bg} ${rStyle.text} border ${rStyle.border} text-[10px] font-bold`;
             document.getElementById('modalRarityBadge').textContent = rStyle.label;
-            document.getElementById('modalCategoryBadge').textContent = fish.category || '水族生物';
-            document.getElementById('modalDesc').textContent = fish.description || '';
-            document.getElementById('modalSteps').textContent = `${(fish.hatchStepsRequired || 3000).toLocaleString()} 步`;
-            document.getElementById('modalCoins').textContent = `${fish.baseCoinYield || 3} / 時`;
+            document.getElementById('modalCategoryBadge').textContent = fish.category || t('modal_default_cat');
+            document.getElementById('modalDesc').textContent = speciesDescription(fish);
+            document.getElementById('modalSteps').textContent = `${(fish.hatchStepsRequired || 3000).toLocaleString()} ${t('vault_steps')}`;
+            document.getElementById('modalCoins').textContent = `${fish.baseCoinYield || 3} / ${t('per_hour')}`;
             document.getElementById('modalSpeed').textContent = `${fish.baseSwimSpeed || 0.8}`;
             
             if (fish.breedingRecipe) {
-                document.getElementById('modalRecipe').textContent = `${fish.breedingRecipe.parentA} + ${fish.breedingRecipe.parentB} (${fish.breedingRecipe.mutationHint || '突變配方'})`;
+                document.getElementById('modalRecipe').textContent = `${fish.breedingRecipe.parentA} + ${fish.breedingRecipe.parentB} (${fish.breedingRecipe.mutationHint || t('modal_default_cat')})`;
                 document.getElementById('modalRecipeBox').classList.remove('hidden');
             } else {
                 document.getElementById('modalRecipeBox').classList.add('hidden');
