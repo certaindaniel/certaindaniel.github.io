@@ -126,6 +126,7 @@
                 <a href="./" class="px-3 py-2 rounded-xl transition-colors bg-cyan-500/15 text-cyan-300 border border-cyan-500/30" data-i18n="nav_home">首頁</a>
                 <a href="guide/" class="px-3 py-2 rounded-xl transition-colors text-slate-300 hover:text-cyanGlow" data-i18n="nav_guide">玩法攻略</a>
                 <a href="vault/" class="px-3 py-2 rounded-xl transition-colors text-slate-300 hover:text-cyanGlow" data-i18n="nav_vault">萬魚圖鑑</a>
+                <a href="./#faq" class="px-3 py-2 rounded-xl transition-colors text-slate-300 hover:text-cyanGlow" data-i18n="nav_faq">常見問題</a>
                 <a href="./#download" class="px-3 py-2 rounded-xl transition-colors text-slate-300 hover:text-cyanGlow" data-i18n="nav_download">下載</a>
             </div>
 
@@ -151,6 +152,7 @@
             <a href="./" class="px-2.5 py-1.5 rounded-lg bg-cyan-500/15 text-cyan-300 border border-cyan-500/30" data-i18n="nav_home">首頁</a>
             <a href="guide/" class="px-2.5 py-1.5 rounded-lg text-slate-300 hover:text-cyanGlow" data-i18n="nav_guide">玩法攻略</a>
             <a href="vault/" class="px-2.5 py-1.5 rounded-lg text-slate-300 hover:text-cyanGlow" data-i18n="nav_vault">萬魚圖鑑</a>
+            <a href="./#faq" class="px-2.5 py-1.5 rounded-lg text-slate-300" data-i18n="nav_faq">常見問題</a>
             <a href="./#download" class="px-2.5 py-1.5 rounded-lg text-slate-300" data-i18n="nav_download">下載</a>
         </div>
     </nav>
@@ -327,7 +329,7 @@
                     🚶
                 </div>
                 <div class="space-y-3">
-                    <h3 class="text-2xl font-bold text-white group-hover:text-cyanGlow transition-colors"><a href="../guide/#ch-steps" class="hover:underline" data-i18n="feat1_t">步數孵化與 Apple Health 連動</a></h3>
+                    <h3 class="text-2xl font-bold text-white group-hover:text-cyanGlow transition-colors"><a href="guide/#ch-steps" class="hover:underline" data-i18n="feat1_t">步數孵化與 Apple Health 連動</a></h3>
                     <p class="text-slate-300 leading-relaxed text-sm sm:text-base" data-i18n="feat1_p">
                         日常健走步數自動轉為魚卵孵化能量，完整機制詳見攻略 01 章。
                     </p>
@@ -344,7 +346,7 @@
                     🧬
                 </div>
                 <div class="space-y-3">
-                    <h3 class="text-2xl font-bold text-white group-hover:text-rose-400 transition-colors"><a href="../guide/#ch-recipes" class="hover:underline" data-i18n="feat2_t">146 組秘密基因繁育突變</a></h3>
+                    <h3 class="text-2xl font-bold text-white group-hover:text-rose-400 transition-colors"><a href="guide/#ch-recipes" class="hover:underline" data-i18n="feat2_t">146 組秘密基因繁育突變</a></h3>
                     <p class="text-slate-300 leading-relaxed text-sm sm:text-base" data-i18n="feat2_p">
                         成年親代雙魚進入繁育實驗室，消耗愛心能量觸發隱藏突變配方，全部 146 組配方詳見攻略「隱藏配方大全」。
                     </p>
@@ -361,7 +363,7 @@
                     🎧
                 </div>
                 <div class="space-y-3">
-                    <h3 class="text-2xl font-bold text-white group-hover:text-emerald-300 transition-colors"><a href="../guide/#ch-coins" class="hover:underline" data-i18n="feat3_t">Lo-Fi 專注番茄鐘與水聲白噪音</a></h3>
+                    <h3 class="text-2xl font-bold text-white group-hover:text-emerald-300 transition-colors"><a href="guide/#ch-coins" class="hover:underline" data-i18n="feat3_t">Lo-Fi 專注番茄鐘與水聲白噪音</a></h3>
                     <p class="text-slate-300 leading-relaxed text-sm sm:text-base" data-i18n="feat3_p">
                         內建《陽光踏青》《迷霧探索》《海島度假木琴》等 15 首原創聲學黑膠（14 首演算法合成 + 1 首鋼琴）。支援 15 / 25 / 45 分鐘專注番茄鐘，專注時水族箱進入平靜模式，助你高效率工作與入眠。
                     </p>
@@ -378,7 +380,7 @@
                     📡
                 </div>
                 <div class="space-y-3">
-                    <h3 class="text-2xl font-bold text-white group-hover:text-amber-300 transition-colors"><a href="../guide/#ch-trade" class="hover:underline" data-i18n="feat4_t">無伺服器近場 P2P 神魚交易</a></h3>
+                    <h3 class="text-2xl font-bold text-white group-hover:text-amber-300 transition-colors"><a href="guide/#ch-trade" class="hover:underline" data-i18n="feat4_t">無伺服器近場 P2P 神魚交易</a></h3>
                     <p class="text-slate-300 leading-relaxed text-sm sm:text-base" data-i18n="feat4_p">
                         兩台裝置靠近即可秒速交換神魚與魚卵，免帳號、無伺服器，完整交易機制詳見攻略 06 章。
                     </p>
@@ -538,6 +540,63 @@
     </section>
 
     <!-- Download Footer Banner -->
+    <!-- 常見問題：合併雙首頁時舊 /tinyaquarium/ 的 FAQ 沒帶過來，這裡補回，
+         內容直接對齊 apps.json 的 qa，產生頁與官網不會各說各話。 -->
+    <section id="faq" class="relative z-10 py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl sm:text-4xl font-black tracking-tight mb-3 bg-gradient-to-r from-white via-cyan-100 to-cyan-400 bg-clip-text text-transparent" data-i18n="faq_h">
+                    常見問題
+                </h2>
+                <p class="text-slate-400 text-sm" data-i18n="faq_sub">步數同步、存檔、繁育與近場交換的疑問，這裡先回答</p>
+            </div>
+            <div class="space-y-3">
+                <details class="group glass-panel rounded-2xl border border-white/10 overflow-hidden">
+                    <summary class="cursor-pointer list-none px-6 py-4 flex items-center justify-between gap-4 hover:bg-white/5 transition-colors">
+                        <span class="font-bold text-slate-100" data-i18n="faq_q0">需要一直開啟 App 才能記錄步數嗎？</span>
+                        <i class="fa-solid fa-chevron-down text-cyan-400 text-xs transition-transform group-open:rotate-180"></i>
+                    </summary>
+                    <div class="px-6 pb-5 text-sm text-slate-300 leading-relaxed" data-i18n="faq_a0">完全不需要！TinyAquarium 透過 Apple HealthKit 與 CoreMotion 系統後台自動讀取步數，日常通勤走路即可持續累積孵化進度。</div>
+                </details>
+                <details class="group glass-panel rounded-2xl border border-white/10 overflow-hidden">
+                    <summary class="cursor-pointer list-none px-6 py-4 flex items-center justify-between gap-4 hover:bg-white/5 transition-colors">
+                        <span class="font-bold text-slate-100" data-i18n="faq_q1">近場神魚交易（P2P Trade）需要網路嗎？</span>
+                        <i class="fa-solid fa-chevron-down text-cyan-400 text-xs transition-transform group-open:rotate-180"></i>
+                    </summary>
+                    <div class="px-6 pb-5 text-sm text-slate-300 leading-relaxed" data-i18n="faq_a1">不需要外部網際網路！只要兩台裝置在數公尺內，打開藍牙與 Wi-Fi，即可透過 Apple Multipeer 點對點加密直連交換。</div>
+                </details>
+                <details class="group glass-panel rounded-2xl border border-white/10 overflow-hidden">
+                    <summary class="cursor-pointer list-none px-6 py-4 flex items-center justify-between gap-4 hover:bg-white/5 transition-colors">
+                        <span class="font-bold text-slate-100" data-i18n="faq_q2">基因繁育會消耗掉親代魚嗎？</span>
+                        <i class="fa-solid fa-chevron-down text-cyan-400 text-xs transition-transform group-open:rotate-180"></i>
+                    </summary>
+                    <div class="px-6 pb-5 text-sm text-slate-300 leading-relaxed" data-i18n="faq_a2">不會！繁育完成後親代魚依然會在水族箱中自由游動，僅消耗一次繁育次數與愛心能量。</div>
+                </details>
+                <details class="group glass-panel rounded-2xl border border-white/10 overflow-hidden">
+                    <summary class="cursor-pointer list-none px-6 py-4 flex items-center justify-between gap-4 hover:bg-white/5 transition-colors">
+                        <span class="font-bold text-slate-100" data-i18n="faq_q3">支援跨裝置存檔同步嗎？</span>
+                        <i class="fa-solid fa-chevron-down text-cyan-400 text-xs transition-transform group-open:rotate-180"></i>
+                    </summary>
+                    <div class="px-6 pb-5 text-sm text-slate-300 leading-relaxed" data-i18n="faq_a3">支援！透過 Apple iCloud 雲端鍵值儲存（KVS），在 iPhone 上的進度會自動無縫備份與同步至其他 iOS 裝置。</div>
+                </details>
+                <details class="group glass-panel rounded-2xl border border-white/10 overflow-hidden">
+                    <summary class="cursor-pointer list-none px-6 py-4 flex items-center justify-between gap-4 hover:bg-white/5 transition-colors">
+                        <span class="font-bold text-slate-100" data-i18n="faq_q4">支援哪些裝置？</span>
+                        <i class="fa-solid fa-chevron-down text-cyan-400 text-xs transition-transform group-open:rotate-180"></i>
+                    </summary>
+                    <div class="px-6 pb-5 text-sm text-slate-300 leading-relaxed" data-i18n="faq_a4">支援運行 iOS 17.0+ 的 iPhone 與 iPad。</div>
+                </details>
+            </div>
+            <p class="text-center text-sm text-slate-400 mt-8" data-i18n="faq_more">還想知道更多玩法細節？</p>
+            <div class="text-center mt-3">
+                <a href="guide/" class="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/15 font-bold text-slate-100 transition-all">
+                    <i class="fa-solid fa-book-bookmark text-cyan-400 text-sm"></i>
+                    <span data-i18n="faq_cta">前往玩法攻略手冊</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <section id="download" class="py-20 relative z-10">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="relative overflow-hidden rounded-[36px] bg-gradient-to-r from-cyan-600 via-teal-600 to-emerald-600 p-8 sm:p-14 text-center space-y-8 shadow-2xl shadow-cyan-500/20">
@@ -668,7 +727,7 @@
         })();
 
         const I18N = {
-            'zh-Hant': { nav_privacy: '隱私權政策', nav_home: '首頁', nav_guide: '玩法攻略', nav_vault: '萬魚圖鑑', nav_download: '下載', vault_badge: '萬魚圖鑑展廳', vault_teaser_h: '探索 1,176 種水族與神話生物', vault_teaser_p: '172 種核心旗艦手繪名門，加上東亞江戶、亞馬遜熱帶、非洲大湖、大堡礁、萬米深淵、史前海怪、山海經神話、塔羅星宿至甜點節慶共 10 大主題卷冊。可依卷冊與稀有度篩選、搜尋，點開看每一種的生態解說。', vault_teaser_cta: '進入萬魚圖鑑展廳',
+            'zh-Hant': { nav_faq: '常見問題', faq_h: '常見問題', faq_sub: '步數同步、存檔、繁育與近場交換的疑問，這裡先回答', faq_more: '還想知道更多玩法細節？', faq_cta: '前往玩法攻略手冊', faq_q0: '需要一直開啟 App 才能記錄步數嗎？', faq_a0: '完全不需要！TinyAquarium 透過 Apple HealthKit 與 CoreMotion 系統後台自動讀取步數，日常通勤走路即可持續累積孵化進度。', faq_q1: '近場神魚交易（P2P Trade）需要網路嗎？', faq_a1: '不需要外部網際網路！只要兩台裝置在數公尺內，打開藍牙與 Wi-Fi，即可透過 Apple Multipeer 點對點加密直連交換。', faq_q2: '基因繁育會消耗掉親代魚嗎？', faq_a2: '不會！繁育完成後親代魚依然會在水族箱中自由游動，僅消耗一次繁育次數與愛心能量。', faq_q3: '支援跨裝置存檔同步嗎？', faq_a3: '支援！透過 Apple iCloud 雲端鍵值儲存（KVS），在 iPhone 上的進度會自動無縫備份與同步至其他 iOS 裝置。', faq_q4: '支援哪些裝置？', faq_a4: '支援運行 iOS 17.0+ 的 iPhone 與 iPad。', nav_privacy: '隱私權政策', nav_home: '首頁', nav_guide: '玩法攻略', nav_vault: '萬魚圖鑑', nav_download: '下載', vault_badge: '萬魚圖鑑展廳', vault_teaser_h: '探索 1,176 種水族與神話生物', vault_teaser_p: '172 種核心旗艦手繪名門，加上東亞江戶、亞馬遜熱帶、非洲大湖、大堡礁、萬米深淵、史前海怪、山海經神話、塔羅星宿至甜點節慶共 10 大主題卷冊。可依卷冊與稀有度篩選、搜尋，點開看每一種的生態解說。', vault_teaser_cta: '進入萬魚圖鑑展廳',
                 back: '← 回到作品集', sound: '水聲白噪音', coming: '即將推出',
                 hero_badge: 'Apple HealthKit 步數連動・1,176 種全水域生物庫',
                 hero_title: '把每一步步伐，<br>化作掌心的', hero_title_hl: '治癒深海世界',
@@ -751,7 +810,7 @@
                 vol_v05: '🕯️ 萬米深海幽冥 (101)', vol_v06: '🦖 史前遠古海怪 (101)', vol_v07: '🐉 山海經神鯤 (100)',
                 vol_v08: '🏛️ 西方奧林帕斯 (100)', vol_v09: '🌌 星系塔羅星座 (100)', vol_v10: '🍰 甜蜜節慶萌物 (100)',
             },
-            'zh-Hans': { nav_privacy: '隐私权政策', nav_home: '首页', nav_guide: '玩法攻略', nav_vault: '万鱼图鉴', nav_download: '下载', vault_badge: '万鱼图鉴展厅', vault_teaser_h: '探索 1,176 种水族与神话生物', vault_teaser_p: '172 种核心旗舰手绘名门，加上东亚江户、亚马逊热带、非洲大湖、大堡礁、万米深渊、史前海怪、山海经神话、塔罗星宿至甜点节庆共 10 大主题卷册。可依卷册与稀有度筛选、搜索，点开看每一种的生态解说。', vault_teaser_cta: '进入万鱼图鉴展厅',
+            'zh-Hans': { nav_faq: '常见问题', faq_h: '常见问题', faq_sub: '步数同步、存档、繁育与近场交换的疑问，这里先回答', faq_more: '还想知道更多玩法细节？', faq_cta: '前往玩法攻略手册', faq_q0: '需要一直开启 App 才能记录步数吗？', faq_a0: '完全不需要！TinyAquarium 通过 Apple HealthKit 与 CoreMotion 系统后台自动读取步数，日常通勤走路即可持续累积孵化进度。', faq_q1: '近场神鱼交易（P2P Trade）需要网络吗？', faq_a1: '不需要外部互联网！只要两台设备在数米内，打开蓝牙与 Wi-Fi，即可通过 Apple Multipeer 点对点加密直连交换。', faq_q2: '基因繁育会消耗掉亲代鱼吗？', faq_a2: '不会！繁育完成后亲代鱼依然会在水族箱中自由游动，仅消耗一次繁育次数与爱心能量。', faq_q3: '支持跨设备存档同步吗？', faq_a3: '支持！通过 Apple iCloud 云端键值存储（KVS），在 iPhone 上的进度会自动无缝备份与同步至其他 iOS 设备。', faq_q4: '支持哪些设备？', faq_a4: '支持运行 iOS 17.0+ 的 iPhone 与 iPad。', nav_privacy: '隐私权政策', nav_home: '首页', nav_guide: '玩法攻略', nav_vault: '万鱼图鉴', nav_download: '下载', vault_badge: '万鱼图鉴展厅', vault_teaser_h: '探索 1,176 种水族与神话生物', vault_teaser_p: '172 种核心旗舰手绘名门，加上东亚江户、亚马逊热带、非洲大湖、大堡礁、万米深渊、史前海怪、山海经神话、塔罗星宿至甜点节庆共 10 大主题卷册。可依卷册与稀有度筛选、搜索，点开看每一种的生态解说。', vault_teaser_cta: '进入万鱼图鉴展厅',
                 back: '← 回到作品集', sound: '水声白噪音', coming: '即将推出',
                 hero_badge: 'Apple HealthKit 步数联动・1,176 种全水域生物库',
                 hero_title: '把每一步步伐，<br>化作掌心的', hero_title_hl: '治愈深海世界',
@@ -829,7 +888,7 @@
                 vault_no_result: '查无相符鱼种素材，请尝试搜索「锦鲤」、「鲨」、「小丑」、「龙」或其他关键字。',
                 vault_load_more_left: '➕ 载入更多结果 (剩余 {n} 种)',
             },
-            'en-US': { nav_privacy: 'Privacy Policy', nav_home: 'Home', nav_guide: 'Guide', nav_vault: 'Fish Vault', nav_download: 'Download', vault_badge: 'Fish Vault', vault_teaser_h: 'Explore 1,176 aquatic and mythical species', vault_teaser_p: '172 hand-drawn flagship species plus ten themed volumes — Edo East Asia, the Amazon, the African rift lakes, the Great Barrier Reef, the abyss, prehistoric monsters, Shan Hai Jing myth, tarot constellations and holiday desserts. Filter by volume and rarity, search by name, and open any species for its ecology notes.', vault_teaser_cta: 'Open the Fish Vault',
+            'en-US': { nav_faq: 'FAQ', faq_h: 'FAQ', faq_sub: 'Steps, saves, breeding and nearby trade — answered here first', faq_more: 'Want more detail on how it all works?', faq_cta: 'Open the player guide', faq_q0: 'Do I need to keep the app open to track steps?', faq_a0: 'No — TinyAquarium reads your steps in the background via Apple HealthKit and CoreMotion. Walk normally and your eggs will continue to hatch.', faq_q1: 'How does Nearby Trade work?', faq_a1: 'It uses Apple Multipeer Connectivity over local Bluetooth and Wi-Fi. No accounts, no servers, and 100% private.', faq_q2: 'Does crossbreeding consume my adult fish?', faq_a2: 'No — adult parent fish stay in your tank and continue swimming happily after breeding.', faq_q3: 'Is my data stored on the cloud?', faq_a3: 'Your progress syncs seamlessly across your iOS devices using Apple iCloud Key-Value Store.', faq_q4: 'Which devices are supported?', faq_a4: 'Supports iPhone and iPad running iOS 17.0 or later.', nav_privacy: 'Privacy Policy', nav_home: 'Home', nav_guide: 'Guide', nav_vault: 'Fish Vault', nav_download: 'Download', vault_badge: 'Fish Vault', vault_teaser_h: 'Explore 1,176 aquatic and mythical species', vault_teaser_p: '172 hand-drawn flagship species plus ten themed volumes — Edo East Asia, the Amazon, the African rift lakes, the Great Barrier Reef, the abyss, prehistoric monsters, Shan Hai Jing myth, tarot constellations and holiday desserts. Filter by volume and rarity, search by name, and open any species for its ecology notes.', vault_teaser_cta: 'Open the Fish Vault',
                 back: '← Back to portfolio', sound: 'Water ambience', coming: 'Coming soon',
                 hero_badge: 'Apple HealthKit Steps・1,176 Species Library',
                 hero_title: 'Every step you take,<br>becomes a pocket-sized', hero_title_hl: 'healing deep-sea world',
