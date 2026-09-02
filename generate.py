@@ -48,6 +48,14 @@ def page(title, body, locale):
 COMING_SOON_LABEL = {"en": "Coming Soon", "zh-hant": "即將推出", "zh-hans": "即将推出"}
 
 
+def asset_url(path):
+    full_path = os.path.join(ROOT, path.lstrip("/"))
+    if os.path.exists(full_path):
+        mtime = int(os.path.getmtime(full_path))
+        return f"/{path.lstrip('/')}?v={mtime}"
+    return f"/{path.lstrip('/')}"
+
+
 def hub_html(locale):
     hub = SITE["hub"][locale]
     cards = []
@@ -55,9 +63,10 @@ def hub_html(locale):
         loc = app["locales"][locale]
         coming_soon = app.get("comingSoon")
         tag = COMING_SOON_LABEL.get(locale, "Coming Soon") if coming_soon else app["platform"]
+        icon_src = asset_url(app['icon'])
         inner = f"""
       <span class="platform-tag">{e(tag)}</span>
-      <img class="icon" src="/{e(app['icon'])}" alt="">
+      <img class="icon" src="{e(icon_src)}" alt="">
       <h3>{e(loc['name'])}</h3>
       <p>{e(loc['tagline'])}</p>"""
         if app.get("flagship"):
@@ -128,7 +137,7 @@ def app_html(app, locale):
     hub = SITE["hub"][locale]
     shot_files = sorted(glob.glob(os.path.join(ROOT, "assets", app["id"], locale, "*.png")))
     shots = "".join(
-        f'<img src="/assets/{app["id"]}/{locale}/{e(os.path.basename(f))}" alt="{e(loc["name"])} screenshot">'
+        f'<img src="{e(asset_url(f"assets/{app["id"]}/{locale}/{os.path.basename(f)}"))}" alt="{e(loc["name"])} screenshot">'
         for f in shot_files
     )
     features = "".join(f"<li>{e(feat)}</li>" for feat in loc["features"])
@@ -166,10 +175,12 @@ def app_html(app, locale):
         f'<span class="cta cta--disabled">{e(loc["cta"])}</span>'
     )
 
+    icon_src = asset_url(app['icon'])
+
     body = f"""<div class="wrap">
   {lang_switch(locale, app_id=app['id'])}
   <section class="hero">
-    <img class="icon" src="/{e(app['icon'])}" alt="">
+    <img class="icon" src="{e(icon_src)}" alt="">
     <h1>{e(loc['name'])}</h1>
     <p class="tagline">{e(loc['tagline'])}</p>
     <p class="promo">{e(loc['promo'])}</p>
