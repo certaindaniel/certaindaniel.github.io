@@ -389,9 +389,33 @@
                         </div>
                         <div class="text-xs text-slate-400 mt-2" data-i18n="g194">（還有更多隱藏配方等你發現）</div>
                         
-                        <div class="mt-3 p-3 rounded-xl bg-pink-500/5 border border-pink-500/20">
-                            <div class="font-bold text-pink-300 mb-2 text-xs" data-i18n="g195">🎲 突變稀有度百面骰（d100）</div>
-                            <div class="text-xs text-slate-400 mb-2 leading-relaxed" data-i18n="g196">觸發突變後，系統會依「雙親稀有度階級相加」決定掉率分布，roll 一顆百面骰決定新魚稀有度，再從該稀有度池隨機出一隻：</div>
+                        <div class="mt-3 p-3.5 rounded-xl bg-pink-500/5 border border-pink-500/20 space-y-3">
+                            <div class="font-bold text-pink-300 text-xs" data-i18n="g195">🎲 繁育突變機制（兩階段判定）</div>
+                            
+                            <!-- 兩階段圖解卡片 -->
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+                                <div class="p-3 rounded-lg bg-slate-900/80 border border-slate-800 flex flex-col justify-between">
+                                    <div>
+                                        <div class="font-bold text-cyan-300 mb-1 flex items-center gap-1.5" data-i18n="mStep1Title">1️⃣ 第一關：突變觸發判定</div>
+                                        <div class="text-slate-400 leading-relaxed text-[11px]" data-i18n="mStep1Desc">
+                                            配種時先檢定是否觸發基因突變。<br>
+                                            公式：<strong>基礎 18% ＋ 親代進化加成（最高 +22%）＋ Pro 加成（+10%）</strong>，總和最高可達 <strong>50%</strong>。<br>
+                                            • 命中突變 ➔ 進入第二關擲百面骰<br>
+                                            • 未命中 ➔ 走一般遺傳（繼承親代或同水域魚種）
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-3 rounded-lg bg-slate-900/80 border border-slate-800 flex flex-col justify-between">
+                                    <div>
+                                        <div class="font-bold text-amber-300 mb-1 flex items-center gap-1.5" data-i18n="mStep2Title">2️⃣ 第二關：百面骰開獎（d100）</div>
+                                        <div class="text-slate-400 leading-relaxed text-[11px]" data-i18n="mStep2Desc">
+                                            觸發突變後，將雙親稀有度換算為分數（白 0 / 綠 1 / 藍 2 / 紫 3 / 橙 4），依<strong>「雙親階級之和 (0~8 分)」</strong>擲出 1~100 點百面骰，決定新魚的稀有度階級，再從該階級隨機誕生一隻！
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-xs text-slate-300 font-semibold pt-1" data-i18n="g196">📊 突變稀有度掉率分佈表（百面骰 d100）：</div>
                             <div class="overflow-x-auto">
                                 <table class="w-full text-left text-xs">
                                     <thead>
@@ -417,7 +441,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <div class="text-xs text-slate-500 mt-2" data-i18n="g209">⚡️ Pro 買斷版突變率 +10%，親代進化後加成更高。</div>
+                            <div class="text-xs text-slate-400 mt-2" data-i18n="g209">⚡️ <strong>突變率加成</strong>：基礎 18% ＋ 親代進化「霸者領主 (+10%) / 傳奇覺醒 (+22%)」＋ Pro 買斷版 (+10%)，突變率最高可達 50%。</div>
                         </div>
                     </div>
                 </div>
@@ -870,8 +894,12 @@
         "g126": "隱性突變配方",
         "mutationExamples": "特定親代組合會觸發基因突變！例如：<span class=\"text-cyan-300\">日光燈魚 + 寶蓮燈</span> 突變為 <span class=\"text-purple-300\">白金帝王燈</span>；<span class=\"text-cyan-300\">日本紅白錦鯉 + 烏鯉</span> 突變為 <span class=\"text-amber-300\">昭和三色錦鯉</span>。",
         "g194": "（還有更多隱藏配方等你發現）",
-        "g195": "🎲 突變稀有度百面骰（d100）",
-        "g196": "觸發突變後，系統會依「雙親稀有度階級相加」決定掉率分布，roll 一顆百面骰決定新魚稀有度，再從該稀有度池隨機出一隻：",
+        "g195": "🎲 繁育突變機制（兩階段判定）",
+        "mStep1Title": "1️⃣ 第一關：突變觸發判定",
+        "mStep1Desc": "配種時先檢定是否觸發基因突變。<br>公式：<strong>基礎 18% ＋ 親代進化加成（最高 +22%）＋ Pro 加成（+10%）</strong>，總和最高可達 <strong>50%</strong>。<br>• 命中突變 ➔ 進入第二關擲百面骰<br>• 未命中 ➔ 走一般遺傳（繼承親代或同水域魚種）",
+        "mStep2Title": "2️⃣ 第二關：百面骰開獎（d100）",
+        "mStep2Desc": "觸發突變後，將雙親稀有度換算為分數（白 0 / 綠 1 / 藍 2 / 紫 3 / 橙 4），依<strong>「雙親階級之和 (0~8 分)」</strong>擲出 1~100 點百面骰，決定新魚的稀有度階級，再從該階級隨機誕生一隻！",
+        "g196": "📊 突變稀有度掉率分佈表（百面骰 d100）：",
         "g197": "親代稀有度之和",
         "g210": "⬜ 普通",
         "g211": "🟩 精良",
@@ -887,7 +915,7 @@
         "g206": "6（藍+橙 / 紫+紫）",
         "g207": "7（紫+橙）",
         "g208": "8（橙+橙）",
-        "g209": "⚡️ Pro 買斷版突變率 +10%，親代進化後加成更高。",
+        "g209": "⚡️ <strong>突變率加成</strong>：基礎 18% ＋ 親代進化「霸者領主 (+10%) / 傳奇覺醒 (+22%)」＋ Pro 買斷版 (+10%)，突變率最高可達 50%。",
         "g131": "🏺 飼育員等級成長、魚缸擴建與 7 大水底造景",
         "levelGrowthIntro": "主人等級全域共用（<code>requiredXP = 150 + Level × 250</code>），升級享有全螢幕祝賀彈窗、紅包與特權解鎖，並可在【工坊】為水族箱升級：",
         "milestonesTitle": "等級特權與升級里程碑",
@@ -1094,8 +1122,12 @@
         "g126": "隐性突变配方",
         "mutationExamples": "特定亲代组合会触发基因突变！例如：<span class=\"text-cyan-300\">日光灯鱼 + 宝莲灯</span> 突变为 <span class=\"text-purple-300\">白金帝王灯</span>；<span class=\"text-cyan-300\">日本红白锦鲤 + 乌鲤</span> 突变为 <span class=\"text-amber-300\">昭和三色锦鲤</span>。",
         "g194": "（还有更多隐藏配方等你发现）",
-        "g195": "🎲 突变稀有度百面骰（d100）",
-        "g196": "触发突变后，系统会依「双亲稀有度阶级相加」决定掉率分布，roll 一颗百面骰决定新鱼稀有度，再从该稀有度池随机出一只：",
+        "g195": "🎲 繁育突变机制（两阶段判定）",
+        "mStep1Title": "1️⃣ 第一关：突变触发判定",
+        "mStep1Desc": "配种时先检定是否触发基因突变。<br>公式：<strong>基础 18% ＋ 亲代进化加成（最高 +22%）＋ Pro 加成（+10%）</strong>，总和最高可达 <strong>50%</strong>。<br>• 命中突变 ➔ 进入第二关掷百面骰<br>• 未命中 ➔ 走一般遗传（继承亲代或同水域鱼种）",
+        "mStep2Title": "2️⃣ 第二关：百面骰开奖（d100）",
+        "mStep2Desc": "触发突变后，将双亲稀有度换算为分数（白 0 / 绿 1 / 蓝 2 / 紫 3 / 橙 4），依<strong>「双亲阶级之和 (0~8 分)」</strong>掷出 1~100 点百面骰，决定新鱼的稀有度阶级，再从该阶级随机诞生一只！",
+        "g196": "📊 突变稀有度掉率分布表（百面骰 d100）：",
         "g197": "亲代稀有度之和",
         "g210": "⬜ 普通",
         "g211": "🟩 精良",
@@ -1111,7 +1143,7 @@
         "g206": "6（蓝+橙 / 紫+紫）",
         "g207": "7（紫+橙）",
         "g208": "8（橙+橙）",
-        "g209": "⚡️ Pro 买断版突变率 +10%，亲代进化后加成更高。",
+        "g209": "⚡️ <strong>突变率加成</strong>：基础 18% ＋ 亲代进化「霸者领主 (+10%) / 传奇觉醒 (+22%)」＋ Pro 买断版 (+10%)，突变率最高可达 50%。",
         "g131": "🏺 饲养员等级成长、鱼缸扩建与 7 大水底造景",
         "levelGrowthIntro": "主人等级全域共用（<code>requiredXP = 150 + Level × 250</code>），升级享有全屏祝贺弹窗、红包与特权解锁，并可在【工坊】为水族箱升级：",
         "milestonesTitle": "等级特权与升级里程碑",
@@ -1318,8 +1350,12 @@
         "g126": "Secret Mutation Recipes",
         "mutationExamples": "Certain parent combinations trigger rare genetic mutations! E.g. <span class=\"text-cyan-300\">Neon Tetra + Cardinal Tetra</span> mutates into <span class=\"text-purple-300\">Platinum Royal Tetra</span>; <span class=\"text-cyan-300\">Kohaku Koi + Karasugoi</span> mutates into <span class=\"text-amber-300\">Showa Sanshoku Koi</span>.",
         "g194": "(More secret combinations await discovery)",
-        "g195": "🎲 Mutation Rarity D100 Roll",
-        "g196": "Upon mutation, parent rarity sums determine the drop table. A d100 dice rolls for the resulting tier:",
+        "g195": "🎲 Breeding Mutation Mechanics (Two-Stage Roll)",
+        "mStep1Title": "1️⃣ Stage 1: Mutation Trigger Check",
+        "mStep1Desc": "Breeding first checks if a genetic mutation occurs.<br>Formula: <strong>Base 18% + Evolved Parent Bonus (up to +22%) + Pro Bonus (+10%)</strong>, reaching up to <strong>50%</strong>.<br>• Mutation triggered ➔ Enter Stage 2 D100 roll<br>• No mutation ➔ Normal inheritance (inherits parents or biome species)",
+        "mStep2Title": "2️⃣ Stage 2: D100 Rarity Roll",
+        "mStep2Desc": "Upon mutation, parent rarities convert into points (White 0 / Green 1 / Blue 2 / Purple 3 / Orange 4). A 1–100 D100 dice rolls against the <strong>Parent Sum (0–8)</strong> table to determine the new fish's rarity tier!",
+        "g196": "📊 D100 Rarity Drop Table:",
         "g197": "Parent Rarity Sum",
         "g210": "⬜ Common",
         "g211": "🟩 Uncommon",
@@ -1335,7 +1371,7 @@
         "g206": "6 (Blue + Orange / Purple + Purple)",
         "g207": "7 (Purple + Orange)",
         "g208": "8 (Orange + Orange)",
-        "g209": "⚡️ Pro version adds +10% mutation rate, with additional bonuses for evolved parents.",
+        "g209": "⚡️ <strong>Mutation Rate Bonuses</strong>: Base 18% + Parent Evolution (+10% Tier II / +22% Tier III) + Pro Unlock (+10%), reaching up to 50% max.",
         "g131": "🏺 Keeper Level Growth, Tank Expansion & 7 Aquascapes",
         "levelGrowthIntro": "Owner level is shared globally (<code>requiredXP = 150 + Level × 250</code>). Leveling up unlocks full-screen celebration popups, coin gifts, and workshop upgrades:",
         "milestonesTitle": "Level Perks & Upgrade Milestones",
