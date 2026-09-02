@@ -1,70 +1,37 @@
 <!DOCTYPE html>
-<html lang="zh-TW" class="dark">
+<html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TinyAquarium 口袋水族館 - 官方玩法與新手養成指南 | Official Player Manual</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ["Plus Jakarta Sans", "Noto Sans TC", "sans-serif"],
-                    },
-                    colors: {
-                        ocean: {
-                            50: "#f0f9ff",
-                            100: "#e0f2fe",
-                            200: "#bae6fd",
-                            300: "#7dd3fc",
-                            400: "#38bdf8",
-                            500: "#0ea5e9",
-                            600: "#0284c7",
-                            700: "#0369a1",
-                            800: "#075985",
-                            900: "#0c4a6e",
-                            950: "#082f49",
-                        }
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        .glass-card {
-            background: rgba(15, 23, 42, 0.75);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        .hero-glow {
-            background: radial-gradient(circle at 50% 20%, rgba(56, 189, 248, 0.18) 0%, rgba(15, 23, 42, 0) 70%);
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TinyAquarium 口袋水族館 - 官方玩法與新手養成指南 | Official Player Manual</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-white min-h-screen">
 
     <!-- Navigation Header -->
     <header class="sticky top-0 z-50 border-b border-slate-800/80 bg-slate-950/80 backdrop-blur-xl">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-            <a href="../live/" class="flex items-center gap-3 group">
+            <a id="home-link" href="../live/" class="flex items-center gap-3 group">
                 <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center text-xl shadow-lg shadow-cyan-500/25 group-hover:scale-105 transition">
                     🐟
                 </div>
                 <div>
                     <div class="font-bold text-lg leading-tight tracking-tight flex items-center gap-2">
-                        TinyAquarium <span class="text-xs px-2 py-0.5 rounded-full bg-cyan-500/20 text-cyan-400 border border-cyan-500/30">指南</span>
+                        TinyAquarium <span class="text-xs px-2 py-0.5 rounded-full bg-cyan-500/20 text-cyan-400 border border-cyan-500/30" data-i18n="g001">指南</span>
                     </div>
-                    <div class="text-[11px] text-slate-400">口袋水族館 • 玩家手冊與玩法全攻略</div>
+                    <div class="text-[11px] text-slate-400" data-i18n="g002">口袋水族館 • 玩家手冊與玩法全攻略</div>
                 </div>
             </a>
             
             <div class="flex items-center gap-4">
-                <a href="../live/" class="text-sm font-medium text-slate-300 hover:text-cyan-400 transition flex items-center gap-1.5">
+                <div class="flex items-center gap-1 bg-white/5 rounded-lg p-0.5 border border-white/10">
+                    <button onclick="setLang('zh-Hant')" data-lang-btn="zh-Hant" class="lang-btn px-2 py-0.5 rounded text-xs font-medium text-slate-300 hover:text-white transition-all">繁中</button>
+                    <button onclick="setLang('zh-Hans')" data-lang-btn="zh-Hans" class="lang-btn px-2 py-0.5 rounded text-xs font-medium text-slate-300 hover:text-white transition-all">簡中</button>
+                    <button onclick="setLang('en-US')" data-lang-btn="en-US" class="lang-btn px-2 py-0.5 rounded text-xs font-medium text-slate-300 hover:text-white transition-all">EN</button>
+                </div>
+                <a id="vault-link" href="../live/" class="text-sm font-medium text-slate-300 hover:text-cyan-400 transition flex items-center gap-1.5">
                     <i class="fa-solid fa-book-open"></i> 萬魚圖鑑展廳
                 </a>
                 <span class="text-xs px-3 py-1.5 rounded-lg bg-amber-500/10 text-amber-400 border border-amber-500/20 font-medium flex items-center gap-1.5">
@@ -79,10 +46,10 @@
         <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-semibold mb-6">
             <i class="fa-solid fa-compass"></i> 新手必讀 • 完整的口袋水族生態指南
         </div>
-        <h1 class="text-4xl sm:text-5xl font-black tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-100 to-cyan-400">
+        <h1 class="text-4xl sm:text-5xl font-black tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-100 to-cyan-400" data-i18n="g003">
             TinyAquarium 養魚與繁育全攻略
         </h1>
-        <p class="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+        <p class="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed" data-i18n="g004">
             透過日常健走步數孵化千種水族，掌握基因突變實驗室配方，升級擴建專屬水族箱，享受 30 FPS 低耗電治癒水聲白噪音。
         </p>
     </section>
@@ -95,30 +62,30 @@
             <div class="absolute -top-12 -right-12 w-48 h-48 bg-cyan-500/10 rounded-full blur-3xl"></div>
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-bold text-sm">01</span>
-                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2" data-i18n="g005">
                     🚶‍♂️ 健走步數與魚卵孵化機制
                 </h2>
             </div>
             
-            <p class="text-slate-300 leading-relaxed mb-6">
+            <p class="text-slate-300 leading-relaxed mb-6" data-i18n="g006">
                 TinyAquarium 深度整合 Apple HealthKit 與 Apple Watch，將您每日的真實行走步數轉化為魚卵的生命孵化能量。
             </p>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                 <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
                     <div class="text-2xl mb-2">🥚</div>
-                    <div class="font-bold text-white mb-1">孵化中魚卵</div>
-                    <div class="text-xs text-slate-400">水族箱底部隨時維繫一顆進行中的魚卵，在您走路時即時推進進度。</div>
+                    <div class="font-bold text-white mb-1" data-i18n="g007">孵化中魚卵</div>
+                    <div class="text-xs text-slate-400" data-i18n="g008">水族箱底部隨時維繫一顆進行中的魚卵，在您走路時即時推進進度。</div>
                 </div>
                 <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
                     <div class="text-2xl mb-2">⌚</div>
-                    <div class="font-bold text-white mb-1">背景後台同步</div>
-                    <div class="text-xs text-slate-400">無需常駐開啟 App，走路步數會在每次啟動或透過 Widget 小組件自動同步累積。</div>
+                    <div class="font-bold text-white mb-1" data-i18n="g009">背景後台同步</div>
+                    <div class="text-xs text-slate-400" data-i18n="g010">無需常駐開啟 App，走路步數會在每次啟動或透過 Widget 小組件自動同步累積。</div>
                 </div>
                 <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
                     <div class="text-2xl mb-2">🎉</div>
-                    <div class="font-bold text-white mb-1">破殼滿步儀式</div>
-                    <div class="text-xs text-slate-400">步數達標後，點擊「破殼孵化」按鈕即可在 30 FPS 粒子光暈與水聲中迎來新魚！</div>
+                    <div class="font-bold text-white mb-1" data-i18n="g011">破殼滿步儀式</div>
+                    <div class="text-xs text-slate-400" data-i18n="g012">步數達標後，點擊「破殼孵化」按鈕即可在 30 FPS 粒子光暈與水聲中迎來新魚！</div>
                 </div>
             </div>
         </section>
@@ -127,12 +94,12 @@
         <section id="ch-rarity" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center font-bold text-sm">02</span>
-                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2" data-i18n="g013">
                     💎 5 階稀有度與經濟體系
                 </h2>
             </div>
             
-            <p class="text-slate-300 leading-relaxed mb-6">
+            <p class="text-slate-300 leading-relaxed mb-6" data-i18n="g014">
                 遊戲採用標準的「白 &lt; 綠 &lt; 藍 &lt; 紫 &lt; 橙(金)」五級階梯，魚種越珍稀，孵化步數越高、吐出的泡泡金幣（Bubble Coins 🫧）也越豐厚：
             </p>
 
@@ -140,42 +107,42 @@
                 <table class="w-full text-left text-sm">
                     <thead>
                         <tr class="border-b border-slate-800 text-slate-400 text-xs uppercase tracking-wider">
-                            <th class="py-3 px-4">等級階級</th>
-                            <th class="py-3 px-4">孵化步數需求</th>
-                            <th class="py-3 px-4">單魚產能</th>
-                            <th class="py-3 px-4">代表品種生態</th>
+                            <th class="py-3 px-4" data-i18n="g015">等級階級</th>
+                            <th class="py-3 px-4" data-i18n="g016">孵化步數需求</th>
+                            <th class="py-3 px-4" data-i18n="g017">單魚產能</th>
+                            <th class="py-3 px-4" data-i18n="g018">代表品種生態</th>
                         </tr>
                     </thead>
                     <tbody class="divide-y divide-slate-800/60 font-mono text-xs sm:text-sm">
                         <tr>
-                            <td class="py-3 px-4 font-bold text-slate-300">⬜ 普通 (Common)</td>
-                            <td class="py-3 px-4 text-slate-400">1,000 ~ 2,500 步</td>
+                            <td class="py-3 px-4 font-bold text-slate-300" data-i18n="g019">⬜ 普通 (Common)</td>
+                            <td class="py-3 px-4 text-slate-400" data-i18n="g020">1,000 ~ 2,500 步</td>
                             <td class="py-3 px-4 text-cyan-400">2 ~ 4 🪙</td>
-                            <td class="py-3 px-4 text-slate-300">日光燈魚、彩虹孔雀魚、小精靈鼠</td>
+                            <td class="py-3 px-4 text-slate-300" data-i18n="g021">日光燈魚、彩虹孔雀魚、小精靈鼠</td>
                         </tr>
                         <tr>
-                            <td class="py-3 px-4 font-bold text-emerald-400">🟩 精良 (Uncommon)</td>
-                            <td class="py-3 px-4 text-slate-400">2,500 ~ 4,000 步</td>
+                            <td class="py-3 px-4 font-bold text-emerald-400" data-i18n="g022">🟩 精良 (Uncommon)</td>
+                            <td class="py-3 px-4 text-slate-400" data-i18n="g023">2,500 ~ 4,000 步</td>
                             <td class="py-3 px-4 text-cyan-400">3 ~ 5 🪙</td>
-                            <td class="py-3 px-4 text-slate-300">紅鼻剪刀、眼斑小丑魚、荷蘭鳳凰短鯛</td>
+                            <td class="py-3 px-4 text-slate-300" data-i18n="g024">紅鼻剪刀、眼斑小丑魚、荷蘭鳳凰短鯛</td>
                         </tr>
                         <tr>
-                            <td class="py-3 px-4 font-bold text-blue-400">🟦 稀有 (Rare)</td>
-                            <td class="py-3 px-4 text-slate-400">4,000 ~ 6,000 步</td>
+                            <td class="py-3 px-4 font-bold text-blue-400" data-i18n="g025">🟦 稀有 (Rare)</td>
+                            <td class="py-3 px-4 text-slate-400" data-i18n="g026">4,000 ~ 6,000 步</td>
                             <td class="py-3 px-4 text-cyan-400">4 ~ 6 🪙</td>
-                            <td class="py-3 px-4 text-slate-300">日本蘭壽金魚、黃三角倒吊、台灣高山鯝魚</td>
+                            <td class="py-3 px-4 text-slate-300" data-i18n="g027">日本蘭壽金魚、黃三角倒吊、台灣高山鯝魚</td>
                         </tr>
                         <tr>
-                            <td class="py-3 px-4 font-bold text-purple-400">🟪 史詩 (Epic)</td>
-                            <td class="py-3 px-4 text-slate-400">6,000 ~ 12,000 步</td>
+                            <td class="py-3 px-4 font-bold text-purple-400" data-i18n="g028">🟪 史詩 (Epic)</td>
+                            <td class="py-3 px-4 text-slate-400" data-i18n="g029">6,000 ~ 12,000 步</td>
                             <td class="py-3 px-4 text-cyan-400">5 ~ 8 🪙</td>
-                            <td class="py-3 px-4 text-slate-300">日本丹頂錦鯉、墨黑水泡眼、白金雙尾鬥魚、黑帝王魟</td>
+                            <td class="py-3 px-4 text-slate-300" data-i18n="g030">日本丹頂錦鯉、墨黑水泡眼、白金雙尾鬥魚、黑帝王魟</td>
                         </tr>
                         <tr>
-                            <td class="py-3 px-4 font-bold text-amber-400">🟧 傳說 (Legendary)</td>
-                            <td class="py-3 px-4 text-slate-400">15,000 ~ 30,000 步</td>
+                            <td class="py-3 px-4 font-bold text-amber-400" data-i18n="g031">🟧 傳說 (Legendary)</td>
+                            <td class="py-3 px-4 text-slate-400" data-i18n="g032">15,000 ~ 30,000 步</td>
                             <td class="py-3 px-4 text-cyan-400">7 ~ 11 🪙</td>
-                            <td class="py-3 px-4 text-slate-300">北溟巨鯤、滅世巨齒鯊、白堊紀滄龍、耶夢加得</td>
+                            <td class="py-3 px-4 text-slate-300" data-i18n="g033">北溟巨鯤、滅世巨齒鯊、白堊紀滄龍、耶夢加得</td>
                         </tr>
                     </tbody>
                 </table>
@@ -187,7 +154,7 @@
             <div class="absolute -top-12 -left-12 w-48 h-48 bg-amber-500/10 rounded-full blur-3xl"></div>
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-sm">03</span>
-                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2" data-i18n="g034">
                     🫧 泡泡金幣與愛心能量：怎麼拿、拿多快
                 </h2>
             </div>
@@ -197,10 +164,10 @@
                     <i class="fa-solid fa-circle-info"></i> 一句話講完：魚一直在產幣，你怎麼玩都一樣
                 </div>
                 <p class="text-sm text-slate-300 leading-relaxed">
-                    你的魚以一個固定速率持續生產泡泡金幣，<span class="text-white font-semibold">不管你有沒有開著 App</span>。
+                    你的魚以一個固定速率持續生產泡泡金幣，<span class="text-white font-semibold" data-i18n="g035">不管你有沒有開著 App</span>。
                     開著的時候，產出會即時變成水面上的泡泡讓你點；關掉的時候就先累積起來，
                     下次回來一次變成一批泡泡等你收。
-                    <span class="text-cyan-300">同一份產出，只是兩種呈現方式</span> ——
+                    <span class="text-cyan-300" data-i18n="g036">同一份產出，只是兩種呈現方式</span> ——
                     所以「一直盯著螢幕」不會比「睡一覺再回來」賺得多，你可以放心去過生活。
                 </p>
             </div>
@@ -208,73 +175,73 @@
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
                 <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
                     <div class="text-2xl mb-2">⚙️</div>
-                    <div class="font-bold text-white mb-1 text-sm">產幣速率怎麼算</div>
-                    <div class="text-xs text-slate-400 leading-relaxed">把缸裡每隻魚的「單魚產能」加起來，就是這座缸的總產能。魚越多、越稀有，產得越快。</div>
+                    <div class="font-bold text-white mb-1 text-sm" data-i18n="g037">產幣速率怎麼算</div>
+                    <div class="text-xs text-slate-400 leading-relaxed" data-i18n="g038">把缸裡每隻魚的「單魚產能」加起來，就是這座缸的總產能。魚越多、越稀有，產得越快。</div>
                 </div>
                 <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
                     <div class="text-2xl mb-2">📉</div>
-                    <div class="font-bold text-white mb-1 text-sm">成長是遞減的</div>
-                    <div class="text-xs text-slate-400 leading-relaxed">產能翻倍時收益不會跟著翻倍，而是漲得慢一些。收藏稀有魚一定有回報，但不會讓遊戲失去節奏。</div>
+                    <div class="font-bold text-white mb-1 text-sm" data-i18n="g039">成長是遞減的</div>
+                    <div class="text-xs text-slate-400 leading-relaxed" data-i18n="g040">產能翻倍時收益不會跟著翻倍，而是漲得慢一些。收藏稀有魚一定有回報，但不會讓遊戲失去節奏。</div>
                 </div>
                 <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
                     <div class="text-2xl mb-2">⏳</div>
-                    <div class="font-bold text-white mb-1 text-sm">累積上限 12 小時</div>
-                    <div class="text-xs text-slate-400 leading-relaxed">離開超過 12 小時就不再累積。一天回來看一兩次就能拿滿，不必掐時間。</div>
+                    <div class="font-bold text-white mb-1 text-sm" data-i18n="g041">累積上限 12 小時</div>
+                    <div class="text-xs text-slate-400 leading-relaxed" data-i18n="g042">離開超過 12 小時就不再累積。一天回來看一兩次就能拿滿，不必掐時間。</div>
                 </div>
             </div>
 
             <div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-800 mb-8">
-                <div class="font-bold text-white mb-3 text-sm">📊 各階段大概能拿多少</div>
+                <div class="font-bold text-white mb-3 text-sm" data-i18n="g043">📊 各階段大概能拿多少</div>
                 <div class="overflow-x-auto">
                     <table class="w-full text-left text-xs sm:text-sm">
                         <thead>
                             <tr class="border-b border-slate-800 text-slate-400 text-xs uppercase tracking-wider">
-                                <th class="py-2 px-3">魚缸狀態</th>
-                                <th class="py-2 px-3">總產能</th>
-                                <th class="py-2 px-3">睡 8 小時</th>
-                                <th class="py-2 px-3">一整天</th>
-                                <th class="py-2 px-3">多久冒一顆泡泡</th>
+                                <th class="py-2 px-3" data-i18n="g044">魚缸狀態</th>
+                                <th class="py-2 px-3" data-i18n="g045">總產能</th>
+                                <th class="py-2 px-3" data-i18n="g046">睡 8 小時</th>
+                                <th class="py-2 px-3" data-i18n="g047">一整天</th>
+                                <th class="py-2 px-3" data-i18n="g048">多久冒一顆泡泡</th>
                             </tr>
                         </thead>
                         <tbody class="divide-y divide-slate-800/60 font-mono text-xs">
-                            <tr><td class="py-2 px-3 text-slate-300">剛開始 · 2 隻起始魚</td><td class="py-2 px-3 text-slate-400">6</td><td class="py-2 px-3 text-amber-400">188 🫧</td><td class="py-2 px-3 text-amber-400">564 🫧</td><td class="py-2 px-3 text-slate-400">約 8 分鐘</td></tr>
-                            <tr><td class="py-2 px-3 text-slate-300">第 1 週 · 4 隻</td><td class="py-2 px-3 text-slate-400">13</td><td class="py-2 px-3 text-amber-400">349 🫧</td><td class="py-2 px-3 text-amber-400">1,046 🫧</td><td class="py-2 px-3 text-slate-400">約 4.5 分鐘</td></tr>
-                            <tr><td class="py-2 px-3 text-slate-300">第 2 週 · 6 隻</td><td class="py-2 px-3 text-slate-400">22</td><td class="py-2 px-3 text-amber-400">531 🫧</td><td class="py-2 px-3 text-amber-400">1,593 🫧</td><td class="py-2 px-3 text-slate-400">約 3.5 分鐘</td></tr>
-                            <tr><td class="py-2 px-3 text-slate-300">約 1 個月 · 8 隻</td><td class="py-2 px-3 text-slate-400">31</td><td class="py-2 px-3 text-amber-400">699 🫧</td><td class="py-2 px-3 text-amber-400">2,096 🫧</td><td class="py-2 px-3 text-slate-400">約 3 分鐘</td></tr>
-                            <tr><td class="py-2 px-3 text-slate-300">中後期 · 12 隻</td><td class="py-2 px-3 text-slate-400">56</td><td class="py-2 px-3 text-amber-400">1,114 🫧</td><td class="py-2 px-3 text-amber-400">3,341 🫧</td><td class="py-2 px-3 text-slate-400">約 2 分鐘</td></tr>
-                            <tr><td class="py-2 px-3 text-slate-300">滿編 16 隻 · 混養</td><td class="py-2 px-3 text-slate-400">74</td><td class="py-2 px-3 text-amber-400">1,402 🫧</td><td class="py-2 px-3 text-amber-400">4,205 🫧</td><td class="py-2 px-3 text-slate-400">約 2 分鐘</td></tr>
-                            <tr><td class="py-2 px-3 text-amber-300">滿編 16 隻 · 全傳說</td><td class="py-2 px-3 text-slate-400">144</td><td class="py-2 px-3 text-amber-400">2,388 🫧</td><td class="py-2 px-3 text-amber-400">7,163 🫧</td><td class="py-2 px-3 text-slate-400">約 2 分鐘</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300" data-i18n="g049">剛開始 · 2 隻起始魚</td><td class="py-2 px-3 text-slate-400">6</td><td class="py-2 px-3 text-amber-400">188 🫧</td><td class="py-2 px-3 text-amber-400">564 🫧</td><td class="py-2 px-3 text-slate-400" data-i18n="g050">約 8 分鐘</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300" data-i18n="g051">第 1 週 · 4 隻</td><td class="py-2 px-3 text-slate-400">13</td><td class="py-2 px-3 text-amber-400">349 🫧</td><td class="py-2 px-3 text-amber-400">1,046 🫧</td><td class="py-2 px-3 text-slate-400" data-i18n="g052">約 4.5 分鐘</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300" data-i18n="g053">第 2 週 · 6 隻</td><td class="py-2 px-3 text-slate-400">22</td><td class="py-2 px-3 text-amber-400">531 🫧</td><td class="py-2 px-3 text-amber-400">1,593 🫧</td><td class="py-2 px-3 text-slate-400" data-i18n="g054">約 3.5 分鐘</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300" data-i18n="g055">約 1 個月 · 8 隻</td><td class="py-2 px-3 text-slate-400">31</td><td class="py-2 px-3 text-amber-400">699 🫧</td><td class="py-2 px-3 text-amber-400">2,096 🫧</td><td class="py-2 px-3 text-slate-400" data-i18n="g056">約 3 分鐘</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300" data-i18n="g057">中後期 · 12 隻</td><td class="py-2 px-3 text-slate-400">56</td><td class="py-2 px-3 text-amber-400">1,114 🫧</td><td class="py-2 px-3 text-amber-400">3,341 🫧</td><td class="py-2 px-3 text-slate-400" data-i18n="g058">約 2 分鐘</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300" data-i18n="g059">滿編 16 隻 · 混養</td><td class="py-2 px-3 text-slate-400">74</td><td class="py-2 px-3 text-amber-400">1,402 🫧</td><td class="py-2 px-3 text-amber-400">4,205 🫧</td><td class="py-2 px-3 text-slate-400" data-i18n="g060">約 2 分鐘</td></tr>
+                            <tr><td class="py-2 px-3 text-amber-300" data-i18n="g061">滿編 16 隻 · 全傳說</td><td class="py-2 px-3 text-slate-400">144</td><td class="py-2 px-3 text-amber-400">2,388 🫧</td><td class="py-2 px-3 text-amber-400">7,163 🫧</td><td class="py-2 px-3 text-slate-400" data-i18n="g062">約 2 分鐘</td></tr>
                         </tbody>
                     </table>
                 </div>
-                <p class="text-[11px] text-slate-500 mt-3 leading-relaxed">
+                <p class="text-[11px] text-slate-500 mt-3 leading-relaxed" data-i18n="g063">
                     「一整天」是指一天回來看至少兩次的情況。多開幾座魚缸也會一起產幣，
                     目前正在看的那一缸算全額，其他缸算一半。Pro 買斷版的產幣速率額外 +25%。
                 </p>
             </div>
 
             <div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-800 mb-8">
-                <div class="font-bold text-white mb-3 text-sm">🎯 換算成「要存幾天」</div>
+                <div class="font-bold text-white mb-3 text-sm" data-i18n="g064">🎯 換算成「要存幾天」</div>
                 <div class="overflow-x-auto">
                     <table class="w-full text-left text-xs sm:text-sm">
                         <thead>
                             <tr class="border-b border-slate-800 text-slate-400 text-xs uppercase tracking-wider">
-                                <th class="py-2 px-3">想買的東西</th>
-                                <th class="py-2 px-3">價格</th>
-                                <th class="py-2 px-3">剛開始</th>
-                                <th class="py-2 px-3">約 1 個月</th>
-                                <th class="py-2 px-3">滿編魚缸</th>
+                                <th class="py-2 px-3" data-i18n="g065">想買的東西</th>
+                                <th class="py-2 px-3" data-i18n="g066">價格</th>
+                                <th class="py-2 px-3" data-i18n="g067">剛開始</th>
+                                <th class="py-2 px-3" data-i18n="g068">約 1 個月</th>
+                                <th class="py-2 px-3" data-i18n="g069">滿編魚缸</th>
                             </tr>
                         </thead>
                         <tbody class="divide-y divide-slate-800/60 font-mono text-xs">
-                            <tr><td class="py-2 px-3 text-slate-300">普通飾品</td><td class="py-2 px-3 text-slate-400">180</td><td class="py-2 px-3 text-emerald-400">0.3 天</td><td class="py-2 px-3 text-emerald-400">當天</td><td class="py-2 px-3 text-emerald-400">當天</td></tr>
-                            <tr><td class="py-2 px-3 text-slate-300">第 1 次擴建魚缸</td><td class="py-2 px-3 text-slate-400">500</td><td class="py-2 px-3 text-emerald-400">0.9 天</td><td class="py-2 px-3 text-emerald-400">0.2 天</td><td class="py-2 px-3 text-emerald-400">當天</td></tr>
-                            <tr><td class="py-2 px-3 text-slate-300">擴充飼料罐</td><td class="py-2 px-3 text-slate-400">900</td><td class="py-2 px-3 text-cyan-400">1.6 天</td><td class="py-2 px-3 text-emerald-400">0.4 天</td><td class="py-2 px-3 text-emerald-400">0.2 天</td></tr>
-                            <tr><td class="py-2 px-3 text-slate-300">魚隻進化 I → II</td><td class="py-2 px-3 text-slate-400">1,200</td><td class="py-2 px-3 text-cyan-400">2.1 天</td><td class="py-2 px-3 text-emerald-400">0.6 天</td><td class="py-2 px-3 text-emerald-400">0.3 天</td></tr>
-                            <tr><td class="py-2 px-3 text-slate-300">稀有飾品</td><td class="py-2 px-3 text-slate-400">2,300</td><td class="py-2 px-3 text-cyan-400">4.1 天</td><td class="py-2 px-3 text-cyan-400">1.1 天</td><td class="py-2 px-3 text-emerald-400">0.5 天</td></tr>
-                            <tr><td class="py-2 px-3 text-slate-300">開闢第 2 座魚缸</td><td class="py-2 px-3 text-slate-400">3,600</td><td class="py-2 px-3 text-cyan-400">6.4 天</td><td class="py-2 px-3 text-cyan-400">1.7 天</td><td class="py-2 px-3 text-emerald-400">0.9 天</td></tr>
-                            <tr><td class="py-2 px-3 text-slate-300">史詩飾品</td><td class="py-2 px-3 text-slate-400">7,500</td><td class="py-2 px-3 text-amber-400">13 天</td><td class="py-2 px-3 text-cyan-400">3.6 天</td><td class="py-2 px-3 text-cyan-400">1.8 天</td></tr>
-                            <tr><td class="py-2 px-3 text-slate-300">傳說飾品</td><td class="py-2 px-3 text-slate-400">16,888</td><td class="py-2 px-3 text-amber-400">30 天</td><td class="py-2 px-3 text-amber-400">8.1 天</td><td class="py-2 px-3 text-cyan-400">4.0 天</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300" data-i18n="g070">普通飾品</td><td class="py-2 px-3 text-slate-400">180</td><td class="py-2 px-3 text-emerald-400" data-i18n="g071">0.3 天</td><td class="py-2 px-3 text-emerald-400" data-i18n="g072">當天</td><td class="py-2 px-3 text-emerald-400" data-i18n="g073">當天</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300" data-i18n="g074">第 1 次擴建魚缸</td><td class="py-2 px-3 text-slate-400">500</td><td class="py-2 px-3 text-emerald-400" data-i18n="g075">0.9 天</td><td class="py-2 px-3 text-emerald-400" data-i18n="g076">0.2 天</td><td class="py-2 px-3 text-emerald-400" data-i18n="g077">當天</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300" data-i18n="g078">擴充飼料罐</td><td class="py-2 px-3 text-slate-400">900</td><td class="py-2 px-3 text-cyan-400" data-i18n="g079">1.6 天</td><td class="py-2 px-3 text-emerald-400" data-i18n="g080">0.4 天</td><td class="py-2 px-3 text-emerald-400" data-i18n="g081">0.2 天</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300" data-i18n="g082">魚隻進化 I → II</td><td class="py-2 px-3 text-slate-400">1,200</td><td class="py-2 px-3 text-cyan-400" data-i18n="g083">2.1 天</td><td class="py-2 px-3 text-emerald-400" data-i18n="g084">0.6 天</td><td class="py-2 px-3 text-emerald-400" data-i18n="g085">0.3 天</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300" data-i18n="g086">稀有飾品</td><td class="py-2 px-3 text-slate-400">2,300</td><td class="py-2 px-3 text-cyan-400" data-i18n="g087">4.1 天</td><td class="py-2 px-3 text-cyan-400" data-i18n="g088">1.1 天</td><td class="py-2 px-3 text-emerald-400" data-i18n="g089">0.5 天</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300" data-i18n="g090">開闢第 2 座魚缸</td><td class="py-2 px-3 text-slate-400">3,600</td><td class="py-2 px-3 text-cyan-400" data-i18n="g091">6.4 天</td><td class="py-2 px-3 text-cyan-400" data-i18n="g092">1.7 天</td><td class="py-2 px-3 text-emerald-400" data-i18n="g093">0.9 天</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300" data-i18n="g094">史詩飾品</td><td class="py-2 px-3 text-slate-400">7,500</td><td class="py-2 px-3 text-amber-400" data-i18n="g095">13 天</td><td class="py-2 px-3 text-cyan-400" data-i18n="g096">3.6 天</td><td class="py-2 px-3 text-cyan-400" data-i18n="g097">1.8 天</td></tr>
+                            <tr><td class="py-2 px-3 text-slate-300" data-i18n="g098">傳說飾品</td><td class="py-2 px-3 text-slate-400">16,888</td><td class="py-2 px-3 text-amber-400" data-i18n="g099">30 天</td><td class="py-2 px-3 text-amber-400" data-i18n="g100">8.1 天</td><td class="py-2 px-3 text-cyan-400" data-i18n="g101">4.0 天</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -283,63 +250,63 @@
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
                 <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
                     <div class="text-2xl mb-2">🎧</div>
-                    <div class="font-bold text-white mb-1 text-sm">專注番茄鐘</div>
-                    <div class="text-xs text-slate-400">完成一次 +15 🫧 與 +25 主人經驗。計時走真實時鐘，關掉畫面去做事也照樣在跑。這筆是額外的，不吃魚缸的產出。</div>
+                    <div class="font-bold text-white mb-1 text-sm" data-i18n="g102">專注番茄鐘</div>
+                    <div class="text-xs text-slate-400" data-i18n="g103">完成一次 +15 🫧 與 +25 主人經驗。計時走真實時鐘，關掉畫面去做事也照樣在跑。這筆是額外的，不吃魚缸的產出。</div>
                 </div>
                 <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
                     <div class="text-2xl mb-2">🌊</div>
-                    <div class="font-bold text-white mb-1 text-sm">放生回大海</div>
-                    <div class="text-xs text-slate-400">依稀有度與進化階段換回泡泡幣，幼魚折半。捨不得的魚記得先點右上角星星鎖起來，鎖住就放生不掉。</div>
+                    <div class="font-bold text-white mb-1 text-sm" data-i18n="g104">放生回大海</div>
+                    <div class="text-xs text-slate-400" data-i18n="g105">依稀有度與進化階段換回泡泡幣，幼魚折半。捨不得的魚記得先點右上角星星鎖起來，鎖住就放生不掉。</div>
                 </div>
                 <div class="bg-slate-900/80 rounded-2xl p-5 border border-slate-800">
                     <div class="text-2xl mb-2">🥫</div>
-                    <div class="font-bold text-white mb-1 text-sm">飼料是有限的</div>
-                    <div class="text-xs text-slate-400">飼料罐每 20 分鐘回填 1 格，可在工坊花錢永久擴充。餵魚給的是經驗值不是金幣。</div>
+                    <div class="font-bold text-white mb-1 text-sm" data-i18n="g106">飼料是有限的</div>
+                    <div class="text-xs text-slate-400" data-i18n="g107">飼料罐每 20 分鐘回填 1 格，可在工坊花錢永久擴充。餵魚給的是經驗值不是金幣。</div>
                 </div>
             </div>
 
             <div class="flex items-center gap-3 mb-4 pt-2">
-                <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                <h3 class="text-lg font-bold text-white flex items-center gap-2" data-i18n="g108">
                     ❤️ 愛心能量：繁育專用的另一種資源
                 </h3>
             </div>
             <p class="text-slate-300 leading-relaxed mb-4 text-sm">
-                愛心能量跟泡泡幣是<span class="text-rose-400 font-semibold">兩套獨立的資源</span>，買不到、也換不來，只能靠跟魚互動累積。它唯一的用途是基因繁育。
+                愛心能量跟泡泡幣是<span class="text-rose-400 font-semibold" data-i18n="g109">兩套獨立的資源</span>，買不到、也換不來，只能靠跟魚互動累積。它唯一的用途是基因繁育。
             </p>
             <div class="overflow-x-auto">
                 <table class="w-full text-left text-sm">
                     <thead>
                         <tr class="border-b border-slate-800 text-slate-400 text-xs uppercase tracking-wider">
-                            <th class="py-3 px-4">來源 / 用途</th>
-                            <th class="py-3 px-4">數量</th>
-                            <th class="py-3 px-4">限制</th>
+                            <th class="py-3 px-4" data-i18n="g110">來源 / 用途</th>
+                            <th class="py-3 px-4" data-i18n="g111">數量</th>
+                            <th class="py-3 px-4" data-i18n="g112">限制</th>
                         </tr>
                     </thead>
                     <tbody class="divide-y divide-slate-800/60 text-xs sm:text-sm">
                         <tr>
-                            <td class="py-3 px-4 text-slate-300">👆 撫摸魚（點一下魚）</td>
+                            <td class="py-3 px-4 text-slate-300" data-i18n="g113">👆 撫摸魚（點一下魚）</td>
                             <td class="py-3 px-4 font-mono text-rose-400">+2 ❤️</td>
-                            <td class="py-3 px-4 text-slate-400">每隻魚每天只算 3 次，兩次之間要隔 15 秒</td>
+                            <td class="py-3 px-4 text-slate-400" data-i18n="g114">每隻魚每天只算 3 次，兩次之間要隔 15 秒</td>
                         </tr>
                         <tr>
-                            <td class="py-3 px-4 text-slate-300">🥚 孵化出新魚</td>
+                            <td class="py-3 px-4 text-slate-300" data-i18n="g115">🥚 孵化出新魚</td>
                             <td class="py-3 px-4 font-mono text-rose-400">+30 ❤️</td>
-                            <td class="py-3 px-4 text-slate-400">走路累積步數推進魚卵，破殼時一次入帳</td>
+                            <td class="py-3 px-4 text-slate-400" data-i18n="g116">走路累積步數推進魚卵，破殼時一次入帳</td>
                         </tr>
                         <tr>
-                            <td class="py-3 px-4 text-slate-300">🧬 基因繁育一次</td>
+                            <td class="py-3 px-4 text-slate-300" data-i18n="g117">🧬 基因繁育一次</td>
                             <td class="py-3 px-4 font-mono text-cyan-400">−50 ❤️</td>
-                            <td class="py-3 px-4 text-slate-400">不足 50 就不能配種</td>
+                            <td class="py-3 px-4 text-slate-400" data-i18n="g118">不足 50 就不能配種</td>
                         </tr>
                         <tr>
-                            <td class="py-3 px-4 text-slate-300">🔝 愛心能量上限</td>
+                            <td class="py-3 px-4 text-slate-300" data-i18n="g119">🔝 愛心能量上限</td>
                             <td class="py-3 px-4 font-mono text-amber-400">500 ❤️</td>
-                            <td class="py-3 px-4 text-slate-400">滿了就別再累積，先拿去繁育</td>
+                            <td class="py-3 px-4 text-slate-400" data-i18n="g120">滿了就別再累積，先拿去繁育</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="text-[11px] text-slate-500 mt-4 leading-relaxed">
+            <p class="text-[11px] text-slate-500 mt-4 leading-relaxed" data-i18n="g121">
                 換算一下：養 5 隻魚、每天全部摸滿，就是 5 × 3 × 2 = 30 ❤️／天，大約每兩天可以繁育一次。
                 想加快就多養幾隻，或多走路孵蛋（每顆蛋 +30 ❤️ 等於一次半的撫摸日常）。
             </p>
@@ -348,12 +315,12 @@
         <section id="ch-breeding" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-pink-500/20 text-pink-400 flex items-center justify-center font-bold text-sm">04</span>
-                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2" data-i18n="g122">
                     🧬 基因繁育突變實驗室指南
                 </h2>
             </div>
             
-            <p class="text-slate-300 leading-relaxed mb-6">
+            <p class="text-slate-300 leading-relaxed mb-6" data-i18n="g123">
                 進入【工坊】分頁的「基因繁育室」，您可以選定水族箱中的兩隻成熟種魚進行人工繁育：
             </p>
 
@@ -361,15 +328,15 @@
                 <div class="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 flex items-start gap-4">
                     <div class="text-xl text-pink-400 mt-1"><i class="fa-solid fa-crown"></i></div>
                     <div>
-                        <div class="font-bold text-white">成熟種魚條件</div>
-                        <div class="text-xs text-slate-400 mt-1">只有成長階段達到「成年（👑）」且愛心飽食度充足的魚隻，才能作為親代進入繁育艙。</div>
+                        <div class="font-bold text-white" data-i18n="g124">成熟種魚條件</div>
+                        <div class="text-xs text-slate-400 mt-1" data-i18n="g125">只有成長階段達到「成年（👑）」且愛心飽食度充足的魚隻，才能作為親代進入繁育艙。</div>
                     </div>
                 </div>
                 <div class="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 flex items-start gap-4">
                     <div class="text-xl text-cyan-400 mt-1"><i class="fa-solid fa-flask"></i></div>
                     <div>
-                        <div class="font-bold text-white">隱性突變配方</div>
-                        <div class="text-xs text-slate-400 mt-1">特定親代組合會觸發基因突變！例如：<span class="text-cyan-300">日光燈魚 + 寶蓮燈</span> 突變為 <span class="text-purple-300">白金帝王燈</span>；<span class="text-cyan-300">日本紅白錦鯉 + 烏鯉</span> 突變為 <span class="text-amber-300">昭和三色錦鯉</span>。</div>
+                        <div class="font-bold text-white" data-i18n="g126">隱性突變配方</div>
+                        <div class="text-xs text-slate-400 mt-1">特定親代組合會觸發基因突變！例如：<span class="text-cyan-300" data-i18n="g127">日光燈魚 + 寶蓮燈</span> 突變為 <span class="text-purple-300" data-i18n="g128">白金帝王燈</span>；<span class="text-cyan-300" data-i18n="g129">日本紅白錦鯉 + 烏鯉</span> 突變為 <span class="text-amber-300" data-i18n="g130">昭和三色錦鯉</span>。</div>
                     </div>
                 </div>
             </div>
@@ -379,7 +346,7 @@
         <section id="ch-expand" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-sm">05</span>
-                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2" data-i18n="g131">
                     🏺 飼育員等級成長、魚缸擴建與 7 大水底造景
                 </h2>
             </div>
@@ -394,12 +361,12 @@
                         <i class="fa-solid fa-crown text-yellow-400"></i> 等級特權與升級里程碑
                     </div>
                     <div class="text-xs text-slate-400 leading-relaxed space-y-1">
-                        <div>• <strong>升級豐厚反饋</strong>：全螢幕光環祝賀彈窗、<code>Level × 100 🫧</code> 泡泡金幣紅包、飼料罐立即全滿回填。</div>
+                        <div>• <strong data-i18n="g132">升級豐厚反饋</strong>：全螢幕光環祝賀彈窗、<code>Level × 100 🫧</code> 泡泡金幣紅包、飼料罐立即全滿回填。</div>
                         <div>• <strong>Lv.2</strong>：解鎖第 2 座魚缸【🌊 深海幽境缸】、魚缸擴建至 10 隻、飼料罐擴容至 9 格。</div>
                         <div>• <strong>Lv.3</strong>：解鎖第 3 座魚缸【🎍 和風庭園缸】、魚缸擴建至 12 隻、飼料罐擴容至 13 格。</div>
                         <div>• <strong>Lv.4</strong>：解鎖第 4 座魚缸【⚡️ 賽博霓虹缸】、魚缸擴建至 14 隻、飼料罐擴容至 17 格。</div>
-                        <div>• <strong>Lv.5</strong>：魚缸擴建至 <strong>16 隻（頂峰滿編）</strong>、飼料罐擴容至 21 格。</div>
-                        <div>• <strong>Lv.6+</strong>：飼料罐擴容至 <strong>25 格（終極滿罐）</strong>，提升小魚稀有突變機率。</div>
+                        <div>• <strong>Lv.5</strong>：魚缸擴建至 <strong data-i18n="g133">16 隻（頂峰滿編）</strong>、飼料罐擴容至 21 格。</div>
+                        <div>• <strong>Lv.6+</strong>：飼料罐擴容至 <strong data-i18n="g134">25 格（終極滿罐）</strong>，提升小魚稀有突變機率。</div>
                     </div>
                 </div>
                 <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800">
@@ -407,13 +374,13 @@
                         <i class="fa-solid fa-water text-cyan-400"></i> 7 大水底造景主題工坊
                     </div>
                     <div class="text-xs text-slate-400 leading-relaxed space-y-1">
-                        <div>• 🏖️ <strong>熱帶水草缸</strong>：翠綠靈動，日光透澈。</div>
-                        <div>• 🌊 <strong>深海幽境缸</strong>：湛藍幽邃，浮游微光。</div>
-                        <div>• 🎍 <strong>和風庭園缸</strong>：禪意清幽，竹影潺潺。</div>
-                        <div>• ⚡️ <strong>賽博霓虹缸</strong>：未來電幻，霓虹波光。</div>
-                        <div>• 🌌 <strong>銀河星雲缸</strong>：星際深邃，宇宙塵埃。</div>
-                        <div>• 🖤 <strong>曜石極簡缸</strong>：黑曜純粹，尊榮沉穩。</div>
-                        <div>• 🌸 <strong>櫻吹雪和風缸</strong>：落櫻繽紛，春意盎然。</div>
+                        <div>• 🏖️ <strong data-i18n="g135">熱帶水草缸</strong>：翠綠靈動，日光透澈。</div>
+                        <div>• 🌊 <strong data-i18n="g136">深海幽境缸</strong>：湛藍幽邃，浮游微光。</div>
+                        <div>• 🎍 <strong data-i18n="g137">和風庭園缸</strong>：禪意清幽，竹影潺潺。</div>
+                        <div>• ⚡️ <strong data-i18n="g138">賽博霓虹缸</strong>：未來電幻，霓虹波光。</div>
+                        <div>• 🌌 <strong data-i18n="g139">銀河星雲缸</strong>：星際深邃，宇宙塵埃。</div>
+                        <div>• 🖤 <strong data-i18n="g140">曜石極簡缸</strong>：黑曜純粹，尊榮沉穩。</div>
+                        <div>• 🌸 <strong data-i18n="g141">櫻吹雪和風缸</strong>：落櫻繽紛，春意盎然。</div>
                     </div>
                 </div>
             </div>
@@ -423,12 +390,12 @@
         <section id="ch-trade" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center font-bold text-sm">06</span>
-                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2" data-i18n="g142">
                     📡 P2P 活體小魚 ＆ 原創黑膠唱片近場交換
                 </h2>
             </div>
             
-            <p class="text-slate-300 leading-relaxed mb-6">
+            <p class="text-slate-300 leading-relaxed mb-6" data-i18n="g143">
                 不需聯網與註冊帳號！TinyAquarium 採用 Apple Multipeer Connectivity 技術，只要兩台 iPhone / iPad 靠在一起，即可透過本地 Wi-Fi 或藍牙進行點對點神魚與黑膠唱片交換。
             </p>
 
@@ -436,9 +403,9 @@
                 <div class="flex items-center gap-2 text-slate-200 font-semibold">
                     <i class="fa-solid fa-shield-halved text-emerald-400"></i> 四重直覺入口與雙向安全交割：
                 </div>
-                <div>1. <strong>全方位入口</strong>：水族箱首頁頂部 <code>[ 📡 交換 ]</code> 快捷鈕、圖鑑 <code>📡 近場交換</code> 獨立分頁、圖鑑置頂 Hero 橫幅、小魚檔案 <code>[ 📡 P2P 近場贈送給好友 ]</code> 發光按鈕。</div>
-                <div>2. <strong>活體神魚 ＆ 原創黑膠雙向贈送</strong>：挑選小魚或演算法合成的黑膠唱片。</div>
-                <div>3. <strong>原子銷毀握手</strong>：確認接收後，原物游出並銷毀，接收端破殼收下，絕無複製漏洞。</div>
+                <div>1. <strong data-i18n="g144">全方位入口</strong>：水族箱首頁頂部 <code data-i18n="g145">[ 📡 交換 ]</code> 快捷鈕、圖鑑 <code data-i18n="g146">📡 近場交換</code> 獨立分頁、圖鑑置頂 Hero 橫幅、小魚檔案 <code data-i18n="g147">[ 📡 P2P 近場贈送給好友 ]</code> 發光按鈕。</div>
+                <div>2. <strong data-i18n="g148">活體神魚 ＆ 原創黑膠雙向贈送</strong>：挑選小魚或演算法合成的黑膠唱片。</div>
+                <div>3. <strong data-i18n="g149">原子銷毀握手</strong>：確認接收後，原物游出並銷毀，接收端破殼收下，絕無複製漏洞。</div>
             </div>
         </section>
 
@@ -446,12 +413,12 @@
         <section id="ch-feeding" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-bold text-sm">07</span>
-                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2" data-i18n="g150">
                     🥫 投餵模式與水面金幣滑動採集
                 </h2>
             </div>
             
-            <p class="text-slate-300 leading-relaxed mb-6">
+            <p class="text-slate-300 leading-relaxed mb-6" data-i18n="g151">
                 雙手勢分離架構：平時滑動專注於撫摸與金幣採集，杜絕誤觸落料；主動開啟餵食模式即可精準灑餌：
             </p>
 
@@ -460,7 +427,7 @@
                     <div class="font-bold text-white mb-2 flex items-center gap-2">
                         <i class="fa-solid fa-cookie-bite text-amber-400"></i> 專屬餵食開關 ＆ 覓食 AI
                     </div>
-                    <div class="text-xs text-slate-400 leading-relaxed">
+                    <div class="text-xs text-slate-400 leading-relaxed" data-i18n="g152">
                         點擊「進入餵食模式」後，可在水面任意座標灑料，全缸小魚將加速游向飼料碎屑搶食，每吃一口獲得 +15 經驗值。
                     </div>
                 </div>
@@ -468,7 +435,7 @@
                     <div class="font-bold text-white mb-2 flex items-center gap-2">
                         <i class="fa-solid fa-hand-pointer text-cyan-400"></i> 指尖氣泡滑動連鎖收割
                     </div>
-                    <div class="text-xs text-slate-400 leading-relaxed">
+                    <div class="text-xs text-slate-400 leading-relaxed" data-i18n="g153">
                         小魚定期吐出金色氣泡浮在水面上，手指划過即可享受連續破泡收割 🪙 金幣的解壓快感。
                     </div>
                 </div>
@@ -479,12 +446,12 @@
         <section id="ch-move" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-sm">08</span>
-                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2" data-i18n="g154">
                     🚚 魚隻換缸搬家與雙重命名系統
                 </h2>
             </div>
             
-            <p class="text-slate-300 leading-relaxed mb-6">
+            <p class="text-slate-300 leading-relaxed mb-6" data-i18n="g155">
                 隨心管理您的多水族箱生態，支持魚隻與魚缸完全自由客製：
             </p>
 
@@ -492,15 +459,15 @@
                 <div class="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 flex items-start gap-4">
                     <div class="text-xl text-emerald-400 mt-1"><i class="fa-solid fa-truck-ramp-box"></i></div>
                     <div>
-                        <div class="font-bold text-white">🚚 魚隻換缸搬家</div>
-                        <div class="text-xs text-slate-400 mt-1">點擊魚隻詳情 ➔ 點擊【🚚 搬家至其他魚缸】➔ 系統自動驗證目標缸容量後即時完成原子遷入。</div>
+                        <div class="font-bold text-white" data-i18n="g156">🚚 魚隻換缸搬家</div>
+                        <div class="text-xs text-slate-400 mt-1" data-i18n="g157">點擊魚隻詳情 ➔ 點擊【🚚 搬家至其他魚缸】➔ 系統自動驗證目標缸容量後即時完成原子遷入。</div>
                     </div>
                 </div>
                 <div class="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 flex items-start gap-4">
                     <div class="text-xl text-blue-400 mt-1"><i class="fa-solid fa-pen-to-square"></i></div>
                     <div>
-                        <div class="font-bold text-white">🏷️ 魚名與魚缸自訂編輯</div>
-                        <div class="text-xs text-slate-400 mt-1">魚隻檔案頁設有【✏️ 改名】按鈕；工坊頂部卡片與水族箱管理卡片皆設有【✏️】鉛筆按鈕，隨時命名專屬水族天地。</div>
+                        <div class="font-bold text-white" data-i18n="g158">🏷️ 魚名與魚缸自訂編輯</div>
+                        <div class="text-xs text-slate-400 mt-1" data-i18n="g159">魚隻檔案頁設有【✏️ 改名】按鈕；工坊頂部卡片與水族箱管理卡片皆設有【✏️】鉛筆按鈕，隨時命名專屬水族天地。</div>
                     </div>
                 </div>
             </div>
@@ -510,12 +477,12 @@
         <section id="ch-dex" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-blue-500/20 text-blue-400 flex items-center justify-center font-bold text-sm">09</span>
-                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2" data-i18n="g160">
                     🐟 現有魚群名冊與萬種千魚圖鑑
                 </h2>
             </div>
             
-            <p class="text-slate-300 leading-relaxed mb-6">
+            <p class="text-slate-300 leading-relaxed mb-6" data-i18n="g161">
                 在【圖鑑】分頁中透過頂部切換按鈕，隨時在「物種百科圖鑑」與「現有魚群名冊」之間自由切換：
             </p>
 
@@ -524,7 +491,7 @@
                     <div class="font-bold text-white mb-2 flex items-center gap-2">
                         <i class="fa-solid fa-book text-cyan-400"></i> 📖 物種百科圖鑑
                     </div>
-                    <div class="text-xs text-slate-400 leading-relaxed">
+                    <div class="text-xs text-slate-400 leading-relaxed" data-i18n="g162">
                         展示 1,176 種魚類總收集度、未解鎖黑影剪影、水域過濾器與稀有度光暈。
                     </div>
                 </div>
@@ -532,7 +499,7 @@
                     <div class="font-bold text-white mb-2 flex items-center gap-2">
                         <i class="fa-solid fa-fish-fins text-amber-400"></i> 🐟 現有魚群名冊
                     </div>
-                    <div class="text-xs text-slate-400 leading-relaxed">
+                    <div class="text-xs text-slate-400 leading-relaxed" data-i18n="g163">
                         即時統計名下所有活體小魚總數、各缸分佈、飽食度與幸福感，點擊任意小魚可直接進入檔案管理！
                     </div>
                 </div>
@@ -543,12 +510,12 @@
         <section id="ch-zen" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center font-bold text-sm">10</span>
-                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2" data-i18n="g164">
                     🪟 全螢幕禪意展示模式 (Zen Showcase)
                 </h2>
             </div>
             
-            <p class="text-slate-300 leading-relaxed mb-6">
+            <p class="text-slate-300 leading-relaxed mb-6" data-i18n="g165">
                 頂部按鈕設有【🪟 展示】，一鍵隱藏所有 HUD 與按鈕，水族箱將全螢幕邊到邊沉浸展開，化身辦公室桌面動態療癒水族擺件。點擊螢幕任意處即可無縫喚回操作界面。
             </p>
         </section>
@@ -558,44 +525,44 @@
             <div class="absolute -top-12 -right-12 w-48 h-48 bg-amber-500/10 rounded-full blur-3xl"></div>
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-sm">11</span>
-                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2" data-i18n="g166">
                     🏆 成就系統與限定成就飾品
                 </h2>
             </div>
 
             <p class="text-slate-300 leading-relaxed mb-6">
-                共 <strong class="text-amber-300">36 條成就</strong>分四組（收集 / 行動 / 繁育進化 / 互動），全部「純被動累計、無每日重置、無失敗態」——只記錄你真實做過的事，絕不追著你跑。在「圖鑑」分頁的「🏆 成就」分頁查看進度，達成後按【領取】一次性領取 泡泡幣＋XP，已領取的會顯示「✔ 已領取」不會重複發放。
+                共 <strong class="text-amber-300" data-i18n="g167">36 條成就</strong>分四組（收集 / 行動 / 繁育進化 / 互動），全部「純被動累計、無每日重置、無失敗態」——只記錄你真實做過的事，絕不追著你跑。在「圖鑑」分頁的「🏆 成就」分頁查看進度，達成後按【領取】一次性領取 泡泡幣＋XP，已領取的會顯示「✔ 已領取」不會重複發放。
             </p>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                 <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800">
-                    <div class="font-bold text-cyan-300 mb-2">📖 收集（10 項）</div>
-                    <div class="text-xs text-slate-400 leading-relaxed">
+                    <div class="font-bold text-cyan-300 mb-2" data-i18n="g168">📖 收集（10 項）</div>
+                    <div class="text-xs text-slate-400 leading-relaxed" data-i18n="g169">
                         集齊 10 / 100 / 500 / 全 1,176 種；首次取得稀有／史詩／傳說／閃光異色魚。
                     </div>
                 </div>
                 <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800">
-                    <div class="font-bold text-cyan-300 mb-2">🤚 行動（12 項）</div>
-                    <div class="text-xs text-slate-400 leading-relaxed">
+                    <div class="font-bold text-cyan-300 mb-2" data-i18n="g170">🤚 行動（12 項）</div>
+                    <div class="text-xs text-slate-400 leading-relaxed" data-i18n="g171">
                         餵食 1 / 50 / 500 / 5000 次、專注 1 / 10 次、孵化 1 / 10 / 50 隻、撫摸 10 / 30 次、近場交換送／收 1 / 5 次、累計步數 1 萬 / 10 萬 / 50 萬、擴充飼料罐。
                     </div>
                 </div>
                 <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800">
-                    <div class="font-bold text-cyan-300 mb-2">🧬 繁育與進化（8 項）</div>
-                    <div class="text-xs text-slate-400 leading-relaxed">
+                    <div class="font-bold text-cyan-300 mb-2" data-i18n="g172">🧬 繁育與進化（8 項）</div>
+                    <div class="text-xs text-slate-400 leading-relaxed" data-i18n="g173">
                         繁育 1 / 5 / 50 / 100 次、促成突變 1 / 5 / 20 次、累計培育 100 隻、親代最高稀有度達 稀有／史詩／傳說。
                     </div>
                 </div>
                 <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800">
-                    <div class="font-bold text-cyan-300 mb-2">✨ 互動（6 項）</div>
-                    <div class="text-xs text-slate-400 leading-relaxed">
+                    <div class="font-bold text-cyan-300 mb-2" data-i18n="g174">✨ 互動（6 項）</div>
+                    <div class="text-xs text-slate-400 leading-relaxed" data-i18n="g175">
                         同時擺放 5 / 10 / 20 件造景、開闢 2 / 3 / 5 座水族箱、連續 7 天完成專注。
                     </div>
                 </div>
             </div>
 
             <div class="p-5 rounded-2xl bg-amber-500/5 border border-amber-500/30 text-amber-200/80 text-xs leading-relaxed">
-                🎖️ <strong>限定成就飾品（商城不賣，只靠成就解鎖）</strong>：集齊圖鑑送「萬魚圖鑑・收藏家勳章」、繁育 100 次送「繁育大師・基因水晶樹」、突變 20 次送「突變大師・星塵異色礁」——都會直接放進你的造景庫，可擺到魚缸裡。
+                🎖️ <strong data-i18n="g176">限定成就飾品（商城不賣，只靠成就解鎖）</strong>：集齊圖鑑送「萬魚圖鑑・收藏家勳章」、繁育 100 次送「繁育大師・基因水晶樹」、突變 20 次送「突變大師・星塵異色礁」——都會直接放進你的造景庫，可擺到魚缸裡。
             </div>
         </section>
 
@@ -603,14 +570,14 @@
         <section id="ch-muted" class="glass-card rounded-3xl p-6 sm:p-10 relative overflow-hidden">
             <div class="flex items-center gap-3 mb-6">
                 <span class="w-8 h-8 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center font-bold text-sm">12</span>
-                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                <h2 class="text-2xl font-bold text-white flex items-center gap-2" data-i18n="g177">
                     🔇 上班族預設靜音與缸底經驗條
                 </h2>
             </div>
             
             <p class="text-slate-300 leading-relaxed mb-6">
-                • <strong>上班族防社死</strong>：進入遊戲音效與白噪音預設全部關閉（Muted），主動點擊喇叭圖示才播放。<br>
-                • <strong>缸底纖細發光經驗條</strong>：經驗值移至魚缸底邊，平時極簡無文字干擾，點擊經驗條即彈出懸浮數值泡泡。
+                • <strong data-i18n="g178">上班族防社死</strong>：進入遊戲音效與白噪音預設全部關閉（Muted），主動點擊喇叭圖示才播放。<br>
+                • <strong data-i18n="g179">缸底纖細發光經驗條</strong>：經驗值移至魚缸底邊，平時極簡無文字干擾，點擊經驗條即彈出懸浮數值泡泡。
             </p>
         </section>
 
@@ -625,10 +592,77 @@
                 <span>Designed with Precision & Serenity</span>
             </div>
             <div>
-                <a href="../live/" class="text-cyan-400 hover:underline">返回 1,176 種萬魚圖鑑</a>
+                <a id="vault-footer-link" href="../live/" class="text-cyan-400 hover:underline" data-i18n="g180">返回 1,176 種萬魚圖鑑</a>
             </div>
         </div>
     </footer>
+
+
+    <!-- i18n: trilingual (zh-Hant / zh-Hans / en-US) -->
+    <script>
+    const I18N = {
+      "zh-Hant": {"g001": "指南", "g002": "口袋水族館 • 玩家手冊與玩法全攻略", "g003": "\n            TinyAquarium 養魚與繁育全攻略\n        ", "g004": "\n            透過日常健走步數孵化千種水族，掌握基因突變實驗室配方，升級擴建專屬水族箱，享受 30 FPS 低耗電治癒水聲白噪音。\n        ", "g005": "\n                    🚶‍♂️ 健走步數與魚卵孵化機制\n                ", "g006": "\n                TinyAquarium 深度整合 Apple HealthKit 與 Apple Watch，將您每日的真實行走步數轉化為魚卵的生命孵化能量。\n            ", "g007": "孵化中魚卵", "g008": "水族箱底部隨時維繫一顆進行中的魚卵，在您走路時即時推進進度。", "g009": "背景後台同步", "g010": "無需常駐開啟 App，走路步數會在每次啟動或透過 Widget 小組件自動同步累積。", "g011": "破殼滿步儀式", "g012": "步數達標後，點擊「破殼孵化」按鈕即可在 30 FPS 粒子光暈與水聲中迎來新魚！", "g013": "\n                    💎 5 階稀有度與經濟體系\n                ", "g014": "\n                遊戲採用標準的「白 &lt; 綠 &lt; 藍 &lt; 紫 &lt; 橙(金)」五級階梯，魚種越珍稀，孵化步數越高、吐出的泡泡金幣（Bubble Coins 🫧）也越豐厚：\n            ", "g015": "等級階級", "g016": "孵化步數需求", "g017": "單魚產能", "g018": "代表品種生態", "g019": "⬜ 普通 (Common)", "g020": "1,000 ~ 2,500 步", "g021": "日光燈魚、彩虹孔雀魚、小精靈鼠", "g022": "🟩 精良 (Uncommon)", "g023": "2,500 ~ 4,000 步", "g024": "紅鼻剪刀、眼斑小丑魚、荷蘭鳳凰短鯛", "g025": "🟦 稀有 (Rare)", "g026": "4,000 ~ 6,000 步", "g027": "日本蘭壽金魚、黃三角倒吊、台灣高山鯝魚", "g028": "🟪 史詩 (Epic)", "g029": "6,000 ~ 12,000 步", "g030": "日本丹頂錦鯉、墨黑水泡眼、白金雙尾鬥魚、黑帝王魟", "g031": "🟧 傳說 (Legendary)", "g032": "15,000 ~ 30,000 步", "g033": "北溟巨鯤、滅世巨齒鯊、白堊紀滄龍、耶夢加得", "g034": "\n                    🫧 泡泡金幣與愛心能量：怎麼拿、拿多快\n                ", "g035": "不管你有沒有開著 App", "g036": "同一份產出，只是兩種呈現方式", "g037": "產幣速率怎麼算", "g038": "把缸裡每隻魚的「單魚產能」加起來，就是這座缸的總產能。魚越多、越稀有，產得越快。", "g039": "成長是遞減的", "g040": "產能翻倍時收益不會跟著翻倍，而是漲得慢一些。收藏稀有魚一定有回報，但不會讓遊戲失去節奏。", "g041": "累積上限 12 小時", "g042": "離開超過 12 小時就不再累積。一天回來看一兩次就能拿滿，不必掐時間。", "g043": "📊 各階段大概能拿多少", "g044": "魚缸狀態", "g045": "總產能", "g046": "睡 8 小時", "g047": "一整天", "g048": "多久冒一顆泡泡", "g049": "剛開始 · 2 隻起始魚", "g050": "約 8 分鐘", "g051": "第 1 週 · 4 隻", "g052": "約 4.5 分鐘", "g053": "第 2 週 · 6 隻", "g054": "約 3.5 分鐘", "g055": "約 1 個月 · 8 隻", "g056": "約 3 分鐘", "g057": "中後期 · 12 隻", "g058": "約 2 分鐘", "g059": "滿編 16 隻 · 混養", "g060": "約 2 分鐘", "g061": "滿編 16 隻 · 全傳說", "g062": "約 2 分鐘", "g063": "\n                    「一整天」是指一天回來看至少兩次的情況。多開幾座魚缸也會一起產幣，\n                    目前正在看的那一缸算全額，其他缸算一半。Pro 買斷版的產幣速率額外 +25%。\n                ", "g064": "🎯 換算成「要存幾天」", "g065": "想買的東西", "g066": "價格", "g067": "剛開始", "g068": "約 1 個月", "g069": "滿編魚缸", "g070": "普通飾品", "g071": "0.3 天", "g072": "當天", "g073": "當天", "g074": "第 1 次擴建魚缸", "g075": "0.9 天", "g076": "0.2 天", "g077": "當天", "g078": "擴充飼料罐", "g079": "1.6 天", "g080": "0.4 天", "g081": "0.2 天", "g082": "魚隻進化 I → II", "g083": "2.1 天", "g084": "0.6 天", "g085": "0.3 天", "g086": "稀有飾品", "g087": "4.1 天", "g088": "1.1 天", "g089": "0.5 天", "g090": "開闢第 2 座魚缸", "g091": "6.4 天", "g092": "1.7 天", "g093": "0.9 天", "g094": "史詩飾品", "g095": "13 天", "g096": "3.6 天", "g097": "1.8 天", "g098": "傳說飾品", "g099": "30 天", "g100": "8.1 天", "g101": "4.0 天", "g102": "專注番茄鐘", "g103": "完成一次 +15 🫧 與 +25 主人經驗。計時走真實時鐘，關掉畫面去做事也照樣在跑。這筆是額外的，不吃魚缸的產出。", "g104": "放生回大海", "g105": "依稀有度與進化階段換回泡泡幣，幼魚折半。捨不得的魚記得先點右上角星星鎖起來，鎖住就放生不掉。", "g106": "飼料是有限的", "g107": "飼料罐每 20 分鐘回填 1 格，可在工坊花錢永久擴充。餵魚給的是經驗值不是金幣。", "g108": "\n                    ❤️ 愛心能量：繁育專用的另一種資源\n                ", "g109": "兩套獨立的資源", "g110": "來源 / 用途", "g111": "數量", "g112": "限制", "g113": "👆 撫摸魚（點一下魚）", "g114": "每隻魚每天只算 3 次，兩次之間要隔 15 秒", "g115": "🥚 孵化出新魚", "g116": "走路累積步數推進魚卵，破殼時一次入帳", "g117": "🧬 基因繁育一次", "g118": "不足 50 就不能配種", "g119": "🔝 愛心能量上限", "g120": "滿了就別再累積，先拿去繁育", "g121": "\n                換算一下：養 5 隻魚、每天全部摸滿，就是 5 × 3 × 2 = 30 ❤️／天，大約每兩天可以繁育一次。\n                想加快就多養幾隻，或多走路孵蛋（每顆蛋 +30 ❤️ 等於一次半的撫摸日常）。\n            ", "g122": "\n                    🧬 基因繁育突變實驗室指南\n                ", "g123": "\n                進入【工坊】分頁的「基因繁育室」，您可以選定水族箱中的兩隻成熟種魚進行人工繁育：\n            ", "g124": "成熟種魚條件", "g125": "只有成長階段達到「成年（👑）」且愛心飽食度充足的魚隻，才能作為親代進入繁育艙。", "g126": "隱性突變配方", "g127": "日光燈魚 + 寶蓮燈", "g128": "白金帝王燈", "g129": "日本紅白錦鯉 + 烏鯉", "g130": "昭和三色錦鯉", "g131": "\n                    🏺 飼育員等級成長、魚缸擴建與 7 大水底造景\n                ", "g132": "升級豐厚反饋", "g133": "16 隻（頂峰滿編）", "g134": "25 格（終極滿罐）", "g135": "熱帶水草缸", "g136": "深海幽境缸", "g137": "和風庭園缸", "g138": "賽博霓虹缸", "g139": "銀河星雲缸", "g140": "曜石極簡缸", "g141": "櫻吹雪和風缸", "g142": "\n                    📡 P2P 活體小魚 ＆ 原創黑膠唱片近場交換\n                ", "g143": "\n                不需聯網與註冊帳號！TinyAquarium 採用 Apple Multipeer Connectivity 技術，只要兩台 iPhone / iPad 靠在一起，即可透過本地 Wi-Fi 或藍牙進行點對點神魚與黑膠唱片交換。\n            ", "g144": "全方位入口", "g145": "[ 📡 交換 ]", "g146": "📡 近場交換", "g147": "[ 📡 P2P 近場贈送給好友 ]", "g148": "活體神魚 ＆ 原創黑膠雙向贈送", "g149": "原子銷毀握手", "g150": "\n                    🥫 投餵模式與水面金幣滑動採集\n                ", "g151": "\n                雙手勢分離架構：平時滑動專注於撫摸與金幣採集，杜絕誤觸落料；主動開啟餵食模式即可精準灑餌：\n            ", "g152": "\n                        點擊「進入餵食模式」後，可在水面任意座標灑料，全缸小魚將加速游向飼料碎屑搶食，每吃一口獲得 +15 經驗值。\n                    ", "g153": "\n                        小魚定期吐出金色氣泡浮在水面上，手指划過即可享受連續破泡收割 🪙 金幣的解壓快感。\n                    ", "g154": "\n                    🚚 魚隻換缸搬家與雙重命名系統\n                ", "g155": "\n                隨心管理您的多水族箱生態，支持魚隻與魚缸完全自由客製：\n            ", "g156": "🚚 魚隻換缸搬家", "g157": "點擊魚隻詳情 ➔ 點擊【🚚 搬家至其他魚缸】➔ 系統自動驗證目標缸容量後即時完成原子遷入。", "g158": "🏷️ 魚名與魚缸自訂編輯", "g159": "魚隻檔案頁設有【✏️ 改名】按鈕；工坊頂部卡片與水族箱管理卡片皆設有【✏️】鉛筆按鈕，隨時命名專屬水族天地。", "g160": "\n                    🐟 現有魚群名冊與萬種千魚圖鑑\n                ", "g161": "\n                在【圖鑑】分頁中透過頂部切換按鈕，隨時在「物種百科圖鑑」與「現有魚群名冊」之間自由切換：\n            ", "g162": "\n                        展示 1,176 種魚類總收集度、未解鎖黑影剪影、水域過濾器與稀有度光暈。\n                    ", "g163": "\n                        即時統計名下所有活體小魚總數、各缸分佈、飽食度與幸福感，點擊任意小魚可直接進入檔案管理！\n                    ", "g164": "\n                    🪟 全螢幕禪意展示模式 (Zen Showcase)\n                ", "g165": "\n                頂部按鈕設有【🪟 展示】，一鍵隱藏所有 HUD 與按鈕，水族箱將全螢幕邊到邊沉浸展開，化身辦公室桌面動態療癒水族擺件。點擊螢幕任意處即可無縫喚回操作界面。\n            ", "g166": "\n                    🏆 成就系統與限定成就飾品\n                ", "g167": "36 條成就", "g168": "📖 收集（10 項）", "g169": "\n                        集齊 10 / 100 / 500 / 全 1,176 種；首次取得稀有／史詩／傳說／閃光異色魚。\n                    ", "g170": "🤚 行動（12 項）", "g171": "\n                        餵食 1 / 50 / 500 / 5000 次、專注 1 / 10 次、孵化 1 / 10 / 50 隻、撫摸 10 / 30 次、近場交換送／收 1 / 5 次、累計步數 1 萬 / 10 萬 / 50 萬、擴充飼料罐。\n                    ", "g172": "🧬 繁育與進化（8 項）", "g173": "\n                        繁育 1 / 5 / 50 / 100 次、促成突變 1 / 5 / 20 次、累計培育 100 隻、親代最高稀有度達 稀有／史詩／傳說。\n                    ", "g174": "✨ 互動（6 項）", "g175": "\n                        同時擺放 5 / 10 / 20 件造景、開闢 2 / 3 / 5 座水族箱、連續 7 天完成專注。\n                    ", "g176": "限定成就飾品（商城不賣，只靠成就解鎖）", "g177": "\n                    🔇 上班族預設靜音與缸底經驗條\n                ", "g178": "上班族防社死", "g179": "缸底纖細發光經驗條", "g180": "返回 1,176 種萬魚圖鑑"},
+      "zh-Hans": {"g001": "指南", "g002": "口袋水族馆 • 玩家手册与玩法全攻略", "g003": "TinyAquarium 养鱼与繁育全攻略", "g004": "通过日常健走步数孵化千种水族，掌握基因突变实验室配方，升级扩建专属水族箱，享受 30 FPS 低功耗治愈水声白噪音。", "g005": "🚶‍♂️ 健走步数与鱼卵孵化机制", "g006": "TinyAquarium 深度整合 Apple HealthKit 与 Apple Watch，将您每日的真实行走步数转化为鱼卵的生命孵化能量。", "g007": "孵化中鱼卵", "g008": "水族箱底部随时维系一颗进行中的鱼卵，在您走路时实时推进进度。", "g009": "背景后台同步", "g010": "无需常驻开启 App，走路步数会在每次启动或透过 Widget 小组件自动同步累积。", "g011": "破壳满步仪式", "g012": "步数达标后，点击「破壳孵化」按钮即可在 30 FPS 粒子光晕与水声中迎来新鱼！", "g013": "💎 5 阶稀有度与经济体系", "g014": "游戏采用标准的「白 < 绿 < 蓝 < 紫 < 橙(金)」五级阶梯，鱼种越珍稀，孵化步数越高、吐出的泡泡金币（Bubble Coins 🫧）也越丰厚：", "g015": "等级阶级", "g016": "孵化步数需求", "g017": "单鱼产能", "g018": "代表品种生态", "g019": "⬜ 普通 (Common)", "g020": "1,000 ~ 2,500 步", "g021": "2 ~ 4 🪙", "g022": "日光灯鱼、彩虹孔雀鱼、小精灵鼠", "g023": "🟩 精良 (Uncommon)", "g024": "2,500 ~ 4,000 步", "g025": "3 ~ 5 🪙", "g026": "红鼻剪刀、眼斑小丑鱼、荷兰凤凰短鲷", "g027": "🟦 稀有 (Rare)", "g028": "4,000 ~ 6,000 步", "g029": "4 ~ 6 🪙", "g030": "日本兰寿金鱼、黄三角倒吊、台湾高山鲌鱼", "g031": "🟪 史诗 (Epic)", "g032": "6,000 ~ 12,000 步", "g033": "5 ~ 8 🪙", "g034": "日本丹顶锦鲤、墨黑水泡眼、白金双尾斗鱼、黑帝王魟", "g035": "🟧 传说 (Legendary)", "g036": "15,000 ~ 30,000 步", "g037": "7 ~ 11 🪙", "g038": "北溟巨鲲、灭世巨齿鲨、白垩纪沧龙、耶梦加得", "g039": "🫧 泡泡金币与爱心能量：怎么拿、拿多快", "g040": "一句话讲完：鱼一直在产币，你怎么玩都一样", "g041": "你的鱼以一个固定速率持续生产泡泡金币，<span class=\"text-white font-semibold\">不管你有没有开着 App</span>。开著的时候，产出会即时变成水面上的泡泡让你点；关掉的时候就先累积起来，下次回来一次变成一批泡泡等你收。<span class=\"text-cyan-300\">同一份产出，只是两种呈现方式</span> —— 所以「一直盯着屏幕」不会比「睡一觉再回来」赚得多，你可以放心去过生活。", "g042": "产币速率怎么算", "g043": "把缸里每只鱼的「单鱼产能」加起来，就是这座缸的总产能。鱼越多、越稀有，产得越快。", "g044": "成长是递减的", "g045": "产能翻倍时收益不会跟着翻倍，而是涨得慢一些。收藏稀有鱼一定有回报，但不会让游戏失去节奏。", "g046": "累积上限 12 小时", "g047": "离开超过 12 小时就不再累积。一天回来看一两次就能拿满，不必掐时间。", "g048": "📊 各阶段大概能拿多少", "g049": "鱼缸状态", "g050": "总产能", "g051": "睡 8 小时", "g052": "一整天", "g053": "多久冒一颗泡泡", "g054": "刚开始 · 2 只起始鱼", "g055": "第 1 周 · 4 只", "g056": "第 2 周 · 6 只", "g057": "约 1 个月 · 8 只", "g058": "中后期 · 12 只", "g059": "满编 16 只 · 混养", "g060": "满编 16 只 · 全传说", "g061": "「一整天」是指一天回来看至少两次的情况。多开几座鱼缸也会一起产币，目前正在看的那一缸算全额，其他缸算一半。Pro 买断版的产币速率额外 +25%。", "g062": "🎯 换算成「要存几天」", "g063": "想买的东西", "g064": "价格", "g065": "刚开始", "g066": "约 1 个月", "g067": "满编鱼缸", "g068": "普通饰品", "g069": "0.3 天", "g070": "当天", "g071": "第 1 次扩建鱼缸", "g072": "0.9 天", "g073": "扩展饲料罐", "g074": "1.6 天", "g075": "0.4 天", "g076": "0.2 天", "g077": "鱼只进化 I → II", "g078": "2.1 天", "g079": "0.6 天", "g080": "0.3 天", "g081": "稀有饰品", "g082": "4.1 天", "g083": "1.1 天", "g084": "0.5 天", "g085": "开辟第 2 座鱼缸", "g086": "6.4 天", "g087": "1.7 天", "g088": "0.9 天", "g089": "史诗饰品", "g090": "13 天", "g091": "3.6 天", "g092": "1.8 天", "g093": "传说饰品", "g094": "30 天", "g095": "8.1 天", "g096": "4.0 天", "g097": "专注番茄钟", "g098": "完成一次 +15 🫧 与 +25 主人经验。计时走真实时钟，关掉画面去做事也照样在跑。这笔是额外的，不吃鱼缸的产出。", "g099": "放生回大海", "g100": "依稀有度与进化阶段换回泡泡币，幼鱼折半。舍不得的鱼记得先点右上角星星锁起来，锁住就放生不掉。", "g101": "饲料是有限的", "g102": "饲料罐每 20 分钟回填 1 格，可在工坊花钱永久扩展。喂鱼给的是经验值不是金币。", "g103": "❤️ 爱心能量：繁育专用的另一种资源", "g104": "爱心能量跟泡泡币是<span class=\"text-rose-400 font-semibold\">两套独立的资源</span>，买不到、也换不来，只能靠跟鱼互动累积。它唯一的用途是基因繁育。", "g105": "来源 / 用途", "g106": "数量", "g107": "限制", "g108": "👆 抚摸鱼（点一下鱼）", "g109": "+2 ❤️", "g110": "每只鱼每天只算 3 次，两次之间要隔 15 秒", "g111": "🥚 孵化出新鱼", "g112": "+30 ❤️", "g113": "走路累积步数推进鱼卵，破壳时一次入账", "g114": "🧬 基因繁育一次", "g115": "−50 ❤️", "g116": "不足 50 就不能配种", "g117": "🔝 爱心能量上限", "g118": "500 ❤️", "g119": "满了就别再累积，先拿去繁育", "g120": "换算一下：养 5 只鱼、每天全部摸满，就是 5 × 3 × 2 = 30 ❤️／天，大约每两天可以繁育一次。想加快就多养几只，或多走路孵蛋（每颗蛋 +30 ❤️ 等于一次半的抚摸日常）。", "g121": "🧬 基因繁育突变实验室指南", "g122": "进入【工坊】分页的「基因繁育室」，您可以选定水族箱中的两只成熟种鱼进行人工繁育：", "g123": "成熟种鱼条件", "g124": "只有成长阶段达到「成年（👑）」且爱心饱食度充足的鱼只，才能作为亲代进入繁育舱。", "g125": "隐性突变配方", "g126": "特定亲代组合会触发基因突变！例如：<span class=\"text-cyan-300\">日光灯鱼 + 宝莲灯</span> 突变为 <span class=\"text-purple-300\">白金帝王灯</span>；<span class=\"text-cyan-300\">日本红白锦鲤 + 乌鲤</span> 突变为 <span class=\"text-amber-300\">昭和三色锦鲤</span>。", "g127": "🏺 饲养员等级成长、鱼缸扩建与 7 大 underwater 造景", "g128": "主人等级全域共用（<code>requiredXP = 150 + Level × 250</code>），升级享有全屏祝贺弹窗、红包与特权解锁，并可在【工坊】为水族箱升级：", "g129": "等级特权与升级里程碑", "g130": "• <strong>升级丰厚反馈</strong>：全屏光环祝贺弹窗、<code>Level × 100 🫧</code> 泡泡金币红包、饲料罐立即全满回填。", "g131": "• <strong>Lv.2</strong>：解锁第 2 座鱼缸【🌊 深海幽境缸】、鱼缸扩建至 10 只、饲料罐扩容至 9 格。", "g132": "• <strong>Lv.3</strong>：解锁第 3 座鱼缸【🎍 和风庭园缸】、鱼缸扩建至 12 只、饲料罐扩容至 13 格。", "g133": "• <strong>Lv.4</strong>：解锁第 4 座鱼缸【⚡️ 赛博霓虹缸】、鱼缸扩建至 14 只、饲料罐扩容至 17 格。", "g134": "• <strong>Lv.5</strong>：鱼缸扩建至 <strong>16 只（顶峰满编）</strong>、饲料罐扩容至 21 格。", "g135": "• <strong>Lv.6+</strong>：饲料罐扩容至 <strong>25 格（终极满罐）</strong>，提升小鱼稀有突变机率。", "g136": "7 大 underwater 造景主题工坊", "g137": "• 🏖️ <strong>热带水草缸</strong>：翠绿灵动，日光透彻。", "g138": "• 🌊 <strong>深海幽境缸</strong>：湛蓝幽邃，浮游微光。", "g139": "• 🎍 <strong>和风庭园缸</strong>：禅意清幽，竹影潺潺。", "g140": "• ⚡️ <strong>赛博霓虹缸</strong>：未来电幻，霓虹波光。", "g141": "• 🌌 <strong>银河星云缸</strong>：星际深邃，宇宙尘埃。", "g142": "• 🖤 <strong>曜石极简缸</strong>：黑曜纯粹，尊荣沉稳。", "g143": "• 🌸 <strong>樱吹雪和风缸</strong>：落樱缤纷，春意盎然。", "g144": "📡 P2P 活体小鱼 ＆ 原创黑胶唱片近场交换", "g145": "不需联网与注册账号！TinyAquarium 采用 Apple Multipeer Connectivity 技术，只要两台 iPhone / iPad 靠在一起，即可透过本地 Wi-Fi 或蓝牙进行点对点神鱼与黑胶唱片交换。", "g146": "四重直觉入口与双向安全交割：", "g147": "1. <strong>全方位入口</strong>：水族箱首页顶部 <code>[ 📡 交换 ]</code> 快捷键、图鉴 <code>📡 近场交换</code> 独立分页、图鉴置顶 Hero 横幅、小鱼档案 <code>[ 📡 P2P 近场赠送给好友 ]</code> 发光按钮。", "g148": "2. <strong>活体神鱼 ＆ 原创黑胶双向赠送</strong>：挑选小鱼或算法合成的黑胶唱片。", "g149": "3. <strong>原子销毁握手</strong>：确认接收后，原物游出并销毁，接收端破壳收下，绝无复制漏洞。", "g150": "🥫 投喂模式与水面金币滑动采集", "g151": "双手势分离架构：平时滑动专注于抚摸与金币采集，杜绝误触落料；主动开启喂食模式即可精准洒饵：", "g152": "专属喂食开关 ＆ 觅食 AI", "g153": "点击「进入喂食模式」后，可在水面任意坐标洒料，全缸小鱼将加速游向饲料碎屑抢食，每吃一口获得 +15 经验值。", "g154": "指尖气泡滑动连锁收割", "g155": "小鱼定期吐出金色气泡浮在水面上，手指划过即可享受连续破泡收割 🪙 金币的解压快感。", "g156": "🚚 鱼只换缸搬家与双重命名系统", "g157": "随心管理您的多水族箱生态，支持鱼只与鱼缸完全自由定制：", "g158": "🚚 鱼只换缸搬家", "g159": "点击鱼只详情 ➔ 点击【🚚 搬家至其他鱼缸】➔ 系统自动验证目标缸容量后即时完成原子迁入。", "g160": "🏷️ 鱼名与鱼缸自订编辑", "g161": "鱼只档案页设有【✏️ 改名】按钮；工坊顶部卡片与水族箱管理卡片皆设有【✏️】铅笔按钮，随时命名专属水族天地。", "g162": "🐟 现有鱼群名册与万种千鱼图鉴", "g163": "在【图鉴】分页中透过顶部切换按钮，随时在「物种百科图鉴」与「现有鱼群名册」之间自由切换：", "g164": "📖 物种百科图鉴", "g165": "展示 1,176 种鱼类总收集度、未解锁黑影剪影、水域过滤器与稀有度光晕。", "g166": "🐟 现有鱼群名册", "g167": "即时统计名下所有活体小鱼总数、各缸分布、饱食度与幸福感，点击任意小鱼可直接进入档案管理！", "g168": "🪟 全屏禅意展示模式 (Zen Showcase)", "g169": "顶部按钮设有【🪟 展示】，一键隐藏所有 HUD 与按钮，水族箱将全屏边到边沉浸展开，化身办公室桌面动态疗愈水族摆件。点击屏幕任意处即可无缝唤回操作界面。", "g170": "🏆 成就系统与限定成就饰品", "g171": "共 <strong class=\"text-amber-300\">36 条成就</strong>分四组（收集 / 行动 / 繁育进化 / 互动），全部「纯被动累计、无每日重置、无失败态」——只记录你真实做过的事，绝不追著你跑。在「图鉴」分页的「🏆 成就」分页查看进度，达成后按【领取】一次性领取 泡泡币＋XP，已领取的会显示「✔ 已领取」不会重复发放。", "g172": "📖 收集（10 项）", "g173": "集齐 10 / 100 / 500 / 全 1,176 种；首次取得稀有／史诗／传说／闪光异色鱼。", "g174": "🤚 行动（12 项）", "g175": "喂食 1 / 50 / 500 / 5000 次、专注 1 / 10 次、孵化 1 / 10 / 50 只、抚摸 10 / 30 次、近场交换送／收 1 / 5 次、累计步数 1 万 / 10 万 / 50 万、扩充饲料罐。", "g176": "🧬 繁育与进化（8 项）", "g177": "繁育 1 / 5 / 50 / 100 次、促成突变 1 / 5 / 20 次、累计培育 100 只、亲代最高稀有度达 稀有／史诗／传说。", "g178": "✨ 互动（6 项）", "g179": "同时摆放 5 / 10 / 20 件造景、开辟 2 / 3 / 5 座水族箱、连续 7 天完成专注。", "g180": "🎖️ <strong>限定成就饰品（商城不卖，只靠成就解锁）</strong>：集齐图鉴送「万鱼图鉴・收藏家勋章」、繁育 100 次送「繁育大师・基因水晶树」、突变 20 次送「突变大师・星尘异色礁」——都会直接放进你的造景库，可摆到鱼缸里。", "g181": "🔇 上班族预设静音与缸底经验条", "g182": "• <strong>上班族防社死</strong>：进入游戏音效与白噪音预设全部关闭（Muted），主动点击喇叭图示才播放。<br>• <strong>缸底纤细发光经验条</strong>：经验值移至鱼缸底边，平时极简无文字干扰，点击经验条即弹出悬浮数值泡泡。", "g183": "返回 1,176 种万鱼图鉴"},
+      "en-US": {"g001": "Guide", "g002": "Pocket Aquarium &middot; Player Manual & Full Gameplay Guide", "g003": "TinyAquarium &mdash; Complete Fishing &amp; Breeding Guide", "g004": "Hatch thousands of fish with your daily steps, master the genetic mutation lab recipes, upgrade and expand your tank, and enjoy 30 FPS low-power healing water sounds.", "g005": "🦾‍♂&#xFE0; Walking Steps &amp; Egg Hatching", "g006": "TinyAquarium deeply integrates Apple HealthKit and Apple Watch, converting your real daily walking steps into life-hatching energy for fish eggs.", "g007": "Egg Incubating", "g008": "A fish egg sits at the bottom of your tank, its progress advancing in real time as you walk.", "g009": "Background Sync", "g010": "No need to keep the app open. Your step count syncs automatically on each launch or via the Widget.", "g011": "Hatching Ceremony", "g012": "Once the step goal is reached, tap the \"Hatch\" button to welcome your new fish with 30 FPS particle glow and water sounds!", "g013": "💎 5-Tier Rarity &amp; Economy System", "g014": "The game uses a standard five-tier ladder: White &lt; Green &lt; Blue &lt; Purple &lt; Orange (Gold). Rarer species need more hatching steps and drop more Bubble Coins 🫧:", "g015": "Rarity Tier", "g016": "Hatching Steps Required", "g017": "Per-Fish Yield", "g018": "Representative Species", "g019": "⬜ Common", "g020": "1,000 ~ 2,500 steps", "g021": "2 ~ 4 🪙", "g022": "Neon Tetra, Rainbow Guppy, Small Ghost Shrimp", "g023": "🟩 Uncommon", "g024": "2,500 ~ 4,000 steps", "g025": "3 ~ 5 🪙", "g026": "Red-Nose Tetra, Ocellaris Clownfish, Dutch Phoenix", "g027": "🟦 Rare", "g028": "4,000 ~ 6,000 steps", "g029": "4 ~ 6 🪙", "g030": "Japanese Ranchu Goldfish, Yellow Tang, Taiwan Highland Bream", "g031": "🟪 Epic", "g032": "6,000 ~ 12,000 steps", "g033": "5 ~ 8 🪙", "g034": "Japanese Tancho Koi, Black Bubble Eye, Platinum Double-Tail Betta, Black Emperor Ray", "g035": "🟧 Legendary", "g036": "15,000 ~ 30,000 steps", "g037": "7 ~ 11 🪙", "g038": "Kun of the North Sea, World-Ending Megalodon, Cretaceous Mosasaur, Jörmungandr", "g039": "🫧 Bubble Coins &amp; Heart Energy: How to Earn, How Fast", "g040": "In one sentence: your fish keep producing coins no matter how you play", "g041": "Your fish produce Bubble Coins at a fixed rate, <span class=\"text-white font-semibold\">whether or not the app is open</span>. When it is open, output appears as bubbles on the water surface for you to pop; when it is closed, it accumulates and returns as a batch next time. <span class=\"text-cyan-300\">Same output, two different presentations</span> &mdash; so \"staring at the screen\" earns no more than \"sleeping and coming back\". Go enjoy your life.", "g042": "How Coin Rate Is Calculated", "g043": "Sum up the per-fish yield of every fish in the tank to get its total output. More fish, rarer fish, faster production.", "g044": "Growth Is Diminishing", "g045": "When output doubles, the gain does not double &mdash; it grows more slowly. Collecting rare fish always pays off, but does not break the game rhythm.", "g046": "Accumulation Cap: 12 Hours", "g047": "After 12 hours away, accumulation stops. Check in once or twice a day to collect the full amount. No need to time it.", "g048": "📊 Roughly What You Can Collect Per Stage", "g049": "Tank State", "g050": "Total Output", "g051": "Sleep 8 h", "g052": "A Full Day", "g053": "Time Per Bubble", "g054": "Start · 2 starter fish", "g055": "Week 1 · 4 fish", "g056": "Week 2 · 6 fish", "g057": "~1 month · 8 fish", "g058": "Mid-late · 12 fish", "g059": "Full 16 fish · mixed", "g060": "Full 16 fish · all Legendary", "g061": "\"A full day\" means checking in at least twice a day. Multiple tanks also produce together; the one you are viewing counts full, others count half. The Pro version gets an extra +25% coin rate.", "g062": "🎯 \"How Many Days to Save Up\"", "g063": "What You Want to Buy", "g064": "Price", "g065": "At Start", "g066": "~1 Month", "g067": "Full Tank", "g068": "Common Decor", "g069": "0.3 day", "g070": "Same day", "g071": "1st Tank Expansion", "g072": "0.9 day", "g073": "Food Jar Expansion", "g074": "1.6 days", "g075": "0.4 day", "g076": "0.2 day", "g077": "Fish Evolution I → II", "g078": "2.1 days", "g079": "0.6 day", "g080": "0.3 day", "g081": "Rare Decor", "g082": "4.1 days", "g083": "1.1 day", "g084": "0.5 day", "g085": "Open 2nd Tank", "g086": "6.4 days", "g087": "1.7 days", "g088": "0.9 day", "g089": "Epic Decor", "g090": "13 days", "g091": "3.6 days", "g092": "1.8 days", "g093": "Legendary Decor", "g094": "30 days", "g095": "8.1 days", "g096": "4.0 days", "g097": "Focus Pomodoro Timer", "g098": "Each completion: +15 🫧 and +25 owner XP. The timer runs on real time, even when the screen is off. This is extra and does not eat into tank output.", "g099": "Release Back to the Sea", "g100": "Exchange back to Bubble Coins based on rarity and evolution stage; juvenile fish pay half. If you cannot part with a fish, tap the star in the top-right corner to lock it first. Locked fish cannot be released.", "g101": "Food Is Limited", "g102": "The food jar refills 1 slot every 20 minutes and can be permanently expanded in the Workshop for coins. Feeding gives XP, not coins.", "g103": "❤️ Heart Energy: A Separate Resource for Breeding", "g104": "Heart energy and Bubble Coins are <span class=\"text-rose-400 font-semibold\">two separate resource systems</span>. You cannot buy or exchange for it; it only accumulates through fish interaction. Its only use is genetic breeding.", "g105": "Source / Use", "g106": "Amount", "g107": "Limit", "g108": "👆 Pet a fish (tap a fish)", "g109": "+2 ❤️", "g110": "Counts only 3 times per fish per day, with 15 s between taps", "g111": "🥚 Hatch a new fish", "g112": "+30 ❤️", "g113": "Walking steps advance the egg; awarded in one lump sum when it hatches", "g114": "🧬 One genetic breeding", "g115": "−50 ❤️", "g116": "Cannot breed with fewer than 50", "g117": "🔝 Heart Energy Cap", "g118": "500 ❤️", "g119": "Stop accumulating once full; spend it on breeding first", "g120": "To put it in numbers: keeping 5 fish and petting them all to the daily max gives 5 × 3 × 2 = 30 ❤️/day, roughly one breeding every two days. To go faster, keep more fish or walk more to hatch eggs (each egg +30 ❤️ equals one and a half petting sessions).", "g121": "🧬 Genetic Breeding Mutation Lab Guide", "g122": "Go to the \"Genetic Breeding Room\" in the Workshop tab and select two mature breeding fish from your tank for artificial breeding:", "g123": "Mature Breeder Requirements", "g124": "Only fish that have reached the \"Adult (👑)\" growth stage with sufficient heart satiety can serve as parents in the breeding pod.", "g125": "Hidden Mutation Recipes", "g126": "Certain parent pairs trigger genetic mutations! For example: <span class=\"text-cyan-300\">Neon Tetra + Rummy Nose</span> mutates into <span class=\"text-purple-300\">Platinum Royal Tetra</span>; <span class=\"text-cyan-300\">Japanese Kohaku Koi + Sumi Koi</span> mutates into <span class=\"text-amber-300\">Showa Sanshoku Koi</span>.", "g127": "🏺 Keeper Level Growth, Tank Expansion &amp; 7 Aquascape Themes", "g128": "Owner level is shared globally (<code>requiredXP = 150 + Level × 250</code>). Level-ups reward a full-screen celebration popup, a coin red envelope, and perk unlocks. You can also upgrade your tank in the Workshop:", "g129": "Level Perks &amp; Upgrade Milestones", "g130": "• <strong>Generous Level-Up Rewards</strong>: full-screen halo celebration popup, <code>Level × 100 🫧</code> Bubble Coin red envelope, food jar instantly refilled to full.", "g131": "• <strong>Lv.2</strong>: unlocks tank #2 [🌊 Deep Abyss Tank], tank capacity to 10 fish, food jar to 9 slots.", "g132": "• <strong>Lv.3</strong>: unlocks tank #3 [🎍 Japanese Garden Tank], tank capacity to 12 fish, food jar to 13 slots.", "g133": "• <strong>Lv.4</strong>: unlocks tank #4 [⚡️ Cyber Neon Tank], tank capacity to 14 fish, food jar to 17 slots.", "g134": "• <strong>Lv.5</strong>: tank capacity to <strong>16 fish (peak full complement)</strong>, food jar to 21 slots.", "g135": "• <strong>Lv.6+</strong>: food jar to <strong>25 slots (ultimate full jar)</strong>, increased rare mutation chance for fish.", "g136": "7 Aquascape Theme Workshop", "g137": "• 🏖️ <strong>Tropical Aquatic Plant Tank</strong>: lush green, clear sunlight.", "g138": "• 🌊 <strong>Deep Abyss Tank</strong>: deep blue, floating micro-light.", "g139": "• 🎍 <strong>Japanese Garden Tank</strong>: zen tranquility, bamboo shadows.", "g140": "• ⚡️ <strong>Cyber Neon Tank</strong>: futuristic electric dreams, neon ripples.", "g141": "• 🌌 <strong>Galaxy Nebula Tank</strong>: interstellar depth, cosmic dust.", "g142": "• 🖤 <strong>Obsidian Minimal Tank</strong>: pure obsidian black, dignified and calm.", "g143": "• 🌸 <strong>Sakura Bliz Japanese Tank</strong>: scattered cherry blossoms, spring in full bloom.", "g144": "📡 P2P Live Fish &amp; Original Vinyl Record Nearby Exchange", "g145": "No internet or account registration needed! TinyAquarium uses Apple Multipeer Connectivity. Just bring two iPhone / iPad devices close together to exchange mythical fish and vinyl records point-to-point over local Wi-Fi or Bluetooth.", "g146": "Four intuitive entry points and two-way secure handover:", "g147": "1. <strong>All-Around Entry</strong>: the <code>[ 📡 Trade ]</code> shortcut at the top of the tank home page, the <code>📡 Nearby Trade</code> dedicated tab in the encyclopedia, the pinned Hero banner in the encyclopedia, and the glowing <code>[ 📡 P2P Gift to a Friend ]</code> button on the fish file page.", "g148": "2. <strong>Two-Way Gift of Live Fish &amp; Original Vinyl</strong>: pick a fish or an algorithm-synthesized vinyl record.", "g149": "3. <strong>Atomic Destruction Handshake</strong>: once the receiver confirms, the original item swims out and is destroyed; the receiving side hatches and claims it. No duplicate-exploit loophole.", "g150": "🥫 Feeding Mode &amp; Water-Surface Coin Swipe Harvest", "g151": "Two-gesture separation: normal swipes focus on petting and coin harvesting, eliminating accidental food drops; activate feeding mode to cast bait precisely:", "g152": "Dedicated Feeding Switch &amp; Foraging AI", "g153": "After tapping \"Enter Feeding Mode\", cast food at any water-surface coordinate; all fish in the tank accelerate toward the food scraps. Each bite earns +15 XP.", "g154": "Fingertip Bubble Swipe Chain Harvest", "g155": "Fish periodically emit golden bubbles that float to the surface. Swipe your finger across them to enjoy the stress-relief joy of continuous bubble-popping coin harvest 🪙.", "g156": "🚚 Fish Tank Relocation &amp; Dual Renaming System", "g157": "Freely manage your multi-tank ecosystem. Fish and tanks are fully customizable:", "g158": "🚚 Fish Tank Relocation", "g159": "Tap a fish's details → tap [🚚 Move to Another Tank] → the system automatically verifies target tank capacity and completes an atomic migration instantly.", "g160": "🏷️ Fish &amp; Tank Custom Naming", "g161": "The fish file page has a [✏️ Rename] button; the Workshop top card and tank management card both have a [✏️] pencil button for naming your exclusive aquatic world at any time.", "g162": "🐟 Current Fish Roster &amp; 1,176-Species Encyclopedia", "g163": "In the Encyclopedia tab, use the top toggle buttons to freely switch between the \"Species Encyclopedia\" and the \"Current Fish Roster\":", "g164": "📖 Species Encyclopedia", "g165": "Shows overall collection progress for all 1,176 species, locked silhouettes, habitat filters, and rarity glows.", "g166": "🐟 Current Fish Roster", "g167": "Real-time stats of all your live fish: total count, per-tank distribution, satiety and happiness. Tap any fish to go directly to its file management!", "g168": "🪟 Full-Screen Zen Showcase Mode", "g169": "The top button has [🪟 Showcase] which hides all HUD and buttons in one tap. The tank expands full-screen edge-to-edge, becoming a dynamic therapeutic aquarium ornament for your office desk. Tap anywhere on the screen to seamlessly bring back the control interface.", "g170": "🏆 Achievement System &amp; Exclusive Achievement Decor", "g171": "<strong class=\"text-amber-300\">36 achievements</strong> in four groups (Collection / Action / Breeding &amp; Evolution / Interaction), all \"purely passive, no daily reset, no fail state\" — they only record what you actually did and never chase you. Check progress in the \"🏆 Achievements\" tab of the Encyclopedia; once achieved, tap [Claim] to receive Bubble Coins + XP in a one-time payout. Claimed achievements show \"✔ Claimed\" and are not re-issued.", "g172": "📖 Collection (10 items)", "g173": "Collect 10 / 100 / 500 / all 1,176 species; first acquisition of Rare / Epic / Legendary / Shiny-colored fish.", "g174": "🤚 Action (12 items)", "g175": "Feed 1 / 50 / 500 / 5000 times, focus 1 / 10 times, hatch 1 / 10 / 50 fish, pet 10 / 30 times, nearby trade send/receive 1 / 5 times, cumulative steps 10K / 100K / 500K, expand food jar.", "g176": "🧬 Breeding &amp; Evolution (8 items)", "g177": "Breed 1 / 5 / 50 / 100 times, cause mutation 1 / 5 / 20 times, cumulatively raise 100 fish, highest parent rarity reaches Rare / Epic / Legendary.", "g178": "✨ Interaction (6 items)", "g179": "Place 5 / 10 / 20 decor items simultaneously, open 2 / 3 / 5 tanks, complete focus for 7 consecutive days.", "g180": "🎖️ <strong>Exclusive Achievement Decor (not sold in the shop, unlocked only by achievements)</strong>: complete the encyclopedia to earn \"Fish Encyclopedia · Collector Medal\", breed 100 times to earn \"Breeding Master · Gene Crystal Tree\", cause 20 mutations to earn \"Mutation Master · Stardust Anomalous Reef\" — all go directly into your decor library and can be placed in the tank.", "g181": "🔇 Office-Worker Mute Default &amp; Tank-Bottom XP Bar", "g182": "• <strong>Office-Worker Anti-Embarrassment</strong>: in-game sound effects and white noise are muted by default; tap the speaker icon to play. <br>• <strong>Thin Glowing Tank-Bottom XP Bar</strong>: XP moves to the tank's bottom edge, minimal and text-free in normal play; tap the XP bar to pop up a floating value bubble.", "g183": "Back to the 1,176-Species Encyclopedia"}
+    };
+    let currentLang = "zh-Hant";
+    const LANGS = ["zh-Hant", "zh-Hans", "en-US"];
+    // 語系優先順序: URL ?lang= > localStorage > URL path (/en/ /zh-hant/ /zh-hans/) > 預設 zh-Hant
+    (function detectLang() {
+      const map = { en: "en-US", "en-us": "en-US", "zh-hant": "zh-Hant", "zh-hans": "zh-Hans" };
+      const q = new URLSearchParams(location.search).get("lang");
+      if (q && map[q.toLowerCase()]) { currentLang = map[q.toLowerCase()]; return; }
+      const stored = localStorage.getItem("ta_lang");
+      if (stored && LANGS.includes(stored)) { currentLang = stored; return; }
+      const m = location.pathname.match(/\/(en|zh-hant|zh-hans)\//);
+      if (m) currentLang = map[m[1]];
+    })();
+    function t(key) {
+      const dict = I18N[currentLang] || I18N["zh-Hant"];
+      return dict[key] !== undefined ? dict[key] : (I18N["zh-Hant"][key] !== undefined ? I18N["zh-Hant"][key] : key);
+    }
+    function applyAllI18n() {
+      document.querySelectorAll("[data-i18n]").forEach(el => {
+        const val = t(el.getAttribute("data-i18n"));
+        if (val) el.innerHTML = val;
+      });
+      const langMap = { "zh-Hant": "zh-TW", "zh-Hans": "zh-CN", "en-US": "en" };
+      document.documentElement.lang = langMap[currentLang] || "zh-TW";
+      document.querySelectorAll("[data-lang-btn]").forEach(btn => {
+        const active = btn.getAttribute("data-lang-btn") === currentLang;
+        btn.classList.toggle("bg-cyan-500", active);
+        btn.classList.toggle("text-slate-950", active);
+        btn.classList.toggle("font-bold", active);
+        btn.classList.toggle("text-slate-300", !active);
+        btn.classList.toggle("font-medium", !active);
+      });
+      // 依語言同步 ../live/ 連結的 ?lang= 參數
+      const langPath = currentLang === "zh-Hant" ? "zh-hant" : currentLang === "zh-Hans" ? "zh-hans" : "en";
+      ["home-link", "vault-link", "vault-footer-link"].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.href = "../live/?lang=" + langPath;
+      });
+    }
+    function setLang(lang) {
+      if (!LANGS.includes(lang)) lang = "zh-Hant";
+      currentLang = lang;
+      localStorage.setItem("ta_lang", lang);
+      try {
+        const u = new URL(location.href);
+        u.searchParams.set("lang", lang === "zh-Hant" ? "zh-hant" : lang === "zh-Hans" ? "zh-hans" : "en");
+        const langPath = lang === "zh-Hant" ? "zh-hant" : lang === "zh-Hans" ? "zh-hans" : "en";
+        const homeLink = document.getElementById("home-link");
+        if (homeLink) homeLink.href = "../live/?lang=" + langPath;
+        const vaultLink = document.getElementById("vault-link");
+        if (vaultLink) vaultLink.href = "../live/?lang=" + langPath;
+        const vaultFooter = document.getElementById("vault-footer-link");
+        if (vaultFooter) vaultFooter.href = "../live/?lang=" + langPath;
+        history.replaceState(null, "", u.toString());
+      } catch (e) {}
+      applyAllI18n();
+    }
+    window.addEventListener("DOMContentLoaded", applyAllI18n);
+    </script>
 
 </body>
 </html>
