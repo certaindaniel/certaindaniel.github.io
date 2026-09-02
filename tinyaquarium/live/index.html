@@ -147,7 +147,7 @@
                     <button onclick="setLang('zh-Hans')" data-lang-btn="zh-Hans" class="lang-btn px-2 py-1 rounded-lg font-medium text-slate-300 hover:text-white transition-all">簡中</button>
                     <button onclick="setLang('en-US')" data-lang-btn="en-US" class="lang-btn px-2 py-1 rounded-lg font-medium text-slate-300 hover:text-white transition-all">EN</button>
                 </div>
-                <a href="/zh-hant/tinyaquarium/" class="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 border border-white/15 text-xs font-semibold text-slate-200 transition-all">
+                <a id="back-link" href="/zh-hant/tinyaquarium/" class="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 border border-white/15 text-xs font-semibold text-slate-200 transition-all">
                     <span data-i18n="back">← 回到作品集</span>
                 </a>
                 <button onclick="toggleAudio()" id="global-sound-btn" class="hidden sm:flex items-center space-x-2 px-3.5 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-medium text-slate-300 transition-all">
@@ -701,8 +701,17 @@
         // --- 0. i18n: 三語系 (zh-Hant / zh-Hans / en-US) ---
         // 靜態 UI 字串字典 + 魚種 i18n 解析 (1,176 種的 commonName/description 從 JSON i18n 欄取)
         const LANGS = ['zh-Hant', 'zh-Hans', 'en-US'];
-        let currentLang = localStorage.getItem('ta_lang') || 'zh-Hant';
-        if (!LANGS.includes(currentLang)) currentLang = 'zh-Hant';
+        const URL_LANG_ALIASES = { en: 'en-US', 'en-us': 'en-US', 'zh-hans': 'zh-Hans', 'zh-hant': 'zh-Hant' };
+        // 語系優先順序: URL ?lang= 參數 > localStorage > 預設 zh-Hant
+        let currentLang = 'zh-Hant';
+        (function detectLang() {
+            const q = new URLSearchParams(location.search).get('lang');
+            if (q && URL_LANG_ALIASES[q.toLowerCase()]) currentLang = URL_LANG_ALIASES[q.toLowerCase()];
+            else {
+                const stored = localStorage.getItem('ta_lang');
+                if (stored && LANGS.includes(stored)) currentLang = stored;
+            }
+        })();
 
         const I18N = {
             'zh-Hant': {
@@ -976,6 +985,12 @@
             if (!LANGS.includes(lang)) lang = 'zh-Hant';
             currentLang = lang;
             localStorage.setItem('ta_lang', lang);
+            // URL ?lang= 同步 (可分享連結)
+            try {
+                const u = new URL(location.href);
+                u.searchParams.set('lang', lang);
+                history.replaceState(null, '', u.toString());
+            } catch (e) { /* file:// 等情境 */ }
             // 切換按鈕高亮
             document.querySelectorAll('.lang-btn').forEach(btn => {
                 const active = btn.getAttribute('data-lang-btn') === lang;
@@ -1018,6 +1033,9 @@
             if (typeof syncVolumeTabCounts === 'function') syncVolumeTabCounts();
             // <html lang>
             document.documentElement.lang = (currentLang === 'zh-Hant') ? 'zh-TW' : (currentLang === 'zh-Hans' ? 'zh-CN' : 'en');
+            // 依語言同步「回到作品集」連結 (/en/ /zh-hant/ /zh-hans/)
+            const backLink = document.getElementById('back-link');
+            if (backLink) backLink.href = '/' + (currentLang === 'en-US' ? 'en' : currentLang.toLowerCase()) + '/tinyaquarium/';
             // 音訊標籤
             if (!isAudioPlaying) {
                 document.getElementById('sound-text').textContent = t('sound');
@@ -2994,6 +3012,7 @@
 
         // Initialize Window Events
         window.addEventListener('load', () => {
+            applyAllI18n();
             initAquarium();
             animateTank();
             loadVaultData();
