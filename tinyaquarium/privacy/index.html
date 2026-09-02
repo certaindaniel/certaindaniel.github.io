@@ -1,27 +1,163 @@
 <!doctype html>
-<html lang="zh-Hant">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TinyAquarium — 隱私權政策</title>
+<title>TinyAquarium — Privacy Policy / 隱私權政策 / 隐私政策</title>
+<meta name="description" content="TinyAquarium Privacy Policy — full text in English, Traditional Chinese and Simplified Chinese.">
+<link rel="canonical" href="https://certaindaniel.github.io/tinyaquarium/privacy/">
+<link rel="alternate" hreflang="en" href="https://certaindaniel.github.io/en/tinyaquarium/privacy/">
+<link rel="alternate" hreflang="zh-Hant" href="https://certaindaniel.github.io/zh-hant/tinyaquarium/privacy/">
+<link rel="alternate" hreflang="zh-Hans" href="https://certaindaniel.github.io/zh-hans/tinyaquarium/privacy/">
 <link rel="stylesheet" href="/style.css">
 </head>
+<!--
+  這一頁是 App Store Connect 三個語系 privacyPolicyUrl 共同指向的網址。
+  它原本只是一個「請選擇語言」的中繼頁 —— 審查員點開看不到任何政策內容，
+  是很典型的 metadata 退件原因。現在三語政策本文全部直接放在這一頁的 DOM 裡，
+  不靠 JS、不靠再點一次；上面的錨點只是跳轉方便。
+  本文與 /{en,zh-hant,zh-hans}/tinyaquarium/privacy/ 同源，改政策要三處一起改。
+-->
 <body>
 <div class="wrap">
-  <nav class="lang-switch"><a href="/en/tinyaquarium/privacy/">English</a><a href="/zh-hant/tinyaquarium/privacy/">繁體中文</a><a href="/zh-hans/tinyaquarium/privacy/">简体中文</a></nav>
+  <nav class="lang-switch"><a href="#policy-en">English</a><a href="#policy-zh-hant">繁體中文</a><a href="#policy-zh-hans">简体中文</a></nav>
   <nav class="lang-switch" style="margin-bottom:8px;">
-    <a href="/tinyaquarium/">← TinyAquarium</a><a href="/tinyaquarium/guide/">玩法攻略</a><a href="/tinyaquarium/vault/">萬魚圖鑑</a>
+    <a href="/tinyaquarium/">← TinyAquarium</a><a href="/tinyaquarium/guide/">Guide</a><a href="/tinyaquarium/vault/">Fish Vault</a>
   </nav>
-  <div class="legal">
-    <h1>TinyAquarium — 隱私權政策</h1>
-    <p>這是 TinyAquarium 的隱私權政策，請選擇你偏好的語言閱讀完整內容。</p>
-    <p>This page links to TinyAquarium's Privacy Policy — please choose your preferred language below to read the full text.</p>
+<div class="legal" id="policy-en" lang="en">
+    <h1>TinyAquarium — Privacy Policy</h1>
+    <p class="updated">Last updated: August 29, 2026</p>
 
-    <div class="hero-actions" style="margin: 32px 0 8px;">
-      <a class="cta" href="/zh-hant/tinyaquarium/privacy/">繁體中文</a>
-      <a class="cta" href="/zh-hans/tinyaquarium/privacy/">简体中文</a>
-      <a class="cta" href="/en/tinyaquarium/privacy/">English</a>
-    </div>
+    <p>TinyAquarium is a cozy aquarium-raising game paired with your step count. It requires no account registration, has no third-party analytics tracking, and no ad networks. We run no servers of our own, and we have no channel through which to read your in-game content.</p>
+
+    <h2>HealthKit Steps</h2>
+    <p>TinyAquarium accesses exactly one piece of data through Apple HealthKit, on a <strong>read-only</strong> basis: your daily walking step count (<code>stepCount</code>). It is used solely to calculate egg-hatching progress locally on your device. This app never writes any data to HealthKit, and it never collects, uploads, transmits, or shares your health data with any third party. You can revoke this permission at any time in iOS "Settings → Privacy & Security → Health"; once revoked, egg-hatching progress stops advancing, but all other features remain unaffected.</p>
+
+    <h2>Local Storage</h2>
+    <p>Your keeper name, tank and fish data, encyclopedia (Dex) unlock progress, Bubble Coin balance, décor layout, and all game save data are stored locally on your device. Uninstalling the app deletes all of it.</p>
+
+    <h2>iCloud Sync</h2>
+    <p>Game save data roams across your own Apple devices via Apple iCloud key-value storage (<code>NSUbiquitousKeyValueStore</code>). This data is stored on Apple's infrastructure, under your own iCloud account, and the developer <strong>cannot read it</strong>. You can remove this app's data in iOS "Settings → Apple Account → iCloud".</p>
+
+    <h2>Nearby Peer-to-Peer Fish Trading</h2>
+    <p>Trading fish with nearby friends uses Apple Multipeer Connectivity, transferring data <strong>directly, end-to-end, between two devices</strong> over local network and Bluetooth — it never passes through any external server, and the developer never sees the contents of the trade. This feature requires Local Network permission and only operates while you actively have the trading screen open.</p>
+
+    <h2>In-App Purchases</h2>
+    <p>This app offers the following in-app purchase items, all processed through Apple's official App Store payment system (StoreKit 2). We never see or store your payment credentials, card numbers, or Apple account information.</p>
+    <ul>
+      <li><strong>Sunlit Starter Pouch</strong> (Consumable) — in-game Bubble Coins</li>
+      <li><strong>Deep-Sea Pearl Jar</strong> (Consumable) — in-game Bubble Coins</li>
+      <li><strong>Pirate's Overflowing Chest</strong> (Consumable) — in-game Bubble Coins</li>
+      <li><strong>Poseidon's Golden Vault</strong> (Consumable) — in-game Bubble Coins</li>
+      <li><strong>TinyAquarium Pro</strong> (Non-consumable) — a one-time unlock raising the idle earning cap, food jar capacity, breeding mutation rate, and exclusive tank themes</li>
+    </ul>
+    <p>Bubble Coins are a purely in-game virtual currency with <strong>no cash value</strong>; they cannot be redeemed for cash or transferred, and can only be used within this app to purchase décor items and upgrades.</p>
+
+    <h2>Desktop Widget</h2>
+    <p>The desktop widget displays your tank view, step count, and Bubble Coin balance. Data is shared locally on-device via an App Group container and never leaves your device.</p>
+
+    <h2>Feedback (optional feature)</h2>
+    <p>If you send feedback from Settings &rarr; Report a Problem, the message you type, any screenshot you choose to attach, and basic technical information (app version and build number, iOS version, device locale) are sent to the developer's support channel so the issue can be read and fixed. <strong>This only happens when you tap send</strong> — nothing is collected automatically or uploaded in the background. The form has no name or email field; unless you write it in the message yourself, we do not receive your contact details. Any attached screenshot is one you pick from your own library; the app does not read the rest of your photos.</p>
+    <h2>Personal Information</h2>
+    <p>This app requires no account registration and does not collect your name, email address, phone number, location, or device identifiers. The keeper name and fish nicknames you enter are stored only on your own device and are never sent to the developer. The only data that leaves your device is feedback you actively send (see the section above).</p>
+
+    <h2>Children</h2>
+    <p>This app is not designed for children and does not knowingly collect data from children under the age of 13.</p>
+
+    <h2>Contact</h2>
+    <p>If you have any questions about this policy, please email: <a href="mailto:certain.daniel@gmail.com">certain.daniel@gmail.com</a></p>
+
+    <a class="back-link" href="/en/tinyaquarium/">← Back to TinyAquarium</a>
+  </div>
+<div class="legal" id="policy-zh-hant" lang="zh-Hant">
+    <h1>TinyAquarium — 隱私權政策</h1>
+    <p class="updated">最後更新：2026 年 8 月 29 日</p>
+
+    <p>TinyAquarium（口袋水族箱）是一款結合步數計量的療癒水族養成遊戲。無須註冊帳號、無第三方分析追蹤、無廣告聯播網。我們沒有自營伺服器，也沒有任何管道讀取你的遊戲內容。</p>
+
+    <h2>HealthKit 步數</h2>
+    <p>TinyAquarium 透過 Apple HealthKit <strong>唯讀</strong>存取單一一項資料：你的每日步行步數（<code>stepCount</code>）。它只用於在你的裝置本機計算魚卵的孵化進度。本 App 不會向 HealthKit 寫入任何資料，也不會收集、上傳、傳輸或與任何第三方分享你的健康資料。你可以隨時在 iOS「設定 → 隱私權與安全性 → 健康」中撤銷這項權限；撤銷後魚卵孵化進度會停止推進，其餘功能不受影響。</p>
+
+    <h2>本機儲存</h2>
+    <p>你的飼育員名稱、魚缸與魚隻資料、圖鑑解鎖進度、泡泡幣餘額、造景擺設與所有遊戲存檔，都儲存在你裝置本機。解除安裝 App 即會一併刪除。</p>
+
+    <h2>iCloud 同步</h2>
+    <p>遊戲存檔會透過 Apple iCloud 鍵值儲存（<code>NSUbiquitousKeyValueStore</code>）在你自己的 Apple 裝置之間漫遊。這些資料存放在 Apple 的基礎架構上、隸屬於你自己的 iCloud 帳號，開發者<strong>無法讀取</strong>。你可以在 iOS「設定 → Apple 帳號 → iCloud」中移除本 App 的資料。</p>
+
+    <h2>近場 P2P 魚隻交換</h2>
+    <p>與附近好友交換魚隻採用 Apple Multipeer Connectivity，透過區域網路與藍牙在兩台裝置之間<strong>端對端直傳</strong>，不經過任何外部伺服器，開發者不會看到交換內容。此功能需要「區域網路」權限，且僅在你主動開啟交換畫面時運作。</p>
+
+    <h2>App 內購買</h2>
+    <p>本 App 提供以下 App 內購買項目，全部透過 Apple App Store 官方金流（StoreKit 2）處理。我們不會看到或儲存你的付款憑證、信用卡號或 Apple 帳號資訊。</p>
+    <ul>
+      <li><strong>陽光初級小錢袋</strong>（消耗性）— 遊戲內泡泡幣</li>
+      <li><strong>深海璀璨珍珠罐</strong>（消耗性）— 遊戲內泡泡幣</li>
+      <li><strong>海盜溢金巨寶箱</strong>（消耗性）— 遊戲內泡泡幣</li>
+      <li><strong>波賽頓神殿金山</strong>（消耗性）— 遊戲內泡泡幣</li>
+      <li><strong>TinyAquarium Pro</strong>（非消耗性）— 一次性解鎖，提升離線收益上限、飼料罐容量、繁育突變率與專屬水體主題</li>
+    </ul>
+    <p>泡泡幣是純遊戲內虛擬貨幣，沒有現金價值、無法兌換或轉讓，僅能在本 App 內用於購買造景飾品與升級。</p>
+
+    <h2>桌面小工具</h2>
+    <p>桌面小工具會顯示你的魚缸畫面、步數與泡泡幣餘額。資料透過 App 群組容器在本機共享，不會離開你的裝置。</p>
+
+    <h2>意見回饋（選填功能）</h2>
+    <p>若你在「設定 → 問題回報與建議」主動送出回饋，你輸入的訊息文字、你自行選擇附加的截圖，以及基本技術資訊（App 版本與建置編號、iOS 版本、裝置語系）會傳送到開發者的客服頻道，以便閱讀並修正問題。<strong>只有在你按下送出時才會發生</strong>，我們不會自動蒐集或背景上傳任何內容。此功能沒有姓名或電子郵件欄位；除非你自己寫在訊息裡，否則我們不會取得你的聯絡方式。附加截圖是由你從相簿中挑選，App 不會讀取你其餘的照片。</p>
+    <h2>個人資訊</h2>
+    <p>本 App 不需要註冊帳號，不會收集姓名、電子郵件、電話號碼、位置資訊或裝置識別碼。你輸入的飼育員名稱與魚隻暱稱僅儲存在你自己的裝置上，不會傳送給開發者。唯一會離開裝置的資料是你主動送出的意見回饋（見上一節）。</p>
+
+    <h2>兒童</h2>
+    <p>本 App 並非針對兒童設計，也不會刻意收集 13 歲以下兒童的資料。</p>
+
+    <h2>聯絡方式</h2>
+    <p>對本政策有任何疑問，歡迎寄信至：<a href="mailto:certain.daniel@gmail.com">certain.daniel@gmail.com</a></p>
+
+    <a class="back-link" href="/zh-hant/tinyaquarium/">← 回到 TinyAquarium</a>
+  </div>
+<div class="legal" id="policy-zh-hans" lang="zh-Hans">
+    <h1>TinyAquarium — 隐私政策</h1>
+    <p class="updated">最后更新：2026 年 8 月 29 日</p>
+
+    <p>TinyAquarium（迷你水族箱）是一款结合步数计量的治愈系水族养成游戏。无需注册账号、无第三方分析追踪、无广告联盟。我们没有自营服务器，也没有任何渠道能读取你的游戏内容。</p>
+
+    <h2>HealthKit 步数</h2>
+    <p>TinyAquarium 通过 Apple HealthKit <strong>只读</strong>访问单一一项数据：你的每日步行步数（<code>stepCount</code>）。它仅用于在你的设备本地计算鱼卵的孵化进度。本 App 不会向 HealthKit 写入任何数据，也不会收集、上传、传输或与任何第三方共享你的健康数据。你可以随时在 iOS「设置 → 隐私与安全性 → 健康」中撤销该权限；撤销后鱼卵孵化进度会停止推进，其余功能不受影响。</p>
+
+    <h2>本地存储</h2>
+    <p>你的饲养员名称、鱼缸与鱼只数据、图鉴解锁进度、泡泡币余额、造景摆件以及所有游戏存档，都保存在你的设备本地。卸载 App 会一并删除这些数据。</p>
+
+    <h2>iCloud 同步</h2>
+    <p>游戏存档会通过 Apple iCloud 键值存储（<code>NSUbiquitousKeyValueStore</code>）在你自己的 Apple 设备之间漫游同步。这些数据存放在 Apple 的基础设施上、归属于你自己的 iCloud 账号，开发者<strong>无法读取</strong>。你可以在 iOS「设置 → Apple 账号 → iCloud」中移除本 App 的数据。</p>
+
+    <h2>近场 P2P 鱼只交换</h2>
+    <p>与附近好友交换鱼只采用 Apple Multipeer Connectivity 技术，通过局域网与蓝牙在两台设备之间<strong>端到端直接传输</strong>，不经过任何外部服务器，开发者无法看到交换内容。此功能需要「本地网络」权限，且仅在你主动打开交换界面时运行。</p>
+
+    <h2>App 内购买</h2>
+    <p>本 App 提供以下 App 内购买项目，全部通过 Apple App Store 官方支付系统（StoreKit 2）处理。我们不会看到或存储你的付款凭证、银行卡号或 Apple 账号信息。</p>
+    <ul>
+      <li><strong>阳光初级小钱袋</strong>（消耗型）— 游戏内泡泡币</li>
+      <li><strong>深海璀璨珍珠罐</strong>（消耗型）— 游戏内泡泡币</li>
+      <li><strong>海盗溢金巨宝箱</strong>（消耗型）— 游戏内泡泡币</li>
+      <li><strong>波塞冬神殿金山</strong>（消耗型）— 游戏内泡泡币</li>
+      <li><strong>TinyAquarium Pro</strong>（非消耗型）— 一次性解锁，提升离线收益上限、饲料罐容量、繁育突变率与专属水体主题</li>
+    </ul>
+    <p>泡泡币是纯游戏内虚拟货币，<strong>没有现金价值</strong>，无法兑换或转让，仅能在本 App 内用于购买造景饰品与升级。</p>
+
+    <h2>桌面小组件</h2>
+    <p>桌面小组件会显示你的鱼缸画面、步数与泡泡币余额。数据通过 App 群组容器在本地共享，不会离开你的设备。</p>
+
+    <h2>意见反馈（选填功能）</h2>
+    <p>若你在“设置 → 问题反馈与建议”主动提交反馈，你输入的消息文字、你自行选择附加的截图，以及基本技术信息（App 版本与构建号、iOS 版本、设备语言）会传送到开发者的客服频道，以便阅读并修复问题。<strong>只有在你按下发送时才会发生</strong>，我们不会自动收集或后台上传任何内容。此功能没有姓名或电子邮件字段；除非你自己写在消息里，否则我们不会获得你的联系方式。附加截图由你从相册中挑选，App 不会读取你其余的照片。</p>
+    <h2>个人信息</h2>
+    <p>本 App 不需要注册账号，不会收集姓名、电子邮件、电话号码、位置信息或设备标识符。你输入的饲养员名称与鱼只昵称仅存储在你自己的设备上，不会发送给开发者。唯一会离开设备的数据是你主动提交的意见反馈（见上一节）。</p>
+
+    <h2>儿童</h2>
+    <p>本 App 并非针对儿童设计，也不会刻意收集 13 岁以下儿童的数据。</p>
+
+    <h2>联系方式</h2>
+    <p>对本政策有任何疑问，欢迎发邮件至：<a href="mailto:certain.daniel@gmail.com">certain.daniel@gmail.com</a></p>
+
+    <a class="back-link" href="/zh-hans/tinyaquarium/">← 回到 TinyAquarium</a>
   </div>
 </div>
 </body>
