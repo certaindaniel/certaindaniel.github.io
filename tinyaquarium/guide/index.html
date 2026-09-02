@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="pageTitle">TinyAquarium 口袋水族館 - 官方玩法與新手養成指南 | Official Player Manual</title>
     <meta name="description" content="TinyAquarium 官方完整手冊：步數孵蛋機制、稀有度經濟體系、144 組基因突變配方、7 大水域造景工坊、P2P 近場交換與 36 項成就系統全攻略。">
-    <link rel="icon" type="image/png" href="../live/assets/icon.png">
+    <link rel="icon" type="image/png" href="../assets/icon.png">
     
     <!-- Google Fonts & Tailwind CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,9 +57,9 @@
     <!-- Header Navigation -->
     <header class="sticky top-0 z-50 bg-[#051321]/80 backdrop-blur-md border-b border-white/10">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-            <a id="home-link" href="../live/" class="flex items-center gap-3 group">
+            <a id="home-link" href="../" class="flex items-center gap-3 group">
                 <div class="w-10 h-10 rounded-xl overflow-hidden shadow-lg shadow-cyan-500/25 group-hover:scale-105 transition">
-                    <img src="../live/assets/icon.png" alt="TinyAquarium Icon" class="w-full h-full object-cover">
+                    <img src="../assets/icon.png" alt="TinyAquarium Icon" class="w-full h-full object-cover">
                 </div>
                 <div>
                     <div class="font-bold text-lg leading-tight tracking-tight flex items-center gap-2">
@@ -69,18 +69,19 @@
                 </div>
             </a>
             
-            <div class="flex items-center gap-4">
+            <div class="flex items-center gap-2 sm:gap-3">
+                <!-- 全站導覽：四個去處，每一頁都一樣 -->
+                <nav class="flex items-center gap-1 text-xs sm:text-sm font-semibold">
+                    <a href="../" class="px-2.5 py-1.5 rounded-lg transition text-slate-300 hover:text-cyan-400" data-i18n="nav_home">首頁</a>
+                    <a href="./" class="px-2.5 py-1.5 rounded-lg transition bg-cyan-500/15 text-cyan-300 border border-cyan-500/30" data-i18n="nav_guide">玩法攻略</a>
+                    <a href="../vault/" class="px-2.5 py-1.5 rounded-lg transition text-slate-300 hover:text-cyan-400" data-i18n="nav_vault">萬魚圖鑑</a>
+                    <a href="../#download" class="px-2.5 py-1.5 rounded-lg transition text-slate-300 hover:text-cyan-400" data-i18n="nav_download">下載</a>
+                </nav>
                 <div class="flex items-center gap-1 bg-white/5 rounded-lg p-0.5 border border-white/10">
                     <button onclick="setLang('zh-Hant')" data-lang-btn="zh-Hant" class="lang-btn px-2 py-0.5 rounded text-xs font-medium text-slate-300 hover:text-white transition-all">繁中</button>
                     <button onclick="setLang('zh-Hans')" data-lang-btn="zh-Hans" class="lang-btn px-2 py-0.5 rounded text-xs font-medium text-slate-300 hover:text-white transition-all">簡中</button>
                     <button onclick="setLang('en-US')" data-lang-btn="en-US" class="lang-btn px-2 py-0.5 rounded text-xs font-medium text-slate-300 hover:text-white transition-all">EN</button>
                 </div>
-                <a id="vault-link" href="../live/" class="text-sm font-medium text-slate-300 hover:text-cyan-400 transition flex items-center gap-1.5">
-                    <i class="fa-solid fa-book-open"></i> <span data-i18n="navVault">萬魚圖鑑展廳</span>
-                </a>
-                <span class="text-xs px-3 py-1.5 rounded-lg bg-amber-500/10 text-amber-400 border border-amber-500/20 font-medium flex items-center gap-1.5">
-                    <i class="fa-solid fa-clock"></i> Coming Soon
-                </span>
             </div>
         </div>
     </header>
@@ -699,13 +700,13 @@
     <footer class="border-t border-slate-800/80 bg-slate-950 py-10 text-center text-xs text-slate-500">
         <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div class="flex items-center gap-2">
-                <img src="../live/assets/icon.png" alt="Icon" class="w-5 h-5 rounded-md object-cover">
+                <img src="../assets/icon.png" alt="Icon" class="w-5 h-5 rounded-md object-cover">
                 <span>TinyAquarium</span>
                 <span>•</span>
                 <span>Designed with Precision &amp; Serenity</span>
             </div>
             <div>
-                <a id="vault-footer-link" href="../live/" class="text-cyan-400 hover:underline" data-i18n="g183">返回 1,176 種萬魚圖鑑</a>
+                <a id="vault-footer-link" href="../" class="text-cyan-400 hover:underline" data-i18n="g183">返回 1,176 種萬魚圖鑑</a>
             </div>
         </div>
     </footer>
@@ -714,6 +715,10 @@
     <script>
     const I18N = {
       "zh-Hant": {
+        "nav_home": "首頁",
+        "nav_guide": "玩法攻略",
+        "nav_vault": "萬魚圖鑑",
+        "nav_download": "下載",
         "g300": "🔬 隱藏配方大全（146 組）",
         "g301": "以下是遊戲內全部 146 組固定配方。配方命中時直接產出指定魚種，不經過突變骰 —— 也就是說 100% 成功。想自己摸索的話，這一章可以先跳過。",
         "g302": "搜尋魚名…",
@@ -933,6 +938,10 @@
         "g183": "返回 1,176 種萬魚圖鑑"
       },
       "zh-Hans": {
+        "nav_home": "首页",
+        "nav_guide": "玩法攻略",
+        "nav_vault": "万鱼图鉴",
+        "nav_download": "下载",
         "g300": "🔬 隐藏配方大全（146 组）",
         "g301": "以下是游戏内全部 146 组固定配方。配方命中时直接产出指定鱼种，不经过突变骰 —— 也就是说 100% 成功。想自己摸索的话，这一章可以先跳过。",
         "g302": "搜索鱼名…",
@@ -1152,6 +1161,10 @@
         "g183": "返回 1,176 种万鱼图鉴"
       },
       "en-US": {
+        "nav_home": "Home",
+        "nav_guide": "Guide",
+        "nav_vault": "Fish Vault",
+        "nav_download": "Download",
         "g300": "🔬 Complete Hidden Recipe List (146)",
         "g301": "Every one of the game's 146 fixed recipes. A recipe hit produces the named species directly, skipping the mutation roll entirely — a guaranteed 100%. Skip this chapter if you would rather find them yourself.",
         "g302": "Search fish name…",
@@ -1408,10 +1421,20 @@
         btn.classList.toggle("text-slate-300", !active);
         btn.classList.toggle("font-medium", !active);
       });
-      const langPath = currentLang === "zh-Hant" ? "zh-hant" : currentLang === "zh-Hans" ? "zh-hans" : "en";
-      ["home-link", "vault-link", "vault-footer-link"].forEach(id => {
+      // 站內連結帶上目前語系，跨頁不會掉語言。
+      // 舊版把這三個都指回 ../live/ —— live 已經併回 /tinyaquarium/，
+      // 而且圖鑑現在有自己的一頁。
+      const q = "?lang=" + (currentLang === "zh-Hant" ? "zh-hant" : currentLang === "zh-Hans" ? "zh-hans" : "en");
+      const homeEl = document.getElementById("home-link");
+      if (homeEl) homeEl.href = "../" + q;
+      ["vault-link", "vault-footer-link"].forEach(id => {
         const el = document.getElementById(id);
-        if (el) el.href = "../live/?lang=" + langPath;
+        if (el) el.href = "../vault/" + q;
+      });
+      document.querySelectorAll("nav a[data-i18n^=\"nav_\"]").forEach(a => {
+        const base = a.getAttribute("href").split("?")[0].split("#")[0];
+        const hash = (a.getAttribute("href").split("#")[1] || "");
+        a.href = base + q + (hash ? "#" + hash : "");
       });
       if (typeof renderRecipes === "function") renderRecipes();
     }
@@ -1464,13 +1487,8 @@
       try {
         const u = new URL(location.href);
         u.searchParams.set("lang", lang === "zh-Hant" ? "zh-hant" : lang === "zh-Hans" ? "zh-hans" : "en");
-        const langPath = lang === "zh-Hant" ? "zh-hant" : lang === "zh-Hans" ? "zh-hans" : "en";
-        const homeLink = document.getElementById("home-link");
-        if (homeLink) homeLink.href = "../live/?lang=" + langPath;
-        const vaultLink = document.getElementById("vault-link");
-        if (vaultLink) vaultLink.href = "../live/?lang=" + langPath;
-        const vaultFooter = document.getElementById("vault-footer-link");
-        if (vaultFooter) vaultFooter.href = "../live/?lang=" + langPath;
+        // 站內連結的語系同步統一交給 applyAllI18n（它在下面會被呼叫），
+        // 這裡只負責把網址上的 ?lang= 換掉。
         history.replaceState(null, "", u.toString());
       } catch (e) {}
       applyAllI18n();

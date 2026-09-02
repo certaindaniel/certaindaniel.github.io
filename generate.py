@@ -167,7 +167,17 @@ def app_html(app, locale):
             "zh-hans": "在线试玩鱼缸"
         }
         demo_label = demo_labels.get(locale, demo_labels["en"])
-        live_demo_link = f'\n      <a class="cta cta--secondary" href="{e(demo_url)}" target="_blank">{e(demo_label)} ↗</a>'
+        live_demo_link = f'\n      <a class="cta cta--secondary" href="{e(demo_url)}">{e(demo_label)} ↗</a>'
+
+    # 玩法攻略手冊：產生頁原本完全連不到它，使用者只能從官網首頁繞過去。
+    guide_link = ""
+    if app.get("guideUrl"):
+        guide_labels = {
+            "en": "Player Guide",
+            "zh-hant": "玩法攻略",
+            "zh-hans": "玩法攻略",
+        }
+        guide_link = f'\n      <a class="cta cta--secondary" href="{e(app["guideUrl"])}">{e(guide_labels.get(locale, guide_labels["en"]))} ↗</a>'
 
     cta = (
         f'<a class="cta" href="{e(app["appStoreUrl"])}">{e(loc["cta"])}</a>'
@@ -185,7 +195,7 @@ def app_html(app, locale):
     <p class="tagline">{e(loc['tagline'])}</p>
     <p class="promo">{e(loc['promo'])}</p>
     <div class="hero-actions">
-      {cta}{live_demo_link}
+      {cta}{live_demo_link}{guide_link}
     </div>
     {privacy_link}
   </section>
