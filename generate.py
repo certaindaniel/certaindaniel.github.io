@@ -67,7 +67,7 @@ def hub_html(locale):
         inner = f"""
       <span class="platform-tag">{e(tag)}</span>
       <img class="icon" src="{e(icon_src)}" alt="">
-      <h3>{e(loc['name'])}</h3>
+      <h2>{e(loc['name'])}</h2>
       <p>{e(loc['tagline'])}</p>"""
         if app.get("flagship"):
             href = f'/{locale}/{app["id"]}/'

@@ -72,7 +72,7 @@
                     <div class="font-bold text-lg leading-tight tracking-tight flex items-center gap-2">
                         TinyAquarium <span class="text-xs px-2 py-0.5 rounded-full bg-cyan-500/20 text-cyan-400 border border-cyan-500/30" data-i18n="g001">指南</span>
                     </div>
-                    <div class="text-[11px] text-slate-400" data-i18n="g002">口袋水族館 • 玩家手冊與玩法全攻略</div>
+                    <div class="text-[12px] text-slate-400" data-i18n="g002">口袋水族館 • 玩家手冊與玩法全攻略</div>
                 </div>
             </a>
             
@@ -263,7 +263,7 @@
                         </tbody>
                     </table>
                 </div>
-                <p class="text-[11px] text-slate-500 mt-3 leading-relaxed" data-i18n="g063">
+                <p class="text-[12px] text-slate-400 mt-3 leading-relaxed" data-i18n="g063">
                     「一整天」是指一天回來看至少兩次的情況。多開幾座魚缸也會一起產幣，目前正在看的那一缸算全額，其他缸算一半。Pro 買斷版的產幣速率額外 +25%。
                 </p>
             </div>
@@ -354,7 +354,7 @@
                     </tbody>
                 </table>
             </div>
-            <p class="text-[11px] text-slate-500 mt-4 leading-relaxed" data-i18n="g121">
+            <p class="text-[12px] text-slate-400 mt-4 leading-relaxed" data-i18n="g121">
                 換算一下：養 5 隻魚、每天全部摸滿，就是 5 × 3 × 2 = 30 ❤️／天，大約每兩天可以繁育一次。想加快就多養幾隻，或多走路孵蛋（每顆蛋 +30 ❤️ 等於一次半的撫摸日常）。
             </p>
         </section>
@@ -397,7 +397,7 @@
                                 <div class="p-3 rounded-lg bg-slate-900/80 border border-slate-800 flex flex-col justify-between">
                                     <div>
                                         <div class="font-bold text-cyan-300 mb-1 flex items-center gap-1.5" data-i18n="mStep1Title">1️⃣ 第一關：突變觸發判定</div>
-                                        <div class="text-slate-400 leading-relaxed text-[11px]" data-i18n="mStep1Desc">
+                                        <div class="text-slate-400 leading-relaxed text-[12px]" data-i18n="mStep1Desc">
                                             配種時先檢定是否觸發基因突變。<br>
                                             公式：<strong>基礎 18% ＋ 親代進化加成（最高 +22%）＋ Pro 加成（+10%）</strong>，總和最高可達 <strong>50%</strong>。<br>
                                             • 命中突變 ➔ 進入第二關擲百面骰<br>
@@ -408,7 +408,7 @@
                                 <div class="p-3 rounded-lg bg-slate-900/80 border border-slate-800 flex flex-col justify-between">
                                     <div>
                                         <div class="font-bold text-amber-300 mb-1 flex items-center gap-1.5" data-i18n="mStep2Title">2️⃣ 第二關：百面骰開獎（d100）</div>
-                                        <div class="text-slate-400 leading-relaxed text-[11px]" data-i18n="mStep2Desc">
+                                        <div class="text-slate-400 leading-relaxed text-[12px]" data-i18n="mStep2Desc">
                                             觸發突變後，將雙親稀有度換算為分數（白 0 / 綠 1 / 藍 2 / 紫 3 / 橙 4），依<strong>「雙親階級之和 (0~8 分)」</strong>擲出 1~100 點百面骰，決定新魚的稀有度階級，再從該階級隨機誕生一隻！
                                         </div>
                                     </div>
@@ -482,7 +482,7 @@
                 </table>
             </div>
 
-            <div class="text-xs text-slate-500 mt-3 leading-relaxed">
+            <div class="text-xs text-slate-400 mt-3 leading-relaxed">
                 <div data-i18n="g309">同一組親代不分先後順序。標示「或」的配方會在兩個結果之間隨機。</div>
                 <div class="text-pink-300/80 mt-1" data-i18n="g310">別忘了：親代必須一公一母，同性別無法配種。</div>
             </div>
@@ -729,7 +729,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="border-t border-slate-800/80 bg-slate-950 py-10 text-center text-xs text-slate-500">
+    <footer class="border-t border-slate-800/80 bg-slate-950 py-10 text-center text-xs text-slate-400">
         <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div class="flex items-center gap-2">
                 <img src="../assets/icon.png" alt="Icon" class="w-5 h-5 rounded-md object-cover">
@@ -1516,7 +1516,7 @@
              +  '<td class="py-2 px-3 font-semibold">' + outs.map(rcCell).join(or) + '</td>'
              +  '</tr>';
       }
-      body.innerHTML = rows || '<tr><td colspan="3" class="py-6 px-3 text-center text-slate-500">' + t("g308") + '</td></tr>';
+      body.innerHTML = rows || '<tr><td colspan="3" class="py-6 px-3 text-center text-slate-400">' + t("g308") + '</td></tr>';
       const c = document.getElementById("rc-count");
       if (c) c.textContent = n;
       document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {

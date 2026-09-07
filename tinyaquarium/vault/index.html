@@ -220,7 +220,7 @@
                             <!-- Dynamic Island -->
                             <div class="absolute top-6 left-1/2 -translate-x-1/2 w-28 h-7 bg-black rounded-full z-30 flex items-center justify-between px-3">
                                 <span class="w-2.5 h-2.5 rounded-full bg-cyan-400/80 animate-pulse"></span>
-                                <span class="text-[9px] text-cyan-300 font-mono">TinyAquarium</span>
+                                <span class="text-[12px] text-cyan-300 font-mono">TinyAquarium</span>
                             </div>
 
                             <!-- Screen Container -->
@@ -236,7 +236,7 @@
                             </div>
                             <div>
                                 <div class="text-xs font-bold text-cyan-300" data-i18n="hero_widget">iOS 17+ 互動小組件</div>
-                                <div class="text-[11px] text-slate-300" data-i18n="hero_widget_sub">桌面一鍵投餵・鎖定畫面步數</div>
+                                <div class="text-[12px] text-slate-300" data-i18n="hero_widget_sub">桌面一鍵投餵・鎖定畫面步數</div>
                             </div>
                         </div>
 
@@ -245,7 +245,7 @@
                             <span class="text-2xl animate-pulse">❤️</span>
                             <div>
                                 <div class="text-xs font-bold text-rose-300" data-i18n="hero_pet">摸摸 360° 翻滾</div>
-                                <div class="text-[11px] text-slate-300" data-i18n="hero_pet_sub">每日獲取愛心能量</div>
+                                <div class="text-[12px] text-slate-300" data-i18n="hero_pet_sub">每日獲取愛心能量</div>
                             </div>
                         </div>
                     </div>
@@ -331,7 +331,7 @@
             <p>© 2026 TinyAquarium. All rights reserved. Crafted with care for calm minds and healthy steps.</p>
         </div>
     
-            <div class="mt-4 text-xs text-slate-500"><a href="/tinyaquarium/privacy/" class="hover:text-cyan-400 transition-colors" data-i18n="nav_privacy">隱私權政策</a></div>
+            <div class="mt-4 text-xs text-slate-400"><a href="/tinyaquarium/privacy/" class="hover:text-cyan-400 transition-colors" data-i18n="nav_privacy">隱私權政策</a></div>
         </footer>
 
     <!-- Fish Species Detail Modal -->
@@ -346,8 +346,8 @@
                     <h3 id="modalName" class="text-xl font-black text-white" data-i18n="modal_placeholder">魚種名稱</h3>
                     <div id="modalScientific" class="text-xs text-slate-400 font-mono italic" data-i18n="modal_placeholder_sc">Scientific name</div>
                     <div class="flex items-center space-x-2 mt-1.5">
-                        <span id="modalRarityBadge" class="px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider" data-i18n="rarity_common">稀有度</span>
-                        <span id="modalCategoryBadge" class="px-2 py-0.5 rounded-full bg-white/10 text-[10px] text-slate-300" data-i18n="modal_default_cat">分類</span>
+                        <span id="modalRarityBadge" class="px-2 py-0.5 rounded-full text-[12px] font-bold uppercase tracking-wider" data-i18n="rarity_common">稀有度</span>
+                        <span id="modalCategoryBadge" class="px-2 py-0.5 rounded-full bg-white/10 text-[12px] text-slate-300" data-i18n="modal_default_cat">分類</span>
                     </div>
                 </div>
             </div>
@@ -375,7 +375,7 @@
                 <div class="font-bold flex items-center space-x-1.5">
                     <span data-i18n="modal_recipe">🧬 秘密基因突變配方</span>
                 </div>
-                <div id="modalRecipe" class="text-slate-300 font-mono text-[11px]">親代 A + 親代 B ➡️ 突變產出</div>
+                <div id="modalRecipe" class="text-slate-300 font-mono text-[12px]">親代 A + 親代 B ➡️ 突變產出</div>
             </div>
         </div>
     </div>
@@ -2650,23 +2650,23 @@
                                     ${fishIcon}
                                 </div>
                                 <div class="flex flex-col items-end gap-1">
-                                    <span class="px-2 py-0.5 rounded-full ${rStyle.bg} ${rStyle.text} border ${rStyle.border} text-[10px] font-bold">
+                                    <span class="px-2 py-0.5 rounded-full ${rStyle.bg} ${rStyle.text} border ${rStyle.border} text-[12px] font-bold">
                                         ${rStyle.label}
                                     </span>
-                                    <span class="text-[9px] text-slate-400 px-1.5 py-0.5 rounded bg-white/5 font-mono">
+                                    <span class="text-[12px] text-slate-400 px-1.5 py-0.5 rounded bg-white/5 font-mono">
                                         ${volName}
                                     </span>
                                 </div>
                             </div>
                             <div>
-                                <h4 class="text-base font-bold text-white group-hover:text-cyanGlow transition-colors">${speciesCommonName(fish)}</h4>
-                                <div class="text-[11px] text-slate-400 font-mono italic truncate">${fish.scientificName || ''}</div>
+                                <h3 class="text-base font-bold text-white group-hover:text-cyanGlow transition-colors">${speciesCommonName(fish)}</h3>
+                                <div class="text-[12px] text-slate-400 font-mono italic truncate">${fish.scientificName || ''}</div>
                             </div>
                             <p class="text-xs text-slate-300 line-clamp-2 leading-relaxed">
                                 ${speciesDescription(fish)}
                             </p>
                         </div>
-                        <div class="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-[10px] font-mono text-slate-400">
+                        <div class="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-[12px] font-mono text-slate-400">
                             <span>👣 ${(fish.hatchStepsRequired || 3000).toLocaleString()} ${t('vault_steps')}</span>
                             <span class="text-cyan-300 font-bold">${t('vault_detail')}</span>
                         </div>
@@ -2694,7 +2694,7 @@
             document.getElementById('modalEmoji').innerHTML = generateFishSvg(fish, 56);
             document.getElementById('modalName').textContent = speciesCommonName(fish);
             document.getElementById('modalScientific').textContent = fish.scientificName || '';
-            document.getElementById('modalRarityBadge').className = `px-2 py-0.5 rounded-full ${rStyle.bg} ${rStyle.text} border ${rStyle.border} text-[10px] font-bold`;
+            document.getElementById('modalRarityBadge').className = `px-2 py-0.5 rounded-full ${rStyle.bg} ${rStyle.text} border ${rStyle.border} text-[12px] font-bold`;
             document.getElementById('modalRarityBadge').textContent = rStyle.label;
             document.getElementById('modalCategoryBadge').textContent = fish.category || t('modal_default_cat');
             document.getElementById('modalDesc').textContent = speciesDescription(fish);
