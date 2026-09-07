@@ -629,14 +629,31 @@
         </div>
     </section>
 
+    <!-- Support：這一段是 App Store 的 Support URL 指向的內容。
+         純行銷頁當 Support URL 會被 Guideline 1.5 退件（TrailPop 1.1 就是這樣被退的），
+         所以這裡必須有一個可運作的聯絡方式，不能只有 FAQ。 -->
+    <section id="support" class="relative z-10 py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto text-center space-y-5">
+            <h2 class="text-2xl sm:text-3xl font-black text-white tracking-tight" data-i18n="support_h">支援與聯絡</h2>
+            <p class="text-slate-300 text-sm sm:text-base leading-relaxed" data-i18n="support_p">
+                使用問題、錯誤回報或功能建議，都歡迎寄信給我們，我們會回覆你。請一併說明你的裝置型號與系統版本，方便我們重現問題。
+            </p>
+            <a href="mailto:certain.daniel+support@gmail.com?subject=TinyAquarium%20support"
+               class="inline-flex items-center space-x-2 px-6 py-3 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold text-sm transition-all">
+                <i class="fa-solid fa-envelope text-cyan-400"></i>
+                <span data-i18n="support_cta">寄信給支援</span>
+                <span class="text-slate-300 font-normal">certain.daniel+support@gmail.com</span>
+            </a>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="py-12 border-t border-white/10 text-slate-400 text-xs text-center z-10 relative">
         <div class="max-w-7xl mx-auto px-4 space-y-4">
             <div class="flex justify-center space-x-6 text-sm text-slate-300">
-                <a href="#" class="hover:text-cyanGlow transition-colors" data-i18n="footer_p">隱私權政策 (Privacy)</a>
-                <a href="#" class="hover:text-cyanGlow transition-colors" data-i18n="footer_t">服務條款 (Terms)</a>
-                <a href="#" class="hover:text-cyanGlow transition-colors" data-i18n="footer_c">開發者聯絡 (Contact)</a>
-                <a href="#" class="hover:text-cyanGlow transition-colors" data-i18n="footer_m">媒體素材 (Press Kit)</a>
+                <a href="/tinyaquarium/privacy/" class="hover:text-cyanGlow transition-colors" data-i18n="footer_p">隱私權政策 (Privacy)</a>
+                <a href="#support" class="hover:text-cyanGlow transition-colors" data-i18n="footer_c">開發者聯絡 (Contact)</a>
+                <a href="mailto:certain.daniel+support@gmail.com?subject=TinyAquarium%20support" class="hover:text-cyanGlow transition-colors" data-i18n="footer_mail">寄信給支援</a>
             </div>
             <p>© 2026 TinyAquarium. All rights reserved. Crafted with care for calm minds and healthy steps.</p>
         </div>
@@ -803,6 +820,7 @@
                 download_title: '立即開始你的<br>掌心治癒水族之旅', download_p: '免費下載 TinyAquarium，在每一步的步伐中，遇見屬於你的傳奇神魚。',
                 download_btn1: 'App Store 下載', download_btn2: '📱 掃描 QR Code 取得',
                 footer_p: '隱私權政策 (Privacy)', footer_t: '服務條款 (Terms)', footer_c: '開發者聯絡 (Contact)', footer_m: '媒體素材 (Press Kit)',
+                support_h: '支援與聯絡', support_p: '使用問題、錯誤回報或功能建議，都歡迎寄信給我們，我們會回覆你。請一併說明你的裝置型號與系統版本，方便我們重現問題。', support_cta: '寄信給支援', footer_mail: '寄信給支援',
                 modal_steps: '孵化步數', modal_coins: '金幣產出', modal_speed: '泳速等級',
                 modal_recipe: '🧬 秘密基因突變配方', modal_default_cat: '水族生物',
                 modal_placeholder: '魚種名稱', modal_placeholder_sc: 'Scientific name', modal_placeholder_desc: '生態描述與背景故事...',
@@ -876,6 +894,7 @@
                 download_title: '立即开始你的<br>掌心治愈水族之旅', download_p: '免费下载 TinyAquarium，在每一步的步伐中，遇见属于你的传奇神鱼。',
                 download_btn1: 'App Store 下载', download_btn2: '📱 扫描 QR Code 取得',
                 footer_p: '隐私权政策 (Privacy)', footer_t: '服务条款 (Terms)', footer_c: '开发者联络 (Contact)', footer_m: '媒体素材 (Press Kit)',
+                support_h: '支持与联系', support_p: '使用问题、错误报告或功能建议，都欢迎发邮件给我们，我们会回复你。请一并说明你的设备型号与系统版本，方便我们重现问题。', support_cta: '发邮件给支持', footer_mail: '发邮件给支持',
                 modal_steps: '孵化步数', modal_coins: '金币产出', modal_speed: '泳速等级',
                 modal_recipe: '🧬 秘密基因突变配方', modal_default_cat: '水族生物',
                 modal_placeholder: '鱼种名称', modal_placeholder_sc: 'Scientific name', modal_placeholder_desc: '生态描述与背景故事...',
@@ -954,6 +973,7 @@
                 download_title: 'Start your<br>palm-sized healing aquarium journey', download_p: 'Download TinyAquarium free and meet your legendary fish with every step.',
                 download_btn1: 'App Store', download_btn2: '📱 Scan QR to get',
                 footer_p: 'Privacy', footer_t: 'Terms', footer_c: 'Contact', footer_m: 'Press Kit',
+                support_h: 'Support', support_p: 'Questions, bug reports, or feature requests — email us and we will get back to you. Please mention your device model and OS version so we can reproduce the problem.', support_cta: 'Email support', footer_mail: 'Email support',
                 modal_steps: 'Hatch steps', modal_coins: 'Coin yield', modal_speed: 'Swim speed',
                 modal_recipe: '🧬 Secret Genetic Mutation Recipe', modal_default_cat: 'Aquatic Species',
                 modal_placeholder: 'Species Name', modal_placeholder_sc: 'Scientific name', modal_placeholder_desc: 'Eco description & backstory...',
