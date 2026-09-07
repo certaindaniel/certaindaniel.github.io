@@ -524,7 +524,7 @@
                     <p class="text-slate-300 text-sm leading-relaxed" data-i18n="rev1">
                         「以前總覺得走路運動很枯燥，自從裝了 TinyAquarium，每天通勤下班都想多走兩站，只為了快點把那顆神話級魚卵孵出來！」
                     </p>
-                    <div class="text-xs font-bold text-white" data-i18n="rev1_name">— 林小姐 (每日萬步水族玩家)</div>
+                    <div class="text-xs font-bold text-white" data-i18n="rev1_name">— 林小姐 (每日萬步水族飼育員)</div>
                 </div>
 
                 <div class="glass-card p-6 rounded-2xl space-y-4">
@@ -743,7 +743,11 @@
         let currentLang = 'zh-Hant';
         (function detectLang() {
             const q = new URLSearchParams(location.search).get('lang');
-            if (q && URL_LANG_ALIASES[q.toLowerCase()]) currentLang = URL_LANG_ALIASES[q.toLowerCase()];
+            if (q && URL_LANG_ALIASES[q.toLowerCase()]) {
+                currentLang = URL_LANG_ALIASES[q.toLowerCase()];
+                // 從 ?lang= 進站也要記住，否則點內部連結會掉回預設語系
+                try { localStorage.setItem('ta_lang', currentLang); } catch (e) {}
+            }
             else {
                 const stored = localStorage.getItem('ta_lang');
                 if (stored && LANGS.includes(stored)) currentLang = stored;
@@ -812,7 +816,7 @@
                 widget_mock_fish: '日本丹頂錦鯉 (史詩)',
                 review_title: '來自水族冒險者的真實評價',
                 rev1: '「以前總覺得走路運動很枯燥，自從裝了 TinyAquarium，每天通勤下班都想多走兩站，只為了快點把那顆神話級魚卵孵出來！」',
-                rev1_name: '— 林小姐 (每日萬步水族玩家)',
+                rev1_name: '— 林小姐 (每日萬步水族飼育員)',
                 rev2: '「Lo-Fi 專注模式的水聲真的太舒服了！寫代碼焦慮時，打開水族箱看著小魚擺尾，心情立刻就平靜下來，沒有任何垃圾廣告。」',
                 rev2_name: '— Kevin (獨立工程師)',
                 rev3: '「基因突變繁育系統超有深度！跟朋友用近場交換到了彼此缺少的魚種，居然合成出了傳說中的十二紅頂金魚，超有成就感！」',
@@ -886,7 +890,7 @@
                 widget_mock_fish: '日本丹顶锦鲤 (史诗)',
                 review_title: '来自水族冒险者的真实评价',
                 rev1: '「以前总觉得走路运动很枯燥，自从装了 TinyAquarium，每天通勤下班都想多走两站，只为了快点把那颗神话级鱼卵孵出来！」',
-                rev1_name: '— 林小姐 (每日万步水族玩家)',
+                rev1_name: '— 林小姐 (每日万步水族饲育员)',
                 rev2: '「Lo-Fi 专注模式的水声真的太舒服了！写代码焦虑时，打开水族箱看着小鱼摆尾，心情立刻就平静下来，没有任何垃圾广告。」',
                 rev2_name: '— Kevin (独立工程师)',
                 rev3: '「基因突变繁育系统超有深度！跟朋友用近场交换到了彼此缺少的鱼种，居然合成出了传说中的十二红顶金鱼，超有成就感！」',
@@ -965,7 +969,7 @@
                 widget_mock_fish: 'Tancho Koi (Epic)',
                 review_title: 'Real reviews from aquarium adventurers',
                 rev1: '“I used to find walking boring. Since I installed TinyAquarium, I take two extra stops on my commute just to hatch that mythical egg faster!”',
-                rev1_name: '— Ms. Lin (10,000-daily-steps aquarist)',
+                rev1_name: '— Ms. Lin (10,000-daily-steps keeper)',
                 rev2: '“The Lo-Fi focus mode water sounds are so soothing! When I feel stressed writing code, opening the aquarium and watching the fish tail fins calm me right down. Zero ads.”',
                 rev2_name: '— Kevin (indie engineer)',
                 rev3: '“The gene mutation breeding system is so deep! I traded with a friend locally and somehow synthesized the legendary Twelve-Crest Goldfish — incredible!”',
