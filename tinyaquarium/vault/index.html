@@ -2004,11 +2004,71 @@
         }
 
         const rarityStyles = {
-            common: { bg: 'bg-slate-500/20', text: 'text-slate-300', border: 'border-slate-500/30', label: '普通' },
-            rare: { bg: 'bg-blue-500/20', text: 'text-blue-300', border: 'border-blue-500/30', label: '稀有' },
-            epic: { bg: 'bg-purple-500/20', text: 'text-purple-300', border: 'border-purple-500/30', label: '史詩' },
-            legendary: { bg: 'bg-amber-500/20', text: 'text-amber-300', border: 'border-amber-500/30', label: '傳說' },
-            mythical: { bg: 'bg-rose-500/20', text: 'text-rose-300', border: 'border-rose-500/30', label: '神話' }
+            common: { bg: 'bg-slate-500/20', text: 'text-slate-300', border: 'border-slate-500/30', label: '普通', labelEn: 'Common' },
+            rare: { bg: 'bg-blue-500/20', text: 'text-blue-300', border: 'border-blue-500/30', label: '稀有', labelEn: 'Rare' },
+            epic: { bg: 'bg-purple-500/20', text: 'text-purple-300', border: 'border-purple-500/30', label: '史詩', labelEn: 'Epic' },
+            legendary: { bg: 'bg-amber-500/20', text: 'text-amber-300', border: 'border-amber-500/30', label: '傳說', labelEn: 'Legendary' },
+            mythical: { bg: 'bg-rose-500/20', text: 'text-rose-300', border: 'border-rose-500/30', label: '神話', labelEn: 'Mythical' }
+        };
+
+        //  rarity 標籤與分類名稱的 en-US 在地化 helper
+        function rarityLabel(rStyle) {
+            return currentLang === 'en-US' ? (rStyle.labelEn || rStyle.label) : rStyle.label;
+        }
+        function localizedCategory(fish) {
+            const cat = fish.category || '';
+            if (currentLang !== 'en-US' || !cat) return cat;
+            const map = CATEGORY_EN;
+            for (const [zh, en] of Object.entries(map)) {
+                if (cat.includes(zh)) return en;
+            }
+            return cat;
+        }
+        const CATEGORY_EN = {
+            '核心旗艦手繪': 'Core Flagship',
+            '台灣與東亞高山清溪原生特有種': 'Taiwan & East Asian Highland Streams',
+            '日本錦鯉名門': 'Japanese Koi Heritage',
+            '中國與日本古典宮廷金魚': 'East Asian Heritage',
+            '亞馬遜黑水燈魚與短鯛璀璨寶石': 'Amazon Blackwater Gems',
+            '亞馬遜異型裝甲異型魚家族': 'Amazon Armored Catfish',
+            '南美大型巨獸與掠食活化石': 'South American Giants',
+            '南美奇特擬態與古生物': 'South American Mimics',
+            '東南亞與湄公河原生溪流': 'Southeast Asian Streams',
+            '坦干依喀湖巨型六間與貝類寄居慈鯛': 'Lake Tanganyika Shell Dwellers',
+            '馬拉威湖岩棲與孔雀慈鯛': 'Lake Malawi Rock Dwellers',
+            '維多利亞湖赤焰與稀有慈鯛': 'Lake Victoria Cichlids',
+            '東非大裂谷': 'East African Rift Lakes',
+            '蝴蝶魚、小丑魚與雀鯛': 'Butterflies, Clowns & Damselfish',
+            '倒吊與蓋刺神仙家族': 'Tangs & Angelfish',
+            '砲彈、箱魨、海馬與海龍': 'Triggerfish, Boxfish & Seahorses',
+            '礁岩微距奇珍與擬態獵手': 'Reef Macro Rarities',
+            '軟萌微距海洋小動物': 'Soft Macro Sea Creatures',
+            '深淵頭足綱與膠質幽靈': 'Abyssal Cephalopods',
+            '深海提燈鮟鱇與巨口怪獸': 'Deep-Sea Anglerfish',
+            '熱液噴口黑煙囪特化生命': 'Hydrothermal Vent Life',
+            '萬米沉積與甲殼奇觀': 'Abyssal Crustaceans',
+            '古生代史前遠古海怪': 'Paleozoic Sea Monsters',
+            '泥盆紀與石炭紀魚類時代': 'Devonian & Carboniferous',
+            '寒武紀與奧陶紀遠古黎明': 'Cambrian Dawn',
+            '中生代侏儸紀/白堊紀海怪': 'Mesozoic Sea Monsters',
+            '新生代巨獸與滅世巨齒鯊': 'Cenozoic Giants',
+            '山海經上古異獸水靈': 'Shan Hai Jing Beasts',
+            '東方仙山宮廷祥瑞': 'Eastern Immortal Realm',
+            '民間傳說水族仙班': 'Folklore Aquatic Spirits',
+            '希臘羅馬海神殿堂': 'Greek & Roman Pantheon',
+            '北歐九界與世界之蛇': 'Norse Nine Realms',
+            '凱爾特與阿瑟王傳說': 'Celtic & Arthurian Legends',
+            '埃及冥界與巴比倫神祇': 'Egyptian & Babylonian Gods',
+            '四象聖獸與五行神龍': 'Four Symbols & Five Dragons',
+            '宇宙深空天體與量子力學': 'Cosmic Deep Space',
+            '極光星塵與維度穿梭': 'Aurora Stardust',
+            '塔羅22大阿卡納秘儀': 'Tarot Arcana',
+            '黃道十二宮星座': 'Zodiac Constellations',
+            '奇幻童話與超現實異想': 'Fantasy & Surrealism',
+            '四季與全球節慶奇蹟': 'Seasonal Festivals',
+            '烘焙甜點與美味治癒': 'Bakery & Dessert',
+            '剛果與尼羅河古生代巨魚': 'Congo & Nile Giants',
+            '水族': 'Aquatic Species'
         };
 
         function generateFishSvg(fish, size = 40) {
@@ -2018,7 +2078,7 @@
             const aColor = bp.accentColor || '#FACC15';
             const tail = bp.tailShape || 'forked';
             const features = bp.features || [];
-            const name = (fish.commonName || '') + (fish.id || '');
+            const name = ((fish.commonName || '') + ' ' + (fish.commonNameEn || '') + ' ' + ((fish.i18n && fish.i18n.en && fish.i18n.en.commonName) || '') + ' ' + (fish.id || '')).toLowerCase();
 
             // 1. Specialized Vector SVGs for Distinct Marine Life Classes
             // 00000. Koi Dynasty (日本錦鯉名門、神話神鯉、丹頂錦鯉：流線紡錘體真鯉身軀、八字微展精緻雙短鬚、修長背鰭、羽扇展開大胸鰭)
@@ -2147,7 +2207,7 @@
                     <polygon points="25,28 28,35 31,28" fill="#FB923C" opacity="0.9"/>
                     <!-- Streamlined Salmon Body (優美修長魚身) -->
                     <path d="M10,24 C14,19 28,18 38,20 C42,21 44,22 45,24 C43,26 38,29 28,29 C16,29 12,26 10,24 Z" fill="#78716C"/>
-                    <path d="M10,24 C14,19 28,18 38,20 C42,21 44,22 45,24 C43,26 38,29 28,29 C16,29 12,26 10,24 Z" fill="url(#grad_salmon_${fish.id || 'fs'})" opacity="0.9"/>
+                    <path d="M10,24 C14,19 28,18 38,20 C42,21 44,22 45,24 C43,26 38,29 28,29 C16,29 12,26 10,24 Z" fill="url(#grad_salmon_${(fish.id || 'fs').replace(/[^a-zA-Z0-9]/g, '_')})" opacity="0.9"/>
                     <!-- Pale Belly (銀白下腹) -->
                     <path d="M14,26 Q26,29 38,25 Q26,27 14,26 Z" fill="#F8FAFC" opacity="0.75"/>
                     <!-- Pink Lateral Sheen (體側落櫻粉紅光暈) -->
@@ -2179,7 +2239,7 @@
             }
 
             // 0. Manatees & Dugongs (圓厚憨萌海牛 / 儒艮 / 扁平圓鏟槳尾 / 下垂圓鈍口吻 / 雙鼻孔 / 無背鰭)
-            if (name.includes('海牛') || name.includes('儒艮') || name.includes('manatee') || name.includes('dugong')) {
+            if ((name.includes('海牛') && !name.includes('西班牙海牛') && !name.includes('spanish dancer')) || name.includes('儒艮') || name.includes('manatee') || name.includes('dugong')) {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Spatula Paddle Fluke Tail (圓扁鏟尾) -->
@@ -2319,28 +2379,149 @@
                 </svg>`;
             }
 
-            // D. Sea Bunnies & Leaf Sea Sheep / Nudibranchs (毛茸海兔 / 綠葉海羊)
-            if (name.includes('海羊') || name.includes('海兔') || name.includes('海蛞蝓') || name.includes('nudibranch') || name.includes('slug')) {
+                        // D2. Nudibranch Dynasty (海兔/海蛞蝓名門：睡衣海兔 Chromodoris quadricolor、毛茸海兔 Sea Bunny、綠葉海羊、西班牙舞娘、皮卡丘雙角金黃——無魚身無魚尾的裸鰓軟體動物)
+            const isNudibranch = name.includes('海羊') || name.includes('海兔') || name.includes('海蛞蝓') || name.includes('海牛崽')
+                || name.includes('nudibranch') || name.includes('sea slug') || name.includes('sea-slug') || name.includes('glaucus')
+                || name.includes('chromodoris') || name.includes('jorunna') || name.includes('hexabranchius')
+                || (name.includes('slug') && !name.includes('keelback'))
+                || name.includes('西班牙海牛') || name.includes('spanish dancer')
+                || name.includes('pajama') || name.includes('sea bunny') || name.includes('leafy sea-goat')
+                || name.includes('fish_1075') || name.includes('pacific golden sea-slug') || name.includes('spanish dancer');
+            if (isNudibranch) {
+                const isPajama = name.includes('睡衣') || name.includes('pajama') || name.includes('quadricolor') || name.includes('fish_1075');
+                const isSeaBunny = name.includes('毛茸') || name.includes('sea bunny') || name.includes('jorunna');
+                const isLeafy = name.includes('綠葉海羊') || name.includes('leafy') || name.includes('sea-goat');
+                const isSpanishDancer = name.includes('西班牙') || name.includes('spanish dancer') || name.includes('hexabranchius');
+                const isPikachu = name.includes('雙角金黃') || name.includes('pikachu') || name.includes('pacific golden');
+                const isBlueDragon = name.includes('藍龍') || name.includes('glaucus');
+
+                let mantleFill = pColor, mantleStroke = sColor, mantleEdge = aColor, rhinoFill = aColor, gillFill = aColor;
+                let mantlePattern = '';
+                if (isPajama) {
+                    // 純白外套膜底 + 鮮橙波浪外套膜外緣 + 黑黃黑三條縱向睡衣斑紋
+                    mantleFill = '#FFFFFF'; mantleStroke = '#E2E8F0'; mantleEdge = '#F59E0B';
+                    rhinoFill = '#EA580C'; gillFill = '#EA580C';
+                    mantlePattern = `
+                        <path d="M14,22 Q26,17 38,22 L38,24 Q26,20 14,24 Z" fill="#0F172A"/>
+                        <path d="M14,25 Q26,21 38,25 L38,27 Q26,24 14,27 Z" fill="#FACC15"/>
+                        <path d="M14,28 Q26,24 38,28 L38,30 Q26,27 14,30 Z" fill="#0F172A"/>`;
+                } else if (isSeaBunny) {
+                    mantleFill = '#FFFFFF'; mantleStroke = '#E2E8F0'; mantleEdge = '#F8FAFC';
+                    rhinoFill = '#FDE68A'; gillFill = '#FDE68A';
+                    mantlePattern = `
+                        <ellipse cx="22" cy="24" rx="2.2" ry="1.6" fill="#FDE68A" opacity="0.8"/>
+                        <ellipse cx="28" cy="22" rx="2.2" ry="1.6" fill="#FDE68A" opacity="0.8"/>
+                        <ellipse cx="25" cy="27" rx="2.2" ry="1.6" fill="#FDE68A" opacity="0.8"/>`;
+                } else if (isLeafy) {
+                    mantleFill = '#4ADE80'; mantleStroke = '#16A34A'; mantleEdge = '#86EFAC';
+                    rhinoFill = '#86EFAC'; gillFill = '#86EFAC';
+                } else if (isSpanishDancer) {
+                    mantleFill = '#DC2626'; mantleStroke = '#991B1B'; mantleEdge = '#F97316';
+                    rhinoFill = '#FCA5A5'; gillFill = '#FDBA74';
+                } else if (isPikachu) {
+                    mantleFill = '#FDE047'; mantleStroke = '#EAB308'; mantleEdge = '#FEF08A';
+                    rhinoFill = '#EF4444'; gillFill = '#FACC15';
+                } else if (isBlueDragon) {
+                    mantleFill = '#3B82F6'; mantleStroke = '#1D4ED8'; mantleEdge = '#93C5FD';
+                    rhinoFill = '#F59E0B'; gillFill = '#60A5FA';
+                }
+
+                // 背部羽狀外鰓呼吸簇 (Branchial Plume)
+                const gillPlume = isSpanishDancer
+                    ? `<path d="M13,20 Q6,12 4,16 Q8,20 11,22 Z" fill="${gillFill}" opacity="0.9"/>
+                       <path d="M13,22 Q5,18 3,22 Q7,24 11,24 Z" fill="${gillFill}" opacity="0.8"/>
+                       <path d="M13,24 Q6,26 5,30 Q9,28 12,26 Z" fill="${gillFill}" opacity="0.9"/>`
+                    : `<circle cx="13" cy="19" r="2.2" fill="${gillFill}"/>
+                       <circle cx="10" cy="22" r="2.2" fill="${gillFill}"/>
+                       <circle cx="12" cy="25" r="2.2" fill="${gillFill}"/>
+                       <circle cx="16" cy="17" r="1.8" fill="${gillFill}" opacity="0.85"/>`;
+
+                // 外套膜波浪外緣 (Mantle Skirt Rim)
+                const skirtRim = isPajama
+                    ? `<path d="M10,26 Q13,15 26,14 Q39,15 42,26 Q39,35 26,36 Q13,35 10,26 Z" fill="none" stroke="${mantleEdge}" stroke-width="3.2" stroke-linejoin="round"/>`
+                    : `<path d="M10,26 Q13,15 26,14 Q39,15 42,26 Q39,35 26,36 Q13,35 10,26 Z" fill="none" stroke="${mantleEdge}" stroke-width="2.2" stroke-dasharray="2.5 1.5" opacity="0.9"/>`;
+
+                // 吻端前方豎立雙嗅角 (Rhinophores / 兔耳)
+                const rhino = isLeafy
+                    ? `<path d="M33,15 Q31,7 34,5 Q36,9 35,15 Z" fill="${rhinoFill}"/>
+                       <path d="M38,15 Q40,7 37,5 Q35,9 36,15 Z" fill="${rhinoFill}"/>`
+                    : `<ellipse cx="33" cy="12" rx="1.8" ry="5" fill="${rhinoFill}" transform="rotate(-14 33 12)"/>
+                       <ellipse cx="38" cy="12" rx="1.8" ry="5" fill="${rhinoFill}" transform="rotate(14 38 12)"/>
+                       <path d="M32.4,9 L33.6,9 M32.2,7 L33.8,7" stroke="${mantleStroke}" stroke-width="0.5" opacity="0.7"/>
+                       <path d="M37.4,9 L38.6,9 M37.2,7 L38.8,7" stroke="${mantleStroke}" stroke-width="0.5" opacity="0.7"/>`;
+
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
-                    <!-- Bunny Ears / Rhinophores -->
-                    <ellipse cx="34" cy="13" rx="2" ry="5.5" fill="${aColor}" transform="rotate(-15 34 13)"/>
-                    <ellipse cx="38" cy="14" rx="2" ry="5.5" fill="${aColor}" transform="rotate(15 38 14)"/>
-                    <!-- Mantle / Body -->
-                    <ellipse cx="26" cy="26" rx="15" ry="9" fill="${pColor}"/>
-                    <!-- Leaf spots / Cerata -->
-                    <circle cx="18" cy="23" r="2.5" fill="${sColor}"/>
-                    <circle cx="23" cy="20" r="2.5" fill="${sColor}"/>
-                    <circle cx="28" cy="22" r="2.5" fill="${sColor}"/>
-                    <circle cx="20" cy="28" r="2.5" fill="${sColor}"/>
-                    <circle cx="25" cy="27" r="2.5" fill="${sColor}"/>
-                    <!-- Cute Eyes -->
-                    <circle cx="37" cy="23" r="1.8" fill="#0F172A"/>
-                    <circle cx="37.5" cy="22.5" r="0.6" fill="#FFFFFF"/>
+                    <!-- No fish body, no fish tail: soft-bodied slug creeping on the coral floor -->
+                    <!-- Bare Sole Foot (寬闊肉足貼地) -->
+                    <path d="M12,32 Q26,38 40,32 L40,34 Q26,39 12,34 Z" fill="${mantleStroke}" opacity="0.55"/>
+                    <!-- Branchial Plume (背部羽狀外鰓) -->
+                    ${gillPlume}
+                    <!-- Mantle Skirt (波浪外套膜) -->
+                    <path d="M10,26 Q13,15 26,14 Q39,15 42,26 Q39,35 26,36 Q13,35 10,26 Z" fill="${mantleFill}" stroke="${mantleStroke}" stroke-width="0.8"/>
+                    ${skirtRim}
+                    ${mantlePattern}
+                    <!-- Rhinophores (吻端雙嗅角兔耳) -->
+                    ${rhino}
+                    <!-- Gentle Eyes -->
+                    <circle cx="35" cy="21" r="1.4" fill="#0F172A"/>
+                    <circle cx="35.4" cy="20.6" r="0.5" fill="#FFFFFF"/>
                 </svg>`;
             }
 
-            // E. Sea Turtles (小海龜)
+            // D3. Bivalve Dynasty (雙殼貝名門：扇貝/蛤蚌放射肋紋貝殼、微張呼吸開合、夜明珠蚌靈/蚌殼精靈露出璀璨夜明珠、噴口貽貝玄武岩紋、白瓜貝純白殼+血紅外套膜；東非卷貝慈鯛保持魚身走通用原型)
+            const isBivalve = (name.includes('蚌') && !name.includes('蚌蛤')) || name.includes('貽貝')
+                || name.includes('clam') || name.includes('mussel') || name.includes('oyster') || name.includes('scallop')
+                || name.includes('pearl shell') || name.includes('night-pearl') || name.includes('calyptogena')
+                || name.includes('vent mussel') || name.includes('f_5061') || name.includes('f_5062')
+                || name.includes('夜明珠蚌') || name.includes('蚌殼精靈');
+            const isShellCichlid = name.includes('貝') && !isBivalve && (name.includes('斑馬貝') || name.includes('圓頂貝') || name.includes('虎皮貝') || name.includes('金線貝') || name.includes('藍眼貝') || name.includes('afr_tan'));
+            if (isBivalve && !isShellCichlid) {
+                const isPearlSpirit = name.includes('夜明珠') || name.includes('蚌殼精靈') || name.includes('pearl shell') || name.includes('night-pearl');
+                const isVentMussel = name.includes('噴口貽貝') || name.includes('vent mussel') || name.includes('f_5061');
+                const isCalyptogena = name.includes('白瓜貝') || name.includes('calyptogena') || name.includes('f_5062');
+
+                let shellFill = pColor, shellStroke = sColor, mantleShow = '', pearl = '';
+                let shellOpen = 2.2;
+                if (isPearlSpirit) {
+                    shellFill = '#334155'; shellStroke = '#0F172A'; shellOpen = 4.5;
+                    mantleShow = `<path d="M14,26 Q26,22 38,26 Q26,29 14,26 Z" fill="#7C3AED" opacity="0.75"/>`;
+                    pearl = `<circle cx="26" cy="25" r="6.5" fill="#A7F3D0" opacity="0.35"/>
+                             <circle cx="26" cy="25" r="4.2" fill="#6EE7B7"/>
+                             <circle cx="24.6" cy="23.6" r="1.6" fill="#ECFDF5"/>`;
+                } else if (isVentMussel) {
+                    shellFill = '#1E293B'; shellStroke = '#0B1120'; shellOpen = 1.4;
+                    mantleShow = `<path d="M16,25.5 Q26,23.5 36,25.5" stroke="#F97316" stroke-width="1.6" fill="none" opacity="0.9"/>`;
+                } else if (isCalyptogena) {
+                    shellFill = '#F8FAFC'; shellStroke = '#CBD5E1'; shellOpen = 2.6;
+                    mantleShow = `<path d="M14,26 Q26,22.5 38,26 Q26,28.5 14,26 Z" fill="#DC2626"/>`;
+                }
+
+                // 放射狀肋紋 (Radial Ribs)
+                const ribs = `
+                    <path d="M26,14 L14,30 M26,14 L19,32 M26,14 L26,33 M26,14 L33,32 M26,14 L38,30" stroke="${shellStroke}" stroke-width="0.9" opacity="0.65" fill="none"/>
+                    <path d="M12,28 Q26,34 40,28" stroke="${shellStroke}" stroke-width="0.8" opacity="0.5" fill="none"/>`;
+
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Lower Valve (下貝殼) -->
+                    <path d="M10,26 Q12,36 26,37 Q40,36 42,26 Z" fill="${shellFill}" stroke="${shellStroke}" stroke-width="1"/>
+                    <!-- Breathing Gap Mantle (微張呼吸縫外套膜) -->
+                    <path d="M11,26 Q26,${26 - shellOpen} 41,26 Q26,${26 + 0.8} 11,26 Z" fill="#0F172A" opacity="0.5"/>
+                    ${mantleShow}
+                    ${pearl}
+                    <!-- Upper Valve with Radial Ribs (上貝殼與放射肋紋，微張開合) -->
+                    <g transform="rotate(-6 26 26)">
+                        <path d="M10,26 Q12,14 26,13 Q40,14 42,26 Q26,24 10,26 Z" fill="${shellFill}" stroke="${shellStroke}" stroke-width="1"/>
+                        ${ribs}
+                        <path d="M20,16 Q26,13 32,16" stroke="#FFFFFF" stroke-width="0.8" opacity="0.35" fill="none"/>
+                    </g>
+                    <!-- Umbo 殼頂 -->
+                    <circle cx="26" cy="14.5" r="1.4" fill="${shellStroke}"/>
+                </svg>`;
+            }
+
+// E. Sea Turtles (小海龜)
             if (name.includes('海龜') || name.includes('龜') || name.includes('turtle')) {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
@@ -2882,7 +3063,7 @@
             grid.innerHTML = displayList.map(fish => {
                 const rStyle = rarityStyles[fish.rarity?.toLowerCase()] || rarityStyles.common;
                 const fishIcon = generateFishSvg(fish, 40);
-                const volName = fish.category || (fish.volumeFile ? fish.volumeFile.replace('Volume', '卷') : '水族');
+                const volName = localizedCategory(fish) || (fish.volumeFile ? fish.volumeFile.replace('Volume', '卷') : '水族');
                 return `
                     <div onclick="openSpeciesModal('${fish.id}')" class="glass-card p-5 rounded-2xl cursor-pointer group transition-all duration-300 hover:-translate-y-1.5 flex flex-col justify-between">
                         <div class="space-y-3">
@@ -2892,7 +3073,7 @@
                                 </div>
                                 <div class="flex flex-col items-end gap-1">
                                     <span class="px-2 py-0.5 rounded-full ${rStyle.bg} ${rStyle.text} border ${rStyle.border} text-[12px] font-bold">
-                                        ${rStyle.label}
+                                        ${rarityLabel(rStyle)}
                                     </span>
                                     <span class="text-[12px] text-slate-400 px-1.5 py-0.5 rounded bg-white/5 font-mono">
                                         ${volName}
@@ -2936,8 +3117,8 @@
             document.getElementById('modalName').textContent = speciesCommonName(fish);
             document.getElementById('modalScientific').textContent = fish.scientificName || '';
             document.getElementById('modalRarityBadge').className = `px-2 py-0.5 rounded-full ${rStyle.bg} ${rStyle.text} border ${rStyle.border} text-[12px] font-bold`;
-            document.getElementById('modalRarityBadge').textContent = rStyle.label;
-            document.getElementById('modalCategoryBadge').textContent = fish.category || t('modal_default_cat');
+            document.getElementById('modalRarityBadge').textContent = rarityLabel(rStyle);
+            document.getElementById('modalCategoryBadge').textContent = localizedCategory(fish) || t('modal_default_cat');
             document.getElementById('modalDesc').textContent = speciesDescription(fish);
             document.getElementById('modalSteps').textContent = `${(fish.hatchStepsRequired || 3000).toLocaleString()} ${t('vault_steps')}`;
             document.getElementById('modalCoins').textContent = `${fish.baseCoinYield || 3} / ${t('per_hour')}`;
