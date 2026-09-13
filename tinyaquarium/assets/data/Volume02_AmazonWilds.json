@@ -621,17 +621,18 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#89CE0E",
-      "secondaryColor": "#4AFAAD",
-      "accentColor": "#F055F6",
+      "primaryColor": "#1C1917",
+      "secondaryColor": "#292524",
+      "accentColor": "#FACC15",
       "tailShape": "fan",
-      "bodyLength": 22.0,
-      "bodyHeight": 11.0,
+      "bodyLength": 24.0,
+      "bodyHeight": 12.0,
       "features": [
         "spots",
-        "pearl_scales"
+        "pearl_scales",
+        "whiskers"
       ],
-      "phenotypeHash": "VPH-STA-89CE-4AFA-FAN-2"
+      "phenotypeHash": "VPH-STA-1C19-2925-FAN-3"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -1454,16 +1455,16 @@
     "baseCoinYield": 11,
     "emojiOrSprite": "🦭",
     "visualBlueprint": {
-      "primaryColor": "#1B2A4B",
-      "secondaryColor": "#512956",
-      "accentColor": "#C9F655",
-      "tailShape": "ribbon",
-      "bodyLength": 22.0,
-      "bodyHeight": 11.0,
+      "primaryColor": "#5A6B7C",
+      "secondaryColor": "#8C9BAE",
+      "accentColor": "#CBD5E1",
+      "tailShape": "crescent",
+      "bodyLength": 27.0,
+      "bodyHeight": 15.0,
       "features": [
-        "wing_fins"
+        "no_dorsal"
       ],
-      "phenotypeHash": "VPH-RAY-1B2A-5129-RIB-1"
+      "phenotypeHash": "VPH-MAN-5A6B-8C9B-CRE-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
@@ -3331,17 +3332,17 @@
     "baseCoinYield": 2,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#1D2849",
-      "secondaryColor": "#542956",
-      "accentColor": "#BCF655",
-      "tailShape": "ribbon",
-      "bodyLength": 22.0,
-      "bodyHeight": 11.0,
+      "primaryColor": "#6B7280",
+      "secondaryColor": "#1F2937",
+      "accentColor": "#E5E7EB",
+      "tailShape": "forked",
+      "bodyLength": 19.0,
+      "bodyHeight": 9.5,
       "features": [
-        "wing_fins",
-        "flowing_fins"
+        "stripes",
+        "whiskers"
       ],
-      "phenotypeHash": "VPH-RAY-1D28-5429-RIB-2"
+      "phenotypeHash": "VPH-OTO-6B72-1F29-FOR-1"
     },
     "breedingRecipe": [
       "placeholder_parent_a",
