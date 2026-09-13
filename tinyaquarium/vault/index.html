@@ -2021,6 +2021,116 @@
             const name = (fish.commonName || '') + (fish.id || '');
 
             // 1. Specialized Vector SVGs for Distinct Marine Life Classes
+            // 00000. Koi Dynasty (日本錦鯉名門、神話神鯉、丹頂錦鯉：流線紡錘體真鯉身軀、八字微展精緻雙短鬚、修長背鰭、羽扇展開大胸鰭)
+            if (name.includes('錦鯉') || name.includes('koi') || (name.includes('鯉') && !name.includes('脂鯉'))) {
+                const isTancho = features.includes('tancho_crown') || name.includes('丹頂') || name.includes('tancho');
+                const isKohaku = name.includes('紅白') || name.includes('kohaku');
+                const isShowa = name.includes('昭和') || name.includes('showa');
+                const isSanke = name.includes('大正') || name.includes('sanke');
+                const isGolden = name.includes('黃金') || name.includes('golden') || (pColor.toLowerCase() === '#facc15' || pColor.toLowerCase() === '#f59e0b');
+
+                // Body base colors
+                let bodyFill = '#FFFFFF';
+                let bodyStroke = '#CBD5E1';
+                let dorsalFill = '#F1F5F9';
+                let tailFill = '#F8FAFC';
+                let pectoralFill = '#FFFFFF';
+                let whiskerStroke = '#94A3B8';
+
+                if (isShowa) {
+                    bodyFill = '#0F172A';
+                    bodyStroke = '#1E293B';
+                    dorsalFill = '#1E293B';
+                    tailFill = '#0F172A';
+                    whiskerStroke = '#64748B';
+                } else if (isGolden) {
+                    bodyFill = '#F59E0B';
+                    bodyStroke = '#D97706';
+                    dorsalFill = '#FBBF24';
+                    tailFill = '#F59E0B';
+                    whiskerStroke = '#B45309';
+                } else if (!isTancho && !isKohaku && !isSanke) {
+                    bodyFill = pColor;
+                    bodyStroke = sColor;
+                    dorsalFill = sColor;
+                    tailFill = sColor;
+                    whiskerStroke = aColor || sColor;
+                }
+
+                // Patterns SVG
+                let koiPatterns = '';
+                if (isTancho) {
+                    // Perfect Pure Circular Scarlet Red Tancho Crown on Forehead (頭頂正中正圓朱紅丹頂)
+                    koiPatterns = `
+                        <circle cx="36" cy="20" r="4.2" fill="#DC2626"/>
+                        <circle cx="36" cy="20" r="3.2" fill="#EF4444"/>
+                    `;
+                } else if (isKohaku) {
+                    // Stepped Scarlet Hi Patches (紅白段落緋斑)
+                    koiPatterns = `
+                        <path d="M18,22 Q24,16 30,21 Q24,26 18,22 Z" fill="#DC2626"/>
+                        <ellipse cx="25" cy="21" rx="5" ry="3.5" fill="#EF4444"/>
+                        <circle cx="34" cy="21" r="3.2" fill="#DC2626"/>
+                    `;
+                } else if (isShowa) {
+                    // Showa Scarlet Hi & Pure White Shiroji over Sumi black body
+                    koiPatterns = `
+                        <ellipse cx="23" cy="20" rx="5" ry="3.5" fill="#EF4444"/>
+                        <circle cx="33" cy="21" r="3.0" fill="#DC2626"/>
+                        <ellipse cx="17" cy="25" rx="4.5" ry="2.5" fill="#FFFFFF" opacity="0.95"/>
+                        <ellipse cx="29" cy="24" rx="3.5" ry="2.0" fill="#FFFFFF" opacity="0.95"/>
+                    `;
+                } else if (isSanke) {
+                    // Sanke Scarlet Hi patches & scattered Sumi black ink dots over white body
+                    koiPatterns = `
+                        <ellipse cx="22" cy="20" rx="5.5" ry="3.5" fill="#EF4444"/>
+                        <circle cx="33" cy="21" r="3.0" fill="#DC2626"/>
+                        <circle cx="18" cy="24" r="1.6" fill="#0F172A"/>
+                        <circle cx="28" cy="24" r="1.8" fill="#0F172A"/>
+                    `;
+                } else if (isGolden) {
+                    // Shimmering Golden Scale Sheen
+                    koiPatterns = `
+                        <ellipse cx="27" cy="24" rx="10" ry="3.5" fill="#FDE047" opacity="0.45"/>
+                    `;
+                } else {
+                    // Procedural Hi & Accent Patterns
+                    koiPatterns = `
+                        <ellipse cx="24" cy="21" rx="5.5" ry="3.5" fill="${sColor}" opacity="0.9"/>
+                        <circle cx="33" cy="21" r="3.0" fill="${aColor}" opacity="0.9"/>
+                    `;
+                }
+
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <!-- Broad Caudal Tail Fin (舒展大氣的真鯉尾鰭) -->
+                    <path d="M12,24 C4,10 0,14 2,24 C0,34 4,38 12,24 Z" fill="${tailFill}" opacity="0.9"/>
+                    <path d="M12,24 Q2,14 4,8 Q9,22 12,24 Q9,26 4,40 Q2,34 12,24 Z" fill="${tailFill}" opacity="0.75"/>
+                    <!-- Flowing Dorsal Fin along back (順延背脊的優美長背鰭) -->
+                    <path d="M16,19 Q25,12 32,18 L30,20 Q24,16 16,21 Z" fill="${dorsalFill}" opacity="0.95"/>
+                    <!-- Anal & Pelvic Fins (臀鰭與腹鰭) -->
+                    <polygon points="17,27 21,32 24,27" fill="${dorsalFill}" opacity="0.85"/>
+                    <polygon points="25,27 28,33 31,27" fill="${dorsalFill}" opacity="0.85"/>
+                    <!-- Muscular Streamlined Torpedo Koi Body (雄渾大氣流線紡錘體真鯉魚身) -->
+                    <path d="M11,24 C14,18 25,16 36,19 C41,21 44,22 45,24 C44,26 40,28 35,29 C24,30 14,28 11,24 Z" fill="${bodyFill}" stroke="${bodyStroke}" stroke-width="0.8"/>
+                    <!-- Dorsal Ridge Soft Highlight (背脊高光) -->
+                    <path d="M17,20 Q26,17 35,21" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.5"/>
+                    <!-- Variety-specific Patterns (品種專屬名品斑紋) -->
+                    ${koiPatterns}
+                    <!-- Broad Fan Pectoral Fin with Motoguro (寬大羽扇胸鰭) -->
+                    <g transform="rotate(15 31 27)">
+                        <ellipse cx="31" cy="27" rx="5.5" ry="3.2" fill="${pectoralFill}" stroke="${bodyStroke}" stroke-width="0.6" opacity="0.9"/>
+                        ${isShowa ? '<circle cx="28" cy="26.5" r="2.0" fill="#0F172A"/>' : ''}
+                    </g>
+                    <!-- Crisp Alert Ink Eye (清澈神采鯉眼) -->
+                    <circle cx="39" cy="21.5" r="2.0" fill="#0F172A"/>
+                    <circle cx="39.5" cy="21.2" r="0.8" fill="#FFFFFF"/>
+                    <!-- Delicate Paired Forward Barbels (吻端兩側自然微展的八字雙短鬚) -->
+                    <path d="M44,23.5 Q47,23 48,25" stroke="${whiskerStroke}" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+                    <path d="M43.5,25 Q46.5,26 47.5,28.5" stroke="${whiskerStroke}" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+                </svg>`;
+            }
+
             // 0000. Formosan Landlocked Salmon (國寶台灣櫻花鉤吻鮭：標誌性鉤吻大口裂、背部肉質脂鰭、體側深黑褐橢圓幼鮭斑 Parr Marks)
             if (name.includes('櫻花鉤吻鮭') || name.includes('formosan_salmon') || name.includes('salmon')) {
                 return `
