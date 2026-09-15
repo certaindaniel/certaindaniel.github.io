@@ -1,0 +1,8 @@
+#!/bin/sh
+# Block a commit that leaves any page missing a language. Enable once per clone:
+#   git config core.hooksPath .githooks
+# Bypassing with --no-verify is for emergencies only; say so in the commit message.
+python3 "$(git rev-parse --show-toplevel)/tools/check_i18n.py" || {
+  echo "pre-commit: i18n check failed — fix every FAIL above (all three languages), then commit again." >&2
+  exit 1
+}
