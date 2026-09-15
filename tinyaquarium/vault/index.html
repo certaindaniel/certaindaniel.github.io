@@ -202,7 +202,7 @@
                             <div class="text-xs text-slate-400 mt-1" data-i18n="hero_m1">全球水族與神話圖鑑</div>
                         </div>
                         <div>
-                            <div class="text-2xl sm:text-3xl font-extrabold text-teal-300">146 組</div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-teal-300" data-i18n="hero_m2_n">146 組</div>
                             <div class="text-xs text-slate-400 mt-1" data-i18n="hero_m2">隱藏基因突變配方</div>
                         </div>
                         <div>
@@ -225,7 +225,7 @@
 
                             <!-- Screen Container -->
                             <div class="relative rounded-[44px] overflow-hidden aspect-[9/19.5] bg-deepOcean shadow-inner border border-white/10">
-                                <img src="../assets/screenshot_dex.png" alt="TinyAquarium 水族百科圖鑑實機畫面" class="w-full h-full object-cover">
+                                <img src="../assets/screenshot_dex.png" alt="TinyAquarium 水族百科圖鑑實機畫面" data-i18n-alt="shot_dex_alt" class="w-full h-full object-cover">
                             </div>
                         </div>
 
@@ -429,12 +429,12 @@
 
         const I18N = {
             'zh-Hant': { pageTitle: 'TinyAquarium 萬魚圖鑑展廳 | 1,176 種水族與神話生物', nav_faq: '常見問題', nav_privacy: '隱私權政策', nav_home: '首頁', nav_guide: '玩法攻略', nav_vault: '萬魚圖鑑', nav_download: '下載',
-                back: '← 回到作品集', sound: '水聲白噪音', coming: '即將推出',
+                back: '← 回到作品集', sound: '水聲白噪音', sound_off: '關閉環境音', coming: '即將推出',
                 hero_badge: 'Apple HealthKit 步數連動・1,176 種全水域生物庫',
                 hero_title: '把每一步步伐，<br>化作掌心的', hero_title_hl: '治癒深海世界',
                 hero_p: '<strong class="text-white font-semibold">TinyAquarium（微型水族箱）</strong> 是一款專為都市生活打造的放置水族養成手遊。走路解鎖真實與傳說神魚、探索百種隱藏基因突變、在 Lo-Fi 水聲白噪音中沉浸專注，並透過 Apple Watch 與桌面小組件隨時投餵守護。',
                 hero_cta1: 'App Store 免費下載', hero_cta2: '🎮 試玩網頁虛擬魚缸',
-                hero_m1: '全球水族與神話圖鑑', hero_m2: '隱藏基因突變配方', hero_m3: '無伺服器近場直連交換',
+                hero_m1: '全球水族與神話圖鑑', hero_m2_n: '146 組', shot_dex_alt: 'TinyAquarium 水族百科圖鑑實機畫面', hero_m2: '隱藏基因突變配方', hero_m3: '無伺服器近場直連交換',
                 hero_widget: 'iOS 17+ 互動小組件', hero_widget_sub: '桌面一鍵投餵・鎖定畫面步數',
                 hero_pet: '摸摸 360° 翻滾', hero_pet_sub: '每日獲取愛心能量',
                 live_title: '在網頁裡，即刻享受這份', live_title_hl: '寧靜與治癒',
@@ -512,12 +512,12 @@
                 vol_v08: '🏛️ 西方奧林帕斯 (100)', vol_v09: '🌌 星系塔羅星座 (100)', vol_v10: '🍰 甜蜜節慶萌物 (100)',
             },
             'zh-Hans': { pageTitle: 'TinyAquarium 万鱼图鉴展厅 | 1,176 种水族与神话生物', nav_faq: '常见问题', nav_privacy: '隐私权政策', nav_home: '首页', nav_guide: '玩法攻略', nav_vault: '万鱼图鉴', nav_download: '下载',
-                back: '← 回到作品集', sound: '水声白噪音', coming: '即将推出',
+                back: '← 回到作品集', sound: '水声白噪音', sound_off: '关闭环境音', coming: '即将推出',
                 hero_badge: 'Apple HealthKit 步数联动・1,176 种全水域生物库',
                 hero_title: '把每一步步伐，<br>化作掌心的', hero_title_hl: '治愈深海世界',
                 hero_p: '<strong class="text-white font-semibold">TinyAquarium（微型水族箱）</strong> 是一款专为都市生活打造的放置水族养成手游。走路解锁真实与传说神鱼、探索百种隐藏基因突变、在 Lo-Fi 水声白噪音中沉浸专注，并透过 Apple Watch 与桌面小组件随时投喂守护。',
                 hero_cta1: 'App Store 免费下载', hero_cta2: '🎮 试玩网页虚拟鱼缸',
-                hero_m1: '全球水族与神话图鉴', hero_m2: '隐藏基因突变配方', hero_m3: '无服务器近场直连交换',
+                hero_m1: '全球水族与神话图鉴', hero_m2_n: '146 组', shot_dex_alt: 'TinyAquarium 水族百科图鉴实机画面', hero_m2: '隐藏基因突变配方', hero_m3: '无服务器近场直连交换',
                 hero_widget: 'iOS 17+ 互动小组件', hero_widget_sub: '桌面一键投喂・锁屏画面步数',
                 hero_pet: '摸摸 360° 翻滚', hero_pet_sub: '每日获取爱心能量',
                 live_title: '在网页里，即刻享受这份', live_title_hl: '宁静与治愈',
@@ -590,12 +590,12 @@
                 vault_load_more_left: '➕ 载入更多结果 (剩余 {n} 种)',
             },
             'en-US': { pageTitle: 'TinyAquarium Fish Vault | 1,176 aquatic and mythical species', nav_faq: 'FAQ', nav_privacy: 'Privacy Policy', nav_home: 'Home', nav_guide: 'Guide', nav_vault: 'Fish Vault', nav_download: 'Download',
-                back: '← Back to portfolio', sound: 'Water ambience', coming: 'Coming soon',
+                back: '← Back to portfolio', sound: 'Water ambience', sound_off: 'Mute ambience', coming: 'Coming soon',
                 hero_badge: 'Apple HealthKit Steps・1,176 Species Library',
                 hero_title: 'Every step you take,<br>becomes a pocket-sized', hero_title_hl: 'healing deep-sea world',
                 hero_p: '<strong class="text-white font-semibold">TinyAquarium</strong> is a laid-back idle aquarium game for city life. Walk to hatch real and legendary fish, explore hundreds of hidden genetic mutations, focus with Lo-Fi water-sound white noise, and care for your tank anytime via Apple Watch and home-screen widgets.',
                 hero_cta1: 'Download free on App Store', hero_cta2: '🎮 Try the web tank',
-                hero_m1: 'Global species & myth vault', hero_m2: 'Hidden genetic recipes', hero_m3: 'Serverless P2P trading',
+                hero_m1: 'Global species & myth vault', hero_m2_n: '146', shot_dex_alt: 'TinyAquarium species codex screenshot', hero_m2: 'Hidden genetic recipes', hero_m3: 'Serverless P2P trading',
                 hero_widget: 'iOS 17+ interactive widget', hero_widget_sub: 'One-tap feed from home screen・lock-screen steps',
                 hero_pet: 'Pet 360° spin', hero_pet_sub: 'Earn heart energy daily',
                 live_title: 'In your browser,', live_title_hl: 'instant calm & healing',
@@ -735,13 +735,16 @@
             document.querySelectorAll('[data-i18n-html]').forEach(el => {
                 el.innerHTML = t(el.getAttribute('data-i18n-html'));
             });
+            document.querySelectorAll('[data-i18n-alt]').forEach(el => {
+                el.setAttribute('alt', t(el.getAttribute('data-i18n-alt')));
+            });
             // live-tank 固定 id / 文案
             const set = (id, val) => { const e = document.getElementById(id); if (e) e.textContent = val; };
             set('vaultLoading', t('vault_loading'));
             document.querySelector('input#vaultSearchInput')?.setAttribute('placeholder', t('vault_search'));
             document.querySelectorAll('.rarity-btn').forEach(b => {
                 const m = (b.getAttribute('onclick')||'').match(/setRarityFilter\('(\w+)'\)/);
-                if (m && m[1] !== 'all' && t('rarity_'+m[1])) b.textContent = t('rarity_'+m[1]);
+                const key = m && (m[1] === 'all' ? 'vault_rarity_all' : 'rarity_'+m[1]); if (key && t(key)) b.textContent = t(key);
             });
             // 卷冊 tab 依語言覆寫 (syncVolumeTabCounts 用 i18n 取)
             if (typeof syncVolumeTabCounts === 'function') syncVolumeTabCounts();
