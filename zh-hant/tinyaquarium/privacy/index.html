@@ -11,12 +11,15 @@
   <nav class="lang-switch"><a href="/en/tinyaquarium/privacy/">English</a><a href="/zh-hant/tinyaquarium/privacy/" class="current">繁體中文</a><a href="/zh-hans/tinyaquarium/privacy/">简体中文</a></nav>
   <div class="legal">
     <h1>TinyAquarium — 隱私權政策</h1>
-    <p class="updated">最後更新：2026 年 8 月 29 日</p>
+    <p class="updated">最後更新：2026 年 9 月 15 日</p>
 
-    <p>TinyAquarium（口袋水族箱）是一款結合步數計量的療癒水族養成遊戲。無須註冊帳號、無第三方分析追蹤、無廣告聯播網。我們沒有自營伺服器，也沒有任何管道讀取你的遊戲內容。</p>
+    <p>TinyAquarium（口袋水族箱）是一款結合步數計量的療癒水族養成遊戲。無須註冊帳號、無第三方分析追蹤。我們沒有自營伺服器，也沒有任何管道讀取你的遊戲內容。</p>
 
     <h2>HealthKit 步數</h2>
     <p>TinyAquarium 透過 Apple HealthKit <strong>唯讀</strong>存取單一一項資料：你的每日步行步數（<code>stepCount</code>）。它只用於在你的裝置本機計算魚卵的孵化進度。本 App 不會向 HealthKit 寫入任何資料，也不會收集、上傳、傳輸或與任何第三方分享你的健康資料。你可以隨時在 iOS「設定 → 隱私權與安全性 → 健康」中撤銷這項權限；撤銷後魚卵孵化進度會停止推進，其餘功能不受影響。</p>
+
+    <h2>macOS 版本</h2>
+    <p>Mac 版與 iOS 版共用同一套程式碼，差異如下。<strong>Mac 版不使用 HealthKit，也不讀取任何健康資料</strong>——macOS 沒有計步器，Mac 版並未連結 HealthKit 或 Core Motion。那裡的魚卵孵化改由「App 在你自己的 Mac 上處於前景的時間」推進，該時間只在本機計算，不會離開你的裝置。桌面小工具是 iOS 專屬，不包含在 Mac 版中。在 macOS 上送出問題回報會開啟你預設的郵件程式並帶入內容；App 本身不傳送任何東西，要不要寄出由你決定。遊戲存檔會透過上述同一套 iCloud 鍵值儲存，在你的 Mac 與 iPhone 之間漫遊。</p>
 
     <h2>本機儲存</h2>
     <p>你的飼育員名稱、魚缸與魚隻資料、圖鑑解鎖進度、泡泡幣餘額、造景擺設與所有遊戲存檔，都儲存在你裝置本機。解除安裝 App 即會一併刪除。</p>
@@ -37,6 +40,9 @@
       <li><strong>TinyAquarium Pro</strong>（非消耗性）— 一次性解鎖，提升離線收益上限、飼料罐容量、繁育突變率與專屬水體主題</li>
     </ul>
     <p>泡泡幣是純遊戲內虛擬貨幣，沒有現金價值、無法兌換或轉讓，僅能在本 App 內用於購買造景飾品與升級。</p>
+
+    <h2>獎勵式廣告（Google AdMob）</h2>
+    <p>TinyAquarium 的 iOS 版本包含由 Google AdMob 提供的自願觀看型激勵影片廣告。玩家可自行選擇是否觀看短片以換取遊戲內每日獎勵（例如免費泡泡幣補給或孵化催化加速）。在此過程中，Google AdMob 可能會收集裝置識別碼（如獲授權之 IDFA）、概略位置、使用狀況資料與診斷資料以投放廣告。你可以隨時在 iOS「設定 → 隱私權與安全性 → 追蹤」中管理或關閉追蹤授權。已購買 TinyAquarium Pro 特權之玩家享有免看廣告直接秒領獎勵特權。macOS 版本完全不含任何廣告。</p>
 
     <h2>桌面小工具</h2>
     <p>桌面小工具會顯示你的魚缸畫面、步數與泡泡幣餘額。資料透過 App 群組容器在本機共享，不會離開你的裝置。</p>

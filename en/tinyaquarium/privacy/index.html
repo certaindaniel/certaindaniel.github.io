@@ -11,12 +11,15 @@
   <nav class="lang-switch"><a href="/en/tinyaquarium/privacy/" class="current">English</a><a href="/zh-hant/tinyaquarium/privacy/">繁體中文</a><a href="/zh-hans/tinyaquarium/privacy/">简体中文</a></nav>
   <div class="legal">
     <h1>TinyAquarium — Privacy Policy</h1>
-    <p class="updated">Last updated: August 29, 2026</p>
+    <p class="updated">Last updated: September 15, 2026</p>
 
-    <p>TinyAquarium is a cozy aquarium-raising game paired with your step count. It requires no account registration, has no third-party analytics tracking, and no ad networks. We run no servers of our own, and we have no channel through which to read your in-game content.</p>
+    <p>TinyAquarium is a cozy aquarium-raising game paired with your step count. It requires no account registration and has no third-party analytics tracking. We run no servers of our own, and we have no channel through which to read your in-game content.</p>
 
     <h2>HealthKit Steps</h2>
     <p>TinyAquarium accesses exactly one piece of data through Apple HealthKit, on a <strong>read-only</strong> basis: your daily walking step count (<code>stepCount</code>). It is used solely to calculate egg-hatching progress locally on your device. This app never writes any data to HealthKit, and it never collects, uploads, transmits, or shares your health data with any third party. You can revoke this permission at any time in iOS "Settings → Privacy & Security → Health"; once revoked, egg-hatching progress stops advancing, but all other features remain unaffected.</p>
+
+    <h2>macOS Version</h2>
+    <p>The Mac app shares its codebase with the iOS app, with these differences. <strong>It does not use HealthKit and does not read any health data</strong> — macOS has no pedometer, and the Mac build links neither HealthKit nor Core Motion. Egg hatching there is driven instead by the time the app spends in the foreground on your own Mac, which is counted locally and never leaves the device. The Home Screen widget is iOS-only and is not part of the Mac app. Sending feedback on macOS opens a pre-filled message in your default mail client; the app itself transmits nothing, and you choose whether to send it. Game saves roam between your Mac and your iPhone through the same iCloud key-value storage described above.</p>
 
     <h2>Local Storage</h2>
     <p>Your keeper name, tank and fish data, encyclopedia (Dex) unlock progress, Bubble Coin balance, décor layout, and all game save data are stored locally on your device. Uninstalling the app deletes all of it.</p>
@@ -37,6 +40,9 @@
       <li><strong>TinyAquarium Pro</strong> (Non-consumable) — a one-time unlock raising the idle earning cap, food jar capacity, breeding mutation rate, and exclusive tank themes</li>
     </ul>
     <p>Bubble Coins are a purely in-game virtual currency with <strong>no cash value</strong>; they cannot be redeemed for cash or transferred, and can only be used within this app to purchase décor items and upgrades.</p>
+
+    <h2>Rewarded Advertisements (Google AdMob)</h2>
+    <p>The iOS version of TinyAquarium includes optional rewarded video advertisements provided by Google AdMob, allowing players to voluntarily watch short video clips in exchange for daily in-game bonuses (such as free Bubble Coins or egg incubation boost). In this process, Google AdMob may collect device identifiers (such as IDFA, subject to your tracking permission), coarse location, usage data, and diagnostic data to deliver relevant ads. You can manage or revoke tracking authorization at any time in iOS "Settings → Privacy & Security → Tracking". TinyAquarium Pro players enjoy all bonuses instantly without watching any ads. The macOS version contains zero advertisements.</p>
 
     <h2>Desktop Widget</h2>
     <p>The desktop widget displays your tank view, step count, and Bubble Coin balance. Data is shared locally on-device via an App Group container and never leaves your device.</p>
