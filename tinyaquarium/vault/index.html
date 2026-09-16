@@ -297,11 +297,10 @@
                     <span class="text-slate-400 whitespace-nowrap shrink-0" data-i18n="vault_rarity_label">稀有度篩選：</span>
                     <button onclick="setRarityFilter('all')" class="rarity-btn px-2.5 py-1 rounded-lg bg-white/10 text-white font-medium" data-i18n="vault_rarity_all">全部</button>
                     <button onclick="setRarityFilter('common')" class="rarity-btn px-2.5 py-1 rounded-lg bg-slate-500/20 text-slate-300 border border-slate-500/30" data-i18n="rarity_common">普通</button>
+                    <button onclick="setRarityFilter('uncommon')" class="rarity-btn px-2.5 py-1 rounded-lg bg-emerald-500/20 text-emerald-300 border border-emerald-500/30" data-i18n="rarity_uncommon">精良</button>
                     <button onclick="setRarityFilter('rare')" class="rarity-btn px-2.5 py-1 rounded-lg bg-blue-500/20 text-blue-300 border border-blue-500/30" data-i18n="rarity_rare">稀有</button>
                     <button onclick="setRarityFilter('epic')" class="rarity-btn px-2.5 py-1 rounded-lg bg-purple-500/20 text-purple-300 border border-purple-500/30" data-i18n="rarity_epic">史詩</button>
                     <button onclick="setRarityFilter('legendary')" class="rarity-btn px-2.5 py-1 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/30" data-i18n="rarity_legendary">傳說</button>
-                    <button onclick="setRarityFilter('mythical')" class="rarity-btn px-2.5 py-1 rounded-lg bg-rose-500/20 text-rose-300 border border-rose-500/30" data-i18n="rarity_mythical">神話</button>
-                    <button onclick="setRarityFilter('cosmic')" class="rarity-btn px-2.5 py-1 rounded-lg bg-indigo-500/20 text-indigo-300 border border-indigo-500/30" data-i18n="rarity_cosmic_filter">宇宙/量子</button>
                 </div>
             </div>
 
@@ -459,7 +458,7 @@
                 vault_title: '探索', vault_title_hl: '1,176 種水族與神話生物',
                 vault_p: '包含 172 種核心旗艦手繪名門，以及東亞江戶、亞馬遜熱帶、非洲大湖、大堡礁、萬米深淵、史前海怪、山海經神話、塔羅星宿至甜點節慶 10 大主題卷冊！',
                 vault_search: '🔍 搜尋魚種中文名稱、學名或特徵...', vault_rarity_all: '全部',
-                rarity_common: '普通', rarity_rare: '稀有', rarity_epic: '史詩', rarity_legendary: '傳說', rarity_mythical: '神話', rarity_mythic: '神話', rarity_cosmic: '宇宙', rarity_quantum: '量子', rarity_cosmic_filter: '宇宙/量子',
+                rarity_common: '普通', rarity_uncommon: '精良', rarity_rare: '稀有', rarity_epic: '史詩', rarity_legendary: '傳說',
                 vault_load_more: '➕ 載入更多結果', vault_steps: '步', vault_detail: '查看詳情 →',
                 vault_rarity_label: '稀有度篩選：',
                 vol_all: '🌟 全部 1,176 種', vol_v00: '👑 核心旗艦手繪 (172)', vol_v01: '⛩️ 東亞水墨江戶 (100)',
@@ -542,7 +541,7 @@
                 vault_title: '探索', vault_title_hl: '1,176 种水族与神话生物',
                 vault_p: '包含 172 种核心旗舰手绘名门，以及东亚江户、亚马逊热带、非洲大湖、大堡礁、万米深渊、史前海怪、山海经神话、塔罗星宿至甜点节庆 10 大主题卷册！',
                 vault_search: '🔍 搜寻鱼种中文名称、学名或特征...', vault_rarity_all: '全部',
-                rarity_common: '普通', rarity_rare: '稀有', rarity_epic: '史诗', rarity_legendary: '传说', rarity_mythical: '神话', rarity_mythic: '神话', rarity_cosmic: '宇宙', rarity_quantum: '量子', rarity_cosmic_filter: '宇宙/量子',
+                rarity_common: '普通', rarity_uncommon: '精良', rarity_rare: '稀有', rarity_epic: '史诗', rarity_legendary: '传说',
                 vault_load_more: '➕ 载入更多结果', vault_steps: '步', vault_detail: '查看详情 →',
                 vault_loading: '载入素材库中...',
                 widget_title: '深度融入你的', widget_title_hl: 'iOS 17+',
@@ -620,7 +619,7 @@
                 vault_title: 'Explore', vault_title_hl: '1,176 aquatic & mythical species',
                 vault_p: '172 core hand-crafted flagships plus 10 themed volumes: East-Asia Edo, Amazon wilds, African rift lakes, Great Barrier Reef, the abyss, prehistoric monsters, Shan-Hai-Jing myths, tarot & zodiac, to sweet dessert cozy creatures.',
                 vault_search: '🔍 Search species name, scientific name, or trait...', vault_rarity_all: 'All',
-                rarity_common: 'Common', rarity_rare: 'Rare', rarity_epic: 'Epic', rarity_legendary: 'Legendary', rarity_mythical: 'Mythic', rarity_mythic: 'Mythic', rarity_cosmic: 'Cosmic', rarity_quantum: 'Quantum', rarity_cosmic_filter: 'Cosmic/Quantum',
+                rarity_common: 'Common', rarity_uncommon: 'Uncommon', rarity_rare: 'Rare', rarity_epic: 'Epic', rarity_legendary: 'Legendary',
                 vault_load_more: '➕ Load more', vault_steps: 'steps', vault_detail: 'Details →',
                 vault_loading: 'Loading species vault...',
                 widget_title: 'Deeply woven into your', widget_title_hl: 'iOS 17+',
@@ -745,7 +744,7 @@
             document.querySelector('input#vaultSearchInput')?.setAttribute('placeholder', t('vault_search'));
             document.querySelectorAll('.rarity-btn').forEach(b => {
                 const m = (b.getAttribute('onclick')||'').match(/setRarityFilter\('(\w+)'\)/);
-                const key = m && (m[1] === 'all' ? 'vault_rarity_all' : (m[1] === 'cosmic' ? 'rarity_cosmic_filter' : 'rarity_'+m[1])); if (key && t(key)) b.textContent = t(key);
+                const key = m && (m[1] === 'all' ? 'vault_rarity_all' : 'rarity_'+m[1]); if (key && t(key)) b.textContent = t(key);
             });
             // 卷冊 tab 依語言覆寫 (syncVolumeTabCounts 用 i18n 取)
             if (typeof syncVolumeTabCounts === 'function') syncVolumeTabCounts();
@@ -2012,11 +2011,7 @@
             uncommon: { bg: 'bg-emerald-500/20', text: 'text-emerald-300', border: 'border-emerald-500/30', label: '精良', labelHans: '精良', labelEn: 'Uncommon' },
             rare: { bg: 'bg-blue-500/20', text: 'text-blue-300', border: 'border-blue-500/30', label: '稀有', labelHans: '稀有', labelEn: 'Rare' },
             epic: { bg: 'bg-purple-500/20', text: 'text-purple-300', border: 'border-purple-500/30', label: '史詩', labelHans: '史诗', labelEn: 'Epic' },
-            legendary: { bg: 'bg-amber-500/20', text: 'text-amber-300', border: 'border-amber-500/30', label: '傳說', labelHans: '传说', labelEn: 'Legendary' },
-            mythic: { bg: 'bg-rose-500/20', text: 'text-rose-300', border: 'border-rose-500/30', label: '神話', labelHans: '神话', labelEn: 'Mythic' },
-            mythical: { bg: 'bg-rose-500/20', text: 'text-rose-300', border: 'border-rose-500/30', label: '神話', labelHans: '神话', labelEn: 'Mythical' },
-            cosmic: { bg: 'bg-indigo-500/20', text: 'text-indigo-300', border: 'border-indigo-500/30', label: '宇宙', labelHans: '宇宙', labelEn: 'Cosmic' },
-            quantum: { bg: 'bg-violet-500/20', text: 'text-violet-300', border: 'border-violet-300', label: '量子', labelHans: '量子', labelEn: 'Quantum' }
+            legendary: { bg: 'bg-amber-500/20', text: 'text-amber-300', border: 'border-amber-500/30', label: '傳說', labelHans: '传说', labelEn: 'Legendary' }
         };
 
         //  rarity 標籤與分類名稱的在地化 helper
@@ -3263,12 +3258,7 @@
             let filtered = allVaultData.filter(fish => {
                 // When searching with text, search globally across all 1,000 species unless tab specifically selected
                 const matchVol = (!query && currentVolumeFilter !== 'all') ? (fish.volumeFile === currentVolumeFilter) : (currentVolumeFilter === 'all' || fish.volumeFile === currentVolumeFilter || query);
-                const matchRarity = currentRarityFilter === 'all' || (fish.rarity && (
-                    fish.rarity.toLowerCase() === currentRarityFilter ||
-                    (currentRarityFilter === 'mythical' && (fish.rarity.toLowerCase() === 'mythic' || fish.rarity.toLowerCase() === 'mythical')) ||
-                    (currentRarityFilter === 'mythic' && (fish.rarity.toLowerCase() === 'mythic' || fish.rarity.toLowerCase() === 'mythical')) ||
-                    (currentRarityFilter === 'cosmic' && (fish.rarity.toLowerCase() === 'cosmic' || fish.rarity.toLowerCase() === 'quantum'))
-                ));
+                const matchRarity = currentRarityFilter === 'all' || (fish.rarity && fish.rarity.toLowerCase() === currentRarityFilter);
                 const localized = speciesCommonName(fish);
                 const matchQuery = !query ||
                     (localized && localized.toLowerCase().includes(query)) ||
