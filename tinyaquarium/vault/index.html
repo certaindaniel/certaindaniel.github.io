@@ -3034,6 +3034,8 @@
                 dorsalSvg = `<polygon points="23,15 28,3 35,16" fill="${sColor}"/>`;
             } else {
                 dorsalSvg = `<path d="M22,16 Q30,8 36,17 Z" fill="${sColor}" opacity="0.85"/>`;
+            }
+
             // Celestial / Cosmic / Legendary Orbit Ring
             let cosmicRingSvg = '';
             const isCosmic = (fish.category && (fish.category.includes('星宿') || fish.category.includes('塔羅') || fish.category.includes('深空') || fish.category.includes('宇宙') || fish.category.includes('維度'))) ||
