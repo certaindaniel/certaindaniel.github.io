@@ -295,12 +295,13 @@
 
                 <div class="flex flex-wrap items-center gap-x-2 gap-y-1.5 text-xs">
                     <span class="text-slate-400 whitespace-nowrap shrink-0" data-i18n="vault_rarity_label">稀有度篩選：</span>
-                    <button onclick="setRarityFilter('all')" class="rarity-btn px-2.5 py-1 rounded-lg bg-white/10 text-white font-medium">全部</button>
-                    <button onclick="setRarityFilter('common')" class="rarity-btn px-2.5 py-1 rounded-lg bg-slate-500/20 text-slate-300 border border-slate-500/30">普通</button>
-                    <button onclick="setRarityFilter('rare')" class="rarity-btn px-2.5 py-1 rounded-lg bg-blue-500/20 text-blue-300 border border-blue-500/30">稀有</button>
-                    <button onclick="setRarityFilter('epic')" class="rarity-btn px-2.5 py-1 rounded-lg bg-purple-500/20 text-purple-300 border border-purple-500/30">史詩</button>
-                    <button onclick="setRarityFilter('legendary')" class="rarity-btn px-2.5 py-1 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/30">傳說</button>
-                    <button onclick="setRarityFilter('mythical')" class="rarity-btn px-2.5 py-1 rounded-lg bg-rose-500/20 text-rose-300 border border-rose-500/30">神話</button>
+                    <button onclick="setRarityFilter('all')" class="rarity-btn px-2.5 py-1 rounded-lg bg-white/10 text-white font-medium" data-i18n="vault_rarity_all">全部</button>
+                    <button onclick="setRarityFilter('common')" class="rarity-btn px-2.5 py-1 rounded-lg bg-slate-500/20 text-slate-300 border border-slate-500/30" data-i18n="rarity_common">普通</button>
+                    <button onclick="setRarityFilter('rare')" class="rarity-btn px-2.5 py-1 rounded-lg bg-blue-500/20 text-blue-300 border border-blue-500/30" data-i18n="rarity_rare">稀有</button>
+                    <button onclick="setRarityFilter('epic')" class="rarity-btn px-2.5 py-1 rounded-lg bg-purple-500/20 text-purple-300 border border-purple-500/30" data-i18n="rarity_epic">史詩</button>
+                    <button onclick="setRarityFilter('legendary')" class="rarity-btn px-2.5 py-1 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/30" data-i18n="rarity_legendary">傳說</button>
+                    <button onclick="setRarityFilter('mythical')" class="rarity-btn px-2.5 py-1 rounded-lg bg-rose-500/20 text-rose-300 border border-rose-500/30" data-i18n="rarity_mythical">神話</button>
+                    <button onclick="setRarityFilter('cosmic')" class="rarity-btn px-2.5 py-1 rounded-lg bg-indigo-500/20 text-indigo-300 border border-indigo-500/30" data-i18n="rarity_cosmic_filter">宇宙/量子</button>
                 </div>
             </div>
 
@@ -458,7 +459,7 @@
                 vault_title: '探索', vault_title_hl: '1,176 種水族與神話生物',
                 vault_p: '包含 172 種核心旗艦手繪名門，以及東亞江戶、亞馬遜熱帶、非洲大湖、大堡礁、萬米深淵、史前海怪、山海經神話、塔羅星宿至甜點節慶 10 大主題卷冊！',
                 vault_search: '🔍 搜尋魚種中文名稱、學名或特徵...', vault_rarity_all: '全部',
-                rarity_common: '普通', rarity_rare: '稀有', rarity_epic: '史詩', rarity_legendary: '傳說', rarity_mythical: '神話',
+                rarity_common: '普通', rarity_rare: '稀有', rarity_epic: '史詩', rarity_legendary: '傳說', rarity_mythical: '神話', rarity_mythic: '神話', rarity_cosmic: '宇宙', rarity_quantum: '量子', rarity_cosmic_filter: '宇宙/量子',
                 vault_load_more: '➕ 載入更多結果', vault_steps: '步', vault_detail: '查看詳情 →',
                 vault_rarity_label: '稀有度篩選：',
                 vol_all: '🌟 全部 1,176 種', vol_v00: '👑 核心旗艦手繪 (172)', vol_v01: '⛩️ 東亞水墨江戶 (100)',
@@ -541,7 +542,7 @@
                 vault_title: '探索', vault_title_hl: '1,176 种水族与神话生物',
                 vault_p: '包含 172 种核心旗舰手绘名门，以及东亚江户、亚马逊热带、非洲大湖、大堡礁、万米深渊、史前海怪、山海经神话、塔罗星宿至甜点节庆 10 大主题卷册！',
                 vault_search: '🔍 搜寻鱼种中文名称、学名或特征...', vault_rarity_all: '全部',
-                rarity_common: '普通', rarity_rare: '稀有', rarity_epic: '史诗', rarity_legendary: '传说', rarity_mythical: '神话',
+                rarity_common: '普通', rarity_rare: '稀有', rarity_epic: '史诗', rarity_legendary: '传说', rarity_mythical: '神话', rarity_mythic: '神话', rarity_cosmic: '宇宙', rarity_quantum: '量子', rarity_cosmic_filter: '宇宙/量子',
                 vault_load_more: '➕ 载入更多结果', vault_steps: '步', vault_detail: '查看详情 →',
                 vault_loading: '载入素材库中...',
                 widget_title: '深度融入你的', widget_title_hl: 'iOS 17+',
@@ -619,7 +620,7 @@
                 vault_title: 'Explore', vault_title_hl: '1,176 aquatic & mythical species',
                 vault_p: '172 core hand-crafted flagships plus 10 themed volumes: East-Asia Edo, Amazon wilds, African rift lakes, Great Barrier Reef, the abyss, prehistoric monsters, Shan-Hai-Jing myths, tarot & zodiac, to sweet dessert cozy creatures.',
                 vault_search: '🔍 Search species name, scientific name, or trait...', vault_rarity_all: 'All',
-                rarity_common: 'Common', rarity_rare: 'Rare', rarity_epic: 'Epic', rarity_legendary: 'Legendary', rarity_mythical: 'Mythic',
+                rarity_common: 'Common', rarity_rare: 'Rare', rarity_epic: 'Epic', rarity_legendary: 'Legendary', rarity_mythical: 'Mythic', rarity_mythic: 'Mythic', rarity_cosmic: 'Cosmic', rarity_quantum: 'Quantum', rarity_cosmic_filter: 'Cosmic/Quantum',
                 vault_load_more: '➕ Load more', vault_steps: 'steps', vault_detail: 'Details →',
                 vault_loading: 'Loading species vault...',
                 widget_title: 'Deeply woven into your', widget_title_hl: 'iOS 17+',
@@ -744,7 +745,7 @@
             document.querySelector('input#vaultSearchInput')?.setAttribute('placeholder', t('vault_search'));
             document.querySelectorAll('.rarity-btn').forEach(b => {
                 const m = (b.getAttribute('onclick')||'').match(/setRarityFilter\('(\w+)'\)/);
-                const key = m && (m[1] === 'all' ? 'vault_rarity_all' : 'rarity_'+m[1]); if (key && t(key)) b.textContent = t(key);
+                const key = m && (m[1] === 'all' ? 'vault_rarity_all' : (m[1] === 'cosmic' ? 'rarity_cosmic_filter' : 'rarity_'+m[1])); if (key && t(key)) b.textContent = t(key);
             });
             // 卷冊 tab 依語言覆寫 (syncVolumeTabCounts 用 i18n 取)
             if (typeof syncVolumeTabCounts === 'function') syncVolumeTabCounts();
@@ -2007,20 +2008,22 @@
         }
 
         const rarityStyles = {
-            common: { bg: 'bg-slate-500/20', text: 'text-slate-300', border: 'border-slate-500/30', label: '普通', labelEn: 'Common' },
-            uncommon: { bg: 'bg-emerald-500/20', text: 'text-emerald-300', border: 'border-emerald-500/30', label: '精良', labelEn: 'Uncommon' },
-            rare: { bg: 'bg-blue-500/20', text: 'text-blue-300', border: 'border-blue-500/30', label: '稀有', labelEn: 'Rare' },
-            epic: { bg: 'bg-purple-500/20', text: 'text-purple-300', border: 'border-purple-500/30', label: '史詩', labelEn: 'Epic' },
-            legendary: { bg: 'bg-amber-500/20', text: 'text-amber-300', border: 'border-amber-500/30', label: '傳說', labelEn: 'Legendary' },
-            mythic: { bg: 'bg-rose-500/20', text: 'text-rose-300', border: 'border-rose-500/30', label: '神話', labelEn: 'Mythic' },
-            mythical: { bg: 'bg-rose-500/20', text: 'text-rose-300', border: 'border-rose-500/30', label: '神話', labelEn: 'Mythical' },
-            cosmic: { bg: 'bg-indigo-500/20', text: 'text-indigo-300', border: 'border-indigo-500/30', label: '傳說', labelEn: 'Cosmic' },
-            quantum: { bg: 'bg-violet-500/20', text: 'text-violet-300', border: 'border-violet-300', label: '傳說', labelEn: 'Quantum' }
+            common: { bg: 'bg-slate-500/20', text: 'text-slate-300', border: 'border-slate-500/30', label: '普通', labelHans: '普通', labelEn: 'Common' },
+            uncommon: { bg: 'bg-emerald-500/20', text: 'text-emerald-300', border: 'border-emerald-500/30', label: '精良', labelHans: '精良', labelEn: 'Uncommon' },
+            rare: { bg: 'bg-blue-500/20', text: 'text-blue-300', border: 'border-blue-500/30', label: '稀有', labelHans: '稀有', labelEn: 'Rare' },
+            epic: { bg: 'bg-purple-500/20', text: 'text-purple-300', border: 'border-purple-500/30', label: '史詩', labelHans: '史诗', labelEn: 'Epic' },
+            legendary: { bg: 'bg-amber-500/20', text: 'text-amber-300', border: 'border-amber-500/30', label: '傳說', labelHans: '传说', labelEn: 'Legendary' },
+            mythic: { bg: 'bg-rose-500/20', text: 'text-rose-300', border: 'border-rose-500/30', label: '神話', labelHans: '神话', labelEn: 'Mythic' },
+            mythical: { bg: 'bg-rose-500/20', text: 'text-rose-300', border: 'border-rose-500/30', label: '神話', labelHans: '神话', labelEn: 'Mythical' },
+            cosmic: { bg: 'bg-indigo-500/20', text: 'text-indigo-300', border: 'border-indigo-500/30', label: '宇宙', labelHans: '宇宙', labelEn: 'Cosmic' },
+            quantum: { bg: 'bg-violet-500/20', text: 'text-violet-300', border: 'border-violet-300', label: '量子', labelHans: '量子', labelEn: 'Quantum' }
         };
 
-        //  rarity 標籤與分類名稱的 en-US 在地化 helper
+        //  rarity 標籤與分類名稱的在地化 helper
         function rarityLabel(rStyle) {
-            return currentLang === 'en-US' ? (rStyle.labelEn || rStyle.label) : rStyle.label;
+            if (currentLang === 'en-US') return rStyle.labelEn || rStyle.label;
+            if (currentLang === 'zh-Hans') return rStyle.labelHans || rStyle.label;
+            return rStyle.label;
         }
         function localizedCategory(fish) {
             const cat = fish.category || '';
@@ -2085,12 +2088,12 @@
             const aColor = bp.accentColor || '#FACC15';
             const tail = bp.tailShape || 'forked';
             const features = bp.features || [];
-            const name = ((fish.commonName || '') + ' ' + (fish.commonNameEn || '') + ' ' + ((fish.i18n && fish.i18n.en && fish.i18n.en.commonName) || '') + ' ' + (fish.id || '')).toLowerCase();
+            const name = ((fish.commonName || '') + ' ' + (fish.commonNameEn || '') + ' ' + (fish.scientificName || '') + ' ' + ((fish.i18n && fish.i18n.en && fish.i18n.en.commonName) || '') + ' ' + (fish.id || '')).toLowerCase();
 
             // 1. Specialized Vector SVGs for Distinct Marine Life Classes
             // 00000. Plesiosaur & Loch Ness Monster (蛇頸龍、尼斯湖水怪、薄板龍、長頸龍：S型高聳長頸、水怪駝峰身軀、雙對划水巨鰭、收尖長尾)
-            if (name.includes('蛇頸龍') || name.includes('尼斯湖水怪') || name.includes('plesiosaur') || name.includes('elasmosaur') || name.includes('薄板龍') || name.includes('長頸龍') || name.includes('恐頭龍') || name.includes('雙臼椎龍') || name.includes('loch ness') || name.includes('nessie')) {
-                const isNessie = name.includes('尼斯湖水怪') || name.includes('loch') || name.includes('ness');
+            if (fish.id === 'myth_052' || fish.id === 'prehistoric_052' || name.includes('蛇頸龍') || name.includes('尼斯湖水怪') || name.includes('plesiosaur') || name.includes('elasmosaur') || name.includes('薄板龍') || name.includes('長頸龍') || name.includes('恐頭龍') || name.includes('雙臼椎龍') || name.includes('loch ness') || name.includes('nessie')) {
+                const isNessie = fish.id === 'myth_052' || name.includes('尼斯湖水怪') || name.includes('loch') || name.includes('ness');
                 const mainColor = isNessie ? '#0F3D3E' : (pColor || '#1E3F20');
                 const subColor = isNessie ? '#134E4A' : (sColor || '#2D6A4F');
                 const accent = isNessie ? '#38BDF8' : (aColor || '#52B788');
@@ -2129,6 +2132,163 @@
                     <!-- Near Paddles (Fore Side) -->
                     <path d="M13,31 Q9,38 12,40 Q16,37 16,32 Z" fill="${subColor}" opacity="0.9"/>
                     <path d="M23,31 Q20,41 24,42 Q28,38 27,31 Z" fill="${subColor}"/>
+                </svg>`;
+            }
+
+            // 00000. Celestial, Cosmic & Quantum Archetype (星宿、塔羅、星座、宇宙量子神魚：雙傾角星軌星環、公轉星點、晶瑩星雲半透明身軀、心臟量子能量核、星座連線星點陣列、波函數彗星長尾、深空星光之眼)
+            if (fish.category?.includes('星宿') || fish.category?.includes('塔羅') || fish.category?.includes('宇宙') || fish.category?.includes('深空') || fish.category?.includes('量子') ||
+                (fish.rarity && (fish.rarity.toLowerCase() === 'cosmic' || fish.rarity.toLowerCase() === 'quantum')) ||
+                (fish.id && fish.id.startsWith('fish_9')) ||
+                name.includes('celestial') || name.includes('quantum') || name.includes('cosmic') || name.includes('astro') || name.includes('nebula') || name.includes('tarot') || name.includes('zodiac') || name.includes('stardust') || name.includes('wormhole') || name.includes('heisenberg') || name.includes('schrodinger') || name.includes('supernova') || name.includes('singularity') || name.includes('andromeda') || name.includes('pulsar') ||
+                name.includes('量子') || name.includes('海森堡') || name.includes('薛丁格') || name.includes('蟲洞') || name.includes('光錐') || name.includes('超新星') || name.includes('星雲') || name.includes('牽牛') || name.includes('織女') || name.includes('黑洞') || name.includes('奇異點') || name.includes('脈衝') || name.includes('銀河') || name.includes('星塵')) {
+                
+                const cId = 'cel_' + (fish.id || 'c').replace(/[^a-zA-Z0-9]/g, '_');
+                const mainColor = pColor || '#1E1B4B';
+                const subColor = sColor || '#06B6D4';
+                const accent = aColor || '#EC4899';
+
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <defs>
+                        <linearGradient id="${cId}_body" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="${mainColor}"/>
+                            <stop offset="60%" stop-color="${subColor}"/>
+                            <stop offset="100%" stop-color="${accent}"/>
+                        </linearGradient>
+                        <linearGradient id="${cId}_ring1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="${accent}" stop-opacity="0.85"/>
+                            <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.3"/>
+                            <stop offset="100%" stop-color="${subColor}" stop-opacity="0.85"/>
+                        </linearGradient>
+                        <radialGradient id="${cId}_core" cx="50%" cy="50%" r="50%">
+                            <stop offset="0%" stop-color="#FFFFFF"/>
+                            <stop offset="40%" stop-color="${accent}"/>
+                            <stop offset="100%" stop-color="${subColor}" stop-opacity="0"/>
+                        </radialGradient>
+                    </defs>
+                    <!-- Outer Celestial Orbit Ring -->
+                    <ellipse cx="26" cy="24" rx="20" ry="9" fill="none" stroke="url(#${cId}_ring1)" stroke-width="1.1" stroke-dasharray="3.5 2" transform="rotate(-22 26 24)"/>
+                    <!-- Inner Complementary Orbit Ring -->
+                    <ellipse cx="25" cy="24" rx="16" ry="7.5" fill="none" stroke="${subColor}" stroke-width="0.8" opacity="0.6" stroke-dasharray="2 3" transform="rotate(28 25 24)"/>
+                    <!-- Orbiting Satellite Stars -->
+                    <circle cx="42" cy="18" r="1.6" fill="#FFFFFF" filter="drop-shadow(0 0 3px ${accent})"/>
+                    <circle cx="10" cy="29" r="1.2" fill="${subColor}" filter="drop-shadow(0 0 2px ${subColor})"/>
+                    <!-- Waveform Comet / Lyre Tail -->
+                    <path d="M16,24 C8,12 2,16 4,24 C2,32 8,36 16,24 Z" fill="${subColor}" opacity="0.85"/>
+                    <path d="M16,24 Q5,15 2,9 Q11,21 16,24 Q11,27 2,39 Q5,33 16,24 Z" fill="${accent}" opacity="0.65"/>
+                    <!-- Ethereal Solar Wind Dorsal Crest -->
+                    <path d="M20,18 Q27,8 33,17 Z" fill="url(#${cId}_body)" opacity="0.9"/>
+                    <path d="M22,18 Q28,11 32,17" stroke="#FFFFFF" stroke-width="0.8" fill="none" opacity="0.6"/>
+                    <!-- Ventral Streamer -->
+                    <polygon points="22,30 26,35 29,30" fill="${subColor}" opacity="0.75"/>
+                    <!-- Luminous Translucent Nebula Aura & Main Body -->
+                    <ellipse cx="27" cy="24" rx="14" ry="7" fill="url(#${cId}_body)"/>
+                    <ellipse cx="27" cy="24" rx="15" ry="8" fill="${accent}" opacity="0.15" filter="blur(2px)"/>
+                    <ellipse cx="28" cy="26" rx="9" ry="3.5" fill="#FFFFFF" opacity="0.3"/>
+                    <!-- Quantum Pulsing Core -->
+                    <circle cx="23" cy="24" r="3.8" fill="url(#${cId}_core)"/>
+                    <!-- Constellation Star-Nodes Matrix -->
+                    <polyline points="20,22 24,20 28,23 31,21" fill="none" stroke="#FFFFFF" stroke-width="0.7" opacity="0.75"/>
+                    <circle cx="20" cy="22" r="1.1" fill="#FFFFFF"/>
+                    <circle cx="24" cy="20" r="1.3" fill="${accent}"/>
+                    <circle cx="28" cy="23" r="1.1" fill="#FFFFFF"/>
+                    <circle cx="31" cy="21" r="1.0" fill="${subColor}"/>
+                    <!-- Luminous Wing Pectoral Fin -->
+                    <ellipse cx="29" cy="26" rx="5.5" ry="3.2" fill="#FFFFFF" opacity="0.8" transform="rotate(22 29 26)"/>
+                    <ellipse cx="29" cy="26" rx="4" ry="2" fill="${accent}" opacity="0.7" transform="rotate(22 29 26)"/>
+                    <!-- Celestial Starlight Jewel Eye -->
+                    <circle cx="37" cy="22" r="2.2" fill="#0B0F19"/>
+                    <circle cx="37.2" cy="21.8" r="1.4" fill="${accent}"/>
+                    <circle cx="37.5" cy="21.5" r="0.6" fill="#FFFFFF"/>
+                </svg>`;
+            }
+
+            // 00000. Leviathan Prehistoric Apex Archetype (史前滄龍、鄧氏魚、巨齒鯊、利維坦、滑齒龍：重型骨板戰甲、鋸齒霸主背脊、深海霸王異葉巨尾、開合撕裂大下顎、琥珀掠食凶瞳)
+            if (name.includes('leviathan') || name.includes('mosasaur') || name.includes('dunkleosteus') || name.includes('megalodon') || name.includes('kronosaur') || name.includes('liopleurodon') ||
+                name.includes('利維坦') || name.includes('滄龍') || name.includes('鄧氏魚') || name.includes('巨齒鯊') || name.includes('滑齒龍') || name.includes('克拉肯') || name.includes('霸王') || name.includes('滅世')) {
+                
+                const lId = 'lev_' + (fish.id || 'l').replace(/[^a-zA-Z0-9]/g, '_');
+                const mainColor = pColor || '#1E293B';
+                const subColor = sColor || '#0F172A';
+                const accent = aColor || '#F59E0B';
+
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <defs>
+                        <linearGradient id="${lId}_body" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="${subColor}"/>
+                            <stop offset="50%" stop-color="${mainColor}"/>
+                            <stop offset="100%" stop-color="${subColor}"/>
+                        </linearGradient>
+                    </defs>
+                    <!-- Heavy Heterocercal Caudal Tail -->
+                    <path d="M16,24 Q8,10 2,6 Q7,20 16,24 Q7,28 3,42 Q9,34 16,24 Z" fill="${subColor}"/>
+                    <path d="M16,24 Q9,14 4,10 Q8,21 16,24 Z" fill="${mainColor}"/>
+                    <!-- Armored Dorsal Spikes & Ridge -->
+                    <polygon points="17,19 19,13 22,19" fill="${subColor}"/>
+                    <polygon points="23,17 26,10 29,17" fill="${subColor}"/>
+                    <polygon points="30,18 32,12 34,18" fill="${subColor}"/>
+                    <!-- Colossal Apex Torpedo Body -->
+                    <path d="M14,24 C16,17 26,15 37,17 C42,19 45,21 46,24 C45,27 41,30 36,31 C25,32 16,30 14,24 Z" fill="url(#${lId}_body)"/>
+                    <!-- Pale Underbelly Armor Highlight -->
+                    <ellipse cx="28" cy="27" rx="11" ry="3.2" fill="#FFFFFF" opacity="0.22"/>
+                    <!-- Placoderm Armored Skull Plates -->
+                    <path d="M32,17 L44,20 L42,26 L33,25 Z" fill="${subColor}" opacity="0.85"/>
+                    <line x1="33" y1="21" x2="42" y2="23" stroke="${accent}" stroke-width="0.8" opacity="0.5"/>
+                    <!-- Lower Predatory Snap Jaw -->
+                    <path d="M35,27 L44,26 L41,30 Z" fill="${subColor}"/>
+                    <line x1="38" y1="27" x2="43" y2="27" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+                    <!-- Predatory Pectoral Flipper -->
+                    <path d="M28,26 Q24,36 29,38 Q33,33 32,26 Z" fill="${subColor}"/>
+                    <!-- Amber Predator Slit-Pupil Eye -->
+                    <circle cx="39.5" cy="21" r="2.2" fill="#0F172A"/>
+                    <circle cx="39.5" cy="21" r="1.5" fill="${accent}"/>
+                    <line x1="39.5" y1="19.8" x2="39.5" y2="22.2" stroke="#000000" stroke-width="0.9"/>
+                </svg>`;
+            }
+
+            // 00000. Winged Mythic Archetype (山海經神話羽翼飛魚、北冥鯤鵬、文鰩魚：展翅翱翔神話巨翼、飄逸靈尾金鬚、璀璨靈光之眼)
+            if (name.includes('kunpeng') || name.includes('wenyao') || name.includes('kun_cosmic') || name.includes('hippocampus') || name.includes('pegasus') ||
+                name.includes('鯤鵬') || name.includes('文鰩') || name.includes('羽翼') || name.includes('飛魚') || (name.includes('翼') && !name.includes('六間'))) {
+                
+                const wId = 'win_' + (fish.id || 'w').replace(/[^a-zA-Z0-9]/g, '_');
+                const mainColor = pColor || '#0284C7';
+                const subColor = sColor || '#38BDF8';
+                const accent = aColor || '#FACC15';
+
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <defs>
+                        <linearGradient id="${wId}_body" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="${mainColor}"/>
+                            <stop offset="60%" stop-color="${subColor}"/>
+                            <stop offset="100%" stop-color="${accent}"/>
+                        </linearGradient>
+                        <linearGradient id="${wId}_wing" x1="0%" y1="100%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="${subColor}" stop-opacity="0.8"/>
+                            <stop offset="60%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+                            <stop offset="100%" stop-color="${accent}" stop-opacity="0.9"/>
+                        </linearGradient>
+                    </defs>
+                    <!-- Far Celestial Wing -->
+                    <path d="M26,19 C28,10 36,4 42,5 C39,12 34,16 28,19 Z" fill="url(#${wId}_wing)" opacity="0.7" transform="rotate(-15 28 19)"/>
+                    <!-- Flowing Ribbon Tail -->
+                    <path d="M15,24 C5,10 1,18 3,24 C1,30 5,38 15,24 Z" fill="${subColor}" opacity="0.9"/>
+                    <path d="M15,24 Q6,14 2,8 Q8,20 15,24 Q8,28 2,40 Q6,34 15,24 Z" fill="${accent}" opacity="0.75"/>
+                    <!-- Streamlined Dragon-Fish Torso -->
+                    <path d="M13,24 C16,18 27,17 37,19 C42,21 44,23 45,24 C44,26 40,28 35,29 C25,30 16,29 13,24 Z" fill="url(#${wId}_body)"/>
+                    <!-- Golden Mythic Belly Highlight -->
+                    <ellipse cx="28" cy="26" rx="9" ry="2.5" fill="${accent}" opacity="0.4"/>
+                    <!-- Near Expansive Feathery Wing -->
+                    <path d="M27,24 C31,34 40,42 46,38 C42,30 36,25 29,24 Z" fill="url(#${wId}_wing)"/>
+                    <line x1="29" y1="25" x2="43" y2="37" stroke="${accent}" stroke-width="0.8" opacity="0.6"/>
+                    <!-- Golden Dragon Barbels -->
+                    <path d="M43,23 Q47,21 48,17" stroke="${accent}" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                    <path d="M43.5,25 Q47,26 48,29" stroke="${accent}" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                    <!-- Sacred Starlight Eye -->
+                    <circle cx="39" cy="21.5" r="2.2" fill="#0F172A"/>
+                    <circle cx="39" cy="21.5" r="1.4" fill="${accent}"/>
+                    <circle cx="39.4" cy="21.1" r="0.6" fill="#FFFFFF"/>
                 </svg>`;
             }
 
@@ -3103,7 +3263,12 @@
             let filtered = allVaultData.filter(fish => {
                 // When searching with text, search globally across all 1,000 species unless tab specifically selected
                 const matchVol = (!query && currentVolumeFilter !== 'all') ? (fish.volumeFile === currentVolumeFilter) : (currentVolumeFilter === 'all' || fish.volumeFile === currentVolumeFilter || query);
-                const matchRarity = currentRarityFilter === 'all' || (fish.rarity && fish.rarity.toLowerCase() === currentRarityFilter);
+                const matchRarity = currentRarityFilter === 'all' || (fish.rarity && (
+                    fish.rarity.toLowerCase() === currentRarityFilter ||
+                    (currentRarityFilter === 'mythical' && (fish.rarity.toLowerCase() === 'mythic' || fish.rarity.toLowerCase() === 'mythical')) ||
+                    (currentRarityFilter === 'mythic' && (fish.rarity.toLowerCase() === 'mythic' || fish.rarity.toLowerCase() === 'mythical')) ||
+                    (currentRarityFilter === 'cosmic' && (fish.rarity.toLowerCase() === 'cosmic' || fish.rarity.toLowerCase() === 'quantum'))
+                ));
                 const localized = speciesCommonName(fish);
                 const matchQuery = !query ||
                     (localized && localized.toLowerCase().includes(query)) ||
