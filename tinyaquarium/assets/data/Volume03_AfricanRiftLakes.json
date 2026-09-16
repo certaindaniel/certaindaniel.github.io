@@ -1308,14 +1308,14 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#DC2626",
-      "secondaryColor": "#F97316",
-      "accentColor": "#FDE047",
-      "tailShape": "fan",
-      "bodyLength": 22.0,
-      "bodyHeight": 11.0,
+      "primaryColor": "#E7E5E4",
+      "secondaryColor": "#44403C",
+      "accentColor": "#A8A29E",
+      "tailShape": "forked",
+      "bodyLength": 19.0,
+      "bodyHeight": 9.0,
       "features": [
-        "high_back"
+        "stripes"
       ],
       "phenotypeHash": "VPH-STA-DC26-F973-FAN-1"
     },
@@ -1730,15 +1730,14 @@
     "baseCoinYield": 4,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#1D4928",
-      "secondaryColor": "#268ADC",
-      "accentColor": "#F6556D",
+      "primaryColor": "#D97706",
+      "secondaryColor": "#78350F",
+      "accentColor": "#FDE68A",
       "tailShape": "delta",
-      "bodyLength": 22.0,
-      "bodyHeight": 11.0,
+      "bodyLength": 19.0,
+      "bodyHeight": 9.5,
       "features": [
-        "stripes",
-        "bioluminescence"
+        "stripes"
       ],
       "phenotypeHash": "VPH-STA-1D49-268A-DEL-2"
     },

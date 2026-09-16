@@ -1974,19 +1974,19 @@
     "hatchStepsRequired": 2679,
     "baseSwimSpeed": 0.76,
     "baseCoinYield": 9,
-    "emojiOrSprite": "🐠",
+    "emojiOrSprite": "🦕",
     "visualBlueprint": {
-      "primaryColor": "#250EB4",
-      "secondaryColor": "#D90691",
-      "accentColor": "#7FF655",
-      "tailShape": "fan",
-      "bodyLength": 22.0,
-      "bodyHeight": 11.0,
+      "primaryColor": "#0F3D3E",
+      "secondaryColor": "#134E4A",
+      "accentColor": "#38BDF8",
+      "tailShape": "paddle",
+      "bodyLength": 32.0,
+      "bodyHeight": 15.0,
       "features": [
         "shimmer",
-        "stripes"
+        "bioluminescence"
       ],
-      "phenotypeHash": "VPH-STA-250E-D906-FAN-2"
+      "phenotypeHash": "VPH-STA-0F3D-134E-PAD-2"
     },
     "breedingRecipe": [
       "unknown",

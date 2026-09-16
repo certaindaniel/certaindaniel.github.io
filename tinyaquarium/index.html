@@ -2327,10 +2327,14 @@
 
         const rarityStyles = {
             common: { bg: 'bg-slate-500/20', text: 'text-slate-300', border: 'border-slate-500/30', label: '普通', labelEn: 'Common' },
+            uncommon: { bg: 'bg-emerald-500/20', text: 'text-emerald-300', border: 'border-emerald-500/30', label: '精良', labelEn: 'Uncommon' },
             rare: { bg: 'bg-blue-500/20', text: 'text-blue-300', border: 'border-blue-500/30', label: '稀有', labelEn: 'Rare' },
             epic: { bg: 'bg-purple-500/20', text: 'text-purple-300', border: 'border-purple-500/30', label: '史詩', labelEn: 'Epic' },
             legendary: { bg: 'bg-amber-500/20', text: 'text-amber-300', border: 'border-amber-500/30', label: '傳說', labelEn: 'Legendary' },
-            mythical: { bg: 'bg-rose-500/20', text: 'text-rose-300', border: 'border-rose-500/30', label: '神話', labelEn: 'Mythical' }
+            mythic: { bg: 'bg-rose-500/20', text: 'text-rose-300', border: 'border-rose-500/30', label: '神話', labelEn: 'Mythic' },
+            mythical: { bg: 'bg-rose-500/20', text: 'text-rose-300', border: 'border-rose-500/30', label: '神話', labelEn: 'Mythical' },
+            cosmic: { bg: 'bg-indigo-500/20', text: 'text-indigo-300', border: 'border-indigo-500/30', label: '傳說', labelEn: 'Cosmic' },
+            quantum: { bg: 'bg-violet-500/20', text: 'text-violet-300', border: 'border-violet-300', label: '傳說', labelEn: 'Quantum' }
         };
 
         //  rarity 標籤與分類名稱的 en-US 在地化 helper
@@ -2403,7 +2407,51 @@
             const name = ((fish.commonName || '') + ' ' + (fish.commonNameEn || '') + ' ' + ((fish.i18n && fish.i18n.en && fish.i18n.en.commonName) || '') + ' ' + (fish.id || '')).toLowerCase();
 
             // 1. Specialized Vector SVGs for Distinct Marine Life Classes
-            // 00000. Koi Dynasty (日本錦鯉名門、神話神鯉、丹頂錦鯉：流線紡錘體真鯉身軀、八字微展精緻雙短鬚、修長背鰭、羽扇展開大胸鰭)
+            // 00000. Plesiosaur & Loch Ness Monster (蛇頸龍、尼斯湖水怪、薄板龍、長頸龍：S型高聳長頸、水怪駝峰身軀、雙對划水巨鰭、收尖長尾)
+            if (name.includes('蛇頸龍') || name.includes('尼斯湖水怪') || name.includes('plesiosaur') || name.includes('elasmosaur') || name.includes('薄板龍') || name.includes('長頸龍') || name.includes('恐頭龍') || name.includes('雙臼椎龍') || name.includes('loch ness') || name.includes('nessie')) {
+                const isNessie = name.includes('尼斯湖水怪') || name.includes('loch') || name.includes('ness');
+                const mainColor = isNessie ? '#0F3D3E' : (pColor || '#1E3F20');
+                const subColor = isNessie ? '#134E4A' : (sColor || '#2D6A4F');
+                const accent = isNessie ? '#38BDF8' : (aColor || '#52B788');
+                const pId = 'pl_' + (fish.id || 'p').replace(/[^a-zA-Z0-9]/g, '_');
+
+                return `
+                <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
+                    <defs>
+                        <linearGradient id="${pId}" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="${subColor}"/>
+                            <stop offset="60%" stop-color="${mainColor}"/>
+                            <stop offset="100%" stop-color="${subColor}"/>
+                        </linearGradient>
+                    </defs>
+                    <!-- Far Paddles (Deep Side) -->
+                    <ellipse cx="14" cy="33" rx="4.5" ry="2" fill="${subColor}" opacity="0.6" transform="rotate(35 14 33)"/>
+                    <ellipse cx="26" cy="33" rx="5.5" ry="2.2" fill="${subColor}" opacity="0.65" transform="rotate(30 26 33)"/>
+                    <!-- Tapered Tail -->
+                    <path d="M16,28 Q8,28 3,32 Q9,35 16,33 Z" fill="url(#${pId})"/>
+                    <!-- Main Body with Hump -->
+                    <ellipse cx="20" cy="30" rx="12" ry="6.5" fill="url(#${pId})"/>
+                    <ellipse cx="19" cy="27" rx="7.5" ry="4" fill="${subColor}" opacity="0.8"/>
+                    <ellipse cx="20" cy="32" rx="8" ry="2.5" fill="${accent}" opacity="0.3"/>
+                    <!-- Dorsal Ridge / Scutes -->
+                    <polygon points="15,24 16.5,22 18,24" fill="${subColor}"/>
+                    <polygon points="18.5,23.5 20,21.5 21.5,23.5" fill="${subColor}"/>
+                    <polygon points="22,24 23.5,22.5 25,24" fill="${subColor}"/>
+                    <!-- S-Curved Long Neck -->
+                    <path d="M26,30 C30,28 30,19 33,14 C35,11 37,10 39,11" fill="none" stroke="url(#${pId})" stroke-width="3.6" stroke-linecap="round"/>
+                    <path d="M26.5,31 C30.5,29 30.5,20 33.5,15 C35.5,12 37.5,11 39.5,12" fill="none" stroke="${accent}" stroke-width="1.0" opacity="0.4" stroke-linecap="round"/>
+                    <!-- Reptilian Head & Snout -->
+                    <ellipse cx="40" cy="11" rx="4.2" ry="2.5" fill="${subColor}" transform="rotate(-15 40 11)"/>
+                    <circle cx="39.2" cy="10" r="1.3" fill="#FFFFFF"/>
+                    <circle cx="39.5" cy="10" r="0.7" fill="#0F172A"/>
+                    ${isNessie ? `<circle cx="38" cy="8.5" r="1.2" fill="${accent}" filter="drop-shadow(0 0 3px ${accent})"/>` : ''}
+                    <!-- Near Paddles (Fore Side) -->
+                    <path d="M13,31 Q9,38 12,40 Q16,37 16,32 Z" fill="${subColor}" opacity="0.9"/>
+                    <path d="M23,31 Q20,41 24,42 Q28,38 27,31 Z" fill="${subColor}"/>
+                </svg>`;
+            }
+
+            // 0000. Koi Dynasty (日本錦鯉名門、神話神鯉、丹頂錦鯉：流線紡錘體真鯉身軀、八字微展精緻雙短鬚、修長背鰭、羽扇展開大胸鰭)
             if (name.includes('錦鯉') || name.includes('koi') || (name.includes('鯉') && !name.includes('脂鯉'))) {
                 const isTancho = features.includes('tancho_crown') || name.includes('丹頂') || name.includes('tancho');
                 const isKohaku = name.includes('紅白') || name.includes('kohaku');
@@ -3305,6 +3353,18 @@
                 dorsalSvg = `<polygon points="23,15 28,3 35,16" fill="${sColor}"/>`;
             } else {
                 dorsalSvg = `<path d="M22,16 Q30,8 36,17 Z" fill="${sColor}" opacity="0.85"/>`;
+            // Celestial / Cosmic / Legendary Orbit Ring
+            let cosmicRingSvg = '';
+            const isCosmic = (fish.category && (fish.category.includes('星宿') || fish.category.includes('塔羅') || fish.category.includes('深空') || fish.category.includes('宇宙') || fish.category.includes('維度'))) ||
+                             fish.rarity?.toLowerCase() === 'cosmic' || fish.rarity?.toLowerCase() === 'quantum' || fish.rarity?.toLowerCase() === 'legendary' || fish.rarity?.toLowerCase() === 'mythic' || fish.rarity?.toLowerCase() === 'mythical';
+            if (isCosmic) {
+                cosmicRingSvg = `
+                    <!-- Celestial Planetary Orbit Ring -->
+                    <ellipse cx="28" cy="24" rx="20" ry="8.5" fill="none" stroke="${aColor}" stroke-width="1.2" opacity="0.85" transform="rotate(-18 28 24)" stroke-dasharray="3 2"/>
+                    <!-- Orbiting Satellite Star -->
+                    <circle cx="44" cy="18" r="1.8" fill="#FFFFFF" filter="drop-shadow(0 0 4px ${aColor})"/>
+                    <circle cx="12" cy="30" r="1.1" fill="${aColor}" opacity="0.85"/>
+                `;
             }
 
             return `
@@ -3316,6 +3376,8 @@
                         <stop offset="100%" stop-color="${aColor}"/>
                     </linearGradient>
                 </defs>
+                <!-- Cosmic Orbit Ring -->
+                ${cosmicRingSvg}
                 <!-- Dorsal Fin -->
                 ${dorsalSvg}
                 <!-- Tail Fin -->

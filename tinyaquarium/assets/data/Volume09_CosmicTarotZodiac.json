@@ -8,7 +8,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 17005,
     "baseSwimSpeed": 3.78,
-    "baseCoinYield": 3,
+    "baseCoinYield": 8,
     "emojiOrSprite": "♊️",
     "visualBlueprint": {
       "primaryColor": "#FFFFFF",
@@ -242,7 +242,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 20179,
     "baseSwimSpeed": 2.37,
-    "baseCoinYield": 2,
+    "baseCoinYield": 8,
     "emojiOrSprite": "♌️",
     "visualBlueprint": {
       "primaryColor": "#312E81",
@@ -281,7 +281,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 5464,
     "baseSwimSpeed": 3.46,
-    "baseCoinYield": 3,
+    "baseCoinYield": 8,
     "emojiOrSprite": "♒️",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -476,7 +476,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 10956,
     "baseSwimSpeed": 1.01,
-    "baseCoinYield": 4,
+    "baseCoinYield": 8,
     "emojiOrSprite": "♓️",
     "visualBlueprint": {
       "primaryColor": "#99308E",
@@ -516,7 +516,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 20261,
     "baseSwimSpeed": 2.64,
-    "baseCoinYield": 2,
+    "baseCoinYield": 8,
     "emojiOrSprite": "♎️",
     "visualBlueprint": {
       "primaryColor": "#581C87",
@@ -751,7 +751,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 20130,
     "baseSwimSpeed": 3.71,
-    "baseCoinYield": 2,
+    "baseCoinYield": 8,
     "emojiOrSprite": "♎️",
     "visualBlueprint": {
       "primaryColor": "#7C3AED",
@@ -949,7 +949,7 @@
     "category": "黃道十二宮星座",
     "hatchStepsRequired": 10419,
     "baseSwimSpeed": 0.52,
-    "baseCoinYield": 2,
+    "baseCoinYield": 8,
     "emojiOrSprite": "♉️",
     "visualBlueprint": {
       "primaryColor": "#7A2651",
@@ -1148,7 +1148,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 16496,
     "baseSwimSpeed": 3.36,
-    "baseCoinYield": 4,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🌟",
     "visualBlueprint": {
       "primaryColor": "#1F4729",
@@ -1308,7 +1308,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 10684,
     "baseSwimSpeed": 1.96,
-    "baseCoinYield": 3,
+    "baseCoinYield": 8,
     "emojiOrSprite": "⚖️",
     "visualBlueprint": {
       "primaryColor": "#0019C8",
@@ -1428,7 +1428,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 5246,
     "baseSwimSpeed": 1.94,
-    "baseCoinYield": 4,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🦁",
     "visualBlueprint": {
       "primaryColor": "#803478",
@@ -1508,7 +1508,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 9466,
     "baseSwimSpeed": 3.39,
-    "baseCoinYield": 2,
+    "baseCoinYield": 8,
     "emojiOrSprite": "☀️",
     "visualBlueprint": {
       "primaryColor": "#4E1848",
@@ -1548,7 +1548,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 21583,
     "baseSwimSpeed": 3.37,
-    "baseCoinYield": 4,
+    "baseCoinYield": 8,
     "emojiOrSprite": "⚖️",
     "visualBlueprint": {
       "primaryColor": "#067B35",
@@ -1588,7 +1588,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 14644,
     "baseSwimSpeed": 4.71,
-    "baseCoinYield": 3,
+    "baseCoinYield": 8,
     "emojiOrSprite": "⚡️",
     "visualBlueprint": {
       "primaryColor": "#0F172A",
@@ -1627,7 +1627,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 13566,
     "baseSwimSpeed": 3.64,
-    "baseCoinYield": 2,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🃏",
     "visualBlueprint": {
       "primaryColor": "#592441",
@@ -1706,7 +1706,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 19618,
     "baseSwimSpeed": 1.48,
-    "baseCoinYield": 2,
+    "baseCoinYield": 8,
     "emojiOrSprite": "⚔️",
     "visualBlueprint": {
       "primaryColor": "#184272",
@@ -1865,7 +1865,7 @@
     "category": "塔羅22大阿卡納秘儀",
     "hatchStepsRequired": 19737,
     "baseSwimSpeed": 3.69,
-    "baseCoinYield": 2,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🌟",
     "visualBlueprint": {
       "primaryColor": "#4B1CD7",
@@ -2061,7 +2061,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 8560,
     "baseSwimSpeed": 3.83,
-    "baseCoinYield": 2,
+    "baseCoinYield": 8,
     "emojiOrSprite": "💥",
     "visualBlueprint": {
       "primaryColor": "#00AAFE",
@@ -2100,7 +2100,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 10857,
     "baseSwimSpeed": 1.37,
-    "baseCoinYield": 3,
+    "baseCoinYield": 8,
     "emojiOrSprite": "💥",
     "visualBlueprint": {
       "primaryColor": "#0568BB",
@@ -2139,7 +2139,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 20792,
     "baseSwimSpeed": 0.58,
-    "baseCoinYield": 3,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
       "primaryColor": "#05BB22",
@@ -2178,7 +2178,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 18803,
     "baseSwimSpeed": 3.3,
-    "baseCoinYield": 2,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🛸",
     "visualBlueprint": {
       "primaryColor": "#3401CA",
@@ -2295,7 +2295,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 9888,
     "baseSwimSpeed": 4.61,
-    "baseCoinYield": 2,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🎇",
     "visualBlueprint": {
       "primaryColor": "#1D05BB",
@@ -2335,7 +2335,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 5079,
     "baseSwimSpeed": 3.21,
-    "baseCoinYield": 3,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🔭",
     "visualBlueprint": {
       "primaryColor": "#180AAD",
@@ -2530,7 +2530,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 17910,
     "baseSwimSpeed": 2.84,
-    "baseCoinYield": 2,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🎇",
     "visualBlueprint": {
       "primaryColor": "#3B05BB",
@@ -2647,7 +2647,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 24325,
     "baseSwimSpeed": 4.3,
-    "baseCoinYield": 4,
+    "baseCoinYield": 8,
     "emojiOrSprite": "💥",
     "visualBlueprint": {
       "primaryColor": "#7ACA01",
@@ -2725,7 +2725,7 @@
     "category": "宇宙深空天體與量子力學",
     "hatchStepsRequired": 16851,
     "baseSwimSpeed": 1.25,
-    "baseCoinYield": 3,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🌌",
     "visualBlueprint": {
       "primaryColor": "#A5D30C",
@@ -2960,7 +2960,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 16573,
     "baseSwimSpeed": 1.51,
-    "baseCoinYield": 4,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🧊",
     "visualBlueprint": {
       "primaryColor": "#DBC9E8",
@@ -3080,7 +3080,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 14452,
     "baseSwimSpeed": 4.74,
-    "baseCoinYield": 2,
+    "baseCoinYield": 8,
     "emojiOrSprite": "❄️",
     "visualBlueprint": {
       "primaryColor": "#0A17AD",
@@ -3120,7 +3120,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 14480,
     "baseSwimSpeed": 4.83,
-    "baseCoinYield": 3,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🧊",
     "visualBlueprint": {
       "primaryColor": "#0AAD97",
@@ -3200,7 +3200,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 21176,
     "baseSwimSpeed": 2.33,
-    "baseCoinYield": 3,
+    "baseCoinYield": 8,
     "emojiOrSprite": "✨",
     "visualBlueprint": {
       "primaryColor": "#C7D30C",
@@ -3399,7 +3399,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 9628,
     "baseSwimSpeed": 2.78,
-    "baseCoinYield": 4,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🔴",
     "visualBlueprint": {
       "primaryColor": "#01CA8E",
@@ -3876,7 +3876,7 @@
     "category": "極光星塵與維度穿梭",
     "hatchStepsRequired": 24929,
     "baseSwimSpeed": 2.39,
-    "baseCoinYield": 4,
+    "baseCoinYield": 8,
     "emojiOrSprite": "🌌",
     "visualBlueprint": {
       "primaryColor": "#8EFE00",

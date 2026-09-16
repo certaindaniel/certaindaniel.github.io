@@ -2020,17 +2020,17 @@
     "baseCoinYield": 5,
     "emojiOrSprite": "🦕",
     "visualBlueprint": {
-      "primaryColor": "#791328",
-      "secondaryColor": "#92910E",
-      "accentColor": "#55B7F6",
-      "tailShape": "butterfly",
-      "bodyLength": 22.0,
-      "bodyHeight": 11.0,
+      "primaryColor": "#1E3F20",
+      "secondaryColor": "#2D6A4F",
+      "accentColor": "#52B788",
+      "tailShape": "paddle",
+      "bodyLength": 30.0,
+      "bodyHeight": 14.0,
       "features": [
         "spots",
         "dorsal_spikes"
       ],
-      "phenotypeHash": "VPH-STA-7913-9291-BUT-2"
+      "phenotypeHash": "VPH-STA-1E3F-2D6A-PAD-2"
     },
     "breedingRecipe": [
       "mystery_egg",
