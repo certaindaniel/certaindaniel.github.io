@@ -5,6 +5,9 @@ import html
 import os
 import glob
 import urllib.parse
+from io import BytesIO
+
+from PIL import Image
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
@@ -56,17 +59,45 @@ def asset_url(path):
     return f"/{path.lstrip('/')}"
 
 
+def icon_path(path, size):
+    return f"{os.path.splitext(path)[0]}-{size}.webp"
+
+
+def optimize_icons():
+    """Keep source icons and generate Retina-sized copies for the static pages."""
+    for app in APPS:
+        sizes = [112]
+        if app.get("flagship") and not app.get("siteUrl"):
+            sizes.append(192)
+        with Image.open(os.path.join(ROOT, app["icon"])) as source:
+            for size in sizes:
+                image = source.convert("RGBA")
+                image.thumbnail((size, size), Image.Resampling.LANCZOS)
+                output = BytesIO()
+                image.save(output, format="WEBP", quality=85, method=6)
+                path = os.path.join(ROOT, icon_path(app["icon"], size))
+                content = output.getvalue()
+                # Preserve the URL's timestamp when the image hasn't changed.
+                if os.path.exists(path):
+                    with open(path, "rb") as existing:
+                        if existing.read() == content:
+                            continue
+                with open(path, "wb") as target:
+                    target.write(content)
+
+
 def hub_html(locale):
     hub = SITE["hub"][locale]
     cards = []
-    for app in APPS:
+    for index, app in enumerate(APPS):
         loc = app["locales"][locale]
         coming_soon = app.get("comingSoon")
         tag = COMING_SOON_LABEL.get(locale, "Coming Soon") if coming_soon else app["platform"]
-        icon_src = asset_url(app['icon'])
+        icon_src = asset_url(icon_path(app['icon'], 112))
+        loading = "eager" if index < 3 else "lazy"
         inner = f"""
       <span class="platform-tag">{e(tag)}</span>
-      <img class="icon" src="{e(icon_src)}" alt="">
+      <img class="icon" src="{e(icon_src)}" alt="" width="56" height="56" loading="{loading}" decoding="async">
       <h2>{e(loc['name'])}</h2>
       <p>{e(loc['tagline'])}</p>"""
         if app.get("flagship"):
@@ -185,12 +216,12 @@ def app_html(app, locale):
         f'<span class="cta cta--disabled">{e(loc["cta"])}</span>'
     )
 
-    icon_src = asset_url(app['icon'])
+    icon_src = asset_url(icon_path(app['icon'], 192))
 
     body = f"""<div class="wrap">
   {lang_switch(locale, app_id=app['id'])}
   <section class="hero">
-    <img class="icon" src="{e(icon_src)}" alt="">
+    <img class="icon" src="{e(icon_src)}" alt="" width="96" height="96" decoding="async">
     <h1>{e(loc['name'])}</h1>
     <p class="tagline">{e(loc['tagline'])}</p>
     <p class="promo">{e(loc['promo'])}</p>
@@ -247,6 +278,8 @@ def write(path, content):
     with open(full, "w", encoding="utf-8") as f:
         f.write(content)
 
+
+optimize_icons()
 
 for locale in LOCALES:
     hub_content = hub_html(locale)

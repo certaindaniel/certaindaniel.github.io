@@ -4,6 +4,14 @@ Static landing page hub for Daniel Lu's apps. Data-driven — `apps.json` is the
 single source of truth, `generate.py` renders it to static HTML committed into
 this repo (no build step on GitHub Pages).
 
+## Generate the site
+
+Install the image dependency once with `python3 -m pip install -r requirements.txt`,
+then run `python3 generate.py`. The generator keeps the original PNG icons and
+creates WebP copies at 112px for Hub cards and 192px for app-page icons (2× their
+display size). Hub cards below the first row use native lazy loading.
+Commit the generated HTML and WebP files together so GitHub Pages can serve them.
+
 ## Add a new app
 
 1. Add an entry to `apps.json` under `apps` (icon path, App Store URL, per-locale
