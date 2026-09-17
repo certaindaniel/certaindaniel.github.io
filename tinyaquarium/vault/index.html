@@ -6,8 +6,8 @@
     <title data-i18n="pageTitle">TinyAquarium 萬魚圖鑑展廳 | 1,176 種水族與神話生物</title>
     <meta name="description" content="TinyAquarium 萬魚圖鑑展廳：1,176 種水族與神話生物，涵蓋核心手繪名門與東亞江戶、亞馬遜、非洲大湖、大堡礁、萬米深淵、史前海怪、山海經、塔羅星宿等 10 大主題卷冊。">
     <meta name="keywords" content="TinyAquarium, 水族箱手遊, 步數孵化, HealthKit, 放置遊戲, 錦鯉, 治癒遊戲, 基因繁育, Lo-Fi 白噪音, Apple Watch 水族館">
-    <link rel="icon" type="image/png" href="../assets/icon.png">
-    <link rel="apple-touch-icon" href="../assets/icon.png">
+    <link rel="icon" type="image/png" href="../assets/favicon.png">
+    <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
     
     <!-- Open Graph / Meta -->
     <meta property="og:type" content="website">
@@ -18,29 +18,9 @@
     <!-- Google Fonts & Tailwind CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        deepOcean: '#071626',
-                        midnightNavy: '#0c2238',
-                        cyanGlow: '#00F0FF',
-                        coralPink: '#FF5E7E',
-                        goldAmber: '#FFB800',
-                        aquariumTeal: '#0E7490',
-                        glassBg: 'rgba(12, 34, 56, 0.75)'
-                    },
-                    fontFamily: {
-                        sans: ['"Plus Jakarta Sans"', '"Noto Sans TC"', 'sans-serif'],
-                        mono: ['"JetBrains Mono"', 'monospace']
-                    }
-                }
-            }
-        }
-    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="../assets/site.css">
+    <script src="../assets/locale.js"></script>
     <style>
         /* Custom Glassmorphism & Caustics */
         .glass-panel {
@@ -121,7 +101,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <a href="../" class="flex items-center space-x-3 group">
                 <div class="w-11 h-11 rounded-2xl bg-gradient-to-tr from-cyan-500 to-emerald-400 p-0.5 shadow-lg shadow-cyan-500/30 group-hover:scale-105 transition-transform duration-300">
-                    <img src="../assets/icon.png" alt="TinyAquarium Icon" class="w-full h-full rounded-[14px] object-cover shadow-inner">
+                    <img src="/assets/tinyaquarium/icon-112.webp" width="44" height="44" decoding="async" alt="TinyAquarium Icon" class="w-full h-full rounded-[14px] object-cover shadow-inner">
                 </div>
                 <div>
                     <span class="text-xl font-extrabold tracking-tight bg-gradient-to-r from-white via-cyan-100 to-cyan-400 bg-clip-text text-transparent">TinyAquarium</span>
@@ -217,15 +197,10 @@
                     <div class="relative w-full max-w-[340px] sm:max-w-[380px] animate-float">
                         <!-- iPhone Titanium Bezel Mockup -->
                         <div class="relative p-3 rounded-[54px] bg-gradient-to-b from-slate-700 via-slate-800 to-slate-900 shadow-2xl shadow-cyan-500/20 border-4 border-slate-600/50">
-                            <!-- Dynamic Island -->
-                            <div class="absolute top-6 left-1/2 -translate-x-1/2 w-28 h-7 bg-black rounded-full z-30 flex items-center justify-between px-3">
-                                <span class="w-2.5 h-2.5 rounded-full bg-cyan-400/80 animate-pulse"></span>
-                                <span class="text-[12px] text-cyan-300 font-mono">TinyAquarium</span>
-                            </div>
-
                             <!-- Screen Container -->
                             <div class="relative rounded-[44px] overflow-hidden aspect-[9/19.5] bg-deepOcean shadow-inner border border-white/10">
-                                <img src="../assets/screenshot_dex.png" alt="TinyAquarium 水族百科圖鑑實機畫面" data-i18n-alt="shot_dex_alt" class="w-full h-full object-cover">
+                                <img id="dex-screenshot" data-en-us="../assets/screenshot_dex.en-US.webp" data-zh-hant="../assets/screenshot_dex.zh-Hant.webp" data-zh-hans="../assets/screenshot_dex.zh-Hans.webp" width="760" height="1645" fetchpriority="high" decoding="async" alt="TinyAquarium 水族百科圖鑑實機畫面" data-i18n-alt="shot_dex_alt" class="w-full h-full object-cover">
+                                <script>updateLocalizedScreenshot();</script>
                             </div>
                         </div>
 
@@ -241,7 +216,7 @@
                         </div>
 
                         <!-- Floating Companion Pill: Heart Energy -->
-                        <div class="absolute top-12 -right-6 sm:-right-8 glass-panel p-3.5 rounded-2xl border border-rose-400/30 shadow-xl flex items-center space-x-3">
+                        <div class="absolute -top-10 -right-6 sm:-right-8 glass-panel p-3.5 rounded-2xl border border-rose-400/30 shadow-xl flex items-center space-x-3">
                             <span class="text-2xl animate-pulse">❤️</span>
                             <div>
                                 <div class="text-xs font-bold text-rose-300" data-i18n="hero_pet">摸摸 360° 翻滾</div>
@@ -410,23 +385,6 @@
     <script>
         // --- 0. i18n: 三語系 (zh-Hant / zh-Hans / en-US) ---
         // 靜態 UI 字串字典 + 魚種 i18n 解析 (1,176 種的 commonName/description 從 JSON i18n 欄取)
-        const LANGS = ['zh-Hant', 'zh-Hans', 'en-US'];
-        const URL_LANG_ALIASES = { en: 'en-US', 'en-us': 'en-US', 'zh-hans': 'zh-Hans', 'zh-hant': 'zh-Hant' };
-        // 語系優先順序: URL ?lang= 參數 > localStorage > 預設 zh-Hant
-        let currentLang = 'zh-Hant';
-        (function detectLang() {
-            const q = new URLSearchParams(location.search).get('lang');
-            if (q && URL_LANG_ALIASES[q.toLowerCase()]) {
-                currentLang = URL_LANG_ALIASES[q.toLowerCase()];
-                // 從 ?lang= 進站也要記住，否則點內部連結會掉回預設語系
-                try { localStorage.setItem('ta_lang', currentLang); } catch (e) {}
-            }
-            else {
-                const stored = localStorage.getItem('ta_lang');
-                if (stored && LANGS.includes(stored)) currentLang = stored;
-            }
-        })();
-
         const I18N = {
             'zh-Hant': { pageTitle: 'TinyAquarium 萬魚圖鑑展廳 | 1,176 種水族與神話生物', nav_faq: '常見問題', nav_privacy: '隱私權政策', nav_home: '首頁', nav_guide: '玩法攻略', nav_vault: '萬魚圖鑑', nav_download: '下載',
                 back: '← 回到作品集', sound: '水聲白噪音', sound_off: '關閉環境音', coming: '即將推出',
@@ -692,7 +650,7 @@
         function setLang(lang) {
             if (!LANGS.includes(lang)) lang = 'zh-Hant';
             currentLang = lang;
-            localStorage.setItem('ta_lang', lang);
+            try { localStorage.setItem('ta_lang', lang); } catch (e) {}
             // URL ?lang= 同步 (可分享連結)
             try {
                 const u = new URL(location.href);
@@ -713,6 +671,7 @@
         }
 
         function applyAllI18n() {
+            updateLocalizedScreenshot();
             // 語言按鈕高亮同步 (setLang 與初始載入共用)
             document.querySelectorAll('.lang-btn').forEach(btn => {
                 const active = btn.getAttribute('data-lang-btn') === currentLang;
@@ -1966,9 +1925,8 @@
 
         async function loadVaultData() {
             try {
-                const timestamp = Date.now();
                 const promises = volumeFiles.map(async (file) => {
-                    const res = await fetch(`/tinyaquarium/assets/data/${file}?v=${timestamp}`);
+                    const res = await fetch(`/tinyaquarium/assets/data/${file}`);
                     if (!res.ok) return [];
                     const data = await res.json();
                     return data.map(item => ({ ...item, volumeFile: file.replace('.json', '') }));
@@ -3371,7 +3329,7 @@
         // Initialize Window Events
         // 這支 script 由首頁與圖鑑頁共用，每一頁只有其中一部分的 DOM。
         // 先確認元素在不在再啟動，缺的那一塊就安靜跳過。
-        window.addEventListener('load', () => {
+        window.addEventListener('DOMContentLoaded', () => {
             applyAllI18n();
             if (document.getElementById('aquariumCanvas')) {
                 initAquarium();

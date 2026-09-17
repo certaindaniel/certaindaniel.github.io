@@ -12,6 +12,22 @@ creates WebP copies at 112px for Hub cards and 192px for app-page icons (2× the
 display size). Hub cards below the first row use native lazy loading.
 Commit the generated HTML and WebP files together so GitHub Pages can serve them.
 
+## TinyAquarium website assets
+
+The handwritten homepage and Fish Vault use prebuilt Tailwind CSS instead of
+compiling styles in the browser. After changing their classes, run
+`sh tools/build_tinyaquarium_css.sh` (Node.js/npm required) and commit
+`tinyaquarium/assets/site.css` with the HTML. Font CSS loads without blocking the
+initial render. The homepage starts its UI at DOM ready and pauses the interactive
+tank while it is offscreen or the tab is hidden.
+
+To rebuild the localized codex screenshots, favicon, and Apple touch icon, run
+`python3 tools/optimize_tinyaquarium_images.py /path/to/TinyAquarium/screenshots`.
+English uses `en-US/02.png`, Traditional Chinese uses `raw/zh-Hant/02_dex.png`,
+and Simplified Chinese uses `zh-Hans/02.png`. Screenshots are served as WebP at up
+to 760px wide; URL language, saved language, and in-page switches select the same
+language for both the text and the image.
+
 ## Add a new app
 
 1. Add an entry to `apps.json` under `apps` (icon path, App Store URL, per-locale
