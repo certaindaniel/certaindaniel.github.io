@@ -76,7 +76,7 @@
   {
     "id": "AFR_MAL_003",
     "commonName": "黃金雀",
-    "scientificName": "Polypterus sp. (黃金雀)",
+    "scientificName": "Aulonocara sp. \"Gold\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【黃金雀】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -114,7 +114,7 @@
   {
     "id": "AFR_MAL_004",
     "commonName": "斑馬十間",
-    "scientificName": "Polypterus sp. (斑馬十間)",
+    "scientificName": "Maylandia zebra",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【斑馬十間】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Epic",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -153,7 +153,7 @@
   {
     "id": "AFR_MAL_005",
     "commonName": "雪中紅",
-    "scientificName": "Polypterus sp. (雪中紅)",
+    "scientificName": "Maylandia estherae \"Red\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【雪中紅】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -191,7 +191,7 @@
   {
     "id": "AFR_MAL_006",
     "commonName": "非洲紅肚",
-    "scientificName": "Polypterus sp. (非洲紅肚)",
+    "scientificName": "Cichlidae sp. (Lake Malawi)",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【非洲紅肚】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -230,7 +230,7 @@
   {
     "id": "AFR_MAL_007",
     "commonName": "血中斑",
-    "scientificName": "Polypterus sp. (血中斑)",
+    "scientificName": "Maylandia estherae \"OB\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【血中斑】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Epic",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -268,7 +268,7 @@
   {
     "id": "AFR_MAL_008",
     "commonName": "白馬王子",
-    "scientificName": "Polypterus sp. (白馬王子)",
+    "scientificName": "Maylandia zebra \"White\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【白馬王子】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -306,7 +306,7 @@
   {
     "id": "AFR_MAL_009",
     "commonName": "金松鼠",
-    "scientificName": "Polypterus sp. (金松鼠)",
+    "scientificName": "Aulonocara baenschi \"Benga\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【金松鼠】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Epic",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -344,7 +344,7 @@
   {
     "id": "AFR_MAL_010",
     "commonName": "紅馬面",
-    "scientificName": "Polypterus sp. (紅馬面)",
+    "scientificName": "Nimbochromis livingstonii",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【紅馬面】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -383,7 +383,7 @@
   {
     "id": "AFR_MAL_011",
     "commonName": "藍珍珠",
-    "scientificName": "Polypterus sp. (藍珍珠)",
+    "scientificName": "Placidochromis phenochilus",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【藍珍珠】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -421,7 +421,7 @@
   {
     "id": "AFR_MAL_012",
     "commonName": "帝王雀",
-    "scientificName": "Polypterus sp. (帝王雀)",
+    "scientificName": "Aulonocara jacobfreibergi",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【帝王雀】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -459,7 +459,7 @@
   {
     "id": "AFR_MAL_013",
     "commonName": "特藍斑馬",
-    "scientificName": "Polypterus sp. (特藍斑馬)",
+    "scientificName": "Pseudotropheus demasoni",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【特藍斑馬】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Epic",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -498,7 +498,7 @@
   {
     "id": "AFR_MAL_014",
     "commonName": "黃金天堂鳥",
-    "scientificName": "Polypterus sp. (黃金天堂鳥)",
+    "scientificName": "Aulonocara sp. \"Gold\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【黃金天堂鳥】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -536,7 +536,7 @@
   {
     "id": "AFR_MAL_015",
     "commonName": "閃電戰神",
-    "scientificName": "Polypterus sp. (閃電戰神)",
+    "scientificName": "Melanochromis johannii",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【閃電戰神】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -648,7 +648,7 @@
   {
     "id": "AFR_MAL_018",
     "commonName": "紅寶石",
-    "scientificName": "Polypterus sp. (紅寶石)",
+    "scientificName": "Aulonocara sp. \"Ruby/Red\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【紅寶石】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -687,7 +687,7 @@
   {
     "id": "AFR_MAL_019",
     "commonName": "維納斯",
-    "scientificName": "Polypterus sp. (維納斯)",
+    "scientificName": "Nimbochromis venustus",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【維納斯】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -726,7 +726,7 @@
   {
     "id": "AFR_MAL_020",
     "commonName": "藍天使",
-    "scientificName": "Polypterus sp. (藍天使)",
+    "scientificName": "Aulonocara hansbaenschi",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【藍天使】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -764,7 +764,7 @@
   {
     "id": "AFR_MAL_021",
     "commonName": "紫水晶",
-    "scientificName": "Polypterus sp. (紫水晶)",
+    "scientificName": "Placidochromis electra",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【紫水晶】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -802,7 +802,7 @@
   {
     "id": "AFR_MAL_022",
     "commonName": "金剛鸚鵡",
-    "scientificName": "Polypterus sp. (金剛鸚鵡)",
+    "scientificName": "Aulonocara sp. \"OB\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【金剛鸚鵡】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Epic",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -840,7 +840,7 @@
   {
     "id": "AFR_MAL_023",
     "commonName": "白金天堂鳥",
-    "scientificName": "Polypterus sp. (白金天堂鳥)",
+    "scientificName": "Aulonocara sp. \"Platinum\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【白金天堂鳥】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -915,7 +915,7 @@
   {
     "id": "AFR_MAL_025",
     "commonName": "紅彩雀",
-    "scientificName": "Polypterus sp. (紅彩雀)",
+    "scientificName": "Aulonocara stuartgranti \"Fire/Red\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【紅彩雀】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "馬拉威湖岩棲與孔雀慈鯛",
@@ -1031,7 +1031,7 @@
   {
     "id": "AFR_TAN_003",
     "commonName": "九間十間",
-    "scientificName": "Polypterus sp. (九間十間)",
+    "scientificName": "Neolamprologus multifasciatus",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【九間十間】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
@@ -1069,7 +1069,7 @@
   {
     "id": "AFR_TAN_004",
     "commonName": "金雀",
-    "scientificName": "Polypterus sp. (金雀)",
+    "scientificName": "Neolamprologus sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【金雀】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
@@ -1107,7 +1107,7 @@
   {
     "id": "AFR_TAN_005",
     "commonName": "斑馬九間",
-    "scientificName": "Polypterus sp. (斑馬九間)",
+    "scientificName": "Neolamprologus similis",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【斑馬九間】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Epic",
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
@@ -1146,7 +1146,7 @@
   {
     "id": "AFR_TAN_006",
     "commonName": "黃金斑馬",
-    "scientificName": "Polypterus sp. (黃金斑馬)",
+    "scientificName": "Neolamprologus sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【黃金斑馬】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
@@ -1185,7 +1185,7 @@
   {
     "id": "AFR_TAN_007",
     "commonName": "紅斑馬",
-    "scientificName": "Polypterus sp. (紅斑馬)",
+    "scientificName": "Neolamprologus sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【紅斑馬】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
@@ -1223,7 +1223,7 @@
   {
     "id": "AFR_TAN_008",
     "commonName": "黃金珍珠雀",
-    "scientificName": "Polypterus sp. (黃金珍珠雀)",
+    "scientificName": "Neolamprologus tetracanthus",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【黃金珍珠雀】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Epic",
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
@@ -1261,7 +1261,7 @@
   {
     "id": "AFR_TAN_009",
     "commonName": "藍翼珍珠",
-    "scientificName": "Polypterus sp. (藍翼珍珠)",
+    "scientificName": "Cardiopharynx schoutedeni",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【藍翼珍珠】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
@@ -1452,7 +1452,7 @@
   {
     "id": "AFR_TAN_014",
     "commonName": "黃金提燈",
-    "scientificName": "Polypterus sp. (黃金提燈)",
+    "scientificName": "Ophthalmotilapia ventralis",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【黃金提燈】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
@@ -1490,7 +1490,7 @@
   {
     "id": "AFR_TAN_015",
     "commonName": "藍翼提燈",
-    "scientificName": "Polypterus sp. (藍翼提燈)",
+    "scientificName": "Ophthalmotilapia ventralis",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【藍翼提燈】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Epic",
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
@@ -1529,7 +1529,7 @@
   {
     "id": "AFR_TAN_016",
     "commonName": "紅翼提燈",
-    "scientificName": "Polypterus sp. (紅翼提燈)",
+    "scientificName": "Ophthalmotilapia ventralis",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【紅翼提燈】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
@@ -1567,7 +1567,7 @@
   {
     "id": "AFR_TAN_017",
     "commonName": "女王燕尾",
-    "scientificName": "Polypterus sp. (女王燕尾)",
+    "scientificName": "Neolamprologus brichardi",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【女王燕尾】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
@@ -1606,7 +1606,7 @@
   {
     "id": "AFR_TAN_018",
     "commonName": "黃金燕尾",
-    "scientificName": "Polypterus sp. (黃金燕尾)",
+    "scientificName": "Neolamprologus helianthus",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【黃金燕尾】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
@@ -1644,7 +1644,7 @@
   {
     "id": "AFR_TAN_019",
     "commonName": "黑劍尾",
-    "scientificName": "Polypterus sp. (黑劍尾)",
+    "scientificName": "Neolamprologus sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【黑劍尾】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
@@ -1682,7 +1682,7 @@
   {
     "id": "AFR_TAN_020",
     "commonName": "斑馬劍尾",
-    "scientificName": "Polypterus sp. (斑馬劍尾)",
+    "scientificName": "Neolamprologus savoryi",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【斑馬劍尾】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "坦干依喀湖巨型六間與貝類寄居慈鯛",
@@ -1913,7 +1913,7 @@
   {
     "id": "AFR_VIC_001",
     "commonName": "赤焰火烈鳥",
-    "scientificName": "Polypterus sp. (赤焰火烈鳥)",
+    "scientificName": "Xystichromis sp. \"Kyoga Flameback\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【赤焰火烈鳥】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -1951,7 +1951,7 @@
   {
     "id": "AFR_VIC_002",
     "commonName": "太陽神",
-    "scientificName": "Polypterus sp. (太陽神)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【太陽神】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -1987,7 +1987,7 @@
   {
     "id": "AFR_VIC_003",
     "commonName": "藍星",
-    "scientificName": "Polypterus sp. (藍星)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【藍星】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2025,7 +2025,7 @@
   {
     "id": "AFR_VIC_004",
     "commonName": "火狐",
-    "scientificName": "Polypterus sp. (火狐)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【火狐】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2063,7 +2063,7 @@
   {
     "id": "AFR_VIC_005",
     "commonName": "黑珍珠",
-    "scientificName": "Polypterus sp. (黑珍珠)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【黑珍珠】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2101,7 +2101,7 @@
   {
     "id": "AFR_VIC_006",
     "commonName": "黃金斑爛",
-    "scientificName": "Polypterus sp. (黃金斑爛)",
+    "scientificName": "Haplochromis sp. \"Kenya Gold\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【黃金斑爛】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2139,7 +2139,7 @@
   {
     "id": "AFR_VIC_007",
     "commonName": "維多利亞斑馬",
-    "scientificName": "Polypterus sp. (維多利亞斑馬)",
+    "scientificName": "Astatotilapia latifasciata \"Zebra Obliquidens\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【維多利亞斑馬】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Epic",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2178,7 +2178,7 @@
   {
     "id": "AFR_VIC_008",
     "commonName": "紅肚斑馬",
-    "scientificName": "Polypterus sp. (紅肚斑馬)",
+    "scientificName": "Astatotilapia latifasciata \"Zebra Obliquidens\" (red-belly)",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【紅肚斑馬】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2217,7 +2217,7 @@
   {
     "id": "AFR_VIC_009",
     "commonName": "紅十字",
-    "scientificName": "Polypterus sp. (紅十字)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【紅十字】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2256,7 +2256,7 @@
   {
     "id": "AFR_VIC_010",
     "commonName": "彩虹七彩雀",
-    "scientificName": "Polypterus sp. (彩虹七彩雀)",
+    "scientificName": "Neochromis omnicaeruleus",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【彩虹七彩雀】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2295,7 +2295,7 @@
   {
     "id": "AFR_VIC_011",
     "commonName": "火焰鳥",
-    "scientificName": "Polypterus sp. (火焰鳥)",
+    "scientificName": "Pundamilia nyererei \"Flameback\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【火焰鳥】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2333,7 +2333,7 @@
   {
     "id": "AFR_VIC_012",
     "commonName": "藍寶石",
-    "scientificName": "Polypterus sp. (藍寶石)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【藍寶石】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2372,7 +2372,7 @@
   {
     "id": "AFR_VIC_013",
     "commonName": "紅鑽石",
-    "scientificName": "Polypterus sp. (紅鑽石)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【紅鑽石】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Epic",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2410,7 +2410,7 @@
   {
     "id": "AFR_VIC_014",
     "commonName": "黑鑽石",
-    "scientificName": "Polypterus sp. (黑鑽石)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【黑鑽石】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2448,7 +2448,7 @@
   {
     "id": "AFR_VIC_015",
     "commonName": "黃金神",
-    "scientificName": "Polypterus sp. (黃金神)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【黃金神】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2486,7 +2486,7 @@
   {
     "id": "AFR_VIC_016",
     "commonName": "藍神",
-    "scientificName": "Polypterus sp. (藍神)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【藍神】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2525,7 +2525,7 @@
   {
     "id": "AFR_VIC_017",
     "commonName": "火神",
-    "scientificName": "Polypterus sp. (火神)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【火神】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2563,7 +2563,7 @@
   {
     "id": "AFR_VIC_018",
     "commonName": "海神",
-    "scientificName": "Polypterus sp. (海神)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【海神】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2602,7 +2602,7 @@
   {
     "id": "AFR_VIC_019",
     "commonName": "波塞頓",
-    "scientificName": "Polypterus sp. (波塞頓)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【波塞頓】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2640,7 +2640,7 @@
   {
     "id": "AFR_VIC_020",
     "commonName": "雅典娜",
-    "scientificName": "Polypterus sp. (雅典娜)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【雅典娜】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2679,7 +2679,7 @@
   {
     "id": "AFR_VIC_021",
     "commonName": "阿波羅",
-    "scientificName": "Polypterus sp. (阿波羅)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【阿波羅】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2718,7 +2718,7 @@
   {
     "id": "AFR_VIC_022",
     "commonName": "宙斯",
-    "scientificName": "Polypterus sp. (宙斯)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【宙斯】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2756,7 +2756,7 @@
   {
     "id": "AFR_VIC_023",
     "commonName": "赫拉",
-    "scientificName": "Polypterus sp. (赫拉)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【赫拉】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Epic",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2795,7 +2795,7 @@
   {
     "id": "AFR_VIC_024",
     "commonName": "阿瑞斯",
-    "scientificName": "Polypterus sp. (阿瑞斯)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【阿瑞斯】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2834,7 +2834,7 @@
   {
     "id": "AFR_VIC_025",
     "commonName": "黑帝斯",
-    "scientificName": "Polypterus sp. (黑帝斯)",
+    "scientificName": "Haplochromis sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【黑帝斯】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "維多利亞湖赤焰與稀有慈鯛",
@@ -2873,7 +2873,7 @@
   {
     "id": "AFR_CON_001",
     "commonName": "多鰭恐龍王",
-    "scientificName": "Polypterus sp. (多鰭恐龍王)",
+    "scientificName": "Polypterus bichir",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【多鰭恐龍王】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Epic",
     "category": "剛果與尼羅河古生代巨魚",
@@ -2912,7 +2912,7 @@
   {
     "id": "AFR_CON_002",
     "commonName": "金恐龍",
-    "scientificName": "Polypterus sp. (金恐龍)",
+    "scientificName": "Polypterus senegalus \"Gold\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【金恐龍】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "剛果與尼羅河古生代巨魚",
@@ -2950,7 +2950,7 @@
   {
     "id": "AFR_CON_003",
     "commonName": "大花恐龍",
-    "scientificName": "Polypterus sp. (大花恐龍)",
+    "scientificName": "Polypterus ornatipinnis",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【大花恐龍】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "剛果與尼羅河古生代巨魚",
@@ -2989,7 +2989,7 @@
   {
     "id": "AFR_CON_004",
     "commonName": "塞內加爾恐龍",
-    "scientificName": "Polypterus sp. (塞內加爾恐龍)",
+    "scientificName": "Polypterus senegalus",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【塞內加爾恐龍】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3027,7 +3027,7 @@
   {
     "id": "AFR_CON_005",
     "commonName": "非洲飛蝶",
-    "scientificName": "Polypterus sp. (非洲飛蝶)",
+    "scientificName": "Pantodon buchholzi",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【非洲飛蝶】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3066,7 +3066,7 @@
   {
     "id": "AFR_CON_006",
     "commonName": "象鼻魚",
-    "scientificName": "Polypterus sp. (象鼻魚)",
+    "scientificName": "Gnathonemus petersii",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【象鼻魚】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3105,7 +3105,7 @@
   {
     "id": "AFR_CON_007",
     "commonName": "琴尾魚",
-    "scientificName": "Polypterus sp. (琴尾魚)",
+    "scientificName": "Aphyosemion australe",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【琴尾魚】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3144,7 +3144,7 @@
   {
     "id": "AFR_CON_008",
     "commonName": "剛果娃娃",
-    "scientificName": "Polypterus sp. (剛果娃娃)",
+    "scientificName": "Tetraodon miurus",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【剛果娃娃】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3183,7 +3183,7 @@
   {
     "id": "AFR_CON_009",
     "commonName": "虎魚",
-    "scientificName": "Polypterus sp. (虎魚)",
+    "scientificName": "Hydrocynus sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【虎魚】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3222,7 +3222,7 @@
   {
     "id": "AFR_CON_010",
     "commonName": "非洲肺魚",
-    "scientificName": "Polypterus sp. (非洲肺魚)",
+    "scientificName": "Protopterus annectens",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【非洲肺魚】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3261,7 +3261,7 @@
   {
     "id": "AFR_CON_011",
     "commonName": "電鯰",
-    "scientificName": "Polypterus sp. (電鯰)",
+    "scientificName": "Malapterurus electricus",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【電鯰】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3300,7 +3300,7 @@
   {
     "id": "AFR_CON_012",
     "commonName": "反游鯰",
-    "scientificName": "Polypterus sp. (反游鯰)",
+    "scientificName": "Synodontis nigriventris",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【反游鯰】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3339,7 +3339,7 @@
   {
     "id": "AFR_CON_013",
     "commonName": "剛果脂鯉",
-    "scientificName": "Polypterus sp. (剛果脂鯉)",
+    "scientificName": "Phenacogrammus interruptus",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【剛果脂鯉】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3378,7 +3378,7 @@
   {
     "id": "AFR_CON_014",
     "commonName": "黃金剛果",
-    "scientificName": "Polypterus sp. (黃金剛果)",
+    "scientificName": "Phenacogrammus aurantiacus",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【黃金剛果】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3416,7 +3416,7 @@
   {
     "id": "AFR_CON_015",
     "commonName": "藍帶剛果",
-    "scientificName": "Polypterus sp. (藍帶剛果)",
+    "scientificName": "Phenacogrammus interruptus \"Blue\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【藍帶剛果】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Epic",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3455,7 +3455,7 @@
   {
     "id": "AFR_CON_016",
     "commonName": "紅尾剛果",
-    "scientificName": "Polypterus sp. (紅尾剛果)",
+    "scientificName": "Phenacogrammus interruptus \"Red-tail\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【紅尾剛果】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3494,7 +3494,7 @@
   {
     "id": "AFR_CON_017",
     "commonName": "剛果鳳凰",
-    "scientificName": "Polypterus sp. (剛果鳳凰)",
+    "scientificName": "Phenacogrammus interruptus \"Phoenix\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【剛果鳳凰】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3533,7 +3533,7 @@
   {
     "id": "AFR_CON_018",
     "commonName": "紅肚鳳凰",
-    "scientificName": "Polypterus sp. (紅肚鳳凰)",
+    "scientificName": "Phenacogrammus interruptus \"Phoenix\" (red-belly)",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【紅肚鳳凰】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Rare",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3572,7 +3572,7 @@
   {
     "id": "AFR_CON_019",
     "commonName": "藍肚鳳凰",
-    "scientificName": "Polypterus sp. (藍肚鳳凰)",
+    "scientificName": "Phenacogrammus interruptus \"Phoenix\" (blue-belly)",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【藍肚鳳凰】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3611,7 +3611,7 @@
   {
     "id": "AFR_CON_020",
     "commonName": "黃金鳳凰",
-    "scientificName": "Polypterus sp. (黃金鳳凰)",
+    "scientificName": "Phenacogrammus aurantiacus \"Phoenix\"",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【黃金鳳凰】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Epic",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3649,7 +3649,7 @@
   {
     "id": "AFR_CON_021",
     "commonName": "七彩鳳凰",
-    "scientificName": "Polypterus sp. (七彩鳳凰)",
+    "scientificName": "Phenacogrammus interruptus \"Phoenix\" (rainbow)",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【七彩鳳凰】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3689,7 +3689,7 @@
   {
     "id": "AFR_CON_022",
     "commonName": "長吻象鼻魚",
-    "scientificName": "Polypterus sp. (長吻象鼻魚)",
+    "scientificName": "Mormyrus longirostris",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【長吻象鼻魚】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3728,7 +3728,7 @@
   {
     "id": "AFR_CON_023",
     "commonName": "短吻象鼻魚",
-    "scientificName": "Polypterus sp. (短吻象鼻魚)",
+    "scientificName": "Marcusenius sp.",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【短吻象鼻魚】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Legendary",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3767,7 +3767,7 @@
   {
     "id": "AFR_CON_024",
     "commonName": "斑馬象鼻魚",
-    "scientificName": "Polypterus sp. (斑馬象鼻魚)",
+    "scientificName": "Brienomyrus brachyistius",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【斑馬象鼻魚】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Epic",
     "category": "剛果與尼羅河古生代巨魚",
@@ -3806,7 +3806,7 @@
   {
     "id": "AFR_CON_025",
     "commonName": "非洲電鰻",
-    "scientificName": "Polypterus sp. (非洲電鰻)",
+    "scientificName": "Gymnarchus niloticus",
     "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【非洲電鰻】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
     "rarity": "Common",
     "category": "剛果與尼羅河古生代巨魚",

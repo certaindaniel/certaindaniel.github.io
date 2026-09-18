@@ -2367,7 +2367,7 @@
   {
     "id": "seasia_061",
     "commonName": "白化珍珠龍",
-    "scientificName": "Cyprinidae orientalis var. seasia_061",
+    "scientificName": "Scleropages jardinii \"Albino\"",
     "description": "東亞清溪與江戶水系培育的名門水族【白化珍珠龍】，體色溫潤、身姿曼妙。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
@@ -2404,7 +2404,7 @@
   {
     "id": "seasia_062",
     "commonName": "泰國鯽",
-    "scientificName": "Cyprinidae orientalis var. seasia_062",
+    "scientificName": "Barbonymus schwanenfeldii",
     "description": "東亞清溪與江戶水系培育的名門水族【泰國鯽】，體色溫潤、身姿曼妙。",
     "rarity": "Common",
     "category": "東南亞與湄公河原生溪流",
@@ -2441,7 +2441,7 @@
   {
     "id": "seasia_063",
     "commonName": "亞洲紅龍",
-    "scientificName": "Cyprinidae orientalis var. seasia_063",
+    "scientificName": "Scleropages formosus \"Red\"",
     "description": "東亞清溪與江戶水系培育的名門水族【亞洲紅龍】，體色溫潤、身姿曼妙。",
     "rarity": "Legendary",
     "category": "東南亞與湄公河原生溪流",
@@ -2478,7 +2478,7 @@
   {
     "id": "seasia_064",
     "commonName": "金龍",
-    "scientificName": "Cyprinidae orientalis var. seasia_064",
+    "scientificName": "Scleropages formosus \"Golden\"",
     "description": "東亞清溪與江戶水系培育的名門水族【金龍】，體色溫潤、身姿曼妙。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
@@ -2517,7 +2517,7 @@
   {
     "id": "seasia_065",
     "commonName": "青龍",
-    "scientificName": "Cyprinidae orientalis var. seasia_065",
+    "scientificName": "Scleropages formosus \"Green\"",
     "description": "東亞清溪與江戶水系培育的名門水族【青龍】，體色溫潤、身姿曼妙。",
     "rarity": "Rare",
     "category": "東南亞與湄公河原生溪流",
@@ -2556,7 +2556,7 @@
   {
     "id": "seasia_066",
     "commonName": "泰國鬥魚",
-    "scientificName": "Cyprinidae orientalis var. seasia_066",
+    "scientificName": "Betta splendens",
     "description": "東亞清溪與江戶水系培育的名門水族【泰國鬥魚】，體色溫潤、身姿曼妙。",
     "rarity": "Common",
     "category": "東南亞與湄公河原生溪流",
@@ -2595,7 +2595,7 @@
   {
     "id": "seasia_067",
     "commonName": "展鬥",
-    "scientificName": "Cyprinidae orientalis var. seasia_067",
+    "scientificName": "Betta splendens \"Show/Plakat\"",
     "description": "東亞清溪與江戶水系培育的名門水族【展鬥】，體色溫潤、身姿曼妙。",
     "rarity": "Epic",
     "category": "東南亞與湄公河原生溪流",
@@ -2634,7 +2634,7 @@
   {
     "id": "seasia_068",
     "commonName": "巨型蛇頭魚",
-    "scientificName": "Cyprinidae orientalis var. seasia_068",
+    "scientificName": "Channa micropeltes",
     "description": "東亞清溪與江戶水系培育的名門水族【巨型蛇頭魚】，體色溫潤、身姿曼妙。",
     "rarity": "Legendary",
     "category": "東南亞與湄公河原生溪流",
@@ -2673,7 +2673,7 @@
   {
     "id": "seasia_069",
     "commonName": "斑馬丹尼奧",
-    "scientificName": "Cyprinidae orientalis var. seasia_069",
+    "scientificName": "Danio rerio",
     "description": "東亞清溪與江戶水系培育的名門水族【斑馬丹尼奧】，體色溫潤、身姿曼妙。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
@@ -2713,7 +2713,7 @@
   {
     "id": "seasia_070",
     "commonName": "櫻桃燈",
-    "scientificName": "Cyprinidae orientalis var. seasia_070",
+    "scientificName": "Puntius titteya",
     "description": "東亞清溪與江戶水系培育的名門水族【櫻桃燈】，體色溫潤、身姿曼妙。",
     "rarity": "Legendary",
     "category": "東南亞與湄公河原生溪流",
@@ -2750,7 +2750,7 @@
   {
     "id": "seasia_071",
     "commonName": "泰國飛狐",
-    "scientificName": "Cyprinidae orientalis var. seasia_071",
+    "scientificName": "Crossocheilus oblongus",
     "description": "東亞清溪與江戶水系培育的名門水族【泰國飛狐】，體色溫潤、身姿曼妙。",
     "rarity": "Uncommon",
     "category": "東南亞與湄公河原生溪流",
@@ -2789,7 +2789,7 @@
   {
     "id": "seasia_072",
     "commonName": "一眉道人",
-    "scientificName": "Cyprinidae orientalis var. seasia_072",
+    "scientificName": "Sahyadria denisonii",
     "description": "東亞清溪與江戶水系培育的名門水族【一眉道人】，體色溫潤、身姿曼妙。",
     "rarity": "Epic",
     "category": "東南亞與湄公河原生溪流",
@@ -2828,7 +2828,7 @@
   {
     "id": "seasia_073",
     "commonName": "飛魚",
-    "scientificName": "Cyprinidae orientalis var. seasia_073",
+    "scientificName": "Esomus metallicus",
     "description": "東亞清溪與江戶水系培育的名門水族【飛魚】，體色溫潤、身姿曼妙。",
     "rarity": "Epic",
     "category": "東南亞與湄公河原生溪流",
@@ -2867,7 +2867,7 @@
   {
     "id": "seasia_074",
     "commonName": "玻璃貓",
-    "scientificName": "Cyprinidae orientalis var. seasia_074",
+    "scientificName": "Kryptopterus vitreolus",
     "description": "東亞清溪與江戶水系培育的名門水族【玻璃貓】，體色溫潤、身姿曼妙。",
     "rarity": "Common",
     "category": "東南亞與湄公河原生溪流",
@@ -2906,7 +2906,7 @@
   {
     "id": "seasia_075",
     "commonName": "珍珠馬甲",
-    "scientificName": "Cyprinidae orientalis var. seasia_075",
+    "scientificName": "Trichopodus leerii",
     "description": "東亞清溪與江戶水系培育的名門水族【珍珠馬甲】，體色溫潤、身姿曼妙。",
     "rarity": "Common",
     "category": "東南亞與湄公河原生溪流",
@@ -3380,7 +3380,7 @@
   {
     "id": "taiwan_087",
     "commonName": "蓋斑鬥魚",
-    "scientificName": "Cyprinidae orientalis var. taiwan_087",
+    "scientificName": "Macropodus opercularis",
     "description": "東亞清溪與江戶水系培育的名門水族【蓋斑鬥魚】，體色溫潤、身姿曼妙。",
     "rarity": "Rare",
     "category": "台灣與東亞高山清溪原生特有種",
@@ -3417,7 +3417,7 @@
   {
     "id": "taiwan_088",
     "commonName": "台灣間爬岩鰍",
-    "scientificName": "Cyprinidae orientalis var. taiwan_088",
+    "scientificName": "Hemimyzon formosanus",
     "description": "東亞清溪與江戶水系培育的名門水族【台灣間爬岩鰍】，體色溫潤、身姿曼妙。",
     "rarity": "Epic",
     "category": "台灣與東亞高山清溪原生特有種",
@@ -3457,7 +3457,7 @@
   {
     "id": "taiwan_089",
     "commonName": "苦花",
-    "scientificName": "Cyprinidae orientalis var. taiwan_089",
+    "scientificName": "Onychostoma barbatulum",
     "description": "東亞清溪與江戶水系培育的名門水族【苦花】，體色溫潤、身姿曼妙。",
     "rarity": "Rare",
     "category": "台灣與東亞高山清溪原生特有種",
@@ -3496,7 +3496,7 @@
   {
     "id": "taiwan_090",
     "commonName": "溪哥",
-    "scientificName": "Cyprinidae orientalis var. taiwan_090",
+    "scientificName": "Candidia barbata",
     "description": "東亞清溪與江戶水系培育的名門水族【溪哥】，體色溫潤、身姿曼妙。",
     "rarity": "Common",
     "category": "台灣與東亞高山清溪原生特有種",
@@ -3535,7 +3535,7 @@
   {
     "id": "taiwan_091",
     "commonName": "短吻鎌柄",
-    "scientificName": "Cyprinidae orientalis var. taiwan_091",
+    "scientificName": "Microphysogobio brevirostris",
     "description": "東亞清溪與江戶水系培育的名門水族【短吻鎌柄】，體色溫潤、身姿曼妙。",
     "rarity": "Uncommon",
     "category": "台灣與東亞高山清溪原生特有種",
@@ -3574,7 +3574,7 @@
   {
     "id": "taiwan_092",
     "commonName": "粗鱗鱲",
-    "scientificName": "Cyprinidae orientalis var. taiwan_092",
+    "scientificName": "Opsariichthys pachycephalus",
     "description": "東亞清溪與江戶水系培育的名門水族【粗鱗鱲】，體色溫潤、身姿曼妙。",
     "rarity": "Legendary",
     "category": "台灣與東亞高山清溪原生特有種",
@@ -3613,7 +3613,7 @@
   {
     "id": "taiwan_093",
     "commonName": "中華花鰍",
-    "scientificName": "Cyprinidae orientalis var. taiwan_093",
+    "scientificName": "Cobitis sinensis",
     "description": "東亞清溪與江戶水系培育的名門水族【中華花鰍】，體色溫潤、身姿曼妙。",
     "rarity": "Uncommon",
     "category": "台灣與東亞高山清溪原生特有種",
@@ -3652,7 +3652,7 @@
   {
     "id": "taiwan_094",
     "commonName": "泥鰍",
-    "scientificName": "Cyprinidae orientalis var. taiwan_094",
+    "scientificName": "Misgurnus anguillicaudatus",
     "description": "東亞清溪與江戶水系培育的名門水族【泥鰍】，體色溫潤、身姿曼妙。",
     "rarity": "Legendary",
     "category": "台灣與東亞高山清溪原生特有種",
@@ -3691,7 +3691,7 @@
   {
     "id": "taiwan_095",
     "commonName": "鱸鰻",
-    "scientificName": "Cyprinidae orientalis var. taiwan_095",
+    "scientificName": "Anguilla marmorata",
     "description": "東亞清溪與江戶水系培育的名門水族【鱸鰻】，體色溫潤、身姿曼妙。",
     "rarity": "Legendary",
     "category": "台灣與東亞高山清溪原生特有種",
@@ -3728,7 +3728,7 @@
   {
     "id": "taiwan_096",
     "commonName": "台灣石鱋",
-    "scientificName": "Cyprinidae orientalis var. taiwan_096",
+    "scientificName": "Acrossocheilus paradoxus",
     "description": "東亞清溪與江戶水系培育的名門水族【台灣石鱋】，體色溫潤、身姿曼妙。",
     "rarity": "Legendary",
     "category": "台灣與東亞高山清溪原生特有種",
@@ -3767,7 +3767,7 @@
   {
     "id": "taiwan_097",
     "commonName": "條紋二鬚䰾",
-    "scientificName": "Cyprinidae orientalis var. taiwan_097",
+    "scientificName": "Barbodes semifasciolatus",
     "description": "東亞清溪與江戶水系培育的名門水族【條紋二鬚䰾】，體色溫潤、身姿曼妙。",
     "rarity": "Uncommon",
     "category": "台灣與東亞高山清溪原生特有種",
@@ -3807,7 +3807,7 @@
   {
     "id": "taiwan_098",
     "commonName": "菊池氏細鯽",
-    "scientificName": "Cyprinidae orientalis var. taiwan_098",
+    "scientificName": "Aphyocypris kikuchii",
     "description": "東亞清溪與江戶水系培育的名門水族【菊池氏細鯽】，體色溫潤、身姿曼妙。",
     "rarity": "Epic",
     "category": "台灣與東亞高山清溪原生特有種",
@@ -3846,7 +3846,7 @@
   {
     "id": "taiwan_099",
     "commonName": "圓吻鯝",
-    "scientificName": "Cyprinidae orientalis var. taiwan_099",
+    "scientificName": "Distoechodon tumirostris",
     "description": "東亞清溪與江戶水系培育的名門水族【圓吻鯝】，體色溫潤、身姿曼妙。",
     "rarity": "Epic",
     "category": "台灣與東亞高山清溪原生特有種",
@@ -3885,7 +3885,7 @@
   {
     "id": "taiwan_100",
     "commonName": "台東間爬岩鰍",
-    "scientificName": "Cyprinidae orientalis var. taiwan_100",
+    "scientificName": "Hemimyzon taitungensis",
     "description": "東亞清溪與江戶水系培育的名門水族【台東間爬岩鰍】，體色溫潤、身姿曼妙。",
     "rarity": "Legendary",
     "category": "台灣與東亞高山清溪原生特有種",

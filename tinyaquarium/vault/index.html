@@ -205,18 +205,18 @@
                         </div>
 
                         <!-- Floating Companion Pill: Interactive Widget -->
-                        <div class="absolute -bottom-6 -left-6 sm:-left-10 glass-panel p-4 rounded-3xl border border-cyan-400/30 shadow-2xl flex items-center space-x-3.5 backdrop-blur-xl animate-bounce" style="animation-duration: 6s;">
-                            <div class="w-12 h-12 rounded-2xl bg-midnightNavy border border-cyan-500/40 flex items-center justify-center text-2xl shadow-inner">
+                        <div class="absolute -bottom-6 left-0 sm:-left-10 max-w-full glass-panel p-4 rounded-3xl border border-cyan-400/30 shadow-2xl flex items-center space-x-3.5 backdrop-blur-xl animate-bounce" style="animation-duration: 6s;">
+                            <div class="w-12 h-12 shrink-0 rounded-2xl bg-midnightNavy border border-cyan-500/40 flex items-center justify-center text-2xl shadow-inner">
                                 📱
                             </div>
-                            <div>
+                            <div class="min-w-0">
                                 <div class="text-xs font-bold text-cyan-300" data-i18n="hero_widget">iOS 17+ 互動小組件</div>
                                 <div class="text-[12px] text-slate-300" data-i18n="hero_widget_sub">桌面一鍵投餵・鎖定畫面步數</div>
                             </div>
                         </div>
 
                         <!-- Floating Companion Pill: Heart Energy -->
-                        <div class="absolute -top-10 -right-6 sm:-right-8 glass-panel p-3.5 rounded-2xl border border-rose-400/30 shadow-xl flex items-center space-x-3">
+                        <div class="absolute -top-10 right-0 sm:-right-8 max-w-full glass-panel p-3.5 rounded-2xl border border-rose-400/30 shadow-xl flex items-center space-x-3">
                             <span class="text-2xl animate-pulse">❤️</span>
                             <div>
                                 <div class="text-xs font-bold text-rose-300" data-i18n="hero_pet">摸摸 360° 翻滾</div>
@@ -2034,6 +2034,1082 @@
             '水族': 'Aquatic Species'
         };
 
+
+        // ── App 同步新增：专属原型 SVG（對應 FishSpriteArchetype 新增 case）──
+        function _svgHead(size) { return `<svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">`; }
+        function _fishColors(fish) {
+            const bp = fish.visualBlueprint || {};
+            return { p: bp.primaryColor || '#00F0FF', s: bp.secondaryColor || '#0E7490', a: bp.accentColor || '#FACC15' };
+        }
+        function _grad(id, c1, c2) {
+            return `<defs><linearGradient id="${id}" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="${c1}"/><stop offset="100%" stop-color="${c2}"/></linearGradient></defs>`;
+        }
+
+        function generateSquidSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'sq_' + (fish.id || 's').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M24 6 C18 8 15 14 16 20 C17 25 20 27 24 27 C28 27 31 25 32 20 C33 14 30 8 24 6 Z" fill="url(#${g})" opacity="0.95"/>
+                <path d="M17 8 C13 4 11 6 12 11 C13 15 16 16 18 14 Z" fill="${s}" opacity="0.85"/>
+                <path d="M31 8 C35 4 37 6 36 11 C35 15 32 16 30 14 Z" fill="${s}" opacity="0.85"/>
+                <circle cx="20" cy="17" r="2.6" fill="#0B131E"/><circle cx="28" cy="17" r="2.6" fill="#0B131E"/>
+                <circle cx="20.8" cy="16.2" r="0.9" fill="${a}"/><circle cx="28.8" cy="16.2" r="0.9" fill="${a}"/>
+                <path d="M18 27 C16 33 15 38 17 43" stroke="${p}" stroke-width="1.7" fill="none" stroke-linecap="round"/>
+                <path d="M21 27 C20 34 19 39 21 44" stroke="${p}" stroke-width="1.7" fill="none" stroke-linecap="round"/>
+                <path d="M27 27 C28 34 29 39 27 44" stroke="${p}" stroke-width="1.7" fill="none" stroke-linecap="round"/>
+                <path d="M30 27 C32 33 33 38 31 43" stroke="${p}" stroke-width="1.7" fill="none" stroke-linecap="round"/>
+                <path d="M24 27 C24 34 23 40 24 45" stroke="${a}" stroke-width="1.4" fill="none" stroke-linecap="round" opacity="0.8"/>
+                <circle cx="21.5" cy="33" r="0.7" fill="${a}"/><circle cx="26.5" cy="35" r="0.7" fill="${a}"/><circle cx="23" cy="39" r="0.7" fill="${a}"/>
+            </svg>`;
+        }
+
+        function generateRaySvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'ry_' + (fish.id || 'r').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M24 10 C13 12 5 20 4 28 C10 26 16 25 21 26 L23 34 C23.5 39 24.5 39 25 34 L27 26 C32 25 38 26 44 28 C43 20 35 12 24 10 Z" fill="url(#${g})"/>
+                <path d="M20 15 C18 18 18 21 20 23 M28 15 C30 18 30 21 28 23" stroke="${a}" stroke-width="0.9" fill="none" opacity="0.55"/>
+                <circle cx="20" cy="17" r="1.5" fill="#0B131E"/><circle cx="28" cy="17" r="1.5" fill="#0B131E"/>
+                <path d="M22 13 Q24 11.5 26 13" stroke="#0B131E" stroke-width="0.8" fill="none"/>
+                <path d="M24 34 C24 38 23 42 24 46" stroke="${s}" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+                <circle cx="14" cy="22" r="1" fill="${a}" opacity="0.8"/><circle cx="34" cy="22" r="1" fill="${a}" opacity="0.8"/>
+                <circle cx="18" cy="24" r="0.8" fill="${a}" opacity="0.7"/><circle cx="30" cy="24" r="0.8" fill="${a}" opacity="0.7"/>
+            </svg>`;
+        }
+
+        function generateSharkSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'sk_' + (fish.id || 'k').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M4 26 C10 18 20 15 30 16 C37 17 42 20 45 24 C42 28 36 31 29 32 C20 33 10 31 4 26 Z" fill="url(#${g})"/>
+                <path d="M22 16 L25 5 L29 16 Z" fill="${s}"/>
+                <path d="M14 29 L11 37 L19 31 Z" fill="${s}" opacity="0.9"/>
+                <path d="M44 24 L38 17 L37 22 L33 24 L37 26 L38 31 Z" fill="${s}"/>
+                <path d="M30 26 L44 24" stroke="${s}" stroke-width="0.8" opacity="0.6"/>
+                <path d="M36 27 C40 28 42 27 44 25" stroke="#0B131E" stroke-width="1" fill="none"/>
+                <circle cx="38" cy="21" r="1.7" fill="#0B131E"/><circle cx="38.6" cy="20.4" r="0.6" fill="${a}"/>
+                <path d="M31 20 L33 19 M31.5 22 L33.5 21.5 M32 24 L34 24" stroke="#0B131E" stroke-width="0.7" opacity="0.7"/>
+                <path d="M16 18 C22 16 28 16 33 18" stroke="${a}" stroke-width="0.9" fill="none" opacity="0.45"/>
+            </svg>`;
+        }
+
+        function generateEarlyWhaleSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'ew_' + (fish.id || 'w').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M5 28 C12 20 24 17 34 19 C40 20 44 23 46 26 C42 29 34 31 26 31 C17 31 10 30 5 28 Z" fill="url(#${g})"/>
+                <path d="M8 27 L4 33 L13 30 Z" fill="${s}" opacity="0.9"/>
+                <path d="M20 29 L18 36 L26 31 Z" fill="${s}" opacity="0.85"/>
+                <path d="M44 22 C46 19 47 20 46 23 L44 26 Z" fill="${s}"/>
+                <circle cx="40" cy="23" r="1.6" fill="#0B131E"/><circle cx="40.5" cy="22.5" r="0.6" fill="${a}"/>
+                <path d="M12 24 C20 21 30 20 38 22" stroke="${a}" stroke-width="0.8" fill="none" opacity="0.4"/>
+            </svg>`;
+        }
+
+        function generatePufferSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'pf_' + (fish.id || 'p').replace(/[^a-zA-Z0-9]/g, '_');
+            const isBox = ['boxfish'].includes(resolveFishArchetype(fish));
+            const body = isBox
+                ? `<rect x="12" y="14" width="24" height="20" rx="5" fill="url(#${g})"/>`
+                : `<ellipse cx="24" cy="24" rx="14" ry="12" fill="url(#${g})"/>`;
+            const spikes = isBox ? '' : Array.from({length: 10}, (_, i) => {
+                const ang = (i / 10) * Math.PI * 2;
+                const x1 = 24 + Math.cos(ang) * 13.5, y1 = 24 + Math.sin(ang) * 11.5;
+                const x2 = 24 + Math.cos(ang) * 16.5, y2 = 24 + Math.sin(ang) * 14.5;
+                return `<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" stroke="${s}" stroke-width="1.2" stroke-linecap="round"/>`;
+            }).join('');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                ${spikes}${body}
+                <path d="M36 18 L43 14 L41 24 Z" fill="${s}" opacity="0.9"/>
+                <path d="M36 30 L43 34 L41 25 Z" fill="${s}" opacity="0.9"/>
+                <circle cx="30" cy="20" r="3" fill="#FFFFFF"/><circle cx="31" cy="20" r="1.7" fill="#0B131E"/>
+                <path d="M33 27 Q35 29 33 30" stroke="#0B131E" stroke-width="1" fill="none"/>
+                <path d="M14 20 Q12 24 14 28" stroke="${a}" stroke-width="1" fill="none" opacity="0.7"/>
+                ${isBox ? `<path d="M12 18 L36 18 M12 30 L36 30" stroke="${a}" stroke-width="0.6" opacity="0.4"/>` : `<circle cx="18" cy="24" r="1" fill="${a}" opacity="0.7"/><circle cx="22" cy="28" r="1" fill="${a}" opacity="0.7"/>`}
+            </svg>`;
+        }
+
+        function generateSnailSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'sn_' + (fish.id || 'n').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M10 38 C10 33 14 31 20 31 C26 31 30 33 34 34 C38 35 40 36 40 38 C40 40 36 40 30 40 L12 40 C10 40 10 39 10 38 Z" fill="${s}"/>
+                <path d="M14 31 C12 22 18 13 27 12 C35 11 40 17 39 24 C38 30 33 33 27 33 C22 33 18 33 14 31 Z" fill="url(#${g})"/>
+                <path d="M27 15 C32 15 36 19 35 23 C34 27 30 29 27 28 C24 27 23 24 25 22 C26 20.5 28 20.5 29 21.5" stroke="${a}" stroke-width="1.1" fill="none" opacity="0.8"/>
+                <path d="M12 34 L9 28 M14 33 L13 27" stroke="${s}" stroke-width="1.2" stroke-linecap="round"/>
+                <circle cx="9" cy="27" r="1.1" fill="#0B131E"/><circle cx="13" cy="26" r="1.1" fill="#0B131E"/>
+            </svg>`;
+        }
+
+        function generateTubeWormSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'tw_' + (fish.id || 't').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M20 44 C20 36 21 30 23 26 L25 26 C27 30 28 36 28 44 Z" fill="${s}"/>
+                <path d="M24 26 C18 20 14 12 16 6 C19 9 22 14 24 20 C26 14 29 9 32 6 C34 12 30 20 24 26 Z" fill="url(#${g})"/>
+                <path d="M24 24 C21 18 20 12 21 8 M24 24 C27 18 28 12 27 8" stroke="${a}" stroke-width="0.8" fill="none" opacity="0.7"/>
+                <circle cx="17" cy="8" r="1.2" fill="${a}"/><circle cx="31" cy="8" r="1.2" fill="${a}"/>
+                <circle cx="21" cy="7" r="1" fill="${a}" opacity="0.8"/><circle cx="27" cy="7" r="1" fill="${a}" opacity="0.8"/>
+            </svg>`;
+        }
+
+        function generateWormSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'wm_' + (fish.id || 'w').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M10 40 C14 34 10 28 16 24 C22 20 18 14 24 10 C28 8 32 9 34 12" stroke="url(#${g})" stroke-width="6" fill="none" stroke-linecap="round"/>
+                <path d="M10 40 C14 34 10 28 16 24 C22 20 18 14 24 10 C28 8 32 9 34 12" stroke="${a}" stroke-width="1.4" fill="none" stroke-linecap="round" opacity="0.5" stroke-dasharray="1.5 3"/>
+                <circle cx="35" cy="12" r="3.4" fill="${s}"/>
+                <circle cx="36" cy="11" r="1" fill="#0B131E"/>
+                <path d="M33 9 L31 6 M37 9 L38 6" stroke="${s}" stroke-width="0.9" stroke-linecap="round"/>
+            </svg>`;
+        }
+
+        function generateSeaSpiderSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'sp_' + (fish.id || 'p').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <ellipse cx="24" cy="24" rx="8" ry="6" fill="url(#${g})"/>
+                <path d="M17 21 L7 14 M16 25 L5 24 M17 28 L8 34 M31 21 L41 14 M32 25 L43 24 M31 28 L40 34" stroke="${s}" stroke-width="1.6" stroke-linecap="round"/>
+                <path d="M20 20 L15 12 M28 20 L33 12" stroke="${s}" stroke-width="1.3" stroke-linecap="round" opacity="0.8"/>
+                <circle cx="24" cy="21" r="1.6" fill="#0B131E"/>
+                <path d="M22 27 Q24 29 26 27" stroke="#0B131E" stroke-width="0.8" fill="none"/>
+            </svg>`;
+        }
+
+        function generateIsopodSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'is_' + (fish.id || 'i').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <ellipse cx="24" cy="24" rx="13" ry="9" fill="url(#${g})"/>
+                <path d="M13 21 C18 19 30 19 35 21 M12 24 C18 22.5 30 22.5 36 24 M13 27 C18 26 30 26 35 27" stroke="${s}" stroke-width="1" fill="none" opacity="0.8"/>
+                <path d="M14 17 L10 12 M18 15.5 L16 10 M34 17 L38 12 M30 15.5 L32 10" stroke="${s}" stroke-width="1.1" stroke-linecap="round"/>
+                <path d="M15 31 L12 36 M20 33 L19 38 M28 33 L29 38 M33 31 L36 36" stroke="${s}" stroke-width="1.1" stroke-linecap="round"/>
+                <circle cx="18" cy="22" r="1.4" fill="#0B131E"/><circle cx="30" cy="22" r="1.4" fill="#0B131E"/>
+                <path d="M11 24 L7 22 M11 25 L7 27" stroke="${a}" stroke-width="0.9" stroke-linecap="round"/>
+            </svg>`;
+        }
+
+        function generateAnemoneSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'an_' + (fish.id || 'a').replace(/[^a-zA-Z0-9]/g, '_');
+            const tent = Array.from({length: 11}, (_, i) => {
+                const x = 8 + i * 3.2;
+                const sway = Math.sin(i * 1.3) * 2.5;
+                return `<path d="M${x.toFixed(1)} 38 C${(x + sway).toFixed(1)} 30 ${(x + sway * 1.6).toFixed(1)} 24 ${(x + sway * 1.2).toFixed(1)} 16" stroke="url(#${g})" stroke-width="2.2" fill="none" stroke-linecap="round"/><circle cx="${(x + sway * 1.2).toFixed(1)}" cy="15" r="1.3" fill="${a}"/>`;
+            }).join('');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                ${tent}
+                <ellipse cx="24" cy="40" rx="14" ry="4" fill="${s}"/>
+                <ellipse cx="24" cy="38" rx="6" ry="2" fill="${a}" opacity="0.7"/>
+            </svg>`;
+        }
+
+        function generateCrinoidSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'cr_' + (fish.id || 'c').replace(/[^a-zA-Z0-9]/g, '_');
+            const arms = Array.from({length: 9}, (_, i) => {
+                const t = (i / 8 - 0.5) * 2;
+                const ex = 24 + t * 17, ey = 10 + Math.abs(t) * 6;
+                return `<path d="M24 34 C${(24 + t * 8).toFixed(1)} 26 ${(24 + t * 14).toFixed(1)} 18 ${ex.toFixed(1)} ${ey.toFixed(1)}" stroke="url(#${g})" stroke-width="1.8" fill="none" stroke-linecap="round"/>`;
+            }).join('');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                ${arms}
+                <path d="M20 34 C20 40 22 44 24 46 C26 44 28 40 28 34 Z" fill="${s}"/>
+                <ellipse cx="24" cy="33" rx="5" ry="3" fill="url(#${g})"/>
+                <circle cx="24" cy="32" r="1.2" fill="${a}"/>
+            </svg>`;
+        }
+
+        function generateSeaCucumberSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'sc_' + (fish.id || 'c').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M8 32 C8 22 14 16 24 16 C34 16 40 22 40 30 C40 36 34 40 24 40 C14 40 8 38 8 32 Z" fill="url(#${g})"/>
+                <path d="M12 26 C18 24 30 24 36 26 M11 32 C18 30 30 30 37 32" stroke="${s}" stroke-width="0.9" fill="none" opacity="0.7"/>
+                <path d="M20 16 C19 12 20 10 22 9 M24 15.5 C24 11 25 9 27 8 M28 16 C29 12 31 11 33 10" stroke="${s}" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                <circle cx="34" cy="26" r="1.4" fill="#0B131E"/>
+                <path d="M30 34 Q33 36 36 34" stroke="#0B131E" stroke-width="0.9" fill="none"/>
+                <circle cx="16" cy="30" r="0.9" fill="${a}" opacity="0.7"/><circle cx="22" cy="34" r="0.9" fill="${a}" opacity="0.7"/>
+            </svg>`;
+        }
+
+        function generateSeaUrchinSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'ur_' + (fish.id || 'u').replace(/[^a-zA-Z0-9]/g, '_');
+            const spines = Array.from({length: 18}, (_, i) => {
+                const ang = (i / 18) * Math.PI * 2;
+                const x1 = 24 + Math.cos(ang) * 8, y1 = 24 + Math.sin(ang) * 8;
+                const x2 = 24 + Math.cos(ang) * 16, y2 = 24 + Math.sin(ang) * 16;
+                return `<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" stroke="${p}" stroke-width="1.1" stroke-linecap="round"/>`;
+            }).join('');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                ${spines}
+                <circle cx="24" cy="24" r="8.5" fill="url(#${g})"/>
+                <circle cx="21" cy="22" r="1" fill="${a}" opacity="0.8"/><circle cx="27" cy="23" r="1" fill="${a}" opacity="0.8"/><circle cx="24" cy="27" r="1" fill="${a}" opacity="0.8"/>
+            </svg>`;
+        }
+
+        function generateBrittleStarSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'bs_' + (fish.id || 'b').replace(/[^a-zA-Z0-9]/g, '_');
+            const arms = Array.from({length: 5}, (_, i) => {
+                const ang = (i / 5) * Math.PI * 2 - Math.PI / 2;
+                const mx = 24 + Math.cos(ang) * 11, my = 24 + Math.sin(ang) * 11;
+                const ex = 24 + Math.cos(ang + 0.5) * 19, ey = 24 + Math.sin(ang + 0.5) * 19;
+                return `<path d="M24 24 C${mx.toFixed(1)} ${my.toFixed(1)} ${(ex*0.9).toFixed(1)} ${(ey*0.9).toFixed(1)} ${ex.toFixed(1)} ${ey.toFixed(1)}" stroke="url(#${g})" stroke-width="2.4" fill="none" stroke-linecap="round"/>`;
+            }).join('');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                ${arms}
+                <polygon points="24,18 29.5,22 27.5,28 20.5,28 18.5,22" fill="url(#${g})"/>
+                <circle cx="24" cy="24" r="1.4" fill="${a}"/>
+            </svg>`;
+        }
+
+        function generateSpongeSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'sg_' + (fish.id || 'g').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M14 44 C12 32 13 22 17 12 C19 8 22 8 23 13 C24 20 23 32 22 44 Z" fill="url(#${g})"/>
+                <path d="M26 44 C27 34 29 24 32 16 C34 12 37 13 37 18 C36 28 33 36 33 44 Z" fill="url(#${g})" opacity="0.9"/>
+                <ellipse cx="20" cy="11" rx="3.4" ry="2" fill="${s}"/><ellipse cx="34.5" cy="15" rx="3" ry="1.8" fill="${s}"/>
+                <path d="M16 24 L21 24 M16 32 L21 32 M28 28 L32 28 M28 36 L32 36" stroke="${a}" stroke-width="0.8" opacity="0.5"/>
+                <ellipse cx="23" cy="44" rx="12" ry="2.4" fill="${s}" opacity="0.8"/>
+            </svg>`;
+        }
+
+        function generateBarnacleSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'bn_' + (fish.id || 'b').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M12 42 C12 30 16 20 24 14 C32 20 36 30 36 42 Z" fill="url(#${g})"/>
+                <path d="M16 38 C16 29 19 22 24 18 C29 22 32 29 32 38 Z" fill="${s}" opacity="0.7"/>
+                <path d="M20 15 C22 10 26 10 28 15 L27 20 C25.5 18 22.5 18 21 20 Z" fill="${a}" opacity="0.9"/>
+                <path d="M14 34 L34 34 M15 28 L33 28 M17 22 L31 22" stroke="${a}" stroke-width="0.6" opacity="0.4"/>
+                <ellipse cx="24" cy="42" rx="13" ry="2.6" fill="${s}"/>
+            </svg>`;
+        }
+
+        function generateGobySvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'gb_' + (fish.id || 'g').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M6 30 C10 24 18 21 27 22 C34 23 39 26 42 30 C39 33 33 35 26 35 C17 35 10 33 6 30 Z" fill="url(#${g})"/>
+                <path d="M16 22 L19 14 L24 22 Z" fill="${s}"/>
+                <path d="M22 24 L26 15 L29 23 Z" fill="${s}" opacity="0.85"/>
+                <path d="M41 30 L46 26 L45 33 Z" fill="${s}"/>
+                <path d="M12 33 C14 37 18 37 20 34" stroke="${s}" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+                <circle cx="35" cy="27" r="2" fill="#FFFFFF"/><circle cx="35.7" cy="27" r="1.1" fill="#0B131E"/>
+                <circle cx="18" cy="27" r="1" fill="${a}" opacity="0.8"/><circle cx="24" cy="29" r="1" fill="${a}" opacity="0.8"/><circle cx="30" cy="28" r="0.9" fill="${a}" opacity="0.7"/>
+            </svg>`;
+        }
+
+        function generateFlatfishSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'fl_' + (fish.id || 'f').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <ellipse cx="24" cy="27" rx="17" ry="10" fill="url(#${g})"/>
+                <path d="M7 27 C14 20 34 20 41 27" stroke="${s}" stroke-width="0.9" fill="none" opacity="0.6"/>
+                <circle cx="29" cy="23" r="1.8" fill="#0B131E"/><circle cx="34" cy="24" r="1.8" fill="#0B131E"/>
+                <path d="M30 28 Q32 29.5 34 28" stroke="#0B131E" stroke-width="0.8" fill="none"/>
+                ${Array.from({length: 6}, (_, i) => `<circle cx="${(12 + i * 5).toFixed(1)}" cy="${(26 + (i % 2) * 4).toFixed(1)}" r="1.1" fill="${a}" opacity="0.6"/>`).join('')}
+            </svg>`;
+        }
+
+        function generateCephalopodShellSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'cs_' + (fish.id || 'c').replace(/[^a-zA-Z0-9]/g, '_');
+            const isAmmonite = resolveFishArchetype(fish) === 'ammonite';
+            const shell = isAmmonite
+                ? `<path d="M24 24 C24 18 30 15 34 18 C38 21 37 28 32 30 C26 32 21 28 21 22 C21 14 28 10 35 12" stroke="url(#${g})" stroke-width="5" fill="none" stroke-linecap="round"/>
+                   <path d="M24 24 C24 18 30 15 34 18" stroke="${a}" stroke-width="1" fill="none" opacity="0.7"/>
+                   ${Array.from({length: 6}, (_, i) => { const t = i * 0.9; const x = 24 + Math.cos(t) * (3 + t * 1.8), y = 24 + Math.sin(t) * (3 + t * 1.8); return `<line x1="${x.toFixed(1)}" y1="${y.toFixed(1)}" x2="${(x + Math.cos(t + 1.2) * 3).toFixed(1)}" y2="${(y + Math.sin(t + 1.2) * 3).toFixed(1)}" stroke="${a}" stroke-width="0.7" opacity="0.6"/>`; }).join('')}`
+                : `<path d="M14 40 L30 10 L34 12 L18 42 Z" fill="url(#${g})"/>
+                   <path d="M16 36 L32 8 M18 38 L34 10" stroke="${a}" stroke-width="0.7" opacity="0.5"/>
+                   <path d="M17 34 L31 34 M19 29 L32.5 29 M21 24 L33.5 24 M23 19 L34.5 19" stroke="${a}" stroke-width="0.6" opacity="0.45"/>
+                   <circle cx="31" cy="11" r="2.4" fill="${s}"/>`;
+            return `${_svgHead(size)}${_grad(g, p, s)}${shell}`;
+        }
+
+        function generatePaleozoicArthropodSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'pa_' + (fish.id || 'a').replace(/[^a-zA-Z0-9]/g, '_');
+            const arch = resolveFishArchetype(fish);
+            if (arch === 'opabinia') {
+                return `${_svgHead(size)}${_grad(g, p, s)}
+                    <path d="M8 28 C14 22 26 20 36 24 C40 26 42 28 42 30 C36 33 24 34 14 32 C10 31 8 30 8 28 Z" fill="url(#${g})"/>
+                    <path d="M40 27 C44 24 46 26 45 29 C44 31 41 31 40 29" stroke="${s}" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+                    <circle cx="34" cy="25" r="2.2" fill="#FFFFFF"/><circle cx="34.8" cy="25" r="1.2" fill="#0B131E"/>
+                    <circle cx="28" cy="24" r="1.6" fill="#FFFFFF"/><circle cx="22" cy="24" r="1.6" fill="#FFFFFF"/>
+                    ${Array.from({length: 7}, (_, i) => `<path d="M${(14 + i * 3.6).toFixed(1)} 31 C${(13 + i * 3.6).toFixed(1)} 34 ${(12 + i * 3.6).toFixed(1)} 35 ${(11 + i * 3.6).toFixed(1)} 35" stroke="${s}" stroke-width="1" fill="none" stroke-linecap="round"/>`).join('')}
+                    <path d="M10 27 L6 24 M10 29 L6 30" stroke="${s}" stroke-width="0.9" stroke-linecap="round"/>
+                </svg>`;
+            }
+            if (arch === 'hallucigenia') {
+                return `${_svgHead(size)}${_grad(g, p, s)}
+                    <path d="M8 30 C16 24 30 22 40 26" stroke="url(#${g})" stroke-width="6" fill="none" stroke-linecap="round"/>
+                    ${Array.from({length: 7}, (_, i) => `<path d="M${(11 + i * 4.4).toFixed(1)} 27 L${(9 + i * 4.4).toFixed(1)} 18" stroke="${s}" stroke-width="1.2" stroke-linecap="round"/>`).join('')}
+                    ${Array.from({length: 6}, (_, i) => `<path d="M${(13 + i * 4.6).toFixed(1)} 32 L${(12 + i * 4.6).toFixed(1)} 39" stroke="${s}" stroke-width="1.3" stroke-linecap="round"/>`).join('')}
+                    <circle cx="41" cy="26" r="2.6" fill="${s}"/><circle cx="42" cy="25" r="1" fill="#0B131E"/>
+                    <path d="M42 23 C45 20 46 21 45 23" stroke="${s}" stroke-width="1" fill="none"/>
+                </svg>`;
+            }
+            if (arch === 'eurypterid') {
+                return `${_svgHead(size)}${_grad(g, p, s)}
+                    <path d="M14 24 C18 18 30 18 34 24 C36 28 34 32 30 33 C24 34 18 32 15 29 C13.5 27.5 13.5 25.5 14 24 Z" fill="url(#${g})"/>
+                    <path d="M30 33 C34 36 38 38 42 38 C40 34 36 32 33 31" fill="${s}"/>
+                    <path d="M33 38 C36 41 39 43 42 44 C41 40 39 38 36 36" fill="${s}" opacity="0.85"/>
+                    <path d="M16 22 L10 16 M18 20 L14 12 M22 19 L21 11" stroke="${s}" stroke-width="1.2" stroke-linecap="round"/>
+                    <path d="M16 30 L11 34 M19 32 L16 38" stroke="${s}" stroke-width="1.2" stroke-linecap="round"/>
+                    <circle cx="22" cy="24" r="1.6" fill="#0B131E"/><circle cx="27" cy="24" r="1.6" fill="#0B131E"/>
+                    <path d="M17 26 C22 24 28 24 32 26" stroke="${a}" stroke-width="0.8" fill="none" opacity="0.5"/>
+                </svg>`;
+            }
+            // trilobite / arthropod default
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <ellipse cx="24" cy="25" rx="12" ry="14" fill="url(#${g})"/>
+                <path d="M14 18 C18 12 30 12 34 18 C30 20 18 20 14 18 Z" fill="${s}"/>
+                <path d="M13 22 C18 20 30 20 35 22 M12 27 C18 25 30 25 36 27 M13 32 C18 30 30 30 35 32 M15 36 C20 34.5 28 34.5 33 36" stroke="${s}" stroke-width="0.9" fill="none" opacity="0.8"/>
+                <path d="M24 12 L24 39" stroke="${s}" stroke-width="1" opacity="0.7"/>
+                <circle cx="19" cy="16" r="1.4" fill="#0B131E"/><circle cx="29" cy="16" r="1.4" fill="#0B131E"/>
+                <path d="M17 12 L13 7 M31 12 L35 7" stroke="${s}" stroke-width="1" stroke-linecap="round"/>
+            </svg>`;
+        }
+
+
+        // ═══════════════════════════════════════════════════════════════════
+        // App 端 FishSpecies.spriteArchetype 的 1:1 移植（單一真實來源）。
+        // 來源：TinyAquarium Shared/Models/FishSpecies.swift
+        //   1. reviewedSpriteArchetypes 人工複核覆寫表（264 筆，由 archetypes.tsv source=reviewed 生成）
+        //   2. 同序關鍵字鏈（lowerId 用 fish.id、commonName 用繁中名）
+        // 兩邊任何一側改動後必須重新同步此表。
+        // ═══════════════════════════════════════════════════════════════════
+        const REVIEWED_SPRITE_ARCHETYPES = {
+                // puffer
+                "puffer_souffle": "puffer",  // 舒芙蕾小河豚
+                "seasia_052": "puffer",  // 皇冠狗頭
+                "VOL02_084": "puffer",  // 皇冠狗頭
+                "VOL02_095": "puffer",  // 斑馬狗頭
+                "TA-4062": "puffer",  // 巨型刺魨
+                "TA-4073": "puffer",  // 網紋魨
+                "TA-4074": "puffer",  // 珍珠狗頭
+                "TA-4075": "puffer",  // 地圖狗頭
+                "fish_1012": "puffer",  // 復活節彩蛋豚
+                "fish_1026": "puffer",  // 舒芙蕾膨膨豚
+                "fish_1068": "puffer",  // 微笑刺魨
+
+                // catfishPleco
+                "ghost_glasscat": "catfishPleco",  // 幽靈水晶玻璃貓
+                "asian_bumblebee_catfish": "catfishPleco",  // 亞洲大黃蜂短鯰
+                "redtail_catfish": "catfishPleco",  // 亞馬遜紅尾鴨嘴鯰
+                "seasia_074": "catfishPleco",  // 玻璃貓
+                "VOL02_001": "catfishPleco",  // L046帝王斑馬
+                "VOL02_004": "catfishPleco",  // L200黃金高帆
+                "VOL02_005": "catfishPleco",  // L024紅鰭坦克
+                "VOL02_006": "catfishPleco",  // L114紅尾坦克
+                "VOL02_007": "catfishPleco",  // L081金點
+                "VOL02_008": "catfishPleco",  // L260黑白迷宮
+                "VOL02_009": "catfishPleco",  // L095噴點
+                "VOL02_010": "catfishPleco",  // L333黃金帝王迷宮
+                "VOL02_011": "catfishPleco",  // L014金線雪球
+                "VOL02_012": "catfishPleco",  // L025噴點紅劍尾
+                "VOL02_013": "catfishPleco",  // L066國王迷宮
+                "VOL02_014": "catfishPleco",  // L128紫藍綠
+                "VOL02_015": "catfishPleco",  // L134黃金斑馬
+                "VOL02_017": "catfishPleco",  // L239藍絲絨
+                "VOL02_018": "catfishPleco",  // L240黑白雙星
+                "VOL02_021": "catfishPleco",  // L091紫羅蘭
+                "VOL02_022": "catfishPleco",  // L201大雪球
+                "VOL02_023": "catfishPleco",  // L340紅尾迷宮
+                "VOL02_024": "catfishPleco",  // L471迷你迷宮
+                "VOL02_025": "catfishPleco",  // L129巧克力斑馬
+                "VOL02_032": "catfishPleco",  // 紅尾鴨嘴
+                "VOL02_034": "catfishPleco",  // 虎皮鴨嘴
+                "VOL02_046": "catfishPleco",  // 撒旦鴨嘴
+                "VOL02_049": "catfishPleco",  // 斑馬鴨嘴
+                "VOL02_078": "catfishPleco",  // 反游貓
+                "VOL02_094": "catfishPleco",  // 大帆倒吊鼠
+                "VOL02_096": "catfishPleco",  // 木紋貓
+                "AFR_CON_011": "catfishPleco",  // 電鯰
+                "AFR_CON_012": "catfishPleco",  // 反游鯰
+                "myth_079": "catfishPleco",  // 貝斯特貓臉短鯰
+                "myth_086": "catfishPleco",  // 金字塔短鯰
+                "myth_088": "catfishPleco",  // 沙漠短鯰
+                "myth_089": "catfishPleco",  // 幼發拉底金鯰
+                "myth_095": "catfishPleco",  // 蘇美短鯰
+                "myth_096": "catfishPleco",  // 法老金鯰
+                "fish_1031": "catfishPleco",  // 黑糖波霸短鯰
+
+                // axolotl
+                "strawberry_axolotl": "axolotl",  // 草莓六角恐龍
+
+                // boxfish
+                "yellow_boxfish": "boxfish",  // 黃金木瓜魨
+                "TA-4054": "boxfish",  // 木瓜箱魨
+                "TA-4055": "boxfish",  // 牛角箱魨
+                "TA-4066": "boxfish",  // 黑腹箱魨
+                "TA-4067": "boxfish",  // 米點箱魨
+                "fish_1066": "boxfish",  // 波點小箱魨
+
+                // ray
+                "bluespotted_ray": "ray",  // 藍點帶尾魟
+                "manta_calf": "ray",  // 鬼蝠魟幼崽
+                "VOL02_027": "ray",  // 黑帝王魟
+                "VOL02_028": "ray",  // 珍珠魟
+                "SJM_015_鰩魚": "ray",  // 鰩魚
+                "myth_020": "ray",  // 阿波羅雷魟
+                "myth_024": "ray",  // 戴奧尼索斯雷魟
+                "myth_073": "ray",  // 貝德維爾光魟
+                "myth_083": "ray",  // 底比斯咒魟
+                "myth_091": "ray",  // 法老咒魟
+                "myth_097": "ray",  // 巴比倫咒魟
+                "fish_1038": "ray",  // 蜂蜜鬆餅魟魚
+                "fish_1085": "ray",  // 魔法陣鰩魚
+                "fish_1095": "ray",  // 飛毯魟魚
+
+                // turtle
+                "baby_seaturtle": "turtle",  // 迷你綠蠵龜幼崽
+                "basilisk_xuanwu": "turtle",  // 玄武冥甲神龜魚
+                "prehistoric_073": "turtle",  // 古海龜
+                "prehistoric_080": "turtle",  // 史前巨海龜
+                "prehistoric_081": "turtle",  // 原海龜
+                "SJM_027_玄武鎮海": "turtle",  // 玄武鎮海
+                "SJM_060_方丈神鰲": "turtle",  // 方丈神鰲
+                "SJM_062_員嶠靈龜": "turtle",  // 員嶠靈龜
+                "SJM_087_龜丞相": "turtle",  // 龜丞相
+                "fish_1069": "turtle",  // 瞌睡小海龜
+
+                // nudibranch
+                "sea_angel": "nudibranch",  // 南極冰海天使
+                "TA-4099": "nudibranch",  // 西班牙海牛
+
+                // eelLoach
+                "giant_oarfish": "eelLoach",  // 深海皇帶魚
+                "bichir_endlicheri": "eelLoach",  // 非洲虎斑恐龍王古魚
+                "VOL02_031": "eelLoach",  // 幽靈黑魔鬼
+                "VOL02_079": "eelLoach",  // 飛刀魚
+                "VOL02_085": "eelLoach",  // 南美肺魚
+                "VOL02_098": "eelLoach",  // 恐龍魚
+                "AFR_CON_001": "eelLoach",  // 多鰭恐龍王
+                "AFR_CON_002": "eelLoach",  // 金恐龍
+                "AFR_CON_003": "eelLoach",  // 大花恐龍
+                "AFR_CON_004": "eelLoach",  // 塞內加爾恐龍
+                "AFR_CON_010": "eelLoach",  // 非洲肺魚
+                "F_5021": "eelLoach",  // 寬咽魚
+                "F_5032": "eelLoach",  // 皇帶魚
+                "F_5058": "eelLoach",  // 火山口盲魚
+                "F_5093": "eelLoach",  // 無面魚
+                "F_5097": "eelLoach",  // 盲眼鼬魚
+                "F_5099": "eelLoach",  // 深海底棲魚
+                "SJM_031_燭龍光螭": "eelLoach",  // 燭龍光螭
+                "myth_026": "eelLoach",  // 世界之蛇耶夢加得
+
+                // wingedMythic
+                "crystal_phoenix": "wingedMythic",  // 冰晶霜羽鳳凰魚
+                "aurora_midsummer_dragon": "wingedMythic",  // 仲夏夜之夢極光精靈龍
+                "prehistoric_009": "wingedMythic",  // 始祖鳥魚
+                "SJM_013_蠃魚": "wingedMythic",  // 蠃魚
+                "SJM_032_應龍金鱗": "wingedMythic",  // 應龍金鱗
+
+                // hourglassFish
+                "chrono_fish": "hourglassFish",  // 時光沙漏幻影魚
+
+                // leviathan
+                "azure_dragon_loong": "leviathan",  // 青龍東方震木神龍
+                "prehistoric_061": "leviathan",  // 海王龍
+                "prehistoric_067": "leviathan",  // 傾齒龍
+                "prehistoric_075": "leviathan",  // 大洋龍
+
+                // quadruped
+                "white_tiger_barb": "quadruped",  // 白虎西方庚金劍齒魚
+                "prehistoric_064": "quadruped",  // 盾齒龍
+                "prehistoric_089": "quadruped",  // 安氏中獸
+
+                // celestial
+                "singularity_blackhole_fish": "celestial",  // 超弦奇異點黑洞神魚
+
+                // whale
+                "andromeda_galaxy_whale": "whale",  // 仙女座雙螺旋銀河巨鯨
+                "humpback_calf": "whale",  // 座頭鯨幼崽
+                "orca_calf": "whale",  // 虎鯨幼崽
+                "prehistoric_077": "whale",  // 梅爾維爾鯨
+                "prehistoric_078": "whale",  // 龍王鯨
+                "prehistoric_079": "whale",  // 矛齒鯨
+                "prehistoric_087": "whale",  // 劍吻古豚
+                "prehistoric_093": "whale",  // 新鬚鯨
+                "prehistoric_094": "whale",  // 秘魯鯨
+                "prehistoric_099": "whale",  // 達爾文鯨
+                "SJM_063_岱輿神鯨": "whale",  // 岱輿神鯨
+
+                // squid
+                "pygmy_squid": "squid",  // 迷你侏儒小烏賊
+                "vampire_squid": "squid",  // 深海幽靈吸血鬼烏賊
+                "colossal_squid": "squid",  // 南極深淵大王酸漿魷
+                "F_5026": "squid",  // 吸血鬼烏賊
+                "F_5027": "squid",  // 大王酸漿魷
+                "F_5033": "squid",  // 玻璃魷魚
+                "F_5036": "squid",  // 大王烏賊
+                "F_5038": "squid",  // 鞭腕魷
+                "F_5039": "squid",  // 發光微鰭烏賊
+                "prehistoric_057": "squid",  // 箭石
+
+                // shark
+                "spotted_wobbegong": "shark",  // 大堡礁斑點鬚鯊
+                "whale_shark_pup": "shark",  // 豆腐鯊小鯨鯊幼崽
+                "F_5079": "shark",  // 歐氏尖吻鮫
+                "prehistoric_029": "shark",  // 裂口鯊
+                "prehistoric_039": "shark",  // 瓣齒鯊
+                "prehistoric_083": "shark",  // 巨型白堊鯊
+                "prehistoric_090": "shark",  // 丘布特凱克鯊
+                "prehistoric_091": "shark",  // 廣齒鯊
+                "myth_012": "shark",  // 奧林帕斯星鯊
+                "myth_022": "shark",  // 神話星鯊
+                "myth_030": "shark",  // 芬里爾霜狼白鯊
+                "myth_037": "shark",  // 華納海姆白鯊
+                "myth_040": "shark",  // 海姆達爾雪鯊
+                "myth_041": "shark",  // 弗蕾亞雪鯊
+                "myth_044": "shark",  // 約頓海姆白鯊
+                "myth_045": "shark",  // 洛基白鯊
+                "myth_063": "shark",  // 妖精銀鯊
+                "myth_065": "shark",  // 梅林銀鯊
+                "myth_066": "shark",  // 圓桌銀鯊
+                "myth_100": "shark",  // 法老古鯊
+                "fish_1086": "shark",  // 蒸汽龐克機械鯊
+
+                // sunfish
+                "sunfish_mola": "sunfish",  // 圓滾滾翻車魚幼魚
+
+                // goby
+                "taiwan_spade_goby": "goby",  // 台灣紅斑吻鰕虎
+                "taiwan_086": "goby",  // 恆春吻鰕虎
+                "VOL02_093": "goby",  // 跳跳魚
+                "TA-4077": "goby",  // 紅斑節蝦虎
+                "TA-4078": "goby",  // 天線蝦虎
+                "fish_1067": "goby",  // 彩虹小蝦虎
+
+                // isopod
+                "giant_isopod": "isopod",  // 深淵大王具足蟲
+                "F_5076": "isopod",  // 大王具足蟲
+                "F_5088": "isopod",  // 鎧甲弓背蟲
+
+                // tubeWorm
+                "riftia_tubeworm": "tubeWorm",  // 熱液黑煙囪巨型管蟲
+                "TA-4092": "tubeWorm",  // 聖誕樹管蟲
+                "F_5051": "tubeWorm",  // 巨型管蟲
+                "F_5069": "tubeWorm",  // 硫磺細菌毯
+                "prehistoric_018": "tubeWorm",  // 筆石
+                "fish_1072": "tubeWorm",  // 害羞小管蟲
+
+                // snail
+                "scaly_foot_snail": "snail",  // 火山黃鐵礦鐵甲螺
+                "F_5053": "snail",  // 黃鐵礦鐵甲螺
+                "F_5072": "snail",  // 噴口海蝸牛
+                "F_5075": "snail",  // 鐵鱗蝸牛
+                "fish_1047": "snail",  // 肉桂捲海螺
+
+                // worm
+                "pompeii_worm": "worm",  // 熾熱龐貝烈焰蠕蟲
+                "F_5055": "worm",  // 龐貝蠕蟲
+                "F_5059": "worm",  // 深淵多毛類
+                "F_5068": "worm",  // 熱液線蟲
+                "F_5074": "worm",  // 高溫熱液蟲
+                "F_5096": "worm",  // 食骨蠕蟲
+                "prehistoric_005": "worm",  // 皮卡蟲
+                "prehistoric_024": "worm",  // 牙形石
+                "prehistoric_059": "worm",  // 秀麗隱杆魚
+
+                // anemone
+                "lava_vent_anemone": "anemone",  // 熔岩玄武岩鬼海葵
+                "TA-4100": "anemone",  // 綠毛菇
+                "F_5056": "anemone",  // 熔岩海葵
+                "fish_1055": "anemone",  // 草莓海葵
+
+                // ammonite
+                "opal_ammonite": "ammonite",  // 黃金彩虹幾何菊石
+                "prehistoric_056": "ammonite",  // 黃金菊石
+
+                // orthocone
+                "cameroceras": "orthocone",  // 奧陶紀直殼房角石
+                "prehistoric_002": "orthocone",  // 直殼房角石
+                "prehistoric_019": "orthocone",  // 角石
+
+                // otter
+                "VOL02_040": "otter",  // 巨型水獺幼豚
+                "fish_1057": "otter",  // 抱抱海獺幼崽
+
+                // seaCucumber
+                "TA-4091": "seaCucumber",  // 海蘋果
+                "F_5086": "seaCucumber",  // 深淵海參
+
+                // sailfish
+                "F_5006": "sailfish",  // 帆蜥魚
+
+                // octopus
+                "F_5034": "octopus",  // 幽靈蛸
+                "myth_028": "octopus",  // 北海巨妖克拉肯
+                "fish_1094": "octopus",  // 魔法書籤扁面蛸
+
+                // barnacle
+                "F_5063": "barnacle",  // 熱液藤壺
+
+                // crinoid
+                "F_5065": "crinoid",  // 熱液海百合
+                "prehistoric_006": "crinoid",  // 海百合
+                "prehistoric_023": "crinoid",  // 海林檎
+
+                // seaSpider
+                "F_5067": "seaSpider",  // 噴口海蜘蛛
+                "F_5083": "seaSpider",  // 幽靈海蜘蛛
+                "F_5089": "seaSpider",  // 巨型海蜘蛛
+
+                // frilledShark
+                "F_5078": "frilledShark",  // 皺鰓鯊
+
+                // sponge
+                "F_5081": "sponge",  // 深海海綿花籃
+                "F_5098": "sponge",  // 管狀海綿
+
+                // chimaera
+                "F_5082": "chimaera",  // 深海幽靈鯊
+                "prehistoric_049": "chimaera",  // 奇異魚
+
+                // amphipod
+                "F_5084": "amphipod",  // 巨型端足蟲
+
+                // seaUrchin
+                "F_5087": "seaUrchin",  // 深海海膽
+
+                // brittleStar
+                "F_5095": "brittleStar",  // 深淵海蛇尾
+
+                // trilobite
+                "prehistoric_003": "trilobite",  // 三葉蟲
+                "prehistoric_014": "trilobite",  // 微瓦霞蟲
+                "SJM_021_鱟魚": "trilobite",  // 鱟魚
+
+                // arthropod
+                "prehistoric_004": "arthropod",  // 撫仙湖蟲
+                "prehistoric_020": "arthropod",  // 馬爾拉蟲
+                "prehistoric_021": "arthropod",  // 林喬利蟲
+
+                // opabinia
+                "prehistoric_007": "opabinia",  // 歐巴賓海蠍
+
+                // hallucigenia
+                "prehistoric_008": "hallucigenia",  // 怪誕蟲
+
+                // eurypterid
+                "prehistoric_011": "eurypterid",  // 海蠍子
+                "prehistoric_017": "eurypterid",  // 巨型羽翅鱟
+
+                // spinedShark
+                "prehistoric_030": "spinedShark",  // 胸脊鯊
+                "prehistoric_034": "spinedShark",  // 棘魚
+
+                // gator
+                "prehistoric_031": "gator",  // 泰塔利克魚
+                "prehistoric_035": "gator",  // 提塔利克
+                "prehistoric_047": "gator",  // 潘氏魚
+                "prehistoric_065": "gator",  // 達寇龍
+
+                // spiralJawShark
+                "prehistoric_037": "spiralJawShark",  // 旋齒鯊
+
+                // scissorJawShark
+                "prehistoric_038": "scissorJawShark",  // 剪齒鯊
+
+                // plesiosaur
+                "prehistoric_060": "plesiosaur",  // 克柔龍
+                "prehistoric_063": "plesiosaur",  // 幻龍
+
+                // theropod
+                "prehistoric_074": "theropod",  // 蛇髮女妖龍
+
+                // earlyWhale
+                "prehistoric_084": "earlyWhale",  // 始祖鯨
+                "prehistoric_085": "earlyWhale",  // 走鯨
+                "prehistoric_086": "earlyWhale",  // 游鯨
+                "prehistoric_097": "earlyWhale",  // 半犬鯨
+
+                // seal
+                "prehistoric_092": "seal",  // 巨海豹
+                "prehistoric_095": "seal",  // 海熊獸
+                "prehistoric_096": "seal",  // 恐海象
+                "prehistoric_100": "seal",  // 奇異海獅
+                "myth_053": "seal",  // 海豹人皮精靈
+                "fish_1062": "seal",  // 雪白小海豹
+                "fish_1080": "seal",  // 星空漂浮小海豹
+
+                // merfolk
+                "SJM_002_陵魚人魚": "merfolk",  // 陵魚人魚
+                "SJM_005_赤鱬": "merfolk",  // 赤鱬
+                "SJM_025_鮫人": "merfolk",  // 鮫人
+
+                // hydraFish
+                "SJM_004_何羅十身魚": "hydraFish",  // 何羅十身魚
+
+                // wingedOx
+                "SJM_006_鯥魚": "wingedOx",  // 鯥魚
+
+                // leggedFish
+                "SJM_014_冉遺魚": "leggedFish",  // 冉遺魚
+
+                // toad
+                "SJM_082_金蟾吐珠": "toad",  // 金蟾吐珠
+
+                // flatfish
+                "fish_1016": "flatfish",  // 海灘沙雕比目魚
+                "fish_1040": "flatfish",  // 蘋果派比目魚
+                "fish_1099": "flatfish",  // 童話繪本比目魚
+
+                // swan
+                "fish_1077": "swan",  // 摺紙天鵝魚
+        };
+
+        function resolveFishArchetype(fish) {
+            const id = fish.id || '';
+            const lowerId = id.toLowerCase();
+            const commonName = fish.commonName || '';
+            const features = (fish.visualBlueprint && fish.visualBlueprint.features) || [];
+            const category = fish.category || '';
+            if (REVIEWED_SPRITE_ARCHETYPES[id]) return REVIEWED_SPRITE_ARCHETYPES[id];
+            const C = (s) => commonName.includes(s);
+            const L = (s) => lowerId.includes(s);
+            const isPipefishFamily = commonName.endsWith('海龍') || L('seadragon') || L('pipefish');
+            const isNudibranchFlag = id === 'TA-4099'
+                ? true
+                : (!C('蠕蟲') && (L('nudibranch') || L('slug') || L('sea_bunny') || C('海兔') || C('海蛞蝓') || C('海羊')
+                    || (C('藍龍') && !C('魚') && !C('龍魚'))));
+            const isBivalveFlag = !(lowerId.startsWith('afr_tan_') || commonName.endsWith('卷貝')
+                    || ['斑馬貝', '黃金圓頂貝', '虎皮貝', '金線貝', '藍眼貝'].includes(commonName))
+                && (L('bivalve') || L('mussel') || L('clam') || L('scallop')
+                    || C('貽貝') || C('白瓜貝') || C('蚌') || C('硨磲') || C('扇貝') || C('蛤'));
+            const isCelestialCategory = ['塔羅22大阿卡納秘儀', '黃道十二宮星座', '宇宙深空天體與量子力學', '極光星塵與維度穿梭'].includes(category);
+            if (L('plesiosaur') || L('elasmosaur') || L('ness') || lowerId === 'myth_052' || lowerId === 'prehistoric_052' || C('蛇頸龍') || C('薄板龍') || C('尼斯湖水怪') || C('長頸龍') || C('恐頭龍') || C('雙臼椎龍')) return 'plesiosaur';
+            if (isCelestialCategory || lowerId.startsWith('fish_9') || L('celestial') || L('quantum') || L('cosmic') || L('astro') || L('nebula') || L('tarot') || L('zodiac') || L('stardust') || L('wormhole') || L('heisenberg') || L('schrodinger') || C('量子') || C('海森堡') || C('薛丁格') || C('蟲洞') || C('光錐') || C('超新星') || C('星雲') || C('牽牛') || C('織女') || C('星座') || C('宇宙') || C('星宿') || C('塔羅')) return 'celestial';
+            if (L('leviathan') || L('mosasaur') || L('dunkleosteus') || L('megalodon') || L('kronosaur') || L('liopleurodon') || C('利維坦') || C('滄龍') || C('鄧氏魚') || C('巨齒鯊') || C('滑齒龍') || C('克拉肯')) return 'leviathan';
+            if (L('kunpeng') || L('wenyao') || L('hippocampus') || L('pegasus') || C('鯤鵬') || C('文鰩') || C('飛魚') || (C('翼') && !C('六間'))) return 'wingedMythic';
+            if (features.includes('bone_armor') || L('sailfish') || C('旗魚')) return 'sailfish';
+            if (L('gator') || L('crocodile') || C('鱷')) return 'gator';
+            if (L('crab') || C('蟹')) return 'crab';
+            if (L('octopus') || C('章魚')) return 'octopus';
+            if (L('shrimp') || C('蝦')) return 'shrimp';
+            if (lowerId === 'fish_1056' || L('beluga') || C('白鯨')) return 'beluga';
+            if (L('seahorse') || C('海馬') || isPipefishFamily) return 'seahorse';
+            if (L('manatee') || L('dugong') || C('海牛') || C('儒艮')) return 'manatee';
+            if (L('loach') || L('kuhli') || L('eel') || C('蛇魚') || C('泥鰍') || C('沙鰍') || C('鰻') || C('鱔') || C('鳝') || (C('鰍') && !C('海馬'))) return 'eelLoach';
+            if (L('starfish') || C('海星')) return 'starfish';
+            if (L('jellyfish') || L('siphonophore') || C('水母')) return 'jellyfish';
+            if (L('angler') || C('鮟鱇') || C('𩽾𩾌')) return 'anglerfish';
+            if (L('pleco') || L('corydoras') || L('otocinclus') || C('達摩') || C('鼠魚') || C('異型') || C('皇冠豹') || C('精靈鼠') || C('兵鯰') || C('琵琶')) return 'catfishPleco';
+            if (L('koi') || C('錦鯉') || (C('鯉') && !C('脂鯉'))) return 'koi';
+            if (isNudibranchFlag) return 'nudibranch';
+            if (isBivalveFlag) return 'bivalve';
+            return 'generic';
+        }
+
+
+        // ── App AnatomicalCreatureSpriteView 逐行轉譯的原型（44x30 座標系，phase=0 靜態幀）──
+        function _appSvgHead() { return '<svg width="${size}" height="${size}" viewBox="0 0 44 30" class="drop-shadow-md">'; }
+        function generateSeahorseAppSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            return `<svg width="${size}" height="${size}" viewBox="0 0 44 30" class="drop-shadow-md">
+                <path d="M26 2 Q32 2 32 8 Q32 13 26 14 Q22 15 22 19 Q22 23 26 23 Q29 23 29 26 Q29 29 25 29 Q20 29 20 24 Q20 18 24 15 Q18 14 18 8 Q18 2 26 2 Z" fill="${p}" stroke="#00000033" stroke-width="0.45"/>
+                <path d="M18 6 L12 4 M18 10 L11 10 M18 14 L12 16" stroke="${s}" stroke-width="1.1" stroke-linecap="round"/>
+                <path d="M30 4 L36 2 M31 8 L38 8" stroke="${a}" stroke-width="0.9" stroke-linecap="round" opacity="0.8"/>
+                <path d="M22 21 Q18 22 17 26" stroke="${s}" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+                <circle cx="26" cy="7" r="1.5" fill="#0B131E"/><circle cx="26.2" cy="6" r="0.5" fill="#FFFFFF"/>
+            </svg>`;
+        }
+        function generateTurtleAppSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const flippers = [10,27].flatMap(x => [-1,1].map(side =>
+                `<polygon points="${x},15 ${x-4},${15+side*13} ${x+5},${15+side*8}" fill="${s}" stroke="#00000033" stroke-width="0.45"/>`)).join('');
+            return `<svg width="${size}" height="${size}" viewBox="0 0 44 30" class="drop-shadow-md">
+                ${flippers}
+                <ellipse cx="20.5" cy="15.5" rx="13.5" ry="10.5" fill="${p}" stroke="#00000033" stroke-width="0.45"/>
+                <polygon points="16,9 25,9 29,15 25,22 16,22 12,15" fill="none" stroke="${a}" stroke-opacity="0.7" stroke-width="1"/>
+                <ellipse cx="36.5" cy="15" rx="5.5" ry="4" fill="${s}" stroke="#00000033" stroke-width="0.45"/>
+                <circle cx="38" cy="13" r="1.6" fill="#0B131E"/><circle cx="38.2" cy="12" r="0.5" fill="#FFFFFF"/>
+            </svg>`;
+        }
+        function generateWhaleAppSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            return `<svg width="${size}" height="${size}" viewBox="0 0 44 30" class="drop-shadow-md">
+                <polygon points="10,15 1,10 4,17 1,23" fill="${s}" stroke="#00000033" stroke-width="0.45"/>
+                <ellipse cx="24" cy="15.5" rx="18" ry="8.5" fill="${p}" stroke="#00000033" stroke-width="0.45"/>
+                <ellipse cx="27" cy="19.5" rx="13" ry="3.5" fill="#FFFFFF" fill-opacity="0.35"/>
+                <polygon points="26,17 17,27 30,22" fill="${s}" stroke="#00000033" stroke-width="0.45"/>
+                <circle cx="36" cy="12" r="1.6" fill="#0B131E"/><circle cx="36.2" cy="11" r="0.5" fill="#FFFFFF"/>
+                <path d="M33 18 L41 16" stroke="${s}" stroke-width="0.8" stroke-linecap="round"/>
+            </svg>`;
+        }
+        function generateMammalAppSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const legged = ['earlyWhale','otter'].includes(resolveFishArchetype(fish));
+            const legs = [12,27].flatMap(x => legged
+                ? [-1,1].map(side => `<path d="M${x} 19 L${x+side*2} 27" stroke="${s}" stroke-width="3" stroke-linecap="round"/>`)
+                : [-1,1].map(side => `<polygon points="${x},18 ${x-6},26 ${x+4},22" fill="${s}" stroke="#00000033" stroke-width="0.45"/>`)).join('');
+            const whiskers = [0,1,2].map(i => `<path d="M39 16 L43 ${14+i*3}" stroke="#FFFFFF" stroke-opacity="0.65" stroke-width="0.55" stroke-linecap="round"/>`).join('');
+            return `<svg width="${size}" height="${size}" viewBox="0 0 44 30" class="drop-shadow-md">
+                ${legs}
+                <path d="M9 16 L2 21" stroke="${s}" stroke-width="${legged ? 3 : 2}" stroke-linecap="round"/>
+                <ellipse cx="20.5" cy="16.5" rx="14.5" ry="6.5" fill="${p}" stroke="#00000033" stroke-width="0.45"/>
+                <ellipse cx="34.5" cy="13" rx="6.5" ry="7" fill="${p}" stroke="#00000033" stroke-width="0.45"/>
+                <ellipse cx="39.5" cy="15.5" rx="3.5" ry="2.5" fill="${s}" stroke="#00000033" stroke-width="0.45"/>
+                <circle cx="35" cy="10" r="1.6" fill="#0B131E"/><circle cx="35.2" cy="9" r="0.5" fill="#FFFFFF"/>
+                <ellipse cx="41.5" cy="14" rx="1.5" ry="1" fill="#0B131E"/>
+                ${whiskers}
+            </svg>`;
+        }
+        function generateNudibranchAppSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const gills = [0,1,2,3].map(i => `<path d="M${28+i*2} 16 Q${31+i*2} ${10-i} ${34+i*1.5} ${8-i}" stroke="${a}" stroke-width="1.3" fill="none" stroke-linecap="round"/>`).join('');
+            const dots = [0,1,2,3,4].map(i => `<circle cx="${10+i*5}" cy="${17+(i%2)*2}" r="1" fill="${a}" fill-opacity="0.7"/>`).join('');
+            return `<svg width="${size}" height="${size}" viewBox="0 0 44 30" class="drop-shadow-md">
+                <path d="M6 20 Q8 12 18 11 Q28 10 34 14 Q38 16 38 19 Q36 22 28 22 L10 22 Q6 22 6 20 Z" fill="${p}" stroke="#00000033" stroke-width="0.45"/>
+                <path d="M8 19 Q14 15 24 15 Q31 15 35 18" stroke="${s}" stroke-width="1.2" fill="none" opacity="0.7"/>
+                <path d="M9 14 L6 8 M11 13 L10 7" stroke="${s}" stroke-width="1.1" stroke-linecap="round"/>
+                <circle cx="6" cy="7.5" r="0.9" fill="${a}"/><circle cx="10" cy="6.5" r="0.9" fill="${a}"/>
+                ${gills}${dots}
+            </svg>`;
+        }
+        function generateBivalveAppSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const ribs = [0,1,2,3,4,5].map(i => {
+                const ang = -0.9 + i * 0.36;
+                return `<path d="M22 22 L${(22+Math.sin(ang)*17).toFixed(1)} ${(22-Math.cos(ang)*15).toFixed(1)}" stroke="${a}" stroke-width="0.7" opacity="0.6"/>`;
+            }).join('');
+            return `<svg width="${size}" height="${size}" viewBox="0 0 44 30" class="drop-shadow-md">
+                <path d="M5 22 Q22 2 39 22 Q22 26 5 22 Z" fill="${p}" stroke="#00000033" stroke-width="0.45"/>
+                ${ribs}
+                <path d="M5 22 Q22 18 39 22 Q22 28 5 22 Z" fill="${s}" stroke="#00000033" stroke-width="0.45"/>
+                <ellipse cx="22" cy="22.5" rx="6" ry="1.4" fill="${a}" fill-opacity="0.8"/>
+            </svg>`;
+        }
+        // ── 2026-09-18 reviewed 擴表新增的 11 種外形（參考圖：TinyAquarium new_archetypes.png）──
+        function generateSunfishSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'sf_' + (fish.id || 'f').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M26 10 C30 4 33 4 33 10 L33 15 Z" fill="${s}"/>
+                <path d="M26 38 C30 44 33 44 33 38 L33 33 Z" fill="${s}"/>
+                <ellipse cx="22" cy="24" rx="15" ry="14" fill="url(#${g})"/>
+                <path d="M7 24 C3 20 3 28 7 24 Z" fill="${s}"/>
+                <path d="M8 17 C5 15 5 19 8 18" stroke="${s}" stroke-width="1" fill="none" opacity="0.8"/>
+                <circle cx="30" cy="20" r="3.2" fill="#FFFFFF"/><circle cx="31" cy="20" r="1.8" fill="#0B131E"/>
+                <path d="M35 25 Q36.5 26 35 27" stroke="#0B131E" stroke-width="1" fill="none"/>
+                <circle cx="14" cy="20" r="1" fill="${a}" opacity="0.6"/><circle cx="17" cy="27" r="1" fill="${a}" opacity="0.6"/>
+            </svg>`;
+        }
+
+        function generateAxolotlSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'ax_' + (fish.id || 'a').replace(/[^a-zA-Z0-9]/g, '_');
+            const gills = [0,1,2].map(i =>
+                `<circle cx="${36+i*3}" cy="${10+i*2}" r="1.6" fill="${a}"/>`).join('');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M14 26 C8 22 6 24 6 27 C6 30 9 31 14 29 Z" fill="${s}"/>
+                <ellipse cx="24" cy="27" rx="13" ry="7" fill="url(#${g})"/>
+                <circle cx="33" cy="24" r="6.5" fill="url(#${g})"/>
+                <path d="M30 32 L28 37 M24 33 L23 38 M36 30 L38 35" stroke="${s}" stroke-width="2.4" stroke-linecap="round"/>
+                <path d="M36 18 L39 13 M38 20 L43 17 M38 23 L43 23" stroke="${a}" stroke-width="1.8" stroke-linecap="round"/>
+                ${gills}
+                <circle cx="35" cy="22" r="1.6" fill="#0B131E"/>
+                <path d="M37 26 Q39 27 37 28" stroke="#0B131E" stroke-width="1" fill="none"/>
+            </svg>`;
+        }
+
+        function generateSwanSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'sw_' + (fish.id || 'w').replace(/[^a-zA-Z0-9]/g, '_');
+            const fold = 'stroke="#94A3B8" stroke-width="0.7" stroke-opacity="0.75"';
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M6 26 L16 15 L20 27 Z" fill="${s}" ${fold}/>
+                <path d="M16 15 L22 7 L26 16 Z" fill="${p}" ${fold}/>
+                <path d="M6 26 L20 27 L24 38 Z" fill="${p}" ${fold}/>
+                <path d="M20 27 L34 24 L24 38 Z" fill="${s}" ${fold}/>
+                <path d="M20 27 L34 24 L26 16 Z" fill="${p}" ${fold}/>
+                <path d="M26 16 L34 24 L30 12 Z" fill="${s}" ${fold}/>
+                <path d="M24 38 L34 24 L38 32 Z" fill="${p}" ${fold}/>
+                <path d="M30 12 C36 10 38 14 36 18 C34 21 33 23 34 24 Z" fill="${p}" ${fold}/>
+                <path d="M30 12 C29 7 32 5 35 6 C38 7 38 10 36 11 Z" fill="${s}" ${fold}/>
+                <path d="M35 6 L42 8.5 L36 10.5 Z" fill="${a}"/>
+                <circle cx="35.5" cy="7.5" r="0.9" fill="#0B131E"/>
+            </svg>`;
+        }
+
+        function generateMerfolkSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'mf_' + (fish.id || 'm').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M20 26 C12 24 6 26 4 30 C10 30 13 32 15 36 C18 32 21 30 24 29 Z" fill="url(#${g})"/>
+                <path d="M22 24 C26 22 30 22 32 24 L30 30 C27 31 24 30 22 28 Z" fill="url(#${g})"/>
+                <path d="M24 18 C22 22 22 26 24 29" stroke="${s}" stroke-width="1" fill="none" opacity="0.6"/>
+                <circle cx="35" cy="19" r="5.5" fill="#F5D5B8"/>
+                <path d="M29 17 C29 11 41 11 41 17 C41 14 29 14 29 17 Z" fill="${a}"/>
+                <path d="M29 15 C26 18 26 22 28 24 L30 20 Z" fill="${a}"/>
+                <circle cx="36.5" cy="19" r="1" fill="#0B131E"/>
+                <path d="M34 22 Q36 23.5 38 22" stroke="#0B131E" stroke-width="0.8" fill="none"/>
+                <path d="M31 25 L27 28" stroke="#F5D5B8" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M10 27 L7 25 M11 30 L7 30 M12 33 L9 35" stroke="${s}" stroke-width="0.9" opacity="0.7"/>
+            </svg>`;
+        }
+
+        function generateQuadrupedSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'qd_' + (fish.id || 'q').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M8 24 C4 22 4 20 7 21 L10 23 Z" fill="${s}"/>
+                <ellipse cx="22" cy="25" rx="13" ry="8" fill="url(#${g})"/>
+                <path d="M14 18 L12 12 L17 16 M20 17 L19 11 L23 15 M26 17 L27 11 L30 16" stroke="${s}" stroke-width="1.4" fill="${s}" stroke-linejoin="round"/>
+                <circle cx="34" cy="22" r="6" fill="url(#${g})"/>
+                <path d="M31 17 L30 13 L33 16 Z" fill="${s}"/>
+                <path d="M15 31 L14 39 M21 32 L21 40 M28 31 L29 39 M33 28 L35 36" stroke="${s}" stroke-width="2.6" stroke-linecap="round"/>
+                <circle cx="36" cy="20" r="1.4" fill="#0B131E"/>
+                <path d="M38 24 Q39.5 25 38 26" stroke="#0B131E" stroke-width="0.9" fill="none"/>
+                <circle cx="16" cy="24" r="1.1" fill="${a}"/><circle cx="22" cy="27" r="1.1" fill="${a}"/><circle cx="27" cy="23" r="1.1" fill="${a}"/>
+            </svg>`;
+        }
+
+        function _liftColor(hex, amt) {
+            // 同 App 的 readable()：亮度 (luminance) 低於 amt 就往白色混，色相保留；夠亮的不動
+            const h = hex.replace('#', '');
+            if (h.length !== 6) return hex;
+            const c = [0, 2, 4].map(i => parseInt(h.slice(i, i + 2), 16) / 255);
+            const lum = 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2];
+            if (lum >= amt) return hex;
+            const t = (amt - lum) / (1 - lum);
+            return '#' + c.map(v => Math.round((v + (1 - v) * t) * 255).toString(16).padStart(2, '0')).join('');
+        }
+
+        function generateTheropodSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const pB = _liftColor(p, 0.5), sB = _liftColor(s, 0.42), belly = _liftColor(p, 0.8), outline = _liftColor(p, 0.9);
+            const g = 'thg_' + (fish.id || 't').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, pB, sB)}
+                <path d="M14 24 C8 22 5 24 3 27 C8 27 11 28 14 29 Z" fill="url(#${g})" stroke="${outline}" stroke-width="0.7"/>
+                <path d="M14 22 C16 16 24 14 28 17 L26 26 C21 28 17 27 14 25 Z" fill="url(#${g})" stroke="${outline}" stroke-width="0.8"/>
+                <path d="M16 24 C19 26 23 26.5 26 25 L25.5 26.5 C22 27.6 18.5 27 16 25.4 Z" fill="${belly}" opacity="0.9"/>
+                <path d="M17 16 L19 11 L21 15 M21 14.5 L24 10 L25.5 14" fill="${a}" stroke="${a}" stroke-width="0.8" stroke-linejoin="round"/>
+                <path d="M26 15 C30 12 35 12 38 14 L42 15.5 L38 18 C35 20 30 20 27 18 Z" fill="url(#${g})" stroke="${outline}" stroke-width="0.8"/>
+                <path d="M38 15.5 L40 17.5 M35.5 16.5 L37 18.5" stroke="#FFFFFF" stroke-width="0.9"/>
+                <path d="M28 17.6 C31 19.2 35 19.4 38.2 17.9 L37.6 18.9 C34.5 20.3 30.5 20.2 27.2 18.4 Z" fill="${belly}"/>
+                <circle cx="35" cy="14.5" r="1.3" fill="#0B131E"/><circle cx="35.4" cy="14.1" r="0.45" fill="#FFFFFF"/>
+                <path d="M22 26 L21 34 L17 38 L23 38 L24 33 M27 25 L28 33 L25 37 L31 37 L30 32" fill="${sB}" stroke="${outline}" stroke-width="0.9" stroke-linejoin="round"/>
+                <path d="M24 20 L27 22" stroke="${sB}" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>`;
+        }
+
+        function generateToadSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'td_' + (fish.id || 'o').replace(/[^a-zA-Z0-9]/g, '_');
+            const warts = [0,1,2,3,4,5].map(i => `<circle cx="${15+i*3.2}" cy="${24+(i%3)*4}" r="1" fill="${s}" opacity="0.8"/>`).join('');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <ellipse cx="22" cy="28" rx="15" ry="10" fill="url(#${g})"/>
+                ${warts}
+                <circle cx="31" cy="18" r="5.5" fill="url(#${g})"/>
+                <circle cx="29" cy="15" r="2.6" fill="#FFFFFF"/><circle cx="29.8" cy="15" r="1.4" fill="#0B131E"/>
+                <circle cx="34.5" cy="15" r="2.6" fill="#FFFFFF"/><circle cx="35.3" cy="15" r="1.4" fill="#0B131E"/>
+                <path d="M26 22 Q31 25 37 21" stroke="#0B131E" stroke-width="1" fill="none"/>
+                <path d="M12 34 L8 39 L14 38 M20 36 L19 41 L25 39" fill="${s}" stroke="${s}" stroke-width="1" stroke-linejoin="round"/>
+                <circle cx="41" cy="24" r="3.4" fill="${a}"/>
+                <circle cx="41" cy="24" r="1.4" fill="#FFFFFF" opacity="0.7"/>
+            </svg>`;
+        }
+
+        function generateHourglassFishSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'hg_' + (fish.id || 'h').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M14 10 L34 10 L25 24 L34 38 L14 38 L23 24 Z" fill="url(#${g})" opacity="0.9"/>
+                <path d="M14 10 L34 10 L25 24 Z" fill="${s}" opacity="0.55"/>
+                <path d="M16 36 L32 36 L25 25 Z" fill="${a}" opacity="0.85"/>
+                <path d="M12 8 L36 8 M12 40 L36 40" stroke="${a}" stroke-width="2" stroke-linecap="round"/>
+                <path d="M13 9 C10 24 10 24 13 39 M35 9 C38 24 38 24 35 39" stroke="${a}" stroke-width="1.4" fill="none" opacity="0.8"/>
+                <path d="M24 14 L24.6 17 L27 17.6 L24.6 18.2 L24 21 L23.4 18.2 L21 17.6 L23.4 17 Z" fill="#FFFFFF" opacity="0.9"/>
+                <circle cx="25" cy="31" r="0.8" fill="#FFFFFF" opacity="0.8"/><circle cx="23" cy="33" r="0.6" fill="#FFFFFF" opacity="0.7"/>
+            </svg>`;
+        }
+
+        function generateHydraFishSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const pB = _liftColor(p, 0.56), sB = _liftColor(s, 0.4), tailC = _liftColor(p, 0.74), outline = _liftColor(p, 0.88);
+            const g = 'hy_' + (fish.id || 'y').replace(/[^a-zA-Z0-9]/g, '_');
+            // 《山海經》「一首而十身」：前方一顆魚頭，頸後扇形展開 10 條各自帶尾鰭的小魚身
+            const nx = 29, ny = 24;
+            const necks = Array.from({ length: 10 }, (_, i) => {
+                const ang = Math.PI + (i - 4.5) * 0.24, r = (i % 2 ? 14.5 : 9.5) - 3;
+                const x = (nx + Math.cos(ang) * r).toFixed(1), y = (ny + Math.sin(ang) * r).toFixed(1);
+                return `<path d="M${nx} ${ny} L${x} ${y}" stroke="${pB}" stroke-width="1.1" stroke-opacity="0.85" fill="none"/>`;
+            }).join('');
+            const one = i => {
+                const ang = Math.PI + (i - 4.5) * 0.24, r = i % 2 ? 14.5 : 9.5;
+                const cx = (nx + Math.cos(ang) * r).toFixed(1), cy = (ny + Math.sin(ang) * r).toFixed(1);
+                const deg = (ang * 180 / Math.PI).toFixed(1);
+                return `<g transform="translate(${cx} ${cy}) rotate(${deg})">
+                    <path d="M3.6 0 L7.4 -2.3 L6.4 0 L7.4 2.3 Z" fill="${tailC}" stroke="#0B131E" stroke-width="0.4" stroke-linejoin="round"/>
+                    <ellipse cx="0" cy="0" rx="4.3" ry="1.9" fill="${pB}" stroke="#0B131E" stroke-width="0.55"/>
+                    <path d="M-2.6 -0.6 Q0 -1.2 2.6 -0.6" stroke="${outline}" stroke-width="0.45" fill="none" opacity="0.8"/>
+                </g>`;
+            };
+            // 外圈先畫、內圈疊在上面，讓每一條身體都看得出輪廓
+            const bodies = [1,3,5,7,9].map(one).join('') + [0,2,4,6,8].map(one).join('');
+            return `${_svgHead(size)}${_grad(g, pB, sB)}
+                ${necks}${bodies}
+                <ellipse cx="34" cy="24" rx="8" ry="6.6" fill="url(#${g})" stroke="${outline}" stroke-width="0.9"/>
+                <path d="M31 18.2 C33 15.5 36 15.6 37.5 18" fill="${sB}" stroke="${outline}" stroke-width="0.6"/>
+                <path d="M29.5 21 Q31.5 24 29.5 27" stroke="${outline}" stroke-width="0.7" fill="none" opacity="0.8"/>
+                <circle cx="37.5" cy="22.4" r="1.6" fill="#0B131E"/><circle cx="38" cy="21.9" r="0.55" fill="#FFFFFF"/>
+                <path d="M41.2 25.6 Q39.8 26.8 41.4 27.6" stroke="#0B131E" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+            </svg>`;
+        }
+
+        function generateLeggedFishSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'lf_' + (fish.id || 'l').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M12 24 L5 18 L6 24 L5 30 Z" fill="${s}"/>
+                <path d="M13 20 C20 15 30 15 35 19 C38 21.5 38 26.5 35 29 C30 33 20 33 13 28 Z" fill="url(#${g})"/>
+                <path d="M18 17 L17 12 L21 16 M24 16 L24 10 L27 15 M30 17 L31 12 L33 17" fill="${s}" stroke="${s}" stroke-width="0.8" stroke-linejoin="round"/>
+                <path d="M17 30 L15 38 M23 31 L23 39 M29 30 L31 38 M34 27 L38 34" stroke="${s}" stroke-width="2.2" stroke-linecap="round"/>
+                <path d="M18 21 L18 27 M23 20 L23 28 M28 21 L28 27" stroke="${a}" stroke-width="1" opacity="0.6"/>
+                <circle cx="34" cy="22" r="1.5" fill="#0B131E"/>
+                <path d="M37 24 Q38.5 25 37 26" stroke="#0B131E" stroke-width="0.9" fill="none"/>
+            </svg>`;
+        }
+
+        function generateWingedOxSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const g = 'wo_' + (fish.id || 'x').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}${_grad(g, p, s)}
+                <path d="M20 20 C14 10 26 6 28 14 C30 6 40 10 34 20 Z" fill="${a}" opacity="0.9"/>
+                <path d="M22 18 L24 12 M30 18 L31 12" stroke="${s}" stroke-width="0.7" opacity="0.6"/>
+                <path d="M10 26 L4 22 L5 26 L4 30 Z" fill="${s}"/>
+                <ellipse cx="22" cy="27" rx="12" ry="7.5" fill="url(#${g})"/>
+                <circle cx="33" cy="25" r="5.5" fill="url(#${g})"/>
+                <path d="M30 20 C29 15 31 13 33 13 M36 20 C38 16 37 14 35 13" stroke="${a}" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+                <path d="M15 32 L14 39 M21 33 L21 40 M27 32 L28 39 M32 30 L34 37" stroke="${s}" stroke-width="2.4" stroke-linecap="round"/>
+                <circle cx="35" cy="24" r="1.3" fill="#0B131E"/>
+                <path d="M37 27 Q38.5 28 37 29" stroke="#0B131E" stroke-width="0.9" fill="none"/>
+            </svg>`;
+        }
+
+        function generateStarfishAppSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const arms = [0,1,2,3,4].map(i => {
+                const ang = i * Math.PI * 2 / 5 - Math.PI / 2;
+                return `<path d="M22 15 Q${(22+Math.cos(ang+0.35)*9).toFixed(1)} ${(15+Math.sin(ang+0.35)*9).toFixed(1)} ${(22+Math.cos(ang)*16).toFixed(1)} ${(15+Math.sin(ang)*13).toFixed(1)} Q${(22+Math.cos(ang-0.35)*9).toFixed(1)} ${(15+Math.sin(ang-0.35)*9).toFixed(1)} 22 15 Z" fill="${p}" stroke="#00000033" stroke-width="0.45"/>`;
+            }).join('');
+            const dots = [0,1,2,3,4,5,6].map(i => `<circle cx="${(17+(i%3)*4).toFixed(1)}" cy="${(12+Math.floor(i/3)*4).toFixed(1)}" r="1" fill="${a}" fill-opacity="0.7"/>`).join('');
+            return `<svg width="${size}" height="${size}" viewBox="0 0 44 30" class="drop-shadow-md">
+                ${arms}
+                <circle cx="22" cy="15" r="3.4" fill="${s}" stroke="#00000033" stroke-width="0.45"/>
+                ${dots}
+            </svg>`;
+        }
+
         function generateFishSvg(fish, size = 40) {
             const bp = fish.visualBlueprint || {};
             const pColor = bp.primaryColor || '#00F0FF';
@@ -2043,9 +3119,54 @@
             const features = bp.features || [];
             const name = ((fish.commonName || '') + ' ' + (fish.commonNameEn || '') + ' ' + (fish.scientificName || '') + ' ' + ((fish.i18n && fish.i18n.en && fish.i18n.en.commonName) || '') + ' ' + (fish.id || '')).toLowerCase();
 
+            // ── App 同步分派：與 TinyAquarium spriteArchetype 同源的 reviewed 覆寫表 ──
+            // 覆寫表命中的魚直接走對應专属原型，繞過下方關鍵字鏈（與 App 端行為一致）。
+            const appArchetype = resolveFishArchetype(fish);
+            if (appArchetype !== 'generic') {
+                if (appArchetype === 'octopus') { /* fall through to octopus branch */ }
+                else if (appArchetype === 'squid') return generateSquidSvg(fish, size);
+                else if (appArchetype === 'seahorse') return generateSeahorseAppSvg(fish, size);
+                else if (appArchetype === 'nudibranch') return generateNudibranchAppSvg(fish, size);
+                else if (appArchetype === 'bivalve') return generateBivalveAppSvg(fish, size);
+                else if (appArchetype === 'turtle') return generateTurtleAppSvg(fish, size);
+                else if (appArchetype === 'whale') return generateWhaleAppSvg(fish, size);
+                else if (appArchetype === 'beluga' || appArchetype === 'seal' || appArchetype === 'otter' || appArchetype === 'earlyWhale') return generateMammalAppSvg(fish, size);
+                else if (appArchetype === 'ray') return generateRaySvg(fish, size);
+                else if (appArchetype === 'goby') return generateGobySvg(fish, size);
+                else if (appArchetype === 'snail') return generateSnailSvg(fish, size);
+                else if (appArchetype === 'tubeWorm') return generateTubeWormSvg(fish, size);
+                else if (appArchetype === 'worm') return generateWormSvg(fish, size);
+                else if (appArchetype === 'seaSpider') return generateSeaSpiderSvg(fish, size);
+                else if (appArchetype === 'isopod' || appArchetype === 'amphipod') return generateIsopodSvg(fish, size);
+                else if (appArchetype === 'anemone') return generateAnemoneSvg(fish, size);
+                else if (appArchetype === 'crinoid') return generateCrinoidSvg(fish, size);
+                else if (appArchetype === 'seaCucumber') return generateSeaCucumberSvg(fish, size);
+                else if (appArchetype === 'seaUrchin') return generateSeaUrchinSvg(fish, size);
+                else if (appArchetype === 'starfish' || appArchetype === 'brittleStar') return generateStarfishAppSvg(fish, size);
+                else if (appArchetype === 'sponge') return generateSpongeSvg(fish, size);
+                else if (appArchetype === 'barnacle') return generateBarnacleSvg(fish, size);
+                else if (appArchetype === 'shark' || appArchetype === 'frilledShark' || appArchetype === 'spinedShark' || appArchetype === 'spiralJawShark' || appArchetype === 'scissorJawShark' || appArchetype === 'chimaera') return generateSharkSvg(fish, size);
+                else if (appArchetype === 'puffer' || appArchetype === 'boxfish') return generatePufferSvg(fish, size);
+                else if (appArchetype === 'flatfish') return generateFlatfishSvg(fish, size);
+                else if (appArchetype === 'ammonite' || appArchetype === 'orthocone') return generateCephalopodShellSvg(fish, size);
+                else if (appArchetype === 'trilobite' || appArchetype === 'arthropod' || appArchetype === 'opabinia' || appArchetype === 'hallucigenia' || appArchetype === 'eurypterid') return generatePaleozoicArthropodSvg(fish, size);
+                else if (appArchetype === 'sunfish') return generateSunfishSvg(fish, size);
+                else if (appArchetype === 'axolotl') return generateAxolotlSvg(fish, size);
+                else if (appArchetype === 'swan') return generateSwanSvg(fish, size);
+                else if (appArchetype === 'merfolk') return generateMerfolkSvg(fish, size);
+                else if (appArchetype === 'quadruped') return generateQuadrupedSvg(fish, size);
+                else if (appArchetype === 'theropod') return generateTheropodSvg(fish, size);
+                else if (appArchetype === 'toad') return generateToadSvg(fish, size);
+                else if (appArchetype === 'hourglassFish') return generateHourglassFishSvg(fish, size);
+                else if (appArchetype === 'hydraFish') return generateHydraFishSvg(fish, size);
+                else if (appArchetype === 'leggedFish') return generateLeggedFishSvg(fish, size);
+                else if (appArchetype === 'wingedOx') return generateWingedOxSvg(fish, size);
+            }
+
+
             // 1. Specialized Vector SVGs for Distinct Marine Life Classes
             // 00000. Plesiosaur & Loch Ness Monster (蛇頸龍、尼斯湖水怪、薄板龍、長頸龍：S型高聳長頸、水怪駝峰身軀、雙對划水巨鰭、收尖長尾)
-            if (fish.id === 'myth_052' || fish.id === 'prehistoric_052' || name.includes('蛇頸龍') || name.includes('尼斯湖水怪') || name.includes('plesiosaur') || name.includes('elasmosaur') || name.includes('薄板龍') || name.includes('長頸龍') || name.includes('恐頭龍') || name.includes('雙臼椎龍') || name.includes('loch ness') || name.includes('nessie')) {
+            if (appArchetype === 'plesiosaur') {
                 const isNessie = fish.id === 'myth_052' || name.includes('尼斯湖水怪') || name.includes('loch') || name.includes('ness');
                 const mainColor = isNessie ? '#0F3D3E' : (pColor || '#1E3F20');
                 const subColor = isNessie ? '#134E4A' : (sColor || '#2D6A4F');
@@ -2089,11 +3210,7 @@
             }
 
             // 00000. Celestial, Cosmic & Quantum Archetype (星宿、塔羅、星座、宇宙量子神魚：雙傾角星軌星環、公轉星點、晶瑩星雲半透明身軀、心臟量子能量核、星座連線星點陣列、波函數彗星長尾、深空星光之眼)
-            if (fish.category?.includes('星宿') || fish.category?.includes('塔羅') || fish.category?.includes('宇宙') || fish.category?.includes('深空') || fish.category?.includes('量子') ||
-                (fish.rarity && (fish.rarity.toLowerCase() === 'cosmic' || fish.rarity.toLowerCase() === 'quantum')) ||
-                (fish.id && fish.id.startsWith('fish_9')) ||
-                name.includes('celestial') || name.includes('quantum') || name.includes('cosmic') || name.includes('astro') || name.includes('nebula') || name.includes('tarot') || name.includes('zodiac') || name.includes('stardust') || name.includes('wormhole') || name.includes('heisenberg') || name.includes('schrodinger') || name.includes('supernova') || name.includes('singularity') || name.includes('andromeda') || name.includes('pulsar') ||
-                name.includes('量子') || name.includes('海森堡') || name.includes('薛丁格') || name.includes('蟲洞') || name.includes('光錐') || name.includes('超新星') || name.includes('星雲') || name.includes('牽牛') || name.includes('織女') || name.includes('黑洞') || name.includes('奇異點') || name.includes('脈衝') || name.includes('銀河') || name.includes('星塵')) {
+            if (appArchetype === 'celestial') {
                 
                 const cId = 'cel_' + (fish.id || 'c').replace(/[^a-zA-Z0-9]/g, '_');
                 const mainColor = pColor || '#1E1B4B';
@@ -2157,8 +3274,7 @@
             }
 
             // 00000. Leviathan Prehistoric Apex Archetype (史前滄龍、鄧氏魚、巨齒鯊、利維坦、滑齒龍：重型骨板戰甲、鋸齒霸主背脊、深海霸王異葉巨尾、開合撕裂大下顎、琥珀掠食凶瞳)
-            if (name.includes('leviathan') || name.includes('mosasaur') || name.includes('dunkleosteus') || name.includes('megalodon') || name.includes('kronosaur') || name.includes('liopleurodon') ||
-                name.includes('利維坦') || name.includes('滄龍') || name.includes('鄧氏魚') || name.includes('巨齒鯊') || name.includes('滑齒龍') || name.includes('克拉肯') || name.includes('霸王') || name.includes('滅世')) {
+            if (appArchetype === 'leviathan') {
                 
                 const lId = 'lev_' + (fish.id || 'l').replace(/[^a-zA-Z0-9]/g, '_');
                 const mainColor = pColor || '#1E293B';
@@ -2201,8 +3317,7 @@
             }
 
             // 00000. Winged Mythic Archetype (山海經神話羽翼飛魚、北冥鯤鵬、文鰩魚：展翅翱翔神話巨翼、飄逸靈尾金鬚、璀璨靈光之眼)
-            if (name.includes('kunpeng') || name.includes('wenyao') || name.includes('kun_cosmic') || name.includes('hippocampus') || name.includes('pegasus') ||
-                name.includes('鯤鵬') || name.includes('文鰩') || name.includes('羽翼') || name.includes('飛魚') || (name.includes('翼') && !name.includes('六間'))) {
+            if (appArchetype === 'wingedMythic') {
                 
                 const wId = 'win_' + (fish.id || 'w').replace(/[^a-zA-Z0-9]/g, '_');
                 const mainColor = pColor || '#0284C7';
@@ -2246,7 +3361,7 @@
             }
 
             // 0000. Koi Dynasty (日本錦鯉名門、神話神鯉、丹頂錦鯉：流線紡錘體真鯉身軀、八字微展精緻雙短鬚、修長背鰭、羽扇展開大胸鰭)
-            if (name.includes('錦鯉') || name.includes('koi') || (name.includes('鯉') && !name.includes('脂鯉'))) {
+            if ((name.includes('錦鯉') || name.includes('koi') || (name.includes('鯉') && !name.includes('脂鯉'))) && ['generic','koi'].includes(appArchetype)) {
                 const isTancho = features.includes('tancho_crown') || name.includes('丹頂') || name.includes('tancho');
                 const isKohaku = name.includes('紅白') || name.includes('kohaku');
                 const isShowa = name.includes('昭和') || name.includes('showa');
@@ -2356,7 +3471,7 @@
             }
 
             // 0000. Formosan Landlocked Salmon (國寶台灣櫻花鉤吻鮭：標誌性鉤吻大口裂、背部肉質脂鰭、體側深黑褐橢圓幼鮭斑 Parr Marks)
-            if (name.includes('櫻花鉤吻鮭') || name.includes('formosan_salmon') || name.includes('salmon')) {
+            if ((name.includes('櫻花鉤吻鮭') || name.includes('formosan_salmon') || name.includes('salmon')) && appArchetype === 'generic') {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Forked Tail Fin (深叉形尾鰭) -->
@@ -2403,7 +3518,7 @@
             }
 
             // 0. Manatees & Dugongs (圓厚憨萌海牛 / 儒艮 / 扁平圓鏟槳尾 / 下垂圓鈍口吻 / 雙鼻孔 / 無背鰭)
-            if ((name.includes('海牛') && !name.includes('西班牙海牛') && !name.includes('spanish dancer')) || name.includes('儒艮') || name.includes('manatee') || name.includes('dugong')) {
+            if (appArchetype === 'manatee') {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Spatula Paddle Fluke Tail (圓扁鏟尾) -->
@@ -2427,7 +3542,7 @@
             }
 
             // 00. Loaches & Eels (修長蛇形魚身 / 泥鰍 / 蛇魚 / 苦力鰍)
-            if (name.includes('蛇魚') || name.includes('泥鰍') || name.includes('沙鰍') || (name.includes('鰍') && !name.includes('海馬')) || name.includes('loach') || name.includes('kuhli')) {
+            if ((name.includes('蛇魚') || name.includes('泥鰍') || name.includes('沙鰍') || (name.includes('鰍') && !name.includes('海馬')) || name.includes('loach') || name.includes('kuhli')) && ['generic','eelLoach'].includes(appArchetype)) {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Continuous Dorsal/Caudal Long Ribbon Fin (背尾一體飄鰭) -->
@@ -2448,7 +3563,7 @@
             }
 
             // 000. Plecos & Armored Catfish (皇冠達摩 / 鼠魚 / 異型底棲裝甲魚)
-            if (name.includes('達摩') || name.includes('鼠魚') || name.includes('異型') || name.includes('精靈鼠') || name.includes('兵鯰') || name.includes('pleco') || name.includes('corydoras')) {
+            if (['generic','catfishPleco'].includes(appArchetype) && (name.includes('達摩') || name.includes('鼠魚') || name.includes('異型') || name.includes('精靈鼠') || name.includes('兵鯰') || name.includes('pleco') || name.includes('corydoras'))) {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- High Sail Dorsal Fin (高聳帆狀背鰭) -->
@@ -2479,7 +3594,7 @@
             }
 
             // A. Beluga Whales & Whales (純白圓滾小白鯨 / 巨鯨)
-            if (name.includes('鯨') || name.includes('whale') || name.includes('beluga')) {
+            if ((name.includes('鯨') || name.includes('whale') || name.includes('beluga')) && ['generic','whale','beluga','earlyWhale'].includes(appArchetype)) {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Fluke Tail -->
@@ -2501,7 +3616,7 @@
             }
 
             // B. Seahorses (直立搖曳海馬)
-            if (name.includes('海馬') || name.includes('seahorse')) {
+            if ((name.includes('海馬') || name.includes('seahorse')) && ['generic','seahorse'].includes(appArchetype)) {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Crown -->
@@ -2521,7 +3636,7 @@
             }
 
             // C. Sea Otters & Seals (圓臉萌海獺 / 小海豹)
-            if (name.includes('海獺') || name.includes('海豹') || name.includes('seal') || name.includes('otter')) {
+            if ((name.includes('海獺') || name.includes('海豹') || name.includes('seal') || name.includes('otter')) && ['generic','seal','otter'].includes(appArchetype)) {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Tail -->
@@ -2544,13 +3659,7 @@
             }
 
                         // D2. Nudibranch Dynasty (海兔/海蛞蝓名門：睡衣海兔 Chromodoris quadricolor、毛茸海兔 Sea Bunny、綠葉海羊、西班牙舞娘、皮卡丘雙角金黃——無魚身無魚尾的裸鰓軟體動物)
-            const isNudibranch = name.includes('海羊') || name.includes('海兔') || name.includes('海蛞蝓') || name.includes('海牛崽')
-                || name.includes('nudibranch') || name.includes('sea slug') || name.includes('sea-slug') || name.includes('glaucus')
-                || name.includes('chromodoris') || name.includes('jorunna') || name.includes('hexabranchius')
-                || (name.includes('slug') && !name.includes('keelback'))
-                || name.includes('西班牙海牛') || name.includes('spanish dancer')
-                || name.includes('pajama') || name.includes('sea bunny') || name.includes('leafy sea-goat')
-                || name.includes('fish_1075') || name.includes('pacific golden sea-slug') || name.includes('spanish dancer');
+            const isNudibranch = appArchetype === 'nudibranch'; // App resolver 權威（原關鍵字鏈退役）
             if (isNudibranch) {
                 const isPajama = name.includes('睡衣') || name.includes('pajama') || name.includes('quadricolor') || name.includes('fish_1075');
                 const isSeaBunny = name.includes('毛茸') || name.includes('sea bunny') || name.includes('jorunna');
@@ -2634,13 +3743,9 @@
             }
 
             // D3. Bivalve Dynasty (雙殼貝名門：扇貝/蛤蚌放射肋紋貝殼、微張呼吸開合、夜明珠蚌靈/蚌殼精靈露出璀璨夜明珠、噴口貽貝玄武岩紋、白瓜貝純白殼+血紅外套膜；東非卷貝慈鯛保持魚身走通用原型)
-            const isBivalve = (name.includes('蚌') && !name.includes('蚌蛤')) || name.includes('貽貝')
-                || name.includes('clam') || name.includes('mussel') || name.includes('oyster') || name.includes('scallop')
-                || name.includes('pearl shell') || name.includes('night-pearl') || name.includes('calyptogena')
-                || name.includes('vent mussel') || name.includes('f_5061') || name.includes('f_5062')
-                || name.includes('夜明珠蚌') || name.includes('蚌殼精靈');
+            const isBivalve = appArchetype === 'bivalve'; // App resolver 權威（原關鍵字鏈退役）
             const isShellCichlid = name.includes('貝') && !isBivalve && (name.includes('斑馬貝') || name.includes('圓頂貝') || name.includes('虎皮貝') || name.includes('金線貝') || name.includes('藍眼貝') || name.includes('afr_tan'));
-            if (isBivalve && !isShellCichlid) {
+            if (isBivalve && !isShellCichlid && ['generic','bivalve'].includes(appArchetype)) {
                 const isPearlSpirit = name.includes('夜明珠') || name.includes('蚌殼精靈') || name.includes('pearl shell') || name.includes('night-pearl');
                 const isVentMussel = name.includes('噴口貽貝') || name.includes('vent mussel') || name.includes('f_5061');
                 const isCalyptogena = name.includes('白瓜貝') || name.includes('calyptogena') || name.includes('f_5062');
@@ -2686,7 +3791,7 @@
             }
 
 // E. Sea Turtles (小海龜)
-            if (name.includes('海龜') || name.includes('龜') || name.includes('turtle')) {
+            if ((name.includes('海龜') || name.includes('龜') || name.includes('turtle')) && ['generic','turtle'].includes(appArchetype)) {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Flipper Front -->
@@ -2702,7 +3807,7 @@
             }
 
             // F. Bubble Eye Goldfish (墨黑水泡眼金魚 / 晶瑩水泡)
-            if (name.includes('水泡') || features.includes('bubble_eyes') || name.includes('bubble')) {
+            if ((name.includes('水泡') || features.includes('bubble_eyes') || name.includes('bubble')) && appArchetype === 'generic') {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Tail Fin -->
@@ -2723,7 +3828,7 @@
             }
 
             // G. Ranchu Goldfish (日本蘭壽金魚 / 圓滾草莓頭)
-            if (name.includes('蘭壽') || features.includes('strawberry_hood') || name.includes('ranchu')) {
+            if ((name.includes('蘭壽') || features.includes('strawberry_hood') || name.includes('ranchu')) && appArchetype === 'generic') {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Tail Fin -->
@@ -2742,7 +3847,7 @@
             }
 
             // H. Telescope Eye Goldfish (龍睛 / 蝶尾 / 突出龍眼)
-            if (name.includes('龍睛') || features.includes('telescope_eyes') || name.includes('telescope') || name.includes('蝶尾')) {
+            if ((name.includes('龍睛') || features.includes('telescope_eyes') || name.includes('telescope') || name.includes('蝶尾')) && appArchetype === 'generic') {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Butterfly Long Tail -->
@@ -2763,7 +3868,7 @@
             }
 
             // I. Celestial Eye Goldfish (朝天龍 / 望天眼 / 朝天雙眸)
-            if (name.includes('朝天') || name.includes('望天') || features.includes('celestial_eyes')) {
+            if ((name.includes('朝天') || name.includes('望天') || features.includes('celestial_eyes')) && appArchetype === 'generic') {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Tail -->
@@ -2781,7 +3886,7 @@
             }
 
             // J. Asian Arowana / Dragonfish (古代巨龍魚 / 金龍魚 / 霸氣龍鬚)
-            if (name.includes('巨龍') || name.includes('龍魚') || features.includes('dragon_scales') || name.includes('arowana')) {
+            if ((name.includes('巨龍') || name.includes('龍魚') || features.includes('dragon_scales') || name.includes('arowana')) && appArchetype === 'generic') {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Caudal Tail -->
@@ -2805,7 +3910,7 @@
             }
 
             // K. Pufferfish (皇冠狗頭 / 河豚 / 圓滾迷宮肚)
-            if (name.includes('狗頭') || name.includes('河豚') || features.includes('puffer_belly') || name.includes('puffer') || name.includes('tetraodon')) {
+            if ((name.includes('狗頭') || name.includes('河豚') || features.includes('puffer_belly') || name.includes('puffer') || name.includes('tetraodon')) && ['generic','puffer','boxfish'].includes(appArchetype)) {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Tiny Tail -->
@@ -2831,7 +3936,7 @@
             }
 
             // M. Discus Fish (七彩神仙魚 / 圓盤熱帶魚之王)
-            if (name.includes('七彩神仙') || name.includes('discus') || features.includes('discus_disc')) {
+            if ((name.includes('七彩神仙') || name.includes('discus') || features.includes('discus_disc')) && appArchetype === 'generic') {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Rounded Fan Tail -->
@@ -2853,7 +3958,7 @@
             }
 
             // N. Freshwater Angelfish (月光神仙魚 / 埃及神仙 / 菱形天使)
-            if (name.includes('神仙') || name.includes('angel') || features.includes('angelfish_shape')) {
+            if ((name.includes('神仙') || name.includes('angel') || features.includes('angelfish_shape')) && appArchetype === 'generic') {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Tail -->
@@ -2876,7 +3981,7 @@
             }
 
             // O. Guppy (彩虹孔雀魚 / 焦糖絲帶孔雀魚 / 華麗羽扇尾)
-            if (name.includes('孔雀') || name.includes('guppy') || features.includes('guppy_tail')) {
+            if ((name.includes('孔雀') || name.includes('guppy') || features.includes('guppy_tail')) && appArchetype === 'generic') {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Massive Colorful Fanning Delta Tail (巨大彩虹羽扇大尾鰭) -->
@@ -2893,7 +3998,7 @@
             }
 
             // P. Rummy-nose Tetra (紅鼻剪刀 / 櫻桃紅鼻黑白斑馬剪刀尾)
-            if (name.includes('紅鼻') || name.includes('rummy')) {
+            if ((name.includes('紅鼻') || name.includes('rummy')) && appArchetype === 'generic') {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Black and White Striped Scissors Tail (黑白斑馬剪刀尾) -->
@@ -2912,7 +4017,7 @@
             }
 
             // Q. Glass Catfish (幽靈水晶玻璃貓 / 全透明透視脊骨)
-            if (name.includes('玻璃貓') || name.includes('glass_catfish')) {
+            if ((name.includes('玻璃貓') || name.includes('glass_catfish')) && appArchetype === 'generic') {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Forked Tail -->
@@ -2934,7 +4039,7 @@
             }
 
             // R. Snakeheads / Rainbow Snakehead (東南亞七彩雷龍 / 阿薩姆藍月雷龍 / 蛇頭圓筒長鰭)
-            if (name.includes('雷龍') || name.includes('snakehead') || features.includes('snakehead_pattern')) {
+            if ((name.includes('雷龍') || name.includes('snakehead') || features.includes('snakehead_pattern')) && appArchetype === 'generic') {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Rounded Fan Tail -->
@@ -2958,7 +4063,7 @@
             }
 
             // S. Axolotl (六角恐龍 / 草莓粉紅鰓角)
-            if (name.includes('六角恐龍') || name.includes('axolotl')) {
+            if ((name.includes('六角恐龍') || name.includes('axolotl')) && appArchetype === 'generic') {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Paddle Tail -->
@@ -2983,7 +4088,7 @@
             }
 
             // T. Ancient Bone Sailfish (遠古骸骨戰甲旗魚 / 骨矛霸氣背刺)
-            if (name.includes('旗魚') || name.includes('sailfish') || features.includes('bone_armor') || features.includes('sword')) {
+            if ((name.includes('旗魚') || name.includes('sailfish') || features.includes('bone_armor') || features.includes('sword')) && ['generic','sailfish'].includes(appArchetype)) {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Giant Sail Dorsal Fin with Bone Spikes (高聳骨刺帆鰭) -->
@@ -3006,7 +4111,7 @@
             }
 
             // U. Armored Emperor Crab (帝王黑金刺甲蟹 / 雙鉗揮舞)
-            if (name.includes('蟹') || name.includes('crab') || features.includes('crab_claws')) {
+            if ((name.includes('蟹') || name.includes('crab') || features.includes('crab_claws')) && ['generic','crab'].includes(appArchetype)) {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Spiked Legs (尖刺側足) -->
@@ -3029,7 +4134,7 @@
             }
 
             // V. Wizard Octopus / Deep Sea Cephalopod (珊瑚提燈巫師章魚)
-            if (name.includes('章魚') || name.includes('蛸') || name.includes('octopus') || features.includes('floating_tentacles')) {
+            if ((name.includes('章魚') || name.includes('蛸') || name.includes('octopus') || features.includes('floating_tentacles')) && ['generic','octopus'].includes(appArchetype)) {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Glowing Magic Lantern Staff (珊瑚提燈法杖) -->
@@ -3053,7 +4158,7 @@
             }
 
             // W. Cute Alligators & Reptiles (翡翠呆萌小短吻鱷)
-            if (name.includes('鱷') || name.includes('alligator') || name.includes('croc') || features.includes('cute_snout')) {
+            if ((name.includes('鱷') || name.includes('alligator') || name.includes('croc') || features.includes('cute_snout')) && ['generic','gator'].includes(appArchetype)) {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Tail with Dorsal Ridges (背脊鋸齒長尾) -->
@@ -3076,8 +4181,8 @@
             }
 
             // X. Invertebrates
-            if (name.includes('水母')) return `<span style="font-size: ${size * 0.75}px;">🪼</span>`;
-            if (name.includes('烏賊') || name.includes('魷')) return `<span style="font-size: ${size * 0.75}px;">🦑</span>`;
+            if (name.includes('水母') && ['generic','jellyfish'].includes(appArchetype)) return `<span style="font-size: ${size * 0.75}px;">🪼</span>`;
+            if ((name.includes('烏賊') || name.includes('魷')) && appArchetype === 'generic') return `<span style="font-size: ${size * 0.75}px;">🦑</span>`;
 
             // Procedural SVG Vector Fish with exact blueprint colors & tail geometry
             const gradId = 'g_' + (fish.id || 'f').replace(/[^a-zA-Z0-9]/g, '_');
@@ -3305,7 +4410,11 @@
             document.getElementById('modalSpeed').textContent = `${fish.baseSwimSpeed || 0.8}`;
             
             if (fish.breedingRecipe) {
-                document.getElementById('modalRecipe').textContent = `${fish.breedingRecipe.parentA} + ${fish.breedingRecipe.parentB} (${fish.breedingRecipe.mutationHint || t('modal_default_cat')})`;
+                document.getElementById('modalRecipe').textContent = (typeof fish.breedingRecipe === 'string')
+                    ? fish.breedingRecipe
+                    : Array.isArray(fish.breedingRecipe)
+                        ? fish.breedingRecipe.join(' + ')
+                        : `${fish.breedingRecipe.parentA} + ${fish.breedingRecipe.parentB} (${fish.breedingRecipe.mutationHint || t('modal_default_cat')})`;
                 document.getElementById('modalRecipeBox').classList.remove('hidden');
             } else {
                 document.getElementById('modalRecipeBox').classList.add('hidden');
