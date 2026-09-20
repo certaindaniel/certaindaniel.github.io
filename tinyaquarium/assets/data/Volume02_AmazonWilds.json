@@ -3365,7 +3365,7 @@
     "id": "VOL02_088",
     "commonName": "象鼻魚",
     "scientificName": "Gnathonemus petersii",
-    "description": "擁有長長下巴的奇特魚類",
+    "description": "來自西非與剛果河混濁河川的弱電魚，用微弱電脈衝探路與交談，長長的下巴像小象鼻",
     "rarity": "Rare",
     "category": "南美奇特擬態與古生物",
     "hatchStepsRequired": 1300,
@@ -3391,12 +3391,12 @@
     ],
     "i18n": {
       "en": {
-        "commonName": "Trunk Puffer",
-        "description": "A strange fish with an unusually long chin."
+        "commonName": "Elephantnose Fish",
+        "description": "A weakly electric fish from the murky rivers of West Africa and the Congo that finds its way and chats with faint electric pulses; its long chin looks like a tiny trunk."
       },
       "zh-Hans": {
         "commonName": "象鼻鱼",
-        "description": "拥有长长下巴的奇特鱼类"
+        "description": "来自西非与刚果河混浊河川的弱电鱼，用微弱电脉冲探路与交谈，长长的下巴像小象鼻"
       }
     }
   },

@@ -3067,7 +3067,7 @@
     "id": "AFR_CON_006",
     "commonName": "象鼻魚",
     "scientificName": "Gnathonemus petersii",
-    "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【象鼻魚】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
+    "description": "棲息於西非與中非（剛果河、尼日河流域）混濁河川中的非洲弱電魚【象鼻魚】，以微弱電脈衝感知四周、與同伴溝通，下垂的長吻如同小象鼻，在黑暗泥底中覓食。",
     "rarity": "Common",
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 3017,
@@ -3094,11 +3094,11 @@
     "i18n": {
       "en": {
         "commonName": "Elephantnose Fish",
-        "description": "A classic cichlid (Elephantnose Fish) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+        "description": "A weakly electric African fish (Elephantnose Fish) of the murky rivers of West and Central Africa (the Congo and Niger basins) that senses its surroundings and talks to its kin with faint electric pulses; its drooping trunk-like chin probes the dark mud for food."
       },
       "zh-Hans": {
         "commonName": "象鼻鱼",
-        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【象鼻鱼】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+        "description": "栖息于西非与中非（刚果河、尼日河流域）混浊河川中的非洲弱电鱼【象鼻鱼】，以微弱电脉冲感知四周、与同伴沟通，下垂的长吻如同小象鼻，在黑暗泥底中觅食。"
       }
     }
   },
@@ -3690,7 +3690,7 @@
     "id": "AFR_CON_022",
     "commonName": "長吻象鼻魚",
     "scientificName": "Mormyrus longirostris",
-    "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【長吻象鼻魚】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
+    "description": "棲息於西非與中非（剛果河、尼日河流域）混濁河川中的非洲弱電魚【長吻象鼻魚】，以微弱電脈衝感知四周、與同伴溝通，細長下彎的管狀長吻能探入泥底翻找小蟲。",
     "rarity": "Common",
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 1367,
@@ -3717,11 +3717,11 @@
     "i18n": {
       "en": {
         "commonName": "Longsnout Elephantnose",
-        "description": "A classic cichlid (Longsnout Elephantnose) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+        "description": "A weakly electric African fish (Longsnout Elephantnose) of the murky rivers of West and Central Africa (the Congo and Niger basins) that senses its surroundings and talks to its kin with faint electric pulses; its long, down-curved tubular snout digs into the mud for tiny worms."
       },
       "zh-Hans": {
         "commonName": "长吻象鼻鱼",
-        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【长吻象鼻鱼】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+        "description": "栖息于西非与中非（刚果河、尼日河流域）混浊河川中的非洲弱电鱼【长吻象鼻鱼】，以微弱电脉冲感知四周、与同伴沟通，细长下弯的管状长吻能探入泥底翻找小虫。"
       }
     }
   },
@@ -3729,7 +3729,7 @@
     "id": "AFR_CON_023",
     "commonName": "短吻象鼻魚",
     "scientificName": "Marcusenius sp.",
-    "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【短吻象鼻魚】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
+    "description": "棲息於西非與中非（剛果河、尼日河流域）混濁河川中的非洲弱電魚【短吻象鼻魚】，以微弱電脈衝感知四周、與同伴溝通，短短的吻部圓潤可愛，常成群在水草根間巡游。",
     "rarity": "Legendary",
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 3175,
@@ -3756,11 +3756,11 @@
     "i18n": {
       "en": {
         "commonName": "Shortsnout Elephantnose",
-        "description": "A classic cichlid (Shortsnout Elephantnose) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+        "description": "A weakly electric African fish (Shortsnout Elephantnose) of the murky rivers of West and Central Africa (the Congo and Niger basins) that senses its surroundings and talks to its kin with faint electric pulses; its short, rounded snout gives it a cute look as schools patrol among plant roots."
       },
       "zh-Hans": {
         "commonName": "短吻象鼻鱼",
-        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【短吻象鼻鱼】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+        "description": "栖息于西非与中非（刚果河、尼日河流域）混浊河川中的非洲弱电鱼【短吻象鼻鱼】，以微弱电脉冲感知四周、与同伴沟通，短短的吻部圆润可爱，常成群在水草根间巡游。"
       }
     }
   },
@@ -3768,7 +3768,7 @@
     "id": "AFR_CON_024",
     "commonName": "斑馬象鼻魚",
     "scientificName": "Brienomyrus brachyistius",
-    "description": "棲息於東非大裂谷清澈湖泊中的經典慈鯛【斑馬象鼻魚】，具有海水魚般奪目豔麗的色彩與護卵育幼的靈性智慧。",
+    "description": "棲息於西非與中非（剛果河、尼日河流域）混濁河川中的非洲弱電魚【斑馬象鼻魚】，以微弱電脈衝感知四周、與同伴溝通，身上的淡色橫帶在昏暗水中若隱若現。",
     "rarity": "Epic",
     "category": "剛果與尼羅河古生代巨魚",
     "hatchStepsRequired": 1903,
@@ -3795,11 +3795,11 @@
     "i18n": {
       "en": {
         "commonName": "Zebra Elephantnose",
-        "description": "A classic cichlid (Zebra Elephantnose) of the clear lakes of the East African Great Rift Valley, boasting dazzling sea-fish-bright colors and the gentle wisdom of guarding its eggs and rearing its young."
+        "description": "A weakly electric African fish (Zebra Elephantnose) of the murky rivers of West and Central Africa (the Congo and Niger basins) that senses its surroundings and talks to its kin with faint electric pulses; pale bands flicker along its body in the dim water."
       },
       "zh-Hans": {
         "commonName": "斑马象鼻鱼",
-        "description": "栖息于东非大裂谷清澈湖泊中的经典慈鲷【斑马象鼻鱼】，具有海水鱼般夺目艳丽的色彩与护卵育幼的灵性智能。"
+        "description": "栖息于西非与中非（刚果河、尼日河流域）混浊河川中的非洲弱电鱼【斑马象鼻鱼】，以微弱电脉冲感知四周、与同伴沟通，身上的淡色横带在昏暗水中若隐若现。"
       }
     }
   },
