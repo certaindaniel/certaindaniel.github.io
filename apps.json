@@ -580,37 +580,43 @@
         "en": {
           "name": "ISBN Book Manager",
           "tagline": "Scan a barcode, get the book cataloged instantly. Track buy price, sell price and profit.",
-          "promo": "Scan a barcode, get the book cataloged instantly. Track buy price, sell price and profit — built for book lovers and resellers alike.",
+          "promo": "Scan a barcode, get the book cataloged instantly. Track buy price, sell price and profit — with iCloud sync across your devices in the full version.",
           "cta": "View on the App Store",
           "features": [
             "Scan an ISBN barcode to auto-catalog the book",
             "Track buy price, sell price and profit per book",
+            "Prices shown in your region's currency",
             "Sales statistics at a glance",
-            "Built for collectors and secondhand booksellers"
+            "iCloud sync across your iPhone and iPad (full version)",
+            "Free for up to 20 books; one purchase unlocks unlimited — no subscription"
           ]
         },
         "zh-hant": {
           "name": "ISBN 書籍管理",
           "tagline": "掃一下條碼，書籍自動建檔。買入價、售出價與利潤一目了然。",
-          "promo": "掃一下條碼，書籍自動建檔。買入價、售出價與利潤一目了然——藏書家與二手書賣家的隨身書庫。",
+          "promo": "掃一下條碼，書籍自動建檔。買入價、售出價與利潤一目了然——完整版還能用 iCloud 在你的裝置間共用同一份書庫。",
           "cta": "在 App Store 查看",
           "features": [
             "掃描 ISBN 條碼自動建檔",
             "記錄每本書的買入價、售出價與利潤",
+            "金額以你所在地區的幣別顯示",
             "銷售統計一目了然",
-            "專為藏書家與二手書賣家設計"
+            "iCloud 跨裝置同步，iPhone 與 iPad 共用同一份書庫（完整版）",
+            "免費版可建檔 20 本；一次購買解鎖無上限，無訂閱"
           ]
         },
         "zh-hans": {
           "name": "ISBN 书籍管理",
           "tagline": "扫一下条码，书籍自动建档。买入价、售出价与利润一目了然。",
-          "promo": "扫一下条码，书籍自动建档。买入价、售出价与利润一目了然——藏书家与二手书商的随身书库。",
+          "promo": "扫一下条码，书籍自动建档。买入价、售出价与利润一目了然——完整版还能用 iCloud 在你的设备间共用同一份书库。",
           "cta": "在 App Store 查看",
           "features": [
             "扫描 ISBN 条码自动建档",
             "记录每本书的买入价、售出价与利润",
+            "金额以你所在地区的币别显示",
             "销售统计一目了然",
-            "专为藏书家与二手书商设计"
+            "iCloud 跨设备同步，iPhone 与 iPad 共用同一份书库（完整版）",
+            "免费版可建档 20 本；一次购买解锁无上限，无订阅"
           ]
         }
       }
