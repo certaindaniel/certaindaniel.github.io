@@ -1392,30 +1392,31 @@
       "locales": {
         "en": {
           "name": "TrailPop",
-          "tagline": "Turn your trip photos into a fog-of-war travel trail video — 100% on-device.",
-          "promo": "TrailPop turns your trip photos into a turn-by-turn travel trail video. Fog-of-war unfogs as your route progresses, photos pop out in 3D at each stop, and everything renders 100% on your device — nothing uploaded.",
+          "tagline": "Turn your trip photos into a map-route travel video with a map-fog reveal — rendered on your device.",
+          "promo": "TrailPop reads the GPS and time stored in your trip photos, orders your stops, traces real roads with Apple Maps and turns it all into a 9:16 route video. The map fog clears as your route progresses, photos pop out at each stop, and the video renders on your device — your photos are never uploaded.",
           "cta": "View on the App Store",
           "features": [
             "Reads GPS + timestamp from your photos' EXIF automatically",
             "Real turn-by-turn road navigation trace (MapKit directions)",
-            "Fog-of-war map unfogs as your trip progresses",
+            "Map fog clears as your trip progresses",
             "Photos pop out in 3D at each stop",
-            "5 transport modes: car, plane, hiking, train, boat",
+            "5 transport modes: car, plane, walking, train, boat",
             "3 visual themes, 15s–5min export, 9:16 for Reels/TikTok",
-            "100% on-device — nothing uploaded"
+            "Procedurally generated background music",
+            "Rendered on your device — photos never uploaded"
           ],
           "qa": [
             {
               "q": "Does TrailPop need an internet connection?",
-              "a": "No. Reading photos, building your route, and rendering the video all happen offline, on your device."
+              "a": "For the map, yes. Road routes, place names and map tiles come from Apple Maps, which needs a connection. Reading your photos and rendering the video happen on your device."
             },
             {
               "q": "Is my data uploaded anywhere?",
-              "a": "No. TrailPop has no server — your photos, GPS/timestamp metadata, and exported videos never leave your device."
+              "a": "Your photos and exported videos never leave your device, and TrailPop has no server of its own. To draw routes and name places, the stop coordinates are sent to Apple Maps (Apple's MapKit service)."
             },
             {
               "q": "Is this a subscription?",
-              "a": "TrailPop offers optional PRO subscriptions and a lifetime purchase via Apple's StoreKit; the free tier works without any purchase."
+              "a": "No subscription is required. The free tier covers up to 10 waypoints at 30fps with a watermark. Optional PRO (subscription or one-time lifetime purchase via Apple) unlocks 50 photos per trip, unlimited projects, all themes and transport modes, 4K 60fps, no watermark and videos up to 5 minutes."
             },
             {
               "q": "Does TrailPop track my location?",
@@ -1425,30 +1426,31 @@
         },
         "zh-hant": {
           "name": "TrailPop",
-          "tagline": "把旅遊照片變成地圖迷霧逐段點亮的旅行軌跡影片，100% 本機處理。",
-          "promo": "TrailPop 把旅遊照片變成 turn-by-turn 的旅行軌跡影片。地圖迷霧隨路線推進逐段點亮，每個停靠點相片會 3D 彈出特寫，全程 100% 本機運算，不上傳任何內容。",
+          "tagline": "把旅遊照片變成地圖迷霧逐段點亮的旅行軌跡影片，在你的裝置上算圖。",
+          "promo": "TrailPop 讀取旅遊照片裡的 GPS 與拍攝時間，自動排序停靠點，用 Apple 地圖算出真實道路路線，生成 9:16 的軌跡影片。地圖迷霧隨路線推進逐段點亮，每個停靠點相片彈出特寫，影片在你的裝置上算圖，照片不會上傳。",
           "cta": "在 App Store 查看",
           "features": [
             "自動讀取照片 EXIF 的 GPS 座標與拍攝時間",
             "真實道路 turn-by-turn 導航軌跡（MapKit）",
             "地圖迷霧隨路線推進逐段點亮",
             "每個景點相片 3D 彈出特寫",
-            "5 種交通工具：汽車、飛機、健行、火車、輪船",
+            "5 種交通工具：汽車、飛機、徒步健行、火車、輪船",
             "3 種視覺主題，15 秒～5 分鐘匯出，9:16 適合 Reels/TikTok",
-            "100% 本機運算，不上傳伺服器"
+            "程序生成的背景音樂",
+            "影片在裝置上算圖，照片不上傳"
           ],
           "qa": [
             {
               "q": "TrailPop 需要連網嗎？",
-              "a": "不需要，讀取照片、建立路線、渲染影片全部都在裝置上離線完成。"
+              "a": "地圖部分需要。道路路線、地名與地圖圖資來自 Apple 地圖，需要連網；讀取照片與算圖影片則在你的裝置上完成。"
             },
             {
               "q": "我的資料會被上傳嗎？",
-              "a": "不會，TrailPop 沒有伺服器，你的照片、GPS／時間中繼資料以及輸出的影片都不會離開你的裝置。"
+              "a": "你的照片與輸出的影片不會離開你的裝置，TrailPop 也沒有自己的伺服器。為了繪製路線與標示地名，停靠點座標會傳給 Apple 地圖（Apple MapKit 服務）。"
             },
             {
               "q": "這是訂閱制嗎？",
-              "a": "TrailPop 提供選購的 PRO 訂閱與買斷方案（透過 Apple StoreKit），免費版本則不需要任何購買即可使用。"
+              "a": "不是必須。免費版可用 10 個停靠點、30fps、帶浮水印；選購 PRO（訂閱或一次買斷，透過 Apple 付款）可解鎖每趟 50 張照片、無限專案、全部主題與交通工具、4K 60fps、無浮水印，以及最長 5 分鐘影片。"
             },
             {
               "q": "TrailPop 會追蹤我的位置嗎？",
@@ -1458,30 +1460,31 @@
         },
         "zh-hans": {
           "name": "TrailPop",
-          "tagline": "把旅游照片变成地图迷雾逐段点亮的旅行轨迹影片，100% 本地处理。",
-          "promo": "TrailPop 把旅游照片变成 turn-by-turn 的旅行轨迹影片。地图迷雾随路线推进逐段点亮，每个停靠点照片会 3D 弹出特写，全程 100% 本地运算，不上传任何内容。",
+          "tagline": "把旅游照片变成地图迷雾逐段点亮的旅行轨迹视频，在你的设备上渲染。",
+          "promo": "TrailPop 读取旅游照片里的 GPS 与拍摄时间，自动排序停靠点，用 Apple 地图算出真实道路路线，生成 9:16 的轨迹视频。地图迷雾随路线推进逐段点亮，每个停靠点照片弹出特写，视频在你的设备上渲染，照片不会上传。",
           "cta": "在 App Store 查看",
           "features": [
             "自动读取照片 EXIF 的 GPS 坐标与拍摄时间",
             "真实道路 turn-by-turn 导航轨迹（MapKit）",
             "地图迷雾随路线推进逐段点亮",
             "每个景点照片 3D 弹出特写",
-            "5 种交通工具：汽车、飞机、徒步、火车、轮船",
+            "5 种交通工具：汽车、飞机、徒步健行、火车、轮船",
             "3 种视觉主题，15 秒～5 分钟导出，9:16 适合 Reels/TikTok",
-            "100% 本地运算，不上传服务器"
+            "程序生成的背景音乐",
+            "视频在设备上渲染，照片不上传"
           ],
           "qa": [
             {
               "q": "TrailPop 需要联网吗？",
-              "a": "不需要，读取照片、构建路线、渲染视频全部都在设备上离线完成。"
+              "a": "地图部分需要。道路路线、地名与地图图块来自 Apple 地图，需要联网；读取照片与渲染视频则在你的设备上完成。"
             },
             {
               "q": "我的数据会被上传吗？",
-              "a": "不会，TrailPop 没有服务器，你的照片、GPS／时间元数据以及导出的视频都不会离开你的设备。"
+              "a": "你的照片与导出的视频不会离开你的设备，TrailPop 也没有自己的服务器。为了绘制路线与标示地名，停靠点坐标会发送给 Apple 地图（Apple MapKit 服务）。"
             },
             {
               "q": "这是订阅制吗？",
-              "a": "TrailPop 提供可选购的 PRO 订阅与买断方案（通过 Apple StoreKit），免费版本则不需要任何购买即可使用。"
+              "a": "不是必须。免费版可用 10 个停靠点、30fps、带水印；选购 PRO（订阅或一次买断，通过 Apple 付款）可解锁每趟 50 张照片、无限项目、全部主题与交通方式、4K 60fps、无水印，以及最长 5 分钟视频。"
             },
             {
               "q": "TrailPop 会追踪我的位置吗？",

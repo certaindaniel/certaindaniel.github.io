@@ -2,6 +2,7 @@
 """Generate the static site from apps.json. Re-run after editing apps.json or adding an app."""
 import json
 import html
+import re
 import os
 import glob
 import urllib.parse
@@ -17,6 +18,8 @@ with open(os.path.join(ROOT, "apps.json"), encoding="utf-8") as f:
 SITE = data["site"]
 LOCALES = SITE["locales"]
 APPS = data["apps"]
+SITE_URL = f"https://{SITE['githubUser']}.github.io"
+OG_LOCALE = {"en": "en_US", "zh-hant": "zh_TW", "zh-hans": "zh_CN"}
 
 
 def e(s):
@@ -32,14 +35,42 @@ def lang_switch(locale, app_id=None):
     return '<nav class="lang-switch">' + "".join(links) + "</nav>"
 
 
-def page(title, body, locale):
+def seo_meta(title, locale, path, description=None, image=None, app_store_url=None):
+    """SEO / share-card / Smart App Banner tags. `path` is the page's site-relative URL."""
+    url = SITE_URL + path
+    tags = [f'<link rel="canonical" href="{e(url)}">']
+    alt_path = path.split("/", 2)[2] if path.count("/") >= 2 else ""
+    for loc in LOCALES:
+        tags.append(f'<link rel="alternate" hreflang="{loc}" href="{e(SITE_URL)}/{loc}/{e(alt_path)}">')
+    tags.append(f'<link rel="alternate" hreflang="x-default" href="{e(SITE_URL)}/{SITE["defaultLocale"]}/{e(alt_path)}">')
+    if description:
+        tags.append(f'<meta name="description" content="{e(description)}">')
+    tags += [
+        '<meta property="og:type" content="website">',
+        f'<meta property="og:title" content="{e(title)}">',
+        f'<meta property="og:url" content="{e(url)}">',
+        f'<meta property="og:locale" content="{OG_LOCALE.get(locale, "en_US")}">',
+    ]
+    if description:
+        tags.append(f'<meta property="og:description" content="{e(description)}">')
+    if image:
+        tags.append(f'<meta property="og:image" content="{e(SITE_URL + "/" + image.lstrip("/"))}">')
+    tags.append('<meta name="twitter:card" content="summary">')
+    # Safari Smart App Banner: only for pages of an app that is actually live on the Store.
+    m = re.search(r"/id(\d+)", app_store_url or "")
+    if m:
+        tags.append(f'<meta name="apple-itunes-app" content="app-id={m.group(1)}">')
+    return "\n".join(tags) + "\n"
+
+
+def page(title, body, locale, head_extra=""):
     return f"""<!doctype html>
 <html lang="{locale}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title>
-<link rel="stylesheet" href="/style.css">
+{head_extra}<link rel="stylesheet" href="/style.css">
 </head>
 <body>
 {body}
@@ -121,7 +152,7 @@ def hub_html(locale):
   </div>
   <footer class="site">© {e(SITE['owner'])} · <a href="https://github.com/{e(SITE['githubUser'])}">GitHub</a></footer>
 </div>"""
-    return page(hub["title"], body, locale)
+    return page(hub["title"], body, locale, seo_meta(hub["title"], locale, f"/{locale}/", description=hub.get("subtitle")))
 
 
 PRIVACY_LABEL = {
@@ -236,7 +267,17 @@ def app_html(app, locale):
   {support_html(app, locale)}
   <a class="back-link" href="/{locale}/">← {e(hub['title'])}</a>
 </div>"""
-    return page(f"{loc['name']} — {loc['tagline']}", body, locale)
+    # Square icon, not a 9:16 screenshot: share cards center-crop portrait images badly.
+    # Optional per-app `ogImage` (ideally 1200x630) overrides it.
+    og_image = app.get("ogImage") or app["icon"]
+    title = f"{loc['name']} — {loc['tagline']}"
+    head = seo_meta(
+        title, locale, f"/{locale}/{app['id']}/",
+        description=loc.get("promo") or loc["tagline"],
+        image=og_image,
+        app_store_url=None if app.get("comingSoon") else app.get("appStoreUrl"),
+    )
+    return page(title, body, locale, head)
 
 
 SITE_LANG_QUERY = {"en": "en", "zh-hant": "zh-hant", "zh-hans": "zh-hans"}
