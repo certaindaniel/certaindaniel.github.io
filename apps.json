@@ -1412,11 +1412,11 @@
             },
             {
               "q": "Is my data uploaded anywhere?",
-              "a": "Your photos and exported videos never leave your device, and TrailPop has no server of its own. To draw routes and name places, the stop coordinates are sent to Apple Maps (Apple's MapKit service)."
+              "a": "Your photos and exported videos never leave your device, and TrailPop has no server of its own. To draw routes and name places, the stop coordinates are sent to Apple Maps (Apple's MapKit service). The free iOS version shows rewarded ads from Google AdMob, which may collect device and ad data under Google's privacy policy; see the privacy policy for details."
             },
             {
               "q": "Is this a subscription?",
-              "a": "No subscription is required. The free tier covers up to 10 waypoints at 30fps with a watermark. Optional PRO (subscription or one-time lifetime purchase via Apple) unlocks 50 photos per trip, unlimited projects, all themes and transport modes, 60fps, no watermark and videos up to 5 minutes."
+              "a": "No subscription is required. On iPhone and iPad the free tier includes 3 video exports a day; after that, each export needs one short rewarded ad. It covers up to 10 waypoints at 30fps with a watermark. Optional PRO (subscription or one-time lifetime purchase via Apple) has no ads and unlocks 50 photos per trip, unlimited projects, all themes and transport modes, 60fps, no watermark and videos up to 5 minutes. The Mac version has no ads and no export limit."
             },
             {
               "q": "Does TrailPop track my location?",
@@ -1446,11 +1446,11 @@
             },
             {
               "q": "我的資料會被上傳嗎？",
-              "a": "你的照片與輸出的影片不會離開你的裝置，TrailPop 也沒有自己的伺服器。為了繪製路線與標示地名，停靠點座標會傳給 Apple 地圖（Apple MapKit 服務）。"
+              "a": "你的照片與輸出的影片不會離開你的裝置，TrailPop 也沒有自己的伺服器。為了繪製路線與標示地名，停靠點座標會傳給 Apple 地圖（Apple MapKit 服務）。iOS 免費版會顯示 Google AdMob 的獎勵廣告，AdMob 可能依 Google 隱私權政策收集裝置與廣告資料，詳見隱私權政策。"
             },
             {
               "q": "這是訂閱制嗎？",
-              "a": "不是必須。免費版可用 10 個停靠點、30fps、帶浮水印；選購 PRO（訂閱或一次買斷，透過 Apple 付款）可解鎖每趟 50 張照片、無限專案、全部主題與交通工具、60fps、無浮水印，以及最長 5 分鐘影片。"
+              "a": "不是必須。在 iPhone 與 iPad 上，免費版每天可免費匯出 3 支影片，之後每次匯出需觀看一則簡短的獎勵廣告；免費版可用 10 個停靠點、30fps、帶浮水印。選購 PRO（訂閱或一次買斷，透過 Apple 付款）沒有廣告，並可解鎖每趟 50 張照片、無限專案、全部主題與交通工具、60fps、無浮水印，以及最長 5 分鐘影片。Mac 版沒有廣告，也沒有匯出次數限制。"
             },
             {
               "q": "TrailPop 會追蹤我的位置嗎？",
@@ -1480,11 +1480,11 @@
             },
             {
               "q": "我的数据会被上传吗？",
-              "a": "你的照片与导出的视频不会离开你的设备，TrailPop 也没有自己的服务器。为了绘制路线与标示地名，停靠点坐标会发送给 Apple 地图（Apple MapKit 服务）。"
+              "a": "你的照片与导出的视频不会离开你的设备，TrailPop 也没有自己的服务器。为了绘制路线与标示地名，停靠点坐标会发送给 Apple 地图（Apple MapKit 服务）。iOS 免费版会展示 Google AdMob 的激励广告，AdMob 可能依 Google 隐私政策收集设备与广告数据，详见隐私政策。"
             },
             {
               "q": "这是订阅制吗？",
-              "a": "不是必须。免费版可用 10 个停靠点、30fps、带水印；选购 PRO（订阅或一次买断，通过 Apple 付款）可解锁每趟 50 张照片、无限项目、全部主题与交通方式、60fps、无水印，以及最长 5 分钟视频。"
+              "a": "不是必须。在 iPhone 与 iPad 上，免费版每天可免费导出 3 个视频，之后每次导出需观看一则简短的激励广告；免费版可用 10 个停靠点、30fps、带水印。选购 PRO（订阅或一次买断，通过 Apple 付款）没有广告，并可解锁每趟 50 张照片、无限项目、全部主题与交通方式、60fps、无水印，以及最长 5 分钟视频。Mac 版没有广告，也没有导出次数限制。"
             },
             {
               "q": "TrailPop 会追踪我的位置吗？",
