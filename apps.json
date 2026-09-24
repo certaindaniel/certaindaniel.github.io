@@ -1416,7 +1416,7 @@
             },
             {
               "q": "Is this a subscription?",
-              "a": "No subscription is required. The free tier covers up to 10 waypoints at 30fps with a watermark. Optional PRO (subscription or one-time lifetime purchase via Apple) unlocks 50 photos per trip, unlimited projects, all themes and transport modes, 4K 60fps, no watermark and videos up to 5 minutes."
+              "a": "No subscription is required. The free tier covers up to 10 waypoints at 30fps with a watermark. Optional PRO (subscription or one-time lifetime purchase via Apple) unlocks 50 photos per trip, unlimited projects, all themes and transport modes, 60fps, no watermark and videos up to 5 minutes."
             },
             {
               "q": "Does TrailPop track my location?",
@@ -1450,7 +1450,7 @@
             },
             {
               "q": "這是訂閱制嗎？",
-              "a": "不是必須。免費版可用 10 個停靠點、30fps、帶浮水印；選購 PRO（訂閱或一次買斷，透過 Apple 付款）可解鎖每趟 50 張照片、無限專案、全部主題與交通工具、4K 60fps、無浮水印，以及最長 5 分鐘影片。"
+              "a": "不是必須。免費版可用 10 個停靠點、30fps、帶浮水印；選購 PRO（訂閱或一次買斷，透過 Apple 付款）可解鎖每趟 50 張照片、無限專案、全部主題與交通工具、60fps、無浮水印，以及最長 5 分鐘影片。"
             },
             {
               "q": "TrailPop 會追蹤我的位置嗎？",
@@ -1484,7 +1484,7 @@
             },
             {
               "q": "这是订阅制吗？",
-              "a": "不是必须。免费版可用 10 个停靠点、30fps、带水印；选购 PRO（订阅或一次买断，通过 Apple 付款）可解锁每趟 50 张照片、无限项目、全部主题与交通方式、4K 60fps、无水印，以及最长 5 分钟视频。"
+              "a": "不是必须。免费版可用 10 个停靠点、30fps、带水印；选购 PRO（订阅或一次买断，通过 Apple 付款）可解锁每趟 50 张照片、无限项目、全部主题与交通方式、60fps、无水印，以及最长 5 分钟视频。"
             },
             {
               "q": "TrailPop 会追踪我的位置吗？",
