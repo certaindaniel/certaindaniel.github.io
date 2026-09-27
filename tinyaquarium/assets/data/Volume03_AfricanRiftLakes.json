@@ -1346,9 +1346,9 @@
     "baseCoinYield": 3,
     "emojiOrSprite": "🐟",
     "visualBlueprint": {
-      "primaryColor": "#09DD45",
-      "secondaryColor": "#4AA5FA",
-      "accentColor": "#F65568",
+      "primaryColor": "#F5B301",
+      "secondaryColor": "#FDE68A",
+      "accentColor": "#38BDF8",
       "tailShape": "lyre",
       "bodyLength": 22.0,
       "bodyHeight": 11.0,
