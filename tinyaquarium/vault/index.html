@@ -2421,6 +2421,1040 @@
                 ${_appEye(33.4, 12.6, 0.95)}`)}</svg>`;
         }
 
+        // ── 2026-09-27 同步 App 的甜點魚與節慶真魚（ConfectionSpriteView / MotifFishSpriteView 靜態姿勢 phase = 0）──
+        // 逐行移植 App 的 GraphicsContext 繪圖：同一組 44×30 座標、同樣的 translate / rotate / scale / clip 疊法，
+        // 外層用 _appFrame 放進 48×48。兩張表與 App 的 FishSpecies.reviewedConfectionShapes / reviewedMotifFish 同源（依 id，不看名稱）。
+        const REVIEWED_CONFECTION_SHAPES = {
+            "fish_1003": "snowSkinMooncake",     // 中秋冰皮月餅魚
+            "mid_autumn_mooncake_koi": "bakedMooncake", // 中秋流心金沙月餅鯉
+            "fish_1032": "taiyaki",              // 鯛魚燒暖暖魚
+            "fish_1030": "macaron",              // 馬卡龍七彩鯛
+            "fish_1039": "donut",                // 甜甜圈神仙魚
+            "fish_1034": "strawberryShortcake",  // 鮮奶油草莓蛋糕魚
+            "fish_1033": "tiramisu",             // 提拉米蘇神仙魚
+            "fish_1035": "lavaCake",             // 巧克力熔岩斗魚
+            "fish_1037": "mangoPudding",         // 芒果布丁熱帶魚
+            "fish_1041": "lemonTart",            // 檸檬塔小丑魚
+            "fish_1042": "blueberryCheesecake",  // 藍莓起司蛋糕鮭魚
+            "fish_1044": "tanghulu",             // 糖葫蘆金魚
+            "fish_1048": "birdsNestSoup",        // 冰糖燕窩白魚
+            "fish_1049": "fruitTart",            // 水果塔孔雀魚
+            "fish_1050": "bubbleTea",            // 珍珠奶茶燈魚
+            "fish_1091": "gingerbreadCookie",    // 糖果屋餅乾魚
+            "fish_1004": "pumpkinLantern",       // 萬聖南瓜提燈
+            "fish_1005": "snowGlobe",            // 聖誕雪球
+            "fish_1006": "marigold",             // 亡靈節萬壽菊
+            "fish_1007": "paperLantern",         // 元宵花燈
+            "fish_1008": "herbSachet",           // 端午艾草香包魚
+            "fish_1013": "cloverLeaf",           // 綠意幸運草神仙魚
+            "fish_1015": "sunflower",            // 盛夏向日葵太陽魚
+            "fish_1017": "mapleLeaf",            // 楓葉紅秋刀
+            "fish_1018": "chrysanthemum",        // 重陽菊花鯛
+            "fish_1019": "wheatEar",             // 豐收麥穗小丑魚
+            "fish_1023": "plumBlossom",          // 臘梅香鱂
+            "fish_1024": "rose",                 // 情人節玫瑰吻魚
+            "fish_1025": "carnation",            // 母親節康乃馨孔雀魚
+            "fish_1076": "clockworkGear",        // 發條齒輪魚
+            "fish_1079": "wishBottle",           // 漂流瓶許願魚
+            "fish_1081": "snowflake",            // 水晶雪花魚
+            "fish_1082": "musicNote",            // 霓虹音符魚
+            "fish_1083": "waterDrop",            // 水滴精靈
+            "fish_1084": "dreamOrb",             // 玻璃球夢境魚
+            "fish_1087": "cottonCloud",          // 雲朵棉花魚
+            "fish_1088": "roseWindow",           // 彩繪玻璃神仙魚
+            "fish_1096": "kaleidoscope",         // 萬花筒斑馬魚
+        };
+        const REVIEWED_MOTIF_FISH = {
+            "fish_1002": { body: "goldfish", motif: "fireworksNight" },   // 夏夜花火金魚
+            "fish_1010": { body: "goldfish", motif: "peachBlossom" },     // 桃花流水金魚
+            "fish_1011": { body: "swallowtail", motif: "springSwallow" }, // 春分燕子魚
+            "fish_1014": { body: "tetra", motif: "fireflyGlow" },         // 螢火蟲夜光魚
+            "fish_1020": { body: "tetra", motif: "reindeerNose" },        // 馴鹿紅鼻魚
+            "fish_1021": { body: "zebra", motif: "newYearSparks" },       // 跨年煙花斑馬魚
+            "fish_1022": { body: "goldfish", motif: "iceFacets" },        // 冰雕水晶魚
+            "fish_1078": { body: "rainbowfish", motif: "inkWash" },       // 水墨彩虹魚
+            "fish_1089": { body: "goldfish", motif: "starSand" },         // 銀河星砂金魚
+            "fish_1092": { body: "arowana", motif: "rainbowBubbles" },    // 夢幻泡泡龍魚
+        };
+
+        // ── 迷你 GraphicsContext：把 SwiftUI Canvas 的呼叫原樣翻成 SVG 元素 ──
+        let _cmSeq = 0;
+        const _cmN = v => String(Math.round(v * 1000) / 1000);
+        // App 的 Color(hex:)：3 / 6 / 8（ARGB）位 hex，其他長度一律黑色。
+        function _cmHex(v) {
+            const h = String(v == null ? '' : v).replace(/[^0-9a-zA-Z]/g, '');
+            const n = parseInt(h, 16) || 0, by = k => Math.floor(n / Math.pow(256, k)) % 256;
+            if (h.length === 3) return { r: (Math.floor(n / 256) % 16) * 17, g: (Math.floor(n / 16) % 16) * 17, b: (n % 16) * 17, a: 1 };
+            if (h.length === 6) return { r: by(2), g: by(1), b: by(0), a: 1 };
+            if (h.length === 8) return { r: by(2), g: by(1), b: by(0), a: by(3) / 255 };
+            return { r: 0, g: 0, b: 0, a: 1 };
+        }
+        const _cmWhite = { r: 255, g: 255, b: 255, a: 1 };
+        const _cmA = (c, o) => ({ r: c.r, g: c.g, b: c.b, a: c.a * o });                 // Color.opacity(o)
+        const _cmRgb = c => `rgb(${Math.round(c.r)},${Math.round(c.g)},${Math.round(c.b)})`;
+        const _cmLin = (colors, x1, y1, x2, y2) => ({ lin: true, colors, x1, y1, x2, y2 });  // .linearGradient
+        const _cmRad = (colors, cx, cy, r0, r1) => ({ rad: true, colors, cx, cy, r0, r1 }); // .radialGradient
+        // Path 建構器：q / c 的參數順序照 Swift（先終點、後控制點），方便逐行對照。
+        function _cmP() {
+            const d = [];
+            const p = {
+                m(x, y) { d.push(`M${_cmN(x)} ${_cmN(y)}`); return p; },
+                l(x, y) { d.push(`L${_cmN(x)} ${_cmN(y)}`); return p; },
+                q(x, y, cx, cy) { d.push(`Q${_cmN(cx)} ${_cmN(cy)} ${_cmN(x)} ${_cmN(y)}`); return p; },
+                c(x, y, ax, ay, bx, by) { d.push(`C${_cmN(ax)} ${_cmN(ay)} ${_cmN(bx)} ${_cmN(by)} ${_cmN(x)} ${_cmN(y)}`); return p; },
+                z() { d.push('Z'); return p; },
+                // addEllipse(in:)：與 SwiftUI 同向（從右端點往下繞），nonzero 聯集才不會互相挖洞。
+                ell(x, y, w, h) {
+                    const rx = _cmN(w / 2), ry = _cmN(h / 2), cy = _cmN(y + h / 2);
+                    d.push(`M${_cmN(x + w)} ${cy}A${rx} ${ry} 0 0 1 ${_cmN(x)} ${cy}A${rx} ${ry} 0 0 1 ${_cmN(x + w)} ${cy}Z`); return p;
+                },
+                rect(x, y, w, h) { d.push(`M${_cmN(x)} ${_cmN(y)}H${_cmN(x + w)}V${_cmN(y + h)}H${_cmN(x)}Z`); return p; },
+                rrect(x, y, w, h, r) {
+                    r = Math.min(r, w / 2, h / 2); const a = `A${_cmN(r)} ${_cmN(r)} 0 0 1 `;
+                    d.push(`M${_cmN(x + r)} ${_cmN(y)}H${_cmN(x + w - r)}${a}${_cmN(x + w)} ${_cmN(y + r)}V${_cmN(y + h - r)}${a}${_cmN(x + w - r)} ${_cmN(y + h)}`
+                        + `H${_cmN(x + r)}${a}${_cmN(x)} ${_cmN(y + h - r)}V${_cmN(y + r)}${a}${_cmN(x + r)} ${_cmN(y)}Z`); return p;
+                },
+                // addArc(center:radius:startAngle:endAngle:clockwise: false)：y 向下座標裡角度遞增 = SVG sweep 1。
+                arc(cx, cy, r, a0, a1) {
+                    d.push(`${d.length ? 'L' : 'M'}${_cmN(cx + Math.cos(a0) * r)} ${_cmN(cy + Math.sin(a0) * r)}`);
+                    d.push(`A${_cmN(r)} ${_cmN(r)} 0 ${a1 - a0 > Math.PI ? 1 : 0} 1 ${_cmN(cx + Math.cos(a1) * r)} ${_cmN(cy + Math.sin(a1) * r)}`); return p;
+                },
+                d: () => d.join(''),
+            };
+            return p;
+        }
+        const _cmOval = (x, y, w, h) => _cmP().ell(x, y, w, h);
+        const _cmPoly = pts => { const p = _cmP(); pts.forEach(([x, y], i) => i ? p.l(x, y) : p.m(x, y)); return p.z(); };
+        // GraphicsContext：copy() = Swift 的 `var t = c`（複製變換與裁切，共用輸出）。
+        function _cmCtx(out, t, clips) {
+            const tr = () => t ? ` transform="${t.trim()}"` : '';
+            const paint = (kind, pv) => {
+                if (!pv.lin && !pv.rad) return ` ${kind}="${_cmRgb(pv)}"${pv.a < 1 ? ` ${kind}-opacity="${_cmN(pv.a)}"` : ''}`;
+                const id = 'cmg' + (++_cmSeq), n = pv.colors.length;
+                const start = pv.rad ? pv.r0 / pv.r1 : 0;
+                const stops = pv.colors.map((col, i) => `<stop offset="${_cmN(n > 1 ? start + (1 - start) * i / (n - 1) : 0)}" stop-color="${_cmRgb(col)}" stop-opacity="${_cmN(col.a)}"/>`).join('');
+                out.push(pv.lin
+                    ? `<linearGradient id="${id}" gradientUnits="userSpaceOnUse" x1="${_cmN(pv.x1)}" y1="${_cmN(pv.y1)}" x2="${_cmN(pv.x2)}" y2="${_cmN(pv.y2)}">${stops}</linearGradient>`
+                    : `<radialGradient id="${id}" gradientUnits="userSpaceOnUse" cx="${_cmN(pv.cx)}" cy="${_cmN(pv.cy)}" r="${_cmN(pv.r1)}">${stops}</radialGradient>`);
+                return ` ${kind}="url(#${id})"`;
+            };
+            const emit = el => { clips.forEach(id => { el = `<g clip-path="url(#${id})">${el}</g>`; }); out.push(el); };
+            const c = {
+                copy: () => _cmCtx(out, t, clips.slice()),
+                translate(x, y) { t += `translate(${_cmN(x)} ${_cmN(y)}) `; return c; },
+                rotate(rad) { t += `rotate(${_cmN(rad * 180 / Math.PI)}) `; return c; },
+                scale(x, y) { t += `scale(${_cmN(x)} ${_cmN(y)}) `; return c; },
+                clip(p) { const id = 'cmk' + (++_cmSeq); out.push(`<clipPath id="${id}"><path d="${p.d()}"${tr()}/></clipPath>`); clips.push(id); return c; },
+                fill(p, pv, eo) { const a = paint('fill', pv); emit(`<path d="${p.d()}"${a}${eo ? ' fill-rule="evenodd"' : ''}${tr()}/>`); },
+                // style：數字 = lineWidth；或 { w, cap, join, dash }（SwiftUI 預設 butt / miter / miterLimit 10）。
+                stroke(p, pv, style) {
+                    const s = typeof style === 'number' ? { w: style } : style, a = paint('stroke', pv);
+                    emit(`<path d="${p.d()}" fill="none"${a} stroke-width="${_cmN(s.w)}" stroke-linecap="${s.cap || 'butt'}" stroke-linejoin="${s.join || 'miter'}" stroke-miterlimit="10"`
+                        + `${s.dash ? ` stroke-dasharray="${s.dash.join(' ')}"` : ''}${tr()}/>`);
+                },
+            };
+            return c;
+        }
+        const _cmBlueprint = (fish, key) => { const bp = fish.visualBlueprint; return bp && bp[key] ? bp[key] : null; };
+
+        // 甜點魚：甜點／節慶物件本體當身體，疊上共用魚零件（尾、背鰭、腹鰭、胸鰭、眼、微笑）。
+        function generateConfectionSvg(fish, size) {
+            const shape = REVIEWED_CONFECTION_SHAPES[fish.id] || 'snowSkinMooncake';
+            const H = _cmHex, A = _cmA, L = _cmLin, R = _cmRad, P = _cmP, O = _cmOval, Poly = _cmPoly, W = _cmWhite;
+            const opt = k => { const v = _cmBlueprint(fish, k); return v ? H(v) : null; };
+            const primary = opt('primaryColor'), secondary = opt('secondaryColor'), accent = opt('accentColor');
+            const phase = 0, wave = Math.sin(phase), ink = H('#0B131E'), PI = Math.PI, cos = Math.cos, sin = Math.sin;
+            const out = [], c = _cmCtx(out, '', []);
+
+            const F = (tail, dorsal, ventral, pectoral, eye, mouth, fin, extra) =>
+                Object.assign({ tail, tailSize: 6, dorsal, ventral, pectoral, eye, eyeRadius: 1.45, mouth, fin }, extra || {});
+            const PARTS = {
+                snowSkinMooncake: () => F([11.5, 15], [21, 5.4], [21, 24.7], [28, 19.5], [31, 11.8], [33.6, 15.2], H('#FBE7A6')),
+                bakedMooncake: () => F([11.5, 15], [21, 5.4], [21, 24.7], [28.5, 20], [31, 11.8], [33.6, 15.2], H('#F59E0B')),
+                taiyaki: () => F([11, 15], [21, 6.8], [21, 23.6], [28.5, 18.5], [33.8, 11.8], [37.4, 15.6], H('#D98A3A'), { tailSize: 8, eyeRadius: 1.35 }),
+                macaron: () => F([10.8, 15.8], [21, 8.4], [22, 23.8], [28, 21.2], [30.8, 10], null, primary || H('#F472B6')),
+                donut: () => F([12.2, 15], [21.5, 4.6], [22, 25.6], [29.5, 21.2], [30.6, 10.4], [33.2, 14.2], secondary || H('#F472B6')),
+                strawberryShortcake: () => F([11.3, 17.5], [15, 10.2], [22, 25.2], [29.5, 22.4], [31.4, 14.8], [33.6, 18.3], H('#FECACA')),
+                tiramisu: () => F([11.3, 16], [18, 7.1], [22, 25.3], [28.5, 19.4], [31, 11.4], null, H('#C8925A')),
+                lavaCake: () => F([11.8, 16], [18.5, 7.6], [26, 24.6], [31.5, 19.8], [31, 12.2], [33.2, 15.8], H('#8B5A3C')),
+                mangoPudding: () => F([13.2, 19.4], [16.6, 10], [21, 26.2], [29, 21.6], [29.2, 17.6], [31.4, 20.6], H('#FBBF24')),
+                lemonTart: () => F([11.6, 18.6], [12.6, 12.4], [22.5, 25.2], [27.5, 21.8], [31.2, 17.8], [33.6, 21], primary || H('#FACC15')),
+                blueberryCheesecake: () => F([11.3, 17.5], [13.8, 9.4], [22, 25.2], [27.5, 20.2], [31, 15.4], [33.5, 18.6], H('#8B7CF6')),
+                tanghulu: () => F([9.3, 15.4], [23.5, 9.8], [23.5, 20.4], [32, 18.6], [35.8, 12.6], [38.4, 16.2], secondary || H('#EF4444'), { tailSize: 5.5, eyeRadius: 1.55 }),
+                birdsNestSoup: () => F([11.4, 18.5], [15, 9.6], [16.6, 24.8], [26.5, 22.2], [30.4, 17.2], [32.8, 20.2], H('#BFDBFE')),
+                fruitTart: () => F([11.6, 18.6], [12.6, 12.4], [22.5, 25.2], [27.5, 21.8], [31.2, 17.8], [33.6, 21], primary || H('#DB2777')),
+                bubbleTea: () => F([15.4, 16], [19.4, 5.8], [23, 26.6], [27.2, 20.6], [27.6, 13.4], [29.8, 16.6], H('#E7B77B')),
+                gingerbreadCookie: () => F([12.8, 19.5], [16, 9.4], [22, 25.3], [29.2, 23], [30.8, 16.8], [31.2, 21.4], H('#D08A4A')),
+                pumpkinLantern: () => F([11, 15], [21, 6], [21, 24.6], [28, 20], [30.4, 12.4], null, H('#F97316')),
+                snowGlobe: () => F([10.8, 13.6], [20.5, 3.6], [13.6, 22.6], [28.6, 18], [29.8, 10.2], [32, 13.4], H('#BAE6FD')),
+                marigold: () => F([10.8, 15], [21, 4.8], [21, 25.2], [28, 20], [29.6, 12.2], [31.8, 15.4], H('#F59E0B')),
+                paperLantern: () => F([11, 15], [20, 4.2], [16, 24.8], [28.4, 20], [29.6, 11.6], [31.8, 14.8], H('#FACC15')),
+                herbSachet: () => F([10.2, 15], [20, 7.6], [20, 23.4], [27, 19], [28.6, 13.4], [30.8, 16.2], H('#4ADE80')),
+                cloverLeaf: () => F([10.6, 15], [21, 4.4], [21, 25.6], [27.6, 20.4], [29.4, 12.4], [31.4, 15.4], H('#22C55E')),
+                sunflower: () => F([10.6, 15], [21, 4.2], [21, 25.6], [28, 20.2], [29.4, 12.2], [31.6, 15.4], H('#FACC15')),
+                mapleLeaf: () => F([10.4, 16.4], [21, 3.8], [21, 23.4], [27.4, 19.6], [29.4, 12.8], [31.6, 15.8], H('#F97316')),
+                chrysanthemum: () => F([10.6, 15], [21, 4.4], [21, 25.4], [28, 20.2], [29.4, 12.2], [31.6, 15.4], H('#FBBF24')),
+                wheatEar: () => F([9.4, 19.6], [20, 7.6], [19, 22.2], [28, 19], [31.4, 10.6], [33.6, 13.4], H('#F59E0B'), { tailSize: 5.5, eyeRadius: 1.4 }),
+                plumBlossom: () => F([10.6, 17], [21, 4.6], [21, 24], [27.6, 20], [29.2, 12], [31.4, 15], H('#FDE047')),
+                rose: () => F([10.8, 16], [21, 4.8], [21, 24.8], [28, 20.4], [29.8, 12], [32, 15.4], H('#FB7185')),
+                carnation: () => F([10.8, 14.6], [21, 4.2], [19.6, 25.2], [28, 19.6], [29.6, 11.8], [31.8, 15], H('#FB7185')),
+                clockworkGear: () => F([11.6, 13], [22, 3.2], [26.4, 25], [29.4, 19.4], [29.2, 11], null, H('#F59E0B')),
+                wishBottle: () => F([10.2, 16], [20, 8.6], [20, 23.2], [25.6, 20.4], [27.4, 13], [29.6, 16.2], H('#38BDF8')),
+                snowflake: () => F([10.4, 15], [18, 5.6], [18, 24.4], [28.4, 20], [29.2, 11.6], [31.2, 14.6], H('#BAE6FD')),
+                musicNote: () => F([11.2, 20.6], [18, 13.4], [19.6, 25.4], [24.6, 23.4], [22.4, 18], [24.6, 21.2], H('#8B5CF6'), { eyeRadius: 1.35 }),
+                waterDrop: () => F([12, 19.4], [20, 8.4], [21, 26], [28, 22], [26.8, 15.4], [29, 18.4], H('#38BDF8')),
+                dreamOrb: () => F([10.6, 15], [21, 3.6], [21, 25.4], [28.4, 20], [29.8, 11.4], [32, 14.6], H('#E879F9')),
+                cottonCloud: () => F([9.8, 17.6], [21, 4.8], [21, 24], [28, 21], [30, 14], [32, 17], H('#E0F2FE')),
+                roseWindow: () => F([10.4, 15], [21, 3.4], [21, 26], [28.4, 20.6], [30, 11.4], [32.2, 14.6], H('#3B82F6')),
+                kaleidoscope: () => F([10, 15], [21, 3.8], [21, 26.2], [28, 20.4], [29.8, 11.6], [31.8, 14.8], H('#38BDF8')),
+            };
+            // App 的 FishParts 預設 eyeRadius 是 1.45；上表只覆寫 App 有明寫的幾筆。
+
+            // ── 共用魚零件 ──
+            const tail = f => {
+                const t = c.copy(); t.translate(f.tail[0], f.tail[1]); t.rotate(wave * 0.28);
+                const s = f.tailSize;
+                const fin = P().m(0.8, -s * 0.28).q(-s, -s * 0.85, -s * 0.45, -s * 0.35).q(-s * 0.62, 0, -s * 0.72, -s * 0.3)
+                    .q(-s, s * 0.85, -s * 0.72, s * 0.3).q(0.8, s * 0.28, -s * 0.45, s * 0.35).z();
+                t.fill(fin, L([f.fin, A(f.fin, 0.75)], 0, 0, -s, 0));
+                t.stroke(fin, A(ink, 0.35), 0.45);
+                for (const dy of [-0.45, 0.45]) t.stroke(P().m(-0.5, dy * 0.8).l(-s * 0.8, dy * s * 1.2), A(W, 0.35), 0.4);
+            };
+            const dorsal = f => {
+                const [bx, by] = f.dorsal, flutter = wave * 0.7;
+                const fin = P().m(bx - 3.6, by + 1.2).q(bx - 1.6 + flutter, by - 3.6, bx - 3.4, by - 2).q(bx + 3.4, by + 1.2, bx + 1.8, by - 2.2).z();
+                c.fill(fin, f.fin); c.stroke(fin, A(ink, 0.3), 0.4);
+            };
+            const ventral = f => {
+                const [bx, by] = f.ventral, flutter = wave * 0.5;
+                const fin = P().m(bx - 2.2, by - 1).q(bx - 2 - flutter, by + 2.8, bx - 2.6, by + 1.4).q(bx + 2, by - 1, bx + 0.6, by + 1.6).z();
+                c.fill(fin, f.fin); c.stroke(fin, A(ink, 0.3), 0.4);
+            };
+            const pectoral = f => {
+                const p = c.copy(); p.translate(f.pectoral[0], f.pectoral[1]); p.rotate(-0.45 + cos(phase * 0.9) * 0.3);
+                const fin = O(-3.8, -1.1, 4.2, 2.2);
+                p.fill(fin, f.fin); p.stroke(fin, A(ink, 0.4), 0.45);
+            };
+            const face = f => {
+                const [ex, ey] = f.eye, r = f.eyeRadius;
+                c.fill(O(ex - r - 0.55, ey - r - 0.55, (r + 0.55) * 2, (r + 0.55) * 2), A(W, 0.92));
+                c.fill(O(ex - r, ey - r, r * 2, r * 2), ink);
+                c.fill(O(ex + r * 0.1, ey - r * 0.7, r * 0.7, r * 0.7), W);
+                c.fill(O(ex - 1.6, ey + r + 0.5, 2.4, 1.2), A(H('#FB7185'), 0.4)); // Cheek blush.
+                if (f.mouth) {
+                    const [mx, my] = f.mouth;
+                    c.stroke(P().m(mx - 1.1, my).q(mx + 1.1, my, mx, my + 1.2), A(ink, 0.75), { w: 0.6, cap: 'round' });
+                }
+            };
+
+            // ── 幾何小工具 ──
+            const star = (x, y, r) => P().m(x, y - r).q(x + r, y, x, y).q(x, y + r, x, y).q(x - r, y, x, y).q(x, y - r, x, y).z();
+            const polygonHex = (x, y, r) => Poly([0, 1, 2, 3, 4, 5].map(i => { const a = i / 6 * 2 * PI - PI / 2; return [x + cos(a) * r, y + sin(a) * r]; }));
+            const ruffle = (x, y, outer, inner, steps) => {
+                const p = P();
+                for (let i = 0; i < steps * 2; i++) {
+                    const a = i / (steps * 2) * 2 * PI, r = i % 2 === 0 ? outer : inner;
+                    const px = x + cos(a) * r, py = y + sin(a) * r * 0.94;
+                    if (i === 0) p.m(px, py); else p.l(px, py);
+                }
+                return p.z();
+            };
+
+            // ── 甜點本體 ──
+            const mooncake = baked => {
+                const cx = 23, cy = 15, rx = 11.6, ry = 10;
+                const edge = baked ? H('#B45309') : H('#F3DFA2');
+                const fill = baked ? [H('#FCD34D'), H('#D97706'), H('#92400E')] : [H('#FFFDF4'), A(primary || H('#FEF08A'), 0.9), H('#E9D08A')];
+                for (let i = 0; i < 16; i++) { const a = i / 16 * 2 * PI; c.fill(O(cx + cos(a) * rx - 2.1, cy + sin(a) * ry - 2.1, 4.2, 4.2), edge); }
+                const faceP = O(cx - rx, cy - ry, rx * 2, ry * 2);
+                c.fill(faceP, L(fill, 14, 5, 32, 25));
+                c.stroke(faceP, A(ink, 0.25), 0.5);
+                const ring = O(cx - rx + 2.6, cy - ry + 2.3, (rx - 2.6) * 2, (ry - 2.3) * 2);
+                const emboss = baked ? A(H('#78350F'), 0.55) : A(H('#D4A843'), 0.55);
+                c.stroke(ring, emboss, 0.7);
+                if (baked) {
+                    const glow = 1 + 0.12 * sin(phase * 2.5);
+                    c.fill(O(cx - 5.2 * glow, cy - 4.6 * glow, 10.4 * glow, 9.2 * glow), A(H('#FDBA74'), 0.35));
+                    c.fill(P().m(21.6, 16).l(24.4, 16).q(23.6, 21.6 + wave * 0.6, 24.6, 19.5).q(21.6, 16, 21.4, 19.5), H('#F59E0B'));
+                    c.fill(O(cx - 3.4, cy - 3.2, 6.8, 6.4), R([H('#FFF7AE'), H('#FBBF24'), H('#EA580C')], 22.3, 14.3, 0.3, 3.8));
+                    for (let i = 0; i < 4; i++) {
+                        const a = i * PI / 2 + PI / 4;
+                        c.stroke(P().m(cx + cos(a) * 4.4, cy + sin(a) * 4).l(cx + cos(a) * 6.8, cy + sin(a) * 6), emboss, { w: 0.8, cap: 'round' });
+                    }
+                    c.fill(O(14.5, 7, 5, 2.4), A(W, 0.3));
+                } else {
+                    for (let i = 0; i < 6; i++) {
+                        const petal = c.copy(); petal.translate(cx, cy); petal.rotate(i / 6 * 2 * PI);
+                        petal.fill(O(1.1, -1.3, 4.2, 2.6), A(H('#E6B84E'), 0.55));
+                        petal.stroke(O(1.1, -1.3, 4.2, 2.6), A(H('#C9962E'), 0.5), 0.4);
+                    }
+                    c.fill(O(cx - 1.2, cy - 1.2, 2.4, 2.4), H('#F4A6B8'));
+                    c.fill(O(14, 6.6, 8, 3.2), A(W, 0.55));
+                }
+            };
+            const taiyaki = () => {
+                const body = P().m(38.6, 14.4).q(24, 5.8, 36.2, 5.4).q(10.2, 12.4, 15, 6.4).l(10.2, 17.6)
+                    .q(24, 24.2, 15, 23.6).q(38.6, 16.2, 36.2, 24.6).l(37.2, 15.3).z();
+                c.stroke(body, A(H('#F4C78A'), 0.85), { w: 2, join: 'round' });
+                c.fill(body, L([H('#EFAE5A'), H('#C8702A'), H('#8A4513')], 0, 6, 0, 24));
+                c.stroke(body, A(H('#6B3410'), 0.7), 0.55);
+                const scales = c.copy(); scales.clip(body);
+                for (let row = 0; row < 4; row++) for (let col = 0; col < 5; col++) {
+                    const x = 14.5 + col * 3.6 + (row % 2 === 0 ? 0 : 1.8), y = 9.5 + row * 3.4;
+                    scales.stroke(P().m(x - 1.6, y).q(x + 1.6, y, x, y + 2.4), A(H('#6B3410'), 0.55), 0.55);
+                }
+                c.stroke(P().m(31, 9.4).q(31, 20.4, 33.6, 15), A(H('#6B3410'), 0.7), 0.7);
+                c.fill(O(17, 8, 9, 2.6), A(W, 0.2));
+            };
+            const macaron = () => {
+                const shell = primary || H('#F472B6');
+                const top = P().m(10.4, 12.8).c(35.6, 12.8, 10.4, 5.2, 35.6, 5.2).z();
+                const bottom = P().m(10.4, 18.8).c(35.6, 18.8, 10.4, 25.4, 35.6, 25.4).z();
+                const ganache = A(secondary || H('#FDE68A'), 0.55);
+                const cream = P().rrect(11.4, 13.2, 23.2, 5.2, 2.4);
+                c.fill(cream, H('#FFF7ED')); c.fill(cream, ganache); c.stroke(cream, A(ink, 0.2), 0.4);
+                for (const [path, footY] of [[top, 12.2], [bottom, 18.6]]) {
+                    c.fill(P().rrect(10.8, footY, 24.4, 1.4, 0.7), A(shell, 0.75));
+                    for (let i = 0; i < 12; i++) c.fill(O(11.4 + i * 2, footY + 0.35 + (i % 2) * 0.3, 0.8, 0.6), A(W, 0.35));
+                    c.fill(path, L([A(shell, 0.92), shell], 0, 6, 0, 25));
+                    c.stroke(path, A(ink, 0.25), 0.5);
+                }
+                c.fill(O(15, 7.6, 8, 2.2), A(W, 0.35));
+            };
+            const donut = () => {
+                const cx = 23, cy = 15.2;
+                const ring = (outer, r) => outer.ell(cx - r, cy - r * 0.92, r * 2, r * 1.84);
+                const dough = ring(O(11.4, 4.6, 23.2, 21.2), 3.6);
+                c.fill(dough, L([H('#F2C27E'), H('#C98A3E')], 0, 5, 0, 26), true);
+                c.stroke(dough, A(H('#8A5A22'), 0.6), 0.5);
+                const edge = P();
+                for (let i = 0; i <= 36; i++) {
+                    const a = i / 36 * 2 * PI, r = 9.4 + (i % 3 === 0 ? 1.2 : 0) * (sin(a) > 0 ? 1 : 0.4);
+                    const px = cx + cos(a) * r, py = cy + sin(a) * r * 0.92;
+                    if (i === 0) edge.m(px, py); else edge.l(px, py);
+                }
+                edge.z();
+                const icing = ring(edge, 4.7);
+                c.fill(icing, L([secondary || H('#F472B6'), primary || H('#DB2777')], 14, 6, 32, 24), true);
+                const sprinkle = ['#FDE047', '#60A5FA', '#FFFFFF', '#34D399', '#FB923C'];
+                for (let i = 0; i < 11; i++) {
+                    const a = i / 11 * 2 * PI + 0.3, px = cx + cos(a) * 7, py = cy + sin(a) * 6.4;
+                    if (px > 28 && py < 13) continue; // Keep the eye clear.
+                    const s = c.copy(); s.translate(px, py); s.rotate(i * 1.3);
+                    s.fill(P().rrect(-1, -0.35, 2, 0.7, 0.35), H(sprinkle[i % sprinkle.length]));
+                }
+                c.fill(O(15, 7, 6, 2.2), A(W, 0.35));
+            };
+            const shortcake = () => {
+                const slice = P().rrect(11, 10, 24.4, 15, 2);
+                const layers = c.copy(); layers.clip(slice);
+                layers.fill(slice, H('#FFFDF7'));
+                for (const y of [13.2, 19.8]) layers.fill(P().rect(10, y, 26, 3.8), L([H('#FBE39A'), H('#F2C862')], 0, y, 0, y + 3.8));
+                const berry = secondary || H('#EF4444');
+                for (const x of [15, 21.6, 28.2]) {
+                    layers.fill(P().m(x - 2, 17.2).q(x + 2, 17.2, x, 21.6), berry);
+                    layers.fill(O(x - 0.7, 17.4, 1.4, 1.4), H('#FECACA'));
+                }
+                c.stroke(slice, A(ink, 0.25), 0.5);
+                for (const x of [16.5, 30]) {
+                    c.fill(O(x - 2.2, 7.8, 4.4, 3.4), H('#FFFDF7'));
+                    c.stroke(P().m(x - 1.2, 9.4).q(x + 1.2, 9, x, 7.9), H('#E5DCCB'), 0.45);
+                }
+                const whole = P().m(23.2, 3.2).q(26.8, 6.2, 27.2, 3.2).q(23.2, 11, 26.4, 9.6).q(19.6, 6.2, 20, 9.6).q(23.2, 3.2, 19.2, 3.2);
+                c.fill(whole, L([H('#F87171'), berry], 21, 3, 25, 11));
+                for (const [dx, dy] of [[-1.4, 5.8], [1.2, 5.4], [0, 7.6], [-0.8, 9], [1.4, 8]]) c.fill(O(23.2 + dx - 0.3, dy - 0.3, 0.6, 0.6), H('#FEF08A'));
+                c.fill(Poly([[20.8, 3.6], [23.2, 1.2], [25.6, 3.6], [23.2, 4.4]]), H('#22C55E'));
+            };
+            const tiramisu = () => {
+                const block = P().rrect(11, 7.2, 24.4, 17.8, 1.8);
+                const layers = c.copy(); layers.clip(block);
+                const cream = secondary || H('#FEF3C7');
+                for (const [y, h, col] of [[7.2, 2.6, H('#6B4226')], [9.8, 3.8, cream], [13.6, 3.4, H('#B8773A')], [17, 3.8, cream], [20.8, 4.4, H('#B8773A')]])
+                    layers.fill(P().rect(10, y, 26, h), col);
+                for (let i = 0; i < 9; i++) {
+                    layers.fill(O(12.5 + i * 2.6, 14.6 + (i % 2), 1, 0.8), A(H('#7C4A22'), 0.7));
+                    layers.fill(O(13 + i * 2.5, 21.8 + ((i + 1) % 2), 1, 0.8), A(H('#7C4A22'), 0.7));
+                    layers.fill(O(12.4 + i * 2.6, 7.8 + (i % 3) * 0.5, 0.8, 0.8), H('#3B2213'));
+                }
+                c.stroke(block, A(W, 0.35), 0.5);
+                c.fill(P().m(26.5, 7.4).q(31.5, 4.6, 27.5, 3.6).q(26.5, 7.4, 30.6, 7.4), H('#4ADE80')); // Mint leaf.
+            };
+            const lavaCake = () => {
+                const side = P().m(11.8, 10).l(13, 22.2).q(33, 22.2, 23, 26).l(34.2, 10).z();
+                c.fill(side, L([H('#8B5A3C'), H('#5A3522')], 0, 10, 0, 25));
+                c.stroke(side, A(W, 0.4), 0.55);
+                const top = O(11.8, 6.8, 22.4, 6.4);
+                c.fill(top, H('#9A6646')); c.stroke(top, A(W, 0.4), 0.5);
+                for (let i = 0; i < 6; i++) c.fill(O(25.6 + i * 1.5, 14.6 + (i % 3) * 1.5, 0.9, 0.9), A(W, 0.85));
+                const ooze = 0.6 + 0.4 * (wave + 1) / 2;
+                const molten = [H('#F5B871'), H('#C2410C'), secondary ? A(secondary, 0.95) : H('#6B2E12')];
+                c.fill(O(15.4, 7.2, 16.4, 5), L(molten, 0, 7, 0, 12.4));
+                const spill = P().m(14.4, 10.2).q(23.6, 10.8, 19, 8.4).q(21.8, 18.6, 24.8, 14.8).q(22.6, 23 + 1.4 * ooze, 20.6, 21.6)
+                    .q(15, 22.2 + 1.4 * ooze, 18.6, 25.6 + 1.4 * ooze).q(13.4, 15.4, 12.4, 19.4).q(14.4, 10.2, 12.8, 12.6).z();
+                c.fill(spill, L(molten, 0, 9, 0, 26));
+                c.fill(O(12.6, 21.6, 17, 4.2), L(molten, 12, 21, 29, 26)); // Pool.
+                c.fill(O(16.2, 12.6, 4.6, 2.2), A(H('#FDE68A'), 0.55));
+                c.fill(O(24.4, 8.2, 4, 1.6), A(H('#FFEDD5'), 0.6));
+            };
+            const mangoPudding = () => {
+                c.fill(O(9, 22.2, 28, 4.2), H('#FFF7ED')); // Coconut milk pool.
+                const jelly = c.copy(), wobble = 1 + wave * 0.035;
+                jelly.translate(23, 24); jelly.scale(1 / wobble, wobble); jelly.translate(-23, -24);
+                const bell = P().m(11.6, 24).c(23, 6.4, 12, 12, 15.2, 6.4).c(34.4, 24, 30.8, 6.4, 34, 12).z();
+                jelly.fill(bell, L([H('#FDE047'), H('#FBBF24'), primary || H('#EA580C')], 0, 6, 0, 24));
+                jelly.stroke(bell, A(H('#C2410C'), 0.5), 0.5);
+                const glaze = jelly.copy(); glaze.clip(bell);
+                const cap = P().m(12.6, 14.4).q(23, 5.8, 14.8, 6.6).q(33.4, 14.4, 31.2, 6.6).q(30.2, 19.6, 32.8, 18.6).q(27, 14.6, 27.8, 18.8)
+                    .q(23.4, 21.2, 24.8, 19.8).q(19.8, 14.8, 21.4, 19.6).q(16.6, 18.8, 17.8, 18.4).q(12.6, 14.4, 14.2, 17.6).z();
+                glaze.fill(cap, L([H('#D97706'), H('#92400E'), H('#7C2D12')], 0, 5, 0, 21));
+                glaze.stroke(cap, A(H('#78350F'), 0.7), 0.4);
+                glaze.fill(O(17.4, 7.6, 7.6, 2.6), A(H('#FDE68A'), 0.5));
+                jelly.fill(O(14.6, 15, 3.6, 6.4), A(W, 0.45));
+                for (const [x, y, a] of [[19.6, 4.6, 0.3], [23.4, 3.8, -0.2], [26.6, 5, 0.5]]) {
+                    const cube = jelly.copy(); cube.translate(x, y); cube.rotate(a);
+                    const r = P().rrect(-1.4, -1.4, 2.8, 2.8, 0.5);
+                    cube.fill(r, H('#FDBA3F')); cube.stroke(r, A(H('#C2410C'), 0.6), 0.4);
+                }
+            };
+            const tartShell = () => {
+                const shell = P().m(10.4, 15).l(35.6, 15).l(33.4, 24.6).l(12.6, 24.6).z();
+                c.fill(shell, L([H('#EDBB6A'), H('#B7772F')], 0, 15, 0, 25));
+                for (let i = 0; i < 11; i++) {
+                    const x = 12.2 + i * 2.2;
+                    c.stroke(P().m(x, 16.4).l(x + (x < 23 ? 0.5 : -0.5), 24), A(H('#8A5A22'), 0.55), 0.6);
+                }
+                c.stroke(shell, A(ink, 0.3), 0.5);
+                c.fill(P().rrect(10, 13.8, 26, 2.2, 1.1), H('#F4CC85'));
+            };
+            const tart = fruit => {
+                tartShell();
+                if (fruit) {
+                    c.fill(P().rrect(11.2, 11.8, 23.6, 2.6, 1.2), H('#FDE68A'));
+                    c.fill(O(12.4, 7.8, 7, 6.2), accent || H('#22C55E'));
+                    c.fill(O(14.6, 9.8, 2.6, 2.2), H('#ECFCCB'));
+                    for (let i = 0; i < 7; i++) { const a = i / 7 * 2 * PI; c.fill(O(15.9 + cos(a) * 2.2 - 0.3, 10.9 + sin(a) * 1.9 - 0.3, 0.6, 0.6), ink); }
+                    c.fill(P().m(20.6, 12).q(23.6, 5.2, 20, 6.6).q(26.6, 12, 27.2, 6.6).z(), primary || H('#EF4444'));
+                    c.fill(O(22.8, 7.6, 1.6, 3), A(H('#FECDD3'), 0.8));
+                    const mango = P().rrect(27.4, 8.4, 4, 3.8, 0.6);
+                    c.fill(mango, secondary || H('#FACC15')); c.stroke(mango, H('#CA8A04'), 0.4);
+                    for (const [x, y] of [[18.8, 12], [31.8, 11.2], [25.8, 11.6]]) {
+                        c.fill(O(x - 1.3, y - 1.3, 2.6, 2.6), H('#4F46E5'));
+                        c.fill(O(x - 0.6, y - 0.9, 0.7, 0.7), A(W, 0.7));
+                    }
+                } else {
+                    c.fill(P().m(11, 14.6).q(35, 14.6, 23, 10.2).z(), L([H('#FEF08A'), primary || H('#FACC15')], 0, 11, 0, 15));
+                    [15, 20, 25.2, 30].forEach((x, i) => { // Torched meringue kisses.
+                        const h = i % 2 === 0 ? 5.6 : 4.6;
+                        const kiss = P().m(x - 2.6, 13.4).q(x + 0.6, 13.2 - h, x - 2.4, 13.2 - h * 0.7).q(x + 2.6, 13.4, x + 2.6, 13.2 - h * 0.5).z();
+                        c.fill(kiss, L([A(H('#C2410C'), 0.85), H('#FDE9C7'), H('#FFFFFF')], x, 13.2 - h, x, 13.4));
+                        c.stroke(kiss, A(H('#D6A76A'), 0.6), 0.4);
+                    });
+                }
+            };
+            const cheesecake = () => {
+                const slice = P().rrect(11, 10.6, 24.4, 14.4, 1.8);
+                const layers = c.copy(); layers.clip(slice);
+                layers.fill(slice, L([H('#FEF6D8'), accent || H('#FEF08A')], 0, 11, 0, 22));
+                layers.fill(P().rect(10, 22, 26, 3), H('#B7793F'));
+                for (let i = 0; i < 8; i++) layers.fill(O(12 + i * 3, 22.6 + (i % 2), 1, 0.8), H('#7C4A22'));
+                const jam = P().m(10, 10.6).l(36, 10.6).l(36, 13);
+                for (const [x, drop] of [[31, 3.4], [25, 1.2], [19.6, 4], [14.6, 1.6]]) jam.q(x, 13 + drop, x + 2.4, 13).q(x - 2.2, 13, x - 2.2, 13 + drop);
+                jam.l(10, 13).z();
+                layers.fill(jam, L([H('#7C3AED'), H('#5B21B6')], 0, 10, 0, 16));
+                c.stroke(slice, A(ink, 0.25), 0.5);
+                const blue = secondary || H('#6366F1');
+                for (const [x, y] of [[15.4, 9.2], [19.6, 8.4], [23.8, 9.3], [28, 8.5], [32, 9.3]]) {
+                    c.fill(O(x - 1.8, y - 1.8, 3.6, 3.6), H('#3730A3'));
+                    c.fill(O(x - 1.5, y - 1.5, 3, 3), blue);
+                    c.fill(O(x - 0.9, y - 1.2, 1, 1), A(W, 0.7));
+                }
+            };
+            const tanghulu = () => {
+                const stick = P().m(1.4, 18.6).l(34, 14.6);
+                c.stroke(stick, H('#8A6A45'), { w: 1.6, cap: 'round' });
+                c.stroke(P().m(1.4, 18.6).l(34, 14.6), H('#E2C79A'), { w: 1, cap: 'round' });
+                const red = primary || H('#B91C1C'), bright = secondary || H('#EF4444');
+                for (const [x, y, r] of [[14.2, 15.6, 5.1], [23.6, 15.1, 5.5], [33.6, 14.6, 5.9]]) {
+                    const ball = O(x - r, y - r, r * 2, r * 2);
+                    c.fill(ball, R([bright, red], x - r * 0.35, y - r * 0.35, 0.5, r * 1.4));
+                    c.stroke(ball, A(W, 0.55), 0.55);
+                    c.fill(O(x - r * 0.62, y - r * 0.7, r * 0.7, r * 0.42), A(W, 0.75));
+                    c.fill(Poly([[x - 1.2, y + r - 0.4], [x + 0.2, y + r + 1.4], [x + 1, y + r - 0.3]]), A(accent || H('#FEF08A'), 0.85));
+                }
+            };
+            const birdsNest = () => {
+                c.fill(O(13, 6.4, 20, 10), A(W, 0.78));
+                for (let i = 0; i < 6; i++) {
+                    const y = 8.6 + i * 1.2;
+                    c.stroke(P().m(14.6 + (i % 2), y).c(31.4 - (i % 2), y + 0.4, 19, y - 1.6, 26, y + 1.8), A(accent || H('#BAE6FD'), 0.9), 0.5);
+                }
+                for (const [x, y] of [[18.6, 7.8], [26, 8.4]]) {
+                    const cr = c.copy(); cr.translate(x, y); cr.rotate(0.6);
+                    cr.fill(P().rect(-1.2, -1.2, 2.4, 2.4), H('#E0F2FE'));
+                    cr.stroke(P().rect(-1.2, -1.2, 2.4, 2.4), H('#7DD3FC'), 0.4);
+                }
+                c.fill(O(22, 6.8, 2.2, 1.4), H('#EF4444')); // Goji berry.
+                const bowl = P().m(10.4, 14).l(35.6, 14).c(28.4, 24.8, 35.6, 20.6, 32, 24.8).l(17.6, 24.8).c(10.4, 14, 14, 24.8, 10.4, 20.6).z();
+                c.fill(P().rrect(18.4, 24, 9.2, 2.6, 0.8), H('#C7DCEE'));
+                c.fill(bowl, L([H('#FFFFFF'), H('#D6E6F5')], 0, 14, 0, 25));
+                c.stroke(bowl, H('#7FA6C9'), 0.5);
+                c.fill(O(10, 12.8, 26, 2.6), H('#F1F7FC'));
+                c.stroke(O(10, 12.8, 26, 2.6), H('#7FA6C9'), 0.45);
+                const band = P().m(13.4, 21.8);
+                for (let i = 0; i < 6; i++) band.q(15.4 + i * 2.9, 21.8, 14.4 + i * 2.9, 20.6 + (i % 2) * 2.4);
+                c.stroke(band, A(H('#3B82F6'), 0.75), 0.6);
+            };
+            const bubbleTea = () => {
+                const cup = () => P().m(15, 6.8).l(31.4, 6.8).l(29.6, 26.4).q(16.8, 26.4, 23.2, 27.4).z();
+                c.fill(cup(), A(W, 0.18));
+                const inside = c.copy(); inside.clip(cup());
+                inside.fill(P().rect(14, 9.6, 18, 18), L([H('#EBC99A'), primary ? A(primary, 0.9) : H('#C98B4A')], 0, 9.6, 0, 27));
+                for (let i = 0; i < 10; i++) {
+                    const x = 17.4 + (i % 5) * 2.6 + (i < 5 ? 0 : 1.2), y = i < 5 ? 25 : 22.6;
+                    inside.fill(O(x - 1.3, y - 1.3 + (i === 7 ? wave * 0.4 : 0), 2.6, 2.6), H('#2A1D17'));
+                    inside.fill(O(x - 0.7, y - 0.9, 0.8, 0.8), A(W, 0.5));
+                }
+                c.stroke(P().m(25, 14).l(29.6, 0.2), H('#FB7185'), { w: 2.6, cap: 'round' });
+                c.stroke(P().m(25, 14).l(29.6, 0.2), A(W, 0.35), { w: 0.6, cap: 'round' });
+                c.stroke(cup(), A(W, 0.7), 0.6);
+                c.fill(P().rrect(14, 5.4, 18.4, 2.2, 1.1), A(W, 0.85));
+                c.fill(P().rrect(16.4, 9, 1, 14, 0.5), A(W, 0.35)); // Cup gloss.
+            };
+            const gingerbreadHouse = () => {
+                const cookie = [H('#D48A48'), primary || H('#B45309')];
+                const walls = P().rrect(12.6, 13, 21, 12, 1);
+                c.fill(P().rect(26.4, 4.8, 3.4, 6), H('#A0521D')); // Chimney.
+                c.fill(walls, L(cookie, 0, 13, 0, 25));
+                c.stroke(walls, A(H('#6B3410'), 0.6), 0.5);
+                c.fill(Poly([[9.4, 14.2], [23, 3.2], [36.6, 14.2]]), L([H('#B8662A'), H('#8A4513')], 0, 3, 0, 14));
+                const icing = H(_cmBlueprint(fish, 'secondaryColor') || '#FFFFFF');
+                c.stroke(P().m(9.4, 14.2).l(23, 3.2).l(36.6, 14.2), icing, { w: 1, cap: 'round', join: 'round' });
+                for (let i = 0; i < 9; i++) { const x = 11 + i * 3.1; c.fill(P().m(x - 1.4, 14).q(x + 1.4, 14, x, 16.4), icing); }
+                const gumdrops = [accent || H('#DC2626'), H('#22C55E'), H('#FDE047')];
+                [[17.4, 10.8], [23, 7.4], [28.6, 10.8], [20.4, 12], [25.8, 12]].forEach(([x, y], i) => c.fill(O(x - 1, y - 1, 2, 2), gumdrops[i % gumdrops.length]));
+                const door = P().m(15.4, 25).l(15.4, 20).q(20, 20, 17.7, 17).l(20, 25);
+                c.fill(door, H('#6B3410')); c.stroke(door, icing, 0.6);
+                const win = P().rrect(22.2, 16.4, 4, 4, 0.6);
+                c.fill(win, H('#FDE68A')); c.stroke(win, icing, 0.6);
+                c.stroke(P().m(24.2, 16.4).l(24.2, 20.4).m(22.2, 18.4).l(26.2, 18.4), icing, 0.45);
+            };
+            const pumpkinLantern = () => {
+                const deep = H('#C2410C'), mid = primary || H('#EA580C'), light = secondary || H('#F97316');
+                c.stroke(P().m(23.4, 7).q(26.2, 2.6, 22.6, 3.6), H('#4D7C0F'), { w: 2.2, cap: 'round' }); // Stem.
+                const shell = O(11.4, 5.6, 23.2, 19.4);
+                c.fill(shell, R([light, mid, deep], 21, 12, 1, 15));
+                c.stroke(shell, A(H('#7C2D12'), 0.7), 0.5);
+                for (const dx of [-7.4, -3.7, 0, 3.7, 7.4]) c.stroke(P().m(23 + dx * 0.72, 6.6).q(23 + dx * 0.72, 24.2, 23 + dx * 1.5, 15), A(H('#9A3412'), 0.7), 0.6);
+                const glow = accent || H('#FDE047');
+                c.fill(O(24.4, 15.4, 11.2, 7.6), A(glow, 0.2 + 0.07 * ((wave + 1) / 2)));
+                const grin = P().m(25.8, 17.6).l(28, 20.8).l(30, 17.8).l(32, 20.6).l(33.4, 18.2).l(32.8, 21.8).l(26.4, 21.2).z();
+                c.fill(grin, glow); c.stroke(grin, H('#B45309'), 0.35);
+                c.fill(O(14.4, 8.4, 5.6, 2.6), A(W, 0.28));
+            };
+            const glassOrb = dream => {
+                const cx = 23, cy = 13.8, rx = 11, ry = 10.2;
+                if (!dream) {
+                    const base = P().m(14.6, 22.2).l(31.4, 22.2).l(29.4, 27.4).l(16.6, 27.4).z();
+                    c.fill(base, L([H('#A16207'), H('#713F12')], 0, 22, 0, 27));
+                    c.stroke(base, A(H('#FDE68A'), 0.55), 0.5);
+                    c.fill(P().rrect(14, 21.2, 18, 2.2, 1.1), H('#CA8A04'));
+                }
+                const glass = () => O(cx - rx, cy - ry, rx * 2, ry * 2);
+                const tint = dream ? (primary || H('#C084FC')) : H('#BAE6FD');
+                c.fill(glass(), R([A(W, dream ? 0.45 : 0.4), A(tint, dream ? 0.9 : 0.5)], 19, 9, 1, 15));
+                const inside = c.copy(); inside.clip(glass());
+                if (dream) {
+                    inside.fill(O(12, 17, 22, 10), A(H('#6D28D9'), 0.55));
+                    inside.fill(O(18.4, 7.6, 9.2, 9.2), A(H('#FEF08A'), 0.95)); // Crescent moon.
+                    inside.fill(O(21.2, 6.4, 8.6, 8.6), A(primary || H('#C084FC'), 0.95));
+                    for (const [x, y, r] of [[16.2, 17.6, 1.9], [28.4, 15.2, 1.5], [20.4, 20.6, 1.3]]) inside.fill(star(x, y, r), H('#FEF9C3'));
+                } else {
+                    inside.fill(O(12, 19.2, 22, 7.4), A(W, 0.92)); // Snow bank.
+                    inside.fill(Poly([[20.2, 20.8], [23, 9.2], [25.8, 20.8]]), H('#15803D'));
+                    inside.fill(Poly([[21, 15.4], [23, 11.6], [25, 15.4]]), H('#22C55E'));
+                    for (let i = 0; i < 7; i++) { const x = 14.4 + i * 2.9, y = 6.8 + ((i * 5) % 11) + wave * 1.2; inside.fill(O(x, y, 1.3, 1.3), A(W, 0.92)); }
+                }
+                c.stroke(glass(), A(W, 0.82), 0.7);
+                c.fill(O(15, 6.4, 7.4, 3), A(W, 0.55));
+            };
+            const paperLantern = () => {
+                const red = primary || H('#DC2626'), gold = secondary || H('#FACC15');
+                c.stroke(P().m(23, 24).l(23 + wave * 0.9, 29.4), gold, { w: 1.3, cap: 'round' }); // Tassel.
+                const barrel = P().m(15.4, 6.6).l(30.6, 6.6).c(30.6, 23.4, 35.6, 11, 35.6, 19).l(15.4, 23.4).c(15.4, 6.6, 10.4, 19, 10.4, 11).z();
+                c.fill(barrel, L([H('#F87171'), red, H('#991B1B')], 12, 2, 34, 26));
+                c.fill(O(16.6, 9.6, 12.8, 10.8), A(gold, 0.28 + 0.1 * ((wave + 1) / 2))); // Candle glow.
+                for (const dx of [-6.4, -3.2, 0, 3.2, 6.4]) c.stroke(P().m(23 + dx, 6.8).q(23 + dx, 23.2, 23 + dx * 1.42, 15), A(H('#7F1D1D'), 0.5), 0.5);
+                c.stroke(barrel, A(H('#FCA5A5'), 0.85), 0.5);
+                for (const y of [4.6, 22.4]) { const cap = P().rrect(15, y, 16, 2.6, 0.9); c.fill(cap, gold); c.stroke(cap, H('#92400E'), 0.35); }
+                c.fill(O(17.2, 8.6, 3.4, 8), A(W, 0.22));
+            };
+            const herbSachet = () => {
+                const leaf = H('#4D7C0F');
+                c.stroke(P().m(23, 8).l(23.4, 2.6), leaf, { w: 0.9, cap: 'round' });
+                for (const [dx, dy] of [[-3.4, 4.4], [0.6, 2.4], [3.4, 4.6]]) { // Mugwort sprig.
+                    const l = c.copy(); l.translate(23.2 + dx, dy); l.rotate(dx * 0.16);
+                    l.fill(O(-1.5, -2.4, 3, 4.8), leaf);
+                }
+                const pouch = P().m(23, 6.8).q(33.4, 15.4, 31.2, 8.6).q(23, 25.2, 31.4, 22.8).q(12.6, 15.4, 14.6, 22.8).q(23, 6.8, 14.8, 8.6).z();
+                c.fill(pouch, L([secondary || H('#4ADE80'), primary || H('#15803D')], 14, 8, 32, 24));
+                c.stroke(pouch, A(H('#BBF7D0'), 0.85), 0.55);
+                for (let i = 0; i < 4; i++) { // Gold cross-stitch.
+                    const y = 12.6 + i * 3;
+                    c.stroke(P().m(17.4 + (i % 2), y).l(28.6 - (i % 2), y), A(accent || H('#FDE047'), 0.8), { w: 0.5, dash: [1, 1.4] });
+                }
+                c.stroke(P().m(18.6, 9.8).q(27.4, 9.8, 23, 12), H('#FDE047'), { w: 1, cap: 'round' }); // Drawstring.
+            };
+            const cloverLeaf = () => {
+                const deep = primary || H('#16A34A'), light = secondary || H('#22C55E');
+                c.stroke(P().m(21.6, 18).q(13.2, 27.4, 16.6, 24.6), H('#15803D'), { w: 1.3, cap: 'round' });
+                for (let i = 0; i < 4; i++) {
+                    const lc = c.copy(); lc.translate(23, 15); lc.rotate(i * PI / 2 + PI / 4);
+                    const heart = P().m(0, 1.4).c(0, 10.8, 6.8, 2.2, 7.2, 9.4).c(0, 1.4, -7.2, 9.4, -6.8, 2.2).z();
+                    lc.fill(heart, L([light, deep], 0, 1, 0, 11));
+                    lc.stroke(heart, A(H('#14532D'), 0.6), 0.45);
+                    lc.stroke(P().m(0, 2.6).l(0, 9.6), A(accent || H('#BBF7D0'), 0.75), 0.45);
+                }
+                c.fill(O(22, 14, 2, 2), H('#BBF7D0'));
+            };
+            const mapleLeaf = () => {
+                const leaf = Poly([[23, 3], [25.8, 8.6], [31.6, 6.2], [30.2, 11.6], [34.8, 13.4], [30, 16.6], [32.6, 21.8], [25.6, 20.2], [24.2, 24.8],
+                    [21.8, 24.8], [20.4, 20.2], [13.4, 21.8], [16, 16.6], [11.2, 13.4], [15.8, 11.6], [14.4, 6.2], [20.2, 8.6]]);
+                c.fill(leaf, L([secondary || H('#EF4444'), primary || H('#B91C1C')], 23, 3, 23, 25));
+                c.stroke(leaf, A(H('#FCA5A5'), 0.75), 0.5);
+                for (const [x, y] of [[23, 6.4], [30, 10.6], [16, 10.6], [29.4, 19.6], [16.6, 19.6]]) c.stroke(P().m(23, 22.4).l(x, y), A(accent || H('#F97316'), 0.85), 0.5);
+                c.stroke(P().m(23, 24.6).l(22.2, 28.8), H('#92400E'), { w: 1, cap: 'round' });
+            };
+            const wheatEar = () => {
+                const rx = 10.6, ry = 21.8, tx = 34.2, ty = 9.6;
+                c.stroke(P().m(rx, ry).l(rx + (tx - rx) * 0.32, ry + (ty - ry) * 0.32), H('#A16207'), { w: 1.6, cap: 'round' });
+                const grain = primary || H('#B45309'), light = secondary || H('#F59E0B');
+                for (let i = 0; i < 5; i++) {
+                    const t = 0.26 + i / 4 * 0.74, cx = rx + (tx - rx) * t, cy = ry + (ty - ry) * t;
+                    for (const side of [-1, 1]) {
+                        const g = c.copy(); g.translate(cx + side * 1.1, cy + side * 2.5); g.rotate(-0.49 + side * 0.3);
+                        const seed = O(-3.3, -2.2, 6.6, 4.4);
+                        g.fill(seed, L([H('#FDE68A'), light, grain], -2.8, -2, 2.8, 2));
+                        g.stroke(seed, A(H('#78350F'), 0.65), 0.4);
+                        if (side < 0) g.stroke(P().m(2, -1).l(7.4, -3.6), A(accent || H('#FFFFFF'), 0.6), { w: 0.45, cap: 'round' }); // Awn.
+                    }
+                }
+                c.fill(O(tx - 2.8, ty - 2.5, 5.6, 5), light);
+                c.stroke(O(tx - 2.8, ty - 2.5, 5.6, 5), A(H('#78350F'), 0.6), 0.4);
+            };
+            const rose = () => {
+                const deep = primary || H('#BE123C'), light = secondary || H('#FB7185');
+                for (const [dx, a] of [[-8.8, 0.55], [8.4, -0.55]]) {
+                    const l = c.copy(); l.translate(23 + dx, 23.2); l.rotate(a);
+                    const leaf = O(-4.2, -1.9, 8.4, 3.8);
+                    l.fill(leaf, H('#15803D')); l.stroke(leaf, A(H('#BBF7D0'), 0.6), 0.4);
+                }
+                const bloom = O(12.4, 4.8, 21.2, 19.8);
+                c.fill(bloom, R([light, deep, H('#881337')], 22, 13, 1, 12.5));
+                c.stroke(bloom, A(H('#FDA4AF'), 0.75), 0.5);
+                for (let i = 0; i < 5; i++) {
+                    const r = 3 + i * 2.1;
+                    c.stroke(P().arc(22.4, 14.2, r, i * 0.95, i * 0.95 + 4.3), i % 2 === 0 ? A(accent || H('#FDA4AF'), 0.9) : A(H('#9F1239'), 0.9), { w: 1, cap: 'round' });
+                }
+                c.fill(O(21.2, 12.8, 2.6, 2.6), H('#FFE4E6'));
+            };
+            const clockworkGear = () => {
+                const brass = secondary || H('#F59E0B'), dark = primary || H('#B45309');
+                const gear = (x, y, radius, teeth, spin) => {
+                    const g = c.copy(); g.translate(x, y); g.rotate(spin);
+                    for (let i = 0; i < teeth; i++) { const t = g.copy(); t.rotate(i / teeth * 2 * PI); t.fill(P().rrect(-1.5, -radius - 2, 3, 3.4, 0.6), dark); }
+                    const disc = O(-radius, -radius, radius * 2, radius * 2);
+                    g.fill(disc, R([H('#FDE68A'), brass, dark], -radius * 0.3, -radius * 0.3, 0.5, radius * 1.5));
+                    g.stroke(disc, A(H('#78350F'), 0.75), 0.5);
+                    const hub = O(-radius * 0.34, -radius * 0.34, radius * 0.68, radius * 0.68);
+                    g.fill(hub, A(ink, 0.8)); g.stroke(hub, H('#FDE68A'), 0.45);
+                    for (let i = 0; i < 4; i++) { const s = g.copy(); s.rotate(i / 4 * 2 * PI + PI / 8); s.stroke(P().m(0, -radius * 0.36).l(0, -radius * 0.88), A(H('#78350F'), 0.55), 1); }
+                };
+                gear(24, 13.6, 9, 10, wave * 0.12);
+                gear(14.2, 22.4, 4.6, 7, -wave * 0.24 + 0.3);
+                const coil = P(); // Mainspring in the hub.
+                for (let i = 0; i <= 28; i++) {
+                    const t = i / 28, a = t * 4.4 * PI, r = 0.5 + t * 2.3, px = 24 + cos(a) * r, py = 13.6 + sin(a) * r;
+                    if (i === 0) coil.m(px, py); else coil.l(px, py);
+                }
+                c.stroke(coil, A(H('#FDE68A'), 0.9), 0.5);
+            };
+            const wishBottle = () => {
+                const glassTint = secondary || H('#38BDF8');
+                const bottle = () => P().m(30.4, 11.2).l(34.4, 12.4).q(34.4, 18.6, 35.8, 15.5).l(30.4, 19.8).q(11.2, 15.5, 28.4, 27).q(30.4, 11.2, 28.4, 4).z();
+                c.fill(bottle(), L([A(W, 0.4), A(glassTint, 0.45)], 0, 5, 0, 27));
+                const inside = c.copy(); inside.clip(bottle());
+                inside.fill(P().rect(10, 17.4, 26, 12), A(primary || H('#0284C7'), 0.6)); // Sea water.
+                const roll = inside.copy(); roll.translate(20.4, 16.2); roll.rotate(-0.2);
+                const paper = P().rrect(-7.2, -2.7, 14.4, 5.4, 2.7);
+                roll.fill(paper, L([H('#FEF3C7'), H('#D6BB84')], 0, -2.7, 0, 2.7));
+                roll.stroke(paper, A(H('#92400E'), 0.7), 0.4);
+                roll.stroke(P().m(0.6, -2.7).l(0.6, 2.7), accent || H('#FDE047'), 0.9);
+                c.stroke(bottle(), A(W, 0.85), 0.7);
+                const cork = P().rrect(34.2, 12.2, 4.4, 6.6, 1.2);
+                c.fill(cork, L([H('#D8A657'), H('#92400E')], 34, 12, 38.6, 19));
+                c.stroke(cork, H('#78350F'), 0.4);
+                c.fill(O(14.6, 9.4, 8.4, 2.4), A(W, 0.5));
+                c.fill(star(13, 10.8, 2.2), A(accent || H('#FDE047'), 0.95));
+            };
+            const snowflake = () => {
+                const icy = secondary || H('#BAE6FD');
+                c.fill(O(12.2, 4.2, 21.6, 21.6), A(icy, 0.14)); // Frost halo.
+                for (let i = 0; i < 6; i++) {
+                    const arm = c.copy(); arm.translate(23, 15); arm.rotate(i / 6 * 2 * PI + wave * 0.05);
+                    arm.stroke(P().m(0, 0).l(0, -11.6), W, { w: 1.6, cap: 'round' });
+                    for (const [at, len] of [[4.4, 3.6], [7.4, 2.9], [10, 1.9]]) arm.stroke(P().m(-len, -at - len * 0.9).l(0, -at).l(len, -at - len * 0.9), icy, { w: 1, cap: 'round', join: 'round' });
+                }
+                const hub = polygonHex(23, 15, 3.5);
+                c.fill(hub, A(W, 0.95)); c.stroke(hub, icy, 0.5);
+            };
+            const musicNote = () => {
+                const neon = primary || H('#EC4899'), violet = secondary || H('#8B5CF6');
+                c.fill(O(12.4, 11.4, 20.4, 16.4), A(violet, 0.18)); // Neon bloom.
+                for (const y of [7.2, 10.2, 13.2]) c.stroke(P().m(9.4, y).l(21, y - 0.7), A(accent || H('#06B6D4'), 0.55), 0.45);
+                c.stroke(P().m(26.2, 19.6).l(28.4, 4.2), violet, { w: 2.2, cap: 'round' });
+                const flag = P().m(28.4, 3.8).q(33.6, 12.8, 34.8, 5.2).q(27.4, 9.6, 32, 10.6).z();
+                c.fill(flag, L([neon, violet], 27, 4, 34, 13));
+                c.stroke(flag, A(W, 0.55), 0.45);
+                const head = c.copy(); head.translate(20.2, 19.8); head.rotate(-0.36);
+                const disc = O(-6.8, -4.9, 13.6, 9.8);
+                head.fill(disc, L([neon, violet], -6, -4, 6, 4));
+                head.stroke(disc, A(W, 0.8), 0.6);
+                head.fill(O(-4.8, -3.6, 4.6, 2.6), A(W, 0.4));
+            };
+            const waterDrop = () => {
+                const aqua = primary || H('#00F0FF'), deep = secondary || H('#38BDF8');
+                const drop = P().m(23, 2.6).c(31.8, 18.4, 25.6, 8.4, 31.8, 12.2).c(14.2, 18.4, 31.8, 24.8, 14.2, 24.8).c(23, 2.6, 14.2, 12.2, 20.4, 8.4).z();
+                c.fill(drop, R([A(W, 0.9), A(aqua, 0.8), A(deep, 0.95)], 20, 13, 1, 14));
+                c.stroke(drop, A(W, 0.9), 0.75);
+                c.fill(O(17.2, 11.2, 3.8, 6.2), A(W, 0.65));
+                c.fill(O(26.6, 19.4, 2.6, 1.8), A(W, 0.35));
+                for (const [r, o] of [[5.6, 0.4], [8.8, 0.2]]) c.stroke(P().arc(23, 25.6, r, PI, 2 * PI), A(deep, o), 0.6); // Ripple it just left.
+            };
+            const cottonCloud = () => {
+                const cloud = P();
+                for (const [x, y, r] of [[15.6, 18, 6.6], [21.4, 13.4, 8], [28.2, 16.4, 6.4], [24.8, 19.4, 6.4], [11.8, 19.6, 4.6]]) cloud.ell(x - r, y - r, r * 2, r * 2);
+                cloud.rect(11.4, 18, 22.4, 5.6);
+                c.fill(cloud, L([W, secondary || H('#E0F2FE'), accent || H('#BAE6FD')], 0, 6, 0, 25));
+                c.fill(O(16.4, 8.6, 9.4, 3.4), A(W, 0.85)); // Sunlit crown.
+                for (const [x, y] of [[13.6, 22.4], [19.4, 23.4], [26.4, 22.6]]) c.fill(O(x - 3.4, y - 1.4, 6.8, 2.8), A(accent || H('#BAE6FD'), 0.55));
+            };
+            const roseWindow = () => {
+                const cx = 23, cy = 14.8, r = 10.8, lead = H('#111C2B');
+                const panes = [primary || H('#BE123C'), secondary || H('#3B82F6'), accent || H('#FACC15'), H('#22C55E')];
+                c.fill(O(cx - r, cy - r, r * 2, r * 2), lead);
+                for (let i = 0; i < 12; i++) {
+                    const a0 = i / 12 * 2 * PI, a1 = (i + 1) / 12 * 2 * PI, tone = panes[i % panes.length];
+                    c.fill(P().m(cx, cy).arc(cx, cy, r - 1, a0 + 0.05, a1 - 0.05).z(), L([tone, A(tone, 0.5)], cx, cy, cx + cos(a0) * r, cy + sin(a0) * r));
+                }
+                c.fill(O(cx - 5.2, cy - 5.2, 10.4, 10.4), lead);
+                for (let i = 0; i < 6; i++) { const a = i / 6 * 2 * PI; c.fill(O(cx + cos(a) * 3 - 1.6, cy + sin(a) * 3 - 1.6, 3.2, 3.2), panes[(i + 1) % panes.length]); }
+                c.fill(O(cx - 1.5, cy - 1.5, 3, 3), H('#FEF3C7'));
+                c.stroke(O(cx - r, cy - r, r * 2, r * 2), A(H('#FDE68A'), 0.85), 0.85);
+                c.stroke(O(cx - 5.2, cy - 5.2, 10.4, 10.4), A(H('#FDE68A'), 0.6), 0.5);
+            };
+            const kaleidoscope = () => {
+                const cx = 23, cy = 15, r = 11;
+                const tones = [primary || H('#EC4899'), secondary || H('#8B5CF6'), accent || H('#38BDF8'), H('#FDE047')];
+                const rim = polygonHex(cx, cy, r);
+                c.fill(rim, A(ink, 0.85));
+                for (let i = 0; i < 6; i++) {
+                    const a0 = i / 6 * 2 * PI - PI / 2, a1 = (i + 1) / 6 * 2 * PI - PI / 2;
+                    const p0 = [cx + cos(a0) * r, cy + sin(a0) * r], p1 = [cx + cos(a1) * r, cy + sin(a1) * r], mid = [(p0[0] + p1[0]) / 2, (p0[1] + p1[1]) / 2];
+                    c.fill(Poly([[cx, cy], p0, p1]), A(tones[i % tones.length], 0.9));
+                    c.fill(Poly([[cx, cy], mid, p1]), A(tones[(i + 2) % tones.length], 0.8));
+                    c.fill(Poly([[cx + (p0[0] - cx) * 0.5, cy + (p0[1] - cy) * 0.5], mid, p0]), A(W, 0.25));
+                    c.stroke(P().m(cx, cy).l(p0[0], p0[1]), A(W, 0.75), 0.5);
+                }
+                c.fill(polygonHex(cx, cy, 3.8), A(W, 0.92));
+                c.fill(polygonHex(cx, cy, 2.1), tones[1]);
+                c.stroke(rim, A(W, 0.8), 0.7);
+            };
+            const petalFlower = kind => {
+                const cx = 23, cy = 15;
+                if (kind === 'plum') {
+                    c.stroke(P().m(8, 27.6).q(23, 15.6, 15.4, 24.8), H('#57341A'), { w: 1.7, cap: 'round' }); // Snowy branch.
+                    for (let i = 0; i < 5; i++) {
+                        const a = i / 5 * 2 * PI - PI / 2, px = cx + cos(a) * 5.4, py = cy + sin(a) * 5.2;
+                        const petal = O(px - 5, py - 4.8, 10, 9.6);
+                        c.fill(petal, R([H('#FEF9C3'), secondary || H('#FDE047'), primary || H('#CA8A04')], px, py, 0.5, 6));
+                        c.stroke(petal, A(H('#A16207'), 0.75), 0.45);
+                    }
+                    c.fill(O(cx - 2.5, cy - 2.5, 5, 5), H('#78350F'));
+                    for (let i = 0; i < 7; i++) { const a = i / 7 * 2 * PI; c.fill(O(cx + cos(a) * 3.5 - 0.5, cy + sin(a) * 3.3 - 0.5, 1, 1), H('#FEF08A')); }
+                } else if (kind === 'carnation') {
+                    const bloom = ruffle(23, 13.8, 10.8, 8.2, 22);
+                    c.fill(bloom, R([accent || H('#FFE4E6'), secondary || H('#FB7185'), primary || H('#E11D48')], 21, 11, 1, 12));
+                    c.stroke(bloom, A(H('#FFE4E6'), 0.85), 0.45);
+                    const inner = ruffle(23, 13.4, 6.8, 4.8, 16);
+                    c.fill(inner, A(accent || H('#FFE4E6'), 0.5));
+                    c.stroke(inner, A(H('#9F1239'), 0.55), 0.4);
+                    c.fill(Poly([[20.4, 21.6], [25.6, 21.6], [24.4, 27], [21.6, 27]]), H('#15803D')); // Calyx.
+                    c.stroke(P().m(23, 25).l(23, 29.4), H('#166534'), { w: 1.3, cap: 'round' });
+                } else if (kind === 'sunflower') {
+                    for (const [ring, count, len, w] of [[0, 16, 11.6, 4.4], [1, 12, 8.6, 3.4]]) {
+                        for (let i = 0; i < count; i++) {
+                            const p = c.copy(); p.translate(cx, cy); p.rotate(i / count * 2 * PI + ring * 0.2);
+                            const petal = P().m(3, 0).q(len, 0, len * 0.72, -w).q(3, 0, len * 0.72, w);
+                            p.fill(petal, L([secondary || H('#FACC15'), accent || H('#FEF08A')], 3, 0, len, 0));
+                            p.stroke(petal, A(H('#A16207'), 0.65), 0.35);
+                        }
+                    }
+                    const disc = O(cx - 5.8, cy - 5.4, 11.6, 10.8);
+                    c.fill(disc, R([H('#92400E'), H('#451A03')], 21.4, 13, 0.5, 6.4));
+                    c.stroke(disc, A(H('#FDE68A'), 0.75), 0.5);
+                    for (let i = 0; i < 12; i++) {
+                        const a = i / 12 * 2 * PI, rr = i % 2 === 0 ? 3.7 : 2;
+                        c.fill(O(cx + cos(a) * rr - 0.45, cy + sin(a) * rr * 0.92 - 0.45, 0.9, 0.9), A(H('#FDE68A'), 0.55));
+                    }
+                } else { // marigold / chrysanthemum
+                    const mum = kind === 'chrysanthemum';
+                    const rings = mum ? [[12, 10.6, 5.6, 2.4], [10, 8.2, 4.6, 2.3], [9, 6, 3.8, 2.2], [7, 4, 3, 2]]
+                                      : [[12, 10.4, 5.8, 3.6], [10, 7.6, 4.8, 3.1], [8, 4.8, 3.8, 2.7]];
+                    const tones = mum ? [primary || H('#D97706'), H('#F59E0B'), secondary || H('#FBBF24'), accent || H('#FEF3C7')]
+                                      : [primary || H('#D97706'), secondary || H('#F59E0B'), H('#FBBF24')];
+                    rings.forEach(([count, radius, len, w], index) => {
+                        for (let i = 0; i < count; i++) {
+                            const p = c.copy(); p.translate(cx, cy); p.rotate(i / count * 2 * PI + index * 0.26);
+                            const petal = P().rrect(radius - len, -w / 2, len, w, w / 2);
+                            p.fill(petal, tones[index % tones.length]);
+                            p.stroke(petal, A(H('#78350F'), 0.5), 0.35);
+                        }
+                    });
+                    const core = mum ? 3.2 : 2.1;
+                    c.fill(O(cx - core, cy - core, core * 2, core * 2), mum ? H('#FEF3C7') : H('#DC2626'));
+                    if (mum) c.stroke(O(cx - core, cy - core, core * 2, core * 2), H('#B45309'), 0.5);
+                }
+            };
+            const BODY = {
+                snowSkinMooncake: () => mooncake(false), bakedMooncake: () => mooncake(true), taiyaki, macaron, donut,
+                strawberryShortcake: shortcake, tiramisu, lavaCake, mangoPudding, lemonTart: () => tart(false), fruitTart: () => tart(true),
+                blueberryCheesecake: cheesecake, tanghulu, birdsNestSoup: birdsNest, bubbleTea, gingerbreadCookie: gingerbreadHouse,
+                pumpkinLantern, snowGlobe: () => glassOrb(false), dreamOrb: () => glassOrb(true),
+                marigold: () => petalFlower('marigold'), sunflower: () => petalFlower('sunflower'), chrysanthemum: () => petalFlower('chrysanthemum'),
+                plumBlossom: () => petalFlower('plum'), carnation: () => petalFlower('carnation'),
+                paperLantern, herbSachet, cloverLeaf, mapleLeaf, wheatEar, rose, clockworkGear, wishBottle, snowflake, musicNote, waterDrop,
+                cottonCloud, roseWindow, kaleidoscope,
+            };
+
+            // draw(in:)：與 App 相同的疊放順序。
+            c.translate(0, wave * 0.35);
+            const f = PARTS[shape]();
+            tail(f); dorsal(f); ventral(f); BODY[shape](); pectoral(f); face(f);
+            return `${_svgHead(size)}${_appFrame(out.join(''))}</svg>`;
+        }
+
+        // 節慶真魚：真魚輪廓（MotifFishBody）＋節慶主題（FishMotif），主題只疊花樣／配件，不改輪廓。
+        function generateMotifFishSvg(fish, size) {
+            const design = REVIEWED_MOTIF_FISH[fish.id] || { body: 'goldfish', motif: 'fireworksNight' };
+            const H = _cmHex, A = _cmA, L = _cmLin, R = _cmRad, P = _cmP, O = _cmOval, W = _cmWhite;
+            const phase = 0, wave = Math.sin(phase), pulse = (Math.sin(phase * 1.7) + 1) / 2, ink = H('#0B131E');
+            const PI = Math.PI, cos = Math.cos, sin = Math.sin, motif = design.motif;
+            const out = [], c = _cmCtx(out, '', []);
+            // readable()：把太暗的藍圖色往白色拉到 minLuma（這批一半是午夜藍／近黑，不拉會消失在 #0B131E 上）。
+            const readable = (raw, fallback, minLuma = 0.38) => {
+                let text = String(raw || fallback).trim();
+                if (text.startsWith('#')) text = text.slice(1);
+                const v = parseInt(text.slice(0, 6), 16);
+                if (text.length < 6 || !/^[0-9a-fA-F]{6}/.test(text)) return H(raw || fallback);
+                let r = Math.floor(v / 65536) % 256 / 255, g = Math.floor(v / 256) % 256 / 255, b = v % 256 / 255;
+                const luma = 0.299 * r + 0.587 * g + 0.114 * b;
+                if (luma < minLuma) { const t = (minLuma - luma) / Math.max(1 - luma, 0.001); r += (1 - r) * t; g += (1 - g) * t; b += (1 - b) * t; }
+                return { r: r * 255, g: g * 255, b: b * 255, a: 1 };
+            };
+            const bp = k => _cmBlueprint(fish, k);
+            const primary = readable(bp('primaryColor'), '#94A3B8');
+            const secondary = readable(bp('secondaryColor'), '#CBD5F5', 0.5);
+            const accent = readable(bp('accentColor'), '#FDE047', 0.56);
+            const shadow = H(bp('primaryColor') || '#1E293B');
+
+            const plan = () => {
+                const Pl = (shape, tailJoint, tailKind, tailSpan, dorsal, ventral, pectoral, eye, eyeRadius, mouth) => ({ shape, tailJoint, tailKind, tailSpan, dorsal, ventral, pectoral, eye, eyeRadius, mouth });
+                switch (design.body) {
+                    case 'zebra': return Pl(() => P().m(13.8, 15).c(26, 10.4, 17, 11.6, 21, 10.4).c(38, 15.2, 32.4, 10.4, 36.6, 12.2).c(26, 19.8, 36.6, 18.2, 32.4, 19.8).c(13.8, 15, 21, 19.8, 17, 18.4).z(),
+                        [14.6, 15], 'forked', 8.6, [[23, 11], [26.4, 6.4], [29.6, 11.4]], [[24.6, 19], [26, 23.2], [29.4, 18.8]], [31, 18.2], [33.4, 13.4], 1.5, [37.4, 15.6]);
+                    case 'tetra': return Pl(() => P().m(16.6, 15).c(27, 11.2, 19.4, 12.2, 23, 11.2).c(36.8, 15.2, 32.2, 11.2, 35.6, 12.8).c(27, 19.2, 35.6, 17.8, 32.2, 19.2).c(16.6, 15, 23, 19.2, 19.4, 17.8).z(),
+                        [17.4, 15], 'forked', 7.4, [[24, 11.8], [26.6, 7.8], [29.2, 12.2]], [[25, 18.6], [26.2, 22.2], [29, 18.4]], [30.6, 17.6], [32.6, 13.6], 1.45, [36.2, 15.4]);
+                    case 'swallowtail': return Pl(() => P().m(14.4, 15).c(27, 10.8, 17.6, 11.4, 22, 10.8).q(39.4, 15.4, 35.6, 11.4).q(27, 19.6, 35.6, 18.6).c(14.4, 15, 22, 19.6, 17.6, 18.6).z(),
+                        [15.2, 15], 'deepFork', 12, [[22.6, 11.4], [26.4, 5.6], [30, 12]], [[24.4, 18.8], [25.8, 23.4], [29, 18.4]], [31.4, 18], [33.6, 13.2], 1.45, [38.6, 15.4]);
+                    case 'rainbowfish': return Pl(() => P().m(15.4, 15).c(26.4, 8.8, 18, 10.4, 21.4, 8.8).c(36.8, 15.4, 32.4, 8.8, 36.8, 11.4).c(26.4, 21.6, 36.8, 19.2, 32.4, 21.6).c(15.4, 15, 21.4, 21.6, 18, 19.6).z(),
+                        [16.2, 15], 'lyre', 9.6, [[21.4, 10.2], [26, 4.6], [31, 9.8]], [[23.4, 20.6], [25.6, 25.4], [29.6, 20]], [30.6, 19], [32.2, 13], 1.6, [35.8, 16]);
+                    case 'arowana': return Pl(() => P().m(7.4, 18.6).c(26, 11.4, 13.4, 15.4, 19, 11.8).c(39.6, 12.6, 32, 11, 37, 11.2).q(26, 15.2, 34.4, 14.6).c(8.4, 21.2, 19, 15.6, 13.4, 18.4).z(),
+                        [9.4, 20], 'small', 6.4, [[13.4, 15.4], [22, 8.6], [30, 10.8]], [[13.6, 20.6], [22, 21.6], [30, 15.4]], [30.4, 15.4], [34.4, 12.6], 1.4, [38.8, 13.4]);
+                    default: return Pl(() => P().m(16.6, 15).c(27, 7.2, 18.6, 9.6, 21.4, 7.2).c(35.6, 15.4, 32.4, 7.2, 35.6, 10.8).c(27, 23, 35.6, 20, 32.4, 23).c(16.6, 15, 21.4, 23, 18.6, 20.4).z(),
+                        [17.4, 15], 'fan', 11, [[21, 9.4], [27.4, 2.4], [31.6, 9]], [[24.4, 21.6], [26.6, 26.8], [30.4, 21]], [30.4, 19.4], [31, 12.2], 1.6, [34.8, 16.6]);
+                }
+            };
+            const finColor = motif === 'springSwallow' ? H('#E2E8F0') : motif === 'iceFacets' ? H('#DBEAFE') : motif === 'inkWash' ? H('#CBD5F5') : secondary;
+
+            const tail = p => {
+                const t = c.copy(); t.translate(p.tailJoint[0], p.tailJoint[1]); t.rotate(wave * 0.22);
+                const s = p.tailSpan;
+                const fin = {
+                    fan: () => P().m(0.6, -2.6).q(-s, -9.6, -s * 0.5, -6.4).q(-s * 0.62, -0.4, -s * 0.9, -3.4).q(-s, 9.6, -s * 0.9, 3.4).q(0.6, 2.6, -s * 0.5, 6.4).z(),
+                    forked: () => P().m(0.6, -2).q(-s, -6, -s * 0.6, -4.4).q(-s * 0.48, 0, -s * 0.6, -2).q(-s, 6, -s * 0.6, 2).q(0.6, 2, -s * 0.6, 4.4).z(),
+                    deepFork: () => P().m(0.6, -1.8).q(-s, -9, -s * 0.55, -3.8).q(-s * 0.3, 0, -s * 0.5, -4).q(-s, 9, -s * 0.5, 4).q(0.6, 1.8, -s * 0.55, 3.8).z(),
+                    lyre: () => P().m(0.6, -2.2).q(-s, -7.4, -s * 0.7, -5.6).q(-s * 0.52, 0, -s * 0.42, -3).q(-s, 7.4, -s * 0.42, 3).q(0.6, 2.2, -s * 0.7, 5.6).z(),
+                    small: () => P().m(0.6, -1.4).q(-s, -4, -s * 0.6, -3).q(-s * 0.5, 0.6, -s * 0.6, -1).q(-s, 4.6, -s * 0.6, 2.6).q(0.6, 1.4, -s * 0.6, 3).z(),
+                }[p.tailKind]();
+                t.fill(fin, L([finColor, A(finColor, 0.62)], 0, 0, -s, 0));
+                t.stroke(fin, A(ink, 0.35), 0.45);
+                for (const dy of [-1, 0, 1]) t.stroke(P().m(-0.4, dy * 1.2).l(-s * 0.82, dy * s * 0.62), A(W, 0.3), 0.4); // Fin rays.
+            };
+            const finTriangle = (base, flutter) => {
+                const [b0, b1, b2] = base;
+                const fin = P().m(b0[0], b0[1]).q(b1[0] + flutter, b1[1], b0[0] + flutter * 0.4, (b0[1] + b1[1]) / 2)
+                    .q(b2[0], b2[1], (b1[0] + b2[0]) / 2 + flutter * 0.3, b1[1] + (b2[1] - b1[1]) * 0.35).z();
+                c.fill(fin, L([A(finColor, 0.9), A(finColor, 0.6)], b1[0], b1[1], b0[0], b0[1]));
+                c.stroke(fin, A(ink, 0.3), 0.4);
+            };
+            const pectoral = p => {
+                const g = c.copy(); g.translate(p.pectoral[0], p.pectoral[1]); g.rotate(-0.5 + cos(phase * 0.9) * 0.28);
+                const fin = O(-4.2, -1.2, 4.6, 2.4);
+                g.fill(fin, A(finColor, 0.92)); g.stroke(fin, A(ink, 0.4), 0.45);
+            };
+            const bodyFill = p => {
+                let top, mid, belly;
+                if (motif === 'springSwallow') { top = H('#475569'); mid = H('#94A3B8'); belly = H('#F8FAFC'); }
+                else if (motif === 'iceFacets') { top = H('#E0F2FE'); mid = H('#BAE6FD'); belly = A(W, 0.95); }
+                else if (motif === 'inkWash') { top = H('#E2E8F0'); mid = H('#F8FAFC'); belly = W; }
+                else if (motif === 'starSand') { top = H('#1E293B'); mid = H('#334155'); belly = H('#475569'); }
+                else if (motif === 'fireworksNight' || motif === 'newYearSparks') { top = shadow; mid = primary; belly = A(secondary, 0.85); }
+                else { top = primary; mid = secondary; belly = A(accent, 0.75); }
+                c.fill(p.shape(), L([top, mid, belly], 0, 5, 0, 24));
+                c.stroke(p.shape(), A(ink, 0.4), 0.5);
+                const gloss = c.copy(); gloss.clip(p.shape());
+                gloss.fill(O(p.eye[0] - 10, p.eye[1] - 3.4, 9, 3), A(W, 0.22));
+            };
+            const blossom = (ctx, x, y, s) => {
+                for (let i = 0; i < 5; i++) { const a = i / 5 * 2 * PI, px = x + cos(a) * s * 0.6, py = y + sin(a) * s * 0.6; ctx.fill(O(px - s * 0.5, py - s * 0.5, s, s), A(H('#FDA4AF'), 0.92)); }
+                ctx.fill(O(x - s * 0.25, y - s * 0.25, s * 0.5, s * 0.5), H('#FFE4E6'));
+            };
+            const frostStar = (x, y, radius) => {
+                for (let i = 0; i < 3; i++) {
+                    const a = i / 3 * PI;
+                    c.stroke(P().m(x - cos(a) * radius, y - sin(a) * radius).l(x + cos(a) * radius, y + sin(a) * radius), A(W, 0.85), { w: 0.6, cap: 'round' });
+                }
+            };
+            const backdrop = () => {
+                if (motif === 'fireworksNight') {
+                    for (const [x, y, r] of [[11, 6, 5.2], [34, 5.4, 4], [22, 3.4, 3.2]]) {
+                        const spread = r * (0.82 + 0.18 * pulse);
+                        for (let i = 0; i < 10; i++) {
+                            const a = i / 10 * 2 * PI, tx = x + cos(a) * spread, ty = y + sin(a) * spread;
+                            c.stroke(P().m(x + cos(a) * spread * 0.35, y + sin(a) * spread * 0.35).l(tx, ty), A(i % 2 === 0 ? accent : secondary, 0.85), { w: 0.55, cap: 'round' });
+                            c.fill(O(tx - 0.45, ty - 0.45, 0.9, 0.9), accent);
+                        }
+                    }
+                } else if (motif === 'newYearSparks') {
+                    for (let i = 0; i < 7; i++) {
+                        const x = 9.6 + i * 4.2, h = 4.4 + ((i * 3) % 5);
+                        c.stroke(P().m(x, 7.4).l(x + wave * 0.6, 7.4 - h), A(i % 2 === 0 ? accent : secondary, 0.8), { w: 0.6, cap: 'round' });
+                        c.fill(O(x - 0.7, 6.4 - h, 1.4, 1.4), A(W, 0.9));
+                    }
+                } else if (motif === 'peachBlossom') {
+                    for (const [x, y, s] of [[9, 8, 2.6], [37, 7, 2.2], [13, 25, 2], [33.6, 24.4, 2.4]]) blossom(c, x + wave * 0.8, y, s);
+                } else if (motif === 'springSwallow') {
+                    for (const [x, y] of [[9, 7.6], [36.4, 23.6]]) {
+                        c.stroke(P().m(x, y).q(x + 5.4, y + 3.4, x + 3.4, y - 1), A(H('#4ADE80'), 0.75), { w: 0.6, cap: 'round' });
+                        for (let i = 0; i < 3; i++) c.fill(O(x + 1.2 + i * 1.6, y + i * 0.9, 2.2, 1.2), A(H('#86EFAC'), 0.85));
+                    }
+                } else if (motif === 'fireflyGlow') {
+                    for (const [x, y, r] of [[10, 7.4, 2.6], [35.6, 6.6, 2.2], [12.6, 24.6, 2]]) {
+                        const glow = 0.5 + 0.45 * pulse;
+                        c.fill(O(x - r, y - r, r * 2, r * 2), A(accent, 0.22 * glow));
+                        c.fill(O(x - 0.8, y - 0.8, 1.6, 1.6), A(accent, 0.95));
+                    }
+                } else if (motif === 'starSand') {
+                    for (let i = 0; i < 14; i++) c.fill(O(5.4 + ((i * 7) % 34), 3.4 + ((i * 11) % 24), 0.8, 0.8), A(W, 0.45));
+                } else if (motif === 'iceFacets') {
+                    for (const [x, y] of [[10, 7], [35, 22.6]]) frostStar(x, y, 3);
+                } else if (motif === 'inkWash') {
+                    c.stroke(P().m(4.6, 21.6).q(14, 17.4, 9, 21.4), A(H('#0F172A'), 0.55), { w: 2.4, cap: 'round' });
+                    c.fill(O(4.4, 22.4, 4, 2.2), A(H('#0F172A'), 0.35));
+                }
+            };
+            const pattern = p => {
+                const inner = c.copy(); inner.clip(p.shape());
+                if (motif === 'fireworksNight') {
+                    for (let i = 0; i < 3; i++) { const x = 20.4 + i * 4.6; inner.stroke(P().m(x, 8.6).q(x - 2, 20.6, x - 0.2, 14.6), A(accent, 0.6), { w: 0.6, cap: 'round' }); }
+                    for (let i = 0; i < 7; i++) inner.fill(O(18.6 + ((i * 5) % 15), 10 + ((i * 7) % 11), 1.5, 1.5), A(i % 2 === 0 ? W : accent, 0.9));
+                } else if (motif === 'newYearSparks') {
+                    const spectrum = [H('#F472B6'), accent, H('#FDE047'), H('#4ADE80'), secondary];
+                    for (let i = 0; i < 6; i++) inner.fill(P().rrect(17.4 + i * 3.5, 8, 1.7, 14, 0.8), A(spectrum[i % spectrum.length], 0.9));
+                } else if (motif === 'peachBlossom') {
+                    inner.fill(O(28.4, 12.4, 6, 7.6), A(H('#FB7185'), 0.5));
+                    for (const [x, y, s] of [[21, 12, 2.4], [25.4, 18.4, 2], [19.4, 18.6, 1.8]]) blossom(inner, x, y, s);
+                } else if (motif === 'springSwallow') {
+                    inner.fill(P().rect(10, 15.6, 32, 12), H('#F8FAFC'));
+                    inner.stroke(P().m(13, 15.6).l(40, 15.6), A(H('#0F172A'), 0.6), 0.6);
+                    inner.fill(O(30.4, 13.2, 5.6, 4.4), A(H('#38BDF8'), 0.55));
+                } else if (motif === 'fireflyGlow') {
+                    const glow = 0.45 + 0.5 * pulse;
+                    inner.fill(O(20.4, 14.2, 11.6, 5.4), A(accent, 0.35 + 0.35 * glow));
+                    inner.fill(O(23, 15.2, 6.4, 3.2), A(H('#ECFCCB'), 0.5 + 0.4 * glow));
+                } else if (motif === 'reindeerNose') {
+                    for (const [x, y, r] of [[22, 13.6, 1.5], [26.4, 12.6, 1.2], [24.6, 17.2, 1.3], [29.4, 16.4, 1.1]]) inner.fill(O(x - r, y - r, r * 2, r * 2), A(H('#FDE68A'), 0.7));
+                } else if (motif === 'iceFacets') {
+                    for (const [a, b, d] of [[[18.6, 15], [25, 8.6], [25, 15]], [[25, 15], [31.4, 9.4], [32.6, 15]], [[19.4, 15.4], [25.4, 21.6], [26, 15.4]], [[26, 15.4], [32, 21], [33, 15.4]]]) {
+                        const facet = _cmPoly([a, b, d]);
+                        inner.fill(facet, A(W, 0.35)); inner.stroke(facet, A(H('#38BDF8'), 0.8), 0.45);
+                    }
+                } else if (motif === 'inkWash') {
+                    inner.fill(P().m(14, 14).q(36, 11.4, 25, 8.2).q(14, 17.6, 25, 16.4).z(), A(H('#0F172A'), 0.88));
+                    [19, 23.4, 27.8, 32].forEach((x, i) => inner.fill(O(x, 16.6, 3, 2.4), A([H('#EC4899'), H('#F59E0B'), H('#22D3EE'), H('#A78BFA')][i % 4], 0.8)));
+                } else if (motif === 'starSand') {
+                    for (let i = 0; i < 18; i++) {
+                        const x = 17.4 + ((i * 5) % 19), y = 9 + ((i * 7) % 13), r = i % 4 === 0 ? 0.85 : 0.55;
+                        inner.fill(O(x, y, r * 2, r * 2), A(i % 3 === 0 ? W : accent, 0.95));
+                    }
+                    inner.fill(O(19, 11, 8, 6), A(H('#C084FC'), 0.28));
+                } else if (motif === 'rainbowBubbles') {
+                    [12, 13.8, 15.6].forEach((y, i) => inner.stroke(P().m(10, y + 5).q(38, y - 1.4, 24, y + 1), A([H('#F472B6'), H('#38BDF8'), H('#FDE047')][i % 3], 0.6), { w: 1.1, cap: 'round' }));
+                }
+            };
+            const face = p => {
+                const [ex, ey] = p.eye, r = p.eyeRadius, [mx, my] = p.mouth;
+                c.fill(O(ex - r - 0.5, ey - r - 0.5, (r + 0.5) * 2, (r + 0.5) * 2), A(W, 0.92));
+                c.fill(O(ex - r, ey - r, r * 2, r * 2), ink);
+                c.fill(O(ex + r * 0.1, ey - r * 0.7, r * 0.7, r * 0.7), W);
+                c.stroke(P().m(mx - 1.4, my - 0.6).q(mx, my + 1, mx - 0.4, my + 0.9), A(ink, 0.7), { w: 0.6, cap: 'round' });
+            };
+            const accessory = p => {
+                const [ex, ey] = p.eye, [mx, my] = p.mouth;
+                if (motif === 'reindeerNose') {
+                    for (const side of [-1, 0.6]) {
+                        const rx = ex - 1 + side * 1.8, ry = ey - 2.6;
+                        c.stroke(P().m(rx, ry).q(rx + 1.4 + side, ry - 5.6, rx + 2.4, ry - 2.8), H('#B45309'), { w: 1.1, cap: 'round' });
+                        for (const branch of [1.6, 3.4]) c.stroke(P().m(rx + 1 + side * 0.4, ry - branch).l(rx + 3.2 + side * 0.4, ry - branch - 1.6), H('#D97706'), { w: 0.8, cap: 'round' });
+                    }
+                    const nx = mx + 0.8, ny = my - 0.6;
+                    c.fill(O(nx - 3.2, ny - 3.2, 6.4, 6.4), A(H('#EF4444'), 0.22 + 0.16 * pulse));
+                    c.fill(O(nx - 1.7, ny - 1.7, 3.4, 3.4), H('#EF4444'));
+                    c.fill(O(nx - 1, ny - 1.2, 1.1, 1.1), A(W, 0.8));
+                } else if (motif === 'rainbowBubbles') {
+                    [[2.6, -4.4, 2.6], [5.4, -8.4, 1.9], [7.4, -12, 1.4], [1.4, -1.6, 1.1]].forEach(([dx, dy, r], i) => {
+                        const bx = mx + dx, by = my + dy + wave * i * 0.3, bubble = O(bx - r, by - r, r * 2, r * 2);
+                        c.fill(bubble, R([A(W, 0.35), A(H('#F472B6'), 0.35), A(H('#38BDF8'), 0.45)], bx - r * 0.3, by - r * 0.3, 0.2, r * 1.4));
+                        c.stroke(bubble, A(W, 0.85), 0.45);
+                    });
+                    for (const dx of [-2.4, -4.8]) c.stroke(P().m(mx + dx * 0.2, my + 0.6).q(mx + dx, my + 4.4, mx + dx + 1.4, my + 2.6), A(secondary, 0.9), { w: 0.55, cap: 'round' }); // Barbels.
+                } else if (motif === 'fireflyGlow') {
+                    c.fill(O(19.4, 13.4, 13.6, 7.4), A(accent, 0.14 + 0.12 * pulse));
+                } else if (motif === 'iceFacets') {
+                    frostStar(ex + 3, ey - 5.4, 2.2);
+                } else if (motif === 'fireworksNight' || motif === 'newYearSparks') {
+                    for (const [x, y, r] of [[15.6, 20.6, 1.1], [30.6, 22.4, 0.9]]) c.fill(O(x - r, y - r, r * 2, r * 2), A(accent, 0.9));
+                }
+            };
+
+            // draw(in:)：與 App 相同的疊放順序。
+            const p = plan();
+            c.translate(0, wave * 0.3);
+            backdrop(); tail(p); finTriangle(p.dorsal, wave * 0.8); finTriangle(p.ventral, -wave * 0.6);
+            bodyFill(p); pattern(p); pectoral(p); face(p); accessory(p);
+            return `${_svgHead(size)}${_appFrame(out.join(''))}</svg>`;
+        }
+
         function generateCephalopodShellSvg(fish, size) {
             const { p, s, a } = _fishColors(fish);
             const g = 'cs_' + (fish.id || 'c').replace(/[^a-zA-Z0-9]/g, '_');
@@ -2900,6 +3934,9 @@
             const features = (fish.visualBlueprint && fish.visualBlueprint.features) || [];
             const category = fish.category || '';
             if (REVIEWED_SPRITE_ARCHETYPES[id]) return REVIEWED_SPRITE_ARCHETYPES[id];
+            // 2026-09-27 同步 App spriteArchetype 的優先序：reviewedSpriteArchetypes（上一行）→ 甜點魚 → 節慶真魚。
+            if (Object.prototype.hasOwnProperty.call(REVIEWED_CONFECTION_SHAPES, id)) return 'confection';
+            if (Object.prototype.hasOwnProperty.call(REVIEWED_MOTIF_FISH, id)) return 'motifFish';
             const C = (s) => commonName.includes(s);
             const L = (s) => lowerId.includes(s);
             const isPipefishFamily = commonName.endsWith('海龍') || L('seadragon') || L('pipefish');
@@ -3280,6 +4317,8 @@
                 else if (appArchetype === 'pipefish') return generatePipefishSvg(fish, size);
                 else if (appArchetype === 'graptolite') return generateGraptoliteSvg(fish, size);
                 else if (appArchetype === 'elephantnose') return generateElephantnoseSvg(fish, size);
+                else if (appArchetype === 'confection') return generateConfectionSvg(fish, size);
+                else if (appArchetype === 'motifFish') return generateMotifFishSvg(fish, size);
 
                 else if (appArchetype === 'ammonite' || appArchetype === 'orthocone') return generateCephalopodShellSvg(fish, size);
                 else if (appArchetype === 'trilobite' || appArchetype === 'arthropod' || appArchetype === 'opabinia' || appArchetype === 'hallucigenia' || appArchetype === 'eurypterid') return generatePaleozoicArthropodSvg(fish, size);
