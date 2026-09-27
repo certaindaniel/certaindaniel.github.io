@@ -2317,6 +2317,110 @@
             </svg>`;
         }
 
+
+        // ── 2026-09-27 同步 App 的 5 種外形（AnatomicalCreatureSpriteView 靜態姿勢）──
+        // 路徑直接沿用 App 的 44×30 座標，外層 transform 縮放置中到 48×48。
+        function _appFrame(inner) { return `<g transform="translate(0 7.6) scale(1.09)">${inner}</g>`; }
+        function _appEye(x, y, r) {
+            return `<circle cx="${x}" cy="${y}" r="${r}" fill="#0B131E"/><circle cx="${(x + r * 0.45).toFixed(2)}" cy="${(y - r * 0.33).toFixed(2)}" r="${(r * 0.33).toFixed(2)}" fill="#fff"/>`;
+        }
+        function _features(fish) { return new Set(((fish.visualBlueprint || {}).features) || []); }
+
+        // 無面魚（深海鼬魚）：頭部渾圓、沒有眼睛，嘴在頭下方；背鰭臀鰭連成裙邊到尾端。
+        function generateFacelessSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const dots = _features(fish).has('bioluminescence')
+                ? Array.from({length: 7}, (_, i) => `<circle cx="${10 + i * 4}" cy="${(15.8 - i * 0.08).toFixed(2)}" r="0.6" fill="${a}" opacity="0.85"/>`).join('') : '';
+            return `${_svgHead(size)}${_appFrame(`
+                <path d="M26 9.5 Q12 7 2 15.5 Q12 24 26 21.5 Z" fill="${s}" opacity="0.45"/>
+                <path d="M2 15.5 C12 12 24 9 33 9 C38 9 42 11.5 42 16 C42 20 38 21.5 33 21.5 C24 21.5 12 18.5 2 15.5 Z" fill="${p}" stroke="#000" stroke-opacity="0.18" stroke-width="0.45"/>
+                <path d="M40.5 18.6 Q39.4 20.3 37.5 19.6" stroke="#0B131E" stroke-opacity="0.55" stroke-width="0.7" fill="none"/>
+                ${dots}`)}</svg>`;
+        }
+
+        // 坦干伊喀湖貝殼棲慈鯛（○○貝）：小慈鯛從螺殼口探出頭，不是貝類。
+        function generateShellDwellerSvg(fish, size) {
+            const { p, s } = _fishColors(fish);
+            const stripes = _features(fish).has('stripes')
+                ? [26, 29.5, 33].map(x => `<path d="M${x} 11 L${x - 0.6} 22" stroke="#0B131E" stroke-opacity="0.45" stroke-width="1.1"/>`).join('') : '';
+            return `${_svgHead(size)}${_appFrame(`
+                <path d="M22 11.5 L23 8.4 L25.4 9.6 L27.8 8.4 L30.2 9.6 L32.6 8.4 L34 11.5 Z" fill="${s}" opacity="0.85"/>
+                <path d="M20 11 C30 9 37 11 39 16.5 C37 21.5 30 23.5 20 22 Z" fill="${p}" stroke="#000" stroke-opacity="0.18" stroke-width="0.45"/>
+                ${stripes}
+                <path d="M30 18 Q31 22 27 23 Z" fill="${s}" opacity="0.8"/>
+                <path d="M38.6 17.4 L37.2 17.8" stroke="#0B131E" stroke-opacity="0.6" stroke-width="0.6"/>
+                ${_appEye(35, 14.8, 1.5)}
+                <path d="M24 13 C18 5 5 7 3 16 C2 25 15 28 24 25 Q27 19 24 13 Z" fill="#E7C98E" stroke="#000" stroke-opacity="0.18" stroke-width="0.45"/>
+                <path d="${Array.from({length: 65}, (_, i) => { const f = i / 64, ang = f * Math.PI * 5, r = 7 * (1 - f); return `${i ? 'L' : 'M'}${(11 + Math.cos(ang) * r).toFixed(2)} ${(16.5 + Math.sin(ang) * r).toFixed(2)}`; }).join(' ')}" stroke="#A67C45" stroke-opacity="0.7" stroke-width="1" fill="none" stroke-linecap="round"/>
+                <path d="M24 13 Q27.5 19 24 25" stroke="#A67C45" stroke-width="1.1" fill="none"/>`)}</svg>`;
+        }
+
+        // 海龍科：細長直身、管狀吻、骨環，小扇尾；flowing_fins（葉海龍、草海龍）掛葉狀附肢。
+        function generatePipefishSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const f = _features(fish);
+            const spine = t => [5 + t * 27, 16 - t * 3];
+            const w = t => 1.2 + t * 2.4;
+            const N = 24, top = [], bot = [];
+            for (let i = 0; i <= N; i++) { const t = i / N, [x, y] = spine(t); top.push(`${x.toFixed(2)} ${(y - w(t)).toFixed(2)}`); bot.unshift(`${x.toFixed(2)} ${(y + w(t)).toFixed(2)}`); }
+            const fronds = f.has('flowing_fins') ? [0.25, 0.45, 0.62, 0.8].map((t, i) => {
+                const [x, y] = spine(t), up = i % 2 === 0 ? -1 : 1;
+                return `<path d="M${x} ${y} Q${x + 1.5} ${y + up * 4} ${x - 3} ${y + up * 5} Q${x - 3.5} ${y + up * 1.5} ${x} ${y} Z" fill="${s}" opacity="0.75"/>`;
+            }).join('') : '';
+            const striped = f.has('stripes');
+            const rings = Array.from({length: 9}, (_, i) => { const t = (i + 1) / 10, [x, y] = spine(t), ww = w(t);
+                return `<path d="M${x.toFixed(2)} ${(y - ww * 0.9).toFixed(2)} L${(x - 0.4).toFixed(2)} ${(y + ww * 0.9).toFixed(2)}" stroke="${a}" stroke-opacity="${striped ? 0.85 : 0.45}" stroke-width="${striped ? 0.8 : 0.45}"/>`; }).join('');
+            const spots = f.has('spots') ? [0.3, 0.5, 0.7].map(t => { const [x, y] = spine(t); return `<circle cx="${x}" cy="${y - 0.2}" r="0.7" fill="${s}"/>`; }).join('') : '';
+            const [tx, ty] = spine(0), [fx, fy] = spine(0.55), [nx, ny] = spine(1);
+            const whiskers = f.has('whiskers') ? `<path d="M${nx + 10.5} ${ny + 0.5} L${nx + 11.5} ${ny + 2.2}" stroke="${a}" stroke-width="0.45"/>` : '';
+            return `${_svgHead(size)}${_appFrame(`
+                ${fronds}
+                <path d="M${tx + 0.5} ${ty} L${tx - 3.5} ${ty - 2.2} L${tx - 3.5} ${ty + 2.2} Z" fill="${a}"/>
+                <path d="M${top.join(' L')} L${bot.join(' L')} Z" fill="${p}" stroke="#000" stroke-opacity="0.18" stroke-width="0.4"/>
+                ${rings}${spots}
+                <path d="M${fx - 2} ${fy - 2} Q${fx} ${fy - 5} ${fx + 2} ${fy - 2.4} Z" fill="#fff" opacity="0.55"/>
+                <ellipse cx="${nx + 2}" cy="${ny - 0.3}" rx="3" ry="2.7" fill="${p}" stroke="#000" stroke-opacity="0.18" stroke-width="0.4"/>
+                <rect x="${nx + 4}" y="${ny - 1.3}" width="7" height="1.9" rx="0.9" fill="${p}"/>
+                ${whiskers}${_appEye(nx + 2.6, ny - 1, 1.1)}`)}</svg>`;
+        }
+
+        // 筆石：漂浮群體，頂端浮囊吊一條細絲，下面兩條鋸齒分枝張成音叉形。
+        function generateGraptoliteSvg(fish, size) {
+            const { p, s, a } = _fishColors(fish);
+            const stipes = [-1, 1].map(side => {
+                const rx = 22, ry = 14, tx = 22 + side * 12, ty = 27, dx = tx - rx, dy = ty - ry, L = Math.hypot(dx, dy);
+                const d = [dx / L, dy / L], n = [-d[1] * side, d[0] * side];
+                const teeth = Array.from({length: 7}, (_, j) => { const f = (j + 1) / 8, px = rx + dx * f, py = ry + dy * f;
+                    return `<path d="M${px.toFixed(2)} ${py.toFixed(2)} L${(px + d[0] * 1.7).toFixed(2)} ${(py + d[1] * 1.7).toFixed(2)} L${(px + d[0] * 0.3 - n[0] * 1.9).toFixed(2)} ${(py + d[1] * 0.3 - n[1] * 1.9).toFixed(2)} Z" fill="${s}"/>`; }).join('');
+                return `<path d="M${rx} ${ry} L${tx} ${ty}" stroke="${p}" stroke-width="1.5" stroke-linecap="round"/>${teeth}`;
+            }).join('');
+            return `${_svgHead(size)}${_appFrame(`
+                <ellipse cx="22" cy="3.75" rx="3.5" ry="2.25" fill="${a}" fill-opacity="0.55" stroke="${a}" stroke-width="0.6"/>
+                <path d="M22 6 L22 11" stroke="${a}" stroke-opacity="0.8" stroke-width="0.6"/>
+                <path d="M21 11 L23 11 L22.6 14.5 L21.4 14.5 Z" fill="${p}"/>
+                ${stipes}`)}</svg>`;
+        }
+
+        // 象鼻魚科（非洲弱電魚）：細長身、小叉尾、長而低的背臀鰭、下彎的象鼻狀下巴、極小的眼睛。
+        function generateElephantnoseSvg(fish, size) {
+            const { p, s } = _fishColors(fish);
+            const g = 'en_' + (fish.id || 'e').replace(/[^a-zA-Z0-9]/g, '_');
+            return `${_svgHead(size)}<defs><clipPath id="${g}"><path d="M7.5 13.6 L12 13 C18 9.6 25 8.4 31 9.4 C34.6 10.2 36.6 12.4 36.5 15.2 C35.6 18.6 32 20.6 28 20.6 C22 20.8 17 19.6 12 17 L7.5 16.4 Z"/></clipPath></defs>${_appFrame(`
+                <path d="M8 13.8 L1.5 9.8 L4.4 15 L1.5 20.2 L8 16.2 Z" fill="${s}" stroke="#0B131E" stroke-opacity="0.35" stroke-width="0.45"/>
+                <path d="M10 12.6 L12 8.2 L17 7.6 L21 10.4 Z" fill="${s}"/>
+                <path d="M10 17.4 L12 21.8 L17 22.4 L21 19.6 Z" fill="${s}"/>
+                <path d="M24 20.2 L23 23.6 L27 20.4 Z" fill="${s}"/>
+                <path d="M7.5 13.6 L12 13 C18 9.6 25 8.4 31 9.4 C34.6 10.2 36.6 12.4 36.5 15.2 C35.6 18.6 32 20.6 28 20.6 C22 20.8 17 19.6 12 17 L7.5 16.4 Z" fill="${p}" stroke="#fff" stroke-opacity="0.45" stroke-width="0.5"/>
+                <ellipse cx="23.5" cy="17.4" rx="8.5" ry="1.8" fill="#fff" opacity="0.16"/>
+                <g clip-path="url(#${g})"><path d="M18.5 8 Q19.7 15 17.1 22 M22 8 Q23.2 15 20.6 22" stroke="#fff" stroke-opacity="0.42" stroke-width="1.1" fill="none"/></g>
+                <path d="M30.5 11 Q32.2 15 30 18.6" stroke="#0B131E" stroke-opacity="0.35" stroke-width="0.55" fill="none"/>
+                <ellipse cx="28.7" cy="16.4" rx="2.2" ry="1.2" fill="${s}"/>
+                <path d="M35 16.6 Q41.2 16.2 41.6 23.2" stroke="#fff" stroke-opacity="0.45" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+                <path d="M35 16.6 Q41.2 16.2 41.6 23.2" stroke="${p}" stroke-width="2.3" stroke-linecap="round" fill="none"/>
+                <ellipse cx="41.6" cy="23.2" rx="1" ry="0.9" fill="${s}"/>
+                ${_appEye(33.4, 12.6, 0.95)}`)}</svg>`;
+        }
+
         function generateCephalopodShellSvg(fish, size) {
             const { p, s, a } = _fishColors(fish);
             const g = 'cs_' + (fish.id || 'c').replace(/[^a-zA-Z0-9]/g, '_');
@@ -3171,6 +3275,12 @@
                 else if (appArchetype === 'shark' || appArchetype === 'frilledShark' || appArchetype === 'spinedShark' || appArchetype === 'spiralJawShark' || appArchetype === 'scissorJawShark' || appArchetype === 'chimaera') return generateSharkSvg(fish, size);
                 else if (appArchetype === 'puffer' || appArchetype === 'boxfish') return generatePufferSvg(fish, size);
                 else if (appArchetype === 'flatfish') return generateFlatfishSvg(fish, size);
+                else if (appArchetype === 'faceless') return generateFacelessSvg(fish, size);
+                else if (appArchetype === 'shellDweller') return generateShellDwellerSvg(fish, size);
+                else if (appArchetype === 'pipefish') return generatePipefishSvg(fish, size);
+                else if (appArchetype === 'graptolite') return generateGraptoliteSvg(fish, size);
+                else if (appArchetype === 'elephantnose') return generateElephantnoseSvg(fish, size);
+
                 else if (appArchetype === 'ammonite' || appArchetype === 'orthocone') return generateCephalopodShellSvg(fish, size);
                 else if (appArchetype === 'trilobite' || appArchetype === 'arthropod' || appArchetype === 'opabinia' || appArchetype === 'hallucigenia' || appArchetype === 'eurypterid') return generatePaleozoicArthropodSvg(fish, size);
                 else if (appArchetype === 'sunfish') return generateSunfishSvg(fish, size);
