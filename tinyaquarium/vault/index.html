@@ -2499,7 +2499,7 @@
                 "F_5021": "eelLoach",  // 寬咽魚
                 "F_5032": "eelLoach",  // 皇帶魚
                 "F_5058": "eelLoach",  // 火山口盲魚
-                "F_5093": "eelLoach",  // 無面魚
+                "F_5093": "faceless",  // 無面魚
                 "F_5097": "eelLoach",  // 盲眼鼬魚
                 "F_5099": "eelLoach",  // 深海底棲魚
                 "SJM_031_燭龍光螭": "eelLoach",  // 燭龍光螭
@@ -2598,7 +2598,7 @@
                 "TA-4092": "tubeWorm",  // 聖誕樹管蟲
                 "F_5051": "tubeWorm",  // 巨型管蟲
                 "F_5069": "tubeWorm",  // 硫磺細菌毯
-                "prehistoric_018": "tubeWorm",  // 筆石
+                "prehistoric_018": "graptolite",  // 筆石
                 "fish_1072": "tubeWorm",  // 害羞小管蟲
 
                 // snail
@@ -2765,6 +2765,28 @@
 
                 // swan
                 "fish_1077": "swan",  // 摺紙天鵝魚
+                // 2026-09-27 同步 App（FishSpecies.reviewedSpriteArchetypes 284 筆）
+                "VOL02_088": "elephantnose",  // 象鼻魚
+                "AFR_CON_006": "elephantnose",  // 象鼻魚
+                "AFR_CON_022": "elephantnose",  // 長吻象鼻魚
+                "AFR_CON_023": "elephantnose",  // 短吻象鼻魚
+                "AFR_CON_024": "elephantnose",  // 斑馬象鼻魚
+                "fish_1093": "hourglassFish",  // 時光沙漏小丑魚
+                "FISH_9098": "seahorse",  // 空間曲率海馬
+                "FISH_9097": "jellyfish",  // 時間膨脹水母
+                "TA-4059": "pipefish",  // 寬吻海龍
+                "TA-4069": "pipefish",  // 葉海龍
+                "TA-4070": "pipefish",  // 草海龍
+                "TA-4071": "pipefish",  // 短尾海龍
+                "weedy_seadragon": "pipefish",  // 澳洲草海龍
+                "leafy_seadragon": "pipefish",  // 澳洲幻彩葉海龍
+                "harlequin_ghost_pipefish": "pipefish",  // 哈雷鬼海龍
+                "AFR_TAN_010": "shellDweller",  // 斑馬貝
+                "AFR_TAN_011": "shellDweller",  // 黃金圓頂貝
+                "AFR_TAN_021": "shellDweller",  // 虎皮貝
+                "AFR_TAN_022": "shellDweller",  // 金線貝
+                "AFR_TAN_023": "shellDweller",  // 藍眼貝
+
         };
 
         function resolveFishArchetype(fish) {
@@ -2796,7 +2818,8 @@
             if (L('octopus') || C('章魚')) return 'octopus';
             if (L('shrimp') || C('蝦')) return 'shrimp';
             if (lowerId === 'fish_1056' || L('beluga') || C('白鯨')) return 'beluga';
-            if (L('seahorse') || C('海馬') || isPipefishFamily) return 'seahorse';
+            if (L('seahorse') || C('海馬')) return 'seahorse';
+            if (isPipefishFamily) return 'pipefish';
             if (L('manatee') || L('dugong') || C('海牛') || C('儒艮')) return 'manatee';
             if (L('loach') || L('kuhli') || L('eel') || C('蛇魚') || C('泥鰍') || C('沙鰍') || C('鰻') || C('鱔') || C('鳝') || (C('鰍') && !C('海馬'))) return 'eelLoach';
             if (L('starfish') || C('海星')) return 'starfish';
