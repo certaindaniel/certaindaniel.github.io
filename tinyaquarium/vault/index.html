@@ -3455,6 +3455,613 @@
             return `${_svgHead(size)}${_appFrame(out.join(''))}</svg>`;
         }
 
+        // ── 2026-09-28 同步 App 的螃蟹／蝦兵蟹將／鯰魚／鬥魚／聖杯魚（AnatomicalCreatureSpriteView 靜態姿勢 phase = 0）──
+        // 逐行移植 App 的 GraphicsContext 繪圖（沿用上方 _cm* 迷你 GraphicsContext），44×30 座標外層 _appFrame。
+        // 體態／尾型三張表與 App 的 FishSpecies.reviewedCrabBodyPlans / reviewedCatfishBodyPlans / reviewedBettaTails 同源（依 id，不看名稱）。
+        const REVIEWED_CRAB_BODY_PLANS = {
+            "emperor_armored_crab": "king",       // 帝王黑金刺甲蟹 Lithodes
+            "fish_1036": "spider",                // 香草冰淇淋雪蟹 Chionoecetes
+            "TA-4094": "arrow",                   // 箭蟹 Stenorhynchus
+            "fish_1059": "hermit",                // 害羞寄居蟹 Paguroidea
+            "F_5090": "squatLobster",             // 深海異尾蟹 Anomura
+            "F_5060": "squatLobster",             // 白瓷蟹 Shinkaia crosnieri（鎧甲蝦）
+            "yeti_crab": "hairy",                 // 深海金絲雪人蟹 Kiwa hirsuta
+            "F_5052": "hairy",                    // 雪人蟹 Kiwa hirsuta
+            "F_5057": "hairy",                    // 硫化菌毛蟹 Kiwa puravida
+            "fish_1063": "hairy",                 // 絨毛蟹
+            "TA-4086": "boxer",                   // 拳擊蟹 Lybia
+            "TA-4093": "porcelain",               // 瓷蟹 Neopetrolisthes
+        };
+        const REVIEWED_CATFISH_BODY_PLANS = {
+            // 異型 Loricariidae（L 編號、Panaque、Otocinclus）
+            "VOL02_001": "pleco", "VOL02_002": "pleco", "VOL02_003": "pleco", "VOL02_004": "pleco",
+            "VOL02_005": "pleco", "VOL02_006": "pleco", "VOL02_007": "pleco", "VOL02_008": "pleco",
+            "VOL02_009": "pleco", "VOL02_010": "pleco", "VOL02_011": "pleco", "VOL02_012": "pleco",
+            "VOL02_013": "pleco", "VOL02_014": "pleco", "VOL02_015": "pleco", "VOL02_016": "pleco",
+            "VOL02_017": "pleco", "VOL02_018": "pleco", "VOL02_019": "pleco", "VOL02_020": "pleco",
+            "VOL02_021": "pleco", "VOL02_022": "pleco", "VOL02_023": "pleco", "VOL02_024": "pleco",
+            "VOL02_025": "pleco", "VOL02_097": "pleco", // 枯木異型
+            "VOL02_087": "pleco", // 小精靈鼠 Otocinclus
+            "royal_pleco": "pleco", "gold_nugget_pleco": "pleco", "zebra_pleco": "pleco",
+            // 鼠魚 Corydoras
+            "VOL02_086": "corydoras", "fish_1031": "corydoras", "sterbai_corydoras": "corydoras",
+            // 反游貓 Synodontis nigriventris
+            "VOL02_078": "upsideDown", "AFR_CON_012": "upsideDown",
+            // 玻璃貓 Kryptopterus
+            "seasia_074": "glass", "ghost_glasscat": "glass", "VOL02_077": "glass",
+        };
+        const REVIEWED_BETTA_TAILS = {
+            "platinum_betta": "doubleTail",       // 白金雙尾
+            "crown_tail_betta": "crown",          // 冠尾
+            "thai_betta": "halfMoon",             // 半月
+            "vermilion_bird_betta": "halfMoon",   // 朱雀：半月扇尾當火焰鳳尾
+            "taiwan_087": "paradise",             // 蓋斑鬥魚 Macropodus opercularis
+        };
+        // App 端這 11 隻早期手繪物種「沒有藍圖」（FishDatabase.swift 未給 visualBlueprint），顏色與花紋依 id 從這裡補。
+        // 官網資料 JSON 替牠們合成了藍圖，所以命中這張表時一律忽略 JSON 藍圖（長寬比也回到 App 的預設 2）。
+        const _B4_LEGACY_PALETTES = {
+            "yeti_crab": ["#F5EFE0", "#E7DCC3", "#FACC15"],
+            "redtail_catfish": ["#475569", "#F1F5F9", "#EA580C"],
+            "asian_bumblebee_catfish": ["#FACC15", "#FEF3C7", "#1C1917"],
+            "platinum_betta": ["#F8FAFC", "#E2E8F0", "#CBD5E1"],
+            "crown_tail_betta": ["#6D28D9", "#8B5CF6", "#F43F5E"],
+            "thai_betta": ["#1D4ED8", "#7C3AED", "#EF4444"],
+            "vermilion_bird_betta": ["#DC2626", "#F97316", "#FACC15"],
+            "royal_pleco": ["#374151", "#4B5563", "#FEF3C7"],
+            "zebra_pleco": ["#111827", "#334155", "#F8FAFC"],
+            "gold_nugget_pleco": ["#111827", "#1F2937", "#FACC15"],
+            "sterbai_corydoras": ["#3F3F46", "#A1A1AA", "#F97316"],
+        };
+        const _B4_LEGACY_FEATURES = {
+            "asian_bumblebee_catfish": ["stripes"],
+            "vermilion_bird_betta": ["shimmer"],
+            "platinum_betta": ["shimmer"],
+            "royal_pleco": ["fine_lines", "red_eye"],
+            "zebra_pleco": ["stripes"],
+            "gold_nugget_pleco": ["spots", "gilded_fins"],
+            "sterbai_corydoras": ["pearl_scales"],
+        };
+        const _B4_FALLBACK = {
+            crab: ["#DC2626", "#991B1B", "#FEF08A"],
+            catfishPleco: ["#64748B", "#E2E8F0", "#F59E0B"],
+            betta: ["#DC2626", "#EF4444", "#FFFFFF"],
+        };
+        // readable()：與 App 同式，把太暗的色往白色拉到 minLuma。
+        function _b4Readable(raw, fallback, minLuma) {
+            const src = raw == null ? fallback : raw;
+            let text = String(src).trim();
+            if (text.startsWith('#')) text = text.slice(1);
+            if (text.length < 6 || !/^[0-9a-fA-F]{6}/.test(text)) return _cmHex(src);
+            const v = parseInt(text.slice(0, 6), 16);
+            let r = Math.floor(v / 65536) % 256 / 255, g = Math.floor(v / 256) % 256 / 255, b = v % 256 / 255;
+            const luma = 0.299 * r + 0.587 * g + 0.114 * b;
+            if (luma < minLuma) { const t = (minLuma - luma) / Math.max(1 - luma, 0.001); r += (1 - r) * t; g += (1 - g) * t; b += (1 - b) * t; }
+            return { r: r * 255, g: g * 255, b: b * 255, a: 1 };
+        }
+        // Swift stride(from:through:by:)
+        function _b4Stride(a, b, s) { const r = []; for (let i = 0; ; i++) { const x = a + i * s; if (x > b) break; r.push(x); } return r; }
+        // 共用工具：對應 App 的 paint / line / eye / tone / sparkles / spiral / claw。
+        function _b4Kit(fish, arch) {
+            const legacy = _B4_LEGACY_PALETTES[fish.id];
+            const bp = legacy ? null : (fish.visualBlueprint || null);
+            const palette = legacy || _B4_FALLBACK[arch] || ["#6E9B79", "#94A3B8", "#FACC15"];
+            const H = _cmHex, A = _cmA, L = _cmLin, P = _cmP, O = _cmOval, Poly = _cmPoly, W = _cmWhite;
+            const phase = 0, wave = Math.sin(phase), ink = H('#0B131E'), black = { r: 0, g: 0, b: 0, a: 1 };
+            const out = [], c = _cmCtx(out, '', []);
+            const rar = String(fish.rarity || '').toLowerCase();
+            const k = {
+                H, A, L, R: _cmRad, P, O, Poly, W, phase, wave, ink, out, c, bp,
+                features: new Set((bp ? bp.features : _B4_LEGACY_FEATURES[fish.id]) || []),
+                bpAspect: bp ? (bp.bodyLength == null ? 22 : bp.bodyLength) / Math.max(bp.bodyHeight == null ? 11 : bp.bodyHeight, 1) : 2,
+                legendary: rar === 'legendary' || rar === '傳說',
+                epic: rar === 'epic' || rar === '史詩',
+                tone: (i, minLuma) => _b4Readable(bp ? [bp.primaryColor, bp.secondaryColor, bp.accentColor][i] : null, palette[i], minLuma),
+                readable: (raw, fallback, minLuma) => _b4Readable(raw, fallback, minLuma),
+                paint: (cx, path, col) => { cx.fill(path, L([col, A(col, 0.82)], 0, 4, 0, 28)); cx.stroke(path, A(black, 0.18), 0.45); },
+                line: (cx, pts, col, w) => { const p = P(); pts.forEach(([x, y], i) => i ? p.l(x, y) : p.m(x, y)); cx.stroke(p, col, { w, cap: 'round', join: 'round' }); },
+                eye: (cx, x, y, r = 1.6) => { cx.fill(O(x - r, y - r, r * 2, r * 2), ink); cx.fill(O(x + r * 0.12, y - r * 0.65, r * 0.65, r * 0.65), W); },
+                sparkles: (cx, pts, size = 1.3, col = W) => pts.forEach(([x, y], i) => {
+                    const a = Math.sin(phase * 2 + i * 1.7) * 0.35 + 0.65, r = size * a;
+                    cx.fill(Poly([[x, y - r * 1.6], [x + r * 0.4, y - r * 0.4], [x + r * 1.6, y], [x + r * 0.4, y + r * 0.4],
+                        [x, y + r * 1.6], [x - r * 0.4, y + r * 0.4], [x - r * 1.6, y], [x - r * 0.4, y - r * 0.4]]), A(col, a));
+                }),
+                spiral: (cx, [x0, y0], radius, col) => {
+                    const p = P();
+                    for (let i = 0; i <= 64; i++) { const f = i / 64, ang = f * Math.PI * 5, r = radius * (1 - f); const x = x0 + Math.cos(ang) * r, y = y0 + Math.sin(ang) * r; i ? p.l(x, y) : p.m(x, y); }
+                    cx.stroke(p, col, { w: 1, cap: 'round' });
+                },
+                // 一隻螯：臂（兩節）＋鉗（掌＋可動指）。side -1 左、+1 右；open 0…1。
+                claw: (cx, base, tip, size, side, open, col, tipCol, hairy) => {
+                    const elbow = [(base[0] + tip[0]) / 2 + side * 1.2, Math.max(base[1], tip[1]) - 0.5];
+                    k.line(cx, [base, elbow, tip], col, 1.5 * Math.min(size, 1.3));
+                    k.paint(cx, O(tip[0] - 2.4 * size, tip[1] - 1.9 * size, 4.8 * size, 3.8 * size), col);
+                    const fx = tip[0] + side * 2.2 * size;
+                    k.paint(cx, Poly([[tip[0] + side * 1.2 * size, tip[1] - 1.6 * size], [fx + side * 1.6 * size, tip[1] - (2.6 + open * 1.4) * size], [tip[0] + side * 2 * size, tip[1] - 0.4 * size]]), tipCol);
+                    k.paint(cx, Poly([[tip[0] + side * 1.2 * size, tip[1] + 0.2 * size], [fx + side * 1.4 * size, tip[1] + (0.2 + open * 1.2) * size], [tip[0] + side * 2 * size, tip[1] - 0.3 * size]]), tipCol);
+                    if (hairy) {
+                        for (let i = 0; i < 6; i++) {
+                            const t = i / 5, x = base[0] + (elbow[0] - base[0]) * t, y = base[1] + (elbow[1] - base[1]) * t;
+                            k.line(cx, [[x, y], [x - side * 0.6, y + 1.8 + wave * 0.3]], A(tipCol, 0.9), 0.5);
+                        }
+                        for (let i = 0; i < 5; i++) {
+                            const a = i * Math.PI / 4 + Math.PI / 2;
+                            k.line(cx, [[tip[0], tip[1] + 1.2 * size], [tip[0] + Math.cos(a) * 3.2 * size * side, tip[1] + 1.2 * size + Math.sin(a) * 2.4 * size]], A(tipCol, 0.85), 0.5);
+                        }
+                    }
+                },
+                done: size => `${_svgHead(size)}${_appFrame(out.join(''))}</svg>`,
+            };
+            return k;
+        }
+
+        // 螃蟹：體態依 REVIEWED_CRAB_BODY_PLANS（未列出為 classic），顏色／花紋來自藍圖。
+        function generateCrabAppSvg(fish, size) {
+            const k = _b4Kit(fish, 'crab');
+            const { c, A, P, O, Poly, W, phase, wave } = k;
+            const plan = REVIEWED_CRAB_BODY_PLANS[fish.id] || 'classic';
+            const shell = k.tone(0, 0.42), limb = k.tone(1, 0.4), mark = k.tone(2, 0.5);
+            const f = k.features, PI = Math.PI, sin = Math.sin, cos = Math.cos;
+            const snip = (sin(phase * 2) + 1) / 2;
+            if (plan === 'hermit') { _b4HermitCrab(k, shell, limb, mark, snip); return k.done(size); }
+            if (plan === 'squatLobster') { _b4SquatLobster(k, shell, limb, mark, snip); return k.done(size); }
+            let w = Math.min(Math.max(10 + k.bpAspect * 4, 15), 20), h = 11;
+            let legLen = 8, legWidth = 1.4, clawSize = 1, reach = 13;
+            switch (plan) {
+                case 'king': w = 18; h = 13.5; legWidth = 1.8; clawSize = 1.15; break;
+                case 'spider': w = 12; h = 10; legLen = 13; legWidth = 1; clawSize = 0.75; break;
+                case 'arrow': w = 9; h = 11; legLen = 15; legWidth = 0.7; clawSize = 0.5; reach = 14; break;
+                case 'hairy': w = 14; h = 11; legLen = 8; clawSize = 1.05; reach = 15; break;
+                case 'boxer': w = 12; h = 10; legLen = 7; clawSize = 0.5; break;
+                case 'porcelain': w = 15; h = 12.5; legLen = 6; clawSize = 1.35; reach = 12; break;
+            }
+            if (f.has('crab_claws')) clawSize *= 1.15;
+            const cx = 22, cy = plan === 'arrow' ? 15 : 16.5;
+            const hairy = plan === 'hairy';
+            // 四對步足
+            for (let i = 0; i < 4; i++) {
+                const gait = sin(phase * 1.5 + i * PI / 2) * 1.1;
+                const y0 = cy - h * 0.1 + i * h * 0.13;
+                for (const side of [-1, 1]) {
+                    const hip = [cx + side * w * 0.42, y0];
+                    const spread = i * 2.2 - 1.5;
+                    const knee = [hip[0] + side * (legLen * 0.5 + spread), hip[1] - legLen * (plan === 'arrow' || plan === 'spider' ? 0.55 : 0.2) + gait * side * 0.4];
+                    const foot = [knee[0] + side * (legLen * 0.2 + spread * 0.5), Math.min(29, cy + h * 0.45 + legLen * 0.35 + i * 0.4 - gait * side * 0.4)];
+                    k.line(c, [hip, knee, foot], limb, legWidth);
+                    if (plan === 'king' || f.has('dorsal_spikes')) c.fill(O(knee[0] - 0.6, knee[1] - 1.1, 1.2, 1.2), mark);
+                    if (hairy || (f.has('flowing_fins') && plan !== 'arrow')) {
+                        for (const t of _b4Stride(0.2, 0.9, 0.23)) {
+                            const px = hip[0] + (knee[0] - hip[0]) * t, py = hip[1] + (knee[1] - hip[1]) * t;
+                            k.line(c, [[px, py], [px + side * 0.3, py + 1.6]], A(hairy ? mark : limb, 0.8), 0.45);
+                        }
+                    }
+                }
+            }
+            // 螯
+            for (const side of [-1, 1]) {
+                const base = [cx + side * w * 0.38, cy - h * 0.2];
+                const tip = [cx + side * reach, plan === 'arrow' ? cy - 8.5 : cy - 6.5 - (plan === 'porcelain' ? -2.5 : 0)];
+                k.claw(c, base, tip, clawSize, side, snip, plan === 'porcelain' ? shell : limb,
+                    hairy ? mark : (plan === 'king' ? mark : limb), hairy);
+                if (plan === 'boxer') {   // 雙螯各夾一朵海葵彩球
+                    const pom = [tip[0] + side * 1.2, tip[1] - 1.6];
+                    for (let j = 0; j < 7; j++) {
+                        const a = j / 7 * 2 * PI + phase, r = 1.7 + sin(phase * 3 + j) * 0.3;
+                        c.fill(O(pom[0] + cos(a) * r - 1.2, pom[1] + sin(a) * r - 1.2, 2.4, 2.4), A(mark, 0.85));
+                    }
+                    c.fill(O(pom[0] - 1.4, pom[1] - 1.4, 2.8, 2.8), A(W, 0.75));
+                }
+            }
+            // 背甲
+            let carapace;
+            if (plan === 'arrow') carapace = Poly([[cx - w / 2, cy - 2], [cx, cy - h * 0.55 - 7], [cx + w / 2, cy - 2], [cx + w * 0.3, cy + h * 0.45], [cx - w * 0.3, cy + h * 0.45]]);
+            else if (plan === 'spider' || plan === 'porcelain') carapace = O(cx - w / 2, cy - h / 2, w, h);
+            else carapace = P().m(cx - w / 2, cy - h * 0.15).q(cx + w / 2, cy - h * 0.15, cx, cy - h * 0.95)
+                .q(cx + w * 0.28, cy + h * 0.5, cx + w * 0.5, cy + h * 0.3).q(cx - w * 0.28, cy + h * 0.5, cx, cy + h * 0.62)
+                .q(cx - w / 2, cy - h * 0.15, cx - w * 0.5, cy + h * 0.3).z();
+            if (plan === 'porcelain') {   // 瓷蟹口部濾食扇
+                for (const side of [-1, 1]) {
+                    const sweep = sin(phase * 3) * 0.8;
+                    for (let j = 0; j < 4; j++) {
+                        const a = (-100 + j * 14) * PI / 180;
+                        k.line(c, [[cx + side * 1.2, cy + 2], [cx + side * (1.2 + cos(a) * -5 * side * side) + side * sweep, cy + 2 + sin(a) * -4.5]], A(mark, 0.7), 0.4);
+                    }
+                }
+            }
+            k.paint(c, carapace, shell);
+            const inside = c.copy(); inside.clip(carapace);
+            inside.fill(O(cx - w * 0.35, cy - h * 0.5, w * 0.7, h * 0.45), A(W, 0.2));
+            if (f.has('stripes') || plan === 'arrow') {
+                for (let j = -1; j <= 1; j++) { const x = cx + j * w * 0.22; inside.stroke(P().m(x, cy - h).l(x + j, cy + h), A(mark, 0.7), 0.8); }
+            }
+            if (f.has('spots') || plan === 'porcelain' || plan === 'boxer') {
+                for (const [dx, dy] of [[-0.25, -0.2], [0.2, -0.25], [0, 0.1], [-0.3, 0.2], [0.3, 0.15], [0.05, -0.45]]) {
+                    const r = plan === 'boxer' ? 0.9 : 0.8;
+                    inside.fill(O(cx + dx * w - r, cy + dy * h - r, r * 2, r * 2), A(mark, plan === 'boxer' ? 0.6 : 0.85));
+                }
+            }
+            if (hairy) {   // 背甲邊緣一圈絨毛
+                for (let j = 0; j < 9; j++) {
+                    const t = j / 8, x = cx - w / 2 + w * t;
+                    k.line(c, [[x, cy + h * 0.35 + Math.abs(t - 0.5) * -2], [x + (t - 0.5) * 2, cy + h * 0.35 + 2.2 + wave * 0.3]], A(mark, 0.75), 0.5);
+                }
+            }
+            if (plan === 'king' || f.has('spiked_armor') || f.has('dorsal_spikes') || f.has('wing_fins')) {
+                const n = plan === 'king' ? 7 : 4;
+                for (let j = 0; j < n; j++) {
+                    const t = j / (n - 1), x = cx - w * 0.42 + w * 0.84 * t, y = cy - h * 0.15 - sin(t * PI) * h * 0.62;
+                    k.paint(c, Poly([[x - 0.9, y + 0.6], [x + (t - 0.5) * 1.2, y - 2.2], [x + 0.9, y + 0.6]]), mark);
+                }
+            }
+            if (f.has('bioluminescence')) {
+                const glow = sin(phase * 1.8) * 0.25 + 0.75;
+                for (const [dx, dy] of [[-0.3, 0], [0.3, 0], [0, 0.25]]) c.fill(O(cx + dx * w - 0.8, cy + dy * h - 0.8, 1.6, 1.6), A(mark, 0.9 * glow));
+            }
+            // 眼柄
+            const eyeY = plan === 'arrow' ? cy - 3.5 : cy - h * 0.62;
+            for (const side of [-1, 1]) {
+                const ex = cx + side * (plan === 'arrow' ? 2.2 : w * 0.16);
+                k.line(c, [[ex, eyeY + 2], [ex + side * 0.6, eyeY - 1.2]], shell, 1);
+                k.eye(c, ex + side * 0.6, eyeY - 1.6, 1.1);
+            }
+            return k.done(size);
+        }
+        // 寄居蟹：螺殼在左、蟹從殼口探出（側視），一大一小兩隻螯。
+        function _b4HermitCrab(k, shell, limb, mark, snip) {
+            const { c, A, P, O, W, phase, wave } = k;
+            const peek = wave * 0.8;
+            const conch = k.readable(k.bp ? k.bp.secondaryColor : null, '#E7C98E', 0.6);
+            const conchDark = k.readable(k.bp ? k.bp.accentColor : null, '#A67C45', 0.3);
+            for (let i = 0; i < 3; i++) {
+                const gait = Math.sin(phase * 1.5 + i) * 0.9;
+                k.line(c, [[25 + i * 2 + peek, 20], [28 + i * 3 + peek, 23], [29 + i * 3.5 + gait + peek, 27.5]], limb, 1.3);
+            }
+            k.paint(c, O(23 + peek, 13.5, 10, 8), shell);
+            k.claw(c, [30 + peek, 17], [36 + peek, 17.5], 1.25, 1, snip, shell, shell, false);
+            k.claw(c, [29 + peek, 19], [33 + peek, 21.5], 0.7, 1, 1 - snip, limb, limb, false);
+            k.line(c, [[31 + peek, 14], [38 + peek, 7 + wave], [42, 8 + wave]], limb, 0.45);
+            for (const [dx, h] of [[0, 5], [1.6, 4.2]]) {
+                k.line(c, [[29.5 + dx + peek, 14.5], [30 + dx + peek, 14.5 - h]], shell, 0.9);
+                k.eye(c, 30 + dx + peek, 14.2 - h, 1.05);
+            }
+            k.paint(c, P().m(26, 11).c(3, 16, 19, 3, 4, 6).c(26, 25, 2, 26, 16, 28.5).q(26, 11, 29.5, 18).z(), conch);
+            k.spiral(c, [12, 16.5], 7.5, A(conchDark, 0.75));
+            c.stroke(P().m(26, 11).q(26, 25, 29.5, 18), conchDark, 1.1);
+            for (const [x, y] of [[7, 10.5], [18, 8], [20, 23]]) c.fill(O(x - 0.7, y - 0.7, 1.4, 1.4), A(W, 0.45));
+        }
+        // 異尾類／鎧甲蝦：側視，分節身體、尾部折在腹下、細長螯前伸、長觸角。
+        function _b4SquatLobster(k, shell, limb, mark, snip) {
+            const { c, A, P, O, Poly, phase, wave, ink } = k;
+            const f = k.features;
+            for (let i = 0; i < 3; i++) {
+                const gait = Math.sin(phase * 1.5 + i * 1.3) * 1, x = 14 + i * 5;
+                k.line(c, [[x, 18], [x - 2 + gait, 23], [x - 3.5 + gait, 28]], limb, 1.2);
+                if (f.has('bioluminescence') || f.has('dorsal_spikes')) {
+                    for (const t of [0.3, 0.6]) k.line(c, [[x - 2 * t, 18 + 5 * t], [x - 2 * t - 1.4, 18 + 5 * t + 0.6]], A(mark, 0.7), 0.4);
+                }
+            }
+            k.paint(c, P().m(9, 15).q(10, 22, 4, 19).l(15, 20).q(9, 15, 12, 16).z(), limb);
+            const body = P().m(8, 15).c(30, 11, 12, 9, 22, 9).q(31, 18, 33, 15).c(8, 15, 22, 20, 12, 20).z();
+            k.paint(c, body, shell);
+            const inside = c.copy(); inside.clip(body);
+            for (const x of [12, 15.5, 19, 22.5]) inside.stroke(P().m(x, 8).q(x - 1, 20, x + 1.5, 14), A(ink, 0.3), 0.6);
+            if (f.has('stripes')) inside.stroke(P().m(8, 13.5).q(31, 13.5, 20, 10), A(mark, 0.8), 0.9);
+            k.paint(c, Poly([[29.5, 11.5], [35, 12.5], [30.5, 13.5]]), shell);
+            k.line(c, [[30, 12], [38, 5 + wave], [43, 3 + wave * 1.4]], limb, 0.45);
+            k.line(c, [[30, 12.5], [36, 8 - wave * 0.6], [42, 8.5 - wave]], limb, 0.4);
+            k.claw(c, [28, 16], [39, 18.5 + wave * 0.4], 0.8, 1, snip, limb, shell, f.has('bioluminescence'));
+            if (f.has('bioluminescence')) {
+                const glow = Math.sin(phase * 1.8) * 0.25 + 0.75;
+                for (const x of [14, 19, 24]) c.fill(O(x - 0.7, 16.2, 1.4, 1.4), A(mark, 0.9 * glow));
+            }
+            if (f.has('dorsal_spikes')) {
+                for (const x of [13, 17, 21, 25]) k.paint(c, Poly([[x - 0.8, 10.6], [x + 0.3, 8], [x + 0.8, 10.4]]), mark);
+            }
+            k.eye(c, 29, 11.8, 1.1);
+        }
+
+        // 蝦兵蟹將：是一條魚（會游），披蟹殼肩甲、前方一對蟹螯、頭上一對長長的蝦鬚。
+        function generateCrabGeneralSvg(fish, size) {
+            const k = _b4Kit(fish, 'crabGeneral');
+            const { c, A, P, O, Poly, W, phase, wave, ink } = k;
+            const body = k.tone(0, 0.4), fin = k.tone(1, 0.45), armor = k.tone(2, 0.45);
+            const f = k.features;
+            const snip = (Math.sin(phase * 2) + 1) / 2;
+            const long = f.has('flowing_fins') ? 3 : 0;
+            k.paint(c, Poly([[11, 15], [3 - long, 7 + wave * 1.5], [6, 15], [3 - long, 23 + wave * 1.5]]), fin);
+            const whip = wave * 1.2;
+            k.line(c, [[37, 12], [30, 3 + whip], [14, 1.5 + whip], [6, 4 + whip]], armor, 0.55);
+            k.line(c, [[37.5, 12.5], [33, 5 - whip * 0.5], [20, 3 - whip * 0.5], [11, 6 - whip]], A(armor, 0.8), 0.45);
+            const hull = P().m(10, 15).c(33, 9.5, 16, 9, 26, 8.5).c(40, 15.5, 37.5, 10.5, 40, 13)
+                .c(32, 21.5, 40, 18.5, 36.5, 21.5).c(10, 15, 24, 22.5, 15, 21).z();
+            k.paint(c, hull, body);
+            c.fill(O(16, 16.5, 17, 3.6), A(W, 0.18));
+            k.paint(c, Poly([[18, 20.5], [15 + wave * 0.5, 25], [23, 21.2]]), fin);
+            const inside = c.copy(); inside.clip(hull);
+            [15, 20.5, 26].forEach((x, i) => {
+                const plate = P().m(x, 8).q(x + 6.5, 8, x + 3.2, 5).q(x + 5.5, 15.5 + i * 0.3, x + 7.5, 12).q(x, 8, x - 0.8, 13).z();
+                inside.fill(plate, armor);
+                inside.stroke(plate, A(ink, 0.35), 0.5);
+                inside.fill(O(x + 2, 9.5, 2.2, 1.2), A(W, 0.35));
+            });
+            for (const x of [18.5, 24, 29.5]) k.paint(c, Poly([[x - 1, 9.6], [x + 0.2, 6.8], [x + 1, 9.4]]), armor);
+            k.paint(c, P().m(31, 10).q(38.5, 12.5, 36, 8.4).l(32, 13).z(), armor);
+            k.claw(c, [31, 19], [39, 23], 1.2, 1, snip, armor, armor, false);
+            k.claw(c, [29, 20], [35, 26], 1, 1, 1 - snip, A(armor, 0.85), armor, false);
+            c.stroke(P().m(31, 12.5).q(30.5, 19.5, 33, 16), A(ink, 0.35), 0.55);
+            k.eye(c, 35, 13.8, 1.3);
+            return k.done(size);
+        }
+
+        // 鯰魚：體態依 REVIEWED_CATFISH_BODY_PLANS（未列出為 catfish）。
+        function generateCatfishAppSvg(fish, size) {
+            const k = _b4Kit(fish, 'catfishPleco');
+            const plan = REVIEWED_CATFISH_BODY_PLANS[fish.id] || 'catfish';
+            if (plan === 'pleco') _b4Pleco(k);
+            else if (plan === 'corydoras') _b4Corydoras(k);
+            else if (plan === 'upsideDown') { k.c.translate(0, 30).scale(1, -1); _b4CatfishBody(k, false); }
+            else _b4CatfishBody(k, plan === 'glass');
+            return k.done(size);
+        }
+        // 花紋：由藍圖 features 決定（斑紋、細波紋、霓虹縱帶、斑點／珍珠點、丹頂）。
+        function _b4CatfishMarkings(k, clip, x0, x1, top, bottom, mark) {
+            const { c, A, P, O, W } = k, f = k.features;
+            const inside = c.copy(); inside.clip(clip);
+            if (f.has('stripes')) {
+                for (const x of _b4Stride(x0 + 2, x1 - 2, 3.4)) inside.stroke(P().m(x, top).q(x - 1.2, bottom, x + 1.2, (top + bottom) / 2), A(mark, 0.8), 1.2);
+            }
+            if (f.has('fine_lines')) {
+                for (const y of _b4Stride(top + 1.5, bottom - 1, 1.8)) {
+                    inside.stroke(P().m(x0, y + 0.8).c(x1, y - 0.8, x0 + (x1 - x0) * 0.35, y - 0.9, x0 + (x1 - x0) * 0.65, y + 0.9), A(mark, 0.85), 0.4);
+                }
+            }
+            if (f.has('neon_stripe')) inside.stroke(P().m(x0, (top + bottom) / 2 + 0.5).l(x1, (top + bottom) / 2 - 0.5), A(mark, 0.9), 1.1);
+            if (f.has('spots') || f.has('pearl_scales')) {
+                const r = f.has('spots') ? 0.75 : 0.5;
+                let n = 0;
+                for (const x of _b4Stride(x0 + 1.5, x1 - 1, 2.6)) {
+                    for (const y of _b4Stride(top + 1.2 + (n % 2) * 1.3, bottom - 1, 2.6)) inside.fill(O(x - r, y - r, r * 2, r * 2), A(f.has('spots') ? mark : W, 0.8));
+                    n++;
+                }
+            }
+            if (f.has('tancho_crown')) inside.fill(O(x1 - 5, top, 4, 3), A(mark, 0.9));
+        }
+        // 典型鯰魚：寬扁頭、橫向大嘴、長鬚、小眼睛、高第一背鰭＋脂鰭、往尾端收細。
+        function _b4CatfishBody(k, glass) {
+            const { c, A, L, P, O, Poly, W, wave, ink } = k, f = k.features;
+            const back = k.tone(0, 0.36), belly = k.tone(1, 0.6), fin = k.tone(2, 0.42);
+            const alpha = glass ? 0.38 : 1;
+            const rounded = k.bpAspect < 1.4;
+            const long = f.has('flowing_fins') ? 2.5 : 0;
+            const t = c.copy(); t.translate(8, 15.5); t.rotate(wave * 0.18);
+            const tail = rounded
+                ? P().m(1, -1.3).l(-4 - long, -5.5).q(-4 - long, 5.5, -10.5 - long, 0).l(1, 1.3).z()
+                : Poly([[0.5, -1.2], [-6 - long, -7 - long * 0.6], [-3, 0], [-6.5 - long, 6.5 + long * 0.6], [0.5, 1.2]]);
+            t.fill(tail, A(fin, glass ? 0.4 : 0.95));
+            t.stroke(tail, A(ink, 0.3), 0.45);
+            const sail = f.has('high_back') || f.has('dorsal_spikes') ? 3 : 0;
+            k.paint(c, Poly([[20, 11], [22.5 - wave * 0.3, 4 - sail], [24, 4.5 - sail], [26, 10.2]]), A(fin, glass ? 0.3 : 1));
+            k.line(c, [[20.3, 11], [22.5 - wave * 0.3, 4 - sail]], A(ink, 0.4), 0.5);
+            k.paint(c, P().m(10.5, 13.2).q(15, 12.4, 12.5, 9.8).z(), A(fin, glass ? 0.3 : 0.9));
+            k.paint(c, Poly([[10.5, 17.6], [11 + wave * 0.4, 21 + long * 0.4], [21, 21.6 + long * 0.3], [22, 19.4]]), A(fin, glass ? 0.3 : 0.9));
+            const body = P().m(8, 14.2).c(30, 10, 15, 12.4, 22, 9.4).c(40.5, 15.2, 36, 10.4, 40.4, 12.6)
+                .c(31, 20.6, 40.4, 18.8, 36, 20.6).c(8, 16.8, 22, 21.2, 15, 18.6).z();
+            c.fill(body, L([A(back, alpha), A(back, alpha), A(belly, alpha)], 0, 10, 0, 21));
+            c.stroke(body, glass ? A(W, 0.55) : A(ink, 0.2), 0.5);
+            if (glass) {   // 透明身體：看得到脊椎與肋骨
+                k.line(c, [[9, 15.3], [33, 13.6]], A(W, 0.7), 0.6);
+                for (const x of _b4Stride(12, 30, 2.2)) k.line(c, [[x, 15.1 - (x - 9) * 0.07], [x - 1, 18.5]], A(W, 0.35), 0.4);
+                c.fill(O(31, 13.5, 5, 4.5), A(fin, 0.5));
+            } else {
+                _b4CatfishMarkings(k, body, 10, 34, 9.5, 20.5, fin);
+            }
+            const pecSize = f.has('wing_fins') ? 1.5 : 1;
+            k.paint(c, Poly([[31, 18], [31 - 5.5 * pecSize, 21 + 2 * pecSize - wave * 0.4], [30, 20]]), A(fin, glass ? 0.4 : 0.9));
+            c.stroke(P().m(40.4, 16).q(36.4, 16.9, 38.6, 17.4), A(ink, 0.65), 0.75);
+            const reach = f.has('whiskers') ? 1.35 : 1, sway = wave * 1.6;
+            const whisker = glass ? A(W, 0.75) : A(back, 0.95);
+            c.stroke(P().m(39.5, 15.4).c(39 - 13 * reach, 21 + sway, 43, 17, 36, 20 + sway * 0.6), whisker, { w: 0.7, cap: 'round' });
+            c.stroke(P().m(39.8, 14.2).c(42 - 10 * reach, 8 - sway * 0.6, 43.5, 12, 38, 8), A(whisker, 0.8), { w: 0.55, cap: 'round' });
+            for (const [x, dx] of [[38.5, -1.5], [37.2, -2.5]]) c.stroke(P().m(x, 17.8).q(x + dx, 22.5 + sway * 0.3, x + 0.8, 20.5), A(whisker, 0.8), { w: 0.5, cap: 'round' });
+            if (f.has('shimmer') || f.has('bioluminescence')) k.sparkles(c, [[18, 13], [26, 12], [22, 17.5]], 0.9);
+            k.eye(c, 36.6, 13.2, 0.95);
+        }
+        // 異型：扁平腹、吸盤口朝下、帆狀背鰭、骨板縱列、下葉略長的尾鰭。
+        function _b4Pleco(k) {
+            const { c, A, H, P, O, Poly, wave, ink } = k, f = k.features;
+            const body = k.tone(0, 0.36), fin = k.tone(1, 0.4), mark = k.tone(2, 0.55);
+            const t = c.copy(); t.translate(8, 17); t.rotate(wave * 0.16);
+            const tail = Poly([[0.5, -1.4], [-5.5, -5.5], [-4, 0], [-7, 6.5], [0.5, 1.4]]);
+            t.fill(tail, fin); t.stroke(tail, A(ink, 0.3), 0.45);
+            const sail = f.has('dorsal_spikes') || f.has('high_back') ? 2.5 : 0;
+            const sailPath = Poly([[15, 12.6], [17, 4.5 - sail + wave * 0.3], [27, 6.5 - sail * 0.6], [28, 11.5]]);
+            k.paint(c, sailPath, fin);
+            const gilded = f.has('gilded_fins');
+            if (gilded) { c.stroke(sailPath, mark, 0.7); t.stroke(tail, mark, 0.7); }
+            for (const x of _b4Stride(17.5, 26, 2.2)) k.line(c, [[x, 11.8], [x - 0.3, 5.8 - sail * 0.7 + (x - 17) * 0.1]], A(ink, 0.3), 0.4);
+            const hull = P().m(8, 15.8).c(30, 11, 15, 13.5, 22, 10).c(40, 19.5, 36, 11.6, 40, 15).l(9, 19).z();
+            k.paint(c, hull, body);
+            _b4CatfishMarkings(k, hull, 10, 38, 10.5, 19.5, mark);
+            const inside = c.copy(); inside.clip(hull);
+            for (const y of [13.5, 16.5]) inside.stroke(P().m(9, y + 1).q(34, y - 1, 22, y - 1.5), A(ink, 0.28), 0.5);
+            const pec = Poly([[32, 18.5], [25, 23.5 + wave * 0.4], [30.5, 20]]);
+            k.paint(c, pec, fin);
+            k.line(c, [[32, 18.5], [25, 23.5 + wave * 0.4]], A(mark, 0.8), gilded ? 0.9 : 0.6);
+            k.paint(c, Poly([[19, 19], [15, 22.5], [21, 19.4]]), fin);
+            k.paint(c, O(35.5, 18.6, 5, 2.8), fin);
+            c.fill(O(36.8, 19.3, 2.4, 1.3), A(ink, 0.55));
+            k.line(c, [[40, 19.8], [41.8, 21 + wave * 0.3]], fin, 0.45);
+            if (f.has('red_eye')) c.fill(O(33.4, 11.6, 3.2, 3.2), H('#DC2626'));
+            k.eye(c, 35, 13.2, 1);
+        }
+        // 鼠魚：短胖、骨甲兩列、高三角背鰭、大眼、吻端朝下一對短鬚。
+        function _b4Corydoras(k) {
+            const { c, A, L, P, O, Poly, wave, ink } = k, f = k.features;
+            const body = k.tone(0, 0.4), belly = k.tone(1, 0.6), fin = k.tone(2, 0.45);
+            const softFin = A(body, 0.75);
+            const t = c.copy(); t.translate(13, 15.5); t.rotate(wave * 0.2);
+            const tail = Poly([[0.5, -1.4], [-6, -6], [-3.5, 0], [-6, 6], [0.5, 1.4]]);
+            t.fill(tail, softFin); t.stroke(tail, A(ink, 0.3), 0.45);
+            k.paint(c, Poly([[21, 10.5], [23.5 - wave * 0.3, 3.5], [27, 9.5]]), softFin);
+            k.line(c, [[21.4, 10.5], [23.5 - wave * 0.3, 3.5]], A(ink, 0.5), 0.6);
+            k.paint(c, O(15, 10.8, 3, 2), softFin);
+            const hull = P().m(13, 14.5).c(31, 9.5, 18, 11, 25, 8.6).c(38, 18.5, 35.5, 10.4, 38.4, 14).c(13, 16.8, 30, 22, 19, 20.5).z();
+            c.fill(hull, L([body, body, belly], 0, 9, 0, 21));
+            c.stroke(hull, A(ink, 0.2), 0.45);
+            _b4CatfishMarkings(k, hull, 14, 33, 9, 20, fin);
+            const inside = c.copy(); inside.clip(hull);
+            inside.stroke(P().m(13, 15.4).q(32, 14, 22, 13.2), A(ink, 0.3), 0.55);
+            for (const x of _b4Stride(16, 30, 2.4)) inside.stroke(P().m(x, 10).l(x - 0.6, 20), A(ink, 0.14), 0.45);
+            k.paint(c, Poly([[31, 17], [27, 22.5 + wave * 0.4], [30, 18.8]]), fin);
+            k.paint(c, Poly([[22, 19.5], [20, 23], [24, 19.8]]), fin);
+            const reach = f.has('whiskers') ? 1.4 : 1;
+            for (const dx of [0, 1.4]) k.line(c, [[36.5 + dx, 19], [37 + dx + wave * 0.3, 19 + 2.6 * reach]], belly, 0.5);
+            if (f.has('shimmer') || f.has('bioluminescence')) k.sparkles(c, [[20, 12], [28, 11.5]], 0.9);
+            k.eye(c, 33.4, 13, 1.5);
+        }
+
+        // 鬥魚：小身體、上翹小嘴；尾鰭、背鰭、臀鰭都是巨大的飄逸布幔。尾型依 REVIEWED_BETTA_TAILS（未列出為 veil）。
+        function generateBettaSvg(fish, size) {
+            const k = _b4Kit(fish, 'betta');
+            const { c, A, L, P, Poly, W, phase, wave, ink } = k, f = k.features;
+            const tailType = REVIEWED_BETTA_TAILS[fish.id] || 'veil';
+            const body = k.tone(0, 0.42), fin = k.tone(1, 0.42), tip = k.tone(2, 0.5);
+            const billow = wave, flow = Math.sin(phase * 1.3 + 0.8);
+            const root = [17, 15.5], rx = root[0], ry = root[1];
+            const finFill = L([body, fin, A(tip, 0.85)], 18, 15, 3, 15);
+            const rays = (ends, o) => ends.forEach(e => k.line(c, [o, e], A(W, 0.25), 0.4));
+            if (tailType === 'veil') {
+                const tail = P().m(rx, ry - 2).c(4 + billow, 25 + flow, 8, 7 + billow, 1, 14 + billow).q(rx, ry + 2.2, 12, 25 + flow).z();
+                c.fill(tail, finFill);
+                rays([[5, 12 + billow], [4, 18 + billow], [5, 23 + flow], [9, 25 + flow]], root);
+            } else if (tailType === 'halfMoon' || tailType === 'crown') {
+                const crown = tailType === 'crown';
+                const r = crown ? 12 : 13, n = crown ? 9 : 7;
+                const fan = P().m(rx, ry - 1.5);
+                for (let j = 0; j <= n; j++) {
+                    const a = -Math.PI / 2 - j / n * Math.PI;
+                    const rr = r * (crown ? (j % 2 === 0 ? 0.78 : 0.7) : 1) + Math.sin(phase * 1.4 + j * 0.6) * 0.6;
+                    fan.l(rx + 1.5 + Math.cos(a) * rr, ry + Math.sin(a) * rr * 1.02);
+                }
+                fan.l(rx, ry + 1.5).z();
+                c.fill(fan, finFill);
+                const ends = [];
+                for (let j = 0; j <= n; j++) {
+                    const a = -Math.PI / 2 - j / n * Math.PI;
+                    const rr = r * (crown ? 1.05 : 0.96) + Math.sin(phase * 1.4 + j * 0.6) * 0.6;
+                    ends.push([rx + 1.5 + Math.cos(a) * rr, ry + Math.sin(a) * rr]);
+                }
+                if (crown) ends.forEach(e => k.line(c, [root, e], tip, 0.6));
+                else rays(ends, root);
+            } else if (tailType === 'doubleTail') {
+                for (const [dy, sign] of [[-1, -1], [1, 1]]) {
+                    const lobe = P().m(rx, ry + dy * 0.4).c(3 + billow * sign * 0.5, ry + sign * 11 + flow * 0.5, 12, ry + sign * 12, 5, ry + sign * 13)
+                        .q(rx - 1, ry, 6, ry + sign * 1.5).z();
+                    c.fill(lobe, finFill);
+                    rays([[5, ry + sign * 10], [6, ry + sign * 5]], root);
+                }
+            } else {   // paradise：蓋斑鬥魚深叉尾，上下葉拉出長絲
+                const fork = Poly([[rx, ry - 1.6], [7, 7 + billow], [10.5, 15.5], [7, 24 + billow], [rx, ry + 1.6]]);
+                c.fill(fork, finFill);
+                k.line(c, [[7, 7 + billow], [2, 4 + billow * 1.5]], tip, 0.6);
+                k.line(c, [[7, 24 + billow], [2, 27 + billow * 1.5]], tip, 0.6);
+            }
+            const dorsalReach = tailType === 'paradise' ? 6 : 9;
+            const dorsal = P().m(26, 11.8).c(rx - dorsalReach * 0.5 + billow, 5 + flow * 0.6, 24, 6, 19, 3 + billow).q(19, 12.6, 16, 10).z();
+            c.fill(dorsal, L([body, fin, A(tip, 0.8)], 24, 12, 12, 4));
+            const anal = P().m(29, 18.6).c(rx - 3 + billow, 27.5 + flow * 0.5, 28, 25, 22, 28).q(rx + 0.5, 17.6, 15, 21).z();
+            c.fill(anal, L([body, fin, A(tip, 0.8)], 26, 18, 14, 27));
+            if (tailType === 'crown') {
+                for (let j = 0; j < 5; j++) {
+                    const x = 26 - j * 2.6;
+                    k.line(c, [[x, 12], [x - 3 + billow * 0.5, 4.5 + j * 0.4]], tip, 0.5);
+                    k.line(c, [[x + 2, 19], [x - 1 + billow * 0.5, 27.5 - j * 0.3]], tip, 0.5);
+                }
+            }
+            const hull = P().m(rx - 0.5, ry).c(33, 11.8, 21, 11.4, 28, 10.8).c(38, 14.8, 36, 12.4, 38, 13.4)
+                .c(32, 19.4, 38, 17.6, 35, 19.4).c(rx - 0.5, ry, 27, 19.8, 21, 19.2).z();
+            k.paint(c, hull, body);
+            const inside = c.copy(); inside.clip(hull);
+            if (tailType === 'paradise' || f.has('stripes')) {
+                for (const x of _b4Stride(20, 30, 2.4)) inside.stroke(P().m(x, 10).l(x - 1, 20), A(tip, 0.75), 1);
+            }
+            for (const x of _b4Stride(21, 31, 2.2)) inside.stroke(P().m(x, 12.5).q(x, 17.5, x + 1.2, 15), A(W, 0.18), 0.45);
+            k.line(c, [[31, 18.8], [29 + billow * 0.4, 25], [28 + billow * 0.6, 27]], fin, 0.9);
+            k.paint(c, P().m(32, 15.5).q(30.5, 18.5, 28.5, 16.4).z(), A(fin, 0.7));
+            c.stroke(P().m(37.6, 13.9).l(36.6, 14.4), A(ink, 0.6), 0.6);
+            c.stroke(P().m(32.5, 12.6).q(32, 18.2, 34, 15.4), A(ink, 0.25), 0.5);
+            if (f.has('shimmer') || k.legendary) k.sparkles(c, [[8, 10], [6, 20], [21, 6], [20, 26]], 1, tip);
+            k.eye(c, 34.8, 13.8, 1.3);
+            return k.done(size);
+        }
+
+        // 亞瑟王聖杯魚：金色聖杯長成背冠、聖光光暈與星芒；傳說／史詩加上寶石、十字、光芒與金邊鰭。
+        function _b4Chalice(k, [x, y], s, ornate) {
+            const { c, H, L, P, O } = k;
+            const gold = H('#FACC15'), light = H('#FEF3C7'), deep = H('#B45309');
+            const cup = P().m(x - 4 * s, y - 4 * s).l(x + 4 * s, y - 4 * s).q(x + 0.7 * s, y + 0.6 * s, x + 4 * s, y + 0.4 * s)
+                .l(x + 0.7 * s, y + 2.4 * s).q(x + 3 * s, y + 4 * s, x + 0.9 * s, y + 3.4 * s).l(x - 3 * s, y + 4 * s)
+                .q(x - 0.7 * s, y + 2.4 * s, x - 0.9 * s, y + 3.4 * s).l(x - 0.7 * s, y + 0.6 * s).q(x - 4 * s, y - 4 * s, x - 4 * s, y + 0.4 * s).z();
+            c.fill(cup, L([light, gold, deep], x - 4 * s, y - 4 * s, x + 4 * s, y + 4 * s));
+            c.stroke(cup, deep, 0.45);
+            c.fill(O(x - 4 * s, y - 4.8 * s, 8 * s, 1.6 * s), light);
+            if (ornate) {
+                c.fill(O(x - 0.9 * s, y - 2.6 * s, 1.8 * s, 1.8 * s), H('#E11D48'));
+                for (const dx of [-2.4, 2.4]) c.fill(O(x + dx * s - 0.5 * s, y - 2.2 * s, s, s), H('#38BDF8'));
+                k.line(c, [[x, y - 4.8 * s], [x, y - 7.4 * s]], gold, 0.7);
+                k.line(c, [[x - 1.1 * s, y - 6.5 * s], [x + 1.1 * s, y - 6.5 * s]], gold, 0.7);
+            }
+        }
+        function generateGrailFishSvg(fish, size) {
+            const k = _b4Kit(fish, 'grailFish');
+            const { c, A, H, L, R, P, O, Poly, W, phase, wave, ink } = k, f = k.features;
+            const ornate = k.legendary || k.epic;
+            const body = k.tone(0, 0.42), fin = k.tone(1, 0.45), accent = k.tone(2, 0.5);
+            const gold = H('#FACC15'), holy = H('#FEF9C3');
+            const pulse = Math.sin(phase * 1.2) * 0.12 + 0.88;
+            const crown = [24, ornate ? 6.2 : 7.2], [kx, ky] = crown;
+            c.fill(O(kx - 9 * pulse, ky - 8 * pulse, 18 * pulse, 16 * pulse), R([A(holy, ornate ? 0.55 : 0.4), A(holy, 0)], kx, ky, 0, 9 * pulse));
+            if (ornate) {
+                for (let j = 0; j < 8; j++) {
+                    const a = j / 8 * 2 * Math.PI + phase * 0.25;
+                    k.line(c, [[kx + Math.cos(a) * 5, ky + Math.sin(a) * 4.4], [kx + Math.cos(a) * 8.5, ky + Math.sin(a) * 7.2]], A(holy, 0.55), 0.5);
+                }
+            }
+            const long = f.has('flowing_fins') || ornate ? 3 : 1;
+            const tail = P().m(12, 14).c(1, 6 + wave * 1.5 - long, 8, 11, 4, 7).q(5.5, 15.5, 4, 12).q(1, 25 + wave * 1.5 + long, 4, 19).c(12, 17, 4, 24, 8, 20).z();
+            c.fill(tail, L([fin, A(accent, 0.85)], 12, 15, 1, 15));
+            if (ornate) c.stroke(tail, A(gold, 0.9), 0.55);
+            const anal = Poly([[17, 19.5], [13 + wave * 0.5, 25], [22, 21]]);
+            k.paint(c, anal, fin);
+            if (ornate) c.stroke(anal, A(gold, 0.9), 0.5);
+            const hull = P().m(11.5, 15.5).c(31, 9.8, 17, 11, 24, 9.2).c(39.5, 15.4, 36, 10.4, 39.4, 12.6)
+                .c(30, 21, 39.4, 18.6, 35, 21).c(11.5, 15.5, 23, 21.2, 16, 19.6).z();
+            k.paint(c, hull, body);
+            const inside = c.copy(); inside.clip(hull);
+            inside.fill(O(15, 16.5, 20, 4), A(W, 0.18));
+            if (f.has('stripes')) for (const x of [20, 24, 28]) inside.stroke(P().m(x, 9).l(x - 1, 21), A(accent, 0.6), 0.9);
+            if (ornate) {
+                for (const x of _b4Stride(17, 33, 2.6)) for (const y of [13, 16]) inside.stroke(P().m(x, y).q(x, y + 2.4, x + 1.3, y + 1.2), A(gold, 0.45), 0.45);
+            }
+            k.paint(c, P().m(31, 16).q(24, 21 + wave * 0.5, 26, 15.5).q(30.5, 18, 28, 19.5).z(), fin);
+            k.line(c, [[kx, ky + 4.5], [kx, 10.8]], gold, 1.2);
+            if (f.has('dorsal_spikes') || ornate) {
+                for (const side of [-1, 1]) k.paint(c, Poly([[kx + side * 1.5, 10.8], [kx + side * 7, 7.5 + wave * 0.4], [kx + side * 5, 10.4]]), A(gold, 0.85));
+            }
+            _b4Chalice(k, crown, ornate ? 1 : 0.8, ornate);
+            if (ornate) {
+                const rise = ((phase * 0.8) % (2 * Math.PI)) / (2 * Math.PI);
+                for (let j = 0; j < 3; j++) {
+                    const r = (rise + j / 3) % 1;
+                    c.fill(O(kx - 2 + j * 2 - 0.5, ky - 5 - r * 4 - 0.5, 1, 1), A(holy, 1 - r));
+                }
+            }
+            k.sparkles(c, ornate ? [[15, 7], [33, 6], [38, 22], [9, 22], [20, 25]] : [[15, 8], [33, 7], [37, 22]], ornate ? 1.1 : 0.9, holy);
+            c.stroke(P().m(33, 11.5).q(32.5, 19, 34.8, 15), A(ink, 0.3), 0.5);
+            k.eye(c, 35.6, 13.8, 1.35);
+            if (ornate) c.stroke(O(34.2, 12.4, 2.8, 2.8), gold, 0.4);
+            return k.done(size);
+        }
+
         function generateCephalopodShellSvg(fish, size) {
             const { p, s, a } = _fishColors(fish);
             const g = 'cs_' + (fish.id || 'c').replace(/[^a-zA-Z0-9]/g, '_');
@@ -3924,6 +4531,31 @@
                 "AFR_TAN_021": "shellDweller",  // 虎皮貝
                 "AFR_TAN_022": "shellDweller",  // 金線貝
                 "AFR_TAN_023": "shellDweller",  // 藍眼貝
+                // 2026-09-28 同步 App（FishSpecies.reviewedSpriteArchetypes：螃蟹／蝦兵蟹將／鬥魚／聖杯魚／玻璃貓）
+                "yeti_crab": "crab",  // 深海金絲雪人蟹
+                "emperor_armored_crab": "crab",  // 帝王黑金刺甲蟹
+                "TA-4086": "crab",  // 拳擊蟹
+                "TA-4093": "crab",  // 瓷蟹
+                "TA-4094": "crab",  // 箭蟹
+                "F_5052": "crab",  // 雪人蟹
+                "F_5057": "crab",  // 硫化菌毛蟹
+                "F_5060": "crab",  // 白瓷蟹（Shinkaia 鎧甲蝦）
+                "F_5080": "crab",  // 深海怪蟹
+                "F_5090": "crab",  // 深海異尾蟹
+                "fish_1036": "crab",  // 香草冰淇淋雪蟹
+                "fish_1059": "crab",  // 害羞寄居蟹
+                "fish_1063": "crab",  // 絨毛蟹
+                "fish_1064": "crab",  // 糖果蟹
+                "SJM_090_蝦兵蟹將魚": "crabGeneral",  // 蝦兵蟹將魚（名字有蟹但牠是魚）
+                "platinum_betta": "betta",  // 泰國皇室白金雙尾鬥魚
+                "crown_tail_betta": "betta",  // 泰國國王冠尾鬥魚
+                "thai_betta": "betta",  // 泰國皇家半月鬥魚
+                "vermilion_bird_betta": "betta",  // 朱雀赤焰焚天鬥魚
+                "seasia_066": "betta",  // 泰國鬥魚
+                "taiwan_087": "betta",  // 蓋斑鬥魚
+                "myth_064": "grailFish",  // 摩根聖杯魚
+                "myth_054": "grailFish",  // 格拉斯頓伯里聖杯魚
+                "VOL02_077": "catfishPleco",  // 透明玻璃貓 Kryptopterus vitreolus
 
         };
 
@@ -4319,6 +4951,11 @@
                 else if (appArchetype === 'elephantnose') return generateElephantnoseSvg(fish, size);
                 else if (appArchetype === 'confection') return generateConfectionSvg(fish, size);
                 else if (appArchetype === 'motifFish') return generateMotifFishSvg(fish, size);
+                else if (appArchetype === 'crab') return generateCrabAppSvg(fish, size);
+                else if (appArchetype === 'crabGeneral') return generateCrabGeneralSvg(fish, size);
+                else if (appArchetype === 'catfishPleco') return generateCatfishAppSvg(fish, size);
+                else if (appArchetype === 'betta') return generateBettaSvg(fish, size);
+                else if (appArchetype === 'grailFish') return generateGrailFishSvg(fish, size);
 
                 else if (appArchetype === 'ammonite' || appArchetype === 'orthocone') return generateCephalopodShellSvg(fish, size);
                 else if (appArchetype === 'trilobite' || appArchetype === 'arthropod' || appArchetype === 'opabinia' || appArchetype === 'hallucigenia' || appArchetype === 'eurypterid') return generatePaleozoicArthropodSvg(fish, size);
@@ -4735,7 +5372,7 @@
             }
 
             // 000. Plecos & Armored Catfish (皇冠達摩 / 鼠魚 / 異型底棲裝甲魚)
-            if (['generic','catfishPleco'].includes(appArchetype) && (name.includes('達摩') || name.includes('鼠魚') || name.includes('異型') || name.includes('精靈鼠') || name.includes('兵鯰') || name.includes('pleco') || name.includes('corydoras'))) {
+            if (appArchetype === 'generic' && (name.includes('達摩') || name.includes('鼠魚') || name.includes('異型') || name.includes('精靈鼠') || name.includes('兵鯰') || name.includes('pleco') || name.includes('corydoras'))) {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- High Sail Dorsal Fin (高聳帆狀背鰭) -->
@@ -5283,7 +5920,7 @@
             }
 
             // U. Armored Emperor Crab (帝王黑金刺甲蟹 / 雙鉗揮舞)
-            if ((name.includes('蟹') || name.includes('crab') || features.includes('crab_claws')) && ['generic','crab'].includes(appArchetype)) {
+            if ((name.includes('蟹') || name.includes('crab') || features.includes('crab_claws')) && appArchetype === 'generic') {
                 return `
                 <svg width="${size}" height="${size}" viewBox="0 0 48 48" class="drop-shadow-md">
                     <!-- Spiked Legs (尖刺側足) -->
