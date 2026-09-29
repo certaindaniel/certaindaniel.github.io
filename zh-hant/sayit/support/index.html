@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SayIt — 支援與常見問題</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="wrap">
+  <nav class="lang-switch"><a href="/en/sayit/support/">English</a><a href="/zh-hant/sayit/support/" class="current">繁體中文</a><a href="/zh-hans/sayit/support/">简体中文</a></nav>
+  <div class="legal">
+    <h1>SayIt — 支援與常見問題</h1>
+    <p class="updated">最後更新：2026 年 9 月 29 日</p>
+    <p>歡迎使用 SayIt！本頁面彙整了使用「SayIt 離線語音輸入鍵盤」時最常見的操作指引與問題解答。若您在操作中遇到任何困難，請參考以下說明。</p>
+    <h2>常見問題解答（FAQ）</h2>
+    <h3>Q1：第一次打開 App 時，為什麼需要等待大約 8 分鐘？</h3>
+    <p><strong>A</strong>：</p>
+    <p>SayIt 為了達成「語音辨識在手機上完成、錄音和文字不上傳」且「高精準度辨識」，內建了龐大的頂級開源神經網路模型（Whisper large-v3-turbo）。</p>
+    <p>當您首次下載並啟動 App 時，系統需要呼叫 Apple CoreML 深度學習編譯器，將模型與您 iPhone 的神經網路引擎（Apple Neural Engine, ANE）進行專屬的硬體最佳化與編譯。</p>
+    <ul>
+    <li><strong>僅需執行一次</strong>：這個過程大約耗時 8 分鐘（視手機晶片效能而定），僅在首次啟動時執行一次。</li>
+    <li><strong>最佳化完成後</strong>：編譯快取將永久儲存在本機，日後無論何時使用皆為「秒開秒用、極速出字」，請耐心等候首次編譯進度條完成。</li>
+    </ul>
+    <h3>Q2：如何在 iPhone 中啟用「SayIt 聽寫」鍵盤？為什麼需要開啟「允許完整取用」？</h3>
+    <p><strong>A</strong>：</p>
+    <p>請依照以下步驟啟用自訂鍵盤：</p>
+    <p>1. 開啟 iPhone 的 <strong>「設定」</strong> App。</p>
+    <p>2. 依序點選 <strong>「一般」 > 「鍵盤」 > 「鍵盤」 > 「新增鍵盤...」</strong>。</p>
+    <p>3. 在「第三方鍵盤」清單中選擇 <strong>「SayIt」</strong>。</p>
+    <p>4. 點進已新增的 <strong>「SayIt - SayIt 聽寫」</strong>，將 <strong>「允許完整取用」</strong> 開關開啟，並在彈出的系統確認視窗點選「允許」。</p>
+    <p><strong>為什麼需要「允許完整取用」？</strong></p>
+    <ul>
+    <li>依照 iOS 系統安全機制，鍵盤擴充功能運作在獨立受限的沙盒環境中，預設無法存取麥克風硬體，也無法與主 App 共享資料。</li>
+    <li>開啟「允許完整取用」是為了允許鍵盤能透過系統內部的 <strong>本機 App Group 儲存空間</strong> 傳送「開始收音」訊號給主 App，並由主 App 在辨識出文字後回傳給鍵盤貼入輸入框。</li>
+    <li><strong>隱私保證</strong>：SayIt 的語音辨識在手機本機完成、錄音和文字不上傳，絕不利用完整取用權限連網上傳您的任何輸入內容或聲音資料。</li>
+    </ul>
+    <h3>Q3：iPhone 頂部狀態列的「橘色麥克風指示燈」是什麼？要怎麼關閉待命？</h3>
+    <p><strong>A</strong>：</p>
+    <ul>
+    <li><strong>橘色點是什麼</strong>：這是 iOS 系統的安全防護機制。當主 App 處於「語音待命」狀態、準備隨時接收鍵盤的聽寫指令時，系統狀態列（或動態島）會顯示橘色麥克風圓點。</li>
+    <li><strong>它在偷聽嗎？</strong>：<strong>絕對沒有</strong>。待命狀態下音訊引擎僅保持「預熱」狀態，<strong>只有當您在鍵盤上實際按住或點選麥克風按鈕時，App 才會開始取樣聲音</strong>。放開或停止說話後即停止取樣。</li>
+    <li><strong>如何關閉待命狀態</strong>：</li>
+    </ul>
+    <p>1. <strong>鍵盤上一鍵關閉</strong>：在 SayIt 鍵盤上點選 <strong>「結束待命」</strong> 按鈕，橘點會立即熄滅。</p>
+    <p>2. <strong>自動逾時關閉</strong>：進入 SayIt 主 App >「設定」>「麥克風待命時間」，可自訂閒置多久自動關閉（提供：立即關閉、1 分鐘、5 分鐘、15 分鐘、1 小時）。閒置逾時後系統會自動關閉引擎以節省電力。</p>
+    <p>3. <strong>強制關閉</strong>：從 iPhone 螢幕底部往上滑開啟多工切換器，將 SayIt App 向上滑動關閉。</p>
+    <h3>Q4：經常辨識錯誤的人名、專業術語或同音字，該怎麼修正？</h3>
+    <p><strong>A</strong>：</p>
+    <p>SayIt 提供強大的本機「自訂校正詞庫」功能：</p>
+    <p>1. 開啟 SayIt 主 App，點選底部的 <strong>「校正」</strong> 分頁。</p>
+    <p>2. 點選右上角的 <strong>「+」</strong> 新增校正項目。</p>
+    <p>3. 在「聽錯的字詞」欄位輸入辨識常出現的錯字（例如：「代念爾」）。</p>
+    <p>4. 在「替換為正確字」欄位輸入您期望的正確寫法（例如：「丹尼爾」）。</p>
+    <p>5. 點選 <strong>「儲存」</strong>。</p>
+    <p>日後在任何地方使用 SayIt 聽寫時，系統在辨識出字前均會自動以您的專屬詞庫進行智慧對應校正！</p>
+    <h3>Q5：如何設定「常用片語」？在鍵盤中該如何快速輸入？</h3>
+    <p><strong>A</strong>：</p>
+    <p>您可以將常輸入的公司統一編號、常用地址、英文帳號或工作罐頭文字儲存為片語快捷鍵：</p>
+    <p>1. 開啟 SayIt 主 App，進入 <strong>「片語」</strong> 分頁。</p>
+    <p>2. 點選 <strong>「+」</strong> 新增片語，輸入片語名稱（標籤）與詳細文字內容後儲存。</p>
+    <p>3. 在任何 App 叫出 SayIt 鍵盤，點選鍵盤工具列上的 <strong>「片語」圖示</strong>。</p>
+    <p>4. 點選您需要的片語項目，文字即會瞬間填入當前文字輸入框，免去重複打字的繁瑣。</p>
+    <h3>Q6：更換新手機或重新安裝 App 後，如何恢復「Pro 永久買斷版」？</h3>
+    <p><strong>A</strong>：</p>
+    <p>SayIt 的 Pro 版本是一次性購買（永久買斷），綁定於您的 Apple ID：</p>
+    <p>1. 確保您的 iPhone 已登入當初購買 Pro 版的同一組 Apple ID。</p>
+    <p>2. 開啟 SayIt 主 App，點選進入 <strong>「設定」</strong> 頁面。</p>
+    <p>3. 點選 <strong>「恢復購買（Restore Purchases）」</strong>。</p>
+    <p>4. 系統通過 App Store 驗證後，將自動解鎖 Pro 權限並移除所有廣告，<strong>絕對不會再次扣款</strong>。</p>
+    <h3>Q7：SayIt 支援哪些 iPhone 機型？為什麼舊款機型無法安裝或使用？</h3>
+    <p><strong>A</strong>：</p>
+    <ul>
+    <li><strong>支援機型清單</strong>：SayIt 僅支援具備 <strong>6 GB RAM（隨機存取記憶體）或更高規格</strong> 之 iPhone：</li>
+    <li>iPhone 13 Pro、iPhone 13 Pro Max</li>
+    <li>iPhone 14、iPhone 14 Plus、iPhone 14 Pro、iPhone 14 Pro Max</li>
+    <li>iPhone 15 全系列（iPhone 15、15 Plus、15 Pro、15 Pro Max）</li>
+    <li>iPhone 16 全系列及後續新機型</li>
+    <li><strong>為什麼舊款機型（如 iPhone 11、12、13 一般版）不支援？</strong></li>
+    <li>SayIt 為了提供極致的台灣正體辨識品質，採用了完整的 Whisper large-v3-turbo 頂級神經網路模型。</li>
+    <li>運作此等級的本機離線 AI 模型，推論時需要佔用約 2～3 GB 的運算記憶體。4 GB RAM 的舊款機型在載入模型時會觸發 iOS 系統級的記憶體保護機制（Jetsam 記憶體不足終止），導致閃退或系統停頓。為了確保使用體驗流暢穩定，我們僅針對具備足夠 RAM 的機型提供支援。</li>
+    </ul>
+    <h2>聯絡與技術支援（Contact Support）</h2>
+    <p>如果您遇到的問題未包含在上述 FAQ 中，或有任何功能改善建議，歡迎隨時與我們聯絡：</p>
+    <ul>
+    <li><strong>客服信箱</strong>：<code>[請在此填入您的支援信箱，例如：support@sayit.tw]</code></li>
+    <li><strong>問題回報時請附上</strong>：</li>
+    </ul>
+    <p>1. 您的 iPhone 機型與 iOS 系統版本（例如：iPhone 15 Pro, iOS 18.2）</p>
+    <p>2. 發生問題的操作步驟與狀況描述</p>
+    <p>3. 相關螢幕錄影或截圖（若有助於重現問題）</p>
+    <ul>
+    <li><strong>官方社群 / 開發日誌</strong>：<code>[請在此填入您的 Threads / Twitter / 網站連結]</code></li>
+    </ul>
+    <a class="back-link" href="/zh-hant/sayit/">← 回到 SayIt</a>
+  </div>
+</div>
+</body>
+</html>

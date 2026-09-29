@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SayIt — Privacy Policy</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="wrap">
+  <nav class="lang-switch"><a href="/en/sayit/privacy/" class="current">English</a><a href="/zh-hant/sayit/privacy/">繁體中文</a><a href="/zh-hans/sayit/privacy/">简体中文</a></nav>
+  <div class="legal">
+    <h1>SayIt — Privacy Policy</h1>
+    <p class="updated">Last updated: September 29, 2026</p>
+    <p>SayIt is built from the ground up with a strict "Privacy by Design" architecture. Our core premise is that your voice, dictated thoughts, and text messages are deeply personal and must remain entirely under your control. The primary function of SayIt is to provide on-device speech-to-text dictation without routing audio or transcription data to external cloud servers.</p>
+    <p>This Privacy Policy explains how our App handles information in strict compliance with <strong>Apple App Store Review Guidelines (Guideline 5.1.1)</strong> and the <strong>Google AdMob Developer Policy</strong>.</p>
+    <h2>1. Information We Do NOT Collect (100% On-Device Processing)</h2>
+    <p>SayIt employs a local neural network model (OpenAI Whisper large-v3-turbo via CoreML and Apple Neural Engine) to execute speech recognition completely on your iPhone. The following categories of data are <strong>processed locally on your device and are NEVER transmitted, uploaded, or sold to our servers, cloud providers, or any third party</strong>:</p>
+    <p>1. <strong>Voice Recordings and Audio Streams</strong>:</p>
+    <ul>
+    <li>Audio captured via the microphone during dictation is buffered temporarily in device RAM for immediate transcription. Audio buffers are discarded promptly upon completion of dictation. We do not store, upload, or use your audio to train AI models.</li>
+    </ul>
+    <p>2. <strong>Transcribed Text and Dictation Output</strong>:</p>
+    <ul>
+    <li>The recognized text is inserted directly into your active text field via the iOS <code>UITextDocumentProxy</code> API. We never log, upload, or transmit your dictated text.</li>
+    </ul>
+    <p>3. <strong>Custom Correction Dictionaries and Snippets</strong>:</p>
+    <ul>
+    <li>Any custom homophone replacements, specialized terms, or phrase snippets you configure are saved strictly within your device's local iOS sandbox and App Group container. They are never backed up to remote databases.</li>
+    </ul>
+    <h2>2. Information We Collect (Advertising and Customer Support)</h2>
+    <p>The App is offered as a Free version (supported by banner advertisements) and an optional Pro Lifetime Purchase (which permanently removes all advertisements). If you use the Free version, our third-party advertising partner may collect certain technical, non-personally identifiable information:</p>
+    <h3>A. Third-Party Advertising Network (Google AdMob)</h3>
+    <p>The Free version of SayIt integrates the Google Mobile Ads SDK (Google AdMob). Subject to your consent and applicable laws, AdMob may collect and process:</p>
+    <ul>
+    <li><strong>Device Identifiers</strong>: Advertising Identifier (IDFA), provided only if you explicitly grant permission via Apple's App Tracking Transparency (ATT) prompt; Identifier for Vendors (IDFV).</li>
+    <li><strong>Coarse Location Data</strong>: Approximate geographical location derived from your IP address (e.g., country or city level). Precise GPS location is never accessed.</li>
+    <li><strong>Ad Interaction Data</strong>: Information regarding ads viewed, clicks, and impressions.</li>
+    <li><strong>Diagnostic and Performance Data</strong>: App crash logs, load latency, and technical telemetry for fraud prevention and performance optimization.</li>
+    </ul>
+    <p>For details on Google’s privacy practices and how Google handles advertising data, please refer to:</p>
+    <ul>
+    <li><a href=\"https://policies.google.com/privacy\">Google Privacy & Terms</a></li>
+    <li><a href=\"https://policies.google.com/technologies/partner-sites\">How Google uses information from sites or apps that use our services</a></li>
+    </ul>
+    <h3>B. Voluntary User Feedback</h3>
+    <p>If you contact us voluntarily for support or feedback via email, we collect:</p>
+    <ul>
+    <li>Your email address.</li>
+    <li>The content of your inquiry, including any screenshots or system information you provide.</li>
+    </ul>
+    <p>This information is solely utilized to address your technical inquiry and improve the App. We do not use your contact information for marketing purposes or share it with third parties.</p>
+    <h2>3. Apple iOS Permissions and Justifications</h2>
+    <h3>A. Microphone Access (`NSMicrophoneUsageDescription`)</h3>
+    <ul>
+    <li><strong>Purpose</strong>: Required exclusively to listen to your voice when you initiate dictation in the main App or through the keyboard extension.</li>
+    <li><strong>Control</strong>: You can enable or revoke microphone permissions at any time via iOS <strong>Settings > SayIt</strong>.</li>
+    </ul>
+    <h3>B. Keyboard "Allow Full Access"</h3>
+    <ul>
+    <li><strong>Purpose</strong>: Under iOS architecture, keyboard extensions run in an isolated sandbox. "Full Access" is required solely to allow the keyboard extension to communicate with the container App via a local App Group (<code>UserDefaults</code> and Darwin Notifications) to trigger on-device audio capture and receive the transcription.</li>
+    <li><strong>Privacy Assurance</strong>: SayIt does <strong>NOT</strong> use Full Access to record keystrokes or send typing data over the internet.</li>
+    </ul>
+    <h3>C. App Tracking Transparency (ATT)</h3>
+    <ul>
+    <li>Under Apple Guideline 5.1.1 and iOS requirements, the Free version presents an ATT prompt asking for permission to track for personalized advertising.</li>
+    <li><strong>User Choice</strong>: You may choose "Ask App not to Track". Choosing not to track will not impair or disable offline voice dictation in any way; only non-personalized ads will be served.</li>
+    </ul>
+    <h2>4. European Economic Area (EEA) and UK Privacy Rights (GDPR / Google UMP)</h2>
+    <p>For users residing in the European Economic Area (EEA) and the United Kingdom:</p>
+    <ul>
+    <li>We implement the Google User Messaging Platform (UMP) SDK, certified under the IAB Europe Transparency and Consent Framework (TCF v2.2).</li>
+    <li>You are presented with a consent dialog on your first launch to explicitly grant, reject, or customize permissions for ad partners.</li>
+    <li>You can review and update your privacy choices at any time within the App’s <strong>Settings > Privacy Choices</strong>.</li>
+    </ul>
+    <h2>5. Children’s Privacy (COPPA)</h2>
+    <p>SayIt does not knowingly collect or solicit personal information from children under the age of 13 (or under the applicable age limit in your jurisdiction). The AdMob SDK is configured with general-audience settings in compliance with the Children's Online Privacy Protection Act (COPPA). If you believe a child has provided us with personal information, please contact us immediately, and we will take prompt steps to remove such information.</p>
+    <h2>6. Data Retention, Deletion, and Pro Ad-Free Option</h2>
+    <p>1. <strong>Local Data Retention and Deletion</strong>:</p>
+    <ul>
+    <li>All custom dictionary entries, snippets, and preferences reside solely on your device. Deleting the App immediately removes all associated data from your device. You may also reset your custom dictionary within the App Settings at any time.</li>
+    </ul>
+    <p>2. <strong>Permanent Ad Removal (SayIt Pro)</strong>:</p>
+    <ul>
+    <li>Users may upgrade to SayIt Pro via a one-time in-app purchase (NT$300 or local equivalent). Upgrading to Pro permanently disables and unloads the Google AdMob SDK, terminating all advertising-related data collection and network requests.</li>
+    </ul>
+    <h2>7. Changes to This Privacy Policy</h2>
+    <p>We may periodically revise this Privacy Policy to reflect operational or regulatory changes. The revised policy will be posted on this page with an updated "Last Updated" timestamp. Material changes will be highlighted within the App.</p>
+    <h2>8. Contact Us</h2>
+    <p>If you have questions, comments, or data deletion requests regarding this Privacy Policy, please contact us at:</p>
+    <ul>
+    <li><strong>Developer</strong>: SayIt Development Team</li>
+    <li><strong>Support Email</strong>: <code>[Please insert your support email here, e.g., support@sayit.tw]</code></li>
+    <li><strong>Website</strong>: <code>[Please insert your website/privacy link here, e.g., https://sayit.tw/privacy]</code></li>
+    </ul>
+    <p>*References: <a href=\"https://developer.apple.com/app-store/review/guidelines/#data-collection-and-storage\">Apple App Store Review Guidelines - Section 5.1.1</a>, <a href=\"https://support.google.com/admob/answer/6128543\">Google AdMob Policies and Restrictions</a>*</p>
+    <a class="back-link" href="/en/sayit/">← Back to SayIt</a>
+  </div>
+</div>
+</body>
+</html>

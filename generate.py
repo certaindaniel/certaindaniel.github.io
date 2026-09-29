@@ -158,6 +158,9 @@ def hub_html(locale):
 PRIVACY_LABEL = {
     "en": "Privacy Policy", "zh-hant": "隱私權政策", "zh-hans": "隐私政策",
 }
+SUPPORT_PAGE_LABEL = {
+    "en": "Support & FAQ", "zh-hant": "支援與常見問題", "zh-hans": "支持与常见问题",
+}
 
 # Apple rejects a Support URL that is only a marketing page (Guideline 1.5 — TrailPop
 # 1.1 was rejected for exactly this). Every app page carries a real support block with
@@ -219,6 +222,12 @@ def app_html(app, locale):
         f'<a class="legal-link" href="{e(privacy_href)}">{e(PRIVACY_LABEL.get(locale, "Privacy Policy"))}</a>'
         if has_privacy else ""
     )
+    support_href = f"/{locale}/{app['id']}/support/"
+    has_support = os.path.isfile(os.path.join(ROOT, locale, app["id"], "support", "index.html"))
+    support_link = (
+        f'<a class="legal-link" href="{e(support_href)}">{e(SUPPORT_PAGE_LABEL.get(locale, "Support & FAQ"))}</a>'
+        if has_support else ""
+    )
     has_live_demo = os.path.isfile(os.path.join(ROOT, app["id"], "live", "index.html")) or app.get("liveDemoUrl")
     live_demo_link = ""
     if has_live_demo:
@@ -248,6 +257,7 @@ def app_html(app, locale):
     )
 
     icon_src = asset_url(icon_path(app['icon'], 192))
+    legal_links = "".join([f"\n    {l}" for l in [privacy_link, support_link] if l])
 
     body = f"""<div class="wrap">
   {lang_switch(locale, app_id=app['id'])}
@@ -258,8 +268,7 @@ def app_html(app, locale):
     <p class="promo">{e(loc['promo'])}</p>
     <div class="hero-actions">
       {cta}{live_demo_link}{guide_link}
-    </div>
-    {privacy_link}
+    </div>{legal_links}
   </section>
   <div class="screenshots">{shots}</div>
   <ul class="features">{features}</ul>
