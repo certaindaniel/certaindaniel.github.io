@@ -1311,7 +1311,7 @@
             },
             {
               "q": "Is this a subscription?",
-              "a": "No. The app is free and ad-supported, with no subscriptions or in-app purchases."
+              "a": "The app offers optional lifetime ad-removal and festival template subscription or purchase, while remaining fully usable for free with ads."
             },
             {
               "q": "Can I turn off personalized ads?",
@@ -1342,7 +1342,7 @@
             },
             {
               "q": "這是訂閱制嗎？",
-              "a": "不是，App 免費且由廣告支持，沒有訂閱或內購。"
+              "a": "提供永久去廣告買斷與節慶模板訂閱/買斷，亦可完全免費觀看廣告使用。"
             },
             {
               "q": "可以關閉個人化廣告嗎？",
@@ -1373,7 +1373,7 @@
             },
             {
               "q": "这是订阅制吗？",
-              "a": "不是，App 免费且由广告支持，没有订阅或内购。"
+              "a": "提供永久去广告买断与节庆模板订阅/买断，亦可完全免费观看广告使用。"
             },
             {
               "q": "可以关闭个性化广告吗？",
