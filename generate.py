@@ -137,11 +137,12 @@ def hub_html(locale):
             href = app["appStoreUrl"]
         else:
             href = None
+        style = f' style="--i:{index}"'
         if href:
             soon_cls = " app-card--soon" if coming_soon else ""
-            cards.append(f'\n    <a class="app-card{soon_cls}" href="{e(href)}">{inner}\n    </a>')
+            cards.append(f'\n    <a class="app-card{soon_cls}" href="{e(href)}"{style}>{inner}\n    </a>')
         else:
-            cards.append(f'\n    <div class="app-card app-card--soon">{inner}\n    </div>')
+            cards.append(f'\n    <div class="app-card app-card--soon"{style}>{inner}\n    </div>')
     body = f"""<div class="wrap">
   <header class="site">
     <h1>{e(hub['title'])}</h1>
