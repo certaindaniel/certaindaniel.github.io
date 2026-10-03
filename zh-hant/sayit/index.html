@@ -39,16 +39,16 @@
     <h2>引擎比較</h2>
     <p>SayIt 以 Whisper 為主力；Whisper 尚未就緒時，改用 Apple 本機辨識作為降級後備。</p>
     <div class="qa">
-      <div class="qa-item"><h3>Whisper 主力辨識</h3><p><strong>2.70%</strong> 字錯率。SayIt 完整模型，主力使用。</p></div>
-      <div class="qa-item"><h3>Apple 本機快速後備</h3><p><strong>12.50%</strong> 字錯率。Whisper 尚未就緒時，自動降級使用。</p></div>
-      <div class="qa-item"><h3>Apple 本機相容後備</h3><p><strong>40.88%</strong> 字錯率。較舊系統可用時的相容路徑。</p></div>
+      <div class="qa-item"><h3>Whisper 主力辨識</h3><p><strong>3.72%</strong> 字錯率。SayIt 主力模型，準確度優先。</p></div>
+      <div class="qa-item"><h3>Apple 本機快速後備</h3><p><strong>12.50%</strong> 字錯率。快速模式，品質較低；Whisper 尚未就緒時自動降級使用。</p></div>
+      <div class="qa-item"><h3>Apple 本機相容後備</h3><p><strong>40.88%</strong> 字錯率。較舊系統可用時的相容路徑，品質較低。</p></div>
     </div>
     <p>Whisper 與 Apple 本機辨識都在裝置端處理語音。</p>
     <details><summary>測試細節</summary><ul>
-      <li>Whisper large-v3-turbo Mac baseline：術語命中 80/92，平均延遲約 1.6 秒。</li>
-      <li>SpeechTranscriber zh-TW：術語命中 44/92，平均延遲 0.15 秒。</li>
-      <li>SFSpeechRecognizer on-device zh-TW：術語命中 24/92，平均延遲 0.26 秒。</li>
-      <li>資料來源：notes/speechtranscriber-spike-19.md 的 40 段既有比較資料。</li>
+      <li>WhisperKit CoreML 實機：術語命中 84/92，平均延遲 3.6 秒。</li>
+      <li>SpeechTranscriber zh-TW：術語命中 44/92，平均延遲 0.25 秒（批次量測，非即時鍵盤延遲）。</li>
+      <li>SFSpeechRecognizer on-device zh-TW：術語命中 24/92，平均延遲 0.3 秒（批次量測，非即時鍵盤延遲）。</li>
+      <li>公開 Whisper 數字採實機 CoreML canonical benchmark；Apple fallback 數字與 #19 spike 報告一致。</li>
     </ul></details>
   </section>
   <div class="qa" id="faq"><div class="qa-item"><h3>第一次打開 App 時，為什麼需要等待大約 8 分鐘？</h3><p>SayIt 內建頂級 Whisper large-v3-turbo 本機模型，首次啟動時 Apple CoreML 需針對您的 iPhone 神經網路引擎（ANE）進行專屬編譯與最佳化。此過程僅需執行一次，完成後日後每次使用皆為秒開秒用。</p></div><div class="qa-item"><h3>為什麼啟用鍵盤需要開啟「允許完整取用」？</h3><p>iOS 限制鍵盤擴充功能運作在獨立沙盒內，無法直接存取麥克風。開啟「允許完整取用」僅為了讓鍵盤能透過本機 App Group 傳送聽寫控制訊號給主 App 進行本機收音與出字。SayIt 絕不利用此權限連網傳輸您的按鍵紀錄或語音資料。</p></div><div class="qa-item"><h3>狀態列的「橘色麥克風指示燈」是什麼？要怎麼關閉待命？</h3><p>這是 iOS 系統提示主 App 正在背景音訊待命。待命時只有在您按住麥克風時才會取樣聲音。您可以在鍵盤上點選「結束待命」按鈕、或在主 App 設定中自訂閒置自動釋放時間（1 分鐘、5 分鐘、15 分鐘、1 小時），閒置逾時後即會自動關閉引擎熄滅橘點。</p></div><div class="qa-item"><h3>經常辨識錯誤的人名或專業術語該如何修正？</h3><p>打開 SayIt 主 App，點選「校正」分頁並新增項目，輸入「原聽錯字」與「正確字」，儲存後日後鍵盤辨識時便會自動智慧替換。</p></div><div class="qa-item"><h3>換手機或重灌後，如何恢復 Pro 買斷去廣告？</h3><p>確保 iPhone 登入原購買 Apple ID，進入 SayIt 主 App「設定」點選「恢復購買（Restore Purchases）」即可自動解鎖，無需重複付款。</p></div><div class="qa-item"><h3>SayIt 支援哪些 iPhone 機型？</h3><p>為了流暢運算大型本機 AI 模型，SayIt 僅支援具備 6 GB RAM 以上規格之機型（包含 iPhone 13 Pro 系列、iPhone 14 全系列、iPhone 15 全系列、iPhone 16 全系列及後續機型）。</p></div></div>
