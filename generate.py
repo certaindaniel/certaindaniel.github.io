@@ -185,6 +185,33 @@ SUPPORT = {
 }
 
 
+def engine_comparison_html(loc):
+    data = loc.get("engineComparison")
+    if not data:
+        return ""
+
+    items = "".join(
+        '<div class="qa-item">'
+        f'<h3>{e(item["title"])}</h3>'
+        f'<p><strong>{e(item["metric"])}</strong> {e(item["label"])}。{e(item["body"])}</p>'
+        '</div>'
+        for item in data.get("items", [])
+    )
+    details = "".join(f"<li>{e(line)}</li>" for line in data.get("details", []))
+    details_html = (
+        f'<details><summary>{e(data.get("detailsTitle", "Details"))}</summary><ul>{details}</ul></details>'
+        if details else ""
+    )
+
+    return f"""<section class="support" id="engine-comparison">
+    <h2>{e(data["heading"])}</h2>
+    <p>{e(data["intro"])}</p>
+    <div class="qa">{items}</div>
+    <p>{e(data["privacy"])}</p>
+    {details_html}
+  </section>"""
+
+
 def support_html(app, locale):
     email = SITE.get("supportEmail")
     if not email:
@@ -273,6 +300,7 @@ def app_html(app, locale):
   </section>
   <div class="screenshots">{shots}</div>
   <ul class="features">{features}</ul>
+  {engine_comparison_html(loc)}
   {qa_html}
   {support_html(app, locale)}
   <a class="back-link" href="/{locale}/">← {e(hub['title'])}</a>
