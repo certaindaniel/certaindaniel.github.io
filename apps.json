@@ -1554,30 +1554,30 @@
                     "items": [
                         {
                             "title": "Whisper 主力辨識",
-                            "metric": "2.70%",
+                            "metric": "3.72%",
                             "label": "字錯率",
-                            "body": "SayIt 完整模型，主力使用。"
+                            "body": "SayIt 主力模型，準確度優先。"
                         },
                         {
                             "title": "Apple 本機快速後備",
                             "metric": "12.50%",
                             "label": "字錯率",
-                            "body": "Whisper 尚未就緒時，自動降級使用。"
+                            "body": "快速模式，品質較低；Whisper 尚未就緒時自動降級使用。"
                         },
                         {
                             "title": "Apple 本機相容後備",
                             "metric": "40.88%",
                             "label": "字錯率",
-                            "body": "較舊系統可用時的相容路徑。"
+                            "body": "較舊系統可用時的相容路徑，品質較低。"
                         }
                     ],
                     "privacy": "Whisper 與 Apple 本機辨識都在裝置端處理語音。",
                     "detailsTitle": "測試細節",
                     "details": [
-                        "Whisper large-v3-turbo Mac baseline：術語命中 80/92，平均延遲約 1.6 秒。",
-                        "SpeechTranscriber zh-TW：術語命中 44/92，平均延遲 0.15 秒。",
-                        "SFSpeechRecognizer on-device zh-TW：術語命中 24/92，平均延遲 0.26 秒。",
-                        "資料來源：notes/speechtranscriber-spike-19.md 的 40 段既有比較資料。"
+                        "WhisperKit CoreML 實機：術語命中 84/92，平均延遲 3.6 秒。",
+                        "SpeechTranscriber zh-TW：術語命中 44/92，平均延遲 0.25 秒（批次量測，非即時鍵盤延遲）。",
+                        "SFSpeechRecognizer on-device zh-TW：術語命中 24/92，平均延遲 0.3 秒（批次量測，非即時鍵盤延遲）。",
+                        "公開 Whisper 數字採實機 CoreML canonical benchmark；Apple fallback 數字與 #19 spike 報告一致。"
                     ]
                 },
                 "features": [
