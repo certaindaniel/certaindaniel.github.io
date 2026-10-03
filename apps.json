@@ -1545,12 +1545,44 @@
             },
             "zh-hant": {
                 "name": "SayIt 離線語音輸入鍵盤",
-                "tagline": "台灣正體・中英自動空格・辨識不上傳",
-                "promo": "專為台灣使用者打造的語音聽寫鍵盤！語音辨識全程在手機本機完成，錄音和文字絕不上傳，捷運或飛航模式無網路照樣精準出字。堅持台灣正體中文，中英夾雜自動補空格與標點，給您極致隱私且流暢的輸入體驗。",
+                "tagline": "台灣正體・中英自動空格・裝置端辨識",
+                "promo": "專為台灣使用者打造的語音聽寫鍵盤！Whisper 與 Apple 本機辨識都在裝置端處理語音，捷運或飛航模式無網路也能使用。堅持台灣正體中文，中英夾雜自動補空格與標點。",
                 "cta": "即將推出",
+                "engineComparison": {
+                    "heading": "引擎比較",
+                    "intro": "SayIt 以 Whisper 為主力；Whisper 尚未就緒時，改用 Apple 本機辨識作為降級後備。",
+                    "items": [
+                        {
+                            "title": "Whisper 主力辨識",
+                            "metric": "2.70%",
+                            "label": "字錯率",
+                            "body": "SayIt 完整模型，主力使用。"
+                        },
+                        {
+                            "title": "Apple 本機快速後備",
+                            "metric": "12.50%",
+                            "label": "字錯率",
+                            "body": "Whisper 尚未就緒時，自動降級使用。"
+                        },
+                        {
+                            "title": "Apple 本機相容後備",
+                            "metric": "40.88%",
+                            "label": "字錯率",
+                            "body": "較舊系統可用時的相容路徑。"
+                        }
+                    ],
+                    "privacy": "Whisper 與 Apple 本機辨識都在裝置端處理語音。",
+                    "detailsTitle": "測試細節",
+                    "details": [
+                        "Whisper large-v3-turbo Mac baseline：術語命中 80/92，平均延遲約 1.6 秒。",
+                        "SpeechTranscriber zh-TW：術語命中 44/92，平均延遲 0.15 秒。",
+                        "SFSpeechRecognizer on-device zh-TW：術語命中 24/92，平均延遲 0.26 秒。",
+                        "資料來源：notes/speechtranscriber-spike-19.md 的 40 段既有比較資料。"
+                    ]
+                },
                 "features": [
                     "SayIt 聽寫鍵盤 — 在 LINE、Slack、Notion、備忘錄等任何 App，切換鍵盤按住麥克風即說即轉",
-                    "純本機神經網路運算 — 搭載 Whisper large-v3-turbo 先進模型，直接於 iPhone 神經網路引擎（ANE）高速推論，錄音與文字絕不上傳",
+                    "純本機神經網路運算 — 搭載 Whisper large-v3-turbo，並以 Apple 本機辨識作為降級後備；兩條路徑都在裝置端處理語音",
                     "堅持台灣在地正體 — 嚴格通過 OpenCC 台灣正體中文（s2twp）標準校驗，徹底告別簡體字干擾",
                     "中英夾雜自然說 — 自然混講英文技術詞（如 API、PR、Deploy），自動在中文與英文字詞間補上標準排版空格與標點",
                     "常聽錯字自訂校正 — 人名、專有名詞或特定同音字，教一次就自動記住，日後辨識立刻自動修正",
