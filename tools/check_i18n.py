@@ -23,9 +23,9 @@ What it checks
   other pages    under a sub-site (no I18N, not noindex): lang="en", "zh-Hant", "zh-Hans" blocks exist.
 
 What it cannot see (check these by hand, e.g. switch the live page to English and look)
-  - Text built at runtime from JS or from assets/data/*.json (species names, SVG labels, category
-    names). Chinese string literals in <script> outside I18N are listed as WARN only, because the
-    script may branch on currentLang.
+  - Text built at runtime from JS or from assets/data/*.json. The fish-name and category locale maps are
+    checked below; Chinese literals used only by species predicates or internal sprite identifiers are
+    excluded from the UI-copy warning.
   - Wrong or stale translations. It checks that a language is present, not that it says the same.
   - zh-hant text that is accidentally Simplified.
 
@@ -126,8 +126,30 @@ function span(name) {
 const src = span('I18N'), langs = span('LANGS');
 const I18N = Function('return (' + src + ')')();
 const LANGS = langs ? Function('return (' + langs + ')')() : Object.keys(I18N);
-console.log(JSON.stringify({ I18N, LANGS, src }));
+const extras = {};
+for (const name of ['RECIPE_FISH', 'CATEGORY_I18N', 'REVIEWED_SPRITE_ARCHETYPES']) {
+  const text = span(name);
+  if (text) extras[name] = { src: text, value: Function('return (' + text + ')')() };
+}
+console.log(JSON.stringify({ I18N, LANGS, src, extras }));
 """
+
+def is_classifier_literal(script, match):
+    """CJK tokens used by species predicates or compatibility comparisons are data, not UI copy."""
+    start = match.start(2)
+    end = match.end(2)
+    before = script[max(0, start - 100):start]
+    if re.search(r"(?:\.includes|\.endsWith|\.startsWith)\s*\(\s*['\"`]?\s*$", before): return True
+    if re.search(r"\b(?:C|L)\s*\(\s*['\"`]?\s*$", before): return True
+    if re.search(r"(?:===|!==|==|!=)\s*['\"`]?\s*$", before): return True
+    line_start = script.rfind("\n", 0, start) + 1
+    line_end = script.find("\n", end)
+    if line_end < 0: line_end = len(script)
+    line = script[line_start:line_end]
+    local_start, local_end = start - line_start, end - line_start
+    opening = line.rfind("[", 0, local_start)
+    closing = line.find("]", local_end)
+    return opening >= 0 and closing >= 0 and re.search(r"\]\s*\.includes\s*\(", line[closing:]) is not None
 
 def check_i18n_page(root, rel, src):
     r = subprocess.run(["node", "-e", NODE_EXTRACT, os.path.join(root, rel)], capture_output=True, text=True)
@@ -151,10 +173,53 @@ def check_i18n_page(root, rel, src):
         left = set(traditional_left([v for _, v in items]))
         bad = [k for k, v in items if v in left]
         if bad: fail(rel, f"{len(bad)} {hans} value(s) still Traditional", bad)
+    extras = d.get("extras", {})
+    recipe_fish = extras.get("RECIPE_FISH", {}).get("value")
+    if "RECIPE_FISH" in src and not isinstance(recipe_fish, dict):
+        fail(rel, "RECIPE_FISH locale map is missing or invalid")
+    if isinstance(recipe_fish, dict):
+        for fish_id, entry in recipe_fish.items():
+            names = entry.get("n", {}) if isinstance(entry, dict) else {}
+            if not isinstance(names, dict):
+                fail(rel, f"RECIPE_FISH {fish_id} names are not a locale map"); continue
+            missing = [lang for lang in LANGS if lang not in names]
+            if missing: fail(rel, f"RECIPE_FISH {fish_id} missing locale(s) " + ", ".join(missing))
+            en_name = next((value for lang, value in names.items() if lang.lower().startswith("en")), None)
+            if isinstance(en_name, str) and CJK.search(en_name): fail(rel, f"RECIPE_FISH {fish_id} English name contains Chinese")
+            hans_name = names.get("zh-Hans")
+            if isinstance(hans_name, str) and traditional_left([hans_name]): fail(rel, f"RECIPE_FISH {fish_id} zh-Hans name is still Traditional")
+    category_map = extras.get("CATEGORY_I18N", {}).get("value")
+    if "CATEGORY_I18N" in src and not isinstance(category_map, dict):
+        fail(rel, "CATEGORY_I18N locale map is missing or invalid")
+    if isinstance(category_map, dict):
+        expected_categories = set()
+        data_paths = glob.glob(os.path.join(root, "tinyaquarium", "assets", "data", "Volume*.json"))
+        for data_path in data_paths:
+            try:
+                for fish in json.load(open(data_path, encoding="utf-8")):
+                    if fish.get("category"): expected_categories.add(fish["category"])
+            except (OSError, ValueError, TypeError) as e:
+                fail(rel, f"cannot read category source {os.path.basename(data_path)}: {e}")
+        if data_paths:
+            missing = sorted(expected_categories - set(category_map))
+            extra = sorted(set(category_map) - expected_categories)
+            if missing: fail(rel, "CATEGORY_I18N missing data category(s)", missing)
+            if extra: fail(rel, "CATEGORY_I18N has unused data category(s)", extra)
+        for category, labels in category_map.items():
+            if not isinstance(labels, dict):
+                fail(rel, f"CATEGORY_I18N {category} is not a locale map"); continue
+            missing = [lang for lang in LANGS if lang not in labels]
+            if missing: fail(rel, f"CATEGORY_I18N {category} missing locale(s) " + ", ".join(missing))
+            en_label = next((value for lang, value in labels.items() if lang.lower().startswith("en")), None)
+            if isinstance(en_label, str) and CJK.search(en_label): fail(rel, f"CATEGORY_I18N {category} English label contains Chinese")
+            hans_label = labels.get("zh-Hans")
+            if isinstance(hans_label, str) and traditional_left([hans_label]): fail(rel, f"CATEGORY_I18N {category} zh-Hans label is still Traditional")
     p = visible_text(src)
     undefined = sorted(k for k in p.keys if k not in allkeys)
     if undefined: fail(rel, f"{len(undefined)} data-i18n key(s) not in I18N", undefined)
     body = src.replace(d["src"], "")
+    for extra in extras.values():
+        body = body.replace(extra["src"], "")
     script = "\n".join(re.findall(r"<script[^>]*>(.*?)</script>", body, re.S))
     # an id or class the page script actually selects: getElementById('x'), '#x', querySelector('.x'), getElementsByClassName('x')
     touched = lambda hooks: any(re.search(r"""getElementById\(\s*['"]%s['"]|['"][^'"]*#%s(?![\w-])|querySelector(?:All)?\(\s*['"][^'"]*\.%s(?![\w-])|getElementsByClassName\(\s*['"]%s['"]""" % ((re.escape(h),) * 4), script) for h in hooks)
@@ -164,8 +229,9 @@ def check_i18n_page(root, rel, src):
     soft = [txt for txt, ids in p.found if touched(ids)]
     if hard: fail(rel, f"{len(hard)} Chinese text(s) in HTML without data-i18n", hard)
     if soft: warn(rel, f"{len(soft)} Chinese placeholder text(s) in elements the script writes to (confirm the script localizes them): " + ", ".join(soft[:4]))
-    lits = [m for m in re.findall(r"""(['"`])((?:\\.|(?!\1).)*?[㐀-鿿](?:\\.|(?!\1).)*?)\1""", "\n".join(re.findall(r"<script[^>]*>(.*?)</script>", body, re.S)))]
-    if lits: warn(rel, f"{len(lits)} Chinese string literal(s) in <script> outside I18N (check they branch on currentLang)")
+    literal_re = re.compile(r"""([\'`"])((?:\\.|(?!\1).)*?[㐀-鿿](?:\\.|(?!\1).)*?)\1""")
+    unlocalized = [m.group(2) for m in literal_re.finditer(script) if not is_classifier_literal(script, m)]
+    if unlocalized: warn(rel, f"{len(unlocalized)} Chinese string literal(s) in <script> outside locale maps (e.g. {', '.join(repr(s[:24]) for s in unlocalized[:4])})")
 
 def check_other_subsite_page(rel, src):
     p = visible_text(src)

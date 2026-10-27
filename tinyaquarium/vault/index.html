@@ -264,7 +264,7 @@
             <!-- Search & Rarity Filter Bar -->
             <div class="flex flex-col sm:flex-row items-center justify-between gap-4 mb-8">
                 <div class="relative w-full sm:w-80">
-                    <input type="text" id="vaultSearchInput" oninput="filterVaultSpecies()" placeholder="🔍 搜尋魚種中文名稱、學名或特徵..." class="w-full px-4 py-2.5 pl-10 rounded-xl bg-white/5 border border-white/15 text-sm text-white placeholder-slate-400 focus:outline-none focus:border-cyan-400 transition-colors">
+                    <input type="text" id="vaultSearchInput" oninput="filterVaultSpecies()" data-i18n-placeholder="vault_search" placeholder="🔍 搜尋魚種中文名稱、學名或特徵..." class="w-full px-4 py-2.5 pl-10 rounded-xl bg-white/5 border border-white/15 text-sm text-white placeholder-slate-400 focus:outline-none focus:border-cyan-400 transition-colors">
                     <svg class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
                 </div>
 
@@ -288,7 +288,7 @@
             </div>
 
             <!-- Loading Indicator -->
-            <div id="vaultLoading" class="text-center py-12 text-slate-400 text-sm">
+            <div id="vaultLoading" data-i18n="vault_loading" class="text-center py-12 text-slate-400 text-sm">
                 載入素材庫中...
             </div>
         </div>
@@ -334,11 +334,11 @@
             <div class="grid grid-cols-3 gap-3 text-center text-xs font-mono">
                 <div class="p-3 rounded-xl bg-white/5 border border-white/10">
                     <div class="text-slate-400" data-i18n="modal_steps">孵化步數</div>
-                    <div id="modalSteps" class="text-cyan-300 font-bold mt-0.5">5,000 步</div>
+                    <div id="modalSteps" data-i18n="modal_steps_placeholder" class="text-cyan-300 font-bold mt-0.5">0 步</div>
                 </div>
                 <div class="p-3 rounded-xl bg-white/5 border border-white/10">
                     <div class="text-slate-400" data-i18n="modal_coins">金幣產出</div>
-                    <div id="modalCoins" class="text-amber-400 font-bold mt-0.5">3 / 時</div>
+                    <div id="modalCoins" data-i18n="modal_coins_placeholder" class="text-amber-400 font-bold mt-0.5">0 / 時</div>
                 </div>
                 <div class="p-3 rounded-xl bg-white/5 border border-white/10">
                     <div class="text-slate-400" data-i18n="modal_speed">泳速等級</div>
@@ -350,7 +350,7 @@
                 <div class="font-bold flex items-center space-x-1.5">
                     <span data-i18n="modal_recipe">🧬 秘密基因突變配方</span>
                 </div>
-                <div id="modalRecipe" class="text-slate-300 font-mono text-[12px]">親代 A + 親代 B ➡️ 突變產出</div>
+                <div id="modalRecipe" data-i18n="modal_recipe_placeholder" class="text-slate-300 font-mono text-[12px]">親代 A + 親代 B ➡️ 突變產出</div>
             </div>
         </div>
     </div>
@@ -428,7 +428,7 @@
                 vault_count_all: '🌟 全生態素材庫共收錄 <strong class="text-cyan-400 font-bold">{n}</strong> 種生物',
                 vault_no_result: '查無相符魚種素材，請嘗試搜尋「錦鯉」、「鯊」、「小丑」、「龍」或其他關鍵字。',
                 vault_load_more_left: '➕ 載入更多結果 (剩餘 {n} 種)',
-                vault_loading: '載入素材庫中...',
+                vault_loading: '載入素材庫中...', vault_load_error: '魚種資料載入失敗，請重新整理頁面後再試。',
                 widget_title: '深度融入你的', widget_title_hl: 'iOS 17+',
                 widget_p: '不必每次都解鎖進入 App。無論是瞥一眼手機桌面，或是隨時查看鎖定畫面，水族箱的靈動生命都在陪伴著你。',
                 widget_daily: '日常生活',
@@ -455,8 +455,8 @@
                 download_title: '立即開始你的<br>掌心治癒水族之旅', download_p: '免費下載 TinyAquarium，在每一步的步伐中，遇見屬於你的傳奇神魚。',
                 download_btn1: 'App Store 下載', download_btn2: '📱 掃描 QR Code 取得',
                 footer_p: '隱私權政策 (Privacy)', footer_t: '服務條款 (Terms)', footer_c: '開發者聯絡 (Contact)', footer_m: '媒體素材 (Press Kit)',
-                modal_steps: '孵化步數', modal_coins: '金幣產出', modal_speed: '泳速等級',
-                modal_recipe: '🧬 秘密基因突變配方', modal_default_cat: '水族生物',
+                modal_steps: '孵化步數', modal_coins: '金幣產出', modal_speed: '泳速等級', modal_steps_placeholder: '0 步', modal_coins_placeholder: '0 / 時',
+                modal_recipe: '🧬 秘密基因突變配方', modal_recipe_placeholder: '親代 A + 親代 B ➡️ 突變產出', modal_default_cat: '水族生物',
                 modal_placeholder: '魚種名稱', modal_placeholder_sc: 'Scientific name', modal_placeholder_desc: '生態描述與背景故事...',
                 qr_title: '使用 iPhone 掃描下載', qr_p: '相機對準 QR Code 即可直接前往 App Store 安裝。',
                 per_hour: '時', pet: '❤️ +2 摸摸',
@@ -501,7 +501,7 @@
                 vault_search: '🔍 搜寻鱼种中文名称、学名或特征...', vault_rarity_all: '全部',
                 rarity_common: '普通', rarity_uncommon: '精良', rarity_rare: '稀有', rarity_epic: '史诗', rarity_legendary: '传说',
                 vault_load_more: '➕ 载入更多结果', vault_steps: '步', vault_detail: '查看详情 →',
-                vault_loading: '载入素材库中...',
+                vault_loading: '载入素材库中...', vault_load_error: '鱼种数据加载失败，请刷新页面后重试。',
                 widget_title: '深度融入你的', widget_title_hl: 'iOS 17+',
                 widget_p: '不必每次都解锁进入 App。无论是瞥一眼手机桌面，或是随时查看锁定画面，水族箱的灵动生命都在陪伴着你。',
                 widget_daily: '日常生活',
@@ -528,8 +528,8 @@
                 download_title: '立即开始你的<br>掌心治愈水族之旅', download_p: '免费下载 TinyAquarium，在每一步的步伐中，遇见属于你的传奇神鱼。',
                 download_btn1: 'App Store 下载', download_btn2: '📱 扫描 QR Code 取得',
                 footer_p: '隐私权政策 (Privacy)', footer_t: '服务条款 (Terms)', footer_c: '开发者联络 (Contact)', footer_m: '媒体素材 (Press Kit)',
-                modal_steps: '孵化步数', modal_coins: '金币产出', modal_speed: '泳速等级',
-                modal_recipe: '🧬 秘密基因突变配方', modal_default_cat: '水族生物',
+                modal_steps: '孵化步数', modal_coins: '金币产出', modal_speed: '游速等级', modal_steps_placeholder: '0 步', modal_coins_placeholder: '0 / 时',
+                modal_recipe: '🧬 秘密基因突变配方', modal_recipe_placeholder: '亲代 A + 亲代 B ➡️ 突变产出', modal_default_cat: '水族生物',
                 modal_placeholder: '鱼种名称', modal_placeholder_sc: 'Scientific name', modal_placeholder_desc: '生态描述与背景故事...',
                 qr_title: '使用 iPhone 扫描下载', qr_p: '相机对准 QR Code 即可直接前往 App Store 安装。',
                 per_hour: '时', pet: '❤️ +2 摸摸',
@@ -579,7 +579,7 @@
                 vault_search: '🔍 Search species name, scientific name, or trait...', vault_rarity_all: 'All',
                 rarity_common: 'Common', rarity_uncommon: 'Uncommon', rarity_rare: 'Rare', rarity_epic: 'Epic', rarity_legendary: 'Legendary',
                 vault_load_more: '➕ Load more', vault_steps: 'steps', vault_detail: 'Details →',
-                vault_loading: 'Loading species vault...',
+                vault_loading: 'Loading species vault...', vault_load_error: 'Could not load fish data. Refresh the page and try again.',
                 widget_title: 'Deeply woven into your', widget_title_hl: 'iOS 17+',
                 widget_p: 'No need to unlock the app every time. Glance at your home screen or lock screen — your aquarium is always by your side.',
                 widget_daily: 'daily life',
@@ -606,8 +606,8 @@
                 download_title: 'Start your<br>palm-sized healing aquarium journey', download_p: 'Download TinyAquarium free and meet your legendary fish with every step.',
                 download_btn1: 'App Store', download_btn2: '📱 Scan QR to get',
                 footer_p: 'Privacy', footer_t: 'Terms', footer_c: 'Contact', footer_m: 'Press Kit',
-                modal_steps: 'Hatch steps', modal_coins: 'Coin yield', modal_speed: 'Swim speed',
-                modal_recipe: '🧬 Secret Genetic Mutation Recipe', modal_default_cat: 'Aquatic Species',
+                modal_steps: 'Hatch steps', modal_coins: 'Coin yield', modal_speed: 'Swim speed', modal_steps_placeholder: '0 steps', modal_coins_placeholder: '0 / hr',
+                modal_recipe: '🧬 Secret Genetic Mutation Recipe', modal_recipe_placeholder: 'Parent A + Parent B ➡️ Mutation result', modal_default_cat: 'Aquatic Species',
                 modal_placeholder: 'Species Name', modal_placeholder_sc: 'Scientific name', modal_placeholder_desc: 'Eco description & backstory...',
                 qr_title: 'Scan with your iPhone', qr_p: 'Point your camera at the QR code to open the App Store.',
                 per_hour: 'hr', pet: '❤️ +2 Pet',
@@ -1861,7 +1861,7 @@
                 if (Math.hypot(f.x - clickX, f.y - clickY) < 35) {
                     f.somersault = Math.PI * 2;
                     playPopSound();
-                    floatingHearts.push(new FloatingHeart(f.x, f.y, '❤️ +2 摸摸'));
+                floatingHearts.push(new FloatingHeart(f.x, f.y, t('pet')));
                     heartCount += 2;
                     document.getElementById('live-heart-count').textContent = `${heartCount} ❤️`;
                     tappedFish = true;
@@ -1938,7 +1938,7 @@
                 renderVaultGrid();
             } catch (err) {
                 console.error('Vault fetch error:', err);
-                document.getElementById('vaultLoading').textContent = '素材庫加載成功（已內嵌 1,176 種資料）。';
+                document.getElementById('vaultLoading').textContent = t('vault_load_error');
             }
         }
 
@@ -1965,73 +1965,64 @@
         }
 
         const rarityStyles = {
-            common: { bg: 'bg-slate-500/20', text: 'text-slate-300', border: 'border-slate-500/30', label: '普通', labelHans: '普通', labelEn: 'Common' },
-            uncommon: { bg: 'bg-emerald-500/20', text: 'text-emerald-300', border: 'border-emerald-500/30', label: '精良', labelHans: '精良', labelEn: 'Uncommon' },
-            rare: { bg: 'bg-blue-500/20', text: 'text-blue-300', border: 'border-blue-500/30', label: '稀有', labelHans: '稀有', labelEn: 'Rare' },
-            epic: { bg: 'bg-purple-500/20', text: 'text-purple-300', border: 'border-purple-500/30', label: '史詩', labelHans: '史诗', labelEn: 'Epic' },
-            legendary: { bg: 'bg-amber-500/20', text: 'text-amber-300', border: 'border-amber-500/30', label: '傳說', labelHans: '传说', labelEn: 'Legendary' }
+            common: { bg: 'bg-slate-500/20', text: 'text-slate-300', border: 'border-slate-500/30' },
+            uncommon: { bg: 'bg-emerald-500/20', text: 'text-emerald-300', border: 'border-emerald-500/30' },
+            rare: { bg: 'bg-blue-500/20', text: 'text-blue-300', border: 'border-blue-500/30' },
+            epic: { bg: 'bg-purple-500/20', text: 'text-purple-300', border: 'border-purple-500/30' },
+            legendary: { bg: 'bg-amber-500/20', text: 'text-amber-300', border: 'border-amber-500/30' }
         };
 
-        //  rarity 標籤與分類名稱的在地化 helper
-        function rarityLabel(rStyle) {
-            if (currentLang === 'en-US') return rStyle.labelEn || rStyle.label;
-            if (currentLang === 'zh-Hans') return rStyle.labelHans || rStyle.label;
-            return rStyle.label;
+        function rarityLabel(rarity) {
+            const key = String(rarity || 'common').toLowerCase();
+            return t(['common', 'uncommon', 'rare', 'epic', 'legendary'].includes(key) ? `rarity_${key}` : 'rarity_common');
         }
         function localizedCategory(fish) {
-            const cat = fish.category || '';
-            if (currentLang !== 'en-US' || !cat) return cat;
-            const map = CATEGORY_EN;
-            for (const [zh, en] of Object.entries(map)) {
-                if (cat.includes(zh)) return en;
-            }
-            return cat;
+            const category = fish.category || '';
+            return (CATEGORY_I18N[category] && CATEGORY_I18N[category][currentLang]) || category || t('modal_default_cat');
         }
-        const CATEGORY_EN = {
-            '核心旗艦手繪': 'Core Flagship',
-            '台灣與東亞高山清溪原生特有種': 'Taiwan & East Asian Highland Streams',
-            '日本錦鯉名門': 'Japanese Koi Heritage',
-            '中國與日本古典宮廷金魚': 'East Asian Heritage',
-            '亞馬遜黑水燈魚與短鯛璀璨寶石': 'Amazon Blackwater Gems',
-            '亞馬遜異型裝甲異型魚家族': 'Amazon Armored Catfish',
-            '南美大型巨獸與掠食活化石': 'South American Giants',
-            '南美奇特擬態與古生物': 'South American Mimics',
-            '東南亞與湄公河原生溪流': 'Southeast Asian Streams',
-            '坦干依喀湖巨型六間與貝類寄居慈鯛': 'Lake Tanganyika Shell Dwellers',
-            '馬拉威湖岩棲與孔雀慈鯛': 'Lake Malawi Rock Dwellers',
-            '維多利亞湖赤焰與稀有慈鯛': 'Lake Victoria Cichlids',
-            '東非大裂谷': 'East African Rift Lakes',
-            '蝴蝶魚、小丑魚與雀鯛': 'Butterflies, Clowns & Damselfish',
-            '倒吊與蓋刺神仙家族': 'Tangs & Angelfish',
-            '砲彈、箱魨、海馬與海龍': 'Triggerfish, Boxfish & Seahorses',
-            '礁岩微距奇珍與擬態獵手': 'Reef Macro Rarities',
-            '軟萌微距海洋小動物': 'Soft Macro Sea Creatures',
-            '深淵頭足綱與膠質幽靈': 'Abyssal Cephalopods',
-            '深海提燈鮟鱇與巨口怪獸': 'Deep-Sea Anglerfish',
-            '熱液噴口黑煙囪特化生命': 'Hydrothermal Vent Life',
-            '萬米沉積與甲殼奇觀': 'Abyssal Crustaceans',
-            '古生代史前遠古海怪': 'Paleozoic Sea Monsters',
-            '泥盆紀與石炭紀魚類時代': 'Devonian & Carboniferous',
-            '寒武紀與奧陶紀遠古黎明': 'Cambrian Dawn',
-            '中生代侏儸紀/白堊紀海怪': 'Mesozoic Sea Monsters',
-            '新生代巨獸與滅世巨齒鯊': 'Cenozoic Giants',
-            '山海經上古異獸水靈': 'Shan Hai Jing Beasts',
-            '東方仙山宮廷祥瑞': 'Eastern Immortal Realm',
-            '民間傳說水族仙班': 'Folklore Aquatic Spirits',
-            '希臘羅馬海神殿堂': 'Greek & Roman Pantheon',
-            '北歐九界與世界之蛇': 'Norse Nine Realms',
-            '凱爾特與阿瑟王傳說': 'Celtic & Arthurian Legends',
-            '埃及冥界與巴比倫神祇': 'Egyptian & Babylonian Gods',
-            '四象聖獸與五行神龍': 'Four Symbols & Five Dragons',
-            '宇宙深空天體與量子力學': 'Cosmic Deep Space',
-            '極光星塵與維度穿梭': 'Aurora Stardust',
-            '塔羅22大阿卡納秘儀': 'Tarot Arcana',
-            '黃道十二宮星座': 'Zodiac Constellations',
-            '奇幻童話與超現實異想': 'Fantasy & Surrealism',
-            '四季與全球節慶奇蹟': 'Seasonal Festivals',
-            '烘焙甜點與美味治癒': 'Bakery & Dessert',
-            '剛果與尼羅河古生代巨魚': 'Congo & Nile Giants',
-            '水族': 'Aquatic Species'
+        const CATEGORY_I18N = {
+            '中國與日本古典宮廷金魚': { 'zh-Hant': '中國與日本古典宮廷金魚', 'zh-Hans': '中国与日本古典宫廷金鱼', 'en-US': 'East Asian Heritage' },
+            '中生代侏儸紀/白堊紀海怪': { 'zh-Hant': '中生代侏儸紀/白堊紀海怪', 'zh-Hans': '中生代侏罗纪/白垩纪海怪', 'en-US': 'Mesozoic Sea Monsters' },
+            '亞馬遜異型裝甲異型魚家族': { 'zh-Hant': '亞馬遜異型裝甲異型魚家族', 'zh-Hans': '亚马逊异型装甲异型鱼家族', 'en-US': 'Amazon Armored Catfish' },
+            '亞馬遜黑水燈魚與短鯛璀璨寶石': { 'zh-Hant': '亞馬遜黑水燈魚與短鯛璀璨寶石', 'zh-Hans': '亚马逊黑水灯鱼与短鲷璀璨宝石', 'en-US': 'Amazon Blackwater Gems' },
+            '倒吊與蓋刺神仙家族': { 'zh-Hant': '倒吊與蓋刺神仙家族', 'zh-Hans': '倒吊与盖刺神仙家族', 'en-US': 'Tangs & Angelfish' },
+            '凱爾特與阿瑟王傳說': { 'zh-Hant': '凱爾特與阿瑟王傳說', 'zh-Hans': '凯尔特与阿瑟王传说', 'en-US': 'Celtic & Arthurian Legends' },
+            '剛果與尼羅河古生代巨魚': { 'zh-Hant': '剛果與尼羅河古生代巨魚', 'zh-Hans': '刚果与尼罗河古生代巨鱼', 'en-US': 'Congo & Nile Giants' },
+            '北歐九界與世界之蛇': { 'zh-Hant': '北歐九界與世界之蛇', 'zh-Hans': '北欧九界与世界之蛇', 'en-US': 'Norse Nine Realms' },
+            '南美大型巨獸與掠食活化石': { 'zh-Hant': '南美大型巨獸與掠食活化石', 'zh-Hans': '南美大型巨兽与掠食活化石', 'en-US': 'South American Giants' },
+            '南美奇特擬態與古生物': { 'zh-Hant': '南美奇特擬態與古生物', 'zh-Hans': '南美奇特拟态与古生物', 'en-US': 'South American Mimics' },
+            '古生代史前遠古海怪': { 'zh-Hant': '古生代史前遠古海怪', 'zh-Hans': '古生代史前远古海怪', 'en-US': 'Paleozoic Sea Monsters' },
+            '台灣與東亞高山清溪原生特有種': { 'zh-Hant': '台灣與東亞高山清溪原生特有種', 'zh-Hans': '台湾与东亚高山清溪原生特有种', 'en-US': 'Taiwan & East Asian Highland Streams' },
+            '四季與全球節慶奇蹟': { 'zh-Hant': '四季與全球節慶奇蹟', 'zh-Hans': '四季与全球节庆奇迹', 'en-US': 'Seasonal Festivals' },
+            '四象聖獸與五行神龍': { 'zh-Hant': '四象聖獸與五行神龍', 'zh-Hans': '四象圣兽与五行神龙', 'en-US': 'Four Symbols & Five Dragons' },
+            '坦干依喀湖巨型六間與貝類寄居慈鯛': { 'zh-Hant': '坦干依喀湖巨型六間與貝類寄居慈鯛', 'zh-Hans': '坦干依喀湖巨型六间与贝类寄居慈鲷', 'en-US': 'Lake Tanganyika Shell Dwellers' },
+            '埃及冥界與巴比倫神祇': { 'zh-Hant': '埃及冥界與巴比倫神祇', 'zh-Hans': '埃及冥界与巴比伦神祇', 'en-US': 'Egyptian & Babylonian Gods' },
+            '塔羅22大阿卡納秘儀': { 'zh-Hant': '塔羅22大阿卡納秘儀', 'zh-Hans': '塔罗22大阿卡纳秘仪', 'en-US': 'Tarot Arcana' },
+            '奇幻童話與超現實異想': { 'zh-Hant': '奇幻童話與超現實異想', 'zh-Hans': '奇幻童话与超现实异想', 'en-US': 'Fantasy & Surrealism' },
+            '宇宙深空天體與量子力學': { 'zh-Hant': '宇宙深空天體與量子力學', 'zh-Hans': '宇宙深空天体与量子力学', 'en-US': 'Cosmic Deep Space' },
+            '寒武紀與奧陶紀遠古黎明': { 'zh-Hant': '寒武紀與奧陶紀遠古黎明', 'zh-Hans': '寒武纪与奥陶纪远古黎明', 'en-US': 'Cambrian Dawn' },
+            '山海經上古異獸水靈': { 'zh-Hant': '山海經上古異獸水靈', 'zh-Hans': '山海经上古异兽水灵', 'en-US': 'Shan Hai Jing Beasts' },
+            '希臘羅馬海神殿堂': { 'zh-Hant': '希臘羅馬海神殿堂', 'zh-Hans': '希腊罗马海神殿堂', 'en-US': 'Greek & Roman Pantheon' },
+            '新生代巨獸與滅世巨齒鯊': { 'zh-Hant': '新生代巨獸與滅世巨齒鯊', 'zh-Hans': '新生代巨兽与灭世巨齿鲨', 'en-US': 'Cenozoic Giants' },
+            '日本錦鯉名門': { 'zh-Hant': '日本錦鯉名門', 'zh-Hans': '日本锦鲤名门', 'en-US': 'Japanese Koi Heritage' },
+            '東南亞與湄公河原生溪流': { 'zh-Hant': '東南亞與湄公河原生溪流', 'zh-Hans': '东南亚与湄公河原生溪流', 'en-US': 'Southeast Asian Streams' },
+            '東方仙山宮廷祥瑞': { 'zh-Hant': '東方仙山宮廷祥瑞', 'zh-Hans': '东方仙山宫廷祥瑞', 'en-US': 'Eastern Immortal Realm' },
+            '核心旗艦手繪': { 'zh-Hant': '核心旗艦手繪', 'zh-Hans': '核心旗舰手绘', 'en-US': 'Core Flagship' },
+            '極光星塵與維度穿梭': { 'zh-Hant': '極光星塵與維度穿梭', 'zh-Hans': '极光星尘与维度穿梭', 'en-US': 'Aurora Stardust' },
+            '民間傳說水族仙班': { 'zh-Hant': '民間傳說水族仙班', 'zh-Hans': '民间传说水族仙班', 'en-US': 'Folklore Aquatic Spirits' },
+            '泥盆紀與石炭紀魚類時代': { 'zh-Hant': '泥盆紀與石炭紀魚類時代', 'zh-Hans': '泥盆纪与石炭纪鱼类时代', 'en-US': 'Devonian & Carboniferous' },
+            '深海提燈鮟鱇與巨口怪獸': { 'zh-Hant': '深海提燈鮟鱇與巨口怪獸', 'zh-Hans': '深海提灯鮟鱇与巨口怪兽', 'en-US': 'Deep-Sea Anglerfish' },
+            '深淵頭足綱與膠質幽靈': { 'zh-Hant': '深淵頭足綱與膠質幽靈', 'zh-Hans': '深渊头足纲与胶质幽灵', 'en-US': 'Abyssal Cephalopods' },
+            '烘焙甜點與美味治癒': { 'zh-Hant': '烘焙甜點與美味治癒', 'zh-Hans': '烘焙甜点与美味治愈', 'en-US': 'Bakery & Dessert' },
+            '熱液噴口黑煙囪特化生命': { 'zh-Hant': '熱液噴口黑煙囪特化生命', 'zh-Hans': '热液喷口黑烟囱特化生命', 'en-US': 'Hydrothermal Vent Life' },
+            '砲彈、箱魨、海馬與海龍': { 'zh-Hant': '砲彈、箱魨、海馬與海龍', 'zh-Hans': '炮弹、箱鲀、海马与海龙', 'en-US': 'Triggerfish, Boxfish & Seahorses' },
+            '礁岩微距奇珍與擬態獵手': { 'zh-Hant': '礁岩微距奇珍與擬態獵手', 'zh-Hans': '礁岩微距奇珍与拟态猎手', 'en-US': 'Reef Macro Rarities' },
+            '維多利亞湖赤焰與稀有慈鯛': { 'zh-Hant': '維多利亞湖赤焰與稀有慈鯛', 'zh-Hans': '维多利亚湖赤焰与稀有慈鲷', 'en-US': 'Lake Victoria Cichlids' },
+            '萬米沉積與甲殼奇觀': { 'zh-Hant': '萬米沉積與甲殼奇觀', 'zh-Hans': '万米沉积与甲壳奇观', 'en-US': 'Abyssal Crustaceans' },
+            '蝴蝶魚、小丑魚與雀鯛': { 'zh-Hant': '蝴蝶魚、小丑魚與雀鯛', 'zh-Hans': '蝴蝶鱼、小丑鱼与雀鲷', 'en-US': 'Butterflies, Clowns & Damselfish' },
+            '軟萌微距海洋小動物': { 'zh-Hant': '軟萌微距海洋小動物', 'zh-Hans': '软萌微距海洋小动物', 'en-US': 'Soft Macro Sea Creatures' },
+            '馬拉威湖岩棲與孔雀慈鯛': { 'zh-Hant': '馬拉威湖岩棲與孔雀慈鯛', 'zh-Hans': '马拉维湖岩栖与孔雀慈鲷', 'en-US': 'Lake Malawi Rock Dwellers' },
+            '黃道十二宮星座': { 'zh-Hant': '黃道十二宮星座', 'zh-Hans': '黄道十二宫星座', 'en-US': 'Zodiac Constellations' }
         };
 
 
@@ -6157,7 +6148,7 @@
             grid.innerHTML = displayList.map(fish => {
                 const rStyle = rarityStyles[fish.rarity?.toLowerCase()] || rarityStyles.common;
                 const fishIcon = generateFishSvg(fish, 40);
-                const volName = localizedCategory(fish) || (fish.volumeFile ? fish.volumeFile.replace('Volume', '卷') : '水族');
+                const volName = localizedCategory(fish);
                 return `
                     <div onclick="openSpeciesModal('${fish.id}')" class="glass-card p-5 rounded-2xl cursor-pointer group transition-all duration-300 hover:-translate-y-1.5 flex flex-col justify-between">
                         <div class="space-y-3">
@@ -6167,7 +6158,7 @@
                                 </div>
                                 <div class="flex flex-col items-end gap-1">
                                     <span class="px-2 py-0.5 rounded-full ${rStyle.bg} ${rStyle.text} border ${rStyle.border} text-[12px] font-bold">
-                                        ${rarityLabel(rStyle)}
+                                        ${rarityLabel(fish.rarity)}
                                     </span>
                                     <span class="text-[12px] text-slate-400 px-1.5 py-0.5 rounded bg-white/5 font-mono">
                                         ${volName}

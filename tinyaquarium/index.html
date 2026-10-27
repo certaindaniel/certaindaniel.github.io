@@ -251,7 +251,7 @@
                 <div class="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-white/10 px-2">
                     <div class="flex items-center space-x-3">
                         <span class="w-3 h-3 rounded-full bg-emerald-400 animate-ping"></span>
-                        <span class="text-xs font-bold text-slate-200"><span data-i18n="live_env">當前環境：</span><span id="tank-theme-label" class="text-cyan-300">晨曦微光淡水缸</span></span>
+                        <span class="text-xs font-bold text-slate-200"><span data-i18n="live_env">當前環境：</span><span id="tank-theme-label" data-i18n="live_theme_morning" class="text-cyan-300">晨曦微光淡水缸</span></span>
                         <span class="text-xs text-slate-400">| <span data-i18n="live_heart">魚缸愛心：</span><span id="live-heart-count" class="text-rose-400 font-bold">120 ❤️</span></span>
                     </div>
 
@@ -279,7 +279,7 @@
                     <div class="flex items-center space-x-3">
                         <button onclick="toggleAudio()" class="flex items-center space-x-2 px-3 py-1.5 rounded-lg bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 font-semibold hover:bg-cyan-500/20 transition-all">
                             <span id="canvas-sound-icon">🔈</span>
-                            <span id="canvas-sound-text">開啟水波環境音</span>
+                            <span id="canvas-sound-text" data-i18n="live_sound_on">開啟水波環境音</span>
                         </button>
                         <span class="text-slate-400" data-i18n="live_fish_now">目前游動：日本丹頂錦鯉、日光燈魚、眼斑小丑魚、土佐金魚、珍珠海馬、蜜瓜小白鯨</span>
                     </div>
@@ -698,7 +698,7 @@
                 vault_count_all: '🌟 全生態素材庫共收錄 <strong class="text-cyan-400 font-bold">{n}</strong> 種生物',
                 vault_no_result: '查無相符魚種素材，請嘗試搜尋「錦鯉」、「鯊」、「小丑」、「龍」或其他關鍵字。',
                 vault_load_more_left: '➕ 載入更多結果 (剩餘 {n} 種)',
-                vault_loading: '載入素材庫中...',
+                vault_loading: '載入素材庫中...', vault_load_error: '魚種資料載入失敗，請重新整理頁面後再試。',
                 widget_title: '深度融入你的', widget_title_hl: 'iOS 17+',
                 widget_p: '不必每次都解鎖進入 App。無論是瞥一眼手機桌面，或是隨時查看鎖定畫面，水族箱的靈動生命都在陪伴著你。',
                 widget_daily: '日常生活',
@@ -726,8 +726,8 @@
                 download_btn1: 'App Store 下載', download_btn2: '📱 掃描 QR Code 取得',
                 footer_p: '隱私權政策 (Privacy)', footer_t: '服務條款 (Terms)', footer_c: '開發者聯絡 (Contact)', footer_m: '媒體素材 (Press Kit)',
                 support_h: '支援與聯絡', support_p: '使用問題、錯誤回報或功能建議，都歡迎寄信給我們，我們會回覆你。請一併說明你的裝置型號與系統版本，方便我們重現問題。', support_cta: '寄信給支援', footer_mail: '寄信給支援', brand_name: '走路水族館', brand_alt: '走路水族館', footer_copy: '© 2026 走路水族館. All rights reserved. Crafted with care for calm minds and healthy steps.',
-                modal_steps: '孵化步數', modal_coins: '金幣產出', modal_speed: '泳速等級',
-                modal_recipe: '🧬 秘密基因突變配方', modal_default_cat: '水族生物',
+                modal_steps: '孵化步數', modal_coins: '金幣產出', modal_speed: '泳速等級', modal_steps_placeholder: '0 步', modal_coins_placeholder: '0 / 時',
+                modal_recipe: '🧬 秘密基因突變配方', modal_recipe_placeholder: '親代 A + 親代 B ➡️ 突變產出', modal_default_cat: '水族生物',
                 modal_placeholder: '魚種名稱', modal_placeholder_sc: 'Scientific name', modal_placeholder_desc: '生態描述與背景故事...',
                 qr_title: '使用 iPhone 掃描下載', qr_p: '相機對準 QR Code 即可直接前往 App Store 安裝。',
                 per_hour: '時', pet: '❤️ +2 摸摸',
@@ -772,7 +772,7 @@
                 vault_search: '🔍 搜寻鱼种中文名称、学名或特征...', vault_rarity_all: '全部',
                 rarity_common: '普通', rarity_uncommon: '精良', rarity_rare: '稀有', rarity_epic: '史诗', rarity_legendary: '传说',
                 vault_load_more: '➕ 载入更多结果', vault_steps: '步', vault_detail: '查看详情 →',
-                vault_loading: '载入素材库中...',
+                vault_loading: '载入素材库中...', vault_load_error: '鱼种数据加载失败，请刷新页面后重试。',
                 widget_title: '深度融入你的', widget_title_hl: 'iOS 17+',
                 widget_p: '不必每次都解锁进入 App。无论是瞥一眼手机桌面，或是随时查看锁定画面，水族箱的灵动生命都在陪伴着你。',
                 widget_daily: '日常生活',
@@ -800,8 +800,8 @@
                 download_btn1: 'App Store 下载', download_btn2: '📱 扫描 QR Code 取得',
                 footer_p: '隐私权政策 (Privacy)', footer_t: '服务条款 (Terms)', footer_c: '开发者联络 (Contact)', footer_m: '媒体素材 (Press Kit)',
                 support_h: '支持与联系', support_p: '使用问题、错误报告或功能建议，都欢迎发邮件给我们，我们会回复你。请一并说明你的设备型号与系统版本，方便我们重现问题。', support_cta: '发邮件给支持', footer_mail: '发邮件给支持', brand_name: '走路水族馆', brand_alt: '走路水族馆', footer_copy: '© 2026 走路水族馆. 保留所有权利。Crafted with care for calm minds and healthy steps.',
-                modal_steps: '孵化步数', modal_coins: '金币产出', modal_speed: '泳速等级',
-                modal_recipe: '🧬 秘密基因突变配方', modal_default_cat: '水族生物',
+                modal_steps: '孵化步数', modal_coins: '金币产出', modal_speed: '泳速等级', modal_steps_placeholder: '0 步', modal_coins_placeholder: '0 / 时',
+                modal_recipe: '🧬 秘密基因突变配方', modal_recipe_placeholder: '亲代 A + 亲代 B ➡️ 突变产出', modal_default_cat: '水族生物',
                 modal_placeholder: '鱼种名称', modal_placeholder_sc: 'Scientific name', modal_placeholder_desc: '生态描述与背景故事...',
                 qr_title: '使用 iPhone 扫描下载', qr_p: '相机对准 QR Code 即可直接前往 App Store 安装。',
                 per_hour: '时', pet: '❤️ +2 摸摸',
@@ -851,7 +851,7 @@
                 vault_search: '🔍 Search species name, scientific name, or trait...', vault_rarity_all: 'All',
                 rarity_common: 'Common', rarity_uncommon: 'Uncommon', rarity_rare: 'Rare', rarity_epic: 'Epic', rarity_legendary: 'Legendary',
                 vault_load_more: '➕ Load more', vault_steps: 'steps', vault_detail: 'Details →',
-                vault_loading: 'Loading species vault...',
+                vault_loading: 'Loading species vault...', vault_load_error: 'Could not load fish data. Refresh the page and try again.',
                 widget_title: 'Deeply woven into your', widget_title_hl: 'iOS 17+',
                 widget_p: 'No need to unlock the app every time. Glance at your home screen or lock screen — your aquarium is always by your side.',
                 widget_daily: 'daily life',
@@ -879,8 +879,8 @@
                 download_btn1: 'App Store', download_btn2: '📱 Scan QR to get',
                 footer_p: 'Privacy', footer_t: 'Terms', footer_c: 'Contact', footer_m: 'Press Kit',
                 support_h: 'Support', support_p: 'Questions, bug reports, or feature requests — email us and we will get back to you. Please mention your device model and OS version so we can reproduce the problem.', support_cta: 'Email support', footer_mail: 'Email support', brand_name: 'AquaStep', brand_alt: 'AquaStep', footer_copy: '© 2026 AquaStep. All rights reserved. Crafted with care for calm minds and healthy steps.',
-                modal_steps: 'Hatch steps', modal_coins: 'Coin yield', modal_speed: 'Swim speed',
-                modal_recipe: '🧬 Secret Genetic Mutation Recipe', modal_default_cat: 'Aquatic Species',
+                modal_steps: 'Hatch steps', modal_coins: 'Coin yield', modal_speed: 'Swim speed', modal_steps_placeholder: '0 steps', modal_coins_placeholder: '0 / hr',
+                modal_recipe: '🧬 Secret Genetic Mutation Recipe', modal_recipe_placeholder: 'Parent A + Parent B ➡️ Mutation result', modal_default_cat: 'Aquatic Species',
                 modal_placeholder: 'Species Name', modal_placeholder_sc: 'Scientific name', modal_placeholder_desc: 'Eco description & backstory...',
                 qr_title: 'Scan with your iPhone', qr_p: 'Point your camera at the QR code to open the App Store.',
                 per_hour: 'hr', pet: '❤️ +2 Pet',
@@ -2144,7 +2144,7 @@
                 if (Math.hypot(f.x - clickX, f.y - clickY) < 35) {
                     f.somersault = Math.PI * 2;
                     playPopSound();
-                    floatingHearts.push(new FloatingHeart(f.x, f.y, '❤️ +2 摸摸'));
+                    floatingHearts.push(new FloatingHeart(f.x, f.y, t('pet')));
                     heartCount += 2;
                     document.getElementById('live-heart-count').textContent = `${heartCount} ❤️`;
                     tappedFish = true;
