@@ -10,6 +10,8 @@ from io import BytesIO
 
 from PIL import Image
 
+import island_hub
+
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
 with open(os.path.join(ROOT, "apps.json"), encoding="utf-8") as f:
@@ -31,7 +33,10 @@ def lang_switch(locale, app_id=None):
     for loc in LOCALES:
         cls = ' class="current"' if loc == locale else ""
         href = f"/{loc}/{app_id}/" if app_id else f"/{loc}/"
-        links.append(f'<a href="{href}"{cls}>{e(SITE["localeLabels"][loc])}</a>')
+        label = SITE["localeLabels"][loc]
+        if locale == "zh-hant" and loc == "zh-hans":
+            label = "簡體中文"
+        links.append(f'<a href="{href}"{cls}>{e(label)}</a>')
     return '<nav class="lang-switch">' + "".join(links) + "</nav>"
 
 
@@ -63,7 +68,8 @@ def seo_meta(title, locale, path, description=None, image=None, app_store_url=No
     return "\n".join(tags) + "\n"
 
 
-def page(title, body, locale, head_extra=""):
+def page(title, body, locale, head_extra="", body_class=""):
+    body_attr = f' class="{e(body_class)}"' if body_class else ""
     return f"""<!doctype html>
 <html lang="{locale}">
 <head>
@@ -72,7 +78,7 @@ def page(title, body, locale, head_extra=""):
 <title>{e(title)}</title>
 {head_extra}<link rel="stylesheet" href="/style.css">
 </head>
-<body>
+<body{body_attr}>
 {body}
 </body>
 </html>
@@ -118,42 +124,10 @@ def optimize_icons():
 
 
 def hub_html(locale):
-    hub = SITE["hub"][locale]
-    cards = []
-    for index, app in enumerate(APPS):
-        loc = app["locales"][locale]
-        coming_soon = app.get("comingSoon")
-        tag = COMING_SOON_LABEL.get(locale, "Coming Soon") if coming_soon else app["platform"]
-        icon_src = asset_url(icon_path(app['icon'], 112))
-        loading = "eager" if index < 3 else "lazy"
-        inner = f"""
-      <span class="platform-tag">{e(tag)}</span>
-      <img class="icon" src="{e(icon_src)}" alt="" width="56" height="56" loading="{loading}" decoding="async">
-      <h2>{e(loc['name'])}</h2>
-      <p>{e(loc['tagline'])}</p>"""
-        if app.get("flagship"):
-            href = f'/{locale}/{app["id"]}/'
-        elif not coming_soon:
-            href = app["appStoreUrl"]
-        else:
-            href = None
-        style = f' style="--i:{index}"'
-        if href:
-            soon_cls = " app-card--soon" if coming_soon else ""
-            cards.append(f'\n    <a class="app-card{soon_cls}" href="{e(href)}"{style}>{inner}\n    </a>')
-        else:
-            cards.append(f'\n    <div class="app-card app-card--soon"{style}>{inner}\n    </div>')
-    body = f"""<div class="wrap">
-  <header class="site">
-    <h1>{e(hub['title'])}</h1>
-    <p>{e(hub['subtitle'])}</p>
-    {lang_switch(locale)}
-  </header>
-  <div class="app-grid">{"".join(cards)}
-  </div>
-  <footer class="site">© {e(SITE['owner'])} · <a href="https://github.com/{e(SITE['githubUser'])}">GitHub</a></footer>
-</div>"""
-    return page(hub["title"], body, locale, seo_meta(hub["title"], locale, f"/{locale}/", description=hub.get("subtitle")))
+    return island_hub.render_hub(
+        locale, SITE, APPS, asset_url, icon_path, lang_switch,
+        seo_meta, page, COMING_SOON_LABEL,
+    )
 
 
 PRIVACY_LABEL = {

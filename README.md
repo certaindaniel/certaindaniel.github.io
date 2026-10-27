@@ -37,6 +37,18 @@ language for both the text and the image.
 2. Drop the icon + localized marketing screenshots under `assets/{id}/`.
 3. Run `python3 generate.py` and commit the generated HTML.
 
+Each app can also set `island` in `apps.json`: `group` is `game`, `reading`,
+`creative`, or `utility`; `scene` selects a landmark from `SCENES` in
+`island_hub.py`; `accent` is a six-digit color matching the app icon; and
+`order` places related apps together within the group. Apps without this
+metadata appear in the utility group with a generic landmark.
+`island_hub.py` maps scenes to the transparent 3D illustration atlases in
+`assets/island-hub/`; app names and descriptions remain regular HTML.
+The shared map labels and region copy live in the locale table in
+`island_hub.py`; the hub subtitle is taken from `apps.json`.
+Set `showOnHub` to `false` for a duplicate or legacy entry whose existing
+localized app pages must remain available without adding another island.
+
 ## Locales
 
 `en`, `zh-hant`, `zh-hans` — configured in `apps.json` → `site.locales`.

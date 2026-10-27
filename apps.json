@@ -16,22 +16,23 @@
     "defaultLocale": "en",
     "hub": {
       "en": {
-        "title": "Daniel Lu — Apps",
-        "subtitle": "Small, focused Mac & iOS apps."
+        "title": "Daniel Lu — App Archipelago",
+        "subtitle": "Explore small, focused apps, each with an island of its own."
       },
       "zh-hant": {
-        "title": "Daniel Lu — 作品集",
-        "subtitle": "小而專注的 Mac 與 iOS App。"
+        "title": "Daniel Lu — App 群島",
+        "subtitle": "從遊戲到日常工具，每個 App 都有自己的小島。"
       },
       "zh-hans": {
-        "title": "Daniel Lu — 作品集",
-        "subtitle": "小而专注的 Mac 与 iOS App。"
+        "title": "Daniel Lu — App 群岛",
+        "subtitle": "从游戏到日常工具，每个 App 都有自己的小岛。"
       }
     }
   },
   "apps": [
     {
       "id": "tinyaquarium",
+      "island": {"group": "game", "scene": "aquarium", "accent": "#19bfc8", "order": 1},
       "flagship": true,
       "platform": "Mac + iOS",
       "icon": "assets/tinyaquarium/icon.png",
@@ -158,6 +159,7 @@
     },
     {
       "id": "tinymsgviewer",
+      "island": {"group": "utility", "scene": "mail", "accent": "#7a99bd", "order": 1},
       "flagship": true,
       "platform": "Mac",
       "icon": "assets/tinymsgviewer/icon.png",
@@ -263,6 +265,7 @@
     },
     {
       "id": "canvastopdf",
+      "island": {"group": "creative", "scene": "slides", "accent": "#e9a20c", "order": 1},
       "flagship": true,
       "platform": "Mac",
       "icon": "assets/canvastopdf/icon.png",
@@ -368,6 +371,7 @@
     },
     {
       "id": "webtopptmobile",
+      "island": {"group": "creative", "scene": "mobile", "accent": "#e9a20c", "order": 2},
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/webtopptmobile/icon.png",
@@ -473,6 +477,8 @@
     },
     {
       "id": "epubaloud",
+      "island": {"group": "reading", "scene": "book", "accent": "#413aa6", "order": 1},
+      "showOnHub": false,
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/epubaloud/icon.png",
@@ -572,6 +578,7 @@
     },
     {
       "id": "isbn",
+      "island": {"group": "reading", "scene": "books", "accent": "#6d28bb", "order": 3},
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/isbn/icon.png",
@@ -623,6 +630,7 @@
     },
     {
       "id": "tinygpseditor",
+      "island": {"group": "creative", "scene": "camera", "accent": "#884ac6", "order": 3},
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/tinygpseditor/icon.png",
@@ -725,6 +733,7 @@
     },
     {
       "id": "tinywalk",
+      "island": {"group": "utility", "scene": "walk", "accent": "#a85d47", "order": 4},
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/tinywalk/icon.png",
@@ -839,6 +848,7 @@
     },
     {
       "id": "tinynettool",
+      "island": {"group": "utility", "scene": "network", "accent": "#278d50", "order": 3},
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/tinynettool/icon.png",
@@ -847,13 +857,13 @@
         "en": {
           "name": "Tiny Net Tool",
           "tagline": "Check NAT type (1-4), CGNAT status, and latency in one tap. No subscriptions.",
-          "promo": "Pay once, own forever. Zero subscriptions, zero ads. Check NAT type (1-4), CGNAT status, and latency in one tap.",
+          "promo": "Check NAT type (1-4), CGNAT status, and latency in one tap.",
           "cta": "View on the App Store",
           "features": [
             "Check NAT type (1-4) in one tap",
             "Detect CGNAT (carrier-grade NAT) status",
             "Ping / latency & jitter chart",
-            "Pay once, own forever — no subscriptions, no ads"
+            "No subscriptions"
           ],
           "qa": [
             {
@@ -866,7 +876,7 @@
             },
             {
               "q": "Is this a subscription?",
-              "a": "No, TinyNetTool is a one-time purchase with no subscriptions or ads."
+              "a": "No, a subscription is not required."
             },
             {
               "q": "Does it see my browsing history?",
@@ -876,14 +886,14 @@
         },
         "zh-hant": {
           "name": "Tiny Net Tool",
-          "tagline": "一鍵檢測 NAT 1-4 類型、CGNAT 電信大內網與延遲，無廣告無訂閱。",
-          "promo": "一次買斷，終身享用。零訂閱、零廣告。一鍵檢測 NAT 1-4 類型、CGNAT 電信大內網與 Jitter 延遲。",
+          "tagline": "一鍵檢測 NAT 1-4 類型、CGNAT 電信大內網與延遲，無訂閱。",
+          "promo": "一鍵檢測 NAT 1-4 類型、CGNAT 電信大內網與 Jitter 延遲。",
           "cta": "在 App Store 查看",
           "features": [
             "一鍵檢測 NAT 1-4 類型",
             "偵測 CGNAT（電信大內網）狀態",
             "Ping、延遲與 Jitter 圖表",
-            "買斷制，終身使用，零廣告零訂閱"
+            "不需訂閱"
           ],
           "qa": [
             {
@@ -896,7 +906,7 @@
             },
             {
               "q": "這是訂閱制嗎？",
-              "a": "不是，TinyNetTool 是單次付費購買，沒有訂閱也沒有廣告。"
+              "a": "不需要訂閱。"
             },
             {
               "q": "會讀取我的瀏覽紀錄嗎？",
@@ -906,14 +916,14 @@
         },
         "zh-hans": {
           "name": "Tiny Net Tool",
-          "tagline": "一键检测 NAT 1-4 类型、CGNAT 电信大内网与延迟，无广告无订阅。",
-          "promo": "一次买断，终身享用。零订阅、零广告。一键检测 NAT 1-4 类型、CGNAT 电信大内网与 Jitter 延迟。",
+          "tagline": "一键检测 NAT 1-4 类型、CGNAT 电信大内网与延迟，无订阅。",
+          "promo": "一键检测 NAT 1-4 类型、CGNAT 电信大内网与 Jitter 延迟。",
           "cta": "在 App Store 查看",
           "features": [
             "一键检测 NAT 1-4 类型",
             "侦测 CGNAT（电信大内网）状态",
             "Ping、延迟与 Jitter 图表",
-            "买断制，终身使用，零广告零订阅"
+            "无需订阅"
           ],
           "qa": [
             {
@@ -926,7 +936,7 @@
             },
             {
               "q": "这是订阅制吗？",
-              "a": "不是，TinyNetTool 是一次性付费购买，没有订阅也没有广告。"
+              "a": "不需要订阅。"
             },
             {
               "q": "会读取我的浏览记录吗？",
@@ -938,6 +948,7 @@
     },
     {
       "id": "fixedfocus",
+      "island": {"group": "creative", "scene": "focus", "accent": "#dfbd10", "order": 4},
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/fixedfocus/icon.png",
@@ -1037,6 +1048,7 @@
     },
     {
       "id": "oneclicklisten",
+      "island": {"group": "reading", "scene": "audio", "accent": "#eb4239", "order": 4},
       "flagship": true,
       "platform": "Mac + iOS",
       "icon": "assets/oneclicklisten/icon.png",
@@ -1136,6 +1148,7 @@
     },
     {
       "id": "qdir",
+      "island": {"group": "utility", "scene": "folder", "accent": "#2680df", "order": 2},
       "flagship": true,
       "platform": "Mac",
       "icon": "assets/qdir/icon.png",
@@ -1238,6 +1251,7 @@
     },
     {
       "id": "fruitsudoku",
+      "island": {"group": "game", "scene": "fruit", "accent": "#e63245", "order": 2},
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/fruitsudoku/icon.png",
@@ -1283,6 +1297,7 @@
     },
     {
       "id": "morningpic",
+      "island": {"group": "creative", "scene": "sunrise", "accent": "#31804e", "order": 6},
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/morningpic/icon.png",
@@ -1385,6 +1400,7 @@
     },
     {
       "id": "trailpop",
+      "island": {"group": "creative", "scene": "route", "accent": "#374f76", "order": 5},
       "flagship": true,
       "platform": "Mac + iOS",
       "icon": "assets/trailpop/icon.png",
@@ -1496,6 +1512,7 @@
     },
     {
       "id": "sayit",
+      "island": {"group": "reading", "scene": "voice", "accent": "#2788e8", "order": 5},
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/sayit/icon.png",
@@ -1631,6 +1648,7 @@
     },
     {
       "id": "epublisten",
+      "island": {"group": "reading", "scene": "book", "accent": "#413aa6", "order": 2},
       "flagship": true,
       "platform": "Mac + iOS",
       "icon": "assets/epublisten/icon.png",
