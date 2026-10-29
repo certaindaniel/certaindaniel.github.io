@@ -742,12 +742,12 @@
         "en": {
           "name": "TinyWalk",
           "tagline": "Generate step count & health test data on iPhone, for developers testing HealthKit apps.",
-          "promo": "Generate realistic HealthKit step and workout samples on-device, in seconds. No ads, no account.",
+          "promo": "Generate realistic HealthKit step and workout samples on-device, in seconds. No account needed.",
           "cta": "View on the App Store",
           "features": [
             "Generate realistic step count & workout samples",
             "Writes directly into HealthKit on your device",
-            "No ads, no account — data generation is fully on-device",
+            "No account — data generation is fully on-device; the free version shows ads, Pro removes them",
             "Built for developers & QA testing HealthKit apps",
             "Pick the sample shape: one sample per session, or a per-minute split in an HKWorkout"
           ],
@@ -771,6 +771,10 @@
             {
               "q": "Can I control how the samples are written?",
               "a": "Yes. Sample Shape writes a session either as one step sample covering the whole window, or split into per-minute samples bundled in an HKWorkout — so you can exercise both paths your app might take. Whether distance is written alongside, and whether samples are tagged user-entered or device-recorded, are separate switches."
+            },
+            {
+              "q": "Another app doesn't count the steps TinyWalk wrote — why?",
+              "a": "TinyWalk writes synthetic step data to the Health app. Whether other apps read that data, and how they count it, is up to each app and outside our control. TinyWalk is not supported for any use where steps earn rewards. If the steps don't appear in the Health app itself, check in iOS Settings that TinyWalk still has write access to Health data (worth re-checking after an iOS update), then let us know via Settings → Report a Problem in the app."
             }
           ]
         },
@@ -782,7 +786,7 @@
           "features": [
             "產生逼真的步數與運動測試資料",
             "直接寫入裝置上的 HealthKit",
-            "無廣告、免註冊——資料產生完全在裝置上完成",
+            "免註冊——資料產生完全在裝置上完成；免費版含廣告，升級 Pro 即移除",
             "專為開發者與 QA 測試 HealthKit App 設計",
             "可選樣本寫法：整段寫成一筆，或拆成每分鐘樣本並包進 HKWorkout"
           ],
@@ -806,6 +810,10 @@
             {
               "q": "可以控制資料怎麼寫入嗎？",
               "a": "可以。「樣本寫法」能把一次產生寫成涵蓋整段時間的單一步數樣本，或拆成每分鐘樣本並包進 HKWorkout，讓你測試 App 兩種可能的讀取路徑。距離要不要一併寫入、樣本標記為手動輸入或裝置自動記錄，也都是各自獨立的開關。"
+            },
+            {
+              "q": "其他 App 沒有算到 TinyWalk 寫入的步數？",
+              "a": "TinyWalk 負責把合成的步數資料寫入「健康」App；其他 App 是否讀取、如何計算這些資料，由各 App 自行決定，我們無法控制。TinyWalk 不支援用於以步數換取獎勵的情境。如果連「健康」App 裡都沒有出現這些步數，請到 iOS「設定」的健康資料權限確認 TinyWalk 的寫入權限仍為開啟（iOS 更新後建議重新確認一次），並透過 App 內「設定 → 問題回報」告訴我們。"
             }
           ]
         },
@@ -817,7 +825,7 @@
           "features": [
             "生成逼真的步数与运动测试数据",
             "直接写入设备上的 HealthKit",
-            "无广告、免注册——数据生成完全在设备上完成",
+            "免注册——数据生成完全在设备上完成；免费版含广告，升级 Pro 即移除",
             "专为开发者与 QA 测试 HealthKit App 设计",
             "可选样本写法：整段写成一条，或拆成每分钟样本并包进 HKWorkout"
           ],
@@ -841,6 +849,10 @@
             {
               "q": "可以控制数据怎么写入吗？",
               "a": "可以。「样本写法」能把一次生成写成涵盖整段时间的单条步数样本，或拆成每分钟样本并包进 HKWorkout，让你测试 App 两种可能的读取路径。距离要不要一并写入、样本标记为手动输入或设备自动记录，也都是各自独立的开关。"
+            },
+            {
+              "q": "其他 App 没有算到 TinyWalk 写入的步数？",
+              "a": "TinyWalk 负责把合成的步数数据写入「健康」App；其他 App 是否读取、如何计算这些数据，由各 App 自行决定，我们无法控制。TinyWalk 不支持用于以步数换取奖励的场景。如果连「健康」App 里都没有出现这些步数，请到 iOS「设置」的健康数据权限确认 TinyWalk 的写入权限仍为开启（iOS 更新后建议重新确认一次），并通过 App 内「设置 → 问题反馈」告诉我们。"
             }
           ]
         }
