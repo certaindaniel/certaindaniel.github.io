@@ -71,6 +71,7 @@ SPRITE_ATLASES = {
     "creative-atlas.webp": (1774, 887, 510, 420),
     "play-reading-atlas.webp": (1774, 887, 520, 420),
     "utility-atlas.webp": (1774, 887, 550, 420),
+    "kanban-atlas.webp": (1100, 840, 550, 420),
 }
 SPRITE_ART = {
     "aquarium": ("play-reading-atlas.webp", 316.5, 233), "fruit": ("play-reading-atlas.webp", 889.5, 233),
@@ -81,7 +82,7 @@ SPRITE_ART = {
     "route": ("creative-atlas.webp", 741.5, 673), "sunrise": ("creative-atlas.webp", 1205, 673),
     "mail": ("utility-atlas.webp", 322, 233), "folder": ("utility-atlas.webp", 889.5, 233),
     "network": ("utility-atlas.webp", 1462.5, 233), "walk": ("utility-atlas.webp", 331, 673),
-    "kanban": ("utility-atlas.webp", 889, 673),
+    "kanban": ("kanban-atlas.webp", 275, 210),
 }
 
 
