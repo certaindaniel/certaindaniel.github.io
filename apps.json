@@ -1709,6 +1709,105 @@
           ]
         }
       }
+    },
+    {
+      "id": "tinygtask",
+      "island": {
+        "group": "utility",
+        "scene": "mail",
+        "accent": "#8a8768",
+        "order": 5
+      },
+      "flagship": true,
+      "platform": "Mac",
+      "icon": "assets/tinygtask/icon.png",
+      "comingSoon": true,
+      "locales": {
+        "en": {
+          "name": "TinyGtask",
+          "tagline": "A native macOS menu bar app for Google Tasks.",
+          "promo": "Check and add Google Tasks from your Mac menu bar, or open the full window for lists, tags, subtasks, and notes. TinyGtask connects directly to your Google account, with no server of its own.",
+          "cta": "Coming Soon",
+          "features": [
+            "Menu bar quick access and quick add",
+            "Today, Overdue, Inbox, Forecast, and Starred views",
+            "#tag chips and sidebar filtering",
+            "Subtasks, Markdown notes, priority, and reminder times",
+            "Search across lists with Cmd+F",
+            "Date and time parsing in English, Chinese, and Japanese"
+          ],
+          "qa": [
+            {
+              "q": "Does TinyGtask store my tasks on a server?",
+              "a": "No. TinyGtask has no server of its own. It talks directly to Google, and your tasks stay in your Google account."
+            },
+            {
+              "q": "Does it work offline?",
+              "a": "No. TinyGtask loads and saves tasks through the Google Tasks API, so it needs an internet connection."
+            },
+            {
+              "q": "Why can't I delete a task assigned from Google Docs or Chat?",
+              "a": "Deleting one through the Google Tasks API also deletes the original in Docs or Chat. Open the task at its source and unassign it there first."
+            }
+          ]
+        },
+        "zh-hant": {
+          "name": "TinyGtask",
+          "tagline": "Google Tasks 的原生 macOS 選單列 App。",
+          "promo": "從 Mac 選單列查看與新增 Google Tasks，也能開啟完整視窗管理清單、標籤、子任務和筆記。TinyGtask 直接連線到你的 Google 帳號，沒有自己的伺服器。",
+          "cta": "即將推出",
+          "features": [
+            "選單列快速查看與新增",
+            "今天、逾期、收件匣、預覽和星號檢視",
+            "#標籤與側邊欄篩選",
+            "子任務、Markdown 筆記、優先級和提醒時間",
+            "用 Cmd+F 跨清單搜尋",
+            "解析英文、中文和日文的日期時間"
+          ],
+          "qa": [
+            {
+              "q": "TinyGtask 會把任務存到伺服器嗎？",
+              "a": "不會。TinyGtask 沒有自己的伺服器，直接與 Google 連線，任務都留在你的 Google 帳號。"
+            },
+            {
+              "q": "可以離線使用嗎？",
+              "a": "不行。TinyGtask 透過 Google Tasks API 讀取和儲存任務，需要網路連線。"
+            },
+            {
+              "q": "為什麼不能刪除來自 Google 文件或 Chat 的指派任務？",
+              "a": "透過 Google Tasks API 刪除時，文件或 Chat 裡的原始任務也會一起刪除。請先到任務來源開啟它，並在那裡解除指派。"
+            }
+          ]
+        },
+        "zh-hans": {
+          "name": "TinyGtask",
+          "tagline": "Google Tasks 的原生 macOS 菜单栏 App。",
+          "promo": "从 Mac 菜单栏查看和添加 Google Tasks，也能打开完整窗口管理列表、标签、子任务和备注。TinyGtask 直接连接你的 Google 账号，没有自己的服务器。",
+          "cta": "即将推出",
+          "features": [
+            "菜单栏快速查看与添加",
+            "今天、逾期、收件箱、预览和星标视图",
+            "#标签与侧边栏筛选",
+            "子任务、Markdown 备注、优先级和提醒时间",
+            "用 Cmd+F 跨列表搜索",
+            "解析英文、中文和日文的日期时间"
+          ],
+          "qa": [
+            {
+              "q": "TinyGtask 会把任务存到服务器吗？",
+              "a": "不会。TinyGtask 没有自己的服务器，直接与 Google 连接，任务都留在你的 Google 账号。"
+            },
+            {
+              "q": "可以离线使用吗？",
+              "a": "不可以。TinyGtask 通过 Google Tasks API 读取和保存任务，需要网络连接。"
+            },
+            {
+              "q": "为什么不能删除来自 Google 文档或 Chat 的指派任务？",
+              "a": "通过 Google Tasks API 删除时，文档或 Chat 里的原始任务也会一起删除。请先到任务来源打开它，并在那里取消指派。"
+            }
+          ]
+        }
+      }
     }
   ]
 }
