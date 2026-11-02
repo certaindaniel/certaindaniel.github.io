@@ -1711,22 +1711,22 @@
       }
     },
     {
-      "id": "tinygtask",
+      "id": "tinykanban",
       "island": {
         "group": "utility",
-        "scene": "mail",
+        "scene": "kanban",
         "accent": "#8a8768",
         "order": 5
       },
       "flagship": true,
       "platform": "Mac",
-      "icon": "assets/tinygtask/icon.png",
+      "icon": "assets/tinykanban/icon.png",
       "comingSoon": true,
       "locales": {
         "en": {
-          "name": "TinyGtask",
+          "name": "TinyKanban",
           "tagline": "Turn Google Tasks into a Kanban board on your Mac.",
-          "promo": "Drag your Google Tasks across To Do, In Progress, and Done. Move a card to Done and it is completed in Google Tasks. TinyGtask also adds menu bar access and connects directly to your Google account, with no server of its own.",
+          "promo": "Drag your Google Tasks across To Do, In Progress, and Done. Move a card to Done and it is completed in Google Tasks. TinyKanban also adds menu bar access and connects directly to your Google account, with no server of its own.",
           "cta": "Coming Soon",
           "features": [
             "Kanban board for any Google Tasks list: drag cards across To Do, In Progress, and Done",
@@ -1740,12 +1740,12 @@
           ],
           "qa": [
             {
-              "q": "Does TinyGtask store my tasks on a server?",
-              "a": "No. TinyGtask has no server of its own. It talks directly to Google, and your tasks stay in your Google account."
+              "q": "Does TinyKanban store my tasks on a server?",
+              "a": "No. TinyKanban has no server of its own. It talks directly to Google, and your tasks stay in your Google account."
             },
             {
               "q": "Does it work offline?",
-              "a": "No. TinyGtask loads and saves tasks through the Google Tasks API, so it needs an internet connection."
+              "a": "No. TinyKanban loads and saves tasks through the Google Tasks API, so it needs an internet connection."
             },
             {
               "q": "Why can't I delete a task assigned from Google Docs or Chat?",
@@ -1754,9 +1754,9 @@
           ]
         },
         "zh-hant": {
-          "name": "TinyGtask",
+          "name": "TinyKanban",
           "tagline": "在 Mac 上把 Google Tasks 變成看板。",
-          "promo": "把 Google Tasks 拖到 To Do、In Progress 和 Done。卡片移到 Done，Google Tasks 裡的任務也會完成。TinyGtask 也提供選單列快速存取，並直接連線到你的 Google 帳號，沒有自己的伺服器。",
+          "promo": "把 Google Tasks 拖到 To Do、In Progress 和 Done。卡片移到 Done，Google Tasks 裡的任務也會完成。TinyKanban 也提供選單列快速存取，並直接連線到你的 Google 帳號，沒有自己的伺服器。",
           "cta": "即將推出",
           "features": [
             "任何 Google Tasks 清單都能用看板：在 To Do、In Progress、Done 之間拖曳卡片",
@@ -1770,12 +1770,12 @@
           ],
           "qa": [
             {
-              "q": "TinyGtask 會把任務存到伺服器嗎？",
-              "a": "不會。TinyGtask 沒有自己的伺服器，直接與 Google 連線，任務都留在你的 Google 帳號。"
+              "q": "TinyKanban 會把任務存到伺服器嗎？",
+              "a": "不會。TinyKanban 沒有自己的伺服器，直接與 Google 連線，任務都留在你的 Google 帳號。"
             },
             {
               "q": "可以離線使用嗎？",
-              "a": "不行。TinyGtask 透過 Google Tasks API 讀取和儲存任務，需要網路連線。"
+              "a": "不行。TinyKanban 透過 Google Tasks API 讀取和儲存任務，需要網路連線。"
             },
             {
               "q": "為什麼不能刪除來自 Google 文件或 Chat 的指派任務？",
@@ -1784,9 +1784,9 @@
           ]
         },
         "zh-hans": {
-          "name": "TinyGtask",
+          "name": "TinyKanban",
           "tagline": "在 Mac 上把 Google Tasks 变成看板。",
-          "promo": "把 Google Tasks 拖到 To Do、In Progress 和 Done。卡片移到 Done，Google Tasks 里的任务也会完成。TinyGtask 也提供菜单栏快速访问，并直接连接你的 Google 账号，没有自己的服务器。",
+          "promo": "把 Google Tasks 拖到 To Do、In Progress 和 Done。卡片移到 Done，Google Tasks 里的任务也会完成。TinyKanban 也提供菜单栏快速访问，并直接连接你的 Google 账号，没有自己的服务器。",
           "cta": "即将推出",
           "features": [
             "任何 Google Tasks 列表都能用看板：在 To Do、In Progress、Done 之间拖动卡片",
@@ -1800,12 +1800,12 @@
           ],
           "qa": [
             {
-              "q": "TinyGtask 会把任务存到服务器吗？",
-              "a": "不会。TinyGtask 没有自己的服务器，直接与 Google 连接，任务都留在你的 Google 账号。"
+              "q": "TinyKanban 会把任务存到服务器吗？",
+              "a": "不会。TinyKanban 没有自己的服务器，直接与 Google 连接，任务都留在你的 Google 账号。"
             },
             {
               "q": "可以离线使用吗？",
-              "a": "不可以。TinyGtask 通过 Google Tasks API 读取和保存任务，需要网络连接。"
+              "a": "不可以。TinyKanban 通过 Google Tasks API 读取和保存任务，需要网络连接。"
             },
             {
               "q": "为什么不能删除来自 Google 文档或 Chat 的指派任务？",

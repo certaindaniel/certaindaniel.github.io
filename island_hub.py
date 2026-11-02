@@ -48,6 +48,7 @@ UI = {
 
 # Each scene is a small landmark. The app's own accent colors its landscape.
 SCENES = {
+    "kanban": '''<rect x="82" y="44" width="76" height="52" rx="6" fill="#f6f1e4"/><rect x="88" y="52" width="18" height="10" rx="2" fill="#f26b5b"/><rect x="111" y="52" width="18" height="10" rx="2" fill="#2f8cf0"/><rect x="134" y="52" width="18" height="10" rx="2" fill="#4cb56a"/>''',
     "aquarium": '''<ellipse cx="120" cy="103" rx="58" ry="19" fill="#a9e2dc"/><ellipse cx="120" cy="100" rx="48" ry="13" fill="var(--accent)" opacity=".55"/><path d="M91 99q8-8 16 0-8 8-16 0l-6-5v10Zm39 5q7-7 14 0-7 7-14 0l-6-4v8Z" fill="#f5a07b"/><path d="M91 80V62a29 29 0 0 1 58 0v18" fill="#fdf9e9" stroke="#709b8d" stroke-width="2"/><path d="M91 62a29 29 0 0 1 58 0Z" fill="var(--accent)" opacity=".75"/><path d="M62 104V83m0 12-9-10m9 15 8-10m98 15V84m0 12-8-10m8 14 8-10" stroke="#db8c70" stroke-width="4" stroke-linecap="round"/>''',
     "fruit": '''<path d="M105 105V61" stroke="#987055" stroke-width="8" stroke-linecap="round"/><circle cx="105" cy="60" r="27" fill="#6ba67e"/><circle cx="83" cy="68" r="19" fill="#83ba88"/><circle cx="127" cy="67" r="20" fill="#86b987"/><circle cx="91" cy="58" r="8" fill="var(--accent)"/><circle cx="116" cy="73" r="9" fill="var(--accent)"/><circle cx="133" cy="57" r="7" fill="var(--accent)"/><path d="M146 98h33v17h-33z" fill="#f8e6bf" stroke="#b98e69" stroke-width="2"/><path d="M151 104h23m-23 5h23" stroke="var(--accent)" stroke-width="2"/>''',
     "book": '''<path d="M57 99 66 45h26l9 54Z" fill="#fff9e8" stroke="#709487" stroke-width="2"/><path d="M64 48h31l-5-12H69Z" fill="var(--accent)"/><path d="M70 36V27h19v9" fill="#f8eed9" stroke="#709487" stroke-width="2"/><path d="m67 27 12-9 13 9Z" fill="#547f72"/><rect x="74" y="59" width="10" height="13" rx="5" fill="#a8d6c9"/><path d="M112 98V68l30-15 31 15v30Z" fill="#fff7e5" stroke="#77998b" stroke-width="2"/><path d="m106 70 36-21 37 21-5 4-32-16-31 16Z" fill="var(--accent)"/><path d="M105 106q20-9 37 0 17-9 37 0v12q-20-7-37 1-17-8-37-1Z" fill="#fffdf0" stroke="#b99879" stroke-width="2"/><path d="M142 106v13" stroke="#c6b49a" stroke-width="2"/>''',
@@ -80,6 +81,7 @@ SPRITE_ART = {
     "route": ("creative-atlas.webp", 741.5, 673), "sunrise": ("creative-atlas.webp", 1205, 673),
     "mail": ("utility-atlas.webp", 322, 233), "folder": ("utility-atlas.webp", 889.5, 233),
     "network": ("utility-atlas.webp", 1462.5, 233), "walk": ("utility-atlas.webp", 331, 673),
+    "kanban": ("utility-atlas.webp", 889, 673),
 }
 
 
