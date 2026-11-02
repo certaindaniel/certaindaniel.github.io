@@ -1725,10 +1725,12 @@
       "locales": {
         "en": {
           "name": "TinyGtask",
-          "tagline": "A native macOS menu bar app for Google Tasks.",
-          "promo": "Check and add Google Tasks from your Mac menu bar, or open the full window for lists, tags, subtasks, and notes. TinyGtask connects directly to your Google account, with no server of its own.",
+          "tagline": "Turn Google Tasks into a Kanban board on your Mac.",
+          "promo": "Drag your Google Tasks across To Do, In Progress, and Done. Move a card to Done and it is completed in Google Tasks. TinyGtask also adds menu bar access and connects directly to your Google account, with no server of its own.",
           "cta": "Coming Soon",
           "features": [
+            "Kanban board for any Google Tasks list: drag cards across To Do, In Progress, and Done",
+            "See multiple lists together, grouped by status",
             "Menu bar quick access and quick add",
             "Today, Overdue, Inbox, Forecast, and Starred views",
             "#tag chips and sidebar filtering",
@@ -1753,12 +1755,14 @@
         },
         "zh-hant": {
           "name": "TinyGtask",
-          "tagline": "Google Tasks 的原生 macOS 選單列 App。",
-          "promo": "從 Mac 選單列查看與新增 Google Tasks，也能開啟完整視窗管理清單、標籤、子任務和筆記。TinyGtask 直接連線到你的 Google 帳號，沒有自己的伺服器。",
+          "tagline": "在 Mac 上把 Google Tasks 變成看板。",
+          "promo": "把 Google Tasks 拖到 To Do、In Progress 和 Done。卡片移到 Done，Google Tasks 裡的任務也會完成。TinyGtask 也提供選單列快速存取，並直接連線到你的 Google 帳號，沒有自己的伺服器。",
           "cta": "即將推出",
           "features": [
+            "任何 Google Tasks 清單都能用看板：在 To Do、In Progress、Done 之間拖曳卡片",
+            "把多份清單放在一起，依狀態分組",
             "選單列快速查看與新增",
-            "今天、逾期、收件匣、預覽和星號檢視",
+            "今天、逾期、Inbox、Forecast 和已加星號檢視",
             "#標籤與側邊欄篩選",
             "子任務、Markdown 筆記、優先級和提醒時間",
             "用 Cmd+F 跨清單搜尋",
@@ -1781,12 +1785,14 @@
         },
         "zh-hans": {
           "name": "TinyGtask",
-          "tagline": "Google Tasks 的原生 macOS 菜单栏 App。",
-          "promo": "从 Mac 菜单栏查看和添加 Google Tasks，也能打开完整窗口管理列表、标签、子任务和备注。TinyGtask 直接连接你的 Google 账号，没有自己的服务器。",
+          "tagline": "在 Mac 上把 Google Tasks 变成看板。",
+          "promo": "把 Google Tasks 拖到 To Do、In Progress 和 Done。卡片移到 Done，Google Tasks 里的任务也会完成。TinyGtask 也提供菜单栏快速访问，并直接连接你的 Google 账号，没有自己的服务器。",
           "cta": "即将推出",
           "features": [
+            "任何 Google Tasks 列表都能用看板：在 To Do、In Progress、Done 之间拖动卡片",
+            "把多个列表放在一起，按状态分组",
             "菜单栏快速查看与添加",
-            "今天、逾期、收件箱、预览和星标视图",
+            "今天、逾期、收件箱、预测和已加星标视图",
             "#标签与侧边栏筛选",
             "子任务、Markdown 备注、优先级和提醒时间",
             "用 Cmd+F 跨列表搜索",
