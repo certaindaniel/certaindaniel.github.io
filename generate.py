@@ -225,6 +225,17 @@ def app_html(app, locale):
         }
         guide_link = f'\n      <a class="cta cta--secondary" href="{e(app["guideUrl"])}">{e(guide_labels.get(locale, guide_labels["en"]))} ↗</a>'
 
+    # Android closed-test guide, discovered by convention like privacy/support:
+    # drop {locale}/{id}/android-test/index.html and the hero gets a button to it.
+    android_test_link = ""
+    if os.path.isfile(os.path.join(ROOT, locale, app["id"], "android-test", "index.html")):
+        android_test_labels = {
+            "en": "Join the Android test",
+            "zh-hant": "加入 Android 版測試",
+            "zh-hans": "加入 Android 版测试",
+        }
+        android_test_link = f'\n      <a class="cta cta--secondary" href="/{locale}/{app["id"]}/android-test/">{e(android_test_labels.get(locale, android_test_labels["en"]))}</a>'
+
     cta = (
         f'<a class="cta" href="{e(app["appStoreUrl"])}">{e(loc["cta"])}</a>'
         if app.get("appStoreUrl") and not app.get("comingSoon") else
@@ -242,7 +253,7 @@ def app_html(app, locale):
     <p class="tagline">{e(loc['tagline'])}</p>
     <p class="promo">{e(loc['promo'])}</p>
     <div class="hero-actions">
-      {cta}{live_demo_link}{guide_link}
+      {cta}{android_test_link}{live_demo_link}{guide_link}
     </div>{legal_links}
   </section>
   <div class="screenshots">{shots}</div>
