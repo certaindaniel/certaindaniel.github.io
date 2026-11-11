@@ -11,7 +11,7 @@
   <nav class="lang-switch"><a href="/en/tinyaquarium/privacy/">English</a><a href="/zh-hant/tinyaquarium/privacy/" class="current">繁體中文</a><a href="/zh-hans/tinyaquarium/privacy/">简体中文</a></nav>
   <div class="legal">
     <h1>TinyAquarium — 隱私權政策</h1>
-    <p class="updated">最後更新：2026 年 9 月 23 日</p>
+    <p class="updated">最後更新：2026 年 11 月 11 日</p>
 
     <p>TinyAquarium（口袋水族箱）是一款結合步數計量的療癒水族養成遊戲。無須註冊帳號、無第三方分析追蹤。我們沒有自營伺服器，也沒有任何管道讀取你的遊戲內容。</p>
 
@@ -19,7 +19,7 @@
     <p>TinyAquarium 透過 Apple HealthKit <strong>唯讀</strong>存取單一一項資料：你的每日步行步數（<code>stepCount</code>）。它只用於在你的裝置本機計算魚卵的孵化進度。本 App 不會向 HealthKit 寫入任何資料，也不會收集、上傳、傳輸或與任何第三方分享你的健康資料。你可以隨時在 iOS「設定 → 隱私權與安全性 → 健康」中撤銷這項權限；撤銷後魚卵孵化進度會停止推進，其餘功能不受影響。</p>
 
     <h2>macOS 版本</h2>
-    <p>Mac 版與 iOS 版共用同一套程式碼，差異如下。<strong>Mac 版不使用 HealthKit，也不讀取任何健康資料</strong>——macOS 沒有計步器，Mac 版並未連結 HealthKit 或 Core Motion。那裡的魚卵孵化改由「App 在你自己的 Mac 上處於前景的時間」推進，該時間只在本機計算，不會離開你的裝置。桌面小工具是 iOS 專屬，不包含在 Mac 版中。在 macOS 上送出問題回報會開啟你預設的郵件程式並帶入內容；App 本身不傳送任何東西，要不要寄出由你決定。遊戲存檔會透過上述同一套 iCloud 鍵值儲存，在你的 Mac 與 iPhone 之間漫遊。</p>
+    <p>Mac 版與 iOS 版共用同一套程式碼，差異如下。<strong>Mac 版不使用 HealthKit，也不讀取任何健康資料</strong>——macOS 沒有計步器，Mac 版並未連結 HealthKit 或 Core Motion。那裡的魚卵孵化改由「App 在你自己的 Mac 上處於前景的時間」推進，該時間只在本機計算，不會離開你的裝置。桌面小工具是 iOS 專屬，不包含在 Mac 版中。在 macOS 上傳送意見回饋時，App 會在你的預設郵件程式中開啟一封寄給我們的草稿，內文已附上下方「意見回饋」所述的相同診斷資訊（存檔健康摘要與近期事件紀錄）。App 本身不會傳送任何內容；你可以檢視或修改草稿，並自行決定是否寄出。若你寄出，我們會收到你的電子郵件地址與信件內容。遊戲存檔會透過上述同一套 iCloud 鍵值儲存，在你的 Mac 與 iPhone 之間漫遊。</p>
 
     <h2>本機儲存</h2>
     <p>你的飼育員名稱、魚缸與魚隻資料、圖鑑解鎖進度、泡泡幣餘額、造景擺設與所有遊戲存檔，都儲存在你裝置本機。解除安裝 App 即會一併刪除。</p>
@@ -47,16 +47,17 @@
     <h2>桌面小工具</h2>
     <p>桌面小工具會顯示你的魚缸畫面、步數與泡泡幣餘額。資料透過 App 群組容器在本機共享，不會離開你的裝置。</p>
 
-    <h2>意見回饋（選填功能）</h2>
-    <p>若你在「設定 → 問題回報與建議」主動送出回饋，你輸入的訊息文字、你自行選擇附加的截圖，以及基本技術資訊（App 版本與建置編號、iOS/macOS 版本、裝置語系，以及關於存檔寫入與同步健康狀態的簡短診斷統計日誌；不含任何個人資料、魚隻名稱或使用者自訂內容）會傳送到開發者的客服頻道，以便閱讀並修正問題。<strong>只有在你按下送出時才會發生</strong>，我們不會自動蒐集或背景上傳任何內容。此功能沒有姓名或電子郵件欄位；除非你自己寫在訊息裡，否則我們不會取得你的聯絡方式。附加截圖是由你從相簿中挑選，App 不會讀取你其餘的照片。</p>
+    <h2>意見回饋（選用，透過 Slack 傳送）</h2>
+    <p>當你在 iPhone 的「設定 → 問題回報與建議」按下送出時，App 會傳送：你輸入的訊息；你自行從相簿選擇的截圖（如有；App 不會讀取你其餘的照片）；App 版本與建置編號、iOS 版本、語言與地區設定；以及自動附加的診斷檔（diagnostics.txt），內容為一行存檔健康摘要（裝置上與 iCloud 中存檔資料的大小，以及儲存狀態旗標），以及 App 近期的事件紀錄（最多約 32 KB 的時間戳記、事件名稱、次數、位元組數與旗標，例如存檔、同步、購買與獎勵事件）。診斷資料不含飼主名稱、魚隻名稱或其他你輸入的內容。這些內容會傳送到開發者 Slack 工作區中的私人頻道。Slack（Slack Technologies, LLC）以服務供應商（資料處理者）的身分代我們傳送並保存，適用 <a href="https://slack.com/trust/privacy/privacy-policy">Slack 隱私權政策</a>。</p>
+    <p><strong>只有在你按下送出時才會發生</strong>，不會在背景收集或上傳任何內容。表單沒有姓名或電子郵件欄位，除非你自己寫在訊息裡，否則我們不會取得你的聯絡方式。回報只保留到回覆並修正問題所需的時間；如需刪除某則回報，請寄信至 <a href="mailto:certain.daniel+support@gmail.com">certain.daniel+support@gmail.com</a>。遊戲內的玩家問卷只存在你的裝置上，不會傳送給我們。</p>
     <h2>個人資訊</h2>
-    <p>本 App 不需要註冊帳號，不會收集姓名、電子郵件、電話號碼、位置資訊或裝置識別碼。你輸入的飼育員名稱與魚隻暱稱僅儲存在你自己的裝置上，不會傳送給開發者。唯一會離開裝置的資料是你主動送出的意見回饋（見上一節）。</p>
+    <p>本 App 不需要註冊帳號，不會收集姓名、電子郵件、電話號碼、位置資訊或裝置識別碼。你輸入的飼育員名稱與魚隻暱稱僅儲存在你自己的裝置上，不會傳送給開發者。唯一會送到開發者手上的資料是你主動送出的意見回饋（見上一節）。iOS 版的廣告請求（見「獎勵式廣告」）與 iCloud 同步（見「iCloud 同步」）分別由 Google 與 Apple 處理，不經過我們。</p>
 
     <h2>兒童</h2>
     <p>本 App 並非針對兒童設計，也不會刻意收集 13 歲以下兒童的資料。</p>
 
     <h2>聯絡方式</h2>
-    <p>對本政策有任何疑問，歡迎寄信至：<a href="mailto:certain.daniel@gmail.com">certain.daniel@gmail.com</a></p>
+    <p>對本政策有任何疑問，歡迎寄信至：<a href="mailto:certain.daniel+support@gmail.com">certain.daniel+support@gmail.com</a></p>
 
     <a class="back-link" href="/zh-hant/tinyaquarium/">← 回到 TinyAquarium</a>
   </div>

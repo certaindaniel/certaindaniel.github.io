@@ -11,7 +11,7 @@
   <nav class="lang-switch"><a href="/en/tinyaquarium/privacy/" class="current">English</a><a href="/zh-hant/tinyaquarium/privacy/">繁體中文</a><a href="/zh-hans/tinyaquarium/privacy/">简体中文</a></nav>
   <div class="legal">
     <h1>TinyAquarium — Privacy Policy</h1>
-    <p class="updated">Last updated: September 23, 2026</p>
+    <p class="updated">Last updated: November 11, 2026</p>
 
     <p>TinyAquarium is a cozy aquarium-raising game paired with your step count. It requires no account registration and has no third-party analytics tracking. We run no servers of our own, and we have no channel through which to read your in-game content.</p>
 
@@ -19,7 +19,7 @@
     <p>TinyAquarium accesses exactly one piece of data through Apple HealthKit, on a <strong>read-only</strong> basis: your daily walking step count (<code>stepCount</code>). It is used solely to calculate egg-hatching progress locally on your device. This app never writes any data to HealthKit, and it never collects, uploads, transmits, or shares your health data with any third party. You can revoke this permission at any time in iOS "Settings → Privacy & Security → Health"; once revoked, egg-hatching progress stops advancing, but all other features remain unaffected.</p>
 
     <h2>macOS Version</h2>
-    <p>The Mac app shares its codebase with the iOS app, with these differences. <strong>It does not use HealthKit and does not read any health data</strong> — macOS has no pedometer, and the Mac build links neither HealthKit nor Core Motion. Egg hatching there is driven instead by the time the app spends in the foreground on your own Mac, which is counted locally and never leaves the device. The Home Screen widget is iOS-only and is not part of the Mac app. Sending feedback on macOS opens a pre-filled message in your default mail client; the app itself transmits nothing, and you choose whether to send it. Game saves roam between your Mac and your iPhone through the same iCloud key-value storage described above.</p>
+    <p>The Mac app shares its codebase with the iOS app, with these differences. <strong>It does not use HealthKit and does not read any health data</strong> — macOS has no pedometer, and the Mac build links neither HealthKit nor Core Motion. Egg hatching there is driven instead by the time the app spends in the foreground on your own Mac, which is counted locally and never leaves the device. The Home Screen widget is iOS-only and is not part of the Mac app. Sending feedback on macOS opens a pre-filled message in your default mail client, addressed to us, whose body already contains the same diagnostics described under Feedback below (save-health summary and recent event log). The app itself transmits nothing; you can read or edit the draft and choose whether to send it. If you send it, we receive your email address and the message. Game saves roam between your Mac and your iPhone through the same iCloud key-value storage described above.</p>
 
     <h2>Local Storage</h2>
     <p>Your keeper name, tank and fish data, encyclopedia (Dex) unlock progress, Bubble Coin balance, décor layout, and all game save data are stored locally on your device. Uninstalling the app deletes all of it.</p>
@@ -47,16 +47,17 @@
     <h2>Desktop Widget</h2>
     <p>The desktop widget displays your tank view, step count, and Bubble Coin balance. Data is shared locally on-device via an App Group container and never leaves your device.</p>
 
-    <h2>Feedback (optional feature)</h2>
-    <p>If you send feedback from Settings &rarr; Report a Problem, the message you type, any screenshot you choose to attach, and basic technical information (app version and build number, iOS/macOS version, device locale, plus a short diagnostic count of save/sync health such as profile write events; containing no personal data, fish names, or user content) are sent to the developer's support channel so the issue can be read and fixed. <strong>This only happens when you tap send</strong> — nothing is collected automatically or uploaded in the background. The form has no name or email field; unless you write it in the message yourself, we do not receive your contact details. Any attached screenshot is one you pick from your own library; the app does not read the rest of your photos.</p>
+    <h2>Feedback (optional, sent through Slack)</h2>
+    <p>If you send feedback from Settings &rarr; Report a Problem on iPhone and tap Send, the app sends: the message you typed; a screenshot, if you choose one from your photo library (the app does not read the rest of your photos); the app version and build number, iOS version and language/region setting; and an automatically attached diagnostics file (diagnostics.txt) containing a one-line save-health summary (sizes of the save data on the device and in iCloud, and storage flags) and the app's recent event log (up to about 32 KB of timestamps, event names, counts, byte sizes and flags, for example save, sync, purchase and reward events). The diagnostics contain no keeper name, fish names or other content you entered. It goes to a private channel in the developer's Slack workspace. Slack (Slack Technologies, LLC) delivers and stores it on our behalf as a service provider (processor), under <a href="https://slack.com/trust/privacy/privacy-policy">Slack's Privacy Policy</a>.</p>
+    <p><strong>This only happens when you tap Send</strong>; nothing is collected or uploaded in the background. The form has no name or email field: we only get your contact details if you type them into the message. We keep reports only as long as needed to answer and fix the issue; to have one deleted, email <a href="mailto:certain.daniel+support@gmail.com">certain.daniel+support@gmail.com</a>. The in-game player survey is stored on your device only and is not sent to us.</p>
     <h2>Personal Information</h2>
-    <p>This app requires no account registration and does not collect your name, email address, phone number, location, or device identifiers. The keeper name and fish nicknames you enter are stored only on your own device and are never sent to the developer. The only data that leaves your device is feedback you actively send (see the section above).</p>
+    <p>This app requires no account registration and does not collect your name, email address, phone number, location, or device identifiers. The keeper name and fish nicknames you enter are stored only on your own device and are never sent to the developer. The only data that reaches the developer is feedback you actively send (see the section above). Ad requests on iOS (see Rewarded Advertisements) and iCloud sync (see iCloud Sync) are handled by Google and Apple, not by us.</p>
 
     <h2>Children</h2>
     <p>This app is not designed for children and does not knowingly collect data from children under the age of 13.</p>
 
     <h2>Contact</h2>
-    <p>If you have any questions about this policy, please email: <a href="mailto:certain.daniel@gmail.com">certain.daniel@gmail.com</a></p>
+    <p>If you have any questions about this policy, please email: <a href="mailto:certain.daniel+support@gmail.com">certain.daniel+support@gmail.com</a></p>
 
     <a class="back-link" href="/en/tinyaquarium/">← Back to TinyAquarium</a>
   </div>
