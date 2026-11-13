@@ -40,7 +40,11 @@ def lang_switch(locale, app_id=None):
     return '<nav class="lang-switch">' + "".join(links) + "</nav>"
 
 
-def seo_meta(title, locale, path, description=None, image=None, app_store_url=None):
+def app_favicon_path(path):
+    return f"{os.path.splitext(path)[0]}-64.png"
+
+
+def seo_meta(title, locale, path, description=None, image=None, app_store_url=None, icon=None):
     """SEO / share-card / Smart App Banner tags. `path` is the page's site-relative URL."""
     url = SITE_URL + path
     tags = [f'<link rel="canonical" href="{e(url)}">']
@@ -48,6 +52,14 @@ def seo_meta(title, locale, path, description=None, image=None, app_store_url=No
     for loc in LOCALES:
         tags.append(f'<link rel="alternate" hreflang="{loc}" href="{e(SITE_URL)}/{loc}/{e(alt_path)}">')
     tags.append(f'<link rel="alternate" hreflang="x-default" href="{e(SITE_URL)}/{SITE["defaultLocale"]}/{e(alt_path)}">')
+    if icon:
+        fav_png = asset_url(app_favicon_path(icon))
+        touch_icon = asset_url(icon)
+        tags.append(f'<link rel="icon" type="image/png" href="{e(fav_png)}">')
+        tags.append(f'<link rel="apple-touch-icon" href="{e(touch_icon)}">')
+    else:
+        tags.append(f'<link rel="icon" type="image/png" href="{e(asset_url("favicon.png"))}">')
+        tags.append(f'<link rel="apple-touch-icon" href="{e(asset_url("favicon.png"))}">')
     if description:
         tags.append(f'<meta name="description" content="{e(description)}">')
     tags += [
@@ -101,12 +113,27 @@ def icon_path(path, size):
 
 
 def optimize_icons():
-    """Keep source icons and generate Retina-sized copies for the static pages."""
+    """Keep source icons and generate Retina-sized copies and favicons for the static pages."""
+    compass_path = os.path.join(ROOT, "assets/island-hub/hero-compass.png")
+    if os.path.exists(compass_path):
+        with Image.open(compass_path) as c_img:
+            rgba = c_img.convert("RGBA")
+            rgba_thumb = rgba.copy()
+            rgba_thumb.thumbnail((64, 64), Image.Resampling.LANCZOS)
+            rgba_thumb.save(os.path.join(ROOT, "favicon.png"), format="PNG")
+            rgba.thumbnail((48, 48), Image.Resampling.LANCZOS)
+            rgba.save(os.path.join(ROOT, "favicon.ico"), format="ICO", sizes=[(48, 48), (32, 32), (16, 16)])
+
     for app in APPS:
         sizes = [112]
         if app.get("flagship") and not app.get("siteUrl"):
             sizes.append(192)
         with Image.open(os.path.join(ROOT, app["icon"])) as source:
+            fav_image = source.convert("RGBA")
+            fav_image.thumbnail((64, 64), Image.Resampling.LANCZOS)
+            fav_path = os.path.join(ROOT, app_favicon_path(app["icon"]))
+            fav_image.save(fav_path, format="PNG")
+
             for size in sizes:
                 image = source.convert("RGBA")
                 image.thumbnail((size, size), Image.Resampling.LANCZOS)
@@ -288,6 +315,7 @@ def app_html(app, locale):
         description=loc.get("promo") or loc["tagline"],
         image=og_image,
         app_store_url=None if app.get("comingSoon") else app.get("appStoreUrl"),
+        icon=app.get("icon"),
     )
     return page(title, body, locale, head)
 
