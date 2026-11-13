@@ -1311,15 +1311,17 @@
       "id": "morningpic",
       "island": {"group": "creative", "scene": "sunrise", "accent": "#31804e", "order": 6},
       "flagship": true,
-      "platform": "iOS",
+      "platform": "iOS + Android",
       "icon": "assets/morningpic/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/random-quote-picture/id1119072702",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.daniel.rmorningpic",
       "locales": {
         "en": {
           "name": "Random Quote & Picture",
           "tagline": "A daily Polaroid-style pairing of a random photo and an inspiring quote.",
           "promo": "A Polaroid-style app that pairs a random beautiful photo with an inspiring quote — a little daily surprise.",
           "cta": "View on the App Store",
+          "playCta": "Get it on Google Play",
           "features": [
             "Random beautiful photo pulled fresh each time",
             "Paired with a curated inspirational quote",
@@ -1351,6 +1353,7 @@
           "tagline": "每天抽一張美圖配一句勵志名言的拍立得風格 App。",
           "promo": "結合隨機美圖與勵志名言的拍立得風格 App，每天抽一張都是驚喜。",
           "cta": "在 App Store 查看",
+          "playCta": "在 Google Play 下載",
           "features": [
             "隨機抽取網路美圖",
             "搭配精選勵志名言",
@@ -1382,6 +1385,7 @@
           "tagline": "每天抽一张美图配一句励志名言的拍立得风格 App。",
           "promo": "结合随机美图与励志名言的拍立得风格 App，每天抽一张都是惊喜。",
           "cta": "在 App Store 查看",
+          "playCta": "在 Google Play 下载",
           "features": [
             "随机抽取网络美图",
             "搭配精选励志名言",

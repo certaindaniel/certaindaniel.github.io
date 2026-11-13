@@ -139,6 +139,9 @@ SUPPORT_PAGE_LABEL = {
 TERMS_LABEL = {
     "en": "Terms of Service", "zh-hant": "服務條款", "zh-hans": "服务条款",
 }
+PLAY_STORE_LABEL = {
+    "en": "Get it on Google Play", "zh-hant": "在 Google Play 下載", "zh-hans": "在 Google Play 下载",
+}
 
 # Apple rejects a Support URL that is only a marketing page (Guideline 1.5 — TrailPop
 # 1.1 was rejected for exactly this). Every app page carries a real support block with
@@ -248,8 +251,13 @@ def app_html(app, locale):
     cta = (
         f'<a class="cta" href="{e(app["appStoreUrl"])}">{e(loc["cta"])}</a>'
         if app.get("appStoreUrl") and not app.get("comingSoon") else
-        f'<span class="cta cta--disabled">{e(loc["cta"])}</span>'
+        (f'<span class="cta cta--disabled">{e(loc["cta"])}</span>'
+         if not app.get("playStoreUrl") else "")
     )
+    play_cta = ""
+    if app.get("playStoreUrl") and not app.get("comingSoon"):
+        play_label = loc.get("playCta") or PLAY_STORE_LABEL.get(locale, PLAY_STORE_LABEL["en"])
+        play_cta = f'\n      <a class="cta" href="{e(app["playStoreUrl"])}">{e(play_label)}</a>'
 
     icon_src = asset_url(icon_path(app['icon'], 192))
     legal_links = "".join([f"\n    {l}" for l in [privacy_link, terms_link, support_link] if l])
@@ -262,7 +270,7 @@ def app_html(app, locale):
     <p class="tagline">{e(loc['tagline'])}</p>
     <p class="promo">{e(loc['promo'])}</p>
     <div class="hero-actions">
-      {cta}{android_test_link}{live_demo_link}{guide_link}
+      {cta}{play_cta}{android_test_link}{live_demo_link}{guide_link}
     </div>{legal_links}
   </section>
   <div class="screenshots">{shots}</div>
