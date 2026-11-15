@@ -1339,7 +1339,7 @@
         "order": 2
       },
       "flagship": true,
-      "platform": "iOS",
+      "platform": "iOS + Android",
       "icon": "assets/fruitsudoku/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/fruit-sudoku-adventure/id6780786105",
       "locales": {
