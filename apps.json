@@ -32,7 +32,12 @@
   "apps": [
     {
       "id": "tinyaquarium",
-      "island": {"group": "game", "scene": "aquarium", "accent": "#19bfc8", "order": 1},
+      "island": {
+        "group": "game",
+        "scene": "aquarium",
+        "accent": "#19bfc8",
+        "order": 1
+      },
       "flagship": true,
       "platform": "Mac + iOS",
       "icon": "assets/tinyaquarium/icon.png",
@@ -159,7 +164,12 @@
     },
     {
       "id": "tinymsgviewer",
-      "island": {"group": "utility", "scene": "mail", "accent": "#7a99bd", "order": 1},
+      "island": {
+        "group": "utility",
+        "scene": "mail",
+        "accent": "#7a99bd",
+        "order": 1
+      },
       "flagship": true,
       "platform": "Mac",
       "icon": "assets/tinymsgviewer/icon.png",
@@ -265,7 +275,12 @@
     },
     {
       "id": "canvastopdf",
-      "island": {"group": "creative", "scene": "slides", "accent": "#e9a20c", "order": 1},
+      "island": {
+        "group": "creative",
+        "scene": "slides",
+        "accent": "#e9a20c",
+        "order": 1
+      },
       "flagship": true,
       "platform": "Mac",
       "icon": "assets/canvastopdf/icon.png",
@@ -371,7 +386,12 @@
     },
     {
       "id": "webtopptmobile",
-      "island": {"group": "creative", "scene": "mobile", "accent": "#e9a20c", "order": 2},
+      "island": {
+        "group": "creative",
+        "scene": "mobile",
+        "accent": "#e9a20c",
+        "order": 2
+      },
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/webtopptmobile/icon.png",
@@ -477,10 +497,15 @@
     },
     {
       "id": "epubaloud",
-      "island": {"group": "reading", "scene": "book", "accent": "#413aa6", "order": 1},
+      "island": {
+        "group": "reading",
+        "scene": "book",
+        "accent": "#413aa6",
+        "order": 1
+      },
       "showOnHub": false,
       "flagship": true,
-      "platform": "iOS",
+      "platform": "iOS + Android",
       "icon": "assets/epubaloud/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/epubaloud-epub-to-audiobook/id6761471444",
       "locales": {
@@ -512,7 +537,8 @@
               "q": "How do I delete my data?",
               "a": "Since everything is stored only on your device, deleting the app removes all of it — there's nothing stored elsewhere to request deletion of."
             }
-          ]
+          ],
+          "playCta": "Get it on Google Play"
         },
         "zh-hant": {
           "name": "EpubAloud",
@@ -542,7 +568,8 @@
               "q": "要怎麼刪除我的資料？",
               "a": "因為所有資料只存在你的裝置上，刪除 App 就會一併清除——沒有其他地方存有你的資料需要另外申請刪除。"
             }
-          ]
+          ],
+          "playCta": "在 Google Play 下載"
         },
         "zh-hans": {
           "name": "EpubAloud",
@@ -572,13 +599,20 @@
               "q": "要怎么删除我的数据？",
               "a": "因为所有数据只存在你的设备上，删除 App 就会一并清除——没有其他地方存有你的数据需要另外申请删除。"
             }
-          ]
+          ],
+          "playCta": "在 Google Play 下载"
         }
-      }
+      },
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.daniel.epublisten"
     },
     {
       "id": "isbn",
-      "island": {"group": "reading", "scene": "books", "accent": "#6d28bb", "order": 3},
+      "island": {
+        "group": "reading",
+        "scene": "books",
+        "accent": "#6d28bb",
+        "order": 3
+      },
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/isbn/icon.png",
@@ -630,7 +664,12 @@
     },
     {
       "id": "tinygpseditor",
-      "island": {"group": "creative", "scene": "camera", "accent": "#884ac6", "order": 3},
+      "island": {
+        "group": "creative",
+        "scene": "camera",
+        "accent": "#884ac6",
+        "order": 3
+      },
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/tinygpseditor/icon.png",
@@ -733,7 +772,12 @@
     },
     {
       "id": "tinywalk",
-      "island": {"group": "utility", "scene": "walk", "accent": "#a85d47", "order": 4},
+      "island": {
+        "group": "utility",
+        "scene": "walk",
+        "accent": "#a85d47",
+        "order": 4
+      },
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/tinywalk/icon.png",
@@ -860,7 +904,12 @@
     },
     {
       "id": "tinynettool",
-      "island": {"group": "utility", "scene": "network", "accent": "#278d50", "order": 3},
+      "island": {
+        "group": "utility",
+        "scene": "network",
+        "accent": "#278d50",
+        "order": 3
+      },
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/tinynettool/icon.png",
@@ -960,9 +1009,14 @@
     },
     {
       "id": "fixedfocus",
-      "island": {"group": "creative", "scene": "focus", "accent": "#dfbd10", "order": 4},
+      "island": {
+        "group": "creative",
+        "scene": "focus",
+        "accent": "#dfbd10",
+        "order": 4
+      },
       "flagship": true,
-      "platform": "iOS",
+      "platform": "iOS + Android",
       "icon": "assets/fixedfocus/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/fixedfocus-digiscoping-cam/id6761117765",
       "locales": {
@@ -994,7 +1048,8 @@
               "q": "What does the Pro upgrade unlock?",
               "a": "Focus peaking, AE/EV exposure lock, HD video recording, and volume-key shutter control."
             }
-          ]
+          ],
+          "playCta": "Get it on Google Play"
         },
         "zh-hant": {
           "name": "FixedFocus",
@@ -1024,7 +1079,8 @@
               "q": "專業版能解鎖什麼？",
               "a": "對焦輪廓、AE/EV 曝光鎖定、高畫質錄影，以及實體音量鍵快門。"
             }
-          ]
+          ],
+          "playCta": "在 Google Play 下載"
         },
         "zh-hans": {
           "name": "FixedFocus",
@@ -1054,13 +1110,20 @@
               "q": "专业版能解锁什么？",
               "a": "对焦轮廓、AE/EV 曝光锁定、高清录像，以及实体音量键快门。"
             }
-          ]
+          ],
+          "playCta": "在 Google Play 下载"
         }
-      }
+      },
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.daniel.fixedfocus"
     },
     {
       "id": "oneclicklisten",
-      "island": {"group": "reading", "scene": "audio", "accent": "#eb4239", "order": 4},
+      "island": {
+        "group": "reading",
+        "scene": "audio",
+        "accent": "#eb4239",
+        "order": 4
+      },
       "flagship": true,
       "platform": "Mac + iOS",
       "icon": "assets/oneclicklisten/icon.png",
@@ -1160,7 +1223,12 @@
     },
     {
       "id": "qdir",
-      "island": {"group": "utility", "scene": "folder", "accent": "#2680df", "order": 2},
+      "island": {
+        "group": "utility",
+        "scene": "folder",
+        "accent": "#2680df",
+        "order": 2
+      },
       "flagship": true,
       "platform": "Mac",
       "icon": "assets/qdir/icon.png",
@@ -1263,7 +1331,12 @@
     },
     {
       "id": "fruitsudoku",
-      "island": {"group": "game", "scene": "fruit", "accent": "#e63245", "order": 2},
+      "island": {
+        "group": "game",
+        "scene": "fruit",
+        "accent": "#e63245",
+        "order": 2
+      },
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/fruitsudoku/icon.png",
@@ -1309,7 +1382,12 @@
     },
     {
       "id": "morningpic",
-      "island": {"group": "creative", "scene": "sunrise", "accent": "#31804e", "order": 6},
+      "island": {
+        "group": "creative",
+        "scene": "sunrise",
+        "accent": "#31804e",
+        "order": 6
+      },
       "flagship": true,
       "platform": "iOS + Android",
       "icon": "assets/morningpic/icon.png",
@@ -1416,7 +1494,12 @@
     },
     {
       "id": "trailpop",
-      "island": {"group": "creative", "scene": "route", "accent": "#374f76", "order": 5},
+      "island": {
+        "group": "creative",
+        "scene": "route",
+        "accent": "#374f76",
+        "order": 5
+      },
       "flagship": true,
       "platform": "Mac + iOS",
       "icon": "assets/trailpop/icon.png",
@@ -1528,7 +1611,12 @@
     },
     {
       "id": "sayit",
-      "island": {"group": "reading", "scene": "voice", "accent": "#2788e8", "order": 5},
+      "island": {
+        "group": "reading",
+        "scene": "voice",
+        "accent": "#2788e8",
+        "order": 5
+      },
       "flagship": true,
       "platform": "iOS",
       "icon": "assets/sayit/icon.png",
@@ -1664,7 +1752,12 @@
     },
     {
       "id": "epublisten",
-      "island": {"group": "reading", "scene": "book", "accent": "#413aa6", "order": 2},
+      "island": {
+        "group": "reading",
+        "scene": "book",
+        "accent": "#413aa6",
+        "order": 2
+      },
       "flagship": true,
       "platform": "Mac + iOS",
       "icon": "assets/epublisten/icon.png",
