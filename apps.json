@@ -171,107 +171,108 @@
         "order": 1
       },
       "flagship": true,
-      "platform": "Mac",
+      "platform": "Mac + Android",
       "icon": "assets/tinymsgviewer/icon.png",
       "appStoreUrl": "https://apps.apple.com/app/id6756158204",
       "locales": {
         "en": {
           "name": "Tiny MSG Viewer",
-          "tagline": "Open .msg & .eml files on your Mac — no Outlook required.",
-          "promo": "Double-click any .msg or .eml on your Mac — read sender, body and attachments instantly, with full HTML and Dark Mode. Export to PDF in one click. No Outlook, no account.",
+          "tagline": "Open .msg & .eml files on Mac & Android — no Outlook required.",
+          "promo": "Double-click any .msg or .eml on your Mac or tap to open on Android — read sender, body and attachments instantly, with full HTML and Dark Mode. Export to PDF in one click. No Outlook, no account.",
           "cta": "View on the Mac App Store",
           "features": [
-            "Drag & drop, or double-click in Finder to open",
+            "Open from Files, Gmail, Drive, or Finder on Mac",
             "Full HTML rendering with inline images, or switch to plain text",
-            "Quick Look in Finder — press space to preview without opening the app",
-            "Export any email to PDF in one click",
+            "Export any email to PDF with the system print dialog",
             "Attachments: open, preview, or save to disk",
-            "Parses locally on your Mac — your email never leaves your device"
+            "Parses locally on your device — your email never leaves your device"
           ],
           "qa": [
             {
               "q": "Does this app need an internet connection?",
-              "a": "No — opening and reading .msg/.eml files works fully offline. An internet connection is only used if you choose to send feedback from the app menu."
+              "a": "No — opening and reading .msg/.eml files works fully offline. An internet connection is only used if you choose to load remote images or send feedback."
             },
             {
               "q": "Is my email data uploaded anywhere?",
-              "a": "No. Your .msg/.eml files are parsed entirely on your Mac. The only exception: if you use TinyMSGViewer → Send Feedback, the message you type (and a screenshot if you attach one) is sent to our support channel."
+              "a": "No. Your .msg/.eml files are parsed entirely on your device."
             },
             {
               "q": "Is this a subscription?",
-              "a": "No. Tiny MSG Viewer is a one-time purchase on the Mac App Store — no subscriptions or in-app purchases."
+              "a": "No. Tiny MSG Viewer is a one-time purchase — no subscriptions or in-app purchases."
             },
             {
               "q": "Do I need Microsoft Outlook installed?",
               "a": "No. Tiny MSG Viewer reads .msg and .eml files on its own — Outlook is not required."
             }
-          ]
+          ],
+          "playCta": "Get it on Google Play"
         },
         "zh-hant": {
           "name": "Tiny MSG Viewer",
-          "tagline": "在 Mac 上開啟 .msg／.eml，免裝 Outlook。",
-          "promo": "在 Mac 上雙擊任何 .msg 或 .eml，立刻讀到完整郵件——寄件人、內文、附件，HTML 完整呈現。在 Finder 按空白鍵就能快速預覽，還能一鍵匯出 PDF，支援深色模式。免裝 Outlook，免登入。",
+          "tagline": "在 Mac 與 Android 上開啟 .msg／.eml，免裝 Outlook。",
+          "promo": "在 Mac 上雙擊或在 Android 上輕觸任何 .msg 或 .eml，立刻讀到完整郵件——寄件人、內文、附件，HTML 完整呈現。一鍵將郵件匯出成 PDF，支援深色模式。免裝 Outlook，免登入。",
           "cta": "在 Mac App Store 查看",
           "features": [
-            "拖放，或在 Finder 直接雙擊開啟",
+            "從檔案選擇器、Gmail、雲端硬碟或 Mac Finder 直接開啟",
             "HTML 完整呈現、內嵌圖片，也可切換純文字",
-            "Finder 快速預覽 — 按空白鍵不用開 App 就讀完整封信",
             "一鍵將郵件匯出成 PDF",
-            "附件：開啟、預覽或存到磁碟",
-            "在 Mac 本機解析 — 郵件不離開你的裝置"
+            "附件：開啟、預覽或儲存到你想要的位置",
+            "在裝置本機解析 — 郵件不離開你的裝置"
           ],
           "qa": [
             {
               "q": "這個 App 需要網路連線嗎？",
-              "a": "不需要——開啟與閱讀 .msg／.eml 完全離線運作。只有當你從 App 選單使用「傳送意見回饋」時才會用到網路。"
+              "a": "不需要——開啟與閱讀 .msg／.eml 完全離線運作。只有當你選擇載入遠端圖片或傳送意見回饋時才會用到網路。"
             },
             {
               "q": "我的郵件資料會被上傳嗎？",
-              "a": "不會。你的 .msg／.eml 檔案完全在你的 Mac 上解析。唯一例外：若你使用 TinyMSGViewer → 傳送意見回饋，你輸入的訊息（以及選擇附加的截圖）會傳送到我們的支援頻道。"
+              "a": "不會。你的 .msg／.eml 檔案完全在你的裝置上解析。"
             },
             {
               "q": "這是訂閱制嗎？",
-              "a": "不是。Tiny MSG Viewer 是 Mac App Store 單次付費購買，沒有訂閱也沒有內購。"
+              "a": "不是。Tiny MSG Viewer 是單次付費購買，沒有訂閱也沒有內購。"
             },
             {
               "q": "需要安裝 Microsoft Outlook 嗎？",
               "a": "不需要，Tiny MSG Viewer 自己就能讀取 .msg 與 .eml 檔案，不需要 Outlook。"
             }
-          ]
+          ],
+          "playCta": "在 Google Play 下載"
         },
         "zh-hans": {
           "name": "Tiny MSG Viewer",
-          "tagline": "在 Mac 上打开 .msg／.eml，无需 Outlook。",
-          "promo": "在 Mac 上双击任意 .msg 或 .eml，立刻读到完整邮件——发件人、正文、附件，HTML 完整呈现。在访达按空格键即可快速预览，还能一键导出 PDF，支持深色模式。无需 Outlook，无需登录。",
+          "tagline": "在 Mac 与 Android 上打开 .msg／.eml，无需 Outlook。",
+          "promo": "在 Mac 上双击或在 Android 上轻按任意 .msg 或 .eml，立刻读到完整邮件——发件人、正文、附件，HTML 完整呈现。一键将邮件导出为 PDF，支持深色模式。无需 Outlook，无需登录。",
           "cta": "在 Mac App Store 查看",
           "features": [
-            "拖放，或在访达里直接双击打开",
+            "从文件选择器、Gmail、云端硬盘或 Mac 访达直接打开",
             "HTML 完整呈现、内嵌图片，也可切换纯文本",
-            "访达快速预览 — 按空格键不用打开 App 就读完整封邮件",
             "一键将邮件导出为 PDF",
-            "附件：打开、预览或保存到磁盘",
-            "在 Mac 本地解析 — 邮件不离开你的设备"
+            "附件：打开、预览或保存到你想要的位置",
+            "在设备本地解析 — 邮件不离开你的设备"
           ],
           "qa": [
             {
               "q": "这个 App 需要网络连接吗？",
-              "a": "不需要——打开与阅读 .msg／.eml 完全离线运行。只有当你从 App 菜单使用「发送意见反馈」时才会用到网络。"
+              "a": "不需要——打开与阅读 .msg／.eml 完全离线运行。只有当你选择加载远程图片或发送意见反馈时才会用到网络。"
             },
             {
               "q": "我的邮件数据会被上传吗？",
-              "a": "不会。你的 .msg／.eml 文件完全在你的 Mac 上解析。唯一例外：若你使用 TinyMSGViewer → 发送意见反馈，你输入的消息（以及选择附加的截图）会发送到我们的支持渠道。"
+              "a": "不会。你的 .msg／.eml 文件完全在你的设备上解析。"
             },
             {
               "q": "这是订阅制吗？",
-              "a": "不是。Tiny MSG Viewer 是 Mac App Store 一次性付费购买，没有订阅也没有内购。"
+              "a": "不是。Tiny MSG Viewer 是一次性付费购买，没有订阅也没有内购。"
             },
             {
               "q": "需要安装 Microsoft Outlook 吗？",
               "a": "不需要，Tiny MSG Viewer 自己就能读取 .msg 与 .eml 文件，不需要 Outlook。"
             }
-          ]
+          ],
+          "playCta": "在 Google Play 下载"
         }
-      }
+      },
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.daniel.tinymsgviewer"
     },
     {
       "id": "canvastopdf",
