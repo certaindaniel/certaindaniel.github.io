@@ -1126,25 +1126,26 @@
         "order": 4
       },
       "flagship": true,
-      "platform": "Mac + iOS",
+      "platform": "Mac + iOS + Android",
       "icon": "assets/oneclicklisten/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/oneclicklisten/id6758035053",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.daniel.lazylisten",
       "locales": {
         "en": {
           "name": "OneClickListen",
           "tagline": "Turn any webpage into audio — one-tap read aloud with background play.",
-          "promo": "Turn any webpage into audio! One-tap read aloud with background play and resume. Pay once, no subscription — works on iPhone, iPad, and Mac.",
+          "promo": "Turn any webpage into audio! One-tap read aloud with background play and resume. Pay once, no subscription — works on iPhone, iPad, Mac, and Android.",
           "cta": "View on the App Store",
           "features": [
             "One tap turns any webpage into audio",
             "Background playback, resumes where you left off",
-            "Works on iPhone, iPad and Mac",
+            "Works on iPhone, iPad, Mac and Android",
             "Pay once, no subscription"
           ],
           "qa": [
             {
               "q": "Does OneClickListen send my webpage text anywhere?",
-              "a": "No. All text-to-speech processing happens on your device using Apple's built-in voices; nothing is sent to an external server."
+              "a": "No. All text-to-speech processing happens on your device using built-in system voices (Apple system voices on iOS/Mac, and Android Text-to-Speech on Android); nothing is sent to an external server."
             },
             {
               "q": "Does OneClickListen need an internet connection?",
@@ -1152,29 +1153,30 @@
             },
             {
               "q": "Is this a subscription?",
-              "a": "No, it's a one-time purchase that works across iPhone, iPad, and Mac."
+              "a": "No, it's a one-time purchase with no subscription."
             },
             {
               "q": "Do I need to create an account?",
               "a": "No, no account or sign-in is required to use OneClickListen."
             }
-          ]
+          ],
+          "playCta": "Get it on Google Play"
         },
         "zh-hant": {
           "name": "OneClickListen",
           "tagline": "網頁變有聲書，一鍵朗讀文章，支援背景播放與進度續播。",
-          "promo": "網頁變有聲書！文章、小說、新聞一鍵朗讀，支援背景播放與進度續播。買斷制無訂閱，內容不上傳，一次購買 iPhone/iPad/Mac 全平台通用。",
+          "promo": "網頁變有聲書！文章、小說、新聞一鍵朗讀，支援背景播放與進度續播。買斷制無訂閱，內容不上傳，支援 iPhone/iPad/Mac 與 Android 全平台。",
           "cta": "在 App Store 查看",
           "features": [
             "一鍵把任何網頁變成有聲內容",
             "支援背景播放、自動接續進度",
-            "iPhone、iPad、Mac 全平台通用",
+            "iPhone、iPad、Mac 與 Android 全平台支援",
             "買斷制，無訂閱，內容不上傳"
           ],
           "qa": [
             {
               "q": "OneClickListen 會把我瀏覽的網頁文字傳到別的地方嗎？",
-              "a": "不會，所有文字轉語音都在你的裝置上使用 Apple 內建語音完成，不會傳送到外部伺服器。"
+              "a": "不會，所有文字轉語音都在你的裝置上使用系統內建語音完成（iOS/Mac 使用 Apple 內建語音，Android 使用系統內建 Text-to-Speech），不會傳送到外部伺服器。"
             },
             {
               "q": "OneClickListen 需要網路連線嗎？",
@@ -1182,29 +1184,30 @@
             },
             {
               "q": "這是訂閱制嗎？",
-              "a": "不是，這是單次購買，一次購買即可在 iPhone、iPad 與 Mac 上使用。"
+              "a": "不是，這是單次購買，無訂閱費。"
             },
             {
               "q": "需要建立帳號嗎？",
               "a": "不需要，使用 OneClickListen 不需要帳號或登入。"
             }
-          ]
+          ],
+          "playCta": "在 Google Play 下載"
         },
         "zh-hans": {
           "name": "OneClickListen",
           "tagline": "网页变有声书，一键朗读文章，支持后台播放与进度续播。",
-          "promo": "网页变有声书！文章、小说、新闻一键朗读，支持后台播放与进度续播。买断制无订阅，内容不上传，一次购买 iPhone/iPad/Mac 全平台通用。",
+          "promo": "网页变有声书！文章、小说、新闻一键朗读，支持后台播放与进度续播。买断制无订阅，内容不上传，支持 iPhone/iPad/Mac 与 Android 全平台。",
           "cta": "在 App Store 查看",
           "features": [
             "一键把任何网页变成有声内容",
             "支持后台播放、自动接续进度",
-            "iPhone、iPad、Mac 全平台通用",
+            "iPhone、iPad、Mac 与 Android 全平台支持",
             "买断制，无订阅，内容不上传"
           ],
           "qa": [
             {
               "q": "OneClickListen 会把我浏览的网页文字发送到别处吗？",
-              "a": "不会，所有文字转语音都在你的设备上使用 Apple 内置语音完成，不会发送到外部服务器。"
+              "a": "不会，所有文字转语音都在你的设备上使用系统内置语音完成（iOS/Mac 使用 Apple 内置语音，Android 使用系统内置 Text-to-Speech），不会发送到外部服务器。"
             },
             {
               "q": "OneClickListen 需要网络连接吗？",
@@ -1212,13 +1215,14 @@
             },
             {
               "q": "这是订阅制吗？",
-              "a": "不是，这是一次性购买，一次购买即可在 iPhone、iPad 与 Mac 上使用。"
+              "a": "不是，这是一次性购买，无订阅费。"
             },
             {
               "q": "需要创建账号吗？",
               "a": "不需要，使用 OneClickListen 不需要账号或登录。"
             }
-          ]
+          ],
+          "playCta": "在 Google Play 下载"
         }
       }
     },
