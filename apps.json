@@ -1842,6 +1842,10 @@
           ],
           "qa": [
             {
+              "q": "What Google data does TinyKanban access, and why?",
+              "a": "TinyKanban asks for access to Google Tasks so it can read, create, edit, complete, and delete your tasks and task lists. It also asks for your email address and basic profile, used only to show which Google account is signed in. TinyKanban does not send this data to any other server."
+            },
+            {
               "q": "Does TinyKanban store my tasks on a server?",
               "a": "No. TinyKanban has no server of its own. It talks directly to Google, and your tasks stay in your Google account."
             },
@@ -1872,6 +1876,10 @@
           ],
           "qa": [
             {
+              "q": "TinyKanban 會存取哪些 Google 資料？用途是什麼？",
+              "a": "TinyKanban 會要求存取 Google Tasks，用來讀取、建立、編輯、完成和刪除你的任務與清單。它也會要求你的電子郵件地址和基本個人資料，只用來顯示目前登入的是哪個 Google 帳號。TinyKanban 不會把這些資料傳到其他伺服器。"
+            },
+            {
               "q": "TinyKanban 會把任務存到伺服器嗎？",
               "a": "不會。TinyKanban 沒有自己的伺服器，直接與 Google 連線，任務都留在你的 Google 帳號。"
             },
@@ -1901,6 +1909,10 @@
             "解析英文、中文和日文的日期时间"
           ],
           "qa": [
+            {
+              "q": "TinyKanban 会访问哪些 Google 数据？用途是什么？",
+              "a": "TinyKanban 会请求访问 Google Tasks，用来读取、创建、编辑、完成和删除你的任务与列表。它也会请求你的电子邮件地址和基本个人资料，只用来显示当前登录的是哪个 Google 账号。TinyKanban 不会把这些数据传到其他服务器。"
+            },
             {
               "q": "TinyKanban 会把任务存到服务器吗？",
               "a": "不会。TinyKanban 没有自己的服务器，直接与 Google 连接，任务都留在你的 Google 账号。"
