@@ -1,44 +1,61 @@
 <!doctype html>
-<html lang="zh-hans">
+<html lang="zh-Hans">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SayIt 讲啦 — 隐私政策</title>
+<title>小抽屉键盘 — 隐私权政策</title>
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 <div class="wrap">
   <nav class="lang-switch"><a href="/en/sayit/privacy/">English</a><a href="/zh-hant/sayit/privacy/">繁體中文</a><a href="/zh-hans/sayit/privacy/" class="current">简体中文</a></nav>
   <div class="legal">
-    <h1>SayIt 讲啦 — 隐私政策</h1>
-    <p class="updated">最后更新：2026 年 11 月 11 日</p>
-    <p>SayIt（讲啦）是一款 iPhone 听写 App 与键盘。语音识别在你的设备上进行：你的声音与识别出的文字不会发送给我们，也不会送到任何云端语音服务。不需要账号。</p>
-    <h2>设备端语音识别</h2>
-    <p>SayIt 使用在你 iPhone 上运行的 Whisper large-v3-turbo 模型（通过 WhisperKit 与 Core ML）识别语音。在模型准备好之前，会改用 Apple 语音识别的设备端模式。可选的翻译功能使用 Apple 在设备上运行的 Translation 框架。</p>
-    <p>第一次设置语音模型时，App 会从存放模型文件的 Hugging Face 下载模型（约 646 MB）。这是普通的网络下载请求，不会发送任何声音或文字。</p>
-    <h2>你的录音、文字与词库</h2>
-    <p>最近的听写（最多 200 条；包含识别出的文字，部分也包含录音文件）会保存在你设备上的历史记录中，方便你查看、重播或导出。你自定义的词汇、修正与短语存放在 App 的本机存储空间与 App Group 容器中，只与 SayIt 键盘共享。这些内容都不会上传。较旧的历史记录会自动删除，删除 App 时会全部移除。</p>
-    <h2>键盘与“允许完全访问”</h2>
-    <p>SayIt 键盘需要“完全访问”，仅为了通过本机 App Group 与 SayIt App 交换数据（启动设备端录音并接收文字）。它不会记录你的按键，也不会通过网络发送输入内容。</p>
-    <h2>麦克风与语音识别权限</h2>
-    <p>麦克风只在你于 App 内或通过键盘听写时使用。你可以随时在 iOS“设置 → SayIt”中关闭麦克风或语音识别权限。</p>
+    <h1>小抽屉键盘（TinyKeyboard）— 隐私权政策</h1>
+    <p class="updated">最后更新：2026 年 11 月 26 日</p>
+    <p>小抽屉键盘是一款 iPhone 键盘（注音、英文、自订字根）与配套 App。打字在你的 iPhone 上处理，你在 App 里保存的内容也留在你的设备上。不需要帐号。</p>
+    <h2>打字</h2>
+    <p>注音组字、候选字、英文打字与自订字根输入，全部在 iPhone 上的键盘内运行。键盘会读取光标前方的文字（iOS 允许所有键盘这么做），只用来推荐接下来的字。它不会记录你的按键，键盘内也没有任何连上网络的代码。</p>
+    <h2>“允许完全访问”</h2>
+    <p>不打开完全访问，注音与英文打字仍可使用。打开后，键盘可以做三件事：</p>
+    <ul>
+    <li>读取你在 App 里保存的内容（常用语、条码、贴图、emoji 与颜文字收藏、自订字根），App 与键盘通过你 iPhone 上的 App Group 共用这些数据。</li>
+    <li>在你点按或长按时，把贴图或条码图片复制到剪贴板。键盘只会写入剪贴板，不会读取剪贴板。</li>
+    <li>为语音输入录音。</li>
+    </ul>
+    <h2>你在 App 里保存的内容</h2>
+    <p>常用语、条码（载具与会员号码）、贴图、emoji 收藏、自订字根，以及你导入的字表，都存放在你设备上的 App 存储空间与 App Group 容器中，不会上传。贴图来自系统照片选择器，因此小抽屉键盘只会取得你选取的图片，也不会要求访问你的相簿。相机只用来扫描你想保存的条码，扫描在设备上完成。</p>
+    <h2>语音输入</h2>
+    <p>麦克风只在你使用语音输入时才会用到。默认由 Apple 语音识别的设备端模式识别；小抽屉键盘不使用 Apple 的服务器端识别。若你打开“进阶识别”，App 会下载 Whisper large-v3-turbo 模型（约 646 MB），并在你的 iPhone 上识别语音。无论哪一种，你的声音与识别出的文字都不会发送给我们，也不会送到任何云端语音服务。选用的翻译功能使用 Apple 在设备上运行的 Translation 框架。</p>
+    <p>使用 Whisper 模型进行语音输入时，键盘会通过 App Group 暂时把录音交给 App；排队中的录音在 2 分钟后即失效。最近的听写（最多 200 条；包含识别出的文字，部分也包含录音文件）会保存在 App 的“历史记录”，方便你查看。你可以在“历史记录”中向左滑动删除单条。历史记录不会进入 iCloud 或设备备份，较旧的记录会自动删除，删除 App 时会全部移除。</p>
+    <h2>下载</h2>
+    <p>Whisper 模型从存放模型文件的 Hugging Face（huggingface.co）下载。这是普通的网络下载请求，不会发送任何声音或文字。在较新的 iOS 版本上，Apple 也可能通过系统下载语音语言资源。</p>
     <h2>广告（Google AdMob）</h2>
-    <p>免费版会显示 Google AdMob 的横幅广告与可自选观看的激励广告。为了投放与衡量广告，Google 可能收集设备标识符（广告标识符仅在你允许跟踪时提供；以及供应商标识符）、由 IP 地址推算的大致位置、广告互动数据与诊断数据，并依 Google 的<a href="https://policies.google.com/privacy">隐私政策</a>与<a href="https://policies.google.com/technologies/ads">广告政策</a>处理。广告 SDK 无法访问你的声音或听写文字。</p>
-    <p>App 会通过 Apple 的“App 跟踪透明度”询问跟踪权限；拒绝不会影响听写功能。在欧洲经济区与英国，Google 用户消息平台（UMP）的同意对话框让你同意、拒绝或自定义广告同意，之后也可在 App 的设置中更改。SayIt Pro 是一次性的 App 内购买，购买后会移除广告，广告 SDK 也不会再启动。</p>
-    <h2>反馈（可选，通过 Slack 发送）</h2>
-    <p>当你在“设置 → 反馈”按下发送时，App 会发送：你输入的消息；你自行从相册选择的截图（如有）；App 版本与构建号、iOS 版本、语言与地区设置；以及自动附加的诊断文件（diagnostics.txt）。这些内容会发送到开发者 Slack 工作区中的私有频道。Slack（Slack Technologies, LLC）以服务提供商（数据处理者）的身份代我们传送并保存，适用 <a href="https://slack.com/trust/privacy/privacy-policy">Slack 隐私政策</a>。</p>
-    <p>诊断文件包含语音模型状态、键盘是否已设置完成、是否为 Pro，以及 App 技术日志的最后 120 行。该日志记录处理阶段、耗时、次数与设置；其中任何听写文字都会以字数代替，因此不含声音，也不含任何听写或输入的文字。在你按下“发送”之前不会发送任何内容；表单没有姓名或电子邮件字段，除非你自己写在消息里，否则我们不会获得你的联系方式。反馈只保留到回复并修复问题所需的时间；如需删除某条反馈，请发邮件至 <a href="mailto:certain.daniel+support@gmail.com">certain.daniel+support@gmail.com</a>。</p>
+    <p>免费版在 App 内显示 Google AdMob 的横幅广告与可自选观看的奖励广告；键盘内没有广告。为了投放与衡量广告，Google 可能收集设备识别码（广告识别码仅在你允许追踪时提供；以及供应商识别码）、由 IP 地址推算的大略位置、广告交互数据与诊断数据，并依 Google 的<a href="https://policies.google.com/privacy">隐私权政策</a>与<a href="https://policies.google.com/technologies/ads">广告政策</a>处理。广告 SDK 无法访问你的录音、听写文字或打字内容。</p>
+    <p>App 会通过 Apple 的“App 追踪透明度”询问追踪权限；拒绝不会影响任何功能。在欧洲经济区与英国，Google 用户消息平台（UMP）的同意对话框让你同意、拒绝或自订广告同意，之后也可在 App 的设置中变更。小抽屉 Pro 是一次性的 App 内购买，购买后会移除广告。</p>
+    <h2>iCloud 同步（Pro）</h2>
+    <p>购买 Pro 后，App 可以通过你的 iCloud 帐号（Apple 的 iCloud 键值存储）同步部分个人化内容：你的常用语、语音的常用词汇与错词校正，以及六项语音输出设置（去除口语赘词、中英文间自动空格、标点样式、台语模式、实时字幕、输出语言）。条码、贴图、emoji 收藏、自订字根、历史记录与录音不会同步。数据由 Apple 存放在你的 iCloud 帐号下，我们无法读取。</p>
+    <h2>意见回馈（选用，通过 Slack 发送）</h2>
+    <p>当你在“设置 › 更多设置 › 意见回馈”按下送出时，App 会发送：你输入的消息；你自行选择的截屏（如有）；App 版本与建置编号、iOS 版本、语言与地区设置；以及自动附加的诊断文件（diagnostics.txt）。这些内容会发送到开发者 Slack 工作区中的私人频道。Slack（Slack Technologies, LLC）以服务供应商（数据处理者）的身分代我们发送并保存，适用 <a href="https://slack.com/trust/privacy/privacy-policy">Slack 隐私权政策</a>。</p>
+    <p>诊断文件包含语音模型状态、键盘是否已设置完成、是否为 Pro，以及 App 技术记录的最后 120 行。正式版的该记录记录处理阶段、耗时、次数与设置；其中的文字字段会以字数取代，因此不含录音，也不含任何听写或输入的文字。在你按下“送出”之前不会发送任何内容；表单没有姓名或电子邮件字段，除非你自己写在信息里，否则我们不会取得你的联系方式。反馈只保留到回复并修正问题所需的时间；如需删除某则反馈，请发邮件至 <a href="mailto:certain.daniel+support@gmail.com">certain.daniel+support@gmail.com</a>。</p>
+    <h2>权限</h2>
+    <ul>
+    <li>麦克风：语音输入，只在你使用时激活。</li>
+    <li>语音识别：语音输入使用 Apple 设备端识别。</li>
+    <li>相机：扫描你想保存的条码。</li>
+    <li>追踪（App 追踪透明度）：免费版的个人化广告。</li>
+    </ul>
+    <p>你可以随时在 iOS 设置中关闭这些权限；键盘的完全访问则在“设置 › 通用 › 键盘 › 键盘 › 小抽屉键盘”关闭。</p>
     <h2>第三方</h2>
-    <p>Google AdMob 与 Google 用户消息平台（免费版的广告与同意管理）、Hugging Face（一次性下载语音模型）、Slack（你提交的反馈），以及 Apple（App Store 付款）。我们不会出售你的数据。</p>
+    <p>Google AdMob 与 Google 用户消息平台（免费版的广告与同意管理）、Hugging Face（一次性下载语音模型）、Slack（你送出的意见回馈），以及 Apple（App Store 付款、iCloud 同步、设备端语音与翻译）。我们不会出售你的数据。</p>
     <h2>付款</h2>
-    <p>SayIt Pro 由 Apple App Store（StoreKit）处理付款，我们不会看到或存储你的付款信息。</p>
+    <p>小抽屉 Pro 由 Apple App Store（StoreKit）处理付款，我们不会看到或保存你的付款信息。</p>
     <h2>儿童</h2>
-    <p>SayIt 并非针对 13 岁以下儿童设计，我们也不会在知情的情况下收集儿童的个人信息。AdMob 以一般受众设置运行。若你认为有儿童在反馈中发送了个人信息，请与我们联系，我们会将其删除。</p>
+    <p>小抽屉键盘并非针对 13 岁以下儿童设计，我们也不会在知情的情况下收集儿童的个人信息。若你认为有儿童在意见回馈中发送了个人信息，请与我们联系，我们会将其删除。</p>
     <h2>政策变更</h2>
-    <p>我们可能会更新本政策，变更内容会公布在本页并标注新的日期。</p>
+    <p>我们可能会更新本政策，变更内容会公布在本页并标示新的日期。</p>
     <h2>联系方式</h2>
     <p>对本政策有任何疑问：<a href="mailto:certain.daniel+support@gmail.com">certain.daniel+support@gmail.com</a></p>
-    <a class="back-link" href="/zh-hans/sayit/">← 返回 SayIt 讲啦</a>
+    <a class="back-link" href="/zh-hans/sayit/">← 回到小抽屉键盘</a>
   </div>
 </div>
 </body>
