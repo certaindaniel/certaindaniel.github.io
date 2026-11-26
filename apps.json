@@ -1346,6 +1346,7 @@
       "platform": "iOS + Android",
       "icon": "assets/fruitsudoku/icon.png",
       "appStoreUrl": "https://apps.apple.com/us/app/fruit-sudoku-adventure/id6780786105",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.daniel.tinysudoku",
       "locales": {
         "en": {
           "name": "Fruit Sudoku Adventure",
