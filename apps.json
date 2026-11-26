@@ -1847,6 +1847,10 @@
               "a": "TinyKanban asks for access to Google Tasks so it can read, create, edit, complete, and delete your tasks and task lists. It also asks for your email address and basic profile, used only to show which Google account is signed in. TinyKanban does not send this data to any other server."
             },
             {
+              "q": "Why does Google show an \"unverified app\" warning when I sign in?",
+              "a": "Google is still reviewing TinyKanban for verification. Until the review is done, Google shows a warning when you sign in. To continue, choose \"Advanced\", then \"Go to TinyKanban\". The app asks only for the access listed above. When Google approves the app, the warning goes away, and you do not need to update anything."
+            },
+            {
               "q": "Does TinyKanban store my tasks on a server?",
               "a": "No. TinyKanban has no server of its own. It talks directly to Google, and your tasks stay in your Google account."
             },
@@ -1881,6 +1885,10 @@
               "a": "TinyKanban 會要求存取 Google Tasks，用來讀取、建立、編輯、完成和刪除你的任務與清單。它也會要求你的電子郵件地址和基本個人資料，只用來顯示目前登入的是哪個 Google 帳號。TinyKanban 不會把這些資料傳到其他伺服器。"
             },
             {
+              "q": "登入時 Google 顯示「未經驗證的應用程式」警告，正常嗎？",
+              "a": "正常。Google 還在審核 TinyKanban 的驗證，審核完成前登入時會顯示這個警告。要繼續，請點「進階」，再點「前往 TinyKanban」。App 只會要求上面列出的權限。Google 核准後警告會自動消失，你不需要更新任何東西。"
+            },
+            {
               "q": "TinyKanban 會把任務存到伺服器嗎？",
               "a": "不會。TinyKanban 沒有自己的伺服器，直接與 Google 連線，任務都留在你的 Google 帳號。"
             },
@@ -1913,6 +1921,10 @@
             {
               "q": "TinyKanban 会访问哪些 Google 数据？用途是什么？",
               "a": "TinyKanban 会请求访问 Google Tasks，用来读取、创建、编辑、完成和删除你的任务与列表。它也会请求你的电子邮件地址和基本个人资料，只用来显示当前登录的是哪个 Google 账号。TinyKanban 不会把这些数据传到其他服务器。"
+            },
+            {
+              "q": "登录时 Google 显示“未经验证的应用”警告，正常吗？",
+              "a": "正常。Google 还在审核 TinyKanban 的验证，审核完成前登录时会显示这个警告。要继续，请点“高级”，再点“转至 TinyKanban”。App 只会请求上面列出的权限。Google 批准后警告会自动消失，你不需要更新任何东西。"
             },
             {
               "q": "TinyKanban 会把任务存到服务器吗？",
