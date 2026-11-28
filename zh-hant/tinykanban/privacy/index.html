@@ -11,30 +11,40 @@
   <nav class="lang-switch"><a href="/en/tinykanban/privacy/">English</a><a href="/zh-hant/tinykanban/privacy/" class="current">繁體中文</a><a href="/zh-hans/tinykanban/privacy/">简体中文</a></nav>
   <div class="legal">
     <h1>TinyKanban — 隱私權政策</h1>
-    <p class="updated">最後更新：2026 年 11 月 2 日</p>
-    <p>TinyKanban 是 Google Tasks 的 macOS 用戶端，沒有自己的伺服器，資料直接在你的 Mac 與 Google 之間傳輸。</p>
-    <h2>Google 帳號資料</h2>
-    <p>TinyKanban 會向 Google 要求以下權限：</p>
-    <p>• <strong>Google Tasks</strong>（<code>auth/tasks</code>）：查看、建立、編輯、整理和刪除你的任務與清單。</p>
-    <p>• <strong>電子郵件地址與基本個人資料</strong>（<code>userinfo.email</code>、<code>userinfo.profile</code>）：顯示目前登入的帳號。</p>
-    <p>這些資料只用來提供上述功能，不會出售、分享，也不會傳送到 Google 以外的伺服器。</p>
+    <p class="updated">最後更新：2026 年 11 月 28 日</p>
+    <p>TinyKanban 是 Google Tasks 的 macOS 用戶端，沒有自己的伺服器，資料直接在你的 Mac 與 Google 之間傳輸。開發者看不到你的任務或帳號資料。</p>
+    <h2>TinyKanban 存取的 Google 使用者資料</h2>
+    <p>登入時，TinyKanban 會向 Google 要求以下權限：</p>
+    <p>• <strong>Google Tasks</strong>（<code>https://www.googleapis.com/auth/tasks</code>）：你的任務清單與任務，包括標題、筆記、到期日、完成狀態和子任務。</p>
+    <p>• <strong>電子郵件地址</strong>（<code>userinfo.email</code>）與<strong>基本個人資料</strong>（<code>userinfo.profile</code>）：你的 Google 帳號電子郵件、名稱和大頭貼。</p>
+    <p>TinyKanban 不會存取其他 Google 資料。</p>
+    <h2>TinyKanban 如何使用 Google 使用者資料</h2>
+    <p>• Google Tasks 資料只用來在看板上顯示你的任務，以及執行你要求的變更：建立、編輯、移動、完成和刪除任務與清單。</p>
+    <p>• 電子郵件地址與基本個人資料只用來顯示目前登入的是哪個 Google 帳號。</p>
+    <p>TinyKanban 不會把 Google 使用者資料用於廣告，不會用來訓練 AI 或機器學習模型，也不會讓任何人閱讀。</p>
+    <h2>分享、傳輸與揭露</h2>
+    <p>TinyKanban 不會出售、分享、傳輸或揭露 Google 使用者資料給任何第三方。資料只在你的 Mac 與 Google 伺服器之間傳輸。開發者沒有伺服器，所以從不會收到你的資料，也沒有資料可以揭露。</p>
     <h2>Google API 服務使用者資料政策</h2>
     <p>TinyKanban 對於從 Google API 取得之資訊的使用及傳輸至其他 App，將遵守 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>，包括其中的 Limited Use 規定。</p>
-    <h2>儲存在 Mac 上的資料</h2>
-    <p>• 登入憑證儲存在 macOS 鑰匙圈。</p>
-    <p>• 任務從 Google 載入後，只在 App 執行時保留在記憶體中。TinyKanban 沒有離線任務資料庫。</p>
-    <p>• 偏好設定儲存在本機 App 設定中。</p>
+    <h2>資料保護方式</h2>
+    <p>• 你在 Google 自己的登入頁登入，TinyKanban 看不到你的 Google 密碼。</p>
+    <p>• 所有對 Google 的請求都使用加密的 HTTPS 連線。</p>
+    <p>• 登入憑證儲存在 macOS 鑰匙圈，由 macOS 加密保護。</p>
+    <p>• 任務只在 App 執行時保留在記憶體中。TinyKanban 不會把任務寫入磁碟，也沒有離線任務資料庫。</p>
+    <p>• 偏好設定（例如視窗與顯示設定）儲存在本機 App 設定中，不含 Google 使用者資料。</p>
     <p>• 如果你允許通知，提醒會透過 macOS 在本機排程。</p>
-    <h2>儲存在 Google 帳號的資料</h2>
-    <p>任務留在 Google Tasks。由於 Google Tasks API 沒有對應欄位，TinyKanban 會把優先級、提醒時間和看板狀態以文字存進任務筆記，其他 Google Tasks App 可能會顯示這些文字。</p>
+    <h2>資料保留與刪除</h2>
+    <p>• 記憶體中的任務資料會在你結束 TinyKanban 時清除。</p>
+    <p>• 登入憑證會留在鑰匙圈，直到你登出；登出時立即刪除。</p>
+    <p>• 你可以隨時到 <a href="https://myaccount.google.com/permissions">Google 帳號權限頁面</a>撤銷 TinyKanban 的存取權。撤銷後，TinyKanban 就無法再讀取或變更你的資料。</p>
+    <p>• 任務留在 Google Tasks，由 Google 保存到你刪除為止。由於 Google Tasks API 沒有對應欄位，TinyKanban 會把優先級、提醒時間和看板狀態以文字存進任務筆記，其他 Google Tasks App 可能會顯示這些文字。要移除，請編輯筆記或刪除任務。</p>
+    <p>• 刪除 App 會一併移除它的本機設定。TinyKanban 不會在其他地方保留你的資料副本。</p>
     <h2>第三方服務</h2>
     <p>TinyKanban 沒有分析、廣告或追蹤 SDK，只連線到 Google 的登入與 API 服務。</p>
-    <h2>你的控制權</h2>
-    <p>在 App 中登出，即可清除鑰匙圈裡的登入憑證。你也可以到 <a href="https://myaccount.google.com/permissions">Google 帳號權限頁面</a>撤銷存取權。你的任務仍會留在 Google 帳號。</p>
     <h2>兒童</h2>
     <p>TinyKanban 是一般用途的生產力 App，並非以未滿 13 歲的兒童為對象。</p>
     <h2>聯絡方式</h2>
-    <p>對本政策有疑問，請來信：<a href="mailto:certain.daniel@gmail.com">certain.daniel@gmail.com</a></p>
+    <p>對本政策有疑問，或有資料相關的要求，請來信：<a href="mailto:certain.daniel@gmail.com">certain.daniel@gmail.com</a></p>
     <a class="back-link" href="/zh-hant/tinykanban/">← 回到 TinyKanban</a>
   </div>
 </div>
